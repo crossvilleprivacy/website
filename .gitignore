@@ -1,0 +1,73 @@
+# Publish only the live site (HTML/CSS + linked assets/docs/printables).
+# Keep CNAME / .nojekyll for GitHub Pages.
+
+# --- helpers / tooling ---
+tests/
+**/*.py
+**/__pycache__/
+*.py[cod]
+README.md
+printables/README.txt
+printables/build_business_cards.py
+printables/build_outreach_printables.py
+
+# Print-ready PNG singles aren't linked; Avery PDFs + preview PNGs are.
+printables/*-print.png
+
+# --- unused / alternate artwork ---
+assets/hero-options/
+assets/hero-crossville-main.jpg
+assets/hero-pattern-of-life.jpg
+assets/hero-road.jpg
+assets/flock-camera-sky-source.png
+assets/icon.png
+assets/icon-192.png
+
+# --- case-duplicate docs (page links use the Title_Case / FLOCK names) ---
+docs/ai_wrongful_enforcement_database.json
+docs/ai_wrongful_enforcement_database.pdf
+docs/ai_wrongful_enforcement_database.xlsx
+docs/council_public_comment_3min.pdf
+docs/flock crossville quote.pdf
+docs/flock_liability_risk_report_crossville.pdf
+docs/flock_municipal_cancellations_database.json
+docs/flock_municipal_cancellations_database.pdf
+docs/flock_municipal_cancellations_database.xlsx
+docs/flock_safety_alpr_misuse_master_database.json
+docs/flock_safety_alpr_misuse_master_database.pdf
+docs/flock_safety_alpr_misuse_master_database.xlsx
+
+.DS_Store
+*.swp
+.idea/
+.vscode/
+.cursor/
+
+# --- local tooling / hooks (never publish) ---
+.githooks/
+.github/
+.identity-blocklist
+.identity-blocklist.example
+
+# --- secrets / credentials (never publish) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.keystore
+credentials.json
+**/secrets/**
+.secret*
+
+# --- private working files that must never ship ---
+private/
+*.local
+*-personal*
+*_personal*

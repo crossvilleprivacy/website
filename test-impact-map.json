@@ -1,0 +1,68 @@
+{
+  "assets/campaign-ux.js": [
+    "tests/test_campaign_ux.js"
+  ],
+  "styles.css": [
+    "tests/test_pr_marketing_page.py",
+    "tests/test_campaign_ux.js",
+    "tests/test_hero_banner.py",
+    "tests/test_national_cases_page.py",
+    "tests/test_pitch_citations.py"
+  ],
+  "index.html": [
+    "tests/test_pr_marketing_page.py",
+    "tests/test_printables_page.py",
+    "tests/test_campaign_ux.js",
+    "tests/test_hero_banner.py",
+    "tests/test_defamation_and_axon.py",
+    "tests/test_national_cases_page.py",
+    "tests/test_pitch_citations.py",
+    "tests/test_inline_citations.py",
+    "tests/test_no_directory_links.py"
+  ],
+  "national.html": [
+    "tests/test_national_cases_page.py",
+    "tests/test_defamation_and_axon.py",
+    "tests/test_no_directory_links.py"
+  ],
+  "sitemap.xml": [
+    "tests/test_national_cases_page.py"
+  ],
+  "docs/ai_wrongful_enforcement_database.json": [
+    "tests/test_defamation_and_axon.py"
+  ],
+  "docs/flock_safety_alpr_misuse_master_database.json": [
+    "tests/test_defamation_and_axon.py",
+    "tests/test_printables_page.py"
+  ],
+  "docs/flock_municipal_cancellations_database.json": [
+    "tests/test_defamation_and_axon.py"
+  ],
+  "docs/Council_Public_Comment_3min.pdf": [
+    "tests/test_printables_page.py"
+  ],
+  "printables/council-packet-insert.pdf": [
+    "tests/test_printables_page.py"
+  ],
+  "assets/hero-main-street.jpg": [
+    "tests/test_hero_banner.py"
+  ],
+  "assets/hero-homesteads-tower.jpg": [
+    "tests/test_hero_banner.py"
+  ],
+  "assets/hero-courthouse.jpg": [
+    "tests/test_hero_banner.py"
+  ],
+  "assets/hero-byrd-creek.jpg": [
+    "tests/test_hero_banner.py"
+  ],
+  "assets/hero-flock-camera.png": [
+    "tests/test_hero_banner.py"
+  ],
+  "printables/build_business_cards.py": [
+    "tests/test_business_cards.py"
+  ],
+  "printables/build_outreach_printables.py": [
+    "tests/test_outreach_printables.py"
+  ]
+}
