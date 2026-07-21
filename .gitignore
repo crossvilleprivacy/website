@@ -3,6 +3,7 @@
 
 # --- helpers / tooling ---
 tests/
+test-impact-map.json
 **/*.py
 **/__pycache__/
 *.py[cod]
