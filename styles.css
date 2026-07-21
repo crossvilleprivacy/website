@@ -638,8 +638,9 @@ p {
 }
 
 .hero-panel.hero-panel-compact {
-  min-height: auto;
-  padding: 2.25rem 0 1.5rem;
+  /* Deprecated: subpages should use the full photo hero like the home page. */
+  min-height: min(72vh, 560px);
+  padding: clamp(1.5rem, 4vw, 3rem);
 }
 
 .hero-ctas {
