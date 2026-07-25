@@ -36,7 +36,7 @@
     "Public_Backlash_Cited": "Y when reporting explicitly cites resident/community/public opposition as a reason or major driver.",
     "Primary_Reasons": "Semicolon-separated reason tags.",
     "Summary": "Short narrative of what happened and why.",
-    "Primary_Source_URL": "Best clickable primary or strong local/national source.",
+    "Primary_Source_URL": "Best primary or strong local/national source.",
     "Secondary_Source_URL": "Corroborating source when available.",
     "Verification_Status": "Verified local/primary | Verified major press | Aggregator-aligned (confirm).",
     "Incomplete_Exit_Notes": "Private cams remaining, loopholes, bags, delayed removal, possible renegotiation."

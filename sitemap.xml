@@ -11,6 +11,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://crossvilleprivacy.org/flock.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://crossvilleprivacy.org/council.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
