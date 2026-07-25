@@ -14,7 +14,15 @@
   var OFFICIALS_TO =
     "info@crossvilletn.gov,valerie.hale@crossvilletn.gov,jessie.brooks@crossvilletn.gov";
 
+  /* Broader To: line for the August agenda letter (Fox has no published city email). */
+  var AGENDA_LETTER_TO =
+    "info@crossvilletn.gov,rj.crawford@crossvilletn.gov,art.gernt@crossvilletn.gov," +
+    "mike.turner@crossvilletn.gov,valerie.hale@crossvilletn.gov,jessie.brooks@crossvilletn.gov";
+
   var SHORT_SUBJECT = "Cancel Crossville Flock cameras";
+
+  var AGENDA_SUBJECT =
+    "August agenda: recorded vote on canceling Crossville Flock cameras";
 
   var SHORT_BODY =
     "I support public safety and privacy.\n\n" +
@@ -24,15 +32,25 @@
     "(who searched, what, why, hits, sharing), a written search policy, and a public camera map.";
 
   var FULL_LETTER =
-    "Attention: Mayor R.J. Crawford, Mayor Pro-tem Art Gernt, Councilmember Mike Turner, " +
-    "Councilmember Mark Fox, MD, City Manager Valerie Hale, Chief Jessie Brooks, City Clerk Baylee Rhea\n\n" +
-    "I support public safety and privacy. Please cancel Crossville's Flock Safety camera contract " +
-    "and remove the cameras. Until that happens, please hold a public hearing announced ahead of time " +
-    "and take a recorded City Council vote each year before any renewal or expansion — with no automatic " +
-    "renewal that skips a public vote — and publish monthly detailed Flock-use reports the public can check " +
-    "(who searched, what they searched, why, hits, and sharing), and publish the policy on how data is used " +
-    "(retention, access, sharing, audits), supervisor-approval rules, a public camera map, and the current " +
-    "contract and sharing list.";
+    "Mayor Crawford, Mayor Pro-tem Gernt, Councilmembers Turner and Fox, " +
+    "City Manager Hale, and Chief Brooks:\n\n" +
+    "I am a Crossville resident writing about the City's Flock Safety cameras.\n\n" +
+    "I am writing to request that the following item be placed on the August work-session " +
+    "agenda for discussion and the August regular City Council agenda for a recorded " +
+    "yes-or-no vote:\n\n" +
+    "Motion: Direct the City Manager and Police Department to give timely written notice of " +
+    "non-renewal, cancel Crossville's Flock Safety contract at the earliest lawful date, " +
+    "and remove all Flock cameras from City property.\n\n" +
+    "The contract renewal window is at the end of August. Residents deserve a public, " +
+    "on-the-record decision before any renewal — not an automatic renewal that skips a " +
+    "public vote.\n\n" +
+    "If Council will not cancel, I ask that you still take a recorded vote on whether to " +
+    "renew, with no automatic renewal that skips a public vote.\n\n" +
+    "Please confirm in writing:\n" +
+    "1. Whether this will be placed on the August agendas; and\n" +
+    "2. The last date by which the City must give notice to prevent automatic renewal.\n\n" +
+    "I will attend the August meetings and ask for this vote during public comment.\n\n" +
+    "Thank you for your time and for a clear written response.";
 
   var SPOKEN_LINE =
     "I support public safety and privacy. Please cancel Crossville's Flock contract and remove the cameras. " +
@@ -57,6 +75,10 @@
     return buildMailto(OFFICIALS_TO, SHORT_SUBJECT, SHORT_BODY);
   }
 
+  function agendaLetterMailto() {
+    return buildMailto(AGENDA_LETTER_TO, AGENDA_SUBJECT, FULL_LETTER);
+  }
+
   function fullLetterText() {
     return FULL_LETTER;
   }
@@ -71,6 +93,10 @@
 
   function officialsTo() {
     return OFFICIALS_TO;
+  }
+
+  function agendaLetterTo() {
+    return AGENDA_LETTER_TO;
   }
 
   function copyText(text) {
@@ -214,6 +240,10 @@
     var href = shortOfficialsMailto();
     doc.querySelectorAll("[data-short-mailto]").forEach(function (el) {
       el.setAttribute("href", href);
+    });
+    var agendaHref = agendaLetterMailto();
+    doc.querySelectorAll("[data-agenda-mailto]").forEach(function (el) {
+      el.setAttribute("href", agendaHref);
     });
   }
 
@@ -479,16 +509,20 @@
 
   return {
     OFFICIALS_TO: OFFICIALS_TO,
+    AGENDA_LETTER_TO: AGENDA_LETTER_TO,
     SHORT_SUBJECT: SHORT_SUBJECT,
+    AGENDA_SUBJECT: AGENDA_SUBJECT,
     SHORT_BODY: SHORT_BODY,
     FULL_LETTER: FULL_LETTER,
     SPOKEN_LINE: SPOKEN_LINE,
     buildMailto: buildMailto,
     shortOfficialsMailto: shortOfficialsMailto,
+    agendaLetterMailto: agendaLetterMailto,
     fullLetterText: fullLetterText,
     spokenLineText: spokenLineText,
     shortBodyText: shortBodyText,
     officialsTo: officialsTo,
+    agendaLetterTo: agendaLetterTo,
     copyText: copyText,
     initMobileNav: initMobileNav,
     initCopyButtons: initCopyButtons,
