@@ -1345,6 +1345,19 @@ article:has(+ .panel) {
   align-items: start;
 }
 
+/* Author display:grid beats UA [hidden]{display:none}; keep filters working. */
+.recent-news-list li[hidden] {
+  display: none !important;
+}
+
+.news-geo-empty {
+  margin: 0.85rem 0 0.25rem;
+}
+
+.news-geo-empty[hidden] {
+  display: none !important;
+}
+
 .recent-news-list time {
   font-size: 0.82rem;
   font-weight: 650;

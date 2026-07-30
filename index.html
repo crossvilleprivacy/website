@@ -424,11 +424,12 @@
         <h2 id="recent-news-heading">Recent Surveillance News</h2>
         <p>Crossville runs Flock today. Below are recent stories about similar surveillance in the news. Filter by geography:</p>
         <div class="news-geo-filters" role="group" aria-label="Filter news by geography">
-          <button type="button" class="news-geo-btn is-active" data-news-geo="all">All</button>
-          <button type="button" class="news-geo-btn" data-news-geo="local">Crossville</button>
-          <button type="button" class="news-geo-btn" data-news-geo="tennessee">Tennessee</button>
-          <button type="button" class="news-geo-btn" data-news-geo="national">National</button>
+          <button type="button" class="news-geo-btn is-active" data-news-geo="all" aria-pressed="true">All</button>
+          <button type="button" class="news-geo-btn" data-news-geo="local" aria-pressed="false">Crossville</button>
+          <button type="button" class="news-geo-btn" data-news-geo="tennessee" aria-pressed="false">Tennessee</button>
+          <button type="button" class="news-geo-btn" data-news-geo="national" aria-pressed="false">National</button>
         </div>
+        <p class="note news-geo-empty" data-news-geo-empty hidden>No stories in this geography yet. Try All, Tennessee, or National.</p>
 
         <ul class="recent-news-list">
           <li data-geo="national">

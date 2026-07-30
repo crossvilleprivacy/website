@@ -505,8 +505,10 @@
 
     var buttons = group.querySelectorAll("[data-news-geo]");
     var items = list.querySelectorAll("li[data-geo]");
+    var empty = doc.querySelector("[data-news-geo-empty]");
 
     function apply(geo) {
+      var visible = 0;
       buttons.forEach(function (btn) {
         var active = btn.getAttribute("data-news-geo") === geo;
         btn.classList.toggle("is-active", active);
@@ -516,7 +518,9 @@
         var itemGeo = item.getAttribute("data-geo");
         var show = geo === "all" || itemGeo === geo;
         item.hidden = !show;
+        if (show) visible += 1;
       });
+      if (empty) empty.hidden = visible > 0;
     }
 
     buttons.forEach(function (btn) {
