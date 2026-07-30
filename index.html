@@ -112,10 +112,10 @@
 <body class="has-sticky-cta has-renewal-banner">
   <aside id="renewal-countdown" class="renewal-banner" role="region" aria-label="Flock subscription anniversary countdown" data-renewal-iso="2026-08-26T17:00:00-05:00">
     <div class="wrap renewal-banner-inner">
-      <a class="renewal-banner-hit" href="council.html#council-show-up" aria-label="Jump to City Council meeting details — show up to end Flock"></a>
+      <a class="renewal-banner-hit" href="council.html#council-show-up" aria-label="Jump to City Council meeting details — show up and tell them to cancel Flock"></a>
       <div class="renewal-banner-copy">
         <p class="renewal-kicker">Flock subscription anniversary</p>
-        <p class="renewal-headline">Show up at City Council<span class="renewal-meetings" id="renewal-meetings"> — August · 1st Tue @ 5&nbsp;PM and 2nd Tue @ 6&nbsp;PM</span>. Tell them <span class="renewal-before">don’t renew</span> Flock — remove the cameras <span class="renewal-before">before</span> <time datetime="2026-08-26">Aug 26, 2026</time>.</p>
+        <p class="renewal-headline">Show up at City Council<span class="renewal-meetings" id="renewal-meetings"> — August · 1st Tue @ 5&nbsp;PM and 2nd Tue @ 6&nbsp;PM</span>. Tell them <span class="renewal-before">don’t renew</span> the subscription and remove the cameras <span class="renewal-before">before</span> <time datetime="2026-08-26">Aug 26, 2026</time>.</p>
         <p class="renewal-note">
           <span id="renewal-status">Fill the council chamber. Work sessions 1st Tue 5&nbsp;PM · Council 2nd Tue 6&nbsp;PM · City Hall.</span>
           <span class="renewal-cite"> Anniversary from quote start <a href="docs/FLOCK%20Crossville%20Quote.pdf">08/26/2022 · Q-00234</a> — not a confirmed council vote date.</span>
@@ -424,7 +424,7 @@
         <div class="panel">
           <span class="section-label">Act now</span>
           <h2 id="act-now-heading">What to do in Crossville</h2>
-          <p><strong>Ask for this first:</strong> cancel the Flock contract and remove the cameras. <strong>If they will not cancel yet:</strong> a yearly public yes-or-no vote before any renewal (no automatic renewal that skips a public vote), plus monthly use reports, a written search policy, and a public camera map.</p>
+          <p><strong>Ask for this first:</strong> cancel the Flock contract and remove the cameras. <strong>If they will not cancel yet:</strong> ask for a yearly public yes-or-no vote before any renewal (no automatic renewal that skips a public vote), plus monthly use reports, a written search policy, and a public camera map.</p>
           <p style="margin-top:1rem;display:flex;flex-wrap:wrap;gap:0.65rem;">
             <a class="btn btn-primary" href="#action">Email leaders</a>
             <a class="btn btn-dark" href="council.html#council-show-up">Show up at City Council</a>
@@ -2000,7 +2000,7 @@ Thank you for your time and for a clear written response.</pre>
     </button>
     <div class="wrap">
       <div class="sticky-cta-copy">
-        <p class="sticky-cta-lead">Cancel Flock — or force a recorded renewal vote</p>
+        <p class="sticky-cta-lead">Cancel Flock — and if they stall, demand a recorded renewal vote</p>
         <p class="sticky-cta-when" id="sticky-council-next">Next: August · 1st Tue @ 5&nbsp;PM · 2nd Tue @ 6&nbsp;PM</p>
         <p class="sticky-cta-work" id="sticky-work-next" hidden></p>
       </div>
@@ -2224,7 +2224,7 @@ Thank you for your time and for a clear written response.</pre>
             banner.classList.add("is-passed");
             if (status) {
               status.textContent =
-                "Anniversary window is open — pack City Council, say don’t renew, and demand the cameras come down.";
+                "Anniversary window is open — pack City Council and tell them don’t renew the subscription and remove the cameras.";
             }
             Object.keys(units).forEach(function (k) {
               if (units[k]) units[k].textContent = "00";
@@ -2250,7 +2250,7 @@ Thank you for your time and for a clear written response.</pre>
               days +
               " day" +
               (days === 1 ? "" : "s") +
-              " left — show up at City Council: don’t renew, remove the cameras.";
+              " left — show up at City Council and tell them don’t renew the subscription and remove the cameras.";
           }
           syncStickyOffsets();
         }
