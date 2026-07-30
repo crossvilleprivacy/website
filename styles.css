@@ -1032,6 +1032,35 @@ article:has(+ .panel) {
   padding: 0.35rem 0 0.15rem;
 }
 
+.news-geo-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.85rem 0 0.15rem;
+}
+
+.news-geo-btn {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 650;
+  padding: 0.35rem 0.7rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+}
+
+.news-geo-btn:hover {
+  border-color: var(--accent, #c0392b);
+}
+
+.news-geo-btn.is-active {
+  border-color: var(--accent, #c0392b);
+  background: color-mix(in srgb, var(--accent, #c0392b) 12%, transparent);
+}
+
 .recent-news-list {
   list-style: none;
   margin: 1.1rem 0 0.85rem;
@@ -2276,8 +2305,7 @@ a.deep-link-hash {
 }
 
 .tn-glance {
-  /* Top spacing comes from .proof-block margin — avoids hash-scroll
-     leaving prior cards peeking under sticky chrome. */
+  /* Contained inside .wrap; section padding handles page rhythm. */
   margin: 0;
   padding: 1.15rem 1.2rem 1.25rem;
   background:
@@ -2285,6 +2313,10 @@ a.deep-link-hash {
     #fff;
   border: 1px solid var(--accent-border);
   border-radius: 6px;
+  scroll-margin-top: var(--scroll-offset);
+}
+
+#tn-glance {
   scroll-margin-top: var(--scroll-offset);
 }
 

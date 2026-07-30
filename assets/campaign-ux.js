@@ -497,6 +497,38 @@
     };
   }
 
+  function initNewsGeoFilters(doc) {
+    doc = doc || document;
+    var group = doc.querySelector(".news-geo-filters");
+    var list = doc.querySelector(".recent-news-list");
+    if (!group || !list) return null;
+
+    var buttons = group.querySelectorAll("[data-news-geo]");
+    var items = list.querySelectorAll("li[data-geo]");
+
+    function apply(geo) {
+      buttons.forEach(function (btn) {
+        var active = btn.getAttribute("data-news-geo") === geo;
+        btn.classList.toggle("is-active", active);
+        btn.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+      items.forEach(function (item) {
+        var itemGeo = item.getAttribute("data-geo");
+        var show = geo === "all" || itemGeo === geo;
+        item.hidden = !show;
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        apply(btn.getAttribute("data-news-geo") || "all");
+      });
+    });
+
+    apply("all");
+    return { apply: apply };
+  }
+
   function init(doc) {
     doc = doc || document;
     applyShortMailtos(doc);
@@ -505,6 +537,7 @@
     initShareButtons(doc);
     initDeepLinks(doc);
     initHeroRotate(doc);
+    initNewsGeoFilters(doc);
   }
 
   return {
@@ -533,6 +566,7 @@
     initHeroRotate: initHeroRotate,
     showHeroSlide: showHeroSlide,
     syncHeroCredit: syncHeroCredit,
+    initNewsGeoFilters: initNewsGeoFilters,
     init: init,
   };
 });

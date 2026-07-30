@@ -2,6 +2,7 @@
 # Keep CNAME / .nojekyll for GitHub Pages.
 
 # --- helpers / tooling ---
+.venv/
 tests/
 test-impact-map.json
 **/*.py
