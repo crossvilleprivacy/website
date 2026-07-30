@@ -106,7 +106,7 @@
     "Secondary_Source_URL": "https://www.aclu.org/news/privacy-technology/san-francisco-woman-pulled-out-car-gunpoint-because",
     "Additional_URLs": "https://sfgov.legistar.com/LegislationDetail.aspx?GUID=D8433FDB-0F97-45E4-A9AE-9533ABAE8784&ID=2448004; https://sfbos.org/ftp/uploadedfiles/bdsupvrs/ordinances15/o0181-15.pdf; https://www.eff.org/deeplinks/2024/11/human-toll-alpr-errors",
     "Confidence_Score": 0.98,
-    "Notes": "Vendor not confirmed in court opinion. Settlement authorized by SF Board of Supervisors Ordinance 181-15 ($495,000). Not a Flock Safety product case — cited as ALPR wrongful-stop liability scale only.",
+    "Notes": "Vendor not confirmed in court opinion. Settlement authorized by SF Board of Supervisors Ordinance 181-15 ($495,000). Not a Flock Safety product case, cited as ALPR wrongful-stop liability scale only.",
     "Public_KPI_Exclude": false
   },
   {
@@ -131,7 +131,7 @@
     "System_Type": "ALPR",
     "Alert_Reason": "Stolen vehicle",
     "Underlying_Error": "Hotlist Error; Database Error; Officer Failed to Verify",
-    "Narrative_Summary": "Hofer and brother in a rental car stopped after ALPR flagged plate as stolen. Vehicle had previously been recovered; hot list not updated. High-risk stop with gun drawn; brother allegedly thrown to ground; car searched; ~40 minutes detention after rental app verification. Thanksgiving-period reporting conflict: Verge/filing (Nov 2018) vs EFF 'Thanksgiving 2019'—court/lawsuit timing supports late 2018.",
+    "Narrative_Summary": "Hofer and brother in a rental car stopped after ALPR flagged plate as stolen. Vehicle had previously been recovered; hot list not updated. High-risk stop with gun drawn; brother allegedly thrown to ground; car searched; ~40 minutes detention after rental app verification. Thanksgiving-period reporting conflict: Verge/filing (Nov 2018) vs EFF 'Thanksgiving 2019', court/lawsuit timing supports late 2018.",
     "Firearm_Drawn": "Y",
     "Handcuffed": "Y",
     "Felony_Stop": "Y",
@@ -140,7 +140,7 @@
     "Children_Present": "N",
     "Dog_Deployed": "N",
     "Dog_Bite": "N",
-    "Physical_Injury": "Partial—brother alleged injured",
+    "Physical_Injury": "Partial, brother alleged injured",
     "Vehicle_Damaged": "N",
     "Jailed": "N",
     "Charges_Filed": "N",
@@ -381,7 +381,7 @@
     "Secondary_Source_URL": "https://www.cnn.com/2024/02/05/us/colorado-aurora-settlement-stolen-vehicle-mixup",
     "Additional_URLs": "https://www.eff.org/deeplinks/2024/11/human-toll-alpr-errors; https://www.cbsnews.com/colorado/news/aurora-police-settle-colorado-woman-viral-video-held-gunpoint-brittney-gilliam/",
     "Confidence_Score": 0.97,
-    "Notes": "Vendor unspecified in major reporting. Spelling Brittney/Brittany varies in media; prefer Brittney (AP/CBS). Not a Flock Safety product case — cited as ALPR wrongful-stop liability scale only.",
+    "Notes": "Vendor unspecified in major reporting. Spelling Brittney/Brittany varies in media; prefer Brittney (AP/CBS). Not a Flock Safety product case, cited as ALPR wrongful-stop liability scale only.",
     "Public_KPI_Exclude": false
   },
   {
@@ -855,7 +855,7 @@
     "Children_Present": "Y",
     "Dog_Deployed": null,
     "Dog_Bite": null,
-    "Physical_Injury": "Partial—contractions reported in custody",
+    "Physical_Injury": "Partial, contractions reported in custody",
     "Vehicle_Damaged": null,
     "Jailed": "Y",
     "Charges_Filed": "Y",
@@ -1744,7 +1744,7 @@
     "Charges_Filed": "Y",
     "Charges_Dismissed": "Y",
     "Released_at_Scene": "N",
-    "Length_of_Detention": "~5.5 months (Jul 14–Dec 24, 2025)",
+    "Length_of_Detention": "~5.5 months (Jul 14-Dec 24, 2025)",
     "Lawsuit_Filed": null,
     "Case_Number": null,
     "Court": null,
@@ -1759,7 +1759,7 @@
     "Secondary_Source_URL": "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud",
     "Additional_URLs": "https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case; https://www.newschannel5.com/news/ai-facial-recognition-led-to-wrongful-arrest-of-tenn-woman-in-state-she-says-shes-never-visited; https://www.foxnews.com/tech/facial-recognition-jails-innocent-grandmother-attorney-says; https://www.aclu.org/news/privacy-technology/more-than-a-dozen-wrongful-arrests-due-to-police-reliance-on-facial-recognition-technology",
     "Confidence_Score": 0.97,
-    "Notes": "Some reporting mentions Clearview AI / West Fargo role; primary Fargo investigation attribution varies — Vendor left NULL unless court docs confirm. Fox cited probation hold nuance; still FRT-linked extradition detention.",
+    "Notes": "Some reporting mentions Clearview AI / West Fargo role; primary Fargo investigation attribution varies: Vendor left NULL unless court docs confirm. Fox cited probation hold nuance; still FRT-linked extradition detention.",
     "Public_KPI_Exclude": false
   },
   {
@@ -2280,7 +2280,7 @@
     "Alert_Reason": "Stolen plates (NCIC incomplete entry)",
     "Underlying_Error": "OCR Misread; Database Error; Human Data Entry; Officer Failed to Verify",
     "Narrative_Summary": "Auto writer Joel Feder and his wife were boxed in by four Plymouth PD squad cars at a Kohl's lot after Flock ALPR alerts on their Range Rover press loaner. Officers had tracked the car for days via Flock. Cause: a lost NJ manufacturer plate reported in California was entered into NCIC incomplete as 34 DTM (missing small middle digits); Feder's plate was 34 10 DTM, and Flock OCR also missed those characters. VIN clean; plate was lost not stolen; ~1 hour detention; hands on guns.",
-    "Firearm_Drawn": "Partial—hands on guns",
+    "Firearm_Drawn": "Partial, hands on guns",
     "Handcuffed": null,
     "Felony_Stop": "Y",
     "Vehicle_Searched": null,

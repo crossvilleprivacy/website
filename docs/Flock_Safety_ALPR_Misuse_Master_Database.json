@@ -359,7 +359,7 @@
         "Percent_of_Total": 0.109
       },
       {
-        "Outcome_Bucket": "Released / No Charges — Documented False Stop",
+        "Outcome_Bucket": "Released / No Charges: Documented False Stop",
         "Cases": 1,
         "Percent_of_Total_Display": "2.2%",
         "Percent_of_Total": 0.022
@@ -461,7 +461,7 @@
       "Verification_Notes": "Urban Milwaukee / FOX6 / TMJ4 Jul 2026: IA Det. Tehrangi Chapman charged with felony misconduct + GPS-device misuse after Flock audit during Ayala investigation; 20 searches logged as training/test.",
       "Incident_Year": "2024-2025",
       "Resolution_Year": 2026,
-      "Year_Note": "ALPR/GPS misuse documented Jan 2024–Jan 2025; felony misconduct charges filed July 2026. Canonical Year=2026 matches Case_ID / charging year.",
+      "Year_Note": "ALPR/GPS misuse documented Jan 2024 to Jan 2025; felony misconduct charges filed July 2026. Canonical Year=2026 matches Case_ID / charging year.",
       "Outcome_Bucket": "Criminally Charged / Indicted"
     },
     {
@@ -714,7 +714,7 @@
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
       "Year_Note": "Incident late June 2026 (NCIC entry June 24; Flock alerts June 26 and June 28 stop).",
-      "Outcome_Bucket": "Released / No Charges — Documented False Stop"
+      "Outcome_Bucket": "Released / No Charges: Documented False Stop"
     },
     {
       "Case_ID": "FLK-2026-016",
@@ -956,7 +956,7 @@
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
       "Documented_Search_Count_Frequency": "18 (Flock-specific counts of 23 total)",
-      "Detailed_Summary": "Former Oak Ridge PD Officer Zachary Gauthier accessed the Flock ALPR system 18 times for personal (non-law-enforcement) use between February 25 and March 25, 2025, and also misused Accurint, the State Link System, and his patrol-car computer. An Anderson County Grand Jury indicted him on 23 counts of official misconduct (Class E felony) on July 1, 2025—18 counts specifically for Flock misuse. He was placed on leave April 21, 2025, fired April 24, 2025, and pleaded guilty to all 23 counts on March 23, 2026 (48 hours custody, supervised probation, POST surrender, judicial diversion eligibility). Oak Ridge shares Flock data within the same East Tennessee network as Maryville.",
+      "Detailed_Summary": "Former Oak Ridge PD Officer Zachary Gauthier accessed the Flock ALPR system 18 times for personal (non-law-enforcement) use between February 25 and March 25, 2025, and also misused Accurint, the State Link System, and his patrol-car computer. An Anderson County Grand Jury indicted him on 23 counts of official misconduct (Class E felony) on July 1, 2025: 18 counts specifically for Flock misuse. He was placed on leave April 21, 2025, fired April 24, 2025, and pleaded guilty to all 23 counts on March 23, 2026 (48 hours custody, supervised probation, POST surrender, judicial diversion eligibility). Oak Ridge shares Flock data within the same East Tennessee network as Maryville.",
       "Discovery_Method": "Internal Oak Ridge PD complaints referred to Anderson County District Attorney General Dave Clark for independent investigation",
       "Outcome_Disciplinary_Action": "Terminated April 24, 2025; indicted July 1, 2025 on 23 counts of official misconduct; pleaded guilty March 23, 2026; sentenced March 2026 to two years on each count with 48 hours to serve, remainder suspended probation, judicial diversion eligibility (3B Media / WATE).",
       "Reference_Source": "WBIR 10News / WATE 6 News / WVLT / Maryville Residents for Privacy / Anderson County DA",
@@ -965,7 +965,7 @@
       "Verification_Notes": "Documented on maryvilleprivacy.org (East TN regional Flock network context). Corroborated by WBIR indictment/plea coverage, WATE indictment detail (18 Flock counts), WVLT plea reporting (Mar 23, 2026), and Anderson County Grand Jury / DA Clark statements.",
       "Incident_Year": 2025,
       "Resolution_Year": 2026,
-      "Year_Note": "Year/Case_ID keyed to 2025 indictment/public charging; Incident_Year is Feb–Mar 2025 Flock queries; Resolution_Year is Mar 2026 guilty plea.",
+      "Year_Note": "Year/Case_ID keyed to 2025 indictment/public charging; Incident_Year is Feb to Mar 2025 Flock queries; Resolution_Year is Mar 2026 guilty plea.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     },
     {
@@ -1046,7 +1046,7 @@
       "Reference_Source": "Institute for Justice Nationwide ALPR Stalking Report",
       "Source_URL": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/",
       "Verification_Status": "Verified",
-      "Verification_Notes": "IJ + local reporting: Shelby County Dep. Thadius Gordon; 100+ ALPR tracks of ex-wife; relieved of duty. Primary local coverage describes SCSO plate databases — do not assert Flock without a primary vendor source.",
+      "Verification_Notes": "IJ + local reporting: Shelby County Dep. Thadius Gordon; 100+ ALPR tracks of ex-wife; relieved of duty. Primary local coverage describes SCSO plate databases, do not assert Flock without a primary vendor source.",
       "Incident_Year": 2024,
       "Resolution_Year": null,
       "Year_Note": "",
@@ -1277,10 +1277,10 @@
       "Reference_Source": "WESH 2; WFTV 9; ClickOrlando / News 6",
       "Source_URL": "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
       "Verification_Status": "Verified",
-      "Verification_Notes": "WESH/WFTV/ClickOrlando Jul 23–24 2026: arrest, termination, Flock suspension. Allegations pending.",
+      "Verification_Notes": "WESH/WFTV/ClickOrlando Jul 23 to 24 2026: arrest, termination, Flock suspension. Allegations pending.",
       "Incident_Year": 2026,
       "Resolution_Year": null,
-      "Year_Note": "Arrest/termination/Flock suspension announced ~July 23–24, 2026.",
+      "Year_Note": "Arrest/termination/Flock suspension announced ~July 23 to 24, 2026.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     },
     {
@@ -1298,7 +1298,7 @@
       "Reference_Source": "Fayetteville PD statement / Atlanta News First / AJC / The Citizen",
       "Source_URL": "https://www.atlantanewsfirst.com/2026/07/17/3-fayetteville-police-officers-fired-accused-misusing-flock-camera-system/",
       "Verification_Status": "Verified",
-      "Verification_Notes": "Agency news release and ANF/AJC/Citizen Jul 17–18 2026 coverage. Officers unnamed.",
+      "Verification_Notes": "Agency news release and ANF/AJC/Citizen Jul 17 to 18 2026 coverage. Officers unnamed.",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
       "Year_Note": "Firings announced ~July 17, 2026.",
@@ -1312,8 +1312,8 @@
       "Subject_Officer_Involved": "Patrick Isbell",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-      "Documented_Search_Count_Frequency": "Accessed retained license plate data for non–law-enforcement purposes (per agency)",
-      "Detailed_Summary": "Henry County Police fired and arrested officer Patrick Isbell, 41, charged with misuse of license plate data on July 10, 2026 after an internal audit found he accessed the department’s Flock network and used retained plate data for non–law-enforcement purposes. Investigation ongoing. Allegations/charges, not a conviction.",
+      "Documented_Search_Count_Frequency": "Accessed retained license plate data for non-law-enforcement purposes (per agency)",
+      "Detailed_Summary": "Henry County Police fired and arrested officer Patrick Isbell, 41, charged with misuse of license plate data on July 10, 2026 after an internal audit found he accessed the department’s Flock network and used retained plate data for non-law-enforcement purposes. Investigation ongoing. Allegations/charges, not a conviction.",
       "Discovery_Method": "Internal audit",
       "Outcome_Disciplinary_Action": "Fired and arrested; charged with misuse of license plate data (July 10, 2026); investigation ongoing.",
       "Reference_Source": "AJC (July 2026 Georgia wave coverage)",
@@ -1343,7 +1343,7 @@
       "Verification_Notes": "USA Today / AJC / Reason late July 2026 name Salawu and charges.",
       "Incident_Year": 2026,
       "Resolution_Year": null,
-      "Year_Note": "Arrest/firing reported ~July 18–21, 2026.",
+      "Year_Note": "Arrest/firing reported ~July 18 to 21, 2026.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     },
     {
@@ -1354,14 +1354,14 @@
       "Subject_Officer_Involved": "Paige Forte (dispatcher / RTCC supervisor)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking",
-      "Documented_Search_Count_Frequency": "More than 30 Flock accesses April–July 2026 (GBI preliminary)",
-      "Detailed_Summary": "After an internal Flock audit, Conyers PD requested a GBI investigation of RTCC supervisor Paige Forte. Preliminary information indicates she accessed Flock more than 30 times between April and July 2026 for non–law-enforcement purposes; department said inquiries involved her domestic partner’s vehicle to ascertain location. GBI arrested Forte July 22, 2026 and charged Misuse of a License Plate Reader System. Placed on administrative leave pending internal review. Allegations/charges, not a conviction.",
+      "Documented_Search_Count_Frequency": "More than 30 Flock accesses April to July 2026 (GBI preliminary)",
+      "Detailed_Summary": "After an internal Flock audit, Conyers PD requested a GBI investigation of RTCC supervisor Paige Forte. Preliminary information indicates she accessed Flock more than 30 times between April and July 2026 for non-law-enforcement purposes; department said inquiries involved her domestic partner’s vehicle to ascertain location. GBI arrested Forte July 22, 2026 and charged Misuse of a License Plate Reader System. Placed on administrative leave pending internal review. Allegations/charges, not a conviction.",
       "Discovery_Method": "Internal Flock audit; GBI investigation requested by Conyers PD",
       "Outcome_Disciplinary_Action": "Arrested July 22, 2026 (Misuse of a License Plate Reader System); administrative leave; GBI investigation ongoing for DA review.",
       "Reference_Source": "GBI press release (July 23, 2026); Conyers PD / WSB / FOX 5",
       "Source_URL": "https://gbi.georgia.gov/press-releases/2026-07-23/gbi-arrests-conyers-police-department-employee-misuse-license-plate",
       "Verification_Status": "Verified",
-      "Verification_Notes": "GBI Jul 23 2026 press release: Forte arrest, >30 accesses Apr–Jul 2026. Partner-tracking detail in Conyers PD / WSB coverage.",
+      "Verification_Notes": "GBI Jul 23 2026 press release: Forte arrest, >30 accesses Apr to Jul 2026. Partner-tracking detail in Conyers PD / WSB coverage.",
       "Incident_Year": 2026,
       "Resolution_Year": null,
       "Year_Note": "Arrest July 22, 2026; GBI release July 23.",

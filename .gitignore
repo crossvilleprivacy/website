@@ -11,7 +11,6 @@ test-impact-map.json
 README.md
 printables/README.txt
 printables/build_business_cards.py
-printables/build_outreach_printables.py
 
 # Print-ready PNG singles aren't linked; Avery PDFs + preview PNGs are.
 printables/*-print.png

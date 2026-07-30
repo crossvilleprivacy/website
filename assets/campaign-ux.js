@@ -1,5 +1,5 @@
 /**
- * CrossvillePrivacy.org — campaign UX helpers (mailto, copy, mobile nav, share).
+ * CrossvillePrivacy.org, campaign UX helpers (mailto, copy, mobile nav, share).
  * Works in the browser and under Node (CommonJS) for unit tests.
  */
 (function (root, factory) {
@@ -42,7 +42,7 @@
     "non-renewal, cancel Crossville's Flock Safety contract at the earliest lawful date, " +
     "and remove all Flock cameras from City property.\n\n" +
     "The contract renewal window is at the end of August. Residents deserve a public, " +
-    "on-the-record decision before any renewal — not an automatic renewal that skips a " +
+    "on-the-record decision before any renewal, not an automatic renewal that skips a " +
     "public vote.\n\n" +
     "If Council will not cancel, I ask that you still take a recorded vote on whether to " +
     "renew, with no automatic renewal that skips a public vote.\n\n" +
@@ -55,9 +55,9 @@
   var SPOKEN_LINE =
     "I support public safety and privacy. Please cancel Crossville's Flock contract and remove the cameras. " +
     "If you will not cancel yet, please announce a public hearing ahead of time and take a recorded City Council " +
-    "vote each year before any renewal — with no automatic renewal that skips a public vote — and publish monthly " +
-    "detailed Flock-use reports the public can check (who searched, what they searched, why, hits, and sharing), " +
-    "plus the policy on how data is used, supervisor-approval rules, and a public camera map. " +
+    "vote each year before any renewal, with no automatic renewal that skips a public vote. Publish monthly " +
+    "public reports: who searched, what plate, why, what matched, and who data was shared with. Also publish " +
+    "the search policy, supervisor-approval rules, and a public camera map. " +
     "I will be at the next council meeting.";
 
   function buildMailto(to, subject, body) {
@@ -177,7 +177,7 @@
             }, 1800);
           })
           .catch(function () {
-            btn.textContent = "Copy failed — select text below";
+            btn.textContent = "Copy failed, select text below";
           });
       });
     });
@@ -226,7 +226,7 @@
           btn.setAttribute(
             "href",
             "mailto:?subject=" +
-              encodeURIComponent("CrossvillePrivacy.org — Flock cameras in Crossville") +
+              encodeURIComponent("CrossvillePrivacy.org: Flock cameras in Crossville") +
               "&body=" +
               encodeURIComponent(shareText)
           );
@@ -529,6 +529,91 @@
     return { apply: apply };
   }
 
+  function nthWeekdayOfMonth(year, monthIndex, weekday, nth) {
+    var d = new Date(year, monthIndex, 1);
+    var first = d.getDay();
+    var day = 1 + ((weekday - first + 7) % 7) + (nth - 1) * 7;
+    return new Date(year, monthIndex, day);
+  }
+
+  function atLocalTime(date, hours, minutes) {
+    return new Date(
+      date.getFullYear(),
+      date.getMonth(),
+      date.getDate(),
+      hours,
+      minutes,
+      0,
+      0
+    );
+  }
+
+  function nextNthWeekdayMeeting(now, weekday, nth, hours, minutes) {
+    var y = now.getFullYear();
+    var m = now.getMonth();
+    for (var i = 0; i < 14; i++) {
+      var month = m + i;
+      var year = y + Math.floor(month / 12);
+      var mi = ((month % 12) + 12) % 12;
+      var day = nthWeekdayOfMonth(year, mi, weekday, nth);
+      if (day.getMonth() !== mi) continue;
+      var when = atLocalTime(day, hours, minutes);
+      if (when.getTime() >= now.getTime() - 60 * 60 * 1000) {
+        return when;
+      }
+    }
+    return null;
+  }
+
+  function dayOrdinal(n) {
+    var v = n % 100;
+    if (v >= 11 && v <= 13) return n + "th";
+    switch (n % 10) {
+      case 1:
+        return n + "st";
+      case 2:
+        return n + "nd";
+      case 3:
+        return n + "rd";
+      default:
+        return n + "th";
+    }
+  }
+
+  function formatMeetingNextLabel(when, timeLabel, suffix) {
+    try {
+      var month = when.toLocaleDateString("en-US", { month: "long" });
+      var label =
+        "Next: " + month + " " + dayOrdinal(when.getDate()) + " @ " + timeLabel;
+      return suffix ? label + " · " + suffix : label;
+    } catch (err) {
+      return "Next: " + dayOrdinal(when.getDate()) + " @ " + timeLabel;
+    }
+  }
+
+  /** Fill #inpage-work-next / #inpage-council-next with the next scheduled dates. */
+  function fillCouncilMeetingNext(doc, now) {
+    doc = doc || document;
+    var workEl = doc.getElementById("inpage-work-next");
+    var councilEl = doc.getElementById("inpage-council-next");
+    if (!workEl && !councilEl) return null;
+
+    now = now || new Date();
+    var nextWork = nextNthWeekdayMeeting(now, 2, 1, 17, 0);
+    var nextCouncil = nextNthWeekdayMeeting(now, 2, 2, 18, 0);
+    if (workEl && nextWork) {
+      workEl.textContent = formatMeetingNextLabel(nextWork, "5 PM");
+    }
+    if (councilEl && nextCouncil) {
+      councilEl.textContent = formatMeetingNextLabel(
+        nextCouncil,
+        "6 PM",
+        "chambers"
+      );
+    }
+    return { nextWork: nextWork, nextCouncil: nextCouncil };
+  }
+
   function init(doc) {
     doc = doc || document;
     applyShortMailtos(doc);
@@ -538,6 +623,117 @@
     initDeepLinks(doc);
     initHeroRotate(doc);
     initNewsGeoFilters(doc);
+    initSpeechPicker(doc);
+    fillCouncilMeetingNext(doc);
+  }
+
+  function initSpeechPicker(doc) {
+    doc = doc || document;
+    var root = doc.querySelector("#speech-picker");
+    if (!root) return null;
+
+    var focusSelect = root.querySelector("[data-speech-focus]");
+    var variantSelect = root.querySelector("[data-speech-variant]");
+    var preview = root.querySelector("[data-speech-preview]");
+    var titleEl = root.querySelector("[data-speech-title]");
+    var statsEl = root.querySelector("[data-speech-stats]");
+    var metaEl = root.querySelector("[data-speech-meta]");
+    var copyBtn = root.querySelector("[data-speech-copy]");
+    var downloadLink = root.querySelector("[data-speech-download]");
+    if (!focusSelect || !variantSelect || !preview || !copyBtn || !downloadLink) return null;
+
+    var catalog =
+      typeof window !== "undefined" && window.COUNCIL_SPEECHES ? window.COUNCIL_SPEECHES : null;
+    var currentText = "";
+
+    function speechesForFocus(focusId) {
+      return (catalog.speeches || []).filter(function (s) {
+        return s.perspective === focusId;
+      });
+    }
+
+    function currentSpeech() {
+      if (!catalog) return null;
+      var focusId = focusSelect.value;
+      var variant = variantSelect.value || "A";
+      var list = speechesForFocus(focusId);
+      for (var i = 0; i < list.length; i++) {
+        if (list[i].variant === variant) return list[i];
+      }
+      return list[0] || null;
+    }
+
+    function render() {
+      var speech = currentSpeech();
+      if (!speech) {
+        preview.textContent = "No speech found for that selection.";
+        currentText = "";
+        return;
+      }
+      currentText = speech.full_text || "";
+      preview.textContent = currentText;
+      if (titleEl) titleEl.textContent = speech.title;
+      if (statsEl) {
+        statsEl.textContent =
+          "Script " +
+          speech.variant +
+          " · about " +
+          speech.approx_minutes +
+          " min · " +
+          speech.word_count +
+          " words · " +
+          (speech.focus_note || "");
+      }
+      if (metaEl) metaEl.hidden = false;
+      downloadLink.href = speech.pdf;
+      downloadLink.setAttribute("download", speech.pdf.split("/").pop());
+    }
+
+    function fillFocusOptions(perspectives) {
+      var previous = focusSelect.value;
+      focusSelect.innerHTML = "";
+      perspectives.forEach(function (p, idx) {
+        var opt = doc.createElement("option");
+        opt.value = p.id;
+        opt.textContent = p.label;
+        focusSelect.appendChild(opt);
+        if ((!previous && idx === 0) || previous === p.id) opt.selected = true;
+      });
+    }
+
+    focusSelect.addEventListener("change", render);
+    variantSelect.addEventListener("change", render);
+
+    copyBtn.addEventListener("click", function () {
+      var label = copyBtn.getAttribute("data-label") || "Copy speech text";
+      if (!currentText) {
+        copyBtn.textContent = "Nothing to copy";
+        window.setTimeout(function () {
+          copyBtn.textContent = label;
+        }, 1600);
+        return;
+      }
+      copyText(currentText)
+        .then(function () {
+          copyBtn.textContent = "Copied";
+          window.setTimeout(function () {
+            copyBtn.textContent = label;
+          }, 1800);
+        })
+        .catch(function () {
+          copyBtn.textContent = "Copy failed, select the text";
+        });
+    });
+
+    if (!catalog || !catalog.speeches || !catalog.speeches.length) {
+      preview.textContent =
+        "Speech catalog missing. Make sure assets/council-speeches-data.js is loaded before campaign-ux.js.";
+      return { render: render };
+    }
+
+    fillFocusOptions((catalog.meta && catalog.meta.perspectives) || []);
+    render();
+    return { render: render };
   }
 
   return {
@@ -567,6 +763,9 @@
     showHeroSlide: showHeroSlide,
     syncHeroCredit: syncHeroCredit,
     initNewsGeoFilters: initNewsGeoFilters,
+    initSpeechPicker: initSpeechPicker,
+    fillCouncilMeetingNext: fillCouncilMeetingNext,
+    nextNthWeekdayMeeting: nextNthWeekdayMeeting,
     init: init,
   };
 });

@@ -2,7 +2,7 @@
   "title": "Flock Municipal Cancellations & Non-Renewals Database",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
   "compiled": "2026-07-30",
-  "scope_note": "Includes municipal/agency actions ending or pausing Flock use. Does not claim a complete national census. Aggregator tallies (e.g. ~82 contracts across 28 states Aug 2021–May 2026 per SF Standard / Ban Flock Cameras) are larger than this verified dossier. Private/HOA Flock cameras may remain after a city contract ends.",
+  "scope_note": "Includes municipal/agency actions ending or pausing Flock use. Does not claim a complete national census. Aggregator tallies (e.g. ~82 contracts across 28 states Aug 2021 to May 2026 per SF Standard / Ban Flock Cameras) are larger than this verified dossier. Private/HOA Flock cameras may remain after a city contract ends.",
   "source_files": {
     "xlsx": "Flock_Municipal_Cancellations_Database.xlsx",
     "pdf": "Flock_Municipal_Cancellations_Database.pdf"
@@ -12,7 +12,7 @@
     "spotlight_count": 9,
     "public_backlash_cited_count": 37,
     "headline_aggregator_claims": {
-      "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021–May 2026); 39 in Jan–May 2026",
+      "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021 to May 2026); 39 in Jan to May 2026",
       "npr_feb_2026": "At least ~30 localities deactivated cameras or canceled contracts since early 2025"
     },
     "why_cities_leave": [
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "records_in_dossier are individually sourced. headline_aggregator_claims (e.g. ~82 contracts) are larger secondary tallies — cite the named source, do not equate them to the 49-record verified dossier. Rows with Verification_Status containing Aggregator-aligned need primary confirmation before calling them verified.",
+    "citation_hygiene": "The 49 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 49-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -724,7 +724,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash; Pause on new ALPR bids until citywide surveillance policy; Physical removal",
-      "Summary": "City Council voted 6–1 on June 16, 2026 to immediately cancel Flock, stop data collection, remove cameras, and delay new ALPR bids until a citywide surveillance policy exists. Staff confirmed all 15 city Flock cameras removed by early July 2026.",
+      "Summary": "City Council voted 6-1 on June 16, 2026 to immediately cancel Flock, stop data collection, remove cameras, and delay new ALPR bids until a citywide surveillance policy exists. Staff confirmed all 15 city Flock cameras removed by early July 2026.",
       "Primary_Source_URL": "https://www.coloradoan.com/story/news/local/2026/06/16/fort-collins-to-immediately-end-contract-with-flock-safety/90584281007/",
       "Secondary_Source_URL": "https://www.coloradoan.com/story/news/local/2026/07/23/fort-collins-police-services-flock-safety-cameras-have-been-removed/91021962007/",
       "Verification_Status": "Verified major press",
@@ -740,7 +740,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash; Fixed-ALPR policy requiring council approval; Organized opposition (Deflock Harrisonburg)",
-      "Summary": "Harrisonburg City Council voted 4–0 on July 29, 2026 to end the Flock contract and adopt a policy generally prohibiting mounted ALPRs without express council approval. About 31 Falcon cameras; systems to go dark ~July 31 with removal work order.",
+      "Summary": "Harrisonburg City Council voted 4-0 on July 29, 2026 to end the Flock contract and adopt a policy generally prohibiting mounted ALPRs without express council approval. About 31 Falcon cameras; systems to go dark ~July 31 with removal work order.",
       "Primary_Source_URL": "https://www.29news.com/2026/07/29/harrisonburg-city-council-votes-end-contract-with-flock-safety/",
       "Secondary_Source_URL": "https://www.dnronline.com/news/public_safety/harrisonburg-city-council-votes-to-cancel-flock-camera-contract/article_e96103ea-5a30-5d31-9d9c-3198e8ae5c9e.html",
       "Verification_Status": "Verified major press",
@@ -772,7 +772,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Data ownership / local-control concerns; Seeking replacement vendor",
-      "Summary": "Salem Mayor Dominick Pangallo and Police Chief Lucas Miller said the city would not renew Flock and would remove installed ALPRs over insufficient data protections, while seeking systems that better retain local control — a cancel-then-replace risk pattern.",
+      "Summary": "Salem Mayor Dominick Pangallo and Police Chief Lucas Miller said the city would not renew Flock and would remove installed ALPRs over insufficient data protections, while seeking systems that better retain local control, a cancel-then-replace risk pattern.",
       "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/07/26/salem-joins-list-of-mass-communities-to-reject-surveillance-company-over-data-concerns/",
       "Secondary_Source_URL": "https://www.wcvb.com/article/flock-camera-contract-ending-salem-ma-july-24/73258537",
       "Verification_Status": "Verified major press",
@@ -820,7 +820,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash; Privacy concerns; ACLU of RI advocacy letter; Misuse/federal-access fears",
-      "Summary": "South Kingstown Town Council voted unanimously (5–0) on July 27, 2026 to terminate Flock and remove cameras ASAP after hundreds of resident emails and an ACLU of Rhode Island letter. Contract ~$30,300/year; ~6–7 cameras active since Feb 2026. Seeking partial refund. State Police Flock on state roads may remain nearby.",
+      "Summary": "South Kingstown Town Council voted unanimously (5-0) on July 27, 2026 to terminate Flock and remove cameras ASAP after hundreds of resident emails and an ACLU of Rhode Island letter. Contract ~$30,300/year; ~6-7 cameras active since Feb 2026. Seeking partial refund. State Police Flock on state roads may remain nearby.",
       "Primary_Source_URL": "https://www.wpri.com/news/local-news/south-county/south-kingstown-to-stop-using-automated-license-plate-readers/",
       "Secondary_Source_URL": "https://turnto10.com/news/local/south-kingstown-ends-partnership-with-flock-cameras-july-28-2026",
       "Verification_Status": "Verified major press",
