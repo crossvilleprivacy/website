@@ -115,7 +115,7 @@
       <a class="renewal-banner-hit" href="council.html#council-show-up" aria-label="Jump to City Council meeting details — show up to end Flock"></a>
       <div class="renewal-banner-copy">
         <p class="renewal-kicker">Flock subscription anniversary</p>
-        <p class="renewal-headline">Show up at City Council<span class="renewal-meetings" id="renewal-meetings"> — next council: 2nd Tue 6&nbsp;PM · work session: 1st Tue 5&nbsp;PM</span>. Tell them <span class="renewal-before">don’t renew</span> Flock — remove the cameras <span class="renewal-before">before</span> <time datetime="2026-08-26">Aug 26, 2026</time>.</p>
+        <p class="renewal-headline">Show up at City Council<span class="renewal-meetings" id="renewal-meetings"> — August · 1st Tue @ 5&nbsp;PM and 2nd Tue @ 6&nbsp;PM</span>. Tell them <span class="renewal-before">don’t renew</span> Flock — remove the cameras <span class="renewal-before">before</span> <time datetime="2026-08-26">Aug 26, 2026</time>.</p>
         <p class="renewal-note">
           <span id="renewal-status">Fill the council chamber. Work sessions 1st Tue 5&nbsp;PM · Council 2nd Tue 6&nbsp;PM · City Hall.</span>
           <span class="renewal-cite"> Anniversary from quote start <a href="docs/FLOCK%20Crossville%20Quote.pdf">08/26/2022 · Q-00234</a> — not a confirmed council vote date.</span>
@@ -1706,8 +1706,8 @@
           </p>
           <p class="note" id="council-show-up" style="margin-top:0.85rem;">Meetings: work session 1st Tue 5&nbsp;PM · council 2nd Tue 6&nbsp;PM · <a href="https://www.google.com/maps/search/?api=1&amp;query=392+N+Main+St,+Crossville,+TN+38555" target="_blank" rel="noopener">392 N Main St</a> · <a href="docs/Council_Public_Comment_3min.pdf">3-minute outline</a></p>
           <p class="note" style="margin-top:0.85rem;"><span id="ask-before-renewal">Other questions worth asking</span> — who can search, FreeForm/patent features, federal sharing, livestream exposure, retention — are on the <a href="council.html#ask-before-renewal">City Council question list</a>.</p>
-          <p hidden id="inpage-council-next"></p>
           <p hidden id="inpage-work-next"></p>
+          <p hidden id="inpage-council-next"></p>
         </aside>
       </div>
     </section>
@@ -2001,7 +2001,7 @@ Thank you for your time and for a clear written response.</pre>
     <div class="wrap">
       <div class="sticky-cta-copy">
         <p class="sticky-cta-lead">Cancel Flock — or force a recorded renewal vote</p>
-        <p class="sticky-cta-when" id="sticky-council-next">Next council: 2nd Tue 6&nbsp;PM · work session 1st Tue 5&nbsp;PM</p>
+        <p class="sticky-cta-when" id="sticky-council-next">Next: August · 1st Tue @ 5&nbsp;PM · 2nd Tue @ 6&nbsp;PM</p>
         <p class="sticky-cta-work" id="sticky-work-next" hidden></p>
       </div>
       <div class="sticky-cta-actions">
@@ -2332,6 +2332,30 @@ Thank you for your time and for a clear written response.</pre>
           }
         }
 
+        function dayOrdinal(n) {
+          var v = n % 100;
+          if (v >= 11 && v <= 13) return n + "th";
+          switch (n % 10) {
+            case 1:
+              return n + "st";
+            case 2:
+              return n + "nd";
+            case 3:
+              return n + "rd";
+            default:
+              return n + "th";
+          }
+        }
+
+        function formatMeetingOrd(when, timeLabel) {
+          try {
+            var month = when.toLocaleDateString("en-US", { month: "long" });
+            return month + " " + dayOrdinal(when.getDate()) + " @ " + timeLabel;
+          } catch (err) {
+            return dayOrdinal(when.getDate()) + " @ " + timeLabel;
+          }
+        }
+
         var now = new Date();
         var nextCouncil = nextNthWeekdayMeeting(now, 2, 2, 18, 0);
         var nextWork = nextNthWeekdayMeeting(now, 2, 1, 17, 0);
@@ -2341,19 +2365,47 @@ Thank you for your time and for a clear written response.</pre>
         var workText = nextWork
           ? "Next work session: " + formatMeeting(nextWork) + " · 5 PM"
           : null;
-        if (councilEl && councilText) councilEl.textContent = councilText;
         if (workEl && workText) workEl.textContent = workText;
-        if (inpageCouncil && councilText) inpageCouncil.textContent = councilText;
         if (inpageWork && workText) inpageWork.textContent = workText;
-        if (bannerMeetings && (nextCouncil || nextWork)) {
-          var parts = [];
-          if (nextCouncil) {
-            parts.push("next council " + formatMeetingShort(nextCouncil) + " · 6 PM");
-          }
-          if (nextWork) {
-            parts.push("work session " + formatMeetingShort(nextWork) + " · 5 PM");
-          }
-          bannerMeetings.textContent = " — " + parts.join("; ");
+        if (inpageCouncil && councilText) inpageCouncil.textContent = councilText;
+
+        // Chronological: earlier meeting first (work session before council when both upcoming).
+        var upcoming = [];
+        if (nextWork) {
+          upcoming.push({
+            when: nextWork,
+            short: formatMeetingOrd(nextWork, "5 PM"),
+            long: formatMeetingShort(nextWork) + " · 5 PM",
+          });
+        }
+        if (nextCouncil) {
+          upcoming.push({
+            when: nextCouncil,
+            short: formatMeetingOrd(nextCouncil, "6 PM"),
+            long: formatMeetingShort(nextCouncil) + " · 6 PM",
+          });
+        }
+        upcoming.sort(function (a, b) {
+          return a.when.getTime() - b.when.getTime();
+        });
+
+        if (councilEl && upcoming.length) {
+          councilEl.textContent =
+            "Next: " +
+            upcoming
+              .map(function (m) {
+                return m.long;
+              })
+              .join(" · ");
+        }
+        if (bannerMeetings && upcoming.length) {
+          bannerMeetings.textContent =
+            " — " +
+            upcoming
+              .map(function (m) {
+                return m.short;
+              })
+              .join(" and ");
         }
       })();
 
