@@ -3267,6 +3267,30 @@ body.sticky-cta-is-dismissed {
   color: var(--ink-soft);
 }
 
+.speech-visuals {
+  margin: 0.65rem 0 0;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--line);
+  background: var(--panel);
+}
+
+.speech-visuals-label {
+  margin: 0 0 0.4rem;
+}
+
+.speech-visuals-list {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.speech-visuals-list li {
+  margin: 0.2rem 0;
+}
+
+.speech-visuals-list a {
+  font-weight: 650;
+}
+
 .speech-actions {
   display: flex;
   flex-wrap: wrap;

@@ -642,6 +642,8 @@
     var titleEl = root.querySelector("[data-speech-title]");
     var statsEl = root.querySelector("[data-speech-stats]");
     var metaEl = root.querySelector("[data-speech-meta]");
+    var visualsEl = root.querySelector("[data-speech-visuals]");
+    var visualsList = root.querySelector("[data-speech-visuals-list]");
     var copyBtn = root.querySelector("[data-speech-copy]");
     var downloadLink = root.querySelector("[data-speech-download]");
     if (!focusSelect || !variantSelect || !preview || !copyBtn || !downloadLink) return null;
@@ -667,11 +669,35 @@
       return list[0] || null;
     }
 
+    function renderVisuals(speech) {
+      if (!visualsEl || !visualsList) return;
+      var items = (speech && speech.visuals) || [];
+      visualsList.innerHTML = "";
+      if (!items.length) {
+        visualsEl.hidden = true;
+        return;
+      }
+      items.forEach(function (item) {
+        var li = doc.createElement("li");
+        var a = doc.createElement("a");
+        a.href = item.href;
+        a.textContent = item.label || item.href;
+        if (/^https?:\/\//i.test(item.href)) {
+          a.target = "_blank";
+          a.rel = "noopener";
+        }
+        li.appendChild(a);
+        visualsList.appendChild(li);
+      });
+      visualsEl.hidden = false;
+    }
+
     function render() {
       var speech = currentSpeech();
       if (!speech) {
         preview.textContent = "No speech found for that selection.";
         currentText = "";
+        renderVisuals(null);
         return;
       }
       currentText = speech.full_text || "";
@@ -689,6 +715,7 @@
           (speech.focus_note || "");
       }
       if (metaEl) metaEl.hidden = false;
+      renderVisuals(speech);
       downloadLink.href = speech.pdf;
       downloadLink.setAttribute("download", speech.pdf.split("/").pop());
     }
