@@ -1067,6 +1067,78 @@ section {
   line-height: 1.35;
 }
 
+.stats.dossier-tally {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+}
+
+.dossier-tally-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  margin: 1.35rem 0 1rem;
+}
+
+.dossier-tally-row-label {
+  display: block;
+  margin: 0 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 750;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted, #475569);
+}
+
+.stats.dossier-tally.row-misuse {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stats.dossier-tally.row-exits {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stats.dossier-tally .stat {
+  border-width: 2.5px;
+  padding: 1.05rem 0.55rem;
+}
+
+.stats.dossier-tally .stat .num {
+  font-size: clamp(1.35rem, 2.8vw, 1.9rem);
+  letter-spacing: -0.02em;
+}
+
+.stats.dossier-tally .stat .cap {
+  font-size: 0.78rem;
+}
+
+.dossier-tally-note {
+  margin: 0 0 1.15rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.national-tally-section {
+  padding: 1.75rem 0 1.35rem;
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--panel, #f1f5f9) 88%, #fff) 0%, #fff 100%);
+  border-top: 1px solid var(--line, #e2e8f0);
+  border-bottom: 1px solid var(--line, #e2e8f0);
+}
+
+.national-tally-section .section-label {
+  color: var(--accent-dark, #8b0000);
+}
+
+.national-tally-section h2 {
+  margin-bottom: 0.45rem;
+}
+
+.national-tally-section > .wrap > p:first-of-type {
+  max-width: 42rem;
+  margin-bottom: 0.25rem;
+}
+
 .toc {
   margin-top: 1.5rem;
   padding: 1rem 1.1rem 1.15rem;
@@ -2989,6 +3061,12 @@ body.sticky-cta-is-dismissed {
   .tn-glance-grid,
   .allies-section-grid {
     grid-template-columns: 1fr;
+  }
+
+  .stats.dossier-tally,
+  .stats.dossier-tally.row-misuse,
+  .stats.dossier-tally.row-exits {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .east-tn-table td:first-child {
