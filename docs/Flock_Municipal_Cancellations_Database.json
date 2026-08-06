@@ -8,7 +8,7 @@
     "pdf": "Flock_Municipal_Cancellations_Database.pdf"
   },
   "summary": {
-    "records_in_dossier": 59,
+    "records_in_dossier": 60,
     "spotlight_count": 16,
     "public_backlash_cited_count": 47,
     "headline_aggregator_claims": {
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "The 59 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 59-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 48; the other 11 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
+    "citation_hygiene": "The 60 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 60-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 48; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -985,6 +985,22 @@
       "Secondary_Source_URL": "https://www.azcentral.com/story/news/politics/arizona/2026/07/08/flock-cameras-raise-privacy-safety-concerns-in-arizona/90841857007/",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "Cameras still in use pending Aug. 13 renewal vote; not a termination."
+    },
+    {
+      "Case_ID": "CAN-2026-060",
+      "Jurisdiction": "Sumter County",
+      "State": "FL",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-07-23",
+      "Camera_Count": null,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Officer database / ALPR misuse; Internal audit; Agency integrity response",
+      "Summary": "Sumter County Sheriff Patrick Breeden suspended the Sheriff’s Office use of Flock after an internal audit flagged Detective Brandy Almany’s alleged personal-use searches of Flock ALPR, Florida’s DAVID, and CCIS involving her husband’s ex-wife. Almany was arrested and terminated (July 23, 2026). Breeden ordered a complete internal audit of agency databases while Flock remains suspended.",
+      "Primary_Source_URL": "https://www.wftv.com/news/local/sumter-detective-fired-arrested-using-police-cameras-spy-husbands-ex-wife/O2ZIHFAP4FC7VINFSGNDGPU6DI/",
+      "Secondary_Source_URL": "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Temporary suspension pending complete internal audit; agency had not announced when or whether cameras would return as of July 24, 2026 reporting. Related misuse row: FLK-2026-020."
     }
   ]
 }
