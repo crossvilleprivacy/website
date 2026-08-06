@@ -2140,6 +2140,61 @@ th {
   border-width: 12px 0 12px 18px;
 }
 
+/* Facebook reel: link-out facade (no FB contact until click) */
+.video-facade-facebook {
+  text-decoration: none;
+  color: inherit;
+}
+
+.video-poster-copy {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  padding: 1.1rem 1rem 1.25rem;
+  background:
+    linear-gradient(180deg, rgba(15, 23, 42, 0.35) 0%, rgba(15, 23, 42, 0.88) 72%),
+    radial-gradient(ellipse at 30% 20%, #1e3a5f 0%, #0f172a 55%);
+  color: #f8fafc;
+}
+
+.video-poster-kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 650;
+  color: #93c5fd;
+}
+
+.video-poster-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.25;
+  max-width: 16rem;
+}
+
+.video-poster-sub {
+  font-size: 0.88rem;
+  line-height: 1.35;
+  color: #cbd5e1;
+  max-width: 18rem;
+}
+
+.video-play-facebook {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(24, 119, 242, 0.95);
+}
+
+.video-play-facebook:before {
+  left: 24px;
+  top: 20px;
+  border-width: 12px 0 12px 18px;
+}
+
 .video-facade:hover .video-play,
 .video-facade:focus-visible .video-play {
   background: var(--accent);
@@ -2148,6 +2203,11 @@ th {
 .video-facade:hover .video-play-rumble,
 .video-facade:focus-visible .video-play-rumble {
   background: #6fad32;
+}
+
+.video-facade:hover .video-play-facebook,
+.video-facade:focus-visible .video-play-facebook {
+  background: #166fe5;
 }
 
 .video-facade:focus-visible {

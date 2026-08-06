@@ -618,6 +618,71 @@
     return { nextWork: nextWork, nextCouncil: nextCouncil };
   }
 
+  function loadYouTubeFacade(btn) {
+    var id = btn.getAttribute("data-youtube-id");
+    if (!id) return;
+    var title = btn.getAttribute("data-youtube-title") || "YouTube video";
+    var watch = "https://www.youtube.com/watch?v=" + id;
+    // Local file previews cannot send an HTTP Referer: YouTube returns Error 153.
+    if (typeof location !== "undefined" && location.protocol === "file:") {
+      window.open(watch, "_blank", "noopener");
+      return;
+    }
+    var iframe = document.createElement("iframe");
+    iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0";
+    iframe.title = title;
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("loading", "eager");
+    btn.replaceWith(iframe);
+  }
+
+  function loadRumbleFacade(btn) {
+    var id = btn.getAttribute("data-rumble-id");
+    if (!id) return;
+    var title = btn.getAttribute("data-rumble-title") || "Rumble video";
+    var figure = btn.closest ? btn.closest("figure") : null;
+    var captionLink = figure ? figure.querySelector("figcaption a") : null;
+    var watch = (captionLink && captionLink.href) || "https://rumble.com/embed/" + id + "/";
+    if (typeof location !== "undefined" && location.protocol === "file:") {
+      window.open(watch, "_blank", "noopener");
+      return;
+    }
+    var iframe = document.createElement("iframe");
+    iframe.src = "https://rumble.com/embed/" + id + "/";
+    iframe.title = title;
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("scrolling", "no");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("loading", "eager");
+    btn.replaceWith(iframe);
+  }
+
+  /**
+   * Click-to-load YouTube / Rumble facades. Facebook reel cards use plain links
+   * (no third-party contact until the visitor leaves for Facebook).
+   */
+  function initVideoFacades(doc) {
+    doc = doc || document;
+    var buttons = doc.querySelectorAll("button.video-facade");
+    for (var i = 0; i < buttons.length; i++) {
+      (function (btn) {
+        if (btn.getAttribute("data-video-bound") === "1") return;
+        btn.setAttribute("data-video-bound", "1");
+        btn.addEventListener("click", function () {
+          if (btn.getAttribute("data-rumble-id")) {
+            loadRumbleFacade(btn);
+          } else if (btn.getAttribute("data-youtube-id")) {
+            loadYouTubeFacade(btn);
+          }
+        });
+      })(buttons[i]);
+    }
+    return { count: buttons.length };
+  }
+
   function init(doc) {
     doc = doc || document;
     applyShortMailtos(doc);
@@ -629,6 +694,7 @@
     initNewsGeoFilters(doc);
     initSpeechPicker(doc);
     fillCouncilMeetingNext(doc);
+    initVideoFacades(doc);
   }
 
   function initSpeechPicker(doc) {
@@ -797,6 +863,7 @@
     initSpeechPicker: initSpeechPicker,
     fillCouncilMeetingNext: fillCouncilMeetingNext,
     nextNthWeekdayMeeting: nextNthWeekdayMeeting,
+    initVideoFacades: initVideoFacades,
     init: init,
   };
 });
