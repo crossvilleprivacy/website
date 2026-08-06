@@ -1,16 +1,16 @@
 {
   "title": "Flock Municipal Cancellations & Non-Renewals Database",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-05",
+  "compiled": "2026-08-06",
   "scope_note": "Includes municipal/agency actions ending or pausing Flock use. Does not claim a complete national census. Aggregator tallies (e.g. ~82 contracts across 28 states Aug 2021 to May 2026 per SF Standard / Ban Flock Cameras) are larger than this verified dossier. Private/HOA Flock cameras may remain after a city contract ends.",
   "source_files": {
     "xlsx": "Flock_Municipal_Cancellations_Database.xlsx",
     "pdf": "Flock_Municipal_Cancellations_Database.pdf"
   },
   "summary": {
-    "records_in_dossier": 54,
-    "spotlight_count": 14,
-    "public_backlash_cited_count": 42,
+    "records_in_dossier": 59,
+    "spotlight_count": 16,
+    "public_backlash_cited_count": 47,
     "headline_aggregator_claims": {
       "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021 to May 2026); 39 in Jan to May 2026",
       "npr_feb_2026": "At least ~30 localities deactivated cameras or canceled contracts since early 2025"
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "The 54 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 54-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified.",
+    "citation_hygiene": "The 59 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 59-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 48; the other 11 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -905,6 +905,86 @@
       "Secondary_Source_URL": "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "Campus ALPR continues under Genetec; Flock exit is a network-isolation choice, not a plate-scanner ban."
+    },
+    {
+      "Case_ID": "CAN-2026-055",
+      "Jurisdiction": "Pinal County",
+      "State": "AZ",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-05",
+      "Camera_Count": null,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Fourth Amendment concerns; Sheriff non-renewal; Privacy / mass-surveillance risk",
+      "Summary": "Pinal County Sheriff Ross Teeple told the Board of Supervisors on August 5, 2026 he will not renew the sheriff’s office Flock Safety contract when it expires at the end of September, citing serious Fourth Amendment concerns about the technology whether or not the county uses every feature. Teeple had defended the cameras at a 2025 town hall. Cities and towns inside the county that run their own Flock programs are not bound by the sheriff’s decision. Decommissioning was expected as the contract lapses.",
+      "Primary_Source_URL": "https://www.azfamily.com/2026/08/06/pinal-county-chooses-not-renew-flock-camera-contract/",
+      "Secondary_Source_URL": "https://www.fox10phoenix.com/news/pinal-county-sheriff-pulls-plug-flock-license-plate-cameras-he-once-praised",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Sheriff’s office cameras only; municipal Flock programs inside Pinal County may continue. Hardware removal timing after September lapse still TBD."
+    },
+    {
+      "Case_ID": "CAN-2026-056",
+      "Jurisdiction": "South Tucson",
+      "State": "AZ",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-02-17",
+      "Camera_Count": null,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Privacy / mass-surveillance concerns; Data-sharing concerns",
+      "Summary": "South Tucson City Council voted February 17, 2026 to cancel its Flock Safety contract after months of resident opposition organized in part by Deflock Tucson, making South Tucson the third Arizona city in that reporting wave after Flagstaff and Sedona. Officials later explored alternative surveillance options while police said losing the tool affected investigations.",
+      "Primary_Source_URL": "https://www.tucsonspotlight.org/south-tucson-ends-flock-camera-contract/",
+      "Secondary_Source_URL": "https://www.kgun9.com/news/community-inspired-journalism/south-tucson/south-tucson-ends-flock-camera-contract-city-now-searching-for-alternatives",
+      "Verification_Status": "Verified local/primary",
+      "Incomplete_Exit_Notes": "Council explored replacement surveillance vendors after the Flock exit."
+    },
+    {
+      "Case_ID": "CAN-2026-057",
+      "Jurisdiction": "Sierra Vista",
+      "State": "AZ",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-04-02",
+      "Camera_Count": 16,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Data ownership / AI training concerns; Vendor swap planned",
+      "Summary": "Sierra Vista City Council directed staff in a February 24, 2026 work session to end the Flock contract (30-day notice); city officials said the agreement was officially terminated April 2, 2026. About 16 grant-funded plate readers had been purchased for police. Residents and Cochise County Supervisor Frank Antenori raised concerns about Flock owning image rights and AI use. Cameras remained mounted but offline pending Flock removal; the city planned to seek another ALPR vendor with the same grant funds.",
+      "Primary_Source_URL": "https://www.kgun9.com/news/community-inspired-journalism/cochise-county/sierra-vista-ends-contract-with-flock",
+      "Secondary_Source_URL": null,
+      "Verification_Status": "Verified local/primary",
+      "Incomplete_Exit_Notes": "Hardware still up but not operational pending vendor removal; city shopping replacement ALPR."
+    },
+    {
+      "Case_ID": "CAN-2026-058",
+      "Jurisdiction": "Albany",
+      "State": "OR",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-05-28",
+      "Camera_Count": 1,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Federal access / privacy concerns; Early termination fee",
+      "Summary": "Albany City Council voted 4-2 on May 27–28, 2026 to end its Flock Safety contract after earlier suspending the city’s single active downtown camera in February over federal-access concerns. The camera was stolen after power-down. Formal termination was effective June 29; early exit cost about $7,000 per city manager reporting. Plans for three additional cameras were dropped.",
+      "Primary_Source_URL": "https://www.klcc.org/politics-government/2026-05-28/albany-city-council-decides-against-reactivating-flock-camera",
+      "Secondary_Source_URL": "https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Only one camera had been deployed of four purchased; stolen after February suspension."
+    },
+    {
+      "Case_ID": "CAN-2026-059",
+      "Jurisdiction": "Chandler",
+      "State": "AZ",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-08",
+      "Camera_Count": null,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Renewal delay; Privacy / ordinance campaign",
+      "Summary": "Chandler City Council delayed a decision on renewing its about $153,000 Flock Safety contract until its August 13, 2026 meeting amid resident opposition organized by East Valley Unite and related advocacy. FOX 10 / AZFamily reporting on the Pinal County non-renewal wave noted Chandler’s delay alongside Flagstaff, Sedona, and South Tucson exits. Not a cancel—a delayed renewal under public pressure.",
+      "Primary_Source_URL": "https://www.fox10phoenix.com/news/pinal-county-sheriff-pulls-plug-flock-license-plate-cameras-he-once-praised",
+      "Secondary_Source_URL": "https://www.azcentral.com/story/news/politics/arizona/2026/07/08/flock-cameras-raise-privacy-safety-concerns-in-arizona/90841857007/",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Cameras still in use pending Aug. 13 renewal vote; not a termination."
     }
   ]
 }

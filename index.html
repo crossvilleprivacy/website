@@ -404,7 +404,7 @@
         <span class="section-label">Nationwide · not Crossville</span>
         <h2 id="national-tally-heading">National dossier tallies</h2>
         <p>These counts come from this site’s <strong>nationwide</strong> case databases, not Crossville’s local camera program. They show the pattern other cities already documented: officer misuse, personal lookups, charges, lawsuits, settlements, and municipal exits.</p>
-        <div class="dossier-tally-stack" aria-label="National dossier tallies as of August 5, 2026">
+        <div class="dossier-tally-stack" aria-label="National dossier tallies as of August 6, 2026">
           <div>
             <span class="dossier-tally-row-label">Officer misuse &amp; fallout</span>
             <div class="stats dossier-tally row-misuse" role="group" aria-label="Officer misuse and fallout tallies">
@@ -442,13 +442,13 @@
                 <span class="cap">Settlements awarded (documented)</span>
               </div>
               <div class="stat">
-                <span class="num"><a href="national.html#cancellations">44</a></span>
+                <span class="num"><a href="national.html#cancellations">48</a></span>
                 <span class="cap">Municipalities that ended Flock</span>
               </div>
             </div>
           </div>
         </div>
-        <p class="dossier-tally-note">Case records as of <time datetime="2026-08-05">Aug. 5, 2026</time>, not unique people. The lookup total is a <strong>minimum known</strong> figure from only the 13 cases that publish search counts (most do not). <strong>24</strong> wrongful-stop suits are separate from <strong>4</strong> constitutional / program challenges (Norfolk, Wichita, Boulder, Huntington). Settlements sum to <strong>$3.68M</strong> across 12 paid wrongful-stop cases. <strong>44</strong> clear municipal exits; full cancel dossier has <strong>54</strong> records.
+        <p class="dossier-tally-note">Case records as of <time datetime="2026-08-06">Aug. 6, 2026</time>, not unique people. The lookup total is a <strong>minimum known</strong> figure from only the 13 cases that publish search counts (most do not). <strong>24</strong> wrongful-stop suits are separate from <strong>4</strong> constitutional / program challenges (Norfolk, Wichita, Boulder, Huntington). Settlements sum to <strong>$3.68M</strong> across 12 paid wrongful-stop cases. <strong>48</strong> clear municipal exits; full cancel dossier has <strong>59</strong> records.
           <a href="national.html#dossier-tally">Full methodology on the National page</a>
           · <a href="national.html">National cases</a>.</p>
       </div>
@@ -486,6 +486,48 @@
         <p class="note news-geo-empty" data-news-geo-empty hidden>No stories in this geography yet. Try All, Tennessee, or National.</p>
 
         <ul class="recent-news-list">
+          <li data-geo="national">
+            <time datetime="2026-08-06">August 6, 2026</time>
+            <div>
+              <a href="national.html#pinal-cancel">Pinal County, AZ: sheriff will not renew Flock over Fourth Amendment concerns</a>
+              <span class="note">Contract ends September; U-turn from 2025 praise; city programs inside county unaffected.</span>
+            </div>
+          </li>
+          <li data-geo="national">
+            <time datetime="2026-08-05">August 5, 2026</time>
+            <div>
+              <a href="national.html#chandler-flock-delay">Chandler, AZ: ~$153k Flock renewal delayed to Aug. 13</a>
+              <span class="note">Resident campaign; part of Arizona cancel / delay wave with Pinal, South Tucson, Sierra Vista.</span>
+            </div>
+          </li>
+          <li data-geo="national">
+            <time datetime="2026-07-30">July 30, 2026</time>
+            <div>
+              <a href="national.html#idaho-ai-training">Idaho Falls amends Flock contract to ban AI training on local plate data</a>
+              <span class="note">Twin Falls / Idaho Falls tort claims; Nationwide Lookup turned off in Twin Falls.</span>
+            </div>
+          </li>
+          <li data-geo="national">
+            <time datetime="2026-05-28">May 28, 2026</time>
+            <div>
+              <a href="national.html#albany-or-cancel">Albany, OR: council ends Flock; early exit ~$7,000</a>
+              <span class="note">After February federal-access suspension; only downtown camera had been live (later stolen).</span>
+            </div>
+          </li>
+          <li data-geo="national">
+            <time datetime="2026-04-02">April 2, 2026</time>
+            <div>
+              <a href="national.html#sierra-vista-cancel">Sierra Vista, AZ: terminates Flock (~16 cameras); seeking replacement ALPR</a>
+              <span class="note">Hardware still mounted but offline; data-ownership / AI concerns.</span>
+            </div>
+          </li>
+          <li data-geo="national">
+            <time datetime="2026-02-17">February 17, 2026</time>
+            <div>
+              <a href="national.html#south-tucson-cancel">South Tucson, AZ: council cancels Flock after resident pushback</a>
+              <span class="note">Third Arizona city in that wave after Flagstaff and Sedona.</span>
+            </div>
+          </li>
           <li data-geo="national">
             <time datetime="2026-08-04">August 4, 2026</time>
             <div>
@@ -2199,7 +2241,7 @@ Thank you for your time and for a clear written response.</pre>
             banner.classList.add("is-passed");
             if (status) {
               status.textContent =
-                "Aug 11 meeting time has arrived — keep pressing cancel and don’t renew before the late-August renewal window (quote anniversary Aug 26).";
+                "Aug 11 meeting time has arrived - keep pressing cancel and don’t renew before the late-August renewal window (quote anniversary Aug 26).";
             }
             Object.keys(units).forEach(function (k) {
               if (units[k]) units[k].textContent = "00";
@@ -2225,7 +2267,7 @@ Thank you for your time and for a clear written response.</pre>
               days +
               " day" +
               (days === 1 ? "" : "s") +
-              " left until Aug 11 — the last City Council meeting before renewal. Show up and tell them don’t renew the subscription and remove the cameras.";
+              " left until Aug 11 - the last City Council meeting before renewal. Show up and tell them don’t renew the subscription and remove the cameras.";
           }
           syncStickyOffsets();
         }
@@ -2373,7 +2415,7 @@ Thank you for your time and for a clear written response.</pre>
               })
               .join(" · ");
         }
-        // Banner phase focuses on Aug 11 council only — do not append work sessions (e.g. Sept 1).
+        // Banner phase focuses on Aug 11 council only - do not append work sessions (e.g. Sept 1).
         if (bannerMeetings && nextCouncil) {
           bannerMeetings.textContent =
             " · " + formatMeetingOrd(nextCouncil, "6 PM");
