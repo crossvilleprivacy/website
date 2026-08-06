@@ -19,7 +19,7 @@
       }
     ],
     "kpi_overview": {
-      "TOTAL_UNIQUE_CASES": 52,
+      "TOTAL_UNIQUE_CASES": 53,
       "STATES_REPRESENTED": 18,
       "PRIMARY_ABUSE_TYPE": "Romantic Stalking",
       "TIME_SPAN_COVERED": "2020 - 2026",
@@ -27,27 +27,27 @@
       "YEAR_DEFINITION": "Year (and Case_ID year prefix) is the canonical chronology key for this database: the year assigned when the case was first catalogued, usually the year of public disclosure, charging, or Case_ID issuance. It is NOT always identical to the year the underlying ALPR queries occurred. Use Incident_Year for the abuse/window year and Resolution_Year for arrest / plea / conviction / termination when known.",
       "PERCENT_ROUNDING_NOTE": "Percentages shown to 1 decimal place; largest share adjusted so category/year/state/outcome tables sum to 100.0%.",
       "PUBLIC_FLOCK_CONFIRMED_CASES": 50,
-      "PUBLIC_OTHER_OR_UNCONFIRMED_ALPR": 2,
+      "PUBLIC_OTHER_OR_UNCONFIRMED_ALPR": 3,
       "AGGREGATOR_ALIGNED_STATUS_COUNT": 11
     },
     "incidents_by_misuse_category": [
       {
         "Misuse_Abuse_Category": "Romantic Stalking",
         "Cases": 13,
-        "Percent_of_Total_Display": "25.5%",
-        "Percent_of_Total": 0.255
+        "Percent_of_Total_Display": "24.2%",
+        "Percent_of_Total": 0.245
       },
       {
         "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-        "Cases": 12,
-        "Percent_of_Total_Display": "23.1%",
-        "Percent_of_Total": 0.231
+        "Cases": 13,
+        "Percent_of_Total_Display": "24.5%",
+        "Percent_of_Total": 0.245
       },
       {
         "Misuse_Abuse_Category": "Domestic Stalking",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.8%",
-        "Percent_of_Total": 0.058
+        "Percent_of_Total_Display": "5.7%",
+        "Percent_of_Total": 0.057
       },
       {
         "Misuse_Abuse_Category": "Co-worker Stalking / Harassment",
@@ -171,28 +171,28 @@
       }
     ],
     "incidents_by_misuse_category_total": {
-      "Cases": 52,
+      "Cases": 53,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
     "incidents_by_year": [
       {
         "Year": 2026,
-        "Cases": 30,
-        "Percent_of_Total_Display": "57.9%",
-        "Percent_of_Total": 0.579
+        "Cases": 31,
+        "Percent_of_Total_Display": "58.4%",
+        "Percent_of_Total": 0.585
       },
       {
         "Year": 2025,
         "Cases": 10,
-        "Percent_of_Total_Display": "19.2%",
-        "Percent_of_Total": 0.192
+        "Percent_of_Total_Display": "18.9%",
+        "Percent_of_Total": 0.189
       },
       {
         "Year": 2024,
         "Cases": 6,
-        "Percent_of_Total_Display": "11.5%",
-        "Percent_of_Total": 0.115
+        "Percent_of_Total_Display": "11.3%",
+        "Percent_of_Total": 0.113
       },
       {
         "Year": 2020,
@@ -220,52 +220,52 @@
       }
     ],
     "incidents_by_year_total": {
-      "Cases": 52,
+      "Cases": 53,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
     "geographic_distribution_by_state": [
       {
         "State": "GA",
-        "Cases": 15,
-        "Percent_of_Total_Display": "29.1%",
-        "Percent_of_Total": 0.291
+        "Cases": 16,
+        "Percent_of_Total_Display": "30.0%",
+        "Percent_of_Total": 0.302
       },
       {
         "State": "CA",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.5%",
-        "Percent_of_Total": 0.115
+        "Percent_of_Total_Display": "11.3%",
+        "Percent_of_Total": 0.113
       },
       {
         "State": "FL",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.7%",
-        "Percent_of_Total": 0.077
+        "Percent_of_Total_Display": "7.5%",
+        "Percent_of_Total": 0.075
       },
       {
         "State": "KS",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.7%",
-        "Percent_of_Total": 0.077
+        "Percent_of_Total_Display": "7.5%",
+        "Percent_of_Total": 0.075
       },
       {
         "State": "CO",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.8%",
-        "Percent_of_Total": 0.058
+        "Percent_of_Total_Display": "5.7%",
+        "Percent_of_Total": 0.057
       },
       {
         "State": "TX",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.8%",
-        "Percent_of_Total": 0.058
+        "Percent_of_Total_Display": "5.7%",
+        "Percent_of_Total": 0.057
       },
       {
         "State": "WI",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.8%",
-        "Percent_of_Total": 0.058
+        "Percent_of_Total_Display": "5.7%",
+        "Percent_of_Total": 0.057
       },
       {
         "State": "IL",
@@ -407,12 +407,12 @@
       "Percent_of_Total": 1.0
     },
     "vendor_confirmation_split": {
-      "flock_named_or_flock_alpr_rows": 44,
-      "other_or_unconfirmed_alpr_rows": 2,
+      "flock_named_or_flock_alpr_rows": 50,
+      "other_or_unconfirmed_alpr_rows": 3,
       "note": "Do not publish TOTAL_UNIQUE_CASES as “Flock-only.” Some rows are ALPR generally or explicitly “Flock not confirmed.” Aggregator-aligned rows have URLs but are secondary."
     },
     "geographic_distribution_by_state_total": {
-      "Cases": 52,
+      "Cases": 53,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
@@ -420,32 +420,38 @@
       {
         "Outcome_Bucket": "Terminated / Resigned & Criminally Charged",
         "Cases": 18,
-        "Percent_of_Total_Display": "34.8%",
-        "Percent_of_Total": 0.348
+        "Percent_of_Total_Display": "33.9%",
+        "Percent_of_Total": 0.34
       },
       {
         "Outcome_Bucket": "Criminally Charged / Indicted",
         "Cases": 9,
-        "Percent_of_Total_Display": "17.3%",
-        "Percent_of_Total": 0.173
+        "Percent_of_Total_Display": "17.0%",
+        "Percent_of_Total": 0.17
       },
       {
         "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)",
         "Cases": 9,
-        "Percent_of_Total_Display": "17.3%",
-        "Percent_of_Total": 0.173
+        "Percent_of_Total_Display": "17.0%",
+        "Percent_of_Total": 0.17
       },
       {
         "Outcome_Bucket": "Internal Disciplinary Action / Other",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.5%",
-        "Percent_of_Total": 0.115
+        "Percent_of_Total_Display": "11.3%",
+        "Percent_of_Total": 0.113
       },
       {
         "Outcome_Bucket": "Civil Lawsuit / Settlement / Dismissed Stop",
         "Cases": 5,
-        "Percent_of_Total_Display": "9.6%",
-        "Percent_of_Total": 0.096
+        "Percent_of_Total_Display": "9.4%",
+        "Percent_of_Total": 0.094
+      },
+      {
+        "Outcome_Bucket": "Under Investigation / Pending",
+        "Cases": 2,
+        "Percent_of_Total_Display": "3.8%",
+        "Percent_of_Total": 0.038
       },
       {
         "Outcome_Bucket": "Released / No Charges: Documented False Stop",
@@ -470,16 +476,10 @@
         "Cases": 1,
         "Percent_of_Total_Display": "1.9%",
         "Percent_of_Total": 0.019
-      },
-      {
-        "Outcome_Bucket": "Under Investigation / Pending",
-        "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
       }
     ],
     "incidents_by_outcome_bucket_total": {
-      "Cases": 52,
+      "Cases": 53,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     }
@@ -1576,28 +1576,42 @@
       "Resolution_Year": 2026,
       "Year_Note": "Resignations and GBI referral announced Aug. 4, 2026.",
       "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)"
+    },
+    {
+      "Case_ID": "FLK-2026-031",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Bibb County Sheriff’s Office",
+      "Subject_Officer_Involved": "Deputies under review (unnamed; three flagged queries)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+      "Documented_Search_Count_Frequency": "Three separate queries flagged by monthly audit algorithm",
+      "Detailed_Summary": "On August 3–4, 2026, the Bibb County Sheriff’s Office said its routine monthly Flock audit returned three separate queries flagged as problematic by Flock’s auditing algorithm. Internal Affairs is reviewing whether any deputies violated policy. Officials said no deputies had been terminated or placed on administrative leave, but those under review had Flock access suspended pending the outcome. The agency said it would publicly disclose confirmed findings of misuse when investigations finish. Allegations under investigation, not findings of guilt.",
+      "Discovery_Method": "Monthly agency Flock audit / Audit Assistance algorithm",
+      "Outcome_Disciplinary_Action": "Internal Affairs investigations open; Flock access suspended for deputies under review; no firings or leave announced as of Aug. 3–4 reporting.",
+      "Reference_Source": "Georgia Public Broadcasting; WGXA; Macon Telegraph; 41NBC",
+      "Source_URL": "https://www.gpb.org/news/2026/08/04/bibb-county-sheriffs-office-launches-investigation-for-potential-misuse-of-flock",
+      "Verification_Status": "Verified",
+      "Verification_Notes": "Agency statement carried by GPB / WGXA / Macon Telegraph / 41NBC; names and query details withheld; investigations active.",
+      "Incident_Year": 2026,
+      "Resolution_Year": null,
+      "Year_Note": "Investigations announced Aug. 3–4, 2026; outcomes pending.",
+      "Outcome_Bucket": "Under Investigation / Pending"
     }
   ],
   "meta": {
-    "verified_incident_count": 52,
-    "generated_on": "2026-08-05",
+    "verified_incident_count": 53,
+    "generated_on": "2026-08-06",
     "sheets": [
       "Verified Incidents"
     ],
     "last_source_addition": {
-      "source": "national.html / tennessee.html early-August 2026 panels",
+      "source": "GPB / WGXA / Macon Telegraph Bibb County Flock investigation",
       "added_case_ids": [
-        "FLK-2026-025",
-        "FLK-2026-026",
-        "FLK-2026-027",
-        "FLK-2026-028",
-        "FLK-2026-029",
-        "FLK-2026-030"
+        "FLK-2026-031"
       ],
-      "updated_case_ids": [
-        "FLK-2026-018"
-      ],
-      "note": "Synced Fort Bend, Savannah, Charlotte/Elliott, Reynoldsburg, Habersham/Brewer, Coweta resignations; Baytown resignation update."
+      "updated_case_ids": [],
+      "note": "Added Bibb County Sheriff’s Office Internal Affairs review of three audit-flagged Flock queries; access suspended, outcomes pending."
     }
   }
 }
