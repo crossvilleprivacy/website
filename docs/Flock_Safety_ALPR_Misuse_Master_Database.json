@@ -23,7 +23,7 @@
       "STATES_REPRESENTED": 18,
       "PRIMARY_ABUSE_TYPE": "Romantic Stalking",
       "TIME_SPAN_COVERED": "2020 - 2026",
-      "DEDUPLICATION_NOTE": "Corpus is N=39 unique cases. Removed FLK-2024-031 as duplicate of FLK-2026-011.",
+      "DEDUPLICATION_NOTE": "Corpus is N=54 unique cases. Removed FLK-2024-031 as duplicate of FLK-2026-011.",
       "YEAR_DEFINITION": "Year (and Case_ID year prefix) is the canonical chronology key for this database: the year assigned when the case was first catalogued, usually the year of public disclosure, charging, or Case_ID issuance. It is NOT always identical to the year the underlying ALPR queries occurred. Use Incident_Year for the abuse/window year and Resolution_Year for arrest / plea / conviction / termination when known.",
       "PERCENT_ROUNDING_NOTE": "Percentages shown to 1 decimal place; largest share adjusted so category/year/state/outcome tables sum to 100.0%.",
       "PUBLIC_FLOCK_CONFIRMED_CASES": 52,

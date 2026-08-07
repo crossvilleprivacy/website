@@ -8,9 +8,9 @@
     "pdf": "Flock_Municipal_Cancellations_Database.pdf"
   },
   "summary": {
-    "records_in_dossier": 61,
-    "spotlight_count": 17,
-    "public_backlash_cited_count": 48,
+    "records_in_dossier": 64,
+    "spotlight_count": 19,
+    "public_backlash_cited_count": 51,
     "headline_aggregator_claims": {
       "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021 to May 2026); 39 in Jan to May 2026",
       "npr_feb_2026": "At least ~30 localities deactivated cameras or canceled contracts since early 2025"
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "The 61 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 61-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 49; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
+    "citation_hygiene": "The 64 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 64-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 52; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -363,6 +363,22 @@
       "Incomplete_Exit_Notes": null
     },
     {
+      "Case_ID": "CAN-2025-040",
+      "Jurisdiction": "Charlottesville",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2025-12",
+      "Camera_Count": null,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Regional Virginia cancel wave",
+      "Summary": "Charlottesville terminated its Flock contract in December 2025. Later Shenandoah / central Virginia coverage (including Harrisonburg’s July 2026 cancel) cites Charlottesville alongside Staunton as earlier exits in the same regional wave.",
+      "Primary_Source_URL": "https://www.dnronline.com/news/public_safety/harrisonburg-city-council-votes-to-cancel-flock-camera-contract/article_e96103ea-5a30-5d31-9d9c-3198e8ae5c9e.html",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified secondary press",
+      "Incomplete_Exit_Notes": "Date and exit confirmed in later regional reporting tied to Harrisonburg coverage; add a Charlottesville-primary URL when one is catalogued."
+    },
+    {
       "Case_ID": "CAN-2026-001",
       "Jurisdiction": "Oshkosh",
       "State": "WI",
@@ -670,14 +686,14 @@
       "Case_ID": "CAN-2026-040",
       "Jurisdiction": "El Cerrito",
       "State": "CA",
-      "Action_Type": "Terminated",
-      "Action_Date": "2026",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-05",
       "Camera_Count": null,
-      "Spotlight": "N",
+      "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Bay Area cancel wave; Sanctuary / privacy climate",
-      "Summary": "SF Standard reports El Cerrito ended its contract in the Bay Area wave (Mountain View, Santa Cruz, Campbell, Los Altos Hills, Santa Clara County).",
-      "Primary_Source_URL": "https://sfstandard.com/2026/05/11/flock-safety-berkeley-sanctuary-city-contract/",
+      "Primary_Reasons": "Unauthorized federal access; Public backlash; Sanctuary / privacy climate",
+      "Summary": "El Cerrito council voted in May 2026 not to renew after federal agencies accessed data from about 40 cameras without local police knowledge. The contract expired June 6; cameras were supposed to be offline, but residents flagged a unit still flickering. KALW reported July 31, 2026 that police began physically removing cameras; Flock told the city removal would run through about August 18.",
+      "Primary_Source_URL": "https://ccpulse.org/2026/05/07/el-cerrito-becomes-first-in-county-to-drop-flock-after-unauthorized-searches/",
       "Secondary_Source_URL": "https://www.kalw.org/bay-area-news/2026-07-31/el-cerrito-begins-removing-flock-cameras",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "Contract expired June 6, 2026 after May non-renewal. KALW reported July 31, 2026 that police began physically removing cameras; Flock told the city removal would run through about August 18. Residents had flagged units still flickering after supposed offline date."
@@ -1017,6 +1033,38 @@
       "Secondary_Source_URL": "https://news.wfsu.org/wfsu-local-news/2026-07-14/leon-commissioners-pass-data-center-moratorium-block-flock-camera-grant-funding",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "Rejects regional expansion grant funding, not removal of existing Leon County cameras; September 2026 authority/workshop follow-up pending."
+    },
+    {
+      "Case_ID": "CAN-2026-062",
+      "Jurisdiction": "Syracuse",
+      "State": "NY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-07",
+      "Camera_Count": 13,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Data-sharing controversies; Public backlash; Vendor swap (Axon)",
+      "Summary": "After data-sharing controversies, Syracuse Common Council moved to end Flock on city streets and approved a multi-year Axon plate-reader contract. By mid-July 2026, Flock confirmed its 13 city-approved readers were removed from city property. Axon cameras were expected afterward: a vendor swap, not an end to mass plate scanning. Separate university / private Flock installs can remain.",
+      "Primary_Source_URL": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/07/23/all-flock-cameras-in-syracuse-have-been-removed",
+      "Secondary_Source_URL": "https://centralcurrent.org/flock-safety-removes-its-license-plate-readers-finalizing-eight-month-breakup-with-city-of-syracuse/",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "City property Flock removed; Axon replacement approved. Private / university Flock units may remain. Not a ban on ALPR."
+    },
+    {
+      "Case_ID": "CAN-2026-063",
+      "Jurisdiction": "Grand Chute",
+      "State": "WI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026",
+      "Camera_Count": 23,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Privacy concerns; Vendor swap (Axon)",
+      "Summary": "Grand Chute’s board canceled its Flock contract and signed an Axon camera agreement the same night. Reporting says about 23 cameras stay in place for a swap targeted around September 1: another Flock-to-Axon vendor swap, not an end to plate scanning.",
+      "Primary_Source_URL": "https://fox11online.com/news/local/grand-chute-cancels-flock-contract-signs-camera-agreement-with-new-company-axon-safety-privacy",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Flock exit with same-night Axon replacement; cameras remain for swap. Not a ban on ALPR."
     }
   ]
 }
