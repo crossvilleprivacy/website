@@ -1,0 +1,37 @@
+---
+description: Website edits must sync downloadable dossiers and sources.html in the same task
+alwaysApply: true
+---
+
+# Website changes require downloadables + sources
+
+Any modification to the **live site** (`*.html`, linked `docs/*`, speech PDFs, evidence assets, tallies, Case_ID cites) is incomplete until the matching **downloadables** and the **master sources list** are updated in the **same task**. Do not ship HTML-only drift.
+
+## Required in the same task
+
+1. **Downloadables** — if the change adds/updates/removes a story that belongs in a dossier, edit JSON then regenerate XLSX + PDF:
+   - Officer misuse / stalking / firings / charges → `docs/Flock_Safety_ALPR_Misuse_Master_Database.{json,xlsx,pdf}`
+   - City/agency cancel, non-renew, rescind, pause, remove → `docs/Flock_Municipal_Cancellations_Database.{json,xlsx,pdf}`
+   - Wrongful stop / false arrest / FRT-ALPR damages → `docs/AI_Wrongful_Enforcement_Database.{json,xlsx,pdf}`
+   - Other downloadables referenced on the page (speech PDFs, liability report, etc.) when those files changed
+2. **On-page tallies** — as-of dates, Case_ID cites, and dossier counters must match the JSON after export
+3. **`sources.html`** — every new/changed external citation and every new/changed on-site distributable or evidence still must appear in the bibliography (see `keep-sources-synced.mdc`)
+
+## Finish checklist
+
+- [ ] Dossier JSON + exports updated (or explicitly N/A with reason)
+- [ ] HTML tallies / Case_ID cites match JSON
+- [ ] `sources.html` updated (or explicitly N/A with reason)
+- [ ] Reply notes what was synced
+
+## Exceptions (say so explicitly)
+
+- Pure typography / CSS / layout with no new facts or links
+- Pure legislation / bills / hearings with no misuse, cancel, or wrongful-stop record (still update `sources.html` if you added citation URLs)
+- Secondary overviews that only link existing Case_IDs (still sync `sources.html` for any new URLs)
+
+## Do not
+
+- Commit news panels without the matching dossier row/export when the story belongs in a dossier
+- Leave `sources.html` stale after adding cites or downloadables
+- Treat PDF/Excel as hand-edited sources of truth (edit JSON, then export)

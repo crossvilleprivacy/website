@@ -1,0 +1,39 @@
+---
+description: Keep dossier JSON/PDF/Excel synced when adding news stories
+alwaysApply: true
+---
+
+# Sync downloadables when adding news
+
+**Parent gate:** also follow `sync-site-downloadables-and-sources.mdc` (website edits require downloadables + sources in the same task).
+
+Whenever you look up news and add stories to the site (`national.html`, `index.html`, `tennessee.html`, `sources.html`, etc.), **also update and regenerate the matching downloadable dossiers in the same task**. HTML and dossiers must not drift.
+
+## Map story → dossier
+
+| News type | Update |
+|---|---|
+| Officer misuse / stalking / firings / charges | `docs/Flock_Safety_ALPR_Misuse_Master_Database.{json,xlsx,pdf}` |
+| City/agency cancel, non-renew, rescind, pause, remove | `docs/Flock_Municipal_Cancellations_Database.{json,xlsx,pdf}` |
+| Wrongful stop / false arrest / FRT-ALPR damages | `docs/AI_Wrongful_Enforcement_Database.{json,xlsx,pdf}` |
+
+JSON is the source of truth. After editing JSON (or upserting via `docs/export_case_databases.py` when that script covers the case), regenerate matching Excel and PDF exports.
+
+## Checklist before finishing a news batch
+
+1. Add/update Case_ID rows in the right JSON (new IDs continue the series; update existing rows when a story develops).
+2. Regenerate XLSX + PDF for every dossier you touched.
+3. Update on-page as-of counts, Case_ID cites, and dossier tally counters so they match the JSON.
+4. Note in the PR/commit or reply which dossiers were synced (or explicitly say a story was HTML-only and why, e.g. legislation with no dossier row).
+
+## Do not
+
+- Ship news panels that belong in a dossier without the JSON/export update
+- Leave “as of” counts or tallies pointing at stale dossier totals
+- Treat PDF/Excel as hand-edited sources of truth (edit JSON, then export)
+
+## Exceptions (say so explicitly)
+
+- Pure legislation / bills / hearings with no misuse, cancel, or wrongful-stop record
+- Secondary overviews that only link existing Case_IDs
+- Wrongful-enforcement exports if that dossier was intentionally left unsynced this batch (say so and list the gap)

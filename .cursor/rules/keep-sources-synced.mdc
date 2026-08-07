@@ -1,0 +1,40 @@
+---
+description: Keep sources.html bibliography synced with every site citation and distributable
+alwaysApply: true
+---
+
+# Keep sources.html up to date
+
+**Parent gate:** also follow `sync-site-downloadables-and-sources.mdc` (website edits require downloadables + sources in the same task).
+
+Whenever you add, update, or remove **news stories, citations, dossiers, patents, speech visuals, or other distributables** on this site, **update `sources.html` in the same task**. The bibliography and the pages that cite sources must not drift.
+
+## What belongs in sources.html
+
+| Kind | Where in sources |
+|---|---|
+| External article / court / gov / vendor URL used on any `*.html` page | Matching topic panel (National liability, Tennessee, open-streams, patent, CEO, etc.) or main bibliography |
+| On-site PDFs / XLSX / JSON dossiers | **On-site primary documents** (+ topic panel if relevant) |
+| Local evidence stills shown on dossier pages or used as speech visuals (Condor, patent pages, Oshkosh exhibit) | Matching topic panel (open-streams, patent, National / CEO) with asset path links |
+| Council speech catalog / PDF set | On-site primary documents → speech picker / `docs/speeches/` / `Council_Speeches_3min.json` |
+
+## Checklist before finishing a content change
+
+1. Diff new `https://` links on touched pages against `sources.html`.
+2. If you added `docs/*` or `assets/flock-*` / `assets/speech-visuals/*` exhibits, list them (or the parent folder + key files) under On-site primary documents or the topic panel.
+3. Prefer primary URLs already cited on the page; do not invent secondary sources just to pad the bibliography.
+4. Note in the reply that sources were synced (or explicitly say a link was intentionally omitted and why).
+
+## OK to omit (say so if relevant)
+
+- Pure navigation / contact portals (city email forms, “find your representative”, Maps deep-links for meeting addresses)
+- Shopping links for consumer doorbells / cameras on fight/printables how-tos
+- Share-button endpoints and video thumbnail CDNs
+- `*-print.jpg` crops when the matching full PNG is already listed
+- Dossier-internal Case_ID URLs already covered by the JSON/PDF bibliography footnote
+
+## Do not
+
+- Ship new national/TN/Flock dossier cites without a sources.html entry
+- Leave patent / Condor / Oshkosh exhibit assets used in speeches unlisted when they are primary evidence
+- Treat printables flyer PDFs as a sources gap if they are already catalogued on `printables.html` (optional cross-link is fine)

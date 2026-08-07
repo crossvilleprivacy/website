@@ -42,7 +42,10 @@ docs/flock_safety_alpr_misuse_master_database.xlsx
 *.swp
 .idea/
 .vscode/
-.cursor/
+# Cursor local state — track rules so both machines share them via GitHub
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
 
 # --- local tooling / hooks (never publish) ---
 .githooks/
