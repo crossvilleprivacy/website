@@ -188,8 +188,8 @@
       "pdf": "docs/speeches/Council_Speech_beyond-plates_b.pdf",
       "visuals": [
         {
-          "href": "assets/flock-oshkosh-heatmap-lie.png",
-          "label": "Oshkosh, WI (Apr 2026): heat-map denial at council, then rescinded 7\u20130"
+          "href": "assets/speech-visuals/cancel-oshkosh.png",
+          "label": "Cancellations database CAN-2026-001: Oshkosh rescinded after Flock misrepresented heat-map capability to council."
         },
         {
           "href": "assets/flock-patent-US11416545-fig5a.png",
@@ -396,23 +396,35 @@
       "id": "ceo-a",
       "perspective": "ceo",
       "variant": "A",
-      "title": "Do not renew with a vendor that smears privacy as terrorism",
-      "focus_note": "Langley / DeFlock / Staunton, VA",
+      "title": "Do not renew with a vendor that misleads councils",
+      "focus_note": "Oshkosh heat-map misrepresentation + Langley / Staunton",
       "opening": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.",
-      "body": "I want to talk about the company Crossville is paying, and about what its CEO has said about people who ask questions.\n\nIn a Forbes interview, Flock CEO Garrett Langley described DeFlock, volunteers who map publicly visible camera locations, as a \"terroristic organization,\" saying they are closer to Antifa than to lawful advocacy. Mapping tax-funded cameras is not terrorism. It is transparency. Forbes later reported that he apologized for labeling activists terrorists. The quote still tells you how this vendor views public oversight.\n\nSeparately, reporting documented inaccurate public remarks about federal access. The company later walked those remarks back as poor communication. Customer emails also cast public-records requests as a \"weapon,\" and critics as people who want to \"normalize lawlessness.\" Staunton, VA, cancelled Flock after Police Chief Jim Williams called resident questions \"democracy in action\" and the city said the CEO's narrative did not reflect its values.\n\nCrossville should not keep paying a company that talks about residents that way. When this city signs with Flock, it chooses a vendor that has treated public questions as a threat. A CEO who likens transparency activists to terrorists is showing you how Crossville residents are viewed by a company with massive amounts of data about them. Do not spend local tax dollars on that.",
+      "body": "I want to talk about the company Crossville is paying, and whether that company tells city councils the truth.\n\nIn April 2026, Oshkosh, Wisconsin, asked Flock in open meeting whether the system creates a heat map of a vehicle's movement. Flock's chief information security officer said no, that is not available. The next morning, Police Chief Dean Smith said the system does create heat maps. Council rescinded the contract the same day, seven to zero. The ACLU later put Oshkosh in a July 2026 report on Flock misleading councils and the public. Flock called the dispute a \"minor nuance.\"\n\nThat is not the only trust problem. In a Forbes interview, CEO Garrett Langley described DeFlock, volunteers who map publicly visible camera locations, as a \"terroristic organization,\" closer to Antifa than to lawful advocacy. Mapping tax-funded cameras is not terrorism. It is transparency. Forbes later reported that he apologized. The quote still shows how this vendor views oversight.\n\nReporting also documented inaccurate public remarks about federal access that the company later walked back as poor communication. Customer emails cast public-records requests as a \"weapon\" and critics as people who want to \"normalize lawlessness.\" Staunton, VA, cancelled after Police Chief Jim Williams called resident questions \"democracy in action\" and the city said the CEO's narrative did not reflect its values.\n\nCrossville should not keep paying a vendor that misstates capabilities to a city council and treats public questions as a threat.",
       "ask": "My ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
-      "full_text": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.\n\nI want to talk about the company Crossville is paying, and about what its CEO has said about people who ask questions.\n\nIn a Forbes interview, Flock CEO Garrett Langley described DeFlock, volunteers who map publicly visible camera locations, as a \"terroristic organization,\" saying they are closer to Antifa than to lawful advocacy. Mapping tax-funded cameras is not terrorism. It is transparency. Forbes later reported that he apologized for labeling activists terrorists. The quote still tells you how this vendor views public oversight.\n\nSeparately, reporting documented inaccurate public remarks about federal access. The company later walked those remarks back as poor communication. Customer emails also cast public-records requests as a \"weapon,\" and critics as people who want to \"normalize lawlessness.\" Staunton, VA, cancelled Flock after Police Chief Jim Williams called resident questions \"democracy in action\" and the city said the CEO's narrative did not reflect its values.\n\nCrossville should not keep paying a company that talks about residents that way. When this city signs with Flock, it chooses a vendor that has treated public questions as a threat. A CEO who likens transparency activists to terrorists is showing you how Crossville residents are viewed by a company with massive amounts of data about them. Do not spend local tax dollars on that.\n\nMy ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
-      "word_count": 296,
+      "full_text": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.\n\nI want to talk about the company Crossville is paying, and whether that company tells city councils the truth.\n\nIn April 2026, Oshkosh, Wisconsin, asked Flock in open meeting whether the system creates a heat map of a vehicle's movement. Flock's chief information security officer said no, that is not available. The next morning, Police Chief Dean Smith said the system does create heat maps. Council rescinded the contract the same day, seven to zero. The ACLU later put Oshkosh in a July 2026 report on Flock misleading councils and the public. Flock called the dispute a \"minor nuance.\"\n\nThat is not the only trust problem. In a Forbes interview, CEO Garrett Langley described DeFlock, volunteers who map publicly visible camera locations, as a \"terroristic organization,\" closer to Antifa than to lawful advocacy. Mapping tax-funded cameras is not terrorism. It is transparency. Forbes later reported that he apologized. The quote still shows how this vendor views oversight.\n\nReporting also documented inaccurate public remarks about federal access that the company later walked back as poor communication. Customer emails cast public-records requests as a \"weapon\" and critics as people who want to \"normalize lawlessness.\" Staunton, VA, cancelled after Police Chief Jim Williams called resident questions \"democracy in action\" and the city said the CEO's narrative did not reflect its values.\n\nCrossville should not keep paying a vendor that misstates capabilities to a city council and treats public questions as a threat.\n\nMy ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
+      "word_count": 323,
       "pdf": "docs/speeches/Council_Speech_ceo_a.pdf",
-      "approx_minutes": 2.1,
+      "approx_minutes": 2.3,
       "visuals": [
         {
-          "href": "assets/speech-visuals/cancel-staunton.png",
-          "label": "Cancellations database: Staunton, VA terminated after CEO email conflicted with city values."
+          "href": "assets/speech-visuals/cancel-oshkosh.png",
+          "label": "Cancellations database CAN-2026-001: Oshkosh rescinded after Flock misrepresented heat-map capability to council."
         },
         {
-          "href": "assets/flock-oshkosh-heatmap-lie.png",
-          "label": "Oshkosh, WI: Flock denied heat maps in open council, then the contract was rescinded 7\u20130."
+          "href": "assets/speech-visuals/cancel-staunton.png",
+          "label": "Cancellations database CAN-2025-003: Staunton terminated after CEO email conflicted with city values."
+        },
+        {
+          "href": "docs/Flock_Municipal_Cancellations_Database.pdf",
+          "label": "Full municipal cancellations database PDF"
+        },
+        {
+          "href": "https://www.postcrescent.com/story/news/local/oshkosh/2026/04/22/oshkosh-rescinds-flock-safety-contract-after-police-chief-raises-concerns/89745485007/",
+          "label": "Post-Crescent: Oshkosh rescinds after chief trust concerns"
+        },
+        {
+          "href": "https://www.wbay.com/2026/04/23/oshkosh-council-rescinds-flock-camera-contract-after-false-statements/",
+          "label": "WBAY: Oshkosh rescinds after false statements"
         }
       ]
     },
@@ -420,23 +432,31 @@
       "id": "ceo-b",
       "perspective": "ceo",
       "variant": "B",
-      "title": "Who you buy from matters",
-      "focus_note": "FOIA hostility and terroristic comments",
+      "title": "They lied to a city council. Do not renew on trust",
+      "focus_note": "Oshkosh council heat-map denial + FOIA hostility / terroristic comments",
       "opening": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.",
-      "body": "Who you buy from matters, not just the camera hardware.\n\nFlock's CEO has a public record residents can read. In August 2025, the company admitted that some remarks about federal access were inaccurate. Later comments treated FOIA and public-records requests as a coordinated attack. The CEO also likened people who map publicly visible cameras to a terroristic or Antifa-style threat. That is not how a trustworthy public contractor talks about citizens.\n\nStaunton, VA, cancelled after that fight over values. Other cities have walked away over transparency fights and CEO messaging. Crossville does not need to wait for our own scandal to notice the pattern.\n\nI support the police and fully acknowledge how difficult their job is. I do not support paying a company that paints oversight as extremism. Crossville should also ask whether the vendor is truthful and accurate about federal access, respects public-records requests, and treats residents as citizens rather than enemies. On those measures, the public record is bad enough.",
+      "body": "Who you buy from matters, not just the camera hardware.\n\nStart with a concrete lie to a city council. In Oshkosh, Wisconsin, in April 2026, a council member asked whether Flock creates a heat map of a vehicle's movement. Flock's chief information security officer said no, that is not available. The next morning the police chief confirmed the system does create heat maps. Council rescinded seven to zero. The ACLU later cited Oshkosh in a report on Flock repeatedly misleading governments. Flock called it a \"minor nuance.\"\n\nThe CEO record matches that pattern of hostility to oversight. Public remarks about federal access had to be walked back. Customer messaging cast FOIA and public-records requests as a coordinated attack. In a Forbes interview, Garrett Langley likened people who map publicly visible cameras to a terroristic or Antifa-style threat. Staunton, VA, cancelled after that fight over values.\n\nI support the police. I do not support paying a company that understates what the product can do when councils ask, then attacks residents who ask hard questions. Crossville does not need to wait for our own Oshkosh moment.",
       "ask": "My ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
-      "full_text": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.\n\nWho you buy from matters, not just the camera hardware.\n\nFlock's CEO has a public record residents can read. In August 2025, the company admitted that some remarks about federal access were inaccurate. Later comments treated FOIA and public-records requests as a coordinated attack. The CEO also likened people who map publicly visible cameras to a terroristic or Antifa-style threat. That is not how a trustworthy public contractor talks about citizens.\n\nStaunton, VA, cancelled after that fight over values. Other cities have walked away over transparency fights and CEO messaging. Crossville does not need to wait for our own scandal to notice the pattern.\n\nI support the police and fully acknowledge how difficult their job is. I do not support paying a company that paints oversight as extremism. Crossville should also ask whether the vendor is truthful and accurate about federal access, respects public-records requests, and treats residents as citizens rather than enemies. On those measures, the public record is bad enough.\n\nMy ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
-      "word_count": 246,
+      "full_text": "Mayor Crawford, members of City Council. My name is [Your Name], and I live in Crossville.\n\nWho you buy from matters, not just the camera hardware.\n\nStart with a concrete lie to a city council. In Oshkosh, Wisconsin, in April 2026, a council member asked whether Flock creates a heat map of a vehicle's movement. Flock's chief information security officer said no, that is not available. The next morning the police chief confirmed the system does create heat maps. Council rescinded seven to zero. The ACLU later cited Oshkosh in a report on Flock repeatedly misleading governments. Flock called it a \"minor nuance.\"\n\nThe CEO record matches that pattern of hostility to oversight. Public remarks about federal access had to be walked back. Customer messaging cast FOIA and public-records requests as a coordinated attack. In a Forbes interview, Garrett Langley likened people who map publicly visible cameras to a terroristic or Antifa-style threat. Staunton, VA, cancelled after that fight over values.\n\nI support the police. I do not support paying a company that understates what the product can do when councils ask, then attacks residents who ask hard questions. Crossville does not need to wait for our own Oshkosh moment.\n\nMy ask is clear. Cancel Crossville's Flock contract and remove the cameras. Require a public hearing and a recorded City Council vote before any surveillance equipment is ever proposed again. If you will not cancel yet, take a recorded yes-or-no vote each year before any renewal, with no automatic renewal that skips a public vote, and publish monthly use reports the public can check. Thank you. I yield.",
+      "word_count": 268,
       "pdf": "docs/speeches/Council_Speech_ceo_b.pdf",
-      "approx_minutes": 1.8,
+      "approx_minutes": 1.9,
       "visuals": [
         {
-          "href": "assets/flock-oshkosh-heatmap-lie.png",
-          "label": "Oshkosh, WI: Flock\u2019s public heat-map denial versus the next-day rescind vote."
+          "href": "assets/speech-visuals/cancel-oshkosh.png",
+          "label": "Cancellations database CAN-2026-001: Oshkosh rescinded after Flock misrepresented heat-map capability to council."
         },
         {
           "href": "assets/speech-visuals/cancel-staunton.png",
-          "label": "Staunton, VA cancel record citing the CEO email and city values."
+          "label": "Cancellations database CAN-2025-003: Staunton terminated after CEO email conflicted with city values."
+        },
+        {
+          "href": "docs/Flock_Municipal_Cancellations_Database.pdf",
+          "label": "Full municipal cancellations database PDF"
+        },
+        {
+          "href": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country",
+          "label": "ACLU: Flock credibility lost / lies to city councils"
         }
       ]
     },
