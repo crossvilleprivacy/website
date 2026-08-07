@@ -19,59 +19,59 @@
       }
     ],
     "kpi_overview": {
-      "TOTAL_UNIQUE_CASES": 53,
+      "TOTAL_UNIQUE_CASES": 54,
       "STATES_REPRESENTED": 18,
       "PRIMARY_ABUSE_TYPE": "Romantic Stalking",
       "TIME_SPAN_COVERED": "2020 - 2026",
       "DEDUPLICATION_NOTE": "Corpus is N=39 unique cases. Removed FLK-2024-031 as duplicate of FLK-2026-011.",
       "YEAR_DEFINITION": "Year (and Case_ID year prefix) is the canonical chronology key for this database: the year assigned when the case was first catalogued, usually the year of public disclosure, charging, or Case_ID issuance. It is NOT always identical to the year the underlying ALPR queries occurred. Use Incident_Year for the abuse/window year and Resolution_Year for arrest / plea / conviction / termination when known.",
       "PERCENT_ROUNDING_NOTE": "Percentages shown to 1 decimal place; largest share adjusted so category/year/state/outcome tables sum to 100.0%.",
-      "PUBLIC_FLOCK_CONFIRMED_CASES": 50,
-      "PUBLIC_OTHER_OR_UNCONFIRMED_ALPR": 3,
+      "PUBLIC_FLOCK_CONFIRMED_CASES": 52,
+      "PUBLIC_OTHER_OR_UNCONFIRMED_ALPR": 2,
       "AGGREGATOR_ALIGNED_STATUS_COUNT": 11
     },
     "incidents_by_misuse_category": [
       {
         "Misuse_Abuse_Category": "Romantic Stalking",
-        "Cases": 13,
-        "Percent_of_Total_Display": "24.2%",
-        "Percent_of_Total": 0.245
+        "Cases": 14,
+        "Percent_of_Total_Display": "25.1%",
+        "Percent_of_Total": 0.251
       },
       {
         "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
         "Cases": 13,
-        "Percent_of_Total_Display": "24.5%",
-        "Percent_of_Total": 0.245
+        "Percent_of_Total_Display": "24.1%",
+        "Percent_of_Total": 0.241
       },
       {
         "Misuse_Abuse_Category": "Domestic Stalking",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.7%",
-        "Percent_of_Total": 0.057
+        "Percent_of_Total_Display": "5.6%",
+        "Percent_of_Total": 0.056
       },
       {
         "Misuse_Abuse_Category": "Co-worker Stalking / Harassment",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / Gunpoint Detention",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / Wrongful Stop",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Misuse_Abuse_Category": "Personal Tracking / Stalking",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Misuse_Abuse_Category": "Conflict of Interest / Unauthorized Search",
@@ -171,40 +171,40 @@
       }
     ],
     "incidents_by_misuse_category_total": {
-      "Cases": 53,
+      "Cases": 54,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
     "incidents_by_year": [
       {
         "Year": 2026,
-        "Cases": 31,
-        "Percent_of_Total_Display": "58.4%",
-        "Percent_of_Total": 0.585
+        "Cases": 32,
+        "Percent_of_Total_Display": "59.2%",
+        "Percent_of_Total": 0.592
       },
       {
         "Year": 2025,
         "Cases": 10,
-        "Percent_of_Total_Display": "18.9%",
-        "Percent_of_Total": 0.189
+        "Percent_of_Total_Display": "18.5%",
+        "Percent_of_Total": 0.185
       },
       {
         "Year": 2024,
         "Cases": 6,
-        "Percent_of_Total_Display": "11.3%",
-        "Percent_of_Total": 0.113
+        "Percent_of_Total_Display": "11.1%",
+        "Percent_of_Total": 0.111
       },
       {
         "Year": 2020,
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Year": 2023,
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Year": 2021,
@@ -220,7 +220,7 @@
       }
     ],
     "incidents_by_year_total": {
-      "Cases": 53,
+      "Cases": 54,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
@@ -228,62 +228,68 @@
       {
         "State": "GA",
         "Cases": 16,
-        "Percent_of_Total_Display": "30.0%",
-        "Percent_of_Total": 0.302
+        "Percent_of_Total_Display": "29.2%",
+        "Percent_of_Total": 0.292
       },
       {
         "State": "CA",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.3%",
-        "Percent_of_Total": 0.113
+        "Percent_of_Total_Display": "11.1%",
+        "Percent_of_Total": 0.111
       },
       {
         "State": "FL",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.5%",
-        "Percent_of_Total": 0.075
+        "Percent_of_Total_Display": "7.4%",
+        "Percent_of_Total": 0.074
       },
       {
         "State": "KS",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.5%",
-        "Percent_of_Total": 0.075
+        "Percent_of_Total_Display": "7.4%",
+        "Percent_of_Total": 0.074
       },
       {
         "State": "CO",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.7%",
-        "Percent_of_Total": 0.057
+        "Percent_of_Total_Display": "5.6%",
+        "Percent_of_Total": 0.056
       },
       {
         "State": "TX",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.7%",
-        "Percent_of_Total": 0.057
+        "Percent_of_Total_Display": "5.6%",
+        "Percent_of_Total": 0.056
       },
       {
         "State": "WI",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.7%",
-        "Percent_of_Total": 0.057
+        "Percent_of_Total_Display": "5.6%",
+        "Percent_of_Total": 0.056
       },
       {
         "State": "IL",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
+      },
+      {
+        "State": "NC",
+        "Cases": 2,
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "State": "SC",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "State": "TN",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "State": "AR",
@@ -305,12 +311,6 @@
       },
       {
         "State": "MO",
-        "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
-      },
-      {
-        "State": "NC",
         "Cases": 1,
         "Percent_of_Total_Display": "1.9%",
         "Percent_of_Total": 0.019
@@ -412,7 +412,7 @@
       "note": "Do not publish TOTAL_UNIQUE_CASES as “Flock-only.” Some rows are ALPR generally or explicitly “Flock not confirmed.” Aggregator-aligned rows have URLs but are secondary."
     },
     "geographic_distribution_by_state_total": {
-      "Cases": 53,
+      "Cases": 54,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
@@ -420,38 +420,38 @@
       {
         "Outcome_Bucket": "Terminated / Resigned & Criminally Charged",
         "Cases": 18,
-        "Percent_of_Total_Display": "33.9%",
-        "Percent_of_Total": 0.34
+        "Percent_of_Total_Display": "33.1%",
+        "Percent_of_Total": 0.331
       },
       {
         "Outcome_Bucket": "Criminally Charged / Indicted",
-        "Cases": 9,
-        "Percent_of_Total_Display": "17.0%",
-        "Percent_of_Total": 0.17
+        "Cases": 10,
+        "Percent_of_Total_Display": "18.5%",
+        "Percent_of_Total": 0.185
       },
       {
         "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)",
         "Cases": 9,
-        "Percent_of_Total_Display": "17.0%",
-        "Percent_of_Total": 0.17
+        "Percent_of_Total_Display": "16.7%",
+        "Percent_of_Total": 0.167
       },
       {
         "Outcome_Bucket": "Internal Disciplinary Action / Other",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.3%",
-        "Percent_of_Total": 0.113
+        "Percent_of_Total_Display": "11.1%",
+        "Percent_of_Total": 0.111
       },
       {
         "Outcome_Bucket": "Civil Lawsuit / Settlement / Dismissed Stop",
         "Cases": 5,
-        "Percent_of_Total_Display": "9.4%",
-        "Percent_of_Total": 0.094
+        "Percent_of_Total_Display": "9.3%",
+        "Percent_of_Total": 0.093
       },
       {
         "Outcome_Bucket": "Under Investigation / Pending",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.8%",
-        "Percent_of_Total": 0.038
+        "Percent_of_Total_Display": "3.7%",
+        "Percent_of_Total": 0.037
       },
       {
         "Outcome_Bucket": "Released / No Charges: Documented False Stop",
@@ -479,7 +479,7 @@
       }
     ],
     "incidents_by_outcome_bucket_total": {
-      "Cases": 53,
+      "Cases": 54,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     }
@@ -1597,21 +1597,42 @@
       "Resolution_Year": null,
       "Year_Note": "Investigations announced Aug. 3–4, 2026; outcomes pending.",
       "Outcome_Bucket": "Under Investigation / Pending"
+    },
+    {
+      "Case_ID": "FLK-2026-032",
+      "Year": 2026,
+      "State": "NC",
+      "Agency_Jurisdiction": "Mooresville Police Department",
+      "Subject_Officer_Involved": "Officer Elizabeth Anne Snowman",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Romantic Stalking",
+      "Documented_Search_Count_Frequency": "31 alleged Flock searches (chief stated; some off-duty)",
+      "Detailed_Summary": "Mooresville Police Chief Ron Campurciani said a Flock audit found Officer Elizabeth Anne Snowman accessed the LPR system 31 times to track her boyfriend’s ex-wife, including at least two off-duty accesses. Most searches allegedly listed motor-vehicle infractions as the reason. Snowman, 36, was arrested Aug. 5, 2026, and charged with misdemeanor accessing computers (N.C.G.S. 14-454). The chief said the department will require case numbers on future Flock searches and that other officers were under review. Employment status was mixed in early reporting (still employed pending HR vs. some accounts calling her former). Allegations and charging documents as reported, not a finding of guilt.",
+      "Discovery_Method": "Internal monthly Flock audit; chief press conference; arrest warrant",
+      "Outcome_Disciplinary_Action": "Arrested and charged Aug. 5, 2026 (misdemeanor accessing computers); $5,000 bond; court appearance set Aug. 27 in early reporting; employment disposition pending / mixed in same-day coverage.",
+      "Reference_Source": "ABC News; WSOC; Spectrum News; WCCB Charlotte",
+      "Source_URL": "https://abcnews.com/US/officer-allegedly-flock-license-plate-cameras-track-boyfriends/story?id=135418955",
+      "Verification_Status": "Verified",
+      "Verification_Notes": "Chief Campurciani public statements and warrant coverage Aug. 5–6, 2026 across ABC / WSOC / Spectrum / WCCB. Same misdemeanor computer-access charge family as CMPD Elliott.",
+      "Incident_Year": 2026,
+      "Resolution_Year": null,
+      "Year_Note": "Arrest/charge announced Aug. 5, 2026; disposition pending.",
+      "Outcome_Bucket": "Criminally Charged / Indicted"
     }
   ],
   "meta": {
-    "verified_incident_count": 53,
+    "verified_incident_count": 54,
     "generated_on": "2026-08-06",
     "sheets": [
       "Verified Incidents"
     ],
     "last_source_addition": {
-      "source": "GPB / WGXA / Macon Telegraph Bibb County Flock investigation",
+      "source": "ABC News / WSOC / Spectrum / WCCB Mooresville Flock misuse arrest",
       "added_case_ids": [
-        "FLK-2026-031"
+        "FLK-2026-032"
       ],
       "updated_case_ids": [],
-      "note": "Added Bibb County Sheriff’s Office Internal Affairs review of three audit-flagged Flock queries; access suspended, outcomes pending."
+      "note": "Added Mooresville PD Officer Elizabeth Anne Snowman: 31 alleged personal Flock searches of boyfriend’s ex-wife; arrested Aug. 5, 2026."
     }
   }
 }
