@@ -419,15 +419,15 @@
     "incidents_by_outcome_bucket": [
       {
         "Outcome_Bucket": "Terminated / Resigned & Criminally Charged",
-        "Cases": 18,
-        "Percent_of_Total_Display": "33.1%",
-        "Percent_of_Total": 0.331
+        "Cases": 19,
+        "Percent_of_Total_Display": "34.9%",
+        "Percent_of_Total": 0.349
       },
       {
         "Outcome_Bucket": "Criminally Charged / Indicted",
-        "Cases": 10,
-        "Percent_of_Total_Display": "18.5%",
-        "Percent_of_Total": 0.185
+        "Cases": 9,
+        "Percent_of_Total_Display": "16.7%",
+        "Percent_of_Total": 0.167
       },
       {
         "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)",
@@ -721,20 +721,20 @@
       "Year": 2024,
       "State": "FL",
       "Agency_Jurisdiction": "Niceville Police Department",
-      "Subject_Officer_Involved": "Former Officer Coty Hall",
+      "Subject_Officer_Involved": "Former Officer Coty Wayne Hall",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Co-worker Stalking / Harassment",
-      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
-      "Detailed_Summary": "Officer Hall utilized the department's Flock camera network to unlawfully track the personal driving routes and movements of a fellow police officer and that officer's spouse.",
-      "Discovery_Method": "Internal department audit and complaint",
-      "Outcome_Disciplinary_Action": "Pleaded no contest to criminal charges; fired from the police department following arrest.",
-      "Reference_Source": "Institute for Justice / Florida Court Records",
-      "Source_URL": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/",
+      "Documented_Search_Count_Frequency": "About 192 alleged Flock searches",
+      "Detailed_Summary": "Niceville Officer Coty Wayne Hall was arrested Oct. 10, 2025 after an internal audit (Jan.–Oct. 2025) found unauthorized database and Flock ALPR searches used to track and harass a fellow officer and that officer’s spouse. Reporting cites about 192 inappropriate Flock searches and access to other restricted systems. The city fired Hall. Under an April 20, 2026 plea recommendation he pleaded no contest to amended computer-access and related charges; the court withheld adjudication and imposed about 11 months of probation, community service, and a permanent no-contact order (Mid Bay News).",
+      "Discovery_Method": "Internal department audit after concerns about database misuse",
+      "Outcome_Disciplinary_Action": "Fired after Oct. 2025 arrest; April 2026 no-contest plea; probation / withheld adjudication reported.",
+      "Reference_Source": "Mid Bay News; R News / affidavit reporting; Washington Post / DNYUZ roundup",
+      "Source_URL": "https://midbaynews.com/post/former-niceville-cop-no-contest-in-flock-stalking-case",
       "Verification_Status": "Verified",
-      "Verification_Notes": "IJ: Niceville Officer Coty Hall; Flock tracking of coworker+spouse; pleaded no contest; fired (arrest ~Oct 2025).",
-      "Incident_Year": 2024,
-      "Resolution_Year": 2025,
-      "Year_Note": "Misuse discovery/ID year 2024; arrest ~Oct 2025 then plea / termination.",
+      "Verification_Notes": "Arrest Oct 2025; Mid Bay plea writeup cites April 20, 2026 sentence recommendation; ~192 searches in WaPo-syndicated roundup.",
+      "Incident_Year": "2025",
+      "Resolution_Year": 2026,
+      "Year_Note": "Misuse window 2025; Case_ID year 2024 catalog vintage; plea April 2026.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     },
     {
@@ -784,20 +784,20 @@
       "Year": 2025,
       "State": "GA",
       "Agency_Jurisdiction": "Coffee County Sheriff's Office",
-      "Subject_Officer_Involved": "Former Deputy Chris Rozar",
+      "Subject_Officer_Involved": "Former Deputy Chris Ashley Rozar",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking",
-      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
-      "Detailed_Summary": "Deputy Rozar utilized the department's Flock Safety ALPR database to monitor the movements of a woman he was romantically interested in, tracking her vehicle locations without her consent or any active criminal case.",
-      "Discovery_Method": "Victim complaint and subsequent internal investigation",
-      "Outcome_Disciplinary_Action": "Fired from the department at the onset of the investigation; criminally charged with multiple offenses.",
-      "Reference_Source": "Atlanta Journal-Constitution / Institute for Justice",
-      "Source_URL": "https://www.ajc.com/news/2026/06/georgia-officers-misuse-license-plate-reader-databases-can-they-be-stopped/",
+      "Documented_Search_Count_Frequency": "Multiple Flock / tag-reader / GCIC lookups alleged (counts not fully public)",
+      "Detailed_Summary": "Coffee County Deputy Chris Ashley Rozar was terminated when a GBI investigation began after a woman alleged stalking (~2024). Court records summarized by WALB say he improperly used the sheriff’s Flock camera and tag-reader system plus GCIC for personal tracking (incidents alleged around April–May 2024). On May 5, 2026, after a Coffee County grand jury indictment, he was arrested on eight counts including violation of oath, computer invasion of privacy, prohibited use of captured license plate data, and stalking.",
+      "Discovery_Method": "Victim complaint; former sheriff requested independent GBI investigation",
+      "Outcome_Disciplinary_Action": "Fired at investigation onset (~2024); arrested May 5, 2026 on multi-count indictment; case pending.",
+      "Reference_Source": "Coffee County Sheriff’s Office press; WALB; Douglas Now",
+      "Source_URL": "https://www.coffeesheriffga.gov/press/chris-ahsley-rozar",
       "Verification_Status": "Verified",
-      "Verification_Notes": "IJ/AJC: Coffee County former Dep. Chris Rozar charged after Flock stalking of romantic interest; fired.",
-      "Incident_Year": 2025,
+      "Verification_Notes": "Agency press + WALB May 5–8 2026 detail Flock/tag-reader misuse and indictment.",
+      "Incident_Year": "2024",
       "Resolution_Year": null,
-      "Year_Note": "",
+      "Year_Note": "Misuse alleged 2024; Case_ID 2025; arrest/indictment May 2026.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     },
     {
@@ -1603,36 +1603,43 @@
       "Year": 2026,
       "State": "NC",
       "Agency_Jurisdiction": "Mooresville Police Department",
-      "Subject_Officer_Involved": "Officer Elizabeth Anne Snowman",
+      "Subject_Officer_Involved": "Former Officer Elizabeth Anne Snowman (plus ~10 other officers under review)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking",
       "Documented_Search_Count_Frequency": "31 alleged Flock searches (chief stated; some off-duty)",
-      "Detailed_Summary": "Mooresville Police Chief Ron Campurciani said a Flock audit found Officer Elizabeth Anne Snowman accessed the LPR system 31 times to track her boyfriend’s ex-wife, including at least two off-duty accesses. Most searches allegedly listed motor-vehicle infractions as the reason. Snowman, 36, was arrested Aug. 5, 2026, and charged with misdemeanor accessing computers (N.C.G.S. 14-454). The chief said the department will require case numbers on future Flock searches and that other officers were under review. Employment status was mixed in early reporting (still employed pending HR vs. some accounts calling her former). Allegations and charging documents as reported, not a finding of guilt.",
+      "Detailed_Summary": "Mooresville Police Chief Ron Campurciani said a Flock audit found Officer Elizabeth Anne Snowman accessed the LPR system 31 times to track her boyfriend’s ex-wife, including at least two off-duty accesses. Most searches allegedly listed motor-vehicle infractions as the reason. Snowman, 36, was arrested Aug. 5, 2026, and charged with misdemeanor accessing computers. The chief said the audit flagged about 11 officers’ activity and that roughly 10 other cases were under review (about three described as more serious), with possible additional charges. Same-week reporting described Snowman as no longer with MPD. Department will require case numbers on future Flock searches. Allegations pending for others.",
       "Discovery_Method": "Internal monthly Flock audit; chief press conference; arrest warrant",
-      "Outcome_Disciplinary_Action": "Arrested and charged Aug. 5, 2026 (misdemeanor accessing computers); $5,000 bond; court appearance set Aug. 27 in early reporting; employment disposition pending / mixed in same-day coverage.",
-      "Reference_Source": "ABC News; WSOC; Spectrum News; WCCB Charlotte",
+      "Outcome_Disciplinary_Action": "Arrested and charged Aug. 5, 2026; reporting describes her as former MPD; ~10 additional officers under review; case-number rule announced.",
+      "Reference_Source": "ABC News; WSOC; Spectrum News; WCCB; WHKY; WFAE",
       "Source_URL": "https://abcnews.com/US/officer-allegedly-flock-license-plate-cameras-track-boyfriends/story?id=135418955",
       "Verification_Status": "Verified",
-      "Verification_Notes": "Chief Campurciani public statements and warrant coverage Aug. 5–6, 2026 across ABC / WSOC / Spectrum / WCCB. Same misdemeanor computer-access charge family as CMPD Elliott.",
+      "Verification_Notes": "Chief statements Aug 5–6 2026; WHKY notes 11 officers flagged; WSOC says no longer with MPD.",
       "Incident_Year": 2026,
-      "Resolution_Year": null,
-      "Year_Note": "Arrest/charge announced Aug. 5, 2026; disposition pending.",
-      "Outcome_Bucket": "Criminally Charged / Indicted"
+      "Resolution_Year": 2026,
+      "Year_Note": "Arrest Aug. 5, 2026; employment fallout reported same week; probe of others ongoing.",
+      "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
     }
   ],
   "meta": {
     "verified_incident_count": 54,
-    "generated_on": "2026-08-06",
+    "generated_on": "2026-08-07",
     "sheets": [
       "Verified Incidents"
     ],
     "last_source_addition": {
-      "source": "ABC News / WSOC / Spectrum / WCCB Mooresville Flock misuse arrest",
+      "source": "national.html / tennessee.html early-August 2026 panels",
       "added_case_ids": [
-        "FLK-2026-032"
+        "FLK-2026-025",
+        "FLK-2026-026",
+        "FLK-2026-027",
+        "FLK-2026-028",
+        "FLK-2026-029",
+        "FLK-2026-030"
       ],
-      "updated_case_ids": [],
-      "note": "Added Mooresville PD Officer Elizabeth Anne Snowman: 31 alleged personal Flock searches of boyfriend’s ex-wife; arrested Aug. 5, 2026."
+      "updated_case_ids": [
+        "FLK-2026-018"
+      ],
+      "note": "Synced Fort Bend, Savannah, Charlotte/Elliott, Reynoldsburg, Habersham/Brewer, Coweta resignations; Baytown resignation update."
     }
   }
 }

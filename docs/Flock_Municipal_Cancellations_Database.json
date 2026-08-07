@@ -1,16 +1,16 @@
 {
   "title": "Flock Municipal Cancellations & Non-Renewals Database",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-06",
+  "compiled": "2026-08-07",
   "scope_note": "Includes municipal/agency actions ending or pausing Flock use. Does not claim a complete national census. Aggregator tallies (e.g. ~82 contracts across 28 states Aug 2021 to May 2026 per SF Standard / Ban Flock Cameras) are larger than this verified dossier. Private/HOA Flock cameras may remain after a city contract ends.",
   "source_files": {
     "xlsx": "Flock_Municipal_Cancellations_Database.xlsx",
     "pdf": "Flock_Municipal_Cancellations_Database.pdf"
   },
   "summary": {
-    "records_in_dossier": 60,
-    "spotlight_count": 16,
-    "public_backlash_cited_count": 47,
+    "records_in_dossier": 61,
+    "spotlight_count": 17,
+    "public_backlash_cited_count": 48,
     "headline_aggregator_claims": {
       "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021 to May 2026); 39 in Jan to May 2026",
       "npr_feb_2026": "At least ~30 localities deactivated cameras or canceled contracts since early 2025"
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "The 60 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 60-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 48; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
+    "citation_hygiene": "The 61 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 61-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 49; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -1001,6 +1001,22 @@
       "Secondary_Source_URL": "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "Temporary suspension pending complete internal audit; agency had not announced when or whether cameras would return as of July 24, 2026 reporting. Related misuse row: FLK-2026-020."
+    },
+    {
+      "Case_ID": "CAN-2026-061",
+      "Jurisdiction": "Leon County",
+      "State": "FL",
+      "Action_Type": "Pre-install cancel",
+      "Action_Date": "2026-07-14",
+      "Camera_Count": null,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Privacy / surveillance concerns; Regional grant reject",
+      "Summary": "Leon County Commission on July 14, 2026 unanimously stripped about $440,000 in regional public-safety grant funding that would have expanded Flock ALPRs in neighboring Wakulla, Jefferson, Liberty, and Taylor counties (pass-through via Leon County Sheriff’s Office). Commissioners approved other grant items, directed a September workshop on county authority to regulate or ban ALPRs locally, after packed public comment opposing surveillance expansion.",
+      "Primary_Source_URL": "https://www.tallahassee.com/story/news/local/2026/07/16/leon-county-rejects-grants-for-flock-license-plate-readers/90930124007/",
+      "Secondary_Source_URL": "https://news.wfsu.org/wfsu-local-news/2026-07-14/leon-commissioners-pass-data-center-moratorium-block-flock-camera-grant-funding",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Rejects regional expansion grant funding, not removal of existing Leon County cameras; September 2026 authority/workshop follow-up pending."
     }
   ]
 }
