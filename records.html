@@ -37,6 +37,7 @@
         <a href="tennessee.html">Tennessee</a>
         <a href="national.html">National</a>
         <a href="council.html">City Council</a>
+        <a href="fight.html">Fight back</a>
         <a href="flock.html">Flock dossier</a>
         <a href="records.html" aria-current="page">Records</a>
         <a href="printables.html">Print</a>
@@ -66,15 +67,15 @@
             <h1>Crossville<span>Privacy</span></h1>
             <p class="lede">Primary files on this site plus copy/paste TPRA templates for Crossville contract, policy, and audit requests.</p>
             <div class="cta-row">
-              <a class="btn btn-primary" href="council.html#council-show-up">Show up at City Council</a>
+              <a class="btn btn-primary" href="#foia">TPRA templates</a>
+              <a class="btn btn-ghost" href="fight.html#civic-tpra">Fight back · civic action</a>
               <a class="btn btn-ghost" href="index.html#action">Email leaders</a>
-              <a class="btn btn-ghost" href="index.html">Back to Crossville</a>
             </div>
             <nav class="hero-jumps" aria-label="Jump to sections on this page">
               <a href="#toc">On this page</a>
               <a href="#records">Documents</a>
               <a href="#foia">TPRA templates</a>
-              <a href="index.html">Home</a>
+              <a href="fight.html">Fight back</a>
             </nav>
           </div>
           <p class="hero-photo-credit" aria-label="Image credits">
@@ -92,7 +93,7 @@
           <strong>On this page</strong>
           <ol class="toc-list">
             <li><a href="#records">Public records &amp; source files</a></li>
-            <li><a href="#foia">TPRA templates</a></li>
+            <li><a href="#foia">TPRA templates</a> · <a href="fight.html#civic-tpra">Fight back summary</a></li>
             <li><a href="council.html">City Council</a> · <a href="sources.html">Full bibliography</a> · <a href="index.html#action">Email leaders</a></li>
           </ol>
         </nav>
@@ -129,36 +130,47 @@
 <section id="foia">
       <div class="wrap">
         <span class="section-label">TPRA templates</span>
-        <h2>Copy/paste TPRA templates for Crossville</h2>
-        <p>Tennessee’s Public Records Act lets residents request government records. Send to City Hall / City Clerk routing (<a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a>) and CC the City Manager. Be specific, vague asks get vague replies.</p>
+        <h2>Tennessee Public Records Act requests for Crossville</h2>
+        <p>Tennessee’s Public Records Act lets residents request government records. Pick a focus below, preview the full request, then <strong>copy the text</strong> or <strong>open it in your email app</strong> with the City Clerk routing address and City Manager / Chief already filled in. Be specific: vague asks get vague replies.</p>
 
-        <article class="panel" style="margin-top:1rem;">
-          <span class="template-label">Template A: Contract, renewals, and costs</span>
-          <div class="template">Pursuant to the Tennessee Public Records Act, I request copies of:
-1) The current contract(s), quote(s), renewal(s), addenda, and invoices between the City of Crossville / Crossville Police Department and Flock Safety (or any ALPR vendor), including all camera counts and annual costs;
-2) Any prior Flock / ALPR agreements since January 1, 2022;
-3) Budget line-items showing ALPR / Flock expenditures for FY2022-FY2026.
+        <section class="panel" id="tpra-picker" aria-labelledby="tpra-picker-heading">
+          <h3 id="tpra-picker-heading">Pick a TPRA focus</h3>
+          <p class="note">Seven ready-to-send requests. Templates A–F each include a scoped ask for emails / IMs / chats with Flock–ALPR keywords; Template G is the full keyword communications pull across custodians. Replace <code>[Your Name]</code> and <code>[Your address or phone]</code>. Route: City Clerk Baylee Rhea via <a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a>; CC City Manager Valerie Hale and Chief Jessie Brooks. If your email app truncates a long message, use <strong>Copy request text</strong> and paste into a new email.</p>
 
-I prefer electronic delivery. Please acknowledge receipt and provide the estimated timeline and any fees in advance.</div>
-        </article>
+          <div class="speech-picker-controls tpra-picker-controls">
+            <label class="speech-field">
+              <span>Request</span>
+              <select id="tpra-select" data-tpra-select aria-describedby="tpra-picker-heading">
+                <option value="contract-costs">A · Contract, renewals, and costs</option>
+                <option value="policy-audits-sharing">B · Policy, audits, and sharing</option>
+                <option value="camera-map">C · Camera locations / map</option>
+                <option value="outcomes-efficacy">D · Hits, arrests, and outcomes</option>
+                <option value="access-training-misuse">E · Access, training, and misuse controls</option>
+                <option value="federal-outside-access">F · Federal / outside agency access</option>
+                <option value="emails-ims-comms">G · Emails, IMs, and keyword search</option>
+              </select>
+            </label>
+          </div>
 
-        <article class="panel" style="margin-top:1rem;">
-          <span class="template-label">Template B: Policy, audits, and sharing</span>
-          <div class="template">Pursuant to the Tennessee Public Records Act, I request:
-1) Any written policy governing Flock / ALPR searches (who may search, required justification, supervisor approval, retention, and prohibited uses);
-2) Any audit logs, monthly totals, or internal reviews of plate searches for the past 24 months (or confirmation that none exist);
-3) Any agreements, settings, or lists identifying outside agencies that can access, query, or receive Crossville ALPR data;
-4) Any Hotlist / Safe List / Whitelist / “trusted vehicle” configuration and the written policy authorizing it (or confirmation that none exists).
+          <div class="speech-meta" data-tpra-meta hidden>
+            <p class="speech-meta-line"><strong data-tpra-title></strong></p>
+            <p class="note" data-tpra-summary></p>
+            <p class="note" data-tpra-recipients></p>
+          </div>
 
-This request seeks program administration records, not routine plate-scan images of the public.</div>
-        </article>
+          <div class="speech-actions">
+            <button type="button" class="btn btn-dark" data-tpra-copy data-label="Copy request text">Copy request text</button>
+            <a class="btn btn-primary" data-tpra-email href="mailto:info@crossvilletn.gov">Open in email app</a>
+          </div>
 
-        <article class="panel" style="margin-top:1rem;">
-          <span class="template-label">Template C: Camera locations / map</span>
-          <div class="template">Pursuant to the Tennessee Public Records Act, I request any maps, lists, GPS coordinates, installation permits, pole agreements, or inventories identifying the locations of Crossville Police Department Flock Safety / ALPR cameras currently installed or planned, including any expansion beyond the 10 Falcon units listed on Flock Quote Q-00234.</div>
-        </article>
+          <pre class="speech-preview" data-tpra-preview tabindex="0" aria-live="polite">Loading TPRA template…</pre>
 
-        <p class="note" style="margin-top:1rem;">City Clerk contact for agendas/minutes routing: Baylee Rhea (via City Hall). Main: (931) 484-5113 · <a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a>. Related: <a href="docs/Council_Public_Comment_3min.pdf">3-minute public comment outline</a>.</p>
+          <noscript>
+            <p>Turn on JavaScript to preview, copy, and email. Without JavaScript, email <a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a> ATTN City Clerk Baylee Rhea, CC <a href="mailto:valerie.hale@crossvilletn.gov">valerie.hale@crossvilletn.gov</a> and <a href="mailto:jessie.brooks@crossvilletn.gov">jessie.brooks@crossvilletn.gov</a>, and ask for: (A) Flock contracts, renewals, invoices, budget lines, and related emails/IMs since 2022; (B) written search policy, audits, sharing lists, Hot/Safe lists, and related communications; (C) camera maps, GPS inventories, pole agreements, and siting emails/IMs; (D) hit / arrest / recovery outcome totals and efficacy emails; (E) access rosters, training, misuse discipline, and related chats; (F) federal / ICE / outside-agency access records and communications; (G) a full keyword search of emails, IMs, texts, Teams/Slack/Chat, memos, and calendar items for terms such as Flock, Flock Safety, ALPR, LPR, license plate reader, Falcon, Condor, Flex, hot list, Q-00234, and @flocksafety.com. Prefer electronic delivery and ask for written fee, search-log, and exemption notices.</p>
+          </noscript>
+        </section>
+
+        <p class="note" style="margin-top:1rem;">City Clerk contact for agendas/minutes routing: Baylee Rhea (via City Hall). Main: (931) 484-5113 · <a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a>. Related: <a href="docs/Council_Public_Comment_3min.pdf">3-minute public comment outline</a> · civic action overview: <a href="fight.html#civic-tpra">Fight back · TPRA</a> · catalog JSON in page source: <a href="assets/tpra-templates-data.js">tpra-templates-data.js</a>.</p>
       </div>
     </section>
 
@@ -175,6 +187,7 @@ This request seeks program administration records, not routine plate-scan images
     </div>
   </footer>
 
+  <script src="assets/tpra-templates-data.js"></script>
   <script src="assets/campaign-ux.js"></script>
   <script>
     (function () {

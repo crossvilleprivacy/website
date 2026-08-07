@@ -1,0 +1,359 @@
+/**
+ * CrossvillePrivacy.org — Tennessee Public Records Act (TPRA) request templates.
+ * Used by records.html#foia picker (select → preview → copy / email).
+ */
+(function (root, factory) {
+  if (typeof module === "object" && module.exports) {
+    module.exports = factory();
+  } else {
+    root.TPRA_TEMPLATES = factory();
+  }
+})(typeof self !== "undefined" ? self : this, function () {
+  "use strict";
+
+  return {
+    meta: {
+      title: "Crossville TPRA templates: Flock Safety / ALPR",
+      count: 7,
+      default_to: "info@crossvilletn.gov",
+      default_cc: "valerie.hale@crossvilletn.gov,jessie.brooks@crossvilletn.gov",
+      keywords: [
+        "Flock",
+        "Flock Safety",
+        "Flock Group",
+        "ALPR",
+        "LPR",
+        "license plate reader",
+        "license plate recognition",
+        "automatic license plate",
+        "Falcon",
+        "Condor",
+        "Flex",
+        "plate reader",
+        "hot list",
+        "hotlist",
+        "safe list",
+        "whitelist",
+        "Q-00234",
+        "transparency.flocksafety",
+        "Have I Been Flocked",
+      ],
+      routing_note:
+        "Route via City Hall / City Clerk (Baylee Rhea) at info@crossvilletn.gov. " +
+        "CC the City Manager and Chief of Police. Prefer electronic delivery. " +
+        "Replace [Your Name] and [Your address or phone]. " +
+        "If your email app truncates a long mailto body, use Copy request text and paste.",
+      closing:
+        "I prefer electronic delivery (PDF or native files) to this email address. " +
+        "Please acknowledge receipt, identify the records custodian, and provide any " +
+        "estimated timeline, copying fees, or claimed exemptions in writing before production. " +
+        "If the estimated cost to fulfill this request would exceed twenty-five dollars ($25.00), " +
+        "do not proceed until you have notified me in writing of the estimate and I have " +
+        "given written approval to continue. " +
+        "If any item does not exist, please state that in writing. If records are withheld " +
+        "in whole or in part, please cite the specific legal authority for each withholding.\n\n" +
+        "Thank you,\n" +
+        "[Your Name]\n" +
+        "[Your address or phone]\n" +
+        "Crossville / Cumberland County resident",
+    },
+    templates: [
+      {
+        id: "contract-costs",
+        label: "A · Contract, renewals, and costs",
+        title: "Contract, renewals, invoices, and ALPR budget",
+        summary:
+          "Pull the live Flock deal: quotes, contracts, renewals, camera counts, invoices, and budget lines. Baseline on this site: Quote Q-00234 (10 Falcon @ $2,500/yr + $3,500 implementation); Atlas later lists 11 cameras.",
+        subject: "TPRA request: Crossville Flock / ALPR contracts, renewals, and costs",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of the following public records concerning Flock Safety and any " +
+          "automatic license plate reader (ALPR) system used by the City of Crossville or " +
+          "Crossville Police Department:\n\n" +
+          "1) The current contract(s), master services agreement(s), statement(s) of work, " +
+          "quote(s), order form(s), renewal(s), addenda, amendments, change orders, and " +
+          "termination / non-renewal notices between the City / Police Department and " +
+          "Flock Safety (Flock Group Inc. or any affiliate), or any other ALPR vendor, " +
+          "including every schedule that lists camera counts, product types (Falcon, Condor, " +
+          "Flex, or other), annual recurring fees, implementation fees, and optional modules.\n\n" +
+          "2) All prior Flock / ALPR agreements, quotes, renewals, and related correspondence " +
+          "sufficient to show the program history since January 1, 2022 (or the earliest " +
+          "procurement if earlier), including any sole-source justifications, RFP/RFQ " +
+          "materials, evaluation scores, or council / manager approval memos.\n\n" +
+          "3) All invoices, purchase orders, payment vouchers, credit memos, and account " +
+          "statements for Flock / ALPR from FY2022 through the present fiscal year, plus " +
+          "budget line-items, account codes, and mid-year transfers showing ALPR / Flock " +
+          "expenditures (capital and operating).\n\n" +
+          "4) Any documents stating the current installed camera count, planned expansions, " +
+          "spare / replacement units, and the date by which the City must give notice to " +
+          "prevent automatic renewal of the current agreement.\n\n" +
+          "5) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, and calendar invitations—plus " +
+          "attachments—from January 1, 2022 to the present, sent or received by City or " +
+          "Police Department officials or staff, that contain any of these keywords (case-" +
+          "insensitive): Flock; Flock Safety; Flock Group; ALPR; LPR; license plate reader; " +
+          "license plate recognition; automatic license plate; Falcon; Condor; Flex; " +
+          "plate reader; Q-00234; or that are to/from addresses or domains including " +
+          "@flocksafety.com.\n\n" +
+          "For context, Flock Quote Q-00234 on the public research site CrossvillePrivacy.org " +
+          "lists 10 Falcon cameras at $2,500 each per year ($25,000 recurring) plus a $3,500 " +
+          "one-time implementation fee; independent Atlas of Surveillance listings later show " +
+          "11 cameras. Please produce the City’s controlling records rather than vendor marketing.\n\n" +
+          "This request seeks procurement, fiscal, and related communications records, not " +
+          "routine plate-scan images of the traveling public.",
+      },
+      {
+        id: "policy-audits-sharing",
+        label: "B · Policy, audits, and sharing",
+        title: "Search policy, audit logs, and outside-agency sharing",
+        summary:
+          "Ask for written search rules, supervisor approval, retention, audit totals, Hot List / Safe List settings, and which outside agencies can query or receive Crossville ALPR data.",
+        subject: "TPRA request: Crossville Flock / ALPR policy, audits, and sharing",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of the following public records concerning Flock Safety / ALPR " +
+          "program administration (not routine plate-scan images of the public):\n\n" +
+          "1) Any written policy, general order, SOP, directive, or training bulletin governing " +
+          "Flock / ALPR use, including who may search, required case numbers or justifications, " +
+          "supervisor approval before lookups, prohibited personal uses, retention periods, " +
+          "and discipline for misuse.\n\n" +
+          "2) Any audit logs, monthly or quarterly search totals, internal reviews, IA / " +
+          "professional-standards inquiries, or compliance reports of plate / vehicle searches " +
+          "for the past twenty-four (24) months; or a written statement that no such audits " +
+          "or totals exist.\n\n" +
+          "3) Any agreements, MOUs, network settings, portal configurations, or lists identifying " +
+          "outside agencies, task forces, fusion centers, or private entities that can access, " +
+          "query, receive, or be granted visibility into Crossville ALPR reads or network data, " +
+          "including any Flock “Network” / sharing toggles and related correspondence.\n\n" +
+          "4) Any Hot List, Safe List, White List, “trusted vehicle,” custom list, or similar " +
+          "configuration used with Crossville’s Flock / ALPR system, plus the written policy " +
+          "authorizing each list; or confirmation that none exists.\n\n" +
+          "5) Any records describing fields the City receives from Flock (for example search " +
+          "reason, user ID, hit/no-hit, sharing destination) and which fields, if any, the " +
+          "vendor no longer provides to Crossville PD.\n\n" +
+          "6) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, and calendar invitations—plus " +
+          "attachments—from January 1, 2022 to the present, concerning ALPR search policy, " +
+          "audits, sharing, Hot List / Safe List settings, or the Flock transparency portal, " +
+          "including messages containing any of: Flock; Flock Safety; ALPR; LPR; license plate " +
+          "reader; hot list; hotlist; safe list; whitelist; transparency.flocksafety; or " +
+          "to/from @flocksafety.com.\n\n" +
+          "If the City relies on Flock’s marketing or “transparency portal” instead of City-held " +
+          "policies and audits, please say so in writing and produce whatever City-held records exist.",
+      },
+      {
+        id: "camera-map",
+        label: "C · Camera locations / map",
+        title: "Camera inventory, locations, and installation records",
+        summary:
+          "Request maps, GPS lists, pole agreements, permits, and inventories for installed and planned Flock / ALPR cameras, including any expansion beyond Quote Q-00234’s 10 Falcon units.",
+        subject: "TPRA request: Crossville Flock / ALPR camera locations and inventory",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of the following public records identifying Crossville Police " +
+          "Department Flock Safety / ALPR camera locations and related installation records:\n\n" +
+          "1) Any maps, spreadsheets, lists, GPS coordinates, site IDs, or inventories of " +
+          "currently installed Flock / ALPR cameras, including product type (Falcon, Condor, " +
+          "Flex, or other), installation date, and whether each unit is city-owned, leased, " +
+          "or vendor-owned.\n\n" +
+          "2) Any records of planned, approved, or pending additional cameras or relocations, " +
+          "including expansions beyond the ten (10) Falcon units listed on Flock Quote Q-00234.\n\n" +
+          "3) Pole attachment agreements, right-of-way permits, utility permits, landlord / " +
+          "property-owner permissions, work orders, and installation photographs or as-built " +
+          "notes sufficient to identify each camera site.\n\n" +
+          "4) Any public or internal camera-location disclosures previously prepared for " +
+          "council, the public, or vendors.\n\n" +
+          "5) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, work orders, and calendar invitations—" +
+          "plus attachments—from January 1, 2022 to the present, about camera siting, " +
+          "installation, relocation, pole attachments, or inventories, including messages " +
+          "containing any of: Flock; Flock Safety; ALPR; LPR; Falcon; Condor; Flex; plate " +
+          "reader; license plate reader; or to/from @flocksafety.com.\n\n" +
+          "Crowdsourced maps (for example DeFlock / OpenStreetMap) are not a substitute for " +
+          "the City’s official inventory. If the City claims a security exemption for precise " +
+          "coordinates, please still produce non-exempt responsive records (counts by corridor, " +
+          "product types, and any already-public maps) and cite the specific authority for " +
+          "each withholding.",
+      },
+      {
+        id: "outcomes-efficacy",
+        label: "D · Hits, arrests, and outcomes",
+        title: "Program outcomes: hits, recoveries, arrests, and case results",
+        summary:
+          "Crossville has not published local Flock results. Request hit totals, recovery/arrest claims, cleared-case documentation, and any ROI or efficacy reports used to justify renewal.",
+        subject: "TPRA request: Crossville Flock / ALPR hits, arrests, and outcome statistics",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of public records showing whether Crossville’s Flock Safety / ALPR " +
+          "program produces measurable public-safety results:\n\n" +
+          "1) Monthly or annual totals, from first deployment to present, for: total plate / " +
+          "vehicle reads; hot-list or NCIC-style hits; hits confirmed as accurate after " +
+          "officer review; hits determined to be false positives / misreads; stolen-vehicle " +
+          "recoveries attributed to ALPR; arrests attributed to ALPR; and cases cleared or " +
+          "charged where ALPR was a material investigative step.\n\n" +
+          "2) Any internal or vendor-supplied “success stories,” case summaries, PowerPoint " +
+          "decks, or ROI / efficacy reports used to justify purchase, renewal, or expansion, " +
+          "including documents provided by Flock Safety to Crossville officials.\n\n" +
+          "3) Any after-action reviews, prosecutor feedback, or court outcomes tied to " +
+          "ALPR-initiated stops in Crossville, to the extent those records are maintained " +
+          "by the City or Police Department.\n\n" +
+          "4) If the City does not track one or more of the above metrics, please state that " +
+          "in writing for each missing category.\n\n" +
+          "5) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, and presentations—plus attachments—" +
+          "from January 1, 2022 to the present, discussing ALPR / Flock hits, recoveries, " +
+          "arrests, “success stories,” ROI, efficacy, or renewal justification, including " +
+          "messages containing any of: Flock; Flock Safety; ALPR; LPR; license plate reader; " +
+          "Falcon; hit rate; or to/from @flocksafety.com.\n\n" +
+          "I am not requesting bulk plate-scan image databases of the general public. I am " +
+          "requesting aggregate statistics, program-evaluation records, and related " +
+          "communications. Where a narrative case summary would identify a victim or juvenile, " +
+          "please produce a redacted version or aggregate counts only.",
+      },
+      {
+        id: "access-training-misuse",
+        label: "E · Access, training, and misuse controls",
+        title: "User access, training, and misuse / discipline records",
+        summary:
+          "Who has login access, how they are trained, whether personal-use searches are audited, and any misuse investigations—modeled on patterns documented in Tennessee and elsewhere.",
+        subject: "TPRA request: Crossville Flock / ALPR access, training, and misuse controls",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of the following records about who can use Crossville’s Flock / " +
+          "ALPR system and how misuse is prevented or punished:\n\n" +
+          "1) Current roster or role list of City / PD accounts authorized to search or " +
+          "administer Flock / ALPR (names may be redacted to badge numbers or job titles if " +
+          "the City asserts a specific exemption; please still produce counts by role).\n\n" +
+          "2) Training materials, slide decks, acknowledgments, or certifications required " +
+          "before an employee may run plate / vehicle searches, including any vendor training " +
+          "from Flock Safety.\n\n" +
+          "3) Any written rules on personal-use searches, romantic / domestic inquiries, " +
+          "political or First Amendment activity monitoring, and off-duty access.\n\n" +
+          "4) For the past five (5) years: any internal affairs, professional standards, HR, " +
+          "or criminal referrals arising from alleged ALPR / Flock misuse by Crossville " +
+          "personnel, including dispositions (sustained, not sustained, resigned, charged). " +
+          "Produce public disciplinary abstracts and charging documents where available; " +
+          "redact only what the law requires.\n\n" +
+          "5) Any audits comparing typed search justifications to underlying CAD / RMS case " +
+          "numbers, or confirming that no such audit process exists.\n\n" +
+          "6) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, and training acknowledgments—plus " +
+          "attachments—from January 1, 2022 to the present, about Flock / ALPR access, " +
+          "training, personal-use rules, audits, or misuse investigations, including messages " +
+          "containing any of: Flock; Flock Safety; ALPR; LPR; license plate reader; or " +
+          "to/from @flocksafety.com.\n\n" +
+          "This request is about program integrity, personnel accountability, and related " +
+          "communications—not bulk travel histories of ordinary drivers.",
+      },
+      {
+        id: "federal-outside-access",
+        label: "F · Federal / outside agency access",
+        title: "Federal, ICE, and non-local access to Crossville ALPR data",
+        summary:
+          "Cities nationwide have debated ICE and other non-local access. Request records on federal partners, immigration-related queries, out-of-network sharing, and any council or manager directives limiting that access.",
+        subject: "TPRA request: federal and outside-agency access to Crossville ALPR data",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager and Chief of Police.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of public records concerning federal and other non-local access " +
+          "to Crossville Flock Safety / ALPR data:\n\n" +
+          "1) Any agreements, settings, emails, or portal configurations allowing U.S. " +
+          "Immigration and Customs Enforcement (ICE), CBP, Homeland Security Investigations, " +
+          "FBI, U.S. Marshals, or other federal agencies to query, receive, or view Crossville " +
+          "ALPR reads or network data—or written confirmation that no such access exists.\n\n" +
+          "2) Any City Council resolutions, City Manager directives, Police Department orders, " +
+          "or legal opinions limiting or authorizing immigration-enforcement use of local ALPR data.\n\n" +
+          "3) Any logs, invoices, or reports showing out-of-network or nationwide searches " +
+          "run against Crossville data, or Crossville searches run against other agencies’ " +
+          "networks, for the past twenty-four (24) months (aggregate totals are sufficient " +
+          "if individual query logs are claimed exempt—please say so and cite authority).\n\n" +
+          "4) Any correspondence with Flock Safety about Network sharing defaults, “national " +
+          "lookup” features, or changes to federal-partner visibility.\n\n" +
+          "5) If the City’s position is that sharing is controlled only by the vendor’s " +
+          "defaults, please produce the records the City actually holds about those defaults " +
+          "and any attempts to change them.\n\n" +
+          "6) All emails, instant messages, texts, chat threads (including Microsoft Teams, " +
+          "Slack, Google Chat, or similar), memoranda, and calendar invitations—plus " +
+          "attachments—from January 1, 2022 to the present, concerning federal, ICE, CBP, " +
+          "HSI, FBI, U.S. Marshals, fusion-center, or other non-local access to Crossville " +
+          "ALPR / Flock data, including messages containing any of: Flock; Flock Safety; " +
+          "ALPR; LPR; ICE; CBP; Homeland Security; immigration; Network sharing; national " +
+          "lookup; or to/from @flocksafety.com.\n\n" +
+          "I seek program-administration, policy, and related communications records, not " +
+          "images of every plate scanned on Crossville streets.",
+      },
+      {
+        id: "emails-ims-comms",
+        label: "G · Emails, IMs, and keyword search",
+        title: "All emails, IMs, texts, and chats matching Flock / ALPR keywords",
+        summary:
+          "Broad communications pull: email, IM, SMS, Teams/Slack/Chat, memos, and calendar items since Jan 1, 2022 that hit Flock / ALPR keywords or involve @flocksafety.com—across City Hall, Council, City Manager, Clerk, PD, and finance custodians.",
+        subject: "TPRA request: emails, IMs, and other Flock / ALPR communications",
+        body:
+          "ATTN: City Clerk Baylee Rhea\n" +
+          "City of Crossville / Crossville Police Department\n" +
+          "Please also route to the City Manager, Chief of Police, Mayor, City Council, " +
+          "Finance, and any other department that procured, paid for, installed, configured, " +
+          "or administered Flock Safety / ALPR systems.\n\n" +
+          "Pursuant to the Tennessee Public Records Act, Tenn. Code Ann. § 10-7-503 et seq., " +
+          "I request copies of all public records that are communications about Flock Safety, " +
+          "ALPR, or related camera systems, as follows:\n\n" +
+          "1) SCOPE — TIME. From January 1, 2022 through the date of production (inclusive).\n\n" +
+          "2) SCOPE — RECORD TYPES. All emails (including To, From, CC, BCC, and sent " +
+          "items), instant messages, SMS / text messages, chat or collaboration threads " +
+          "(including Microsoft Teams, Slack, Google Chat, Cisco Webex, or similar), " +
+          "internal memoranda, letters, and calendar invitations, together with all " +
+          "attachments and embedded images that are part of those threads.\n\n" +
+          "3) SCOPE — CUSTODIANS. Please search the accounts and devices of (or held for): " +
+          "the Mayor; each City Councilmember; the City Manager; the City Clerk; the Chief " +
+          "of Police and PD command staff with ALPR / Flock admin or search roles; Finance / " +
+          "purchasing staff who handled Flock invoices or purchase orders; and any other " +
+          "City employee or contractor identified in responsive records as a Flock / ALPR " +
+          "project lead, system administrator, or primary vendor contact. If a listed " +
+          "custodian has no responsive records, please say so in writing.\n\n" +
+          "4) SCOPE — KEYWORD / FILTER SEARCH. Please produce records that contain any of " +
+          "the following terms or phrases (case-insensitive; include plural and common " +
+          "misspellings where your e-discovery tools support it):\n" +
+          "   • Flock; Flock Safety; Flock Group; flocksafety; @flocksafety.com\n" +
+          "   • ALPR; LPR; A.L.P.R.; license plate reader; license plate recognition; " +
+          "automatic license plate\n" +
+          "   • Falcon; Condor; Flex; Falcon Flex; plate reader; plate camera\n" +
+          "   • hot list; hotlist; safe list; safelist; white list; whitelist; trusted vehicle\n" +
+          "   • Q-00234; transparency.flocksafety; Have I Been Flocked; DeFlock\n" +
+          "   • Axon (only when in the same message as Flock, ALPR, LPR, Falcon, Condor, " +
+          "or license plate)\n\n" +
+          "5) SCOPE — VENDOR CORRESPONDENCE. All communications to or from any address or " +
+          "domain including flocksafety.com, or any Flock sales, support, legal, or " +
+          "onboarding contact, regardless of whether a keyword above appears in the body.\n\n" +
+          "6) SEARCH LOG. Please provide a brief written description of the systems searched " +
+          "(for example Exchange / Microsoft 365, Google Workspace, on-prem mail, Teams, " +
+          "phone SMS archives) and the keyword string(s) used. If any system cannot be " +
+          "searched, please say so and explain why.\n\n" +
+          "7) EXEMPTIONS. If any responsive communication is withheld in whole or in part, " +
+          "please produce a privilege / exemption log identifying the date, custodians, " +
+          "general subject, and specific legal authority for each withholding. Non-exempt " +
+          "portions should still be produced with redactions limited to what the law requires.\n\n" +
+          "I am not requesting bulk ALPR plate-scan databases or routine traffic-camera " +
+          "image dumps of the traveling public. This request is limited to government " +
+          "communications and attachments about the Flock / ALPR program.",
+      },
+    ],
+  };
+});

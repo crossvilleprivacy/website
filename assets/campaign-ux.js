@@ -60,15 +60,57 @@
     "the search policy, supervisor-approval rules, and a public camera map. " +
     "I will be at the next council meeting.";
 
-  function buildMailto(to, subject, body) {
-    return (
+  function buildMailto(to, subject, body, cc) {
+    var href =
       "mailto:" +
       to +
       "?subject=" +
       encodeURIComponent(subject) +
       "&body=" +
-      encodeURIComponent(body)
-    );
+      encodeURIComponent(body);
+    if (cc) {
+      href += "&cc=" + encodeURIComponent(cc);
+    }
+    return href;
+  }
+
+  var TPRA_DEFAULT_TO = "info@crossvilletn.gov";
+  var TPRA_DEFAULT_CC =
+    "valerie.hale@crossvilletn.gov,jessie.brooks@crossvilletn.gov";
+
+  function getTpraCatalog() {
+    if (typeof window !== "undefined" && window.TPRA_TEMPLATES) {
+      return window.TPRA_TEMPLATES;
+    }
+    return null;
+  }
+
+  function findTpraTemplate(catalog, templateId) {
+    if (!catalog || !catalog.templates) return null;
+    var list = catalog.templates;
+    for (var i = 0; i < list.length; i++) {
+      if (list[i].id === templateId) return list[i];
+    }
+    return list[0] || null;
+  }
+
+  function formatTpraEmailBody(template, catalog) {
+    if (!template) return "";
+    var closing =
+      (catalog && catalog.meta && catalog.meta.closing) ||
+      "Thank you,\n[Your Name]\n[Your address or phone]\nCrossville / Cumberland County resident";
+    return String(template.body || "").replace(/\s+$/, "") + "\n\n" + closing;
+  }
+
+  function buildTpraMailto(template, catalog) {
+    catalog = catalog || getTpraCatalog();
+    if (!template) return "";
+    var meta = (catalog && catalog.meta) || {};
+    var to = template.to || meta.default_to || TPRA_DEFAULT_TO;
+    var cc = template.cc || meta.default_cc || TPRA_DEFAULT_CC;
+    var subject = template.subject || "TPRA request: Crossville Flock / ALPR records";
+    var body = formatTpraEmailBody(template, catalog);
+    return buildMailto(to, subject, body, cc);
   }
 
   function shortOfficialsMailto() {
@@ -693,8 +735,107 @@
     initHeroRotate(doc);
     initNewsGeoFilters(doc);
     initSpeechPicker(doc);
+    initTpraPicker(doc);
     fillCouncilMeetingNext(doc);
     initVideoFacades(doc);
+  }
+
+  function initTpraPicker(doc) {
+    doc = doc || document;
+    var root = doc.querySelector("#tpra-picker");
+    if (!root) return null;
+
+    var select = root.querySelector("[data-tpra-select]");
+    var preview = root.querySelector("[data-tpra-preview]");
+    var titleEl = root.querySelector("[data-tpra-title]");
+    var summaryEl = root.querySelector("[data-tpra-summary]");
+    var metaEl = root.querySelector("[data-tpra-meta]");
+    var recipientsEl = root.querySelector("[data-tpra-recipients]");
+    var copyBtn = root.querySelector("[data-tpra-copy]");
+    var emailLink = root.querySelector("[data-tpra-email]");
+    if (!select || !preview || !copyBtn || !emailLink) return null;
+
+    var catalog = getTpraCatalog();
+    var currentText = "";
+
+    function currentTemplate() {
+      if (!catalog) return null;
+      return findTpraTemplate(catalog, select.value);
+    }
+
+    function fillOptions() {
+      if (!catalog || !catalog.templates) return;
+      var previous = select.value;
+      select.innerHTML = "";
+      catalog.templates.forEach(function (tpl) {
+        var opt = doc.createElement("option");
+        opt.value = tpl.id;
+        opt.textContent = tpl.label || tpl.title || tpl.id;
+        select.appendChild(opt);
+      });
+      if (previous && findTpraTemplate(catalog, previous)) {
+        select.value = previous;
+      }
+    }
+
+    function render() {
+      var tpl = currentTemplate();
+      if (!tpl) {
+        preview.textContent = "No TPRA template found for that selection.";
+        currentText = "";
+        emailLink.setAttribute("href", "#");
+        return;
+      }
+      currentText = formatTpraEmailBody(tpl, catalog);
+      preview.textContent = currentText;
+      if (titleEl) titleEl.textContent = tpl.title || tpl.label || "";
+      if (summaryEl) summaryEl.textContent = tpl.summary || "";
+      if (metaEl) metaEl.hidden = false;
+      var meta = catalog.meta || {};
+      var to = tpl.to || meta.default_to || TPRA_DEFAULT_TO;
+      var cc = tpl.cc || meta.default_cc || TPRA_DEFAULT_CC;
+      if (recipientsEl) {
+        recipientsEl.textContent = "To: " + to + " · CC: " + cc;
+      }
+      emailLink.setAttribute("href", buildTpraMailto(tpl, catalog));
+      emailLink.setAttribute(
+        "aria-label",
+        "Open email app with TPRA request: " + (tpl.title || tpl.label || "selected template")
+      );
+    }
+
+    copyBtn.addEventListener("click", function () {
+      var label = copyBtn.getAttribute("data-label") || "Copy request text";
+      if (!currentText) {
+        copyBtn.textContent = "Nothing to copy";
+        window.setTimeout(function () {
+          copyBtn.textContent = label;
+        }, 1800);
+        return;
+      }
+      copyText(currentText)
+        .then(function () {
+          copyBtn.textContent = "Copied";
+          window.setTimeout(function () {
+            copyBtn.textContent = label;
+          }, 1800);
+        })
+        .catch(function () {
+          copyBtn.textContent = "Copy failed, select the text";
+        });
+    });
+
+    select.addEventListener("change", render);
+
+    if (!catalog || !catalog.templates || !catalog.templates.length) {
+      preview.textContent =
+        "TPRA catalog missing. Make sure assets/tpra-templates-data.js is loaded before campaign-ux.js.";
+      return { render: render };
+    }
+
+    fillOptions();
+    render();
+    return { render: render, currentTemplate: currentTemplate };
   }
 
   function initSpeechPicker(doc) {
@@ -849,6 +990,12 @@
     shortBodyText: shortBodyText,
     officialsTo: officialsTo,
     agendaLetterTo: agendaLetterTo,
+    TPRA_DEFAULT_TO: TPRA_DEFAULT_TO,
+    TPRA_DEFAULT_CC: TPRA_DEFAULT_CC,
+    getTpraCatalog: getTpraCatalog,
+    findTpraTemplate: findTpraTemplate,
+    formatTpraEmailBody: formatTpraEmailBody,
+    buildTpraMailto: buildTpraMailto,
     copyText: copyText,
     initMobileNav: initMobileNav,
     initCopyButtons: initCopyButtons,
@@ -861,6 +1008,7 @@
     syncHeroCredit: syncHeroCredit,
     initNewsGeoFilters: initNewsGeoFilters,
     initSpeechPicker: initSpeechPicker,
+    initTpraPicker: initTpraPicker,
     fillCouncilMeetingNext: fillCouncilMeetingNext,
     nextNthWeekdayMeeting: nextNthWeekdayMeeting,
     initVideoFacades: initVideoFacades,

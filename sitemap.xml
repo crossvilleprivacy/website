@@ -26,6 +26,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://crossvilleprivacy.org/fight.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://crossvilleprivacy.org/records.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

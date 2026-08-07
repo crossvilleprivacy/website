@@ -3463,3 +3463,201 @@ body.sticky-cta-is-dismissed {
     width: 100%;
   }
 }
+
+/* TPRA request picker (records.html#foia) — reuses speech-picker controls */
+#tpra-picker {
+  margin-top: 1.25rem;
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.tpra-picker-controls {
+  grid-template-columns: 1fr;
+}
+
+#tpra-picker .speech-actions .btn {
+  text-align: center;
+}
+
+/* Fight back / counter-Flock toolkit page */
+.toolkit-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.75rem;
+  margin: 0.85rem 0 1rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.toolkit-subhead {
+  margin: 1.35rem 0 0.65rem;
+  font-size: 1.05rem;
+}
+
+.toolkit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 720px) {
+  .toolkit-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.toolkit-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem 1.05rem;
+  background: #fff;
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.toolkit-tile:hover,
+.toolkit-tile:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+  outline: none;
+}
+
+.toolkit-tile.toolkit-high {
+  border-left: 4px solid var(--accent);
+}
+
+.toolkit-tile.toolkit-med {
+  border-left: 4px solid #b45309;
+}
+
+.toolkit-tile strong {
+  font-size: 1.02rem;
+  line-height: 1.3;
+}
+
+.toolkit-tile p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  flex: 1;
+}
+
+.toolkit-go {
+  margin-top: 0.25rem;
+  font-size: 0.88rem;
+  font-weight: 650;
+  color: var(--accent-dark);
+}
+
+.impact-pill {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.18rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.impact-high {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+
+.impact-med {
+  background: #fff7ed;
+  color: #9a3412;
+}
+
+.impact-low {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+.toolkit-legal-jump {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  background: #fff8f7;
+  border: 1.5px solid #e8a39a;
+  border-radius: 6px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.95rem;
+}
+
+.toolkit-legal-jump:hover,
+.toolkit-legal-jump:focus-visible {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.fight-contact-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1.15rem;
+}
+
+.fight-contact-list li {
+  margin: 0.35rem 0;
+}
+
+.fight-tactic-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 720px) {
+  .fight-tactic-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.fight-habit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .fight-habit-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .fight-habit-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.data-table th {
+  background: #f8fafc;
+  font-weight: 650;
+}
