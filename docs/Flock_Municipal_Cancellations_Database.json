@@ -1,7 +1,7 @@
 {
   "title": "Flock Municipal Cancellations & Non-Renewals Database",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-07",
+  "compiled": "2026-08-08",
   "scope_note": "Includes municipal/agency actions ending or pausing Flock use. Does not claim a complete national census. Aggregator tallies (e.g. ~82 contracts across 28 states Aug 2021 to May 2026 per SF Standard / Ban Flock Cameras) are larger than this verified dossier. Private/HOA Flock cameras may remain after a city contract ends.",
   "source_files": {
     "xlsx": "Flock_Municipal_Cancellations_Database.xlsx",
@@ -9,7 +9,7 @@
   },
   "summary": {
     "records_in_dossier": 64,
-    "spotlight_count": 19,
+    "spotlight_count": 20,
     "public_backlash_cited_count": 51,
     "headline_aggregator_claims": {
       "sf_standard_ban_flock": "82 contracts terminated across 28 states (Aug 2021 to May 2026); 39 in Jan to May 2026",
@@ -22,7 +22,7 @@
       "Public / resident backlash and organized opposition",
       "New state compliance, audit, retention, or liability burden"
     ],
-    "citation_hygiene": "The 64 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 64-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 52; the other 12 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
+    "citation_hygiene": "The 64 records_in_dossier each have their own sources. Larger headline counts (for example ~82 contracts) come from secondary tallies such as SF Standard / Ban Flock Cameras. Cite those named sources separately. Do not treat the larger tallies as identical to this 64-record verified list. Rows whose Verification_Status includes Aggregator-aligned still need a primary confirmation before calling them verified. Clear municipal exits (Terminated / Non-renewal / Rescinded / Pre-install cancel) currently number 53; the other 11 rows are pauses, suspensions, expire/renegotiate, or delayed-renewal cases.",
     "aggregator_aligned_record_count": 11
   },
   "data_dictionary": {
@@ -990,17 +990,17 @@
       "Case_ID": "CAN-2026-059",
       "Jurisdiction": "Chandler",
       "State": "AZ",
-      "Action_Type": "Paused",
-      "Action_Date": "2026-08",
-      "Camera_Count": null,
-      "Spotlight": "N",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-07",
+      "Camera_Count": 40,
+      "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Public backlash; Renewal delay; Privacy / ordinance campaign",
-      "Summary": "Chandler City Council delayed a decision on renewing its about $153,000 Flock Safety contract until its August 13, 2026 meeting amid resident opposition organized by East Valley Unite and related advocacy. FOX 10 / AZFamily reporting on the Pinal County non-renewal wave noted Chandler’s delay alongside Flagstaff, Sedona, and South Tucson exits. Not a cancel—a delayed renewal under public pressure.",
-      "Primary_Source_URL": "https://www.fox10phoenix.com/news/pinal-county-sheriff-pulls-plug-flock-license-plate-cameras-he-once-praised",
-      "Secondary_Source_URL": "https://www.azcentral.com/story/news/politics/arizona/2026/07/08/flock-cameras-raise-privacy-safety-concerns-in-arizona/90841857007/",
+      "Primary_Reasons": "Officer / employee ALPR misuse anomaly; Public backlash; Administrative non-renewal",
+      "Summary": "Chandler ended its about $153,000 Flock Safety contract on August 7, 2026 after a routine audit found an unexplained anomaly in system use on August 6. Police Chief Bryan Chapman said an internal investigation would determine whether Flock was used inappropriately. The city had delayed a renewal vote to August 13 amid resident opposition; spokespeople said not renewing can be an administrative decision without that council vote. About 40 fixed cameras; access restricted pending removal. Largest Arizona city to drop Flock in contemporaneous coverage. Related misuse row: FLK-2026-034.",
+      "Primary_Source_URL": "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007/",
+      "Secondary_Source_URL": "https://www.fox10phoenix.com/news/pinal-county-sheriff-pulls-plug-flock-license-plate-cameras-he-once-praised",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "Cameras still in use pending Aug. 13 renewal vote; not a termination."
+      "Incomplete_Exit_Notes": "Cameras still mounted pending Flock removal coordination; department cut system access. Safeguards review before any future ALPR discussion. Misuse probe open."
     },
     {
       "Case_ID": "CAN-2026-060",

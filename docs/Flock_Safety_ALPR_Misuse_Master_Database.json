@@ -19,319 +19,325 @@
       }
     ],
     "kpi_overview": {
-      "TOTAL_UNIQUE_CASES": 54,
-      "STATES_REPRESENTED": 18,
-      "PRIMARY_ABUSE_TYPE": "Romantic Stalking",
+      "TOTAL_UNIQUE_CASES": 56,
+      "STATES_REPRESENTED": 19,
+      "PRIMARY_ABUSE_TYPE": "Unauthorized Access / Personal Tracking",
       "TIME_SPAN_COVERED": "2020 - 2026",
-      "DEDUPLICATION_NOTE": "Corpus is N=54 unique cases. Removed FLK-2024-031 as duplicate of FLK-2026-011.",
+      "DEDUPLICATION_NOTE": "Corpus is N=56 unique cases. Removed FLK-2024-031 as duplicate of FLK-2026-011.",
       "YEAR_DEFINITION": "Year (and Case_ID year prefix) is the canonical chronology key for this database: the year assigned when the case was first catalogued, usually the year of public disclosure, charging, or Case_ID issuance. It is NOT always identical to the year the underlying ALPR queries occurred. Use Incident_Year for the abuse/window year and Resolution_Year for arrest / plea / conviction / termination when known.",
       "PERCENT_ROUNDING_NOTE": "Percentages shown to 1 decimal place; largest share adjusted so category/year/state/outcome tables sum to 100.0%.",
-      "PUBLIC_FLOCK_CONFIRMED_CASES": 52,
+      "PUBLIC_FLOCK_CONFIRMED_CASES": 54,
       "PUBLIC_OTHER_OR_UNCONFIRMED_ALPR": 2,
       "AGGREGATOR_ALIGNED_STATUS_COUNT": 11
     },
     "incidents_by_misuse_category": [
       {
-        "Misuse_Abuse_Category": "Romantic Stalking",
-        "Cases": 14,
-        "Percent_of_Total_Display": "25.1%",
-        "Percent_of_Total": 0.251
+        "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+        "Cases": 15,
+        "Percent_of_Total_Display": "26.4%",
+        "Percent_of_Total": 0.264
       },
       {
-        "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-        "Cases": 13,
-        "Percent_of_Total_Display": "24.1%",
-        "Percent_of_Total": 0.241
+        "Misuse_Abuse_Category": "Romantic Stalking",
+        "Cases": 14,
+        "Percent_of_Total_Display": "25.0%",
+        "Percent_of_Total": 0.25
       },
       {
         "Misuse_Abuse_Category": "Domestic Stalking",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.6%",
-        "Percent_of_Total": 0.056
+        "Percent_of_Total_Display": "5.4%",
+        "Percent_of_Total": 0.054
       },
       {
         "Misuse_Abuse_Category": "Co-worker Stalking / Harassment",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / Gunpoint Detention",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / Wrongful Stop",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Misuse_Abuse_Category": "Personal Tracking / Stalking",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Misuse_Abuse_Category": "Conflict of Interest / Unauthorized Search",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / Excessive Force",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / False Arrest",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Flawed AI Recognition / False Stop",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Illegal Data Sharing / Mass Surveillance",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Mass Surveillance / Illegal Data Sharing",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Mission Creep / Low-Level Surveillance",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Personal Tracking / Unauthorized Search",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Retaliation / Political Targeting",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Romantic Stalking / GPS Tracking",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Romantic Stalking / Harassment",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Romantic Stalking / Physical Stalking",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Stalking / Kidnapping Facilitation",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Stalking / Unlawful Traffic Stop",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Unauthorized Access / Excessive Tracking",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Misuse_Abuse_Category": "Wrongful Accusation / Flawed AI Evidence",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       }
     ],
     "incidents_by_misuse_category_total": {
-      "Cases": 54,
+      "Cases": 56,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
     "incidents_by_year": [
       {
         "Year": 2026,
-        "Cases": 32,
-        "Percent_of_Total_Display": "59.2%",
-        "Percent_of_Total": 0.592
+        "Cases": 34,
+        "Percent_of_Total_Display": "60.6%",
+        "Percent_of_Total": 0.606
       },
       {
         "Year": 2025,
         "Cases": 10,
-        "Percent_of_Total_Display": "18.5%",
-        "Percent_of_Total": 0.185
+        "Percent_of_Total_Display": "17.9%",
+        "Percent_of_Total": 0.179
       },
       {
         "Year": 2024,
         "Cases": 6,
-        "Percent_of_Total_Display": "11.1%",
-        "Percent_of_Total": 0.111
+        "Percent_of_Total_Display": "10.7%",
+        "Percent_of_Total": 0.107
       },
       {
         "Year": 2020,
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Year": 2023,
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Year": 2021,
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Year": 2022,
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       }
     ],
     "incidents_by_year_total": {
-      "Cases": 54,
+      "Cases": 56,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
     "geographic_distribution_by_state": [
       {
         "State": "GA",
-        "Cases": 16,
-        "Percent_of_Total_Display": "29.2%",
-        "Percent_of_Total": 0.292
+        "Cases": 17,
+        "Percent_of_Total_Display": "30.1%",
+        "Percent_of_Total": 0.301
       },
       {
         "State": "CA",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.1%",
-        "Percent_of_Total": 0.111
+        "Percent_of_Total_Display": "10.7%",
+        "Percent_of_Total": 0.107
       },
       {
         "State": "FL",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.4%",
-        "Percent_of_Total": 0.074
+        "Percent_of_Total_Display": "7.1%",
+        "Percent_of_Total": 0.071
       },
       {
         "State": "KS",
         "Cases": 4,
-        "Percent_of_Total_Display": "7.4%",
-        "Percent_of_Total": 0.074
+        "Percent_of_Total_Display": "7.1%",
+        "Percent_of_Total": 0.071
       },
       {
         "State": "CO",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.6%",
-        "Percent_of_Total": 0.056
+        "Percent_of_Total_Display": "5.4%",
+        "Percent_of_Total": 0.054
       },
       {
         "State": "TX",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.6%",
-        "Percent_of_Total": 0.056
+        "Percent_of_Total_Display": "5.4%",
+        "Percent_of_Total": 0.054
       },
       {
         "State": "WI",
         "Cases": 3,
-        "Percent_of_Total_Display": "5.6%",
-        "Percent_of_Total": 0.056
+        "Percent_of_Total_Display": "5.4%",
+        "Percent_of_Total": 0.054
       },
       {
         "State": "IL",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "State": "NC",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "State": "SC",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "State": "TN",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "State": "AR",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
+      },
+      {
+        "State": "AZ",
+        "Cases": 1,
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "KY",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "MN",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "MO",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "OH",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "PA",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "State": "WA",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       }
     ],
     "geographic_distribution_total": {
@@ -412,7 +418,7 @@
       "note": "Do not publish TOTAL_UNIQUE_CASES as “Flock-only.” Some rows are ALPR generally or explicitly “Flock not confirmed.” Aggregator-aligned rows have URLs but are secondary."
     },
     "geographic_distribution_by_state_total": {
-      "Cases": 54,
+      "Cases": 56,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     },
@@ -420,66 +426,66 @@
       {
         "Outcome_Bucket": "Terminated / Resigned & Criminally Charged",
         "Cases": 19,
-        "Percent_of_Total_Display": "34.9%",
-        "Percent_of_Total": 0.349
+        "Percent_of_Total_Display": "33.8%",
+        "Percent_of_Total": 0.338
       },
       {
         "Outcome_Bucket": "Criminally Charged / Indicted",
-        "Cases": 9,
-        "Percent_of_Total_Display": "16.7%",
-        "Percent_of_Total": 0.167
+        "Cases": 10,
+        "Percent_of_Total_Display": "17.9%",
+        "Percent_of_Total": 0.179
       },
       {
         "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)",
-        "Cases": 9,
-        "Percent_of_Total_Display": "16.7%",
-        "Percent_of_Total": 0.167
+        "Cases": 10,
+        "Percent_of_Total_Display": "17.9%",
+        "Percent_of_Total": 0.179
       },
       {
         "Outcome_Bucket": "Internal Disciplinary Action / Other",
         "Cases": 6,
-        "Percent_of_Total_Display": "11.1%",
-        "Percent_of_Total": 0.111
+        "Percent_of_Total_Display": "10.7%",
+        "Percent_of_Total": 0.107
       },
       {
         "Outcome_Bucket": "Civil Lawsuit / Settlement / Dismissed Stop",
         "Cases": 5,
-        "Percent_of_Total_Display": "9.3%",
-        "Percent_of_Total": 0.093
+        "Percent_of_Total_Display": "8.9%",
+        "Percent_of_Total": 0.089
       },
       {
         "Outcome_Bucket": "Under Investigation / Pending",
         "Cases": 2,
-        "Percent_of_Total_Display": "3.7%",
-        "Percent_of_Total": 0.037
+        "Percent_of_Total_Display": "3.6%",
+        "Percent_of_Total": 0.036
       },
       {
         "Outcome_Bucket": "Released / No Charges: Documented False Stop",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Outcome_Bucket": "Relieved of Duty / Under Investigation",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Outcome_Bucket": "Resigned & Criminally Charged",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       },
       {
         "Outcome_Bucket": "Summons Voided / Officer Discipline",
         "Cases": 1,
-        "Percent_of_Total_Display": "1.9%",
-        "Percent_of_Total": 0.019
+        "Percent_of_Total_Display": "1.8%",
+        "Percent_of_Total": 0.018
       }
     ],
     "incidents_by_outcome_bucket_total": {
-      "Cases": 54,
+      "Cases": 56,
       "Percent_of_Total_Display": "100.0%",
       "Percent_of_Total": 1.0
     }
@@ -1481,17 +1487,17 @@
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
       "Documented_Search_Count_Frequency": "Multiple flagged searches (counts not fully public)",
-      "Detailed_Summary": "Savannah Police announced that an internal audit under Flock’s Audit Assistance Program flagged potential misuse by four officers and two civilian employees. All six were placed on administrative leave; discipline up to termination is on the table; cases referred to the Georgia Bureau of Investigation. Alleged searches included personal acquaintances and family members; one officer allegedly shared SPD Flock access with personnel from an outside agency. Internal investigation began July 27, 2026.",
+      "Detailed_Summary": "Savannah Police announced that an internal audit under Flock’s Audit Assistance Program flagged potential misuse by four officers and two civilian employees. All six were placed on administrative leave July 31, 2026, and cases were referred to the Georgia Bureau of Investigation. Alleged searches included personal acquaintances and family members; one officer allegedly shared SPD Flock access with personnel from an outside agency. On August 7, 2026, SPD announced all six employees had been terminated after the administrative investigation found policy violations. GBI’s criminal investigation remains ongoing; names withheld pending that probe and appeals.",
       "Discovery_Method": "Flock Audit Assistance / agency Office of Professional Standards audit",
-      "Outcome_Disciplinary_Action": "Six employees on administrative leave; GBI criminal referral; possible termination; investigations ongoing as of early August 2026 reporting.",
-      "Reference_Source": "WJCL; WTOC; WRDW",
-      "Source_URL": "https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620",
+      "Outcome_Disciplinary_Action": "All six employees terminated Aug. 7, 2026 (SPD release); GBI criminal investigation ongoing; names not released.",
+      "Reference_Source": "Savannah PD release; WTOC; Savannah Morning News; WJCL; WRDW",
+      "Source_URL": "https://savannahpd.org/savannah-police-department-terminates-six-employees-following-investigation-into-misuse-of-flock-safety-system/",
       "Verification_Status": "Verified",
-      "Verification_Notes": "SPD / mayor statements carried by WJCL (July 31) and WRDW (Aug 2).",
+      "Verification_Notes": "SPD Aug. 7 termination release; WTOC / Savannah Morning News same-day coverage; earlier leave/GBI referral July 31.",
       "Incident_Year": 2026,
-      "Resolution_Year": null,
-      "Year_Note": "Leave / GBI referral announced July 31, 2026; disposition pending.",
-      "Outcome_Bucket": "Under Investigation / Pending"
+      "Resolution_Year": 2026,
+      "Year_Note": "Leave / GBI referral July 31, 2026; administrative terminations Aug. 7, 2026; criminal probe pending.",
+      "Outcome_Bucket": "Terminated / Resigned (Employment Fallout)"
     },
     {
       "Case_ID": "FLK-2026-027",
@@ -1618,28 +1624,75 @@
       "Resolution_Year": 2026,
       "Year_Note": "Arrest Aug. 5, 2026; employment fallout reported same week; probe of others ongoing.",
       "Outcome_Bucket": "Terminated / Resigned & Criminally Charged"
+    },
+    {
+      "Case_ID": "FLK-2026-033",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Polk County Police Department / Cedartown Police Department Flock access (Northwest Georgia Drug Task Force)",
+      "Subject_Officer_Involved": "Former Officer Tracey Royston (Cedartown / Polk County)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+      "Documented_Search_Count_Frequency": "Multiple alleged non-LE accesses 2024–2025 (counts not fully public)",
+      "Detailed_Summary": "The Georgia Bureau of Investigation arrested former Polk County Police Officer Tracey Royston, 51, of Cedartown, on August 7, 2026, on four misdemeanor counts of misuse of a license plate reader system. At the time of the alleged crimes she served on the Northwest Georgia Drug Task Force (managed by the GBI) and had access to Cedartown Police Department’s Flock Safety system. Cedartown police asked the GBI to investigate on July 31, 2026. GBI’s preliminary investigation indicates Royston accessed the Flock system multiple times between 2024 and 2025 for non-law-enforcement purposes. She was booked into Polk County Jail. Allegations and charging documents as reported, not a finding of guilt by this catalog.",
+      "Discovery_Method": "Cedartown PD referral to GBI (July 31, 2026); GBI arrest Aug. 7",
+      "Outcome_Disciplinary_Action": "Arrested Aug. 7, 2026 on four misdemeanor LPR-misuse counts; described as former Polk County officer; case pending.",
+      "Reference_Source": "Atlanta News First / GBI",
+      "Source_URL": "https://www.atlantanewsfirst.com/2026/08/07/gbi-arrests-former-polk-county-police-officer-allegedly-misusing-flock-camera-system/",
+      "Verification_Status": "Verified",
+      "Verification_Notes": "ANF Aug. 7, 2026 citing GBI; Cedartown Flock access via task-force assignment.",
+      "Incident_Year": "2024-2025",
+      "Resolution_Year": 2026,
+      "Year_Note": "Alleged accesses 2024–2025; GBI arrest Aug. 7, 2026.",
+      "Outcome_Bucket": "Criminally Charged / Indicted"
+    },
+    {
+      "Case_ID": "FLK-2026-034",
+      "Year": 2026,
+      "State": "AZ",
+      "Agency_Jurisdiction": "Chandler Police Department",
+      "Subject_Officer_Involved": "Unnamed Chandler police employee (one person per mayor-elect)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+      "Documented_Search_Count_Frequency": "Routine audit anomaly found Aug. 6, 2026 (details not public)",
+      "Detailed_Summary": "Chandler Police Chief Bryan Chapman said a routine audit of Flock data found an unexplained “anomaly in the use of the Flock system that could not be explained through standard police action” on August 6, 2026. On August 7 the city announced it was ending its about $153,000 Flock contract (about 40 cameras). Chapman said an internal investigation would determine whether Flock was used inappropriately and that discipline would follow if so; he declined specifics. Mayor-elect Matt Orlando said to his knowledge only one employee was involved. City statement said no resident’s privacy had been compromised. Allegations under investigation, not a finding of guilt.",
+      "Discovery_Method": "Routine 30-day / quarterly / annual Flock audit (chief statement)",
+      "Outcome_Disciplinary_Action": "Internal investigation open as of Aug. 7, 2026; contract terminated same day; discipline TBD if misuse confirmed.",
+      "Reference_Source": "AZCentral / Arizona Republic (Aug. 7, 2026)",
+      "Source_URL": "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007/",
+      "Verification_Status": "Verified",
+      "Verification_Notes": "Chief Chapman / city release via AZCentral Aug. 7; employee unnamed; probe ongoing.",
+      "Incident_Year": 2026,
+      "Resolution_Year": null,
+      "Year_Note": "Anomaly found Aug. 6, 2026; contract end announced Aug. 7; IA pending.",
+      "Outcome_Bucket": "Under Investigation / Pending"
     }
   ],
   "meta": {
-    "verified_incident_count": 54,
-    "generated_on": "2026-08-07",
+    "verified_incident_count": 56,
+    "generated_on": "2026-08-08",
     "sheets": [
       "Verified Incidents"
     ],
     "last_source_addition": {
-      "source": "national.html / tennessee.html early-August 2026 panels",
+      "source": "national.html Aug. 8, 2026 batch (Chandler / Savannah / Royston / Elk Grove)",
       "added_case_ids": [
         "FLK-2026-025",
         "FLK-2026-026",
         "FLK-2026-027",
         "FLK-2026-028",
         "FLK-2026-029",
-        "FLK-2026-030"
+        "FLK-2026-030",
+        "FLK-2026-031",
+        "FLK-2026-032",
+        "FLK-2026-033",
+        "FLK-2026-034"
       ],
       "updated_case_ids": [
-        "FLK-2026-018"
+        "FLK-2026-018",
+        "FLK-2026-026"
       ],
-      "note": "Synced Fort Bend, Savannah, Charlotte/Elliott, Reynoldsburg, Habersham/Brewer, Coweta resignations; Baytown resignation update."
+      "note": "Added Polk/Cedartown Royston arrest and Chandler audit-anomaly misuse; updated Savannah to six terminations Aug. 7; cancel dossier Chandler Terminated."
     }
   }
 }
