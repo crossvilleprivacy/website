@@ -1,0 +1,42 @@
+---
+description: On every site change, review the diff for legal gray areas and tell the operator
+alwaysApply: true
+---
+
+# Flag legal gray areas on every change
+
+This is a **public advocacy site**, not a newsroom or law firm. The assistant is **not a lawyer**. After **any** change that can ship (`*.html`, `docs/*`, `assets/*`, speeches, catalogs, CSS/JS that affects published copy or media), review **the diff itself** and **tell the operator** if anything sits in a legal gray area.
+
+## Always do
+
+1. Scan the change for the risks below.
+2. In the **user-facing reply**, either:
+   - name the gray area in plain language (what, where, why it is gray), or
+   - say **Legal check: no gray area in this diff.**
+3. Prefer hedging, primary-source links, alleged/charged language, and omitting civilian/minor identifiers over “fixing” risk by adding more detail.
+4. Do not present the check as legal advice or a clearance to publish.
+
+## Flag (gray or worse)
+
+| Risk | Typical gray area on this site |
+|---|---|
+| Defamation | Pending charges or investigations stated as fact; “lied” / “found false” in the site’s voice; naming a civilian target of alleged stalking |
+| Minors / privacy | Minor first names, school/medical/home detail, hosted images of children (including playground Condor stills) |
+| Copyright | Re-hosting news stills, livestream captures, vendor quote layouts, YouTube thumbnail hotlinks |
+| Affiliation / UPL | Copy that reads as a city document, legal advice, or a commissioned brief |
+| Identity | Operator personal identity (see `no-identity-leaks.mdc`) |
+| Incitement | How-tos for vandalism, blocking, or disabling cameras |
+| Catalog dumps | Putting narrative PII back into JSON indexes; reviving retired master-database PDFs |
+
+## Examples
+
+- **Flag:** “Chief X used Flock to stalk Y 600 times.” **Safer:** alleged/charged, unnamed civilian, link the investigation.
+- **Flag:** Hosting a playground camera still. **Safer:** link 404 Media; do not re-host.
+- **Flag:** “PREPARED FOR CROSSVILLE CITY COUNCIL” on a community PDF. **Safer:** independent brief, “not legal advice.”
+- **OK without a flag:** typography/CSS with no new facts; adding a Case_ID that already exists; Wayback rows; tally recomputes.
+
+## Do not
+
+- Skip the check because the task was “just HTML,” a rule update, or a catalog slim
+- Dump a full-site legal memo; stay on **this change**
+- Quietly ship a flagged item because a source already published it

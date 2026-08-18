@@ -1,0 +1,35 @@
+---
+description: When adding news, upsert skinny catalog JSON and tallies in the same task
+alwaysApply: true
+---
+
+# Sync catalogs when adding news
+
+**Parent gate:** `sync-site-downloadables-and-sources.mdc`.
+
+Whenever you add or update stories on the site (`national.html`, `index.html`, `tennessee.html`, etc.), update the matching **JSON index** in the **same task**. Full narratives live on the HTML page. Do not regenerate master-database PDFs.
+
+## Map story → catalog JSON
+
+| News type | Update |
+|---|---|
+| Officer misuse / stalking / firings / charges | `docs/Flock_Safety_ALPR_Misuse_Master_Database.json` |
+| City/agency cancel, non-renew, rescind, pause, remove | `docs/Flock_Municipal_Cancellations_Database.json` |
+| Wrongful stop / false arrest / FRT-ALPR / travel-history pretext | `docs/AI_Wrongful_Enforcement_Database.json` |
+
+JSON is an **index** (Case ID, place, date/action, source URL, tally fields). After editing JSON, run `node scripts/compute_dossier_tallies.js`. Do **not** run `scripts/export_dossiers.py` for these catalogs (retired).
+
+## Checklist
+
+1. Upsert Case_ID / wrongful ID rows (continue the series; update in place when a story develops). Keep the row skinny.
+2. Align on-page tallies, as-of dates, cites, and **lookup widget** copy with JSON. Cancel rows: put the `CAN-` Case_ID on that story’s `#cancellations` article. Misuse: `FLK-` / `ALPR-` on the `#nationwide-misuse` article. Wrongful writeups: `wrongful ID N`. Lookups fetch JSON; do not add a second data file.
+3. Sync `sources.html` (see `keep-sources-synced.mdc`), including “searchable table” links.
+4. Reply with which catalogs changed.
+
+## Do not
+
+- Ship dossier-eligible news as HTML-only
+- Leave tallies or `#cancel-lookup` intro counts pointing at old totals
+- Reintroduce master-database PDFs or Excel
+- Put minor names, civilian intimate-partner names, or long narratives back into JSON
+- Use “intentionally unsynced this batch” for a catalog the story maps to

@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-08-18",
+  "as_of_long": "August 18, 2026",
+  "as_of_short": "Aug. 18, 2026",
+  "misuse_count": 69,
+  "verified_count": 59,
+  "aggregator_count": 10,
+  "fired_count": 59,
+  "charged_count": 46,
+  "lookup_floor": 3752,
+  "lookup_rows": 20,
+  "lookup_floor_display": "3,750+",
+  "lawsuit_count": 25,
+  "constitutional_count": 5,
+  "settlement_total": 3679500,
+  "settlement_cases": 12,
+  "settlement_display": "$3.68M",
+  "wrongful_count": 45,
+  "cancel_count": 101,
+  "clear_exits": 79,
+  "other_cancels": 22,
+  "catalog_line": "69 + 45 + 101",
+  "source_files": {
+    "misuse": "Flock_Safety_ALPR_Misuse_Master_Database.json",
+    "cancel": "Flock_Municipal_Cancellations_Database.json",
+    "wrongful": "AI_Wrongful_Enforcement_Database.json"
+  }
+}

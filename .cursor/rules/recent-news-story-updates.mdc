@@ -1,0 +1,35 @@
+---
+description: Home feed = new card per update; National = one card per story with Developments, newest first
+globs: "{index.html,national.html}"
+alwaysApply: false
+---
+
+# Story updates: home feed cards vs National panels
+
+## Home / News (`index.html`)
+
+- **One card per public beat.** The original story card stays dated where it was.
+- **Each update gets a new card** (new `<li>` with the update’s date), linking to the same National (or TN) panel `#anchor`.
+- On update cards, wrap the date column as `<div class="news-when">` with `<time>…</time>` plus `<span class="news-update">Update</span>` under the date. Original (first) cards keep a bare `<time>` only.
+- Place cards **newest first** among all stories being added or adjusted (fresh stories and update cards compete in one reverse-chrono list).
+- Do **not** rewrite or re-date the original card to absorb the update.
+
+## National (`national.html`)
+
+- **One card per story** (`<article id="…">`), whether the latest beat is brand-new or an update.
+- Add a **Developments** section (`.case-developments`) only when there are **two or more distinct beats**. Dated items, **newest first**. Do not clone the tag line into a one-item list.
+- In truncated National cards, do not leave a space before commas, semicolons, colons, or periods (`Royston, 51` not `Royston , 51`).
+- When a story is updated: deepen the panel body, append/prepend the new Developments beat, set `data-sort-date` to the newest beat, and **re-sort** `#nationwide-misuse` / `#cancellations` so that card bumps up with other new or newly updated stories (newest first). Refresh TOC lists to match.
+
+## Shared
+
+- **Hard sync** with catalog JSON + tallies + lookup widgets + `sources.html` (`sync-site-downloadables-and-sources.mdc`). Chronology-only markup is fine; new facts are not an excuse to skip JSON or `#cancel-lookup`.
+- Do not stamp an update onto an old home-feed `<time datetime>`.
+
+## Examples
+
+| Story | Home feed | National |
+|---|---|---|
+| Bibb | Aug 4 investigation card + Aug 10 arrests card | One `#bibb-flock` panel; Developments has both beats; sort date = Aug 10 |
+| Savannah | July 31 leave + Aug 7 firings | One `#savannah-flock-leave` panel; bumped by Aug 7 |
+| Ord | Aug 4 vote + Aug 10 ownership follow-up | One `#ord-cancel` panel |

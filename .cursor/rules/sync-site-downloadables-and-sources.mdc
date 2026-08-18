@@ -1,0 +1,82 @@
+---
+description: Hard gate — site HTML, catalog JSON, tallies, and lookup widgets must stay synced
+alwaysApply: true
+---
+
+# Hard sync: site ↔ catalog JSON ↔ tallies ↔ lookups
+
+The live site (`*.html`), dossier **JSON indexes**, **on-page tallies / Case_ID cites**, and **lookup widgets** are one system. They must stay synced in the same task. Drift is a bug.
+
+**Master-database PDFs are retired.** Do not create, link, export, or audit `docs/Flock_Safety_ALPR_Misuse_Master_Database.pdf`, `docs/Flock_Municipal_Cancellations_Database.pdf`, or `docs/AI_Wrongful_Enforcement_Database.pdf`. The independent community liability brief is also retired. Civic PDFs that still ship: quote extract, council speeches. **Excel is retired.**
+
+JSON is a skinny index. HTML holds the story.
+
+## Forbidden
+
+- Shipping a news panel / feed card / spotlight that belongs in a catalog while leaving JSON “intentionally unchanged”
+- Updating HTML tallies or “as of” dates without regenerating from current JSON
+- Citing a `FLK-` / `CAN-` / `ALPR-` / wrongful `ID` that does not exist in the matching JSON
+- Leaving `sources.html` catalog counts (e.g. `69 + 45 + 100`) stale after a catalog row change
+- Updating catalog JSON while leaving the matching **lookup widget** intro counts, as-of date, or Case_ID-on-article anchors stale
+- Regenerating or linking the three retired master-database PDFs
+
+## Same-task requirements
+
+1. **Classify the story** (misuse / cancel / wrongful / not a catalog case).
+2. If it belongs in a catalog → **upsert skinny JSON** → **update HTML tallies + Case_ID cites + lookup widget** → **sync `sources.html`**. Run `node scripts/compute_dossier_tallies.js`.
+3. If it does **not** belong in a catalog → say so in the reply with the narrow reason below; still sync `sources.html` for new URLs; **do not** invent a Case_ID.
+
+### Story → catalog
+
+| Belongs in catalog when… | Update |
+|---|---|
+| Officer misuse / stalking / firings / charges / personal lookups | `docs/Flock_Safety_ALPR_Misuse_Master_Database.json` |
+| City/agency cancel, non-renew, rescind, pause, suspend, remove | `docs/Flock_Municipal_Cancellations_Database.json` |
+| Wrongful stop / false arrest / stale-alert stop / FRT-ALPR damages / travel-history pretext enforcement | `docs/AI_Wrongful_Enforcement_Database.json` |
+
+### Tallies
+
+Recompute from JSON after every catalog edit (clear exits, record counts, fired/charged, suits, settlements, lookup floor, as-of date). Home + National counters, **lookup widget copy**, and `sources.html` catalog footnotes must match.
+
+### Lookup widgets
+
+Interactive tables **fetch** their source files at runtime. Do **not** inline a second `*-data.js` copy. Preview over `http://localhost`, not `file://`.
+
+After editing a catalog JSON, run `node scripts/compute_dossier_tallies.js` so `docs/dossier-tallies.json` matches. Home / National / Sources `[data-tally]` spans fetch that file; keep the HTML fallback numbers identical.
+
+| Catalog | Lookup | Same-task extras |
+|---|---|---|
+| Cancellations JSON | `national.html#cancel-lookup` (`assets/cancel-lookup.js`) | Refresh counts/as-of around the widget. Put the `CAN-` Case_ID in that story’s `#cancellations` article so the lookup can jump to the writeup. Keep `sources.html` “searchable table” links. |
+| Misuse JSON | `national.html#misuse-lookup` (`assets/dossier-lookup.js`) | Put the `FLK-` / `ALPR-` Case_ID on that story’s `#nationwide-misuse` article. |
+| Wrongful JSON | `national.html#wrongful-lookup` (`assets/dossier-lookup.js`) | Put `wrongful ID N` on that story’s `#nationwide-misuse` article when the row has a writeup. |
+
+Fetched catalogs (not case dossiers; still no `*-data.js` copy):
+
+| Source file | Widget |
+|---|---|
+| `docs/dossier-tallies.json` | `[data-tally]` counters on `index.html`, `national.html`, `sources.html` |
+| `docs/source-archives.json` | Timestamped Wayback companions on cited `https://` links (`assets/source-archives.js`) |
+| `docs/TPRA_Flock_Query_Records.csv` | `records.html#search-log` |
+| `docs/TPRA_Request_Templates.json` | `records.html#foia` |
+| `docs/Council_Speeches_3min.json` | `council.html#speech-picker` |
+
+The Crossville PD search log is a TPRA CSV tool, not a case-catalog lookup.
+
+## Only true non-catalog cases (still not an excuse to desync tallies)
+
+- Pure typography / CSS / layout with **no** new facts or links
+- Pure legislation / bills / hearings with **no** misuse, cancel, or wrongful-stop fact pattern
+- Secondary overviews that **only** link Case_IDs / IDs that already exist in JSON
+
+Anti-pattern: Wisconsin interstate weed-track shipped as HTML with “dossiers intentionally unchanged” — that **was** a wrongful-enforcement row.
+
+## Finish checklist (every content task)
+
+- [ ] Every new/updated catalog-eligible story has a skinny JSON row
+- [ ] Every Case_ID / wrongful ID on touched pages exists in JSON
+- [ ] Tallies and as-of dates match JSON (including lookup widget copy)
+- [ ] Matching lookup widget still works (cancellations: `#cancel-lookup`; misuse: `#misuse-lookup`; wrongful: `#wrongful-lookup`; Case_IDs / wrongful IDs on the matching articles)
+- [ ] `docs/dossier-tallies.json` regenerated and HTML fallback numbers match
+- [ ] New external cites have a Wayback row in `docs/source-archives.json`
+- [ ] `sources.html` updated (URLs + catalog counts + searchable-table links)
+- [ ] Reply states what was synced (or the narrow non-catalog reason)
