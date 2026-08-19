@@ -1150,6 +1150,41 @@
       "Resolution_Year": 2026,
       "Year_Note": "Complaint June 18, 2026; unpaid leave July 31; criminal complaint filed July 17; last Flock camera removed early August; public announcement Aug. 18; Select Board employment hearing Aug. 26.",
       "Outcome_Bucket": "1 Relieved of Duty / Under Investigation"
+    },
+    {
+      "Case_ID": "FLK-2026-049",
+      "Year": 2026,
+      "State": "LA",
+      "Agency_Jurisdiction": "Jefferson Parish Sheriff's Office",
+      "Subject_Officer_Involved": "Deputy Nathan Rome (terminated)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Department: several thousand searches of a former fiancée’s plate, 2024–2026; exact count not published",
+      "Source_URL": "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2024-2026",
+      "Resolution_Year": 2026,
+      "Year_Note": "Media inquiry Aug. 17, 2026; admission and suspend Aug. 18; termination announced Aug. 19. No criminal charges; former fiancée declined a complaint.",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-050",
+      "Year": 2026,
+      "State": "WI",
+      "Agency_Jurisdiction": "Menasha Police Department",
+      "Subject_Officer_Involved": "Officer Cristian Morales (resigned; sentenced)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Off-duty Flock searches of an ex-girlfriend’s vehicle (and reporting also names her brother) in October 2025; published attempt count is not a usable lookup-floor total",
+      "Source_URL": "https://www.nbc26.com/news/local-news/in-your-neighborhood/menasha/former-menasha-officer-jailed-after-flock-misuse-conviction",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2025,
+      "Resolution_Year": 2026,
+      "Year_Note": "Off-duty searches October 2025; no-contest plea; sentenced Aug. 17, 2026 to six months jail and three years probation; FOX 11 reported Aug. 19 that a judge denied a stay pending appeal.",
+      "Outcome_Bucket": "1 Resigned and Criminally Charged",
+      "Personnel_Terminated": 1,
+      "Personnel_Charged": 1
     }
   ]
 }

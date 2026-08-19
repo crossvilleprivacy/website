@@ -1476,6 +1476,22 @@
       "Secondary_Source_URL": "https://www.boston.com/news/local-news/2026/08/18/stow-police-cut-ties-with-flock-safety-after-officer-allegedly-used-cameras-to-track-someone-he-knows/",
       "Verification_Status": "Verified major press / local press",
       "Incomplete_Exit_Notes": "Last camera removed early August 2026; two others removed earlier in 2026. Department may request ALPR data from outside agencies under a forthcoming policy."
+    },
+    {
+      "Case_ID": "CAN-2026-105",
+      "Jurisdiction": "Henry County",
+      "State": "VA",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-08-14",
+      "Camera_Count": 14,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Privacy / constitutional concerns; National misuse reports; Sheriff suspend and dismantle while contract runs through 2028",
+      "Summary": "Henry County Sheriff Wayne Davis suspended sheriff’s-office access to 14 Flock cameras (10 fixed, 4 mobile) on August 14, 2026 and said the office would explore early termination of a contract that runs through August 2028. WSLS reported August 17 that the office would begin dismantling the cameras in the coming days. Davis had said in July he would not renew in 2028; the August suspend moved that timeline up. This is a suspend / hardware pull, not a reported contract termination.",
+      "Primary_Source_URL": "https://www.wsls.com/news/local/2026/08/17/henry-co-sheriffs-office-suspends-access-to-flock/",
+      "Secondary_Source_URL": "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Contract still runs through August 2028. WSLS quoted Davis saying cameras may still record while sheriff’s-office access is off. Physical removal was announced as beginning in the days after August 17."
     }
   ]
 }

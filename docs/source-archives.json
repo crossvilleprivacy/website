@@ -1,7 +1,7 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
   "as_of": "2026-08-19",
-  "count": 698,
+  "count": 710,
   "source_count": 1,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -38,6 +38,13 @@
       "timestamp": "20260815081750",
       "captured": "2026-08-15T08:17:50Z",
       "method": "existing"
+    },
+    "https://abc13.com/post/houston-police-department-is-top-flock-camera-searcher-lucas-county-ohio-data-shows/19699604": {
+      "url": "https://abc13.com/post/houston-police-department-is-top-flock-camera-searcher-lucas-county-ohio-data-shows/19699604/",
+      "wayback": "https://web.archive.org/web/20260819231907/https://abc13.com/post/houston-police-department-is-top-flock-camera-searcher-lucas-county-ohio-data-shows/19699604/",
+      "timestamp": "20260819231907",
+      "captured": "2026-08-19T23:19:07Z",
+      "method": "save"
     },
     "https://abc17news.com/news/2026/08/17/jefferson-city-council-renews-flock-agreement-amid-nationwide-debate-over-its-use": {
       "url": "https://abc17news.com/news/2026/08/17/jefferson-city-council-renews-flock-agreement-amid-nationwide-debate-over-its-use/",
@@ -648,6 +655,13 @@
       "captured": "2026-08-06T06:31:23Z",
       "method": "existing"
     },
+    "https://fox11online.com/news/local/former-officer-denied-bid-to-stay-out-of-jail-during-appeal-of-misconduct-verdict": {
+      "url": "https://fox11online.com/news/local/former-officer-denied-bid-to-stay-out-of-jail-during-appeal-of-misconduct-verdict",
+      "wayback": "https://web.archive.org/web/20260819231713/https://fox11online.com/news/local/former-officer-denied-bid-to-stay-out-of-jail-during-appeal-of-misconduct-verdict",
+      "timestamp": "20260819231713",
+      "captured": "2026-08-19T23:17:13Z",
+      "method": "save"
+    },
     "https://fox11online.com/news/local/grand-chute-cancels-flock-contract-signs-camera-agreement-with-new-company-axon-safety-privacy": {
       "url": "https://fox11online.com/news/local/grand-chute-cancels-flock-contract-signs-camera-agreement-with-new-company-axon-safety-privacy",
       "wayback": "https://web.archive.org/web/20260628153852/https://fox11online.com/news/local/grand-chute-cancels-flock-contract-signs-camera-agreement-with-new-company-axon-safety-privacy",
@@ -1067,6 +1081,13 @@
       "timestamp": "20260819145219",
       "captured": "2026-08-19T14:52:19Z",
       "method": "save"
+    },
+    "https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage": {
+      "url": "https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage",
+      "wayback": "https://web.archive.org/web/20260819192153/https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage",
+      "timestamp": "20260819192153",
+      "captured": "2026-08-19T19:21:53Z",
+      "method": "existing"
     },
     "https://localnews8.com/news/local-news/2026/07/30/idaho-falls-city-council-amends-flock-safety-contract-following-privacy-concerns": {
       "url": "https://localnews8.com/news/local-news/2026/07/30/idaho-falls-city-council-amends-flock-safety-contract-following-privacy-concerns/",
@@ -1754,6 +1775,13 @@
       "captured": "2026-08-01T11:43:30Z",
       "method": "existing"
     },
+    "https://wlos.com/news/local/asheville-mayor-esther-manheimer-vote-end-city-flock-safety-contract-remove-cameras-backlash-automatic-license-plate-readers-data-surveillance": {
+      "url": "https://wlos.com/news/local/asheville-mayor-esther-manheimer-vote-end-city-flock-safety-contract-remove-cameras-backlash-automatic-license-plate-readers-data-surveillance",
+      "wayback": "https://web.archive.org/web/20260819231344/https://wlos.com/news/local/asheville-mayor-esther-manheimer-vote-end-city-flock-safety-contract-remove-cameras-backlash-automatic-license-plate-readers-data-surveillance",
+      "timestamp": "20260819231344",
+      "captured": "2026-08-19T23:13:44Z",
+      "method": "existing"
+    },
     "https://wlos.com/news/local/macon-county-north-carolina-wnc-flock-remove-license-plate-reader-cameras-unanimous-vote-privacy-concerns-public-safety-debate-ai-artificial-intelligence-surveillance": {
       "url": "https://wlos.com/news/local/macon-county-north-carolina-wnc-flock-remove-license-plate-reader-cameras-unanimous-vote-privacy-concerns-public-safety-debate-ai-artificial-intelligence-surveillance",
       "wayback": "https://web.archive.org/web/20260728235027/https://wlos.com/news/local/macon-county-north-carolina-wnc-flock-remove-license-plate-reader-cameras-unanimous-vote-privacy-concerns-public-safety-debate-ai-artificial-intelligence-surveillance",
@@ -1802,6 +1830,13 @@
       "timestamp": "20260718105228",
       "captured": "2026-07-18T10:52:28Z",
       "method": "existing"
+    },
+    "https://www.13abc.com/2026/08/17/lucas-county-commissioner-calls-pause-flock-camera-use-sheriff-argues-move-could-jeopardize-safety": {
+      "url": "https://www.13abc.com/2026/08/17/lucas-county-commissioner-calls-pause-flock-camera-use-sheriff-argues-move-could-jeopardize-safety/",
+      "wayback": "https://web.archive.org/web/20260819231823/https://www.13abc.com/2026/08/17/lucas-county-commissioner-calls-pause-flock-camera-use-sheriff-argues-move-could-jeopardize-safety/",
+      "timestamp": "20260819231823",
+      "captured": "2026-08-19T23:18:23Z",
+      "method": "save"
     },
     "https://www.29news.com/2026/07/29/harrisonburg-city-council-votes-end-contract-with-flock-safety": {
       "url": "https://www.29news.com/2026/07/29/harrisonburg-city-council-votes-end-contract-with-flock-safety/",
@@ -3070,6 +3105,13 @@
       "captured": "2026-08-15T07:04:45Z",
       "method": "existing"
     },
+    "https://www.foxcarolina.com/2026/08/19/asheville-mayor-calls-city-cancel-flock-safety-contract": {
+      "url": "https://www.foxcarolina.com/2026/08/19/asheville-mayor-calls-city-cancel-flock-safety-contract/",
+      "wayback": "https://web.archive.org/web/20260819231438/https://www.foxcarolina.com/2026/08/19/asheville-mayor-calls-city-cancel-flock-safety-contract/",
+      "timestamp": "20260819231438",
+      "captured": "2026-08-19T23:14:38Z",
+      "method": "save"
+    },
     "https://www.foxcarolina.com/2026/08/19/we-will-not-be-watched-oconee-county-council-advances-ban-flock-surveillance-cameras": {
       "url": "https://www.foxcarolina.com/2026/08/19/we-will-not-be-watched-oconee-county-council-advances-ban-flock-surveillance-cameras/",
       "wayback": "https://web.archive.org/web/20260819144908/https://www.foxcarolina.com/2026/08/19/we-will-not-be-watched-oconee-county-council-advances-ban-flock-surveillance-cameras/",
@@ -3644,6 +3686,13 @@
       "captured": "2026-01-21T00:58:56Z",
       "method": "existing"
     },
+    "https://www.nbc26.com/news/local-news/in-your-neighborhood/menasha/former-menasha-officer-jailed-after-flock-misuse-conviction": {
+      "url": "https://www.nbc26.com/news/local-news/in-your-neighborhood/menasha/former-menasha-officer-jailed-after-flock-misuse-conviction",
+      "wayback": "https://web.archive.org/web/20260819231627/https://www.nbc26.com/news/local-news/in-your-neighborhood/menasha/former-menasha-officer-jailed-after-flock-misuse-conviction",
+      "timestamp": "20260819231627",
+      "captured": "2026-08-19T23:16:27Z",
+      "method": "existing"
+    },
     "https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914": {
       "url": "https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914/",
       "wayback": "https://web.archive.org/web/20260814225402/https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914/",
@@ -4064,6 +4113,13 @@
       "captured": "2026-08-11T04:37:54Z",
       "method": "existing"
     },
+    "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html": {
+      "url": "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html",
+      "wayback": "https://web.archive.org/web/20260819231208/https://www.theadvocate.com/auth0-redirect?returnUrl=https%3A%2F%2Fwww.theadvocate.com%2Fbaton_rouge%2Fnews%2Fcrime_police%2Fjpso-deputy-flock-camera-abuse%2Farticle_a41e70f5-fb70-57df-b609-de401722c5a6.html&error=login_required&error_description=Login%20required&state=bnpiOTVHQkxoZGhsLkdLOERuUmJSZjdVZmZ0SE9adE5qMVAud1o3U2RwdQ%3D%3D",
+      "timestamp": "20260819231208",
+      "captured": "2026-08-19T23:12:08Z",
+      "method": "save"
+    },
     "https://www.theadvocate.com/baton_rouge/news/flock-camera-ban-proposed-livingston-parish/article_3b28cc22-77ac-4e9b-ba9a-652edf6ed002.html": {
       "url": "https://www.theadvocate.com/baton_rouge/news/flock-camera-ban-proposed-livingston-parish/article_3b28cc22-77ac-4e9b-ba9a-652edf6ed002.html",
       "wayback": "https://web.archive.org/web/20260818120718/https://www.theadvocate.com/baton_rouge/news/flock-camera-ban-proposed-livingston-parish/article_3b28cc22-77ac-4e9b-ba9a-652edf6ed002.html",
@@ -4309,6 +4365,13 @@
       "captured": "2026-08-16T17:45:23Z",
       "method": "existing"
     },
+    "https://www.wdsu.com/article/louisiana-sheriffs-office-worker-fired-over-flock-searches/73475431": {
+      "url": "https://www.wdsu.com/article/louisiana-sheriffs-office-worker-fired-over-flock-searches/73475431",
+      "wayback": "https://web.archive.org/web/20260819231251/https://www.wdsu.com/article/louisiana-sheriffs-office-worker-fired-over-flock-searches/73475431",
+      "timestamp": "20260819231251",
+      "captured": "2026-08-19T23:12:51Z",
+      "method": "save"
+    },
     "https://www.wesh.com/article/haines-city-police-officer-arrested-accused-of-misusing-investigative-database/73405827": {
       "url": "https://www.wesh.com/article/haines-city-police-officer-arrested-accused-of-misusing-investigative-database/73405827",
       "wayback": "https://web.archive.org/web/20260816174555/https://www.wesh.com/article/haines-city-police-officer-arrested-accused-of-misusing-investigative-database/73405827",
@@ -4414,6 +4477,13 @@
       "captured": "2025-07-22T10:59:00Z",
       "method": "existing"
     },
+    "https://www.wlwt.com/article/clermont-county-flock-camera-vandalism-man-charged/73318099": {
+      "url": "https://www.wlwt.com/article/clermont-county-flock-camera-vandalism-man-charged/73318099",
+      "wayback": "https://web.archive.org/web/20260819225821/https://www.wlwt.com/article/clermont-county-flock-camera-vandalism-man-charged/73318099",
+      "timestamp": "20260819225821",
+      "captured": "2026-08-19T22:58:21Z",
+      "method": "save"
+    },
     "https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety": {
       "url": "https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety/",
       "wayback": "https://web.archive.org/web/20260731014313/https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety/",
@@ -4504,6 +4574,20 @@
       "timestamp": "20260815030354",
       "captured": "2026-08-15T03:03:54Z",
       "method": "existing"
+    },
+    "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately": {
+      "url": "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately/",
+      "wayback": "https://web.archive.org/web/20260815052239/https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately/",
+      "timestamp": "20260815052239",
+      "captured": "2026-08-15T05:22:39Z",
+      "method": "existing"
+    },
+    "https://www.wsls.com/news/local/2026/08/17/henry-co-sheriffs-office-suspends-access-to-flock": {
+      "url": "https://www.wsls.com/news/local/2026/08/17/henry-co-sheriffs-office-suspends-access-to-flock/",
+      "wayback": "https://web.archive.org/web/20260819231525/https://www.wsls.com/news/local/2026/08/17/henry-co-sheriffs-office-suspends-access-to-flock/",
+      "timestamp": "20260819231525",
+      "captured": "2026-08-19T23:15:25Z",
+      "method": "save"
     },
     "https://www.wsls.com/news/local/2026/08/18/lynchburg-reconsidering-flock-cameras": {
       "url": "https://www.wsls.com/news/local/2026/08/18/lynchburg-reconsidering-flock-cameras/",
