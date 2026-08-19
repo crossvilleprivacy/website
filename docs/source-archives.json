@@ -1,7 +1,7 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
   "as_of": "2026-08-19",
-  "count": 710,
+  "count": 711,
   "source_count": 1,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -4720,6 +4720,13 @@
       "wayback": "https://web.archive.org/web/20260818164919/https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/",
       "timestamp": "20260818164919",
       "captured": "2026-08-18T16:49:19Z",
+      "method": "save"
+    },
+    "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal": {
+      "url": "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/",
+      "wayback": "https://web.archive.org/web/20260819234536/https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/",
+      "timestamp": "20260819234536",
+      "captured": "2026-08-19T23:45:36Z",
       "method": "save"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {

@@ -647,6 +647,9 @@
         return item.state + " (" + formatCount(item.count) + ")";
       });
       draw();
+      if (typeof CrossvilleCampaign !== "undefined" && typeof CrossvilleCampaign.notifyLayout === "function") {
+        CrossvilleCampaign.notifyLayout(doc);
+      }
     }
 
     setText(status, spec.loading);

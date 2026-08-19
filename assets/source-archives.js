@@ -310,6 +310,9 @@
     function apply(data) {
       catalog = data;
       decorate(doc, catalog, doc);
+      if (typeof CrossvilleCampaign !== "undefined" && typeof CrossvilleCampaign.notifyLayout === "function") {
+        CrossvilleCampaign.notifyLayout(doc);
+      }
       if (doc.body && typeof MutationObserver === "function") {
         var observer = new MutationObserver(function (mutations) {
           mutations.forEach(function (mutation) {

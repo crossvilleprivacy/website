@@ -500,17 +500,43 @@
     return out;
   }
 
+  function cancellationsRoot(doc) {
+    if (!doc || !doc.querySelector) {
+      return null;
+    }
+    var node =
+      doc.querySelector("#cancellations-section") ||
+      doc.querySelector("#cancellations");
+    if (!node) {
+      return null;
+    }
+    if (typeof node.closest === "function") {
+      var section = node.closest("section");
+      if (section) {
+        return section;
+      }
+    }
+    return node;
+  }
+
+  function notifyLayout(doc) {
+    var api = typeof CrossvilleCampaign !== "undefined" ? CrossvilleCampaign : null;
+    if (api && typeof api.notifyLayout === "function") {
+      api.notifyLayout(doc);
+    }
+  }
+
   function caseAnchorsFromDoc(doc) {
     var map = {};
     if (!doc || !doc.querySelectorAll) {
       return map;
     }
-    var scope = doc.querySelector ? doc.querySelector("#cancellations") : null;
-    var root = scope || doc;
-    if (!root.querySelectorAll) {
+    var scope = cancellationsRoot(doc);
+    var rootEl = scope || doc;
+    if (!rootEl.querySelectorAll) {
       return map;
     }
-    var nodes = root.querySelectorAll("article[id]");
+    var nodes = rootEl.querySelectorAll("article[id]");
     var i;
     var text;
     var match;
@@ -918,6 +944,7 @@
         draw();
       });
       draw();
+      notifyLayout(doc);
     }
 
     setText(status, "Loading cancellations…");
@@ -971,6 +998,7 @@
     splitReasons: splitReasons,
     reasonBucketsForRow: reasonBucketsForRow,
     caseAnchorsFromDoc: caseAnchorsFromDoc,
+    cancellationsRoot: cancellationsRoot,
     initCancelLookup: initCancelLookup,
   };
 });

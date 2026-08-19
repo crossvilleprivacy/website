@@ -1025,6 +1025,33 @@
     }
   }
 
+  var hashPinLocked = false;
+
+  function lockHashPin() {
+    hashPinLocked = true;
+  }
+
+  function resetHashPinLock() {
+    hashPinLocked = false;
+  }
+
+  function pinHashTarget(doc, win) {
+    doc = doc || (typeof document !== "undefined" ? document : null);
+    win = win || (typeof window !== "undefined" ? window : null);
+    if (hashPinLocked || !doc || !win) {
+      return false;
+    }
+    var id = idFromHash(win.location && win.location.hash);
+    if (!id) {
+      return false;
+    }
+    return scrollToId(id, "auto", doc, win);
+  }
+
+  function notifyLayout(doc, win) {
+    return pinHashTarget(doc, win);
+  }
+
   function stickyChromePx(doc) {
     doc = doc || document;
     var banner = doc.getElementById ? doc.getElementById("renewal-countdown") : null;
@@ -1093,15 +1120,27 @@
     if (win.matchMedia && win.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       mode = "auto";
     }
+    var instant = mode === "auto" || mode === "instant";
     function go() {
+      var root = doc.documentElement;
+      var prevBehavior = "";
+      var y = 0;
       if (id === "top") {
-        win.scrollTo({ top: 0, behavior: mode });
-        return;
+        y = 0;
+      } else {
+        y = hashScrollY(el, win, stickyChromePx(doc));
+      }
+      if (instant && root && root.style) {
+        prevBehavior = root.style.scrollBehavior || "";
+        root.style.scrollBehavior = "auto";
       }
       win.scrollTo({
-        top: hashScrollY(el, win, stickyChromePx(doc)),
-        behavior: mode,
+        top: y,
+        behavior: instant ? "auto" : mode,
       });
+      if (instant && root && root.style) {
+        root.style.scrollBehavior = prevBehavior;
+      }
     }
     if (win.requestAnimationFrame) {
       win.requestAnimationFrame(function () {
@@ -1120,8 +1159,26 @@
       return null;
     }
 
+    resetHashPinLock();
+
     function currentHashId() {
       return idFromHash(win.location && win.location.hash);
+    }
+
+    function onUserScrollIntent() {
+      lockHashPin();
+    }
+
+    function scheduleLatePins() {
+      if (!win.setTimeout) {
+        return;
+      }
+      win.setTimeout(function () {
+        pinHashTarget(doc, win);
+      }, 400);
+      win.setTimeout(function () {
+        pinHashTarget(doc, win);
+      }, 1200);
     }
 
     function onHashLinkClick(event) {
@@ -1160,6 +1217,7 @@
         }
       }
       event.preventDefault();
+      resetHashPinLock();
       if (win.history && win.history.pushState) {
         win.history.pushState(null, "", "#" + id);
       } else if (win.location) {
@@ -1169,7 +1227,24 @@
     }
 
     doc.addEventListener("click", onHashLinkClick);
+    win.addEventListener("wheel", onUserScrollIntent, { passive: true });
+    win.addEventListener("touchmove", onUserScrollIntent, { passive: true });
+    win.addEventListener("keydown", function (event) {
+      var key = event && event.key;
+      if (
+        key === "ArrowDown" ||
+        key === "ArrowUp" ||
+        key === "PageDown" ||
+        key === "PageUp" ||
+        key === "Home" ||
+        key === "End" ||
+        key === " "
+      ) {
+        onUserScrollIntent();
+      }
+    });
     win.addEventListener("hashchange", function () {
+      resetHashPinLock();
       scrollToId(currentHashId(), "smooth", doc, win);
     });
     win.addEventListener("load", function () {
@@ -1177,15 +1252,20 @@
       var id = currentHashId();
       if (id) {
         scrollToId(id, "auto", doc, win);
+        scheduleLatePins();
       }
     });
     win.addEventListener("resize", function () {
       syncStickyOffsets(doc);
     });
+    doc.addEventListener("cp:layout", function () {
+      pinHashTarget(doc, win);
+    });
     syncStickyOffsets(doc);
     var id = currentHashId();
     if (id) {
       scrollToId(id, "auto", doc, win);
+      scheduleLatePins();
     }
     return { scrollToId: scrollToId };
   }
@@ -1511,6 +1591,10 @@
     syncStickyOffsets: syncStickyOffsets,
     hashScrollY: hashScrollY,
     scrollToId: scrollToId,
+    pinHashTarget: pinHashTarget,
+    notifyLayout: notifyLayout,
+    lockHashPin: lockHashPin,
+    resetHashPinLock: resetHashPinLock,
     initStickyHashScroll: initStickyHashScroll,
     THEME_STORAGE_KEY: THEME_STORAGE_KEY,
     THEME_COLOR_LIGHT: THEME_COLOR_LIGHT,

@@ -121,7 +121,8 @@ html[data-theme="dark"] {
 }
 
 html {
-  scroll-behavior: smooth;
+  /* Instant hash landing; same-page clicks still smooth-scroll in campaign-ux.js. */
+  scroll-behavior: auto;
   scroll-padding-top: var(--scroll-offset);
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -1345,7 +1346,6 @@ section {
       color-mix(in srgb, var(--accent) 4%, transparent) 12px
     );
   box-shadow: inset 5px 0 0 var(--accent);
-  scroll-margin-top: var(--scroll-offset);
   animation: council-meetings-in 0.55s ease-out both;
 }
 
@@ -1475,7 +1475,6 @@ section {
     linear-gradient(165deg, var(--compare-bad-bg) 0%, var(--surface) 100%);
   border-color: var(--compare-bad-border);
   box-shadow: inset 4px 0 0 var(--accent);
-  scroll-margin-top: var(--scroll-offset);
 }
 
 .panel-security > .section-label {
@@ -2765,15 +2764,9 @@ a.deep-link-hash {
 
 /* , : Impact layout (formerly styles2) ,  */
 
-/* In-page anchors clear sticky renewal banner + site header */
-[id] {
-  scroll-margin-top: var(--scroll-offset);
-}
-
-/* Brand “home” jump, pin to top of document under sticky chrome */
-#top {
-  scroll-margin-top: var(--scroll-offset);
-}
+/* Sticky chrome clearance is html { scroll-padding-top }. Do not also set
+   scroll-margin-top on [id] or individual hash targets: the two offsets add
+   and hash jumps stop short of the heading. */
 
 .pull-card {
   margin: 1.25rem 0 0;
@@ -3019,11 +3012,6 @@ a.deep-link-hash {
     var(--surface);
   border: 1px solid var(--accent-border);
   border-radius: 6px;
-  scroll-margin-top: var(--scroll-offset);
-}
-
-#tn-glance {
-  scroll-margin-top: var(--scroll-offset);
 }
 
 .tn-glance h2 {
@@ -3687,7 +3675,6 @@ body.sticky-cta-is-dismissed {
 /* Council speech picker */
 #speech-picker {
   margin-top: 1.25rem;
-  scroll-margin-top: var(--scroll-offset);
 }
 
 .speech-picker-controls {
@@ -3801,7 +3788,6 @@ body.sticky-cta-is-dismissed {
 /* TPRA request picker (records.html#foia) — reuses speech-picker controls */
 #tpra-picker {
   margin-top: 1.25rem;
-  scroll-margin-top: var(--scroll-offset);
 }
 
 .tpra-picker-controls {
@@ -3813,10 +3799,6 @@ body.sticky-cta-is-dismissed {
 }
 
 /* Crossville PD Flock search log (records.html#search-log) */
-#search-log {
-  scroll-margin-top: var(--scroll-offset);
-}
-
 .audit-log-widget {
   margin-top: 1.1rem;
   padding: 1rem 1rem 0.85rem;
@@ -4017,12 +3999,6 @@ body.sticky-cta-is-dismissed {
 }
 
 /* Municipal cancellations lookup (national.html#cancel-lookup) */
-#cancel-lookup,
-#misuse-lookup,
-#wrongful-lookup {
-  scroll-margin-top: var(--scroll-offset);
-}
-
 .cancel-lookup-widget {
   margin-bottom: 1.15rem;
 }
