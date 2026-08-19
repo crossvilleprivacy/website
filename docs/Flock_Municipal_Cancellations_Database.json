@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-18",
+  "compiled": "2026-08-19",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Aggregator tallies are larger than this list.",
   "records": [
     {
@@ -1415,6 +1415,67 @@
       "Primary_Source_URL": "https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/",
       "Verification_Status": "Verified local TV / local press",
       "Incomplete_Exit_Notes": "Suspended until further notice, not a reported contract termination. WVLT notes private businesses and nearby agencies can still run Flock. A county referendum would cover sheriff's-office use and funding only; none is scheduled in the reporting."
+    },
+    {
+      "Case_ID": "CAN-2026-101",
+      "Jurisdiction": "Gardner",
+      "State": "KS",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-17",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy; Data-access concerns; Council vote to shut cameras immediately and cancel the contract",
+      "Summary": "Gardner City Council on August 17, 2026 agreed to turn off the city’s Flock cameras immediately and not renew the contract. KMBC reported August 18 that some cameras were covered by Tuesday, and that Gardner Police confirmed it discontinued all city Flock cameras and notified the vendor the contract was canceled. Council member Kelly Johnson said the vote covers only city-controlled cameras, not Johnson County or state units nearby. Resident Bradley Steinmetz of No Flock in Gardner said more than 1,200 vendors had access through the Flock system.",
+      "Primary_Source_URL": "https://www.kmbc.com/article/gardner-kansas-flock-cameras-license-plate-readers-privacy/73468724",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Camera count not published. County and state ALPRs in and around Gardner remain. Physical pickup timetable not published."
+    },
+    {
+      "Case_ID": "CAN-2026-102",
+      "Jurisdiction": "Fort Mitchell",
+      "State": "KY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-17",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash; Mass-surveillance / Fourth Amendment / data-security concerns; Packed council meeting; Mayor terminate decision",
+      "Summary": "After residents packed the August 17, 2026 council meeting, Fort Mitchell Mayor Greg Pohlgeers said the city would shut off and dismantle its five Flock readers immediately and would not renew. LINK nky reported the 2024 contract was 24 months for about $34,000. City Administrator Edwin King said staff would coordinate with Flock to end operations. FOX19 reported the mayor’s overnight announcement on August 19.",
+      "Primary_Source_URL": "https://linknky.com/news/2026/08/18/fort-mitchell-ends-flock-safety-license-plate-readers/",
+      "Secondary_Source_URL": "https://www.fox19.com/2026/08/19/northern-kentucky-city-ending-use-flock-cameras-mayor-says/",
+      "Verification_Status": "Verified local press / local TV",
+      "Incomplete_Exit_Notes": "Immediate shutdown announced; vendor pickup timetable not published."
+    },
+    {
+      "Case_ID": "CAN-2026-103",
+      "Jurisdiction": "Winston",
+      "State": "OR",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-17",
+      "Camera_Count": 8,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Budget cuts; Public trust / privacy concerns; Police announcement to council; Related ODOT ALPR agreement killed",
+      "Summary": "Winston Police Chief Brandon Sarti told City Council on August 17, 2026 that the department had canceled its Flock contract that day. NR Today reported eight cameras in Douglas County at about $24,000 a year, amid $215,000 in department budget cuts. Sarti said the lieutenant’s retirement plus the cancel should save about $217,000, and that if residents paying the bill do not want the cameras, the city is turning them off. Council also killed proposed Resolution 26-1237, an ODOT intergovernmental agreement that would have allowed ALPRs on Oregon Route 42. Mayor Christie Knutson said community outcry was part of the removal.",
+      "Primary_Source_URL": "https://www.nrtoday.com/news/winston-police-department-cancels-contract-with-flock-safety-amid-budgetary-constraints/article_3043ea96-0d9b-4c5a-9d01-0fab1c3b30e8.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Physical removal timetable not published in the NR Today report."
+    },
+    {
+      "Case_ID": "CAN-2026-104",
+      "Jurisdiction": "Stow",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-18",
+      "Camera_Count": 3,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Officer alleged personal Flock / CJIS lookups; Police chief ended the Flock relationship as a direct result; Last camera removed",
+      "Summary": "Stow Police Chief Michael Sallese announced August 18, 2026 that the department ended its Flock relationship as a direct result of alleged personal Flock and CJIS lookups by Officer Jason Rogers. The Boston Globe and boston.com reported the last remaining Flock camera was removed in early August; two other ALPRs came down earlier in 2026 after an effectiveness review. See FLK-2026-048. The department said it will evaluate safeguards before any future ALPR use and will bring a tighter request/approval policy to the Select Board.",
+      "Primary_Source_URL": "https://www.bostonglobe.com/2026/08/18/metro/stow-police-officer-terminated-flock-camera/",
+      "Secondary_Source_URL": "https://www.boston.com/news/local-news/2026/08/18/stow-police-cut-ties-with-flock-safety-after-officer-allegedly-used-cameras-to-track-someone-he-knows/",
+      "Verification_Status": "Verified major press / local press",
+      "Incomplete_Exit_Notes": "Last camera removed early August 2026; two others removed earlier in 2026. Department may request ALPR data from outside agencies under a forthcoming policy."
     }
   ]
 }

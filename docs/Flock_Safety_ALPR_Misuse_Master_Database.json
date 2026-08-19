@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-08-18",
+  "compiled": "2026-08-19",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-08-18"
+    "generated_on": "2026-08-19"
   },
   "verified_incidents": [
     {
@@ -1133,6 +1133,22 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Year_Note": "City pause Aug. 11, 2026; Pacheco named in Aug. 13 coverage; investigations open.",
+      "Outcome_Bucket": "1 Relieved of Duty / Under Investigation"
+    },
+    {
+      "Case_ID": "FLK-2026-048",
+      "Year": 2026,
+      "State": "MA",
+      "Agency_Jurisdiction": "Stow Police Department",
+      "Subject_Officer_Involved": "Officer Jason Rogers (unpaid leave; termination hearing Aug. 26, 2026)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple Flock vehicle lookups of a person known to the officer, plus CJIS CORI access on at least five occasions (PD: 2024–2025); personal Flock count not published in the department release",
+      "Source_URL": "https://www.bostonglobe.com/2026/08/18/metro/stow-police-officer-terminated-flock-camera/",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2024-2025",
+      "Resolution_Year": 2026,
+      "Year_Note": "Complaint June 18, 2026; unpaid leave July 31; criminal complaint filed July 17; last Flock camera removed early August; public announcement Aug. 18; Select Board employment hearing Aug. 26.",
       "Outcome_Bucket": "1 Relieved of Duty / Under Investigation"
     }
   ]
