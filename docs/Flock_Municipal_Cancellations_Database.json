@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-19",
+  "compiled": "2026-08-20",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Aggregator tallies are larger than this list.",
   "records": [
     {
@@ -1492,6 +1492,51 @@
       "Secondary_Source_URL": "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately/",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Contract still runs through August 2028. WSLS quoted Davis saying cameras may still record while sheriff’s-office access is off. Physical removal was announced as beginning in the days after August 17."
+    },
+    {
+      "Case_ID": "CAN-2026-106",
+      "Jurisdiction": "Waukee",
+      "State": "IA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-14",
+      "Camera_Count": 11,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Privacy / data-retention concerns; National ALPR backlash; Chief non-renewal pending 2027 legislative standards",
+      "Summary": "Waukee Police Chief Chad McCluskey announced August 14, 2026 that the department will not renew its Flock Safety ALPR contract and will stop using the cameras pending the 2027 Iowa legislative session. The Des Moines Register reported 11 cameras and that none had been vandalized locally. Waukee was the first Des Moines metro city reported to drop Flock; Coralville canceled earlier in 2026.",
+      "Primary_Source_URL": "https://www.desmoinesregister.com/story/news/local/waukee/2026/08/15/waukee-police-department-wont-renew-its-flock-contract-11-cameras-license-plate-reader/91318490007/",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Non-renewal / stop-use pending state legislation. Hardware removal timetable not published. Neighboring metro cities still contract with Flock per Register reporting."
+    },
+    {
+      "Case_ID": "CAN-2026-107",
+      "Jurisdiction": "Indianola",
+      "State": "IA",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-08-17",
+      "Camera_Count": 8,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Privacy / data-sharing concerns; Public trust review; Chief deactivate pending legislative standards",
+      "Summary": "Indianola Police Chief Rob Hawkins announced that beginning August 17, 2026 the department deactivated its eight Flock cameras and disabled outside-agency access to the data. KCRG and the Des Moines Register reported the program costs about $24,000 a year. Cameras remain installed pending coordination with Flock. Untied data will purge in 30 days. The department said it is listening to privacy concerns and watching the 2027 legislative session.",
+      "Primary_Source_URL": "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
+      "Secondary_Source_URL": "https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007/",
+      "Verification_Status": "Verified local TV / major press",
+      "Incomplete_Exit_Notes": "Suspend / deactivate, not a reported contract termination. Hardware remains up pending vendor coordination. May resume after review or 2027 legislation."
+    },
+    {
+      "Case_ID": "CAN-2026-108",
+      "Jurisdiction": "Henry County",
+      "State": "MO",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-10",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Constitutional / privacy / public-trust concerns; Sheriff non-renewal after grant pilot; Fiscal responsibility",
+      "Summary": "Henry County, Missouri, Sheriff Aaron N. Brown announced August 10, 2026 that the sheriff’s office will not renew its Flock Safety LPR agreement when the current term expires March 11, 2027. The program began earlier in 2026 through a State of Missouri grant. Brown said the system assisted investigations in its first five months but that public trust and constitutional principles weighed against continuing past the grant term.",
+      "Primary_Source_URL": "https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation/",
+      "Verification_Status": "Verified local press / sheriff statement",
+      "Incomplete_Exit_Notes": "Operational through March 11, 2027. Camera count not published in the Aug. 10 statement. Distinct from Henry County, Virginia (CAN-2026-105)."
     }
   ]
 }

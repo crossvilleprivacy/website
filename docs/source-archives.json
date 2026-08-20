@@ -1,7 +1,7 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
-  "as_of": "2026-08-19",
-  "count": 711,
+  "as_of": "2026-08-20",
+  "count": 715,
   "source_count": 1,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -2846,6 +2846,20 @@
       "captured": "2026-08-16T17:29:20Z",
       "method": "existing"
     },
+    "https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007": {
+      "url": "https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007/",
+      "wayback": "https://web.archive.org/web/20260820135021/https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007/",
+      "timestamp": "20260820135021",
+      "captured": "2026-08-20T13:50:21Z",
+      "method": "save"
+    },
+    "https://www.desmoinesregister.com/story/news/local/waukee/2026/08/15/waukee-police-department-wont-renew-its-flock-contract-11-cameras-license-plate-reader/91318490007": {
+      "url": "https://www.desmoinesregister.com/story/news/local/waukee/2026/08/15/waukee-police-department-wont-renew-its-flock-contract-11-cameras-license-plate-reader/91318490007/",
+      "wayback": "https://web.archive.org/web/20260820134822/https://www.desmoinesregister.com/story/news/local/waukee/2026/08/15/waukee-police-department-wont-renew-its-flock-contract-11-cameras-license-plate-reader/91318490007/",
+      "timestamp": "20260820134822",
+      "captured": "2026-08-20T13:48:22Z",
+      "method": "save"
+    },
     "https://www.dnronline.com/news/politics_and_government/harrisonburg-takes-down-flock-cameras/article_8f8d0620-cb3a-52d2-b175-9cd45d0b84c6.html": {
       "url": "https://www.dnronline.com/news/politics_and_government/harrisonburg-takes-down-flock-cameras/article_8f8d0620-cb3a-52d2-b175-9cd45d0b84c6.html",
       "wayback": "https://web.archive.org/web/20260812172418/https://www.dnronline.com/news/politics_and_government/harrisonburg-takes-down-flock-cameras/article_8f8d0620-cb3a-52d2-b175-9cd45d0b84c6.html",
@@ -3329,6 +3343,13 @@
       "captured": "2026-07-09T23:51:37Z",
       "method": "existing"
     },
+    "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns": {
+      "url": "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260819100805/https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
+      "timestamp": "20260819100805",
+      "captured": "2026-08-19T10:08:05Z",
+      "method": "existing"
+    },
     "https://www.kcur.org/news/2026-06-29/automated-license-plate-readers-alpr-kansas-city-lenexa-weston-police": {
       "url": "https://www.kcur.org/news/2026-06-29/automated-license-plate-readers-alpr-kansas-city-lenexa-weston-police",
       "wayback": "https://web.archive.org/web/20260720133232/https://www.kcur.org/news/2026-06-29/automated-license-plate-readers-alpr-kansas-city-lenexa-weston-police",
@@ -3671,6 +3692,13 @@
       "timestamp": "20260816173948",
       "captured": "2026-08-16T17:39:48Z",
       "method": "existing"
+    },
+    "https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation": {
+      "url": "https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation/",
+      "wayback": "https://web.archive.org/web/20260820135133/https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation/",
+      "timestamp": "20260820135133",
+      "captured": "2026-08-20T13:51:33Z",
+      "method": "save"
     },
     "https://www.mysuncoast.com/2026/08/13/haines-city-officer-charged-after-alleged-misuse-law-enforcement-database": {
       "url": "https://www.mysuncoast.com/2026/08/13/haines-city-officer-charged-after-alleged-misuse-law-enforcement-database/",
