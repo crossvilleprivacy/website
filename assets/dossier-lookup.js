@@ -218,6 +218,109 @@
     return latestMonthInYear(blob, row && row.Year);
   }
 
+  var SWORN_TITLE_RE =
+    /\b(officer|officers|deputy|deputies|detective|lieutenant|lt\.|sergeant|sgt\.|chief|captain|major|commander|trooper|constable|patrol)\b/i;
+  var CIVILIAN_TITLE_RE =
+    /\b(civilian|civilians|secretary|dispatcher|employee|employees|911)\b/i;
+  var ROLE_IN_LABEL_RE =
+    /\b(officer|officers|deputy|deputies|city employee|city employees|county employee|county employees|agency employee|agency employees)\b/i;
+
+  function civilianStaffKind(agency) {
+    var a = String(agency || "");
+    if (/district attorney|prosecutor/i.test(a)) {
+      return "agency";
+    }
+    if (/sheriff/i.test(a) && !/police/i.test(a)) {
+      return "county";
+    }
+    return "city";
+  }
+
+  function civilianRoleNoun(agency, count) {
+    var kind = civilianStaffKind(agency);
+    var n = Number(count) || 1;
+    if (kind === "county") {
+      return n === 1 ? "county employee" : "county employees";
+    }
+    if (kind === "agency") {
+      return n === 1 ? "agency employee" : "agency employees";
+    }
+    return n === 1 ? "city employee" : "city employees";
+  }
+
+  function swornRoleNoun(subject, count) {
+    var s = String(subject || "");
+    var n = Number(count) || 1;
+    if (/\bdeput/i.test(s) && !/\bofficer/i.test(s)) {
+      return n === 1 ? "deputy" : "deputies";
+    }
+    return n === 1 ? "officer" : "officers";
+  }
+
+  function rewriteOutcomeActions(text) {
+    return String(text || "")
+      .replace(/\bTerminated\s*\/\s*Resigned\b/g, "fired or resigned")
+      .replace(/\bTerminated\b/g, "fired")
+      .replace(/\bCriminally Charged\b/g, "criminally charged")
+      .replace(/\bIndicted\b/g, "indicted")
+      .replace(/\bRelieved of Duty\b/g, "relieved of duty")
+      .replace(/\bUnder Investigation\b/g, "under investigation")
+      .replace(/\bInternal Disciplinary Action\b/g, "internal discipline")
+      .replace(/\bSuspended\b/g, "suspended")
+      .replace(/\bResigned\b/g, "resigned");
+  }
+
+  // Lookup Outcome: jobs and counts only. Never copy names from Subject_Officer_Involved.
+  function formatMisuseOutcome(bucket, subject, agency) {
+    var text = String(bucket || "").trim();
+    if (!text) {
+      return "—";
+    }
+    text = text.replace(
+      /\((\d+)\s+officers?(?:,|\s+and)\s*(\d+)\s+(?:civilians?|other (?:city|county|agency) employees?)\)/i,
+      function (_, officerCount, civilianCount) {
+        var o = Number(officerCount);
+        var c = Number(civilianCount);
+        return (
+          "(" +
+          officerCount +
+          " " +
+          (o === 1 ? "officer" : "officers") +
+          " and " +
+          civilianCount +
+          " other " +
+          civilianRoleNoun(agency, c) +
+          ")"
+        );
+      }
+    );
+    text = rewriteOutcomeActions(text);
+    var countMatch = text.match(/^(\d+)\b/);
+    if (countMatch && !ROLE_IN_LABEL_RE.test(text)) {
+      var n = Number(countMatch[1]);
+      var rest = text.replace(/^\d+\s+/, "");
+      var s = String(subject || "");
+      var sworn = SWORN_TITLE_RE.test(s);
+      var civilian = CIVILIAN_TITLE_RE.test(s);
+      var role;
+      if (sworn && civilian) {
+        role = "";
+      } else if (!sworn && civilian) {
+        role = civilianRoleNoun(agency, n);
+      } else {
+        role = swornRoleNoun(s, n);
+      }
+      if (role) {
+        if (/^internal discipline/i.test(rest)) {
+          text = n + " " + role + " given " + rest;
+        } else {
+          text = n + " " + role + " " + rest;
+        }
+      }
+    }
+    return text.replace(/\s+/g, " ").trim();
+  }
+
   function recordsFromMisuse(data) {
     var list = (data && data.verified_incidents) || [];
     return list.map(function (row) {
@@ -227,11 +330,15 @@
         row && row.Detailed_Summary,
         row && row.Verification_Notes
       );
+      var agency = String((row && row.Agency_Jurisdiction) || "").trim();
+      var bucket = String((row && row.Outcome_Bucket) || "").trim();
+      var subject = String((row && row.Subject_Officer_Involved) || "").trim();
       return {
         Case_ID: String((row && row.Case_ID) || "").trim(),
-        Agency: String((row && row.Agency_Jurisdiction) || "").trim(),
+        Agency: agency,
         State: String((row && row.State) || "").trim().toUpperCase(),
-        Outcome: String((row && row.Outcome_Bucket) || "").trim(),
+        Outcome: bucket,
+        Outcome_Label: formatMisuseOutcome(bucket, subject, agency),
         Month: month,
         Month_Label: monthLabel(month),
         Year: row && row.Year != null && row.Year !== "" ? Number(row.Year) : 0,
@@ -530,7 +637,7 @@
         agency.appendChild(st);
       }
       tr.appendChild(agency);
-      var outcomeTd = el(doc, "td", {}, row.Outcome || "—");
+      var outcomeTd = el(doc, "td", {}, row.Outcome_Label || row.Outcome || "—");
       setCellLabel(outcomeTd, "Outcome");
       tr.appendChild(outcomeTd);
       var monthTd = el(doc, "td", {}, row.Month_Label || "—");
@@ -763,6 +870,7 @@
     pageRows: pageRows,
     stateCounts: stateCounts,
     statesForSelect: statesForSelect,
+    formatMisuseOutcome: formatMisuseOutcome,
     outcomeKind: outcomeKind,
     caseAnchorsFromDoc: caseAnchorsFromDoc,
     collectSourceUrls: collectSourceUrls,

@@ -22,9 +22,27 @@ JSON is an **index** (Case ID, place, date/action, source URL, tally fields). Af
 ## Checklist
 
 1. Upsert Case_ID / wrongful ID rows (continue the series; update in place when a story develops). Keep the row skinny.
-2. Align on-page tallies, as-of dates, cites, and **lookup widget** copy with JSON. Cancel rows: put the `CAN-` Case_ID on that story’s `#cancellations` article. Misuse: `FLK-` / `ALPR-` on the `#nationwide-misuse` article. Wrongful writeups: `wrongful ID N`. Lookups fetch JSON; do not add a second data file.
+2. Align on-page tallies, as-of dates, cites, and **lookup widget** copy with JSON. Cancel rows: put the `CAN-` Case_ID on that story’s `#cancellations` article. Misuse: `FLK-` / `ALPR-` on the `#nationwide-misuse` article. Wrongful writeups: `wrongful ID N`. Lookups fetch JSON; do not add a second data file. Follow **Misuse Outcome column** below.
 3. Sync `sources.html` (see `keep-sources-synced.mdc`), including “searchable table” links.
 4. Reply with which catalogs changed.
+
+## Misuse Outcome column
+
+`national.html#misuse-lookup` shows **jobs and counts**, never names. `assets/dossier-lookup.js` builds the label from `Outcome_Bucket` + the *role words* in `Subject_Officer_Involved` (not the person’s name).
+
+| JSON `Outcome_Bucket` | Lookup display |
+|---|---|
+| `1 Resigned` (subject is an officer) | 1 officer resigned |
+| `1 Terminated` | 1 officer fired |
+| `6 Terminated (4 officers, 2 other city employees)` | 6 fired (4 officers and 2 other city employees) |
+| `3 Resigned` (unnamed sheriff’s office employees) | 3 county employees resigned |
+
+When writing a row:
+
+- Put the **job** in `Subject_Officer_Involved` (`officer`, `deputy`, `dispatcher`, `civilian employees`, `Three unnamed employees`). Names may stay in that field for the index; they must not appear in `Outcome_Bucket` or the lookup Outcome cell.
+- Mixed sworn / non-sworn: `6 Terminated (4 officers, 2 other city employees)`. Non-sworn PD staff are **other city employees**; sheriff’s office non-sworn staff are **county employees**.
+- Keep `Terminated` in JSON (filters and tallies). The table says **fired**.
+- Use `Terminated / Resigned` when reporting does not say which.
 
 ## Do not
 
@@ -32,4 +50,5 @@ JSON is an **index** (Case ID, place, date/action, source URL, tally fields). Af
 - Leave tallies or `#cancel-lookup` intro counts pointing at old totals
 - Reintroduce master-database PDFs or Excel
 - Put minor names, civilian intimate-partner names, or long narratives back into JSON
+- Put subject names in `Outcome_Bucket` or the misuse lookup Outcome column (jobs and counts only)
 - Use “intentionally unsynced this batch” for a catalog the story maps to
