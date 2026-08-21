@@ -1537,6 +1537,64 @@
       "Primary_Source_URL": "https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation/",
       "Verification_Status": "Verified local press / sheriff statement",
       "Incomplete_Exit_Notes": "Operational through March 11, 2027. Camera count not published in the Aug. 10 statement. Distinct from Henry County, Virginia (CAN-2026-105)."
+    },
+    {
+      "Case_ID": "CAN-2026-109",
+      "Jurisdiction": "Hopkinton",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-20",
+      "Camera_Count": 2,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Massachusetts procurement-law deficiencies; Town legal review; Privacy / ALPR concerns at Select Board",
+      "Summary": "The Town of Hopkinton announced August 20, 2026 that it terminated its Flock Safety contract immediately after a legal review found statutory deficiencies that make the agreement unlawful under Massachusetts law. Town Manager Elaine Lazarus said municipal contracts must comply with procurement law. The town asked Flock to turn the cameras off as soon as possible and remove them by September 30. Two cameras had been up about five months; two more had been planned.",
+      "Primary_Source_URL": "https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras/",
+      "Secondary_Source_URL": "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety/",
+      "Verification_Status": "Verified local press / local TV",
+      "Incomplete_Exit_Notes": "Town asked for cameras off ASAP and physical removal by Sept. 30, 2026. Town plans a broader review of Hopkinton PD technology, including ALPRs."
+    },
+    {
+      "Case_ID": "CAN-2026-110",
+      "Jurisdiction": "Oxford",
+      "State": "OH",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-18",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy; Outside-agency data sharing; Council 6-1 terminate vote",
+      "Summary": "Oxford City Council voted 6–1 on August 18, 2026 to terminate the police department’s Flock contract. Councilmember Bill Snavely, who offered the legislation, cited how other departments would use shared data. WVXU reported August 19 that the council considered a Police Community Relations Review Commission recommendation to keep the contract with tighter sharing, then followed resident opposition. Police Chief John Jones was to notify Flock. Nearby Hamilton residents protested the same day; Hamilton has not canceled.",
+      "Primary_Source_URL": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
+      "Verification_Status": "Verified local public radio",
+      "Incomplete_Exit_Notes": "Camera count not published. Physical removal timetable not published; Snavely said Flock could turn cameras off and remove them or the city could bag them. Hamilton, Ohio, has not canceled."
+    },
+    {
+      "Case_ID": "CAN-2026-111",
+      "Jurisdiction": "Henry County",
+      "State": "IL",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-19",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public trust / data-privacy concerns; Sheriff end partnership; Citizen concern",
+      "Summary": "Henry County, Illinois, Sheriff Josh Verscheure announced August 19, 2026 that the sheriff’s office will end its Flock partnership on August 31. KWQC reported the cameras arrived in 2024, funded with drug-seizure proceeds rather than county tax dollars. Verscheure said the office saw no local misuse in two years and that Flock had helped investigations, but that public-trust and data-privacy concerns outweighed continuing. Distinct from Henry County, Virginia, and Henry County, Missouri.",
+      "Primary_Source_URL": "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
+      "Verification_Status": "Verified local TV / sheriff statement",
+      "Incomplete_Exit_Notes": "Partnership ends August 31, 2026. Camera count not published. Distinct from Henry County, Virginia (CAN-2026-105) and Henry County, Missouri (CAN-2026-108)."
+    },
+    {
+      "Case_ID": "CAN-2026-112",
+      "Jurisdiction": "Abington Township",
+      "State": "PA",
+      "Action_Type": "Expired",
+      "Action_Date": "2026-08-19",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Data-security / search-log leaks; Privacy; Non-renewal while shopping a replacement vendor",
+      "Summary": "The Abington Township Police Department is ending its Flock contracts over data-security concerns after thousands of the department’s searches appeared in public dumps, the Philadelphia Inquirer reported August 19, 2026. One contract expired in August 2026; the department will let the second expire in February 2028. Officials said they are negotiating with other vendors to replace Flock. This is an expire / vendor-swap path, not a clear exit from ALPR.",
+      "Primary_Source_URL": "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "One contract expired August 2026; second runs to February 2028. Department is seeking a replacement ALPR vendor. One permanent camera plus portable units kept at the station. Not a clear exit from plate readers."
     }
   ]
 }

@@ -649,8 +649,16 @@
     el.appendChild(list);
   }
 
+  function setCellLabel(td, label) {
+    if (td && label) {
+      td.setAttribute("data-label", label);
+    }
+    return td;
+  }
+
   function renderCityCell(doc, row, href, onState) {
     var td = doc.createElement("td");
+    setCellLabel(td, "City");
     if (href && row.Jurisdiction) {
       var cityLink = doc.createElement("a");
       cityLink.href = href;
@@ -699,10 +707,12 @@
       tr.appendChild(renderCityCell(doc, row, href, onState));
 
       var actionTd = doc.createElement("td");
+      setCellLabel(actionTd, "Action");
       actionTd.textContent = row.Action_Type || "—";
       tr.appendChild(actionTd);
 
       var dateTd = doc.createElement("td");
+      setCellLabel(dateTd, "Date");
       var time = doc.createElement("time");
       if (row.Action_Date) {
         time.setAttribute("datetime", row.Action_Date);
@@ -713,11 +723,13 @@
 
       var reasonTd = doc.createElement("td");
       reasonTd.className = "cancel-lookup-reasons";
+      setCellLabel(reasonTd, "Reasons");
       reasonTd.textContent =
         row.Reason_Tags && row.Reason_Tags.length ? row.Reason_Tags.join(" · ") : "—";
       tr.appendChild(reasonTd);
 
       var idTd = doc.createElement("td");
+      setCellLabel(idTd, "Case ID");
       if (href) {
         var idLink = doc.createElement("a");
         idLink.href = href;
@@ -729,6 +741,7 @@
       tr.appendChild(idTd);
 
       var srcTd = doc.createElement("td");
+      setCellLabel(srcTd, "Sources");
       var sourceUrls = uniqueHttpUrls(
         row.Source_URLs && row.Source_URLs.length
           ? row.Source_URLs
@@ -997,6 +1010,8 @@
     reasonCounts: reasonCounts,
     splitReasons: splitReasons,
     reasonBucketsForRow: reasonBucketsForRow,
+    setCellLabel: setCellLabel,
+    renderTable: renderTable,
     caseAnchorsFromDoc: caseAnchorsFromDoc,
     cancellationsRoot: cancellationsRoot,
     initCancelLookup: initCancelLookup,

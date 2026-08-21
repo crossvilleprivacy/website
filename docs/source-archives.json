@@ -1,7 +1,7 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
-  "as_of": "2026-08-20",
-  "count": 715,
+  "as_of": "2026-08-21",
+  "count": 720,
   "source_count": 1,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -773,6 +773,13 @@
       "timestamp": "20260814043905",
       "captured": "2026-08-14T04:39:05Z",
       "method": "existing"
+    },
+    "https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras": {
+      "url": "https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras/",
+      "wayback": "https://web.archive.org/web/20260821024630/https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras/",
+      "timestamp": "20260821024630",
+      "captured": "2026-08-21T02:46:30Z",
+      "method": "save"
     },
     "https://hyperlocalloop.com/sumpter-township-police-cancel-flock-license-plate-reader-trial": {
       "url": "https://hyperlocalloop.com/sumpter-township-police-cancel-flock-license-plate-reader-trial/",
@@ -1746,6 +1753,13 @@
       "timestamp": "20260816172514",
       "captured": "2026-08-16T17:25:14Z",
       "method": "existing"
+    },
+    "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety": {
+      "url": "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety/",
+      "wayback": "https://web.archive.org/web/20260821024728/https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety/",
+      "timestamp": "20260821024728",
+      "captured": "2026-08-21T02:47:28Z",
+      "method": "save"
     },
     "https://whitestown.in.gov/wp-content/uploads/2021/09/Flock_Safety_Service_Agreement.pdf": {
       "url": "https://whitestown.in.gov/wp-content/uploads/2021/09/Flock_Safety_Service_Agreement.pdf",
@@ -3294,6 +3308,13 @@
       "captured": "2026-05-05T17:08:31Z",
       "method": "existing"
     },
+    "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html": {
+      "url": "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html",
+      "wayback": "https://web.archive.org/web/20260819225039/https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html",
+      "timestamp": "20260819225039",
+      "captured": "2026-08-19T22:50:39Z",
+      "method": "existing"
+    },
     "https://www.investigatetv.com/2026/05/18/flock-safety-cameras-help-solve-crimes-whos-watching-watchers": {
       "url": "https://www.investigatetv.com/2026/05/18/flock-safety-cameras-help-solve-crimes-whos-watching-watchers/",
       "wayback": "https://web.archive.org/web/20260814062330/https://www.investigatetv.com/2026/05/18/flock-safety-cameras-help-solve-crimes-whos-watching-watchers/",
@@ -3516,6 +3537,13 @@
       "wayback": "https://web.archive.org/web/20260816173558/https://www.kten.com/news/state/ingleside-pulling-plug-on-flock-camera-contract/article_5bb5f9d0-d11d-5c7d-8485-61054b1dab67.html",
       "timestamp": "20260816173558",
       "captured": "2026-08-16T17:35:58Z",
+      "method": "existing"
+    },
+    "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock": {
+      "url": "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
+      "wayback": "https://web.archive.org/web/20260820002617/https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
+      "timestamp": "20260820002617",
+      "captured": "2026-08-20T00:26:17Z",
       "method": "existing"
     },
     "https://www.latimes.com/california/story/2026-07-11/lapd-suspends-use-of-flock-surveillance-cameras-over-privacy-issues": {
@@ -4756,6 +4784,13 @@
       "timestamp": "20260819234536",
       "captured": "2026-08-19T23:45:36Z",
       "method": "save"
+    },
+    "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton": {
+      "url": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
+      "wayback": "https://web.archive.org/web/20260820012535/https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
+      "timestamp": "20260820012535",
+      "captured": "2026-08-20T01:25:35Z",
+      "method": "existing"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {
       "url": "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf",

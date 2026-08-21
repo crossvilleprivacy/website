@@ -468,7 +468,9 @@
       var tr = doc.createElement("tr");
       var idTd = doc.createElement("td");
       idTd.textContent = row.row_id ? String(row.row_id) : "—";
+      idTd.setAttribute("data-label", "Row ID");
       var officerTd = doc.createElement("td");
+      officerTd.setAttribute("data-label", "Officer");
       var btn = doc.createElement("button");
       btn.type = "button";
       btn.className = "audit-log-officer";
@@ -480,11 +482,15 @@
       officerTd.appendChild(btn);
       var ts = doc.createElement("td");
       ts.textContent = row.timestamp;
+      ts.setAttribute("data-label", "Date");
       var reason = doc.createElement("td");
       reason.textContent = row.reason;
+      reason.setAttribute("data-label", "Reason");
       var caseTd = doc.createElement("td");
       caseTd.textContent = caseFlagLabel(row.case_number_present) || "—";
+      caseTd.setAttribute("data-label", "Case #");
       var hashTd = doc.createElement("td");
+      hashTd.setAttribute("data-label", "SHA-256 hash");
       var hashBtn = doc.createElement("button");
       hashBtn.type = "button";
       hashBtn.className = "audit-log-hash";
@@ -720,6 +726,7 @@
     sortRows: sortRows,
     pageRows: pageRows,
     recordsFromBundle: recordsFromBundle,
+    renderTable: renderTable,
     initSearchLog: initSearchLog,
   };
 });

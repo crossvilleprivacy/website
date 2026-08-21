@@ -4102,6 +4102,107 @@ a.source-archive:focus {
   -webkit-overflow-scrolling: touch;
 }
 
+@media (max-width: 720px) {
+  .audit-log-table-wrap {
+    overflow: visible;
+    border: 0;
+    background: transparent;
+  }
+
+  .audit-log-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .audit-log-table,
+  .audit-log-table tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .audit-log-table tr {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 0.85rem;
+    padding: 0.15rem 0;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--surface);
+  }
+
+  .audit-log-table td {
+    display: grid;
+    grid-template-columns: 6.75rem minmax(0, 1fr);
+    gap: 0.4rem 0.75rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 0.55rem 0.8rem;
+    white-space: normal !important;
+  }
+
+  .audit-log-table td:last-child {
+    border-bottom: 0;
+  }
+
+  .audit-log-table td[colspan] {
+    display: block;
+  }
+
+  .audit-log-table td[data-label]::before {
+    content: attr(data-label);
+    font-weight: 650;
+    font-size: 0.75rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--muted);
+    padding-top: 0.18rem;
+  }
+
+  .audit-log-table td[colspan]::before {
+    content: none;
+  }
+
+  .audit-log-table td.lookup-source-cell a,
+  .audit-log-table td.lookup-source-cell a.source-archive {
+    display: inline;
+    white-space: normal;
+  }
+
+  .audit-log-hash {
+    max-width: none;
+  }
+
+  .audit-log-pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.55rem;
+  }
+
+  .audit-log-pager .btn {
+    min-height: 2.85rem;
+    width: 100%;
+  }
+
+  .cancel-lookup-table {
+    table-layout: auto;
+  }
+
+  .audit-log-controls .speech-field input[type="search"],
+  .audit-log-controls .speech-field select {
+    font-size: 16px;
+  }
+}
+
 .data-table {
   width: 100%;
   border-collapse: collapse;

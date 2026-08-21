@@ -460,11 +460,19 @@
     return node;
   }
 
+  function setCellLabel(td, label) {
+    if (td && label) {
+      td.setAttribute("data-label", label);
+    }
+    return td;
+  }
+
   function addSourceCell(doc, tr, urls) {
     var td = doc.createElement("td");
     var list = uniqueHttpUrls(Array.isArray(urls) ? urls : urls ? [urls] : []);
     var seen = {};
     td.className = "lookup-source-cell";
+    setCellLabel(td, "Sources");
     if (!list.length) {
       td.textContent = "—";
       tr.appendChild(td);
@@ -479,8 +487,9 @@
     tr.appendChild(td);
   }
 
-  function addIdCell(doc, tr, label, href) {
+  function addIdCell(doc, tr, label, href, colLabel) {
     var td = doc.createElement("td");
+    setCellLabel(td, colLabel || "Case ID");
     if (href) {
       td.appendChild(el(doc, "a", { href: href }, label));
     } else {
@@ -502,6 +511,7 @@
       var tr = doc.createElement("tr");
       var href = (anchors && anchors[row.Case_ID]) || "";
       var agency = doc.createElement("td");
+      setCellLabel(agency, "Agency");
       if (href) {
         agency.appendChild(el(doc, "a", { href: href }, row.Agency || row.Case_ID));
       } else {
@@ -512,9 +522,15 @@
         agency.appendChild(st);
       }
       tr.appendChild(agency);
-      tr.appendChild(el(doc, "td", {}, row.Outcome || "—"));
-      tr.appendChild(el(doc, "td", {}, row.Month_Label || "—"));
-      tr.appendChild(el(doc, "td", {}, row.Year ? String(row.Year) : "—"));
+      var outcomeTd = el(doc, "td", {}, row.Outcome || "—");
+      setCellLabel(outcomeTd, "Outcome");
+      tr.appendChild(outcomeTd);
+      var monthTd = el(doc, "td", {}, row.Month_Label || "—");
+      setCellLabel(monthTd, "Month");
+      tr.appendChild(monthTd);
+      var yearTd = el(doc, "td", {}, row.Year ? String(row.Year) : "—");
+      setCellLabel(yearTd, "Year");
+      tr.appendChild(yearTd);
       addIdCell(doc, tr, row.Case_ID, href);
       addSourceCell(doc, tr, row.Source_URLs && row.Source_URLs.length ? row.Source_URLs : row.Source_URL);
       tbody.appendChild(tr);
@@ -533,6 +549,7 @@
       var tr = doc.createElement("tr");
       var href = (anchors && anchors[row.Wrongful_ID]) || "";
       var city = doc.createElement("td");
+      setCellLabel(city, "City");
       var label = row.City || row.Case_ID;
       if (href) {
         city.appendChild(el(doc, "a", { href: href }, label));
@@ -543,8 +560,10 @@
         city.appendChild(el(doc, "div", { class: "cancel-lookup-meta" }, row.State));
       }
       tr.appendChild(city);
-      tr.appendChild(el(doc, "td", {}, row.Technology || "—"));
-      addIdCell(doc, tr, row.Case_ID, href);
+      var techTd = el(doc, "td", {}, row.Technology || "—");
+      setCellLabel(techTd, "Technology");
+      tr.appendChild(techTd);
+      addIdCell(doc, tr, row.Case_ID, href, "ID");
       addSourceCell(doc, tr, row.Source_URLs && row.Source_URLs.length ? row.Source_URLs : row.Source_URL);
       tbody.appendChild(tr);
     });
@@ -742,6 +761,8 @@
     sourceLabel: sourceLabel,
     articleSourceUrls: articleSourceUrls,
     mergeArticleSources: mergeArticleSources,
+    setCellLabel: setCellLabel,
+    renderMisuseTable: renderMisuseTable,
     renderWrongfulTable: renderWrongfulTable,
     initMisuseLookup: initMisuseLookup,
     initWrongfulLookup: initWrongfulLookup,
