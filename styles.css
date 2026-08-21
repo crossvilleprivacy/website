@@ -127,10 +127,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   background: var(--page-bg);
+  width: 100%;
+  max-width: 100%;
 }
 
 body {
   margin: 0;
+  padding-top: var(--site-header-h);
+  width: 100%;
+  max-width: 100%;
   background:
     radial-gradient(1200px 480px at 10% -10%, var(--page-wash-1), transparent 55%),
     radial-gradient(900px 420px at 100% 0%, var(--page-wash-2), transparent 50%),
@@ -197,12 +202,20 @@ p {
 
 .wrap {
   width: min(100% - 2rem, var(--wide));
+  max-width: 100%;
   margin-inline: auto;
 }
 
 .wrap-narrow {
   width: min(100% - 2rem, var(--content));
   margin-inline: auto;
+}
+
+main,
+.renewal-banner,
+.site-footer {
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 /* Form / interactive controls: visible borders so selects & fields read as clickable */
@@ -449,9 +462,13 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
 
 /* Header */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 50;
+  right: 0;
+  left: 0;
+  width: auto;
+  max-width: none;
+  z-index: 100;
   backdrop-filter: blur(10px);
   background: var(--header-bg);
   border-bottom: 1px solid var(--line);
@@ -463,6 +480,8 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
   justify-content: flex-start;
   gap: 0.75rem 1rem;
   padding: 0.9rem 0;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .header-tools {
@@ -520,6 +539,7 @@ html[data-theme="dark"] .theme-icon-moon {
   align-items: center;
   gap: 0.55rem;
   margin-right: auto;
+  min-width: 0;
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -2086,6 +2106,11 @@ table {
   font-size: 0.92rem;
 }
 
+code {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 th,
 td {
   padding: 0.75rem 0.85rem;
@@ -3493,7 +3518,8 @@ body.sticky-cta-is-dismissed {
 
   /* Cite + CTA live in DOM; sticky footer covers email on phones */
   .renewal-note,
-  .renewal-cta {
+  .renewal-cta,
+  a.btn.renewal-cta {
     display: none;
   }
 

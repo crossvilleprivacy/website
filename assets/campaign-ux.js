@@ -1064,6 +1064,7 @@
     fillCouncilMeetingNext(doc);
     initVideoFacades(doc);
     initStickyHashScroll(doc);
+    initPinnedHeader(doc);
     initThemeToggle(doc);
   }
 
@@ -1103,6 +1104,55 @@
 
   function notifyLayout(doc, win) {
     return pinHashTarget(doc, win);
+  }
+
+  function initPinnedHeader(doc, win) {
+    doc = doc || (typeof document !== "undefined" ? document : null);
+    win = win || (typeof window !== "undefined" ? window : null);
+    if (!doc || !win || !doc.querySelector) {
+      return null;
+    }
+    var header = doc.querySelector(".site-header");
+    var vv = win.visualViewport;
+    if (!header || !header.style) {
+      return null;
+    }
+
+    function isZoomed() {
+      if (!vv) {
+        return false;
+      }
+      var scale = typeof vv.scale === "number" ? vv.scale : 1;
+      var x = vv.offsetLeft || 0;
+      var y = vv.offsetTop || 0;
+      return Math.abs(scale - 1) > 0.02 || x !== 0 || y !== 0;
+    }
+
+    function sync() {
+      if (!vv || !isZoomed()) {
+        header.style.transform = "";
+        header.style.width = "";
+        return;
+      }
+      var x = vv.offsetLeft || 0;
+      var y = vv.offsetTop || 0;
+      header.style.transform = "translate(" + x + "px, " + y + "px)";
+      if (typeof vv.width === "number" && vv.width > 0) {
+        header.style.width = Math.round(vv.width) + "px";
+      }
+    }
+
+    if (vv && vv.addEventListener) {
+      vv.addEventListener("scroll", sync);
+      vv.addEventListener("resize", sync);
+    }
+    if (win.addEventListener) {
+      win.addEventListener("scroll", sync, { passive: true });
+      win.addEventListener("resize", sync);
+      win.addEventListener("orientationchange", sync);
+    }
+    sync();
+    return { sync: sync };
   }
 
   function stickyChromePx(doc) {
@@ -1738,6 +1788,7 @@
     lockHashPin: lockHashPin,
     resetHashPinLock: resetHashPinLock,
     initStickyHashScroll: initStickyHashScroll,
+    initPinnedHeader: initPinnedHeader,
     THEME_STORAGE_KEY: THEME_STORAGE_KEY,
     THEME_COLOR_LIGHT: THEME_COLOR_LIGHT,
     THEME_COLOR_DARK: THEME_COLOR_DARK,
