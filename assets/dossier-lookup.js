@@ -391,7 +391,7 @@
         return { state: code, name: stateName(code), count: map[code] };
       })
       .sort(function (a, b) {
-        return b.count - a.count || a.state.localeCompare(b.state);
+        return a.state.localeCompare(b.state);
       });
   }
 

@@ -445,9 +445,6 @@
       return { state: code, name: stateName(code), count: map[code] };
     });
     out.sort(function (a, b) {
-      if (b.count !== a.count) {
-        return b.count - a.count;
-      }
       return a.state.localeCompare(b.state);
     });
     return out;
