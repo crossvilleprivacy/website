@@ -793,25 +793,73 @@
     return { nextWork: nextWork, nextCouncil: nextCouncil };
   }
 
-  function loadYouTubeFacade(btn) {
+  var YT_ID_RE = /^[A-Za-z0-9_-]{6,20}$/;
+
+  function youtubeThumbUrl(id) {
+    if (!YT_ID_RE.test(String(id || ""))) return "";
+    return "https://i.ytimg.com/vi/" + id + "/hqdefault.jpg";
+  }
+
+  function youtubeEmbedUrl(id) {
+    if (!YT_ID_RE.test(String(id || ""))) return "";
+    return "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0";
+  }
+
+  function createEl(doc, tag) {
+    if (doc && typeof doc.createElement === "function") {
+      return doc.createElement(tag);
+    }
+    return document.createElement(tag);
+  }
+
+  function attachYouTubeThumbnail(btn, doc) {
+    var src = youtubeThumbUrl(btn.getAttribute("data-youtube-id"));
+    var img;
+    if (!src || (btn.querySelector && btn.querySelector("img.video-poster-thumb"))) {
+      return;
+    }
+    img = createEl(doc, "img");
+    img.className = "video-poster-thumb";
+    img.src = src;
+    img.alt = "";
+    img.decoding = "async";
+    img.loading = "lazy";
+    if (typeof img.setAttribute === "function") {
+      img.setAttribute("referrerpolicy", "no-referrer");
+    }
+    if (btn.classList && btn.classList.add) {
+      btn.classList.add("has-thumb");
+    }
+    if (btn.insertBefore) {
+      btn.insertBefore(img, btn.firstChild || null);
+    }
+  }
+
+  function loadYouTubeFacade(btn, doc) {
     var id = btn.getAttribute("data-youtube-id");
-    if (!id) return;
+    var src = youtubeEmbedUrl(id);
     var title = btn.getAttribute("data-youtube-title") || "YouTube video";
     var watch = "https://www.youtube.com/watch?v=" + id;
+    var iframe;
+    if (!src) return;
     // Local file previews cannot send an HTTP Referer: YouTube returns Error 153.
     if (typeof location !== "undefined" && location.protocol === "file:") {
       window.open(watch, "_blank", "noopener");
       return;
     }
-    var iframe = document.createElement("iframe");
-    iframe.src = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0";
+    iframe = createEl(doc, "iframe");
+    iframe.src = src;
     iframe.title = title;
     iframe.allow =
       "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-    iframe.setAttribute("allowfullscreen", "");
-    iframe.setAttribute("loading", "eager");
-    btn.replaceWith(iframe);
+    if (typeof iframe.setAttribute === "function") {
+      iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+      iframe.setAttribute("allowfullscreen", "");
+    }
+    iframe.loading = "eager";
+    if (btn.replaceWith) {
+      btn.replaceWith(iframe);
+    }
   }
 
   function loadRumbleFacade(btn) {
@@ -836,8 +884,10 @@
   }
 
   /**
-   * Click-to-load YouTube / Rumble facades. Facebook reel cards use plain links
-   * (no third-party contact until the visitor leaves for Facebook).
+   * Click-to-load YouTube / Rumble facades. YouTube preview stills come from
+   * i.ytimg.com (lazy, no referrer). On play, the iframe loads from
+   * youtube-nocookie.com (YouTube’s privacy-enhanced embed, the same mode
+   * DuckDuckGo’s Duck Player uses). Facebook reel cards use plain links.
    */
   function initVideoFacades(doc) {
     doc = doc || document;
@@ -846,11 +896,14 @@
       (function (btn) {
         if (btn.getAttribute("data-video-bound") === "1") return;
         btn.setAttribute("data-video-bound", "1");
+        if (btn.getAttribute("data-youtube-id")) {
+          attachYouTubeThumbnail(btn, doc);
+        }
         btn.addEventListener("click", function () {
           if (btn.getAttribute("data-rumble-id")) {
             loadRumbleFacade(btn);
           } else if (btn.getAttribute("data-youtube-id")) {
-            loadYouTubeFacade(btn);
+            loadYouTubeFacade(btn, doc);
           }
         });
       })(buttons[i]);
@@ -1585,6 +1638,9 @@
     initTpraPicker: initTpraPicker,
     fillCouncilMeetingNext: fillCouncilMeetingNext,
     nextNthWeekdayMeeting: nextNthWeekdayMeeting,
+    youtubeThumbUrl: youtubeThumbUrl,
+    youtubeEmbedUrl: youtubeEmbedUrl,
+    attachYouTubeThumbnail: attachYouTubeThumbnail,
     initVideoFacades: initVideoFacades,
     idFromHash: idFromHash,
     stickyChromePx: stickyChromePx,
