@@ -80,7 +80,11 @@ function writeCatalog(catalog, count) {
   catalog.title = "Wayback Machine snapshots of cited sources";
   catalog.as_of = new Date().toISOString().slice(0, 10);
   catalog.count = keys.length;
-  catalog.source_count = count || catalog.source_count || keys.length;
+  var nextCount = count || catalog.source_count || keys.length;
+  if (nextCount < keys.length) {
+    nextCount = keys.length;
+  }
+  catalog.source_count = nextCount;
   var payload = {
     title: catalog.title,
     as_of: catalog.as_of,
@@ -152,6 +156,39 @@ async function fetchCdx(liveUrl, fetchFn) {
   return recordFromTimestamp(liveUrl, stamp, "existing");
 }
 
+async function fetchCalendarClosest(liveUrl, fetchFn) {
+  var year = String(new Date().getUTCFullYear());
+  var probe = "https://web.archive.org/web/" + year + "/" + liveUrl;
+  var res = await fetchFn(probe, {
+    headers: { "User-Agent": UA, Accept: "text/html" },
+    redirect: "manual",
+    signal: AbortSignal.timeout(20000),
+  });
+  var loc = "";
+  if (res.headers && typeof res.headers.get === "function") {
+    loc = res.headers.get("location") || "";
+  }
+  var stamp = timestampFromWaybackHref(loc);
+  if (!stamp) {
+    var reason = "";
+    if (res.headers && typeof res.headers.get === "function") {
+      reason = res.headers.get("x-archive-redirect-reason") || "";
+    }
+    var match = String(reason).match(/(\d{14})/);
+    stamp = match ? match[1] : "";
+  }
+  if (!stamp) {
+    stamp = timestampFromWaybackHref(res.url || "");
+  }
+  if (!stamp) {
+    return null;
+  }
+  var wayback = /web\.archive\.org\/web\/\d{14}\//.test(String(loc || res.url || ""))
+    ? String(loc || res.url).replace(/^http:\/\//i, "https://")
+    : archives.waybackUrl(liveUrl, stamp);
+  return recordFromTimestamp(liveUrl, stamp, "existing", wayback);
+}
+
 async function fetchAvailability(liveUrl, fetchFn) {
   try {
     var cdx = await fetchCdx(liveUrl, fetchFn);
@@ -166,11 +203,18 @@ async function fetchAvailability(liveUrl, fetchFn) {
       headers: { "User-Agent": UA, Accept: "application/json" },
       signal: AbortSignal.timeout(8000),
     });
-    if (!res.ok) {
-      return null;
+    if (res.ok) {
+      var payload = await res.json();
+      var parsed = archives.parseAvailability(liveUrl, payload);
+      if (parsed) {
+        return parsed;
+      }
     }
-    var payload = await res.json();
-    return archives.parseAvailability(liveUrl, payload);
+  } catch (err) {
+    parsed = null;
+  }
+  try {
+    return await fetchCalendarClosest(liveUrl, fetchFn);
   } catch (err) {
     return null;
   }
@@ -257,7 +301,9 @@ async function main(argv) {
     : collectUrls();
   var catalog = loadCatalog();
   catalog.archives = catalog.archives || {};
-  catalog.source_count = items.length;
+  if (!oneUrl) {
+    catalog.source_count = items.length;
+  }
 
   var pending = items.filter(function (item) {
     var existing = catalog.archives[item.key];
@@ -305,7 +351,7 @@ async function main(argv) {
     }
   });
 
-  writeCatalog(catalog, items.length);
+  writeCatalog(catalog, oneUrl ? catalog.source_count : items.length);
   process.stdout.write(
     "Wrote " + path.relative(root, outPath) + " (" + catalog.count + " archives).\n"
   );

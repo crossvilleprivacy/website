@@ -453,6 +453,14 @@
     return out;
   }
 
+  function statesForSelect(records) {
+    return stateCounts(records)
+      .slice()
+      .sort(function (a, b) {
+        return a.state.localeCompare(b.state);
+      });
+  }
+
   function actionCounts(records) {
     var map = {};
     (records || []).forEach(function (row) {
@@ -924,7 +932,7 @@
       fillSelect(
         doc,
         stateSelect,
-        stateCounts(records),
+        statesForSelect(records),
         "All states",
         "state",
         function (item) {
@@ -1006,6 +1014,7 @@
     sortRows: sortRows,
     pageRows: pageRows,
     stateCounts: stateCounts,
+    statesForSelect: statesForSelect,
     actionCounts: actionCounts,
     reasonCounts: reasonCounts,
     splitReasons: splitReasons,

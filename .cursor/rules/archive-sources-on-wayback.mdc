@@ -12,7 +12,7 @@ When you add or update an **external citation URL** (page HTML, `sources.html`, 
 1. Save the live URL: `node scripts/archive_sources.js --url 'https://example.com/story'` (or `--save-missing` after a batch).
 2. Upsert `docs/source-archives.json` with `wayback`, 14-digit `timestamp`, and ISO `captured`.
 3. Keep the **live URL** as the primary `href`. Do not replace it with the archive.
-4. `assets/source-archives.js` adds an `archived Mon. D, YYYY` companion (`<time datetime="...">`) from the JSON. Do not hand-edit archive links onto every page.
+4. Put a dated Wayback companion **beside** the live cite: `node scripts/inject_archive_companions.js` writes `<a class="source-archive"><time datetime="...">archived Mon. D, YYYY</time></a>` from the JSON. `assets/source-archives.js` still fills any leftover at runtime. Do not hand-copy archive.org URLs onto pages.
 5. List `docs/source-archives.json` under On-site primary documents on `sources.html` (already there after the first import).
 
 If Save Page Now fails, store the closest existing snapshot from the availability API. Never ship a new cite with no archive row.
@@ -22,6 +22,7 @@ If Save Page Now fails, store the closest existing snapshot from the availabilit
 Same-site paths, `mailto:`, Maps / share-button endpoints, and archive.org itself.
 
 ```html
-<!-- Live cite stays primary; the script adds the dated archive companion -->
+<!-- Live cite stays primary; inject_archive_companions.js adds the dated archive beside it -->
 <a href="https://www.foxcarolina.com/story" target="_blank" rel="noopener">FOX Carolina</a>
+<a class="source-archive" href="https://web.archive.org/web/20260814141415/https://www.foxcarolina.com/story" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-14T14:14:15Z">archived Aug. 14, 2026</time></a>
 ```

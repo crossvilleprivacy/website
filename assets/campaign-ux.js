@@ -1140,6 +1140,77 @@
     root.style.setProperty("--site-header-h", hh + "px");
   }
 
+  function isHiddenHashTarget(el) {
+    if (!el) {
+      return false;
+    }
+    if (el.hidden) {
+      return true;
+    }
+    if (typeof el.closest === "function") {
+      try {
+        if (el.closest("[hidden]")) {
+          return true;
+        }
+      } catch (err) {
+        return false;
+      }
+    }
+    return false;
+  }
+
+  function sanitizeHashRedirect(href) {
+    if (!href) {
+      return "";
+    }
+    if (
+      href.indexOf("mailto:") === 0 ||
+      href.indexOf("http://") === 0 ||
+      href.indexOf("https://") === 0 ||
+      href.indexOf("sms:") === 0 ||
+      href.indexOf("javascript:") === 0 ||
+      href.indexOf("data:") === 0
+    ) {
+      return "";
+    }
+    return href;
+  }
+
+  function resolveHashRedirect(el) {
+    if (!el) {
+      return "";
+    }
+    var href = "";
+    if (typeof el.getAttribute === "function") {
+      href = sanitizeHashRedirect(el.getAttribute("data-hash-redirect") || "");
+    }
+    if (href) {
+      return href;
+    }
+    if (typeof el.querySelector === "function") {
+      var link = el.querySelector("a[href]");
+      if (link && typeof link.getAttribute === "function") {
+        href = sanitizeHashRedirect(link.getAttribute("href") || "");
+        if (href && href.indexOf("#") !== -1 && href !== "#" && href.charAt(0) !== "#") {
+          return href;
+        }
+      }
+    }
+    return "";
+  }
+
+  function navigateHashRedirect(href, win) {
+    if (!href || !win || !win.location) {
+      return false;
+    }
+    if (typeof win.location.assign === "function") {
+      win.location.assign(href);
+    } else {
+      win.location.href = href;
+    }
+    return true;
+  }
+
   function hashScrollY(el, win, chromePx) {
     win = win || window;
     if (!el || !el.getBoundingClientRect) {
@@ -1161,11 +1232,21 @@
   function scrollToId(id, behavior, doc, win) {
     doc = doc || document;
     win = win || (typeof window !== "undefined" ? window : null);
-    if (!id || !doc.getElementById || !win || !win.scrollTo) {
+    if (!id || !doc.getElementById || !win) {
       return false;
     }
     var el = doc.getElementById(id);
     if (!el) {
+      return false;
+    }
+    if (isHiddenHashTarget(el)) {
+      var redirect = resolveHashRedirect(el);
+      if (redirect) {
+        return navigateHashRedirect(redirect, win);
+      }
+      return false;
+    }
+    if (!win.scrollTo) {
       return false;
     }
     syncStickyOffsets(doc);
@@ -1254,7 +1335,7 @@
       }
       var path = href.slice(0, hashAt);
       var id = idFromHash(href.slice(hashAt));
-      if (!id || !doc.getElementById(id)) {
+      if (!id) {
         return;
       }
       if (path) {
@@ -1268,6 +1349,18 @@
         if (target && target !== file) {
           return;
         }
+      }
+      var el = doc.getElementById(id);
+      if (!el) {
+        return;
+      }
+      if (isHiddenHashTarget(el)) {
+        var redirect = resolveHashRedirect(el);
+        if (redirect) {
+          event.preventDefault();
+          navigateHashRedirect(redirect, win);
+        }
+        return;
       }
       event.preventDefault();
       resetHashPinLock();
@@ -1646,6 +1739,9 @@
     stickyChromePx: stickyChromePx,
     syncStickyOffsets: syncStickyOffsets,
     hashScrollY: hashScrollY,
+    isHiddenHashTarget: isHiddenHashTarget,
+    resolveHashRedirect: resolveHashRedirect,
+    navigateHashRedirect: navigateHashRedirect,
     scrollToId: scrollToId,
     pinHashTarget: pinHashTarget,
     notifyLayout: notifyLayout,

@@ -62,7 +62,9 @@
       return false;
     }
     if (host === "google.com" || host === "www.google.com" || /\.google\.com$/i.test(host)) {
-      return false;
+      if (host !== "patents.google.com") {
+        return false;
+      }
     }
     if (/\/intent\//.test(path) || /\/sharer/.test(path)) {
       return false;
@@ -230,6 +232,133 @@
     return false;
   }
 
+  var SKIP_INJECT_CLASS =
+    /(?:^|\s)(?:btn(?:-[\w-]+)?|ally-card|tn-glance-card|tn-glance-grid|council-meetings-place|tap-mail)(?:\s|$)/;
+
+  function hasExistingArchiveCompanion(a) {
+    var el;
+    if (!a) {
+      return false;
+    }
+    el = a.nextElementSibling || null;
+    if (!el) {
+      return false;
+    }
+    if (classOf(el).indexOf("source-archive") !== -1) {
+      return true;
+    }
+    return /web\.archive\.org\/web\/\d{14}\//.test(
+      String((el.getAttribute && el.getAttribute("href")) || el.href || "")
+    );
+  }
+
+  function archiveCompanionHtml(rec) {
+    var companion = archiveCompanion(rec);
+    if (!companion) {
+      return "";
+    }
+    return (
+      ' <a class="source-archive" href="' +
+      String(companion.href).replace(/&/g, "&amp;") +
+      '" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="' +
+      companion.datetime +
+      '">' +
+      companion.label +
+      "</time></a>"
+    );
+  }
+
+  function trailingHasArchiveCompanion(after) {
+    var slice = String(after || "").replace(/^\s+/, "");
+    if (/^<a\b[^>]*\bsource-archive\b/i.test(slice)) {
+      return true;
+    }
+    if (/^(?:·|&middot;|&#183;)\s*<a\b[^>]*web\.archive\.org\/web\/\d{14}\//i.test(slice)) {
+      return true;
+    }
+    if (/^<a\b[^>]*web\.archive\.org\/web\/\d{14}\//i.test(slice)) {
+      return true;
+    }
+    return false;
+  }
+
+  function hrefFromAnchorAttrs(attrs) {
+    var match = String(attrs || "").match(/\bhref\s*=\s*(["'])([\s\S]*?)\1/i);
+    if (!match) {
+      return "";
+    }
+    return match[2].replace(/&amp;/g, "&");
+  }
+
+  function classFromAnchorAttrs(attrs) {
+    var match = String(attrs || "").match(/\bclass\s*=\s*(["'])([\s\S]*?)\1/i);
+    return match ? match[2] : "";
+  }
+
+  function precedingSkipsInject(before) {
+    var tail = String(before || "").slice(-1200);
+    var lower = tail.toLowerCase();
+    var proof = lower.lastIndexOf("proof-strip");
+    if (proof !== -1 && lower.indexOf("</div>", proof) === -1) {
+      return true;
+    }
+    var glance = lower.lastIndexOf("tn-glance-grid");
+    if (glance !== -1 && lower.indexOf("</div>", glance) === -1) {
+      return true;
+    }
+    var nav = lower.lastIndexOf("<nav");
+    if (nav !== -1 && lower.indexOf("</nav>", nav) === -1) {
+      return true;
+    }
+    return false;
+  }
+
+  function injectIntoHtml(html, catalog) {
+    var A_RE = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+    var source = String(html || "");
+    var out = "";
+    var last = 0;
+    var added = 0;
+    var match;
+    var attrs;
+    var href;
+    var cls;
+    var rec;
+    var markup;
+    while ((match = A_RE.exec(source))) {
+      out += source.slice(last, match.index);
+      out += match[0];
+      last = match.index + match[0].length;
+      attrs = match[1] || "";
+      href = hrefFromAnchorAttrs(attrs);
+      cls = classFromAnchorAttrs(attrs);
+      if (!shouldArchiveUrl(href)) {
+        continue;
+      }
+      if (/\bsource-archive\b/.test(cls) || /\bdata-archive-skip\b/.test(attrs)) {
+        continue;
+      }
+      if (SKIP_INJECT_CLASS.test(cls)) {
+        continue;
+      }
+      if (precedingSkipsInject(source.slice(0, match.index))) {
+        continue;
+      }
+      if (trailingHasArchiveCompanion(source.slice(last))) {
+        continue;
+      }
+      rec = lookupRecord(catalog, href);
+      markup = archiveCompanionHtml(rec);
+      if (!markup) {
+        continue;
+      }
+      out += markup;
+      added += 1;
+    }
+    out += source.slice(last);
+    return { html: out, added: added };
+  }
+
   function decorateLink(doc, a, catalog) {
     var rec;
     var companion;
@@ -245,7 +374,7 @@
       a.setAttribute("data-archive-linked", "1");
       return false;
     }
-    if (isCardLink(a)) {
+    if (isCardLink(a) || hasExistingArchiveCompanion(a)) {
       a.setAttribute("data-archive-linked", "1");
       return false;
     }
@@ -376,6 +505,9 @@
     parseAvailability: parseAvailability,
     lookupRecord: lookupRecord,
     archiveCompanion: archiveCompanion,
+    archiveCompanionHtml: archiveCompanionHtml,
+    hasExistingArchiveCompanion: hasExistingArchiveCompanion,
+    injectIntoHtml: injectIntoHtml,
     isCardLink: isCardLink,
     decorateLink: decorateLink,
     decorate: decorate,

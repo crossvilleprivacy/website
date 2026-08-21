@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-20",
+  "compiled": "2026-08-21",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Aggregator tallies are larger than this list.",
   "records": [
     {
@@ -1406,15 +1406,17 @@
       "Case_ID": "CAN-2026-100",
       "Jurisdiction": "Sullivan County",
       "State": "TN",
-      "Action_Type": "Suspended",
-      "Action_Date": "2026-08-17",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-20",
       "Camera_Count": 10,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Privacy / oversight / government surveillance concerns; Public controversy; Sheriff request for a voter referendum",
-      "Primary_Source_URL": "https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/",
+      "Primary_Reasons": "Public backlash / privacy; Commission 18-0 non-renewal; Prior sheriff suspend",
+      "Summary": "Sheriff Jeffrey Cassidy suspended the Sullivan County Sheriff’s Office’s 10 Flock cameras on August 17, 2026. On August 20 the County Commission voted 18–0 not to renew the Flock contract. WJHL (via Yahoo) reported the resolution was amended to say Flock cameras would not be used within the county, excluding Kingsport and Bristol police cameras. The contract ends in January 2027. Elections administrator Jason Booher said the commission cannot place Cassidy’s requested referendum on the ballot.",
+      "Primary_Source_URL": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
+      "Secondary_Source_URL": "https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/",
       "Verification_Status": "Verified local TV / local press",
-      "Incomplete_Exit_Notes": "Suspended until further notice, not a reported contract termination. WVLT notes private businesses and nearby agencies can still run Flock. A county referendum would cover sheriff's-office use and funding only; none is scheduled in the reporting."
+      "Incomplete_Exit_Notes": "Sheriff use already suspended. County non-renewal takes effect when the contract ends in January 2027. Does not apply to Kingsport or Bristol PD cameras. Nearby and private Flock can continue."
     },
     {
       "Case_ID": "CAN-2026-101",
@@ -1610,7 +1612,7 @@
       "Primary_Source_URL": "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
       "Secondary_Source_URL": "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/",
       "Verification_Status": "Verified local press",
-      "Incomplete_Exit_Notes": "Hardware may still be standing and recording. Sheriff’s office initiated the contract; county attorney said not to touch vendor equipment on the right-of-way. Sparta city cameras are separate. June 15, 2026 funding strip preceded the July 20 rescind."
+      "Incomplete_Exit_Notes": "Hardware may still be standing and recording. After the June funding strip, Sheriff Steve Page told Flock the county cameras were unfunded and could come down (Sparta Live, July 17, 2026); removal still waits on the vendor. County attorney said not to touch vendor equipment on the right-of-way. Sparta city cameras are separate."
     },
     {
       "Case_ID": "CAN-2026-114",
@@ -1626,6 +1628,35 @@
       "Primary_Source_URL": "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Cameras remain through the September 2026 expiration. Cost-based non-renewal, not a privacy vote."
+    },
+    {
+      "Case_ID": "CAN-2026-115",
+      "Jurisdiction": "Monterey",
+      "State": "TN",
+      "Action_Type": "Expired",
+      "Action_Date": "2026-08-17",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Rising Flock cost; Data-sharing / privacy concerns; Law Committee vendor-swap recommendation; Keep one Flock for national sharing",
+      "Summary": "Monterey’s Law Committee voted Monday night, August 17, 2026, to recommend replacing most town Flock cameras with Axon readers. The Herald-Citizen quoted Lt. Andrew Neff citing rising Flock cost and nationwide data sharing; he said Axon stores data in-house. The department wants to keep one Flock camera for national sharing. The Board of Mayor and Aldermen has not finally approved the change.",
+      "Primary_Source_URL": "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
+      "Secondary_Source_URL": "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Law Committee recommendation only; Board of Mayor and Aldermen has not finally approved. Not a clear ALPR exit: Axon swap plus keep one Flock for the national network. Putnam County neighbor to Cumberland County."
+    },
+    {
+      "Case_ID": "CAN-2026-116",
+      "Jurisdiction": "Pulaski County",
+      "State": "MO",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-20",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy / government surveillance; Sheriff community forum; Will not replace with Axon",
+      "Summary": "Pulaski County, Missouri, Sheriff Stacy L. Ball announced August 19–20, 2026 that the sheriff’s office will discontinue Flock, will not renew, and will not replace the cameras with Axon. KRCGTV reported a community forum in Waynesville. Camera count and exact contract end date were not published.",
+      "Primary_Source_URL": "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Camera count not published. Contract end date not published. KRCGTV said Ball posted that removal had begun. Distinct from Pulaski County, Arkansas or Virginia if those appear later."
     }
   ]
 }

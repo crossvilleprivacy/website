@@ -395,6 +395,14 @@
       });
   }
 
+  function statesForSelect(records) {
+    return stateCounts(records)
+      .slice()
+      .sort(function (a, b) {
+        return a.state.localeCompare(b.state);
+      });
+  }
+
   function caseAnchorsFromDoc(doc, sectionId, regex, keyFn) {
     var map = {};
     if (!doc || !doc.querySelector) {
@@ -662,7 +670,7 @@
 
     function applyRecords(list) {
       records = mergeArticleSources(list || [], doc, anchors, spec.anchorKey);
-      fillSelect(doc, stateSelect, stateCounts(records), "All states", "state", function (item) {
+      fillSelect(doc, stateSelect, statesForSelect(records), "All states", "state", function (item) {
         return item.state + " (" + formatCount(item.count) + ")";
       });
       draw();
@@ -754,6 +762,7 @@
     sortRows: sortRows,
     pageRows: pageRows,
     stateCounts: stateCounts,
+    statesForSelect: statesForSelect,
     outcomeKind: outcomeKind,
     caseAnchorsFromDoc: caseAnchorsFromDoc,
     collectSourceUrls: collectSourceUrls,

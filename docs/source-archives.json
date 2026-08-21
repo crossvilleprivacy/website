@@ -1,8 +1,8 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
   "as_of": "2026-08-21",
-  "count": 724,
-  "source_count": 1,
+  "count": 744,
+  "source_count": 758,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
       "url": "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg",
@@ -16,6 +16,13 @@
       "wayback": "https://web.archive.org/web/20260816170613/https://3bmedianews.com/former-oak-ridge-police-officer-sentenced-on-23-counts-of-official-misconduct/",
       "timestamp": "20260816170613",
       "captured": "2026-08-16T17:06:13Z",
+      "method": "existing"
+    },
+    "https://3bmedianews.com/off-duty-deputy-and-flock-cameras-help-identify-crossville-shoplifting-suspect": {
+      "url": "https://3bmedianews.com/off-duty-deputy-and-flock-cameras-help-identify-crossville-shoplifting-suspect/",
+      "wayback": "https://web.archive.org/web/20260812135719/https://3bmedianews.com/off-duty-deputy-and-flock-cameras-help-identify-crossville-shoplifting-suspect/",
+      "timestamp": "20260812135719",
+      "captured": "2026-08-12T13:57:19Z",
       "method": "existing"
     },
     "https://3bmedianews.com/police-chief-brooks-explains-what-flock-traffic-cameras-are-used-for": {
@@ -599,6 +606,13 @@
       "captured": "2026-08-11T21:39:55Z",
       "method": "existing"
     },
+    "https://doi.org/10.5281/zenodo.17529423": {
+      "url": "https://doi.org/10.5281/zenodo.17529423",
+      "wayback": "https://web.archive.org/web/20260821121639/https://zenodo.org/records/17584876",
+      "timestamp": "20260821121639",
+      "captured": "2026-08-21T12:16:39Z",
+      "method": "save"
+    },
     "https://en.wikipedia.org/wiki/Flock_Safety": {
       "url": "https://en.wikipedia.org/wiki/Flock_Safety",
       "wayback": "https://web.archive.org/web/20260815204729/https://en.wikipedia.org/wiki/Flock_Safety",
@@ -984,6 +998,13 @@
       "captured": "2026-08-15T14:32:53Z",
       "method": "existing"
     },
+    "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras": {
+      "url": "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
+      "wayback": "https://web.archive.org/web/20260820195113/https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
+      "timestamp": "20260820195113",
+      "captured": "2026-08-20T19:51:13Z",
+      "method": "existing"
+    },
     "https://kstp.com/kstp-news/local-news/sherburne-county-ends-flock-camera-program-over-public-concerns": {
       "url": "https://kstp.com/kstp-news/local-news/sherburne-county-ends-flock-camera-program-over-public-concerns/",
       "wayback": "https://web.archive.org/web/20260816171602/https://kstp.com/kstp-news/local-news/sherburne-county-ends-flock-camera-program-over-public-concerns/",
@@ -1124,6 +1145,13 @@
       "captured": "2026-08-16T17:19:11Z",
       "method": "existing"
     },
+    "https://maps.deflock.org/?lat=35.9495&lng=-85.0269&zoom=11": {
+      "url": "https://maps.deflock.org/?lat=35.9495&lng=-85.0269&zoom=11",
+      "wayback": "https://web.archive.org/web/20260821122140/https://maps.deflock.org/?lat=35.9495&lng=-85.0269&zoom=11",
+      "timestamp": "20260821122140",
+      "captured": "2026-08-21T12:21:40Z",
+      "method": "save"
+    },
     "https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf": {
       "url": "https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf",
       "wayback": "https://web.archive.org/web/20251029150552/https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf",
@@ -1248,6 +1276,13 @@
       "wayback": "https://web.archive.org/web/20260729184045/https://oaklandside.org/2026/03/23/alameda-county-sheriff-flock-safety-license-plate-camera-thieves/",
       "timestamp": "20260729184045",
       "captured": "2026-07-29T18:40:45Z",
+      "method": "existing"
+    },
+    "https://patents.google.com/patent/US11416545B1/en": {
+      "url": "https://patents.google.com/patent/US11416545B1/en",
+      "wayback": "https://web.archive.org/web/20251126195151/https://patents.google.com/patent/US11416545B1/en",
+      "timestamp": "20251126195151",
+      "captured": "2025-11-26T19:51:51Z",
       "method": "existing"
     },
     "https://penncapital-star.com/civil-rights-social-justice/pa-lawmakers-propose-guardrails-on-automatic-license-plate-cameras-as-backlash-grows": {
@@ -1451,6 +1486,13 @@
       "wayback": "https://web.archive.org/web/20260809112134/https://spacecoastdaily.com/2026/08/palm-bay-suspends-flock-license-plate-reader-camera-system-pending-review-of-installation-permitting/",
       "timestamp": "20260809112134",
       "captured": "2026-08-09T11:21:34Z",
+      "method": "existing"
+    },
+    "https://spartalive.com/stories/from-the-sheriffs-desk-honoring-the-call,207508": {
+      "url": "https://spartalive.com/stories/from-the-sheriffs-desk-honoring-the-call,207508",
+      "wayback": "https://web.archive.org/web/20260718213733/https://spartalive.com/stories/from-the-sheriffs-desk-honoring-the-call,207508",
+      "timestamp": "20260718213733",
+      "captured": "2026-07-18T21:37:33Z",
       "method": "existing"
     },
     "https://spectrumlocalnews.com/nc/charlotte/news/2026/07/30/flock-cameras-cmpd-officer": {
@@ -3021,6 +3063,62 @@
       "captured": "2026-08-11T04:14:10Z",
       "method": "existing"
     },
+    "https://www.flocksafety.com/blog/are-flock-products-discriminatory": {
+      "url": "https://www.flocksafety.com/blog/are-flock-products-discriminatory",
+      "wayback": "https://web.archive.org/web/20260821122819/https://www.flocksafety.com/blog/are-flock-products-discriminatory",
+      "timestamp": "20260821122819",
+      "captured": "2026-08-21T12:28:19Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency": {
+      "url": "https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency",
+      "wayback": "https://web.archive.org/web/20260821122858/https://www.flocksafety.com/blog/flock-guardrails-address-lpr-privacy-concerns-and-police-transparency",
+      "timestamp": "20260821122858",
+      "captured": "2026-08-21T12:28:58Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement": {
+      "url": "https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement",
+      "wayback": "https://web.archive.org/web/20260821122921/https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement",
+      "timestamp": "20260821122921",
+      "captured": "2026-08-21T12:29:21Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices": {
+      "url": "https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices",
+      "wayback": "https://web.archive.org/web/20260821123003/https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices",
+      "timestamp": "20260821123003",
+      "captured": "2026-08-21T12:30:03Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/blog/what-does-open-really-mean-public-safety-wins-when-the-industry-works-together": {
+      "url": "https://www.flocksafety.com/blog/what-does-open-really-mean-public-safety-wins-when-the-industry-works-together",
+      "wayback": "https://web.archive.org/web/20260821123029/https://www.flocksafety.com/blog/what-does-open-really-mean-public-safety-wins-when-the-industry-works-together",
+      "timestamp": "20260821123029",
+      "captured": "2026-08-21T12:30:29Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/customers/how-many-crimes-do-automated-license-plate-readers-alprs-solve-anyway": {
+      "url": "https://www.flocksafety.com/customers/how-many-crimes-do-automated-license-plate-readers-alprs-solve-anyway",
+      "wayback": "https://web.archive.org/web/20260821123057/https://www.flocksafety.com/customers/how-many-crimes-do-automated-license-plate-readers-alprs-solve-anyway",
+      "timestamp": "20260821123057",
+      "captured": "2026-08-21T12:30:57Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/products/flock-freeform": {
+      "url": "https://www.flocksafety.com/products/flock-freeform",
+      "wayback": "https://web.archive.org/web/20260821122622/https://www.flocksafety.com/products/flock-freeform",
+      "timestamp": "20260821122622",
+      "captured": "2026-08-21T12:26:22Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/trust/rights-safeguards": {
+      "url": "https://www.flocksafety.com/trust/rights-safeguards",
+      "wayback": "https://web.archive.org/web/20260821122704/https://www.flocksafety.com/trust/rights-safeguards",
+      "timestamp": "20260821122704",
+      "captured": "2026-08-21T12:27:04Z",
+      "method": "save"
+    },
     "https://www.forbes.com/sites/thomasbrewster/2025/09/03/ai-startup-flock-thinks-it-can-eliminate-all-crime-in-america": {
       "url": "https://www.forbes.com/sites/thomasbrewster/2025/09/03/ai-startup-flock-thinks-it-can-eliminate-all-crime-in-america/",
       "wayback": "https://web.archive.org/web/20260812031431/https://www.forbes.com/sites/thomasbrewster/2025/09/03/ai-startup-flock-thinks-it-can-eliminate-all-crime-in-america/",
@@ -3210,6 +3308,13 @@
       "captured": "2026-03-14T13:21:57Z",
       "method": "existing"
     },
+    "https://www.glendale-wi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement": {
+      "url": "https://www.glendale-wi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement",
+      "wayback": "https://web.archive.org/web/20260821123307/https://www.glendalewi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement",
+      "timestamp": "20260821123307",
+      "captured": "2026-08-21T12:33:07Z",
+      "method": "save"
+    },
     "https://www.globenewswire.com/news-release/2021/05/05/2223493/0/en/Flock-Safety-Announces-AMBER-Alert-Distribution-Partnership-With-National-Center-for-Missing-Exploited-Children-NCMEC-to-Deploy-License-Plate-Recognition-in-Finding-Missing-Childre.html": {
       "url": "https://www.globenewswire.com/news-release/2021/05/05/2223493/0/en/Flock-Safety-Announces-AMBER-Alert-Distribution-Partnership-With-National-Center-for-Missing-Exploited-Children-NCMEC-to-Deploy-License-Plate-Recognition-in-Finding-Missing-Childre.html",
       "wayback": "https://web.archive.org/web/20220603185908/https://www.globenewswire.com/news-release/2021/05/05/2223493/0/en/Flock-Safety-Announces-AMBER-Alert-Distribution-Partnership-With-National-Center-for-Missing-Exploited-Children-NCMEC-to-Deploy-License-Plate-Recognition-in-Finding-Missing-Childre.html",
@@ -3285,6 +3390,20 @@
       "wayback": "https://web.archive.org/web/20260817113420/https://www.hcnews.com/stories/countys-frustration-with-flock-continues,132593",
       "timestamp": "20260817113420",
       "captured": "2026-08-17T11:34:20Z",
+      "method": "save"
+    },
+    "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html": {
+      "url": "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
+      "wayback": "https://web.archive.org/web/20260818182741/https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
+      "timestamp": "20260818182741",
+      "captured": "2026-08-18T18:27:41Z",
+      "method": "existing"
+    },
+    "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html": {
+      "url": "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
+      "wayback": "https://web.archive.org/web/20260821114524/https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
+      "timestamp": "20260821114524",
+      "captured": "2026-08-21T11:45:24Z",
       "method": "save"
     },
     "https://www.heraldnet.com/2026/06/05/everett-settles-flock-records-case-for-25k": {
@@ -3481,6 +3600,13 @@
       "wayback": "https://web.archive.org/web/20260801211244/https://www.knoxnews.com/story/news/politics/2026/07/31/knox-county-sheriffs-office-deal-with-flock-safety-is-for-10-years/91075175007/",
       "timestamp": "20260801211244",
       "captured": "2026-08-01T21:12:44Z",
+      "method": "existing"
+    },
+    "https://www.knoxnews.com/story/news/politics/2026/08/04/knox-county-sheriffs-office-flock-cameras-installed-outside-high-crime-zones/91083365007": {
+      "url": "https://www.knoxnews.com/story/news/politics/2026/08/04/knox-county-sheriffs-office-flock-cameras-installed-outside-high-crime-zones/91083365007/",
+      "wayback": "https://web.archive.org/web/20260816174012/https://www.knoxnews.com/story/news/politics/2026/08/04/knox-county-sheriffs-office-flock-cameras-installed-outside-high-crime-zones/91083365007/",
+      "timestamp": "20260816174012",
+      "captured": "2026-08-16T17:40:12Z",
       "method": "existing"
     },
     "https://www.koaa.com/news/local-news/salida-police-department-cancels-contract-with-flock-safety-cites-community-concerns": {
@@ -3958,6 +4084,13 @@
       "timestamp": "20260817225633",
       "captured": "2026-08-17T22:56:33Z",
       "method": "save"
+    },
+    "https://www.paloaltoonline.com/news/2026/08/04/stanford-drops-flock-cameras-amid-national-backlash": {
+      "url": "https://www.paloaltoonline.com/news/2026/08/04/stanford-drops-flock-cameras-amid-national-backlash/",
+      "wayback": "https://web.archive.org/web/20260816174146/https://www.paloaltoonline.com/news/2026/08/04/stanford-drops-flock-cameras-amid-national-backlash/",
+      "timestamp": "20260816174146",
+      "captured": "2026-08-16T17:41:46Z",
+      "method": "existing"
     },
     "https://www.police1.com/police-products/police-technology/publicsafetysoftware/flock-safety-reveals-the-most-expansive-ai-and-data-analysis-toolset-for-law-enforcement-including-flock-nova-a-new-platform-to-transform-investigations": {
       "url": "https://www.police1.com/police-products/police-technology/publicsafetysoftware/flock-safety-reveals-the-most-expansive-ai-and-data-analysis-toolset-for-law-enforcement-including-flock-nova-a-new-platform-to-transform-investigations",
@@ -4882,6 +5015,13 @@
       "timestamp": "20260811124256",
       "captured": "2026-08-11T12:42:56Z",
       "method": "existing"
+    },
+    "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html": {
+      "url": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
+      "wayback": "https://web.archive.org/web/20260821115155/https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
+      "timestamp": "20260821115155",
+      "captured": "2026-08-21T11:51:55Z",
+      "method": "save"
     },
     "https://www.yahoo.com/news/us/articles/twin-falls-idaho-falls-facing-231218395.html": {
       "url": "https://www.yahoo.com/news/us/articles/twin-falls-idaho-falls-facing-231218395.html",
