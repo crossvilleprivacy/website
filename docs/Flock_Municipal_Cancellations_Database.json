@@ -1637,12 +1637,12 @@
       "Action_Date": "2026-08-17",
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Rising Flock cost; Data-sharing / privacy concerns; Law Committee vendor-swap recommendation; Keep one Flock for national sharing",
-      "Summary": "Monterey’s Law Committee voted Monday night, August 17, 2026, to recommend replacing most town Flock cameras with Axon readers. The Herald-Citizen quoted Lt. Andrew Neff citing rising Flock cost and nationwide data sharing; he said Axon stores data in-house. The department wants to keep one Flock camera for national sharing. The Board of Mayor and Aldermen has not finally approved the change.",
+      "Primary_Reasons": "Rising Flock cost; Data-sharing vs Axon in-house storage; Law Committee vendor-swap recommendation; Keep one Flock for national sharing",
+      "Summary": "Monterey’s Law Committee voted Monday night, August 17, 2026, to recommend replacing most town Flock cameras with Axon readers. The Herald-Citizen quoted Lt. Andrew Neff citing rising Flock cost and nationwide data sharing; he said Axon stores data in-house. The department wants to keep one Flock camera for national sharing. The Board of Mayor and Aldermen has not finally approved the change. Vendor swap, not a privacy exit.",
       "Primary_Source_URL": "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
       "Secondary_Source_URL": "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
       "Verification_Status": "Verified local press",
-      "Incomplete_Exit_Notes": "Law Committee recommendation only; Board of Mayor and Aldermen has not finally approved. Not a clear ALPR exit: Axon swap plus keep one Flock for the national network. Putnam County neighbor to Cumberland County."
+      "Incomplete_Exit_Notes": "Law Committee recommendation only; Board of Mayor and Aldermen has not finally approved. Not a privacy exit: Axon swap plus keep one Flock for the national network. Putnam County neighbor to Cumberland County."
     },
     {
       "Case_ID": "CAN-2026-116",
