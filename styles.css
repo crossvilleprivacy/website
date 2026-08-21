@@ -3379,11 +3379,13 @@ a.deep-link-hash {
 .sticky-cta-restore {
   display: none;
   position: fixed;
-  right: 0.75rem;
+  right: max(0.75rem, env(safe-area-inset-right, 0px));
   bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
   z-index: 40;
   margin: 0;
   padding: 0.55rem 0.85rem;
+  max-width: calc(100vw - 1.5rem);
+  max-width: calc(100svw - 1.5rem);
   border: 1px solid #334155;
   border-radius: 999px;
   background: #1a1a2e;
@@ -3391,6 +3393,8 @@ a.deep-link-hash {
   font-size: 0.82rem;
   font-weight: 650;
   line-height: 1.2;
+  white-space: normal;
+  text-align: center;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
@@ -3696,6 +3700,9 @@ body.sticky-cta-is-dismissed {
   body.sticky-cta-is-dismissed .sticky-cta-restore:not([hidden]) {
     display: inline-flex;
     align-items: center;
+    right: max(1rem, env(safe-area-inset-right, 0px));
+    max-width: calc(100vw - 2rem);
+    max-width: calc(100svw - 2rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
   }
 
   .ally-card:hover {
