@@ -112,9 +112,9 @@
       "Source_URL": "https://www.aclu-wi.org/news/what-the-flock-police-surveillance-is-ripe-for-abuse/",
       "Verification_Status": "Verified",
       "Incident_Year": 2023,
-      "Outcome_Bucket": "1 Terminated / Resigned",
+      "Outcome_Bucket": "1 Resigned",
       "Personal_Lookup_Count": 228,
-      "Personnel_Terminated": 1
+      "Personnel_Resigned": 1
     },
     {
       "Case_ID": "FLK-2024-027",
@@ -128,8 +128,8 @@
       "Source_URL": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/",
       "Verification_Status": "Verified",
       "Incident_Year": 2024,
-      "Outcome_Bucket": "1 Terminated / Resigned",
-      "Personnel_Terminated": 1
+      "Outcome_Bucket": "1 Resigned",
+      "Personnel_Resigned": 1
     },
     {
       "Case_ID": "FLK-2024-028",
@@ -213,9 +213,9 @@
       "Source_URL": "https://www.themarshallproject.org/2026/03/07/police-camera-wisconsin-california-colorado",
       "Verification_Status": "Verified",
       "Incident_Year": 2025,
-      "Outcome_Bucket": "1 Terminated and Criminally Charged",
+      "Outcome_Bucket": "1 Resigned and Criminally Charged",
       "Personal_Lookup_Count": 179,
-      "Personnel_Terminated": 1,
+      "Personnel_Resigned": 1,
       "Personnel_Charged": 1
     },
     {
@@ -575,8 +575,7 @@
       "Source_URL": "https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
-      "Outcome_Bucket": "1 Criminally Charged",
-      "Personnel_Charged": 1
+      "Outcome_Bucket": "Released / No Charges: Documented False Stop"
     },
     {
       "Case_ID": "FLK-2026-015",
@@ -735,10 +734,9 @@
       "Source_URL": "https://gbi.georgia.gov/press-releases/2026-07-23/gbi-arrests-conyers-police-department-employee-misuse-license-plate",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
-      "Year_Note": "Arrest July 22, 2026; GBI release July 23.",
-      "Outcome_Bucket": "1 Terminated and Criminally Charged",
+      "Year_Note": "Arrest July 22, 2026; GBI release July 23. Reporting says administrative leave; firing not confirmed.",
+      "Outcome_Bucket": "1 Criminally Charged",
       "Personal_Lookup_Count": 30,
-      "Personnel_Terminated": 1,
       "Personnel_Charged": 1
     },
     {
@@ -772,7 +770,7 @@
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
       "Year_Note": "Leave / GBI referral July 31, 2026; administrative terminations Aug. 7, 2026; criminal probe pending.",
-      "Outcome_Bucket": "6 Terminated (4 officers, 2 other city employees)",
+      "Outcome_Bucket": "6 Terminated (4 officers, 2 civilian employees)",
       "Personnel_Terminated": 6
     },
     {

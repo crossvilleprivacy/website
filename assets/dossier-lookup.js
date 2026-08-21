@@ -221,37 +221,28 @@
   var SWORN_TITLE_RE =
     /\b(officer|officers|deputy|deputies|detective|lieutenant|lt\.|sergeant|sgt\.|chief|captain|major|commander|trooper|constable|patrol)\b/i;
   var CIVILIAN_TITLE_RE =
-    /\b(civilian|civilians|secretary|dispatcher|employee|employees|911)\b/i;
+    /\b(civilian|civilians|secretary|dispatcher|911)\b/i;
+  var EMPLOYEE_TITLE_RE = /\bemployee/i;
   var ROLE_IN_LABEL_RE =
-    /\b(officer|officers|deputy|deputies|city employee|city employees|county employee|county employees|agency employee|agency employees)\b/i;
+    /\b(officer|officers|deputy|deputies|investigator|investigators|civilian employee|civilian employees|employees?)\b/i;
 
-  function civilianStaffKind(agency) {
+  function civilianRoleNoun(count) {
+    return Number(count) === 1 ? "civilian employee" : "civilian employees";
+  }
+
+  function employeeRoleNoun(count) {
+    return Number(count) === 1 ? "employee" : "employees";
+  }
+
+  function isSheriffAgency(agency) {
     var a = String(agency || "");
-    if (/district attorney|prosecutor/i.test(a)) {
-      return "agency";
-    }
-    if (/sheriff/i.test(a) && !/police/i.test(a)) {
-      return "county";
-    }
-    return "city";
+    return /sheriff/i.test(a) && !/police/i.test(a);
   }
 
-  function civilianRoleNoun(agency, count) {
-    var kind = civilianStaffKind(agency);
-    var n = Number(count) || 1;
-    if (kind === "county") {
-      return n === 1 ? "county employee" : "county employees";
-    }
-    if (kind === "agency") {
-      return n === 1 ? "agency employee" : "agency employees";
-    }
-    return n === 1 ? "city employee" : "city employees";
-  }
-
-  function swornRoleNoun(subject, count) {
+  function swornRoleNoun(subject, count, agency) {
     var s = String(subject || "");
     var n = Number(count) || 1;
-    if (/\bdeput/i.test(s) && !/\bofficer/i.test(s)) {
+    if (isSheriffAgency(agency) || (/\bdeput/i.test(s) && !/\bofficer/i.test(s))) {
       return n === 1 ? "deputy" : "deputies";
     }
     return n === 1 ? "officer" : "officers";
@@ -277,10 +268,9 @@
       return "—";
     }
     text = text.replace(
-      /\((\d+)\s+officers?(?:,|\s+and)\s*(\d+)\s+(?:civilians?|other (?:city|county|agency) employees?)\)/i,
+      /\((\d+)\s+officers?(?:,|\s+and)\s*(\d+)\s+(?:civilians?|civilian employees?|other (?:city|county|agency) employees?)\)/i,
       function (_, officerCount, civilianCount) {
         var o = Number(officerCount);
-        var c = Number(civilianCount);
         return (
           "(" +
           officerCount +
@@ -288,8 +278,8 @@
           (o === 1 ? "officer" : "officers") +
           " and " +
           civilianCount +
-          " other " +
-          civilianRoleNoun(agency, c) +
+          " " +
+          civilianRoleNoun(civilianCount) +
           ")"
         );
       }
@@ -302,13 +292,19 @@
       var s = String(subject || "");
       var sworn = SWORN_TITLE_RE.test(s);
       var civilian = CIVILIAN_TITLE_RE.test(s);
+      var investigator = /\binvestigator\b/i.test(s) && !sworn;
+      var employeeOnly = EMPLOYEE_TITLE_RE.test(s) && !sworn && !civilian && !investigator;
       var role;
       if (sworn && civilian) {
         role = "";
-      } else if (!sworn && civilian) {
-        role = civilianRoleNoun(agency, n);
+      } else if (civilian) {
+        role = civilianRoleNoun(n);
+      } else if (investigator) {
+        role = n === 1 ? "investigator" : "investigators";
+      } else if (employeeOnly) {
+        role = employeeRoleNoun(n);
       } else {
-        role = swornRoleNoun(s, n);
+        role = swornRoleNoun(s, n, agency);
       }
       if (role) {
         if (/^internal discipline/i.test(rest)) {

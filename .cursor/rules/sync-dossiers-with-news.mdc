@@ -34,13 +34,15 @@ JSON is an **index** (Case ID, place, date/action, source URL, tally fields). Af
 |---|---|
 | `1 Resigned` (subject is an officer) | 1 officer resigned |
 | `1 Terminated` | 1 officer fired |
-| `6 Terminated (4 officers, 2 other city employees)` | 6 fired (4 officers and 2 other city employees) |
-| `3 Resigned` (unnamed sheriff’s office employees) | 3 county employees resigned |
+| `6 Terminated (4 officers, 2 civilian employees)` | 6 fired (4 officers and 2 civilian employees) |
+| `3 Resigned` (unnamed sheriff’s office employees; source does not say sworn vs civilian) | 3 employees resigned |
 
 When writing a row:
 
 - Put the **job** in `Subject_Officer_Involved` (`officer`, `deputy`, `dispatcher`, `civilian employees`, `Three unnamed employees`). Names may stay in that field for the index; they must not appear in `Outcome_Bucket` or the lookup Outcome cell.
-- Mixed sworn / non-sworn: `6 Terminated (4 officers, 2 other city employees)`. Non-sworn PD staff are **other city employees**; sheriff’s office non-sworn staff are **county employees**.
+- Mixed sworn / non-sworn only when the source splits it, in the source’s words. Savannah PD is `6 Terminated (4 officers, 2 civilian employees)` (four sworn officers and two civilian SPD employees). Do not invent “other city employees.”
+- Sheriff’s office sworn staff display as **deputies**, not officers, unless the source says officer.
+- Unnamed “employees” with no sworn/civilian split stay **employees**, not officers and not civilians.
 - Keep `Terminated` in JSON (filters and tallies). The table says **fired**.
 - Use `Terminated / Resigned` when reporting does not say which.
 
