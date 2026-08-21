@@ -22,7 +22,7 @@ When the user asks to **run the full audit**, **re-audit**, or **audit the site 
 4. **Out-of-sync catalogs** — site stories missing from cancel / misuse / wrongful JSON; tallies ≠ JSON / `docs/dossier-tallies.json`; lookup widget copy ≠ JSON (`national.html#cancel-lookup`, `#misuse-lookup`, `#wrongful-lookup`); cancel Case_IDs missing from `#cancellations` articles so the lookup cannot deep-link; misuse `FLK-` / wrongful ID missing from `#nationwide-misuse` articles; any “catalogs intentionally unchanged” for a catalog-eligible panel (**P0**); inlined `*-data.js` copies of files the widgets already fetch (`docs/*.json` / search-log CSV); leftover links to retired master-database PDFs
 5. **Missing cross-references** — story on one page not linked from related pages (vendor dossier, national, index, speeches)
 6. **Layperson jargon** — patentese, acronyms without gloss, blogger/academic voice
-7. **AI-tell writing** — sentence fragments, em-dash abuse, stiff scaffolds (“First: / Second: / Separately,”), waxed eloquence
+7. **AI-tell / internallish voice** — see `no-ai-slop-on-site.mdc`. Sentence fragments and mid-clause `…` cutoffs; catalog-taxonomy asides (“not a Case_ID,” “JSON index,” “jump from the table,” “catalogued … separate rows”); stiff scaffolds (“First: / Second: / Separately,”); waxed eloquence. **P1** on public pages.
 
 ## Priority labels
 
@@ -36,6 +36,7 @@ When the user asks to **run the full audit**, **re-audit**, or **audit the site 
 - `sync-dossiers-with-news.mdc`
 - `keep-sources-synced.mdc`
 - `no-identity-leaks.mdc`
+- `no-ai-slop-on-site.mdc`
 
 ## Report format
 

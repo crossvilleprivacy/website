@@ -18,7 +18,7 @@ alwaysApply: false
 
 - **One card per story** (`<article id="…">`), whether the latest beat is brand-new or an update.
 - Add a **Developments** section (`.case-developments`) only when there are **two or more distinct beats**. Dated items, **newest first**. Do not clone the tag line into a one-item list.
-- In truncated National cards, do not leave a space before commas, semicolons, colons, or periods (`Royston, 51` not `Royston , 51`).
+- In truncated National cards, do not leave a space before commas, semicolons, colons, or periods (`Royston, 51` not `Royston , 51`). Do not add a new card that dies mid-clause (`so it has no…`); finish the sentence (`no-ai-slop-on-site.mdc`).
 - When a story is updated: deepen the panel body, append/prepend the new Developments beat, set `data-sort-date` to the newest beat, and **re-sort** `#nationwide-misuse` / `#cancellations` so that card bumps up with other new or newly updated stories (newest first). Refresh TOC lists to match.
 
 ## Shared
