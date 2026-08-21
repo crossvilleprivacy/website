@@ -1,8 +1,8 @@
 {
-  "title": "Wayback Machine snapshots of cited sources",
+  "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-08-21",
-  "count": 744,
-  "source_count": 758,
+  "count": 759,
+  "source_count": 759,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
       "url": "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg",
@@ -619,6 +619,13 @@
       "timestamp": "20260815204729",
       "captured": "2026-08-15T20:47:29Z",
       "method": "existing"
+    },
+    "https://eu.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007": {
+      "url": "https://eu.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007/",
+      "archive_today": "https://archive.today/20240317010033/https://www.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007/",
+      "timestamp": "20240317010033",
+      "captured": "2024-03-17T01:00:33Z",
+      "method": "archive.today"
     },
     "https://faceprivacy.ai/blog/wrongful-arrests-facial-recognition": {
       "url": "https://faceprivacy.ai/blog/wrongful-arrests-facial-recognition/",
@@ -2027,6 +2034,13 @@
       "captured": "2026-08-15T13:57:58Z",
       "method": "existing"
     },
+    "https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2": {
+      "url": "https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2",
+      "archive_today": "https://archive.today/20260501145654/https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2",
+      "timestamp": "20260501145654",
+      "captured": "2026-05-01T14:56:54Z",
+      "method": "archive.today"
+    },
     "https://www.abc10.com/article/news/nation-world/ring-flock-safety/507-cd7aa4e7-156a-4831-8c6e-e97ba90928e0": {
       "url": "https://www.abc10.com/article/news/nation-world/ring-flock-safety/507-cd7aa4e7-156a-4831-8c6e-e97ba90928e0",
       "wayback": "https://web.archive.org/web/20251024141509/https://www.abc10.com/article/news/nation-world/ring-flock-safety/507-cd7aa4e7-156a-4831-8c6e-e97ba90928e0",
@@ -2418,6 +2432,13 @@
       "timestamp": "20260809033222",
       "captured": "2026-08-09T03:32:22Z",
       "method": "existing"
+    },
+    "https://www.azcentral.com/story/news/local/chandler/2026/08/13/chandler-az-officer-accused-of-misusing-flock-system-resigns/91294425007": {
+      "url": "https://www.azcentral.com/story/news/local/chandler/2026/08/13/chandler-az-officer-accused-of-misusing-flock-system-resigns/91294425007/",
+      "archive_today": "https://archive.today/20260813234211/https://www.azcentral.com/story/news/local/chandler/2026/08/13/chandler-az-officer-accused-of-misusing-flock-system-resigns/91294425007/",
+      "timestamp": "20260813234211",
+      "captured": "2026-08-13T23:42:11Z",
+      "method": "archive.today"
     },
     "https://www.azcentral.com/story/news/local/southwest-valley-breaking/2026/08/11/goodyear-police-officer-accused-of-misusing-flock-camera-system/91264674007": {
       "url": "https://www.azcentral.com/story/news/local/southwest-valley-breaking/2026/08/11/goodyear-police-officer-accused-of-misusing-flock-camera-system/91264674007/",
@@ -2832,6 +2853,20 @@
       "captured": "2026-07-03T21:09:23Z",
       "method": "existing"
     },
+    "https://www.coloradoan.com/story/news/local/2026/06/16/fort-collins-to-immediately-end-contract-with-flock-safety/90584281007": {
+      "url": "https://www.coloradoan.com/story/news/local/2026/06/16/fort-collins-to-immediately-end-contract-with-flock-safety/90584281007/",
+      "archive_today": "https://archive.today/20260618044523/https://www.coloradoan.com/story/news/local/2026/06/16/fort-collins-to-immediately-end-contract-with-flock-safety/90584281007/",
+      "timestamp": "20260618044523",
+      "captured": "2026-06-18T04:45:23Z",
+      "method": "archive.today"
+    },
+    "https://www.coloradoan.com/story/news/local/2026/07/23/fort-collins-police-services-flock-safety-cameras-have-been-removed/91021962007": {
+      "url": "https://www.coloradoan.com/story/news/local/2026/07/23/fort-collins-police-services-flock-safety-cameras-have-been-removed/91021962007/",
+      "archive_today": "https://archive.today/20260723224145/https://www.coloradoan.com/story/news/local/2026/07/23/fort-collins-police-services-flock-safety-cameras-have-been-removed/91021962007/",
+      "timestamp": "20260723224145",
+      "captured": "2026-07-23T22:41:45Z",
+      "method": "archive.today"
+    },
     "https://www.commondreams.org/news/police-abusing-flock-cameras": {
       "url": "https://www.commondreams.org/news/police-abusing-flock-cameras",
       "wayback": "https://web.archive.org/web/20260814172813/https://www.commondreams.org/news/police-abusing-flock-cameras",
@@ -2957,6 +2992,13 @@
       "timestamp": "20260312133617",
       "captured": "2026-03-12T13:36:17Z",
       "method": "existing"
+    },
+    "https://www.eastidahonews.com/2026/07/if-city-council-approves-contract-change-banning-flock-from-using-local-data-to-train-ai": {
+      "url": "https://www.eastidahonews.com/2026/07/if-city-council-approves-contract-change-banning-flock-from-using-local-data-to-train-ai/",
+      "archive_today": "https://archive.today/20260802043156/https://www.eastidahonews.com/2026/07/if-city-council-approves-contract-change-banning-flock-from-using-local-data-to-train-ai/",
+      "timestamp": "20260802043156",
+      "captured": "2026-08-02T04:31:56Z",
+      "method": "archive.today"
     },
     "https://www.edhat.com/ventura/news/oxnard-police-suspend-flock-license-plate-readers-ventura-agencies-tighten-controls-after-out-of-state-access": {
       "url": "https://www.edhat.com/ventura/news/oxnard-police-suspend-flock-license-plate-readers-ventura-agencies-tighten-controls-after-out-of-state-access/",
@@ -3287,6 +3329,13 @@
       "captured": "2026-04-12T22:19:54Z",
       "method": "existing"
     },
+    "https://www.freep.com/story/news/local/michigan/detroit/2025/04/02/detroit-settles-lawsuit-license-plate-reader-error-isoke-robinson/82753538007": {
+      "url": "https://www.freep.com/story/news/local/michigan/detroit/2025/04/02/detroit-settles-lawsuit-license-plate-reader-error-isoke-robinson/82753538007/",
+      "archive_today": "https://archive.today/20260114201506/https://www.freep.com/story/news/local/michigan/detroit/2025/04/02/detroit-settles-lawsuit-license-plate-reader-error-isoke-robinson/82753538007/",
+      "timestamp": "20260114201506",
+      "captured": "2026-01-14T20:15:06Z",
+      "method": "archive.today"
+    },
     "https://www.gadgetreview.com/cities-are-ditching-flock-safety-cameras-then-hiring-axon-to-do-the-same-job": {
       "url": "https://www.gadgetreview.com/cities-are-ditching-flock-safety-cameras-then-hiring-axon-to-do-the-same-job",
       "wayback": "https://web.archive.org/web/20260815210955/https://www.gadgetreview.com/cities-are-ditching-flock-safety-cameras-then-hiring-axon-to-do-the-same-job",
@@ -3336,6 +3385,13 @@
       "captured": "2026-08-16T17:38:17Z",
       "method": "save"
     },
+    "https://www.govinfo.gov/content/pkg/USCOURTS-ohnd-5_23-cv-02198/pdf/USCOURTS-ohnd-5_23-cv-02198-0.pdf": {
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ohnd-5_23-cv-02198/pdf/USCOURTS-ohnd-5_23-cv-02198-0.pdf",
+      "wayback": "https://web.archive.org/web/20260821123359/https://www.govinfo.gov/content/pkg/USCOURTS-ohnd-5_23-cv-02198/pdf/USCOURTS-ohnd-5_23-cv-02198-0.pdf",
+      "timestamp": "20260821123359",
+      "captured": "2026-08-21T12:33:59Z",
+      "method": "save"
+    },
     "https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000": {
       "url": "https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000",
       "wayback": "https://web.archive.org/web/20260629203349/https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000",
@@ -3370,6 +3426,13 @@
       "timestamp": "20260415033801",
       "captured": "2026-04-15T03:38:01Z",
       "method": "existing"
+    },
+    "https://www.greenvilleonline.com/story/news/crime/2026/07/24/greer-pd-flock-scandal-upstate-police-oversight/90994284007": {
+      "url": "https://www.greenvilleonline.com/story/news/crime/2026/07/24/greer-pd-flock-scandal-upstate-police-oversight/90994284007/",
+      "archive_today": "https://archive.today/20260724130455/https://www.greenvilleonline.com/story/news/crime/2026/07/24/greer-pd-flock-scandal-upstate-police-oversight/90994284007/",
+      "timestamp": "20260724130455",
+      "captured": "2026-07-24T13:04:55Z",
+      "method": "archive.today"
     },
     "https://www.hagerty.senate.gov/": {
       "url": "https://www.hagerty.senate.gov/",
@@ -3539,6 +3602,13 @@
       "captured": "2026-05-09T16:03:45Z",
       "method": "existing"
     },
+    "https://www.kgw.com/article/news/local/washington/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff": {
+      "url": "https://www.kgw.com/article/news/local/washington/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff",
+      "archive_today": "https://archive.today/20260330140100/https://www.kgw.com/article/news/local/washington/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff",
+      "timestamp": "20260330140100",
+      "captured": "2026-03-30T14:01:00Z",
+      "method": "archive.today"
+    },
     "https://www.king5.com/article/news/local/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff": {
       "url": "https://www.king5.com/article/news/local/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff",
       "wayback": "https://web.archive.org/web/20251118085516/https://www.king5.com/article/news/local/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff",
@@ -3587,6 +3657,13 @@
       "timestamp": "20260725024334",
       "captured": "2026-07-25T02:43:34Z",
       "method": "existing"
+    },
+    "https://www.knoxnews.com/story/news/politics/2026/07/22/kcso-halts-cameras-until-glenn-jacobs-tom-spangler-are-out-of-office/90994365007": {
+      "url": "https://www.knoxnews.com/story/news/politics/2026/07/22/kcso-halts-cameras-until-glenn-jacobs-tom-spangler-are-out-of-office/90994365007/",
+      "wayback": "https://web.archive.org/web/20260821123614/https://www.knoxnews.com/story/news/politics/2026/07/22/kcso-halts-cameras-until-glenn-jacobs-tom-spangler-are-out-of-office/90994365007/",
+      "timestamp": "20260821123614",
+      "captured": "2026-08-21T12:36:14Z",
+      "method": "save"
     },
     "https://www.knoxnews.com/story/news/politics/2026/07/28/knox-county-sheriffs-office-can-use-flock-cameras-told-to-share-policies/91064861007": {
       "url": "https://www.knoxnews.com/story/news/politics/2026/07/28/knox-county-sheriffs-office-can-use-flock-cameras-told-to-share-policies/91064861007/",
@@ -3790,6 +3867,13 @@
       "timestamp": "20260814021655",
       "captured": "2026-08-14T02:16:55Z",
       "method": "existing"
+    },
+    "https://www.maryvilleprivacy.org/east-tennessee-regional-alpr-transparency-center": {
+      "url": "https://www.maryvilleprivacy.org/east-tennessee-regional-alpr-transparency-center/",
+      "wayback": "https://web.archive.org/web/20260821123718/https://www.maryvilleprivacy.org/maryville-residents-for-privacy/east-tennessee-regional-alpr-transparency-center/",
+      "timestamp": "20260821123718",
+      "captured": "2026-08-21T12:37:18Z",
+      "method": "save"
     },
     "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor": {
       "url": "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor/",
@@ -4357,6 +4441,27 @@
       "timestamp": "20260812024303",
       "captured": "2026-08-12T02:43:03Z",
       "method": "existing"
+    },
+    "https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police": {
+      "url": "https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police",
+      "archive_today": "https://archive.today/20241102074508/https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police",
+      "timestamp": "20241102074508",
+      "captured": "2024-11-02T07:45:08Z",
+      "method": "archive.today"
+    },
+    "https://www.theguardian.com/us-news/2025/jul/03/atlanta-police-surveillance-company-ethics": {
+      "url": "https://www.theguardian.com/us-news/2025/jul/03/atlanta-police-surveillance-company-ethics",
+      "archive_today": "https://archive.today/20250704035207/https://www.theguardian.com/us-news/2025/jul/03/atlanta-police-surveillance-company-ethics",
+      "timestamp": "20250704035207",
+      "captured": "2025-07-04T03:52:07Z",
+      "method": "archive.today"
+    },
+    "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud": {
+      "url": "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud",
+      "archive_today": "https://archive.today/20260315051134/https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud",
+      "timestamp": "20260315051134",
+      "captured": "2026-03-15T05:11:34Z",
+      "method": "archive.today"
     },
     "https://www.theiacp.org/news/blog-post/sponsored-content-how-alpr-encourages-objective-policing": {
       "url": "https://www.theiacp.org/news/blog-post/sponsored-content-how-alpr-encourages-objective-policing",

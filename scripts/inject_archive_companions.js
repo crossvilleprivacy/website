@@ -2,8 +2,8 @@
 "use strict";
 
 /**
- * Insert dated Wayback companions beside live citation <a> tags.
- * Reads docs/source-archives.json. Idempotent.
+ * Insert dated archive companions beside live citation <a> tags.
+ * Reads docs/source-archives.json (Wayback first, archive.today fallback). Idempotent.
  *
  *   node scripts/inject_archive_companions.js
  */

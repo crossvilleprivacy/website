@@ -2,11 +2,14 @@
 "use strict";
 
 /**
- * Collect cited http(s) URLs and snapshot them on the Wayback Machine.
+ * Collect cited http(s) URLs and snapshot them (Wayback first, archive.today fallback).
  * Writes docs/source-archives.json (resume-safe).
  *
  *   node scripts/archive_sources.js
  *   node scripts/archive_sources.js --save-missing
+ *   node scripts/archive_sources.js --save-missing --skip-wayback-save
+ *   node scripts/archive_sources.js --archive-today-only
+ *   node scripts/archive_sources.js --save-missing --skip-archive-today --skip-wayback-lookup
  *   node scripts/archive_sources.js --url https://example.com/story
  */
 
@@ -22,9 +25,13 @@ if (typeof dns.setDefaultResultOrder === "function") {
 var root = path.join(__dirname, "..");
 var outPath = path.join(root, "docs", "source-archives.json");
 var UA = "CrossvillePrivacy.org source-archives (https://crossvilleprivacy.org/)";
+var ARCHIVE_TODAY_UA =
+  "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 var AVAIL_URL = "https://archive.org/wayback/available?url=";
 var SAVE_PREFIX = "https://web.archive.org/save/";
+var ARCHIVE_TODAY = "https://archive.today";
 var HREF_RE = /https?:\/\/[^\s"'<>]+/g;
+var archiveTodayCookie = "";
 
 function cleanHref(raw) {
   return String(raw || "").trim().replace(/[).,;:\]]+$/g, "").replace(/&amp;/g, "&");
@@ -70,14 +77,14 @@ function collectUrls() {
 
 function loadCatalog() {
   if (!fs.existsSync(outPath)) {
-    return { title: "Wayback Machine snapshots of cited sources", as_of: "", count: 0, archives: {} };
+    return { title: "Archive snapshots of cited sources (Wayback Machine and archive.today)", as_of: "", count: 0, archives: {} };
   }
   return JSON.parse(fs.readFileSync(outPath, "utf8"));
 }
 
 function writeCatalog(catalog, count) {
   var keys = Object.keys(catalog.archives || {}).sort();
-  catalog.title = "Wayback Machine snapshots of cited sources";
+  catalog.title = "Archive snapshots of cited sources (Wayback Machine and archive.today)";
   catalog.as_of = new Date().toISOString().slice(0, 10);
   catalog.count = keys.length;
   var nextCount = count || catalog.source_count || keys.length;
@@ -130,6 +137,207 @@ function recordFromTimestamp(liveUrl, stamp, method, wayback) {
     captured: archives.isoFromTimestamp(stamp),
     method: method,
   };
+}
+
+function timestampNow() {
+  var d = new Date();
+  function pad(n) {
+    return String(n).padStart(2, "0");
+  }
+  return (
+    String(d.getUTCFullYear()) +
+    pad(d.getUTCMonth() + 1) +
+    pad(d.getUTCDate()) +
+    pad(d.getUTCHours()) +
+    pad(d.getUTCMinutes()) +
+    pad(d.getUTCSeconds())
+  );
+}
+
+function header(res, name) {
+  if (!res || !res.headers || typeof res.headers.get !== "function") {
+    return "";
+  }
+  return res.headers.get(name) || "";
+}
+
+function rememberArchiveTodayCookie(res) {
+  var raw = header(res, "set-cookie");
+  var match = String(raw).match(/qki=([^;]+)/);
+  if (match) {
+    archiveTodayCookie = "qki=" + match[1];
+  }
+}
+
+function archiveTodayHeaders() {
+  var headers = {
+    "User-Agent": ARCHIVE_TODAY_UA,
+    Accept: "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+  };
+  if (archiveTodayCookie) {
+    headers.Cookie = archiveTodayCookie;
+  }
+  return headers;
+}
+
+function recordFromArchiveToday(liveUrl, parsed) {
+  var stamp = (parsed && parsed.timestamp) || timestampNow();
+  return {
+    url: liveUrl,
+    archive_today: parsed.href,
+    timestamp: stamp,
+    captured: archives.isoFromTimestamp(stamp),
+    method: "archive.today",
+  };
+}
+
+function mergeArchiveRecords(waybackRec, todayRec) {
+  var rec = {};
+  if (waybackRec) {
+    Object.keys(waybackRec).forEach(function (key) {
+      rec[key] = waybackRec[key];
+    });
+  }
+  if (!todayRec) {
+    return rec;
+  }
+  rec.url = todayRec.url || rec.url;
+  rec.archive_today = todayRec.archive_today;
+  if (!rec.timestamp) {
+    rec.timestamp = todayRec.timestamp;
+  }
+  if (!rec.captured) {
+    rec.captured = todayRec.captured;
+  }
+  if (!rec.wayback) {
+    rec.method = todayRec.method || "archive.today";
+  }
+  return rec;
+}
+
+function archiveTodayLookupUrls(liveUrl) {
+  var urls = [];
+  function add(href) {
+    var trimmed = String(href || "").trim();
+    if (trimmed && urls.indexOf(trimmed) === -1) {
+      urls.push(trimmed);
+    }
+  }
+  add(liveUrl);
+  try {
+    var url = new URL(liveUrl);
+    if (url.pathname.length > 1 && /\/$/.test(url.pathname)) {
+      url.pathname = url.pathname.replace(/\/+$/, "");
+      add(url.toString());
+    } else if (url.pathname !== "/") {
+      url.pathname = url.pathname + "/";
+      add(url.toString());
+    }
+    url = new URL(liveUrl);
+    if (/^eu\./i.test(url.hostname)) {
+      url.hostname = url.hostname.replace(/^eu\./i, "www.");
+      add(url.toString());
+    }
+    url = new URL(liveUrl);
+    if (url.hostname.replace(/^www\./i, "").toLowerCase() === "youtu.be") {
+      var video = String(url.pathname || "").replace(/^\//, "").split("/")[0];
+      if (video) {
+        add("https://www.youtube.com/watch?v=" + video);
+      }
+    }
+  } catch (err) {
+    return urls;
+  }
+  return urls;
+}
+
+async function fetchArchiveTodayNewestOnce(liveUrl, fetchFn) {
+  var probe = ARCHIVE_TODAY + "/newest/" + liveUrl;
+  var wait = 2000;
+  var attempt;
+  var res;
+  var loc;
+  var parsed;
+  for (attempt = 0; attempt < 4; attempt += 1) {
+    res = await fetchFn(probe, {
+      headers: archiveTodayHeaders(),
+      redirect: "manual",
+      signal: AbortSignal.timeout(20000),
+    });
+    rememberArchiveTodayCookie(res);
+    if (res.status !== 429) {
+      loc = header(res, "location");
+      parsed = archives.parseArchiveTodayHref(loc) || archives.parseArchiveTodayHref(res.url || "");
+      if (!parsed) {
+        return null;
+      }
+      return recordFromArchiveToday(liveUrl, parsed);
+    }
+    if (attempt === 1) {
+      throw new Error("archive.today HTTP 429");
+    }
+    await sleep(wait);
+    wait = Math.min(wait * 2, 20000);
+  }
+  return null;
+}
+
+async function fetchArchiveTodayNewest(liveUrl, fetchFn) {
+  var candidates = archiveTodayLookupUrls(liveUrl);
+  var i;
+  var rec;
+  for (i = 0; i < candidates.length; i += 1) {
+    rec = await fetchArchiveTodayNewestOnce(candidates[i], fetchFn);
+    if (rec) {
+      rec.url = liveUrl;
+      return rec;
+    }
+    if (i < candidates.length - 1) {
+      await sleep(800);
+    }
+  }
+  return null;
+}
+
+async function submitArchiveToday(liveUrl, fetchFn) {
+  var submit = ARCHIVE_TODAY + "/submit/?url=" + encodeURIComponent(liveUrl);
+  var res = await fetchFn(submit, {
+    headers: archiveTodayHeaders(),
+    redirect: "manual",
+    signal: AbortSignal.timeout(45000),
+  });
+  rememberArchiveTodayCookie(res);
+  if (res.status === 429) {
+    throw new Error("archive.today HTTP 429");
+  }
+  var loc = header(res, "location");
+  var refresh = header(res, "refresh");
+  var parsed = archives.parseArchiveTodayHref(loc);
+  var wip;
+  var body;
+  var match;
+  if (parsed) {
+    return recordFromArchiveToday(liveUrl, parsed);
+  }
+  wip = String(loc || refresh || "").match(/\/wip\/([A-Za-z0-9_-]+)/);
+  if (wip) {
+    await sleep(8000);
+    return fetchArchiveTodayNewest(liveUrl, fetchFn);
+  }
+  if (res.ok && typeof res.text === "function") {
+    try {
+      body = await res.text();
+    } catch (err) {
+      body = "";
+    }
+    match = String(body).match(/https?:\/\/archive\.(?:today|ph|is)\/(?:\d{14}\/[^\s"'<>]+|[A-Za-z0-9_-]{4,})/);
+    parsed = archives.parseArchiveTodayHref(match && match[0]);
+    if (parsed) {
+      return recordFromArchiveToday(liveUrl, parsed);
+    }
+  }
+  await sleep(5000);
+  return fetchArchiveTodayNewest(liveUrl, fetchFn);
 }
 
 async function fetchCdx(liveUrl, fetchFn) {
@@ -261,26 +469,58 @@ async function saveSnapshot(liveUrl, fetchFn) {
 
 async function snapshotOne(item, fetchFn, opts) {
   var rec = null;
-  if (opts && opts.save) {
+  var today = null;
+  var todayError = "";
+  opts = opts || {};
+  if (opts.save && !opts.skipWaybackLookup) {
     try {
       rec = await saveSnapshot(item.url, fetchFn);
-      if (rec) {
+      if (archives.hasUsableArchive(rec)) {
         return rec;
       }
     } catch (err) {
       rec = null;
     }
   }
-  try {
-    rec = await fetchAvailability(item.url, fetchFn);
-    if (rec) {
-      return rec;
+  if (!opts.skipWaybackLookup) {
+    try {
+      rec = await fetchAvailability(item.url, fetchFn);
+      if (rec && rec.wayback && rec.timestamp) {
+        return rec;
+      }
+    } catch (err) {
+      rec = rec || null;
     }
-  } catch (err) {
-    rec = null;
   }
-  if (opts && opts.saveMissing) {
-    rec = await saveSnapshot(item.url, fetchFn);
+  if (!opts.skipArchiveToday) {
+    try {
+      today = await fetchArchiveTodayNewest(item.url, fetchFn);
+      if (today) {
+        return mergeArchiveRecords(rec, today);
+      }
+    } catch (err) {
+      todayError = String((err && err.message) || err);
+    }
+  }
+  if (opts.saveMissing && !opts.skipWaybackSave && !opts.save) {
+    try {
+      rec = await saveSnapshot(item.url, fetchFn);
+      if (rec && rec.wayback && rec.timestamp) {
+        return rec;
+      }
+    } catch (err) {
+      rec = rec || null;
+    }
+  }
+  if (!opts.skipArchiveToday && (opts.saveMissing || opts.submitArchiveToday) && todayError.indexOf("429") === -1) {
+    try {
+      today = await submitArchiveToday(item.url, fetchFn);
+      if (today) {
+        return mergeArchiveRecords(rec, today);
+      }
+    } catch (err) {
+      today = null;
+    }
   }
   return rec;
 }
@@ -289,6 +529,10 @@ async function main(argv) {
   var args = argv || process.argv.slice(2);
   var saveAll = args.indexOf("--save-all") !== -1;
   var saveMissing = args.indexOf("--save-missing") !== -1 || saveAll;
+  var skipWaybackSave = args.indexOf("--skip-wayback-save") !== -1;
+  var archiveTodayOnly = args.indexOf("--archive-today-only") !== -1;
+  var skipArchiveToday = args.indexOf("--skip-archive-today") !== -1;
+  var skipWaybackLookup = args.indexOf("--skip-wayback-lookup") !== -1 || archiveTodayOnly;
   var urlFlag = args.indexOf("--url");
   var oneUrl = urlFlag !== -1 ? args[urlFlag + 1] : "";
   var fetchFn = global.fetch;
@@ -307,13 +551,10 @@ async function main(argv) {
 
   var pending = items.filter(function (item) {
     var existing = catalog.archives[item.key];
-    if (!existing || !existing.timestamp) {
-      return true;
-    }
     if (saveAll) {
       return true;
     }
-    return false;
+    return !archives.hasUsableArchive(existing);
   });
 
   process.stdout.write(
@@ -322,15 +563,18 @@ async function main(argv) {
 
   var done = 0;
   var failed = 0;
-  var concurrent = saveMissing || oneUrl ? 1 : 6;
-  var slow = saveMissing || saveAll || oneUrl;
+  var concurrent = saveMissing || oneUrl || archiveTodayOnly ? 1 : 6;
+  var slow = saveMissing || saveAll || oneUrl || archiveTodayOnly;
   await mapPool(pending, concurrent, async function (item) {
     try {
       var rec = await snapshotOne(item, fetchFn, {
         save: saveAll,
         saveMissing: saveMissing || Boolean(oneUrl),
+        skipWaybackSave: skipWaybackSave || archiveTodayOnly,
+        skipWaybackLookup: skipWaybackLookup,
+        skipArchiveToday: skipArchiveToday,
       });
-      if (!rec || !rec.timestamp) {
+      if (!archives.hasUsableArchive(rec)) {
         throw new Error("no snapshot");
       }
       rec.url = item.url;
@@ -347,7 +591,7 @@ async function main(argv) {
       );
     }
     if (slow) {
-      await sleep(1200);
+      await sleep(2500);
     }
   });
 
@@ -367,6 +611,8 @@ if (require.main === module) {
 module.exports = {
   collectUrls: collectUrls,
   collectFromText: collectFromText,
-  fetchAvailability: fetchAvailability,
-  snapshotOne: snapshotOne,
+    fetchAvailability: fetchAvailability,
+    fetchArchiveTodayNewest: fetchArchiveTodayNewest,
+    archiveTodayLookupUrls: archiveTodayLookupUrls,
+    snapshotOne: snapshotOne,
 };

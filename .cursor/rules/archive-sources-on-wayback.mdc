@@ -1,25 +1,29 @@
 ---
-description: Snapshot every new external citation on the Wayback Machine and record a timestamped archive URL
+description: Snapshot every new external citation on the Wayback Machine, then archive.today if Wayback fails, and record a timestamped archive URL
 alwaysApply: true
 ---
 
-# Wayback-archive every cited source
+# Archive every cited source
 
-When you add or update an **external citation URL** (page HTML, `sources.html`, or dossier JSON), snapshot it in the **same task**.
+When you add or update an **external citation URL** (page HTML, `sources.html`, or dossier JSON), snapshot it in the **same task**. Wayback Machine first. If Wayback cannot store a copy, try **archive.today**.
 
 ## Same-task steps
 
-1. Save the live URL: `node scripts/archive_sources.js --url 'https://example.com/story'` (or `--save-missing` after a batch).
-2. Upsert `docs/source-archives.json` with `wayback`, 14-digit `timestamp`, and ISO `captured`.
+1. Save the live URL: `node scripts/archive_sources.js --url 'https://example.com/story'` (or `--save-missing` after a batch). Use `--archive-today-only --save-missing` when Wayback already failed and you only need the archive.today fallback.
+2. Upsert `docs/source-archives.json`:
+   - Prefer `wayback`, 14-digit `timestamp`, and ISO `captured`.
+   - If Wayback has no snapshot, set `archive_today` (archive.today / archive.ph URL), `timestamp`, `captured`, and `method: "archive.today"`.
 3. Keep the **live URL** as the primary `href`. Do not replace it with the archive.
-4. Put a dated Wayback companion **beside** the live cite: `node scripts/inject_archive_companions.js` writes `<a class="source-archive"><time datetime="...">archived Mon. D, YYYY</time></a>` from the JSON. `assets/source-archives.js` still fills any leftover at runtime. Do not hand-copy archive.org URLs onto pages.
+4. Put a dated companion **beside** the live cite: `node scripts/inject_archive_companions.js` writes `<a class="source-archive"><time datetime="...">archived Mon. D, YYYY</time></a>` from the JSON. The companion `href` is Wayback when we have it, otherwise archive.today. `assets/source-archives.js` still fills any leftover at runtime. Do not hand-copy archive.org or archive.today URLs onto pages.
 5. List `docs/source-archives.json` under On-site primary documents on `sources.html` (already there after the first import).
 
-If Save Page Now fails, store the closest existing snapshot from the availability API. Never ship a new cite with no archive row.
+If Save Page Now fails, store the closest existing Wayback snapshot from the availability API or calendar redirect. If Wayback still has nothing, look up `https://archive.today/newest/{live URL}` and, if that 404s, submit the URL to archive.today. Never ship a new cite with no archive row (`wayback` or `archive_today`).
+
+If archive.today returns **429** or a **CAPTCHA**, do not paste the article into `docs/`. Retry later, or ask the operator to submit the live URL in a browser. Leave the live cite in place until a snapshot URL exists.
 
 ## Skip
 
-Same-site paths, `mailto:`, Maps / share-button endpoints, and archive.org itself.
+Same-site paths, `mailto:`, Maps / share-button endpoints, archive.org itself, and archive.today / archive.ph / archive.is mirrors.
 
 ```html
 <!-- Live cite stays primary; inject_archive_companions.js adds the dated archive beside it -->

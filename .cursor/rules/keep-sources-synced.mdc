@@ -17,7 +17,7 @@ Whenever you add, update, or remove **news stories, citations, dossiers, patents
 | On-site civic PDFs and JSON catalogs | **On-site primary documents** (+ topic panel if relevant). Case catalogs are JSON + searchable tables, not master-database PDFs. |
 | Dossier lookup widgets | Same dossier line, plus the searchable-table link (`national.html#cancel-lookup`, `#misuse-lookup`, `#wrongful-lookup`) |
 | Dossier tally snapshot | On-site primary documents → `docs/dossier-tallies.json` |
-| Wayback archive catalog | On-site primary documents → `docs/source-archives.json` |
+| Archive catalog (Wayback, then archive.today) | On-site primary documents → `docs/source-archives.json` |
 | Local evidence stills shown on dossier pages or used as speech visuals (Condor, patent pages, Oshkosh exhibit) | Matching topic panel (open-streams, patent, National / CEO) with asset path links |
 | Council speech catalog / PDF set | On-site primary documents → speech picker / `docs/speeches/` / `Council_Speeches_3min.json` |
 | TPRA request templates | On-site primary documents → `docs/TPRA_Request_Templates.json` / `records.html#foia` |
@@ -25,7 +25,7 @@ Whenever you add, update, or remove **news stories, citations, dossiers, patents
 ## Checklist before finishing a content change
 
 1. Diff new `https://` links on touched pages against `sources.html`.
-2. Snapshot those new URLs on the Wayback Machine and upsert `docs/source-archives.json` (see `archive-sources-on-wayback.mdc`).
+2. Snapshot those new URLs on the Wayback Machine (then archive.today if Wayback has nothing) and upsert `docs/source-archives.json` (see `archive-sources-on-wayback.mdc`).
 3. If you added `docs/*` or `assets/flock-*` / `assets/speech-visuals/*` exhibits, list them (or the parent folder + key files) under On-site primary documents or the topic panel.
 4. Prefer primary URLs already cited on the page; do not invent secondary sources just to pad the bibliography.
 5. Note in the reply that sources were synced (or explicitly say a link was intentionally omitted and why).

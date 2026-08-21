@@ -1,5 +1,5 @@
 /**
- * Wayback Machine companions for cited sources.
+ * Archive companions for cited sources (Wayback first, archive.today fallback).
  * Catalog: docs/source-archives.json (fetched; do not inline a second copy).
  */
 (function (root, factory) {
@@ -30,6 +30,23 @@
     "www.twitter.com": true,
     "x.com": true,
     "t.co": true,
+    "archive.today": true,
+    "archive.ph": true,
+    "archive.is": true,
+    "archive.md": true,
+    "archive.vn": true,
+    "archive.fo": true,
+    "archive.li": true,
+  };
+
+  var ARCHIVE_TODAY_HOSTS = {
+    "archive.today": true,
+    "archive.ph": true,
+    "archive.is": true,
+    "archive.md": true,
+    "archive.vn": true,
+    "archive.fo": true,
+    "archive.li": true,
   };
 
   function hostOf(href) {
@@ -103,6 +120,66 @@
       return "";
     }
     return monthLabel + " " + day + ", " + year;
+  }
+
+  function formatCapturedLabel(iso) {
+    var match = String(iso || "").match(/^(\d{4})-(\d{2})-(\d{2})/);
+    var monthLabel;
+    var day;
+    if (!match) {
+      return "";
+    }
+    monthLabel = MONTH_LABELS[Number(match[2]) - 1];
+    day = Number(match[3]);
+    if (!monthLabel || !day) {
+      return "";
+    }
+    return monthLabel + " " + day + ", " + match[1];
+  }
+
+  function parseArchiveTodayHref(href) {
+    var url;
+    var host;
+    var path;
+    var dated;
+    var shortId;
+    try {
+      url = new URL(String(href || "").trim());
+    } catch (err) {
+      return null;
+    }
+    host = (url.hostname || "").replace(/^www\./i, "").toLowerCase();
+    if (!ARCHIVE_TODAY_HOSTS[host]) {
+      return null;
+    }
+    path = String(url.pathname || "").replace(/\/+$/, "");
+    if (/^\/(newest|submit|wip|timemap|timegate)\b/i.test(path)) {
+      return null;
+    }
+    dated = path.match(/^\/(\d{14})(?:\/|$)/);
+    shortId = path.match(/^\/([A-Za-z0-9_-]{4,})$/);
+    if (!dated && !shortId) {
+      return null;
+    }
+    url.hash = "";
+    return {
+      href: url.toString(),
+      timestamp: dated ? dated[1] : "",
+      id: dated ? dated[1] : shortId[1],
+    };
+  }
+
+  function hasUsableArchive(rec) {
+    if (!rec) {
+      return false;
+    }
+    if (rec.wayback && rec.timestamp) {
+      return true;
+    }
+    if (rec.archive_today) {
+      return true;
+    }
+    return false;
   }
 
   function isoFromTimestamp(stamp) {
@@ -188,18 +265,31 @@
   }
 
   function archiveCompanion(rec) {
-    if (!rec || !rec.wayback || !rec.timestamp) {
+    var label;
+    if (!rec) {
       return null;
     }
-    var label = formatArchiveLabel(rec.timestamp);
-    if (!label) {
-      return null;
+    if (rec.wayback && rec.timestamp) {
+      label = formatArchiveLabel(rec.timestamp);
+      if (label) {
+        return {
+          href: rec.wayback,
+          label: "archived " + label,
+          datetime: rec.captured || isoFromTimestamp(rec.timestamp),
+          title: "Wayback Machine snapshot",
+        };
+      }
     }
-    return {
-      href: rec.wayback,
-      label: "archived " + label,
-      datetime: rec.captured || isoFromTimestamp(rec.timestamp),
-    };
+    if (rec.archive_today) {
+      label = formatArchiveLabel(rec.timestamp) || formatCapturedLabel(rec.captured);
+      return {
+        href: rec.archive_today,
+        label: label ? "archived " + label : "archived on archive.today",
+        datetime: rec.captured || isoFromTimestamp(rec.timestamp) || "",
+        title: "archive.today snapshot",
+      };
+    }
+    return null;
   }
 
   function classOf(node) {
@@ -247,20 +337,26 @@
     if (classOf(el).indexOf("source-archive") !== -1) {
       return true;
     }
-    return /web\.archive\.org\/web\/\d{14}\//.test(
-      String((el.getAttribute && el.getAttribute("href")) || el.href || "")
-    );
+    var href = String((el.getAttribute && el.getAttribute("href")) || el.href || "");
+    if (/web\.archive\.org\/web\/\d{14}\//.test(href)) {
+      return true;
+    }
+    return Boolean(parseArchiveTodayHref(href));
   }
 
   function archiveCompanionHtml(rec) {
     var companion = archiveCompanion(rec);
+    var title;
     if (!companion) {
       return "";
     }
+    title = companion.title || "Wayback Machine snapshot";
     return (
       ' <a class="source-archive" href="' +
       String(companion.href).replace(/&/g, "&amp;") +
-      '" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="' +
+      '" target="_blank" rel="noopener" title="' +
+      title +
+      '"><time datetime="' +
       companion.datetime +
       '">' +
       companion.label +
@@ -277,6 +373,9 @@
       return true;
     }
     if (/^<a\b[^>]*web\.archive\.org\/web\/\d{14}\//i.test(slice)) {
+      return true;
+    }
+    if (/^<a\b[^>]*https?:\/\/archive\.(?:today|ph|is|md|vn)\//i.test(slice)) {
       return true;
     }
     return false;
@@ -389,7 +488,7 @@
     wrap.href = companion.href;
     wrap.target = "_blank";
     wrap.rel = "noopener";
-    wrap.setAttribute("title", "Wayback Machine snapshot");
+    wrap.setAttribute("title", companion.title || "Wayback Machine snapshot");
     time = doc.createElement("time");
     time.setAttribute("datetime", companion.datetime);
     time.textContent = companion.label;
@@ -500,9 +599,12 @@
     shouldArchiveUrl: shouldArchiveUrl,
     normalizeUrl: normalizeUrl,
     formatArchiveLabel: formatArchiveLabel,
+    formatCapturedLabel: formatCapturedLabel,
     isoFromTimestamp: isoFromTimestamp,
     waybackUrl: waybackUrl,
     parseAvailability: parseAvailability,
+    parseArchiveTodayHref: parseArchiveTodayHref,
+    hasUsableArchive: hasUsableArchive,
     lookupRecord: lookupRecord,
     archiveCompanion: archiveCompanion,
     archiveCompanionHtml: archiveCompanionHtml,

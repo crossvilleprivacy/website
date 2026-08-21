@@ -55,7 +55,7 @@ Fetched catalogs (not case dossiers; still no `*-data.js` copy):
 | Source file | Widget |
 |---|---|
 | `docs/dossier-tallies.json` | `[data-tally]` counters on `index.html`, `national.html`, `sources.html` |
-| `docs/source-archives.json` | Timestamped Wayback companions on cited `https://` links (`assets/source-archives.js`) |
+| `docs/source-archives.json` | Timestamped Wayback / archive.today companions on cited `https://` links (`assets/source-archives.js`) |
 | `docs/TPRA_Flock_Query_Records.csv` | `records.html#search-log` |
 | `docs/TPRA_Request_Templates.json` | `records.html#foia` |
 | `docs/Council_Speeches_3min.json` | `council.html#speech-picker` |
@@ -77,6 +77,6 @@ Anti-pattern: Wisconsin interstate weed-track shipped as HTML with “dossiers i
 - [ ] Tallies and as-of dates match JSON (including lookup widget copy)
 - [ ] Matching lookup widget still works (cancellations: `#cancel-lookup`; misuse: `#misuse-lookup`; wrongful: `#wrongful-lookup`; Case_IDs / wrongful IDs on the matching articles)
 - [ ] `docs/dossier-tallies.json` regenerated and HTML fallback numbers match
-- [ ] New external cites have a Wayback row in `docs/source-archives.json`
+- [ ] New external cites have a Wayback or archive.today row in `docs/source-archives.json`
 - [ ] `sources.html` updated (URLs + catalog counts + searchable-table links)
 - [ ] Reply states what was synced (or the narrow non-catalog reason)
