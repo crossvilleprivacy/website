@@ -1921,7 +1921,9 @@ article:has(+ .panel) {
 /* When opposing/neutral lists are parked (hidden), show praise column full-width. */
 .stance-compare-praise {
   grid-template-columns: 1fr;
+  width: min(100%, 46rem);
   max-width: 46rem;
+  margin-inline: auto;
 }
 
 /* Third stance group: office-holders with no recorded position. Deliberately
@@ -4258,17 +4260,26 @@ html[data-theme="dark"] .panel-security {
 }
 
 html[data-theme="dark"] .stance-compare .good {
-  background: linear-gradient(165deg, #16301f 0%, var(--surface) 100%);
+  background: linear-gradient(165deg, #1a2420 0%, var(--surface) 100%);
   border-color: #2d6a45;
   box-shadow: none;
 }
 
-html[data-theme="dark"] .stance-compare .good h3,
+html[data-theme="dark"] .stance-compare .good h3 {
+  color: var(--ink);
+}
+
 html[data-theme="dark"] .stance-compare .good h3:before,
-html[data-theme="dark"] .stance-compare .good .note,
-html[data-theme="dark"] .stance-compare .good .stance-sources a,
 html[data-theme="dark"] .stance-compare .good .stance-list li:marker {
-  color: #86efac;
+  color: #4ade80;
+}
+
+html[data-theme="dark"] .stance-compare .good .note {
+  color: var(--muted);
+}
+
+html[data-theme="dark"] .stance-compare .good .stance-sources a:not(.source-archive) {
+  color: var(--accent-dark);
 }
 
 html[data-theme="dark"] .stance-compare .bad {
