@@ -1107,17 +1107,12 @@
 
   function stickyChromePx(doc) {
     doc = doc || document;
-    var banner = doc.getElementById ? doc.getElementById("renewal-countdown") : null;
     var siteHeader = doc.querySelector ? doc.querySelector(".site-header") : null;
-    var bh =
-      banner && banner.getBoundingClientRect
-        ? Math.ceil(banner.getBoundingClientRect().height)
-        : 0;
     var hh =
       siteHeader && siteHeader.getBoundingClientRect
         ? Math.ceil(siteHeader.getBoundingClientRect().height)
         : 0;
-    return bh + hh;
+    return hh;
   }
 
   function syncStickyOffsets(doc) {
@@ -1126,17 +1121,12 @@
     if (!root || !root.style || !root.style.setProperty) {
       return;
     }
-    var banner = doc.getElementById ? doc.getElementById("renewal-countdown") : null;
     var siteHeader = doc.querySelector ? doc.querySelector(".site-header") : null;
-    var bh =
-      banner && banner.getBoundingClientRect
-        ? Math.ceil(banner.getBoundingClientRect().height)
-        : 0;
     var hh =
       siteHeader && siteHeader.getBoundingClientRect
         ? Math.ceil(siteHeader.getBoundingClientRect().height)
         : 0;
-    root.style.setProperty("--renewal-banner-h", bh + "px");
+    root.style.setProperty("--renewal-banner-h", "0px");
     root.style.setProperty("--site-header-h", hh + "px");
   }
 

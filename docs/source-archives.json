@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-08-21",
-  "count": 762,
-  "source_count": 759,
+  "count": 773,
+  "source_count": 773,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
       "url": "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg",
@@ -2286,6 +2286,13 @@
       "captured": "2026-08-11T10:20:13Z",
       "method": "existing"
     },
+    "https://www.al.com/news/2026/07/2-alabama-police-officers-out-following-alleged-flock-camera-violations-in-2-cities.html": {
+      "url": "https://www.al.com/news/2026/07/2-alabama-police-officers-out-following-alleged-flock-camera-violations-in-2-cities.html",
+      "wayback": "https://web.archive.org/web/20260813190204/https://www.al.com/news/2026/07/2-alabama-police-officers-out-following-alleged-flock-camera-violations-in-2-cities.html",
+      "timestamp": "20260813190204",
+      "captured": "2026-08-13T19:02:04Z",
+      "method": "existing"
+    },
     "https://www.aljazeera.com/news/2026/8/14/flock-adds-safeguards-to-licence-plate-readers-after-wave-of-stalking-cases": {
       "url": "https://www.aljazeera.com/news/2026/8/14/flock-adds-safeguards-to-licence-plate-readers-after-wave-of-stalking-cases",
       "wayback": "https://web.archive.org/web/20260814133700/https://www.aljazeera.com/news/2026/8/14/flock-adds-safeguards-to-licence-plate-readers-after-wave-of-stalking-cases",
@@ -4001,6 +4008,20 @@
       "captured": "2026-08-19T23:16:27Z",
       "method": "existing"
     },
+    "https://www.nbc4i.com/news/local-news/columbus/central-ohio-cities-debate-flock-camera-usage": {
+      "url": "https://www.nbc4i.com/news/local-news/columbus/central-ohio-cities-debate-flock-camera-usage/",
+      "wayback": "https://web.archive.org/web/20260816173919/https://www.nbc4i.com/news/local-news/columbus/central-ohio-cities-debate-flock-camera-usage/",
+      "timestamp": "20260816173919",
+      "captured": "2026-08-16T17:39:19Z",
+      "method": "existing"
+    },
+    "https://www.nbc4i.com/news/local-news/reynoldsburg/reynoldsburg-officer-may-have-misused-flock-cameras-records-show": {
+      "url": "https://www.nbc4i.com/news/local-news/reynoldsburg/reynoldsburg-officer-may-have-misused-flock-cameras-records-show/",
+      "wayback": "https://web.archive.org/web/20260805191004/https://www.nbc4i.com/news/local-news/reynoldsburg/reynoldsburg-officer-may-have-misused-flock-cameras-records-show/",
+      "timestamp": "20260805191004",
+      "captured": "2026-08-05T19:10:04Z",
+      "method": "existing"
+    },
     "https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914": {
       "url": "https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914/",
       "wayback": "https://web.archive.org/web/20260814225402/https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914/",
@@ -4272,6 +4293,13 @@
       "wayback": "https://web.archive.org/web/20260813153139/https://www.record-courier.com/story/news/local/2026/08/12/streetsboro-council-rejects-flock-cameras/91254713007/",
       "timestamp": "20260813153139",
       "captured": "2026-08-13T15:31:39Z",
+      "method": "existing"
+    },
+    "https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people": {
+      "url": "https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people/",
+      "wayback": "https://web.archive.org/web/20260821123904/https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people/",
+      "timestamp": "20260821123904",
+      "captured": "2026-08-21T12:39:04Z",
       "method": "existing"
     },
     "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract": {
@@ -4645,11 +4673,32 @@
       "captured": "2025-07-08T18:12:28Z",
       "method": "existing"
     },
+    "https://www.wate.com/news/cumberland-county-news/crossville-council-member-james-mayberry-dies": {
+      "url": "https://www.wate.com/news/cumberland-county-news/crossville-council-member-james-mayberry-dies/",
+      "wayback": "https://web.archive.org/web/20260816174334/https://www.wate.com/news/cumberland-county-news/crossville-council-member-james-mayberry-dies/",
+      "timestamp": "20260816174334",
+      "captured": "2026-08-16T17:43:34Z",
+      "method": "existing"
+    },
     "https://www.wate.com/news/hamblen-county-news/morristown-residents-support-purchase-of-flock-cameras": {
       "url": "https://www.wate.com/news/hamblen-county-news/morristown-residents-support-purchase-of-flock-cameras/",
       "wayback": "https://web.archive.org/web/20240909100704/https://www.wate.com/news/hamblen-county-news/morristown-residents-support-purchase-of-flock-cameras/",
       "timestamp": "20240909100704",
       "captured": "2024-09-09T10:07:04Z",
+      "method": "existing"
+    },
+    "https://www.wate.com/news/knox-county-news/knox-county-flock-camera-workshop": {
+      "url": "https://www.wate.com/news/knox-county-news/knox-county-flock-camera-workshop/",
+      "wayback": "https://web.archive.org/web/20260816174358/https://www.wate.com/news/knox-county-news/knox-county-flock-camera-workshop/",
+      "timestamp": "20260816174358",
+      "captured": "2026-08-16T17:43:58Z",
+      "method": "existing"
+    },
+    "https://www.wate.com/news/politics/burchett-proposes-mass-surveillance-ban": {
+      "url": "https://www.wate.com/news/politics/burchett-proposes-mass-surveillance-ban/",
+      "wayback": "https://web.archive.org/web/20260818123139/https://www.wate.com/news/politics/burchett-proposes-mass-surveillance-ban/",
+      "timestamp": "20260818123139",
+      "captured": "2026-08-18T12:31:39Z",
       "method": "existing"
     },
     "https://www.wbay.com/2026/04/23/oshkosh-council-rescinds-flock-camera-contract-after-false-statements": {
@@ -4736,6 +4785,13 @@
       "captured": "2026-08-16T17:46:43Z",
       "method": "existing"
     },
+    "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430": {
+      "url": "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
+      "wayback": "https://web.archive.org/web/20260816174717/https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
+      "timestamp": "20260816174717",
+      "captured": "2026-08-16T17:47:17Z",
+      "method": "existing"
+    },
     "https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras": {
       "url": "https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras",
       "wayback": "https://web.archive.org/web/20260807020752/https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras",
@@ -4799,6 +4855,13 @@
       "captured": "2026-08-18T12:10:47Z",
       "method": "save"
     },
+    "https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620": {
+      "url": "https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620",
+      "wayback": "https://web.archive.org/web/20260821124320/https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620",
+      "timestamp": "20260821124320",
+      "captured": "2026-08-21T12:43:20Z",
+      "method": "existing"
+    },
     "https://www.wjhl.com/news/local/johnson-city-getting-new-security-equipment": {
       "url": "https://www.wjhl.com/news/local/johnson-city-getting-new-security-equipment/",
       "wayback": "https://web.archive.org/web/20250925071134/https://www.wjhl.com/news/local/johnson-city-getting-new-security-equipment/",
@@ -4853,6 +4916,20 @@
       "wayback": "https://web.archive.org/web/20260811044959/https://www.wowt.com/2026/08/10/what-cost-city-ord-weighs-public-safety-privacy-after-vote-remove-flock-cameras/",
       "timestamp": "20260811044959",
       "captured": "2026-08-11T04:49:59Z",
+      "method": "existing"
+    },
+    "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers": {
+      "url": "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20260820142101/https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers/",
+      "timestamp": "20260820142101",
+      "captured": "2026-08-20T14:21:01Z",
+      "method": "existing"
+    },
+    "https://www.wpri.com/news/local-news/south-county/south-kingstown-to-stop-using-automated-license-plate-readers": {
+      "url": "https://www.wpri.com/news/local-news/south-county/south-kingstown-to-stop-using-automated-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20260816174944/https://www.wpri.com/news/local-news/south-county/south-kingstown-to-stop-using-automated-license-plate-readers/",
+      "timestamp": "20260816174944",
+      "captured": "2026-08-16T17:49:44Z",
       "method": "existing"
     },
     "https://www.wrdw.com/2026/07/20/3-more-local-deputies-arrested-fired-over-misusing-license-plate-readers": {

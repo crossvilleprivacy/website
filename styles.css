@@ -71,7 +71,7 @@
   --mono: ui-monospace, "Cascadia Code", "Segoe UI Mono", Menlo, Consolas, monospace;
   --renewal-banner-h: 0px;
   --site-header-h: 3.75rem;
-  --scroll-offset: calc(var(--renewal-banner-h) + var(--site-header-h) + 0.35rem);
+  --scroll-offset: calc(var(--site-header-h) + 0.35rem);
 }
 
 html[data-theme="dark"] {
@@ -252,11 +252,10 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
   border-color: var(--accent);
 }
 
-/* Renewal countdown, sticky attention banner above nav */
+/* Meeting countdown sits under the pinned nav and scrolls away with the page */
 .renewal-banner {
-  position: sticky;
-  top: 0;
-  z-index: 50;
+  position: relative;
+  z-index: 1;
   background:
     linear-gradient(105deg, #1a0505 0%, #3b0a0a 42%, #8b0000 100%);
   color: #fff7f5;
@@ -451,8 +450,8 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
 /* Header */
 .site-header {
   position: sticky;
-  top: var(--renewal-banner-h);
-  z-index: 40;
+  top: 0;
+  z-index: 50;
   backdrop-filter: blur(10px);
   background: var(--header-bg);
   border-bottom: 1px solid var(--line);
@@ -3376,35 +3375,6 @@ a.deep-link-hash {
   background: #353550;
 }
 
-.sticky-cta-restore {
-  display: none;
-  position: fixed;
-  right: max(0.75rem, env(safe-area-inset-right, 0px));
-  bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px));
-  z-index: 40;
-  margin: 0;
-  padding: 0.55rem 0.85rem;
-  max-width: calc(100vw - 1.5rem);
-  max-width: calc(100svw - 1.5rem);
-  border: 1px solid #334155;
-  border-radius: 999px;
-  background: #1a1a2e;
-  color: #fff;
-  font-size: 0.82rem;
-  font-weight: 650;
-  line-height: 1.2;
-  white-space: normal;
-  text-align: center;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-}
-
-.sticky-cta-restore:hover,
-.sticky-cta-restore:focus-visible {
-  background: #252540;
-  outline: none;
-}
-
 body.has-sticky-cta {
   padding-bottom: 10.5rem;
 }
@@ -3695,14 +3665,6 @@ body.sticky-cta-is-dismissed {
 
   body.has-sticky-cta {
     padding-bottom: 7.25rem;
-  }
-
-  body.sticky-cta-is-dismissed .sticky-cta-restore:not([hidden]) {
-    display: inline-flex;
-    align-items: center;
-    right: max(1rem, env(safe-area-inset-right, 0px));
-    max-width: calc(100vw - 2rem);
-    max-width: calc(100svw - 2rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
   }
 
   .ally-card:hover {
