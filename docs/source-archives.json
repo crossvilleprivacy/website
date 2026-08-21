@@ -1,7 +1,7 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-08-21",
-  "count": 759,
+  "count": 762,
   "source_count": 759,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -620,6 +620,13 @@
       "captured": "2026-08-15T20:47:29Z",
       "method": "existing"
     },
+    "https://eu.knoxnews.com/story/news/local/davidson/2023/08/16/nashville-council-approves-license-plate-reader-expansion/70598263007": {
+      "url": "https://eu.knoxnews.com/story/news/local/davidson/2023/08/16/nashville-council-approves-license-plate-reader-expansion/70598263007/",
+      "wayback": "https://web.archive.org/web/20260821121808/https://eu.knoxnews.com/story/news/local/davidson/2023/08/16/nashville-council-approves-license-plate-reader-expansion/70598263007/",
+      "timestamp": "20260821121808",
+      "captured": "2026-08-21T12:18:08Z",
+      "method": "existing"
+    },
     "https://eu.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007": {
       "url": "https://eu.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007/",
       "archive_today": "https://archive.today/20240317010033/https://www.tennessean.com/story/news/local/wilson/2024/03/14/watertown-franklin-show-wide-range-of-license-plate-reader-users/72428342007/",
@@ -1059,6 +1066,13 @@
       "wayback": "https://web.archive.org/web/20260812141136/https://kutv.com/news/local/city-removes-unauthorized-flock-license-plate-reader-camera",
       "timestamp": "20260812141136",
       "captured": "2026-08-12T14:11:36Z",
+      "method": "existing"
+    },
+    "https://law.justia.com/cases/federal/district-courts/ohio/ohndce/5:2023cv02198/301907/38": {
+      "url": "https://law.justia.com/cases/federal/district-courts/ohio/ohndce/5:2023cv02198/301907/38/",
+      "wayback": "https://web.archive.org/web/20260705232507/https://law.justia.com/cases/federal/district-courts/ohio/ohndce/5:2023cv02198/301907/38/",
+      "timestamp": "20260705232507",
+      "captured": "2026-07-05T23:25:07Z",
       "method": "existing"
     },
     "https://law.justia.com/cases/massachusetts/supreme-court/2020/sjc-12750.html": {
@@ -1913,6 +1927,13 @@
       "wayback": "https://web.archive.org/web/20260718105228/https://wvpublic.org/story/government/aclu-sues-huntington-over-flock-surveillance-contract/",
       "timestamp": "20260718105228",
       "captured": "2026-07-18T10:52:28Z",
+      "method": "existing"
+    },
+    "https://www.1039wvbo.com/2026/08/07/brookfield-police-detain-two-innocent-drivers-after-flock-camera-error": {
+      "url": "https://www.1039wvbo.com/2026/08/07/brookfield-police-detain-two-innocent-drivers-after-flock-camera-error/",
+      "wayback": "https://web.archive.org/web/20260808065034/https://www.1039wvbo.com/2026/08/07/brookfield-police-detain-two-innocent-drivers-after-flock-camera-error/",
+      "timestamp": "20260808065034",
+      "captured": "2026-08-08T06:50:34Z",
       "method": "existing"
     },
     "https://www.13abc.com/2026/08/17/lucas-county-commissioner-calls-pause-flock-camera-use-sheriff-argues-move-could-jeopardize-safety": {

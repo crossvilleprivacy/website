@@ -347,7 +347,7 @@ async function fetchCdx(liveUrl, fetchFn) {
     "&output=json&fl=timestamp,original,statuscode&filter=statuscode:200&limit=1&fastLatest=true";
   var res = await fetchFn(cdx, {
     headers: { "User-Agent": UA, Accept: "application/json" },
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(8000),
   });
   if (!res.ok) {
     throw new Error("cdx HTTP " + res.status);
@@ -370,7 +370,7 @@ async function fetchCalendarClosest(liveUrl, fetchFn) {
   var res = await fetchFn(probe, {
     headers: { "User-Agent": UA, Accept: "text/html" },
     redirect: "manual",
-    signal: AbortSignal.timeout(20000),
+    signal: AbortSignal.timeout(12000),
   });
   var loc = "";
   if (res.headers && typeof res.headers.get === "function") {
@@ -398,21 +398,27 @@ async function fetchCalendarClosest(liveUrl, fetchFn) {
 }
 
 async function fetchAvailability(liveUrl, fetchFn) {
-  try {
-    var cdx = await fetchCdx(liveUrl, fetchFn);
-    if (cdx) {
-      return cdx;
+  var aliases = archiveTodayLookupUrls(liveUrl);
+  var i;
+  var rec;
+  for (i = 0; i < aliases.length; i += 1) {
+    try {
+      rec = await fetchCalendarClosest(aliases[i], fetchFn);
+      if (rec && rec.wayback && rec.timestamp) {
+        rec.url = liveUrl;
+        return rec;
+      }
+    } catch (err) {
+      rec = null;
     }
-  } catch (err) {
-    cdx = null;
   }
   try {
-    var res = await fetchFn(AVAIL_URL + encodeURIComponent(liveUrl), {
+    var avail = await fetchFn(AVAIL_URL + encodeURIComponent(liveUrl), {
       headers: { "User-Agent": UA, Accept: "application/json" },
       signal: AbortSignal.timeout(8000),
     });
-    if (res.ok) {
-      var payload = await res.json();
+    if (avail.ok) {
+      var payload = await avail.json();
       var parsed = archives.parseAvailability(liveUrl, payload);
       if (parsed) {
         return parsed;
@@ -422,10 +428,14 @@ async function fetchAvailability(liveUrl, fetchFn) {
     parsed = null;
   }
   try {
-    return await fetchCalendarClosest(liveUrl, fetchFn);
+    rec = await fetchCdx(liveUrl, fetchFn);
+    if (rec) {
+      return rec;
+    }
   } catch (err) {
-    return null;
+    rec = null;
   }
+  return null;
 }
 
 function timestampFromWaybackHref(href) {
