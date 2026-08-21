@@ -1,7 +1,7 @@
 {
   "title": "Wayback Machine snapshots of cited sources",
   "as_of": "2026-08-21",
-  "count": 720,
+  "count": 724,
   "source_count": 1,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
@@ -1620,6 +1620,27 @@
       "timestamp": "20250516075157",
       "captured": "2025-05-16T07:51:57Z",
       "method": "existing"
+    },
+    "https://theucnow.com/2026/06/02/white-county-budget-approved-despite-flock-debate": {
+      "url": "https://theucnow.com/2026/06/02/white-county-budget-approved-despite-flock-debate/",
+      "wayback": "https://web.archive.org/web/20260607204618/https://theucnow.com/2026/06/02/white-county-budget-approved-despite-flock-debate/",
+      "timestamp": "20260607204618",
+      "captured": "2026-06-07T20:46:18Z",
+      "method": "existing"
+    },
+    "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding": {
+      "url": "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/",
+      "wayback": "https://web.archive.org/web/20260821030343/https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/",
+      "timestamp": "20260821030343",
+      "captured": "2026-08-21T03:03:43Z",
+      "method": "save"
+    },
+    "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras": {
+      "url": "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
+      "wayback": "https://web.archive.org/web/20260821030246/https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
+      "timestamp": "20260821030246",
+      "captured": "2026-08-21T03:02:46Z",
+      "method": "save"
     },
     "https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away": {
       "url": "https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away/",
@@ -4231,6 +4252,13 @@
       "timestamp": "20260816174406",
       "captured": "2026-08-16T17:44:06Z",
       "method": "existing"
+    },
+    "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html": {
+      "url": "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
+      "wayback": "https://web.archive.org/web/20260821030513/https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
+      "timestamp": "20260821030513",
+      "captured": "2026-08-21T03:05:13Z",
+      "method": "save"
     },
     "https://www.thepitchkc.com/eyesoffkc-organizes-against-flock-surveillance-for-upcoming-national-week-of-action": {
       "url": "https://www.thepitchkc.com/eyesoffkc-organizes-against-flock-surveillance-for-upcoming-national-week-of-action/",

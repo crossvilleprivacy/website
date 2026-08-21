@@ -1595,6 +1595,37 @@
       "Primary_Source_URL": "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "One contract expired August 2026; second runs to February 2028. Department is seeking a replacement ALPR vendor. One permanent camera plus portable units kept at the station. Not a clear exit from plate readers."
+    },
+    {
+      "Case_ID": "CAN-2026-113",
+      "Jurisdiction": "White County",
+      "State": "TN",
+      "Action_Type": "Rescinded",
+      "Action_Date": "2026-07-20",
+      "Camera_Count": 12,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy; Commission rescind of April 2025 authorization; Prior budget defund",
+      "Summary": "The White County Commission voted July 20, 2026 to rescind the April 2025 resolution that authorized Flock license-plate cameras. UCNOW reported Chair Derrick Hutchings cited resident privacy pushback. In June the commission had already stripped about $48,000 in Flock funding while leaving the dollars in the sheriff’s budget. Hutchings said the sheriff’s office initiated the contract, cameras went up around September or October 2025, and they likely still collect data while standing. Sparta cameras are a separate city program.",
+      "Primary_Source_URL": "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
+      "Secondary_Source_URL": "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Hardware may still be standing and recording. Sheriff’s office initiated the contract; county attorney said not to touch vendor equipment on the right-of-way. Sparta city cameras are separate. June 15, 2026 funding strip preceded the July 20 rescind."
+    },
+    {
+      "Case_ID": "CAN-2026-114",
+      "Jurisdiction": "Kingston",
+      "State": "TN",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-19",
+      "Camera_Count": 2,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Cost / low benefit after a trial; City manager and mayor non-renewal; Funds redirected inside PD",
+      "Summary": "The City of Kingston will not renew its Flock Safety contract when the two-year 2024 deal expires in September 2026, the Mountain Press / Roane County News reported August 19. City Manager David Bolling said the two cameras were a trial and that the benefit did not justify the cost. Mayor Tim Neal said the decision is financial: about $6,000 a year, $12,300 for the two-year term.",
+      "Primary_Source_URL": "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cameras remain through the September 2026 expiration. Cost-based non-renewal, not a privacy vote."
     }
   ]
 }
