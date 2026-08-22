@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-08-21",
+  "compiled": "2026-08-22",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Aggregator tallies are larger than this list.",
   "records": [
     {
@@ -43,7 +43,7 @@
       "Primary_Source_URL": "https://www.kut.org/crime-justice/2026-02-18/austin-ended-its-license-plate-reader-program-then-the-police-found-a-loophole",
       "Secondary_Source_URL": "https://stateofsurveillance.org/news/flock-safety-cancel-wave-30-cities-alpr-surveillance-contracts-2026/",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "City contract end ≠ full network offline for police via partners."
+      "Incomplete_Exit_Notes": "City contract end \u2260 full network offline for police via partners."
     },
     {
       "Case_ID": "CAN-2025-012",
@@ -507,7 +507,7 @@
       "Primary_Source_URL": "https://www.nbcconnecticut.com/news/local/connecticuts-alpr-debate-grows-as-towns-end-contracts-and-others-consider-expand-use/3761247/",
       "Secondary_Source_URL": "https://www.politico.com/news/2026/08/09/flock-cameras-backlash-cancellations-01026242",
       "Verification_Status": "Verified local TV / national press",
-      "Incomplete_Exit_Notes": "Early-exit negotiation / physical removal timing varied by outlet (cameras coming down in weeks per July–Aug. 2026 coverage)."
+      "Incomplete_Exit_Notes": "Early-exit negotiation / physical removal timing varied by outlet (cameras coming down in weeks per July\u2013Aug. 2026 coverage)."
     },
     {
       "Case_ID": "CAN-2026-031",
@@ -765,7 +765,7 @@
       "Primary_Source_URL": "https://www.azfamily.com/2026/08/06/pinal-county-chooses-not-renew-flock-camera-contract/",
       "Secondary_Source_URL": "https://pinalpost.com/pinal-county-flock-cameras-removal-august-2026/",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "Sheriff’s operational contract in effect until Sept. 29, 2026. ROW 180-day notice points to ~February 2027 hardware-rights end; removal schedule TBD. Municipal Flock programs inside Pinal County may continue. Official PCSO Facebook reel: https://www.facebook.com/reel/3622783047870589"
+      "Incomplete_Exit_Notes": "Sheriff\u2019s operational contract in effect until Sept. 29, 2026. ROW 180-day notice points to ~February 2027 hardware-rights end; removal schedule TBD. Municipal Flock programs inside Pinal County may continue. Official PCSO Facebook reel: https://www.facebook.com/reel/3622783047870589"
     },
     {
       "Case_ID": "CAN-2026-056",
@@ -948,9 +948,9 @@
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Privacy / mass-surveillance risk; Data sharing / access review; Internal misuse investigation",
       "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/08/11/new-bedford-temporarily-suspends-use-of-flock-as-the-surveillance-cameras-come-under-increased-scrutiny/",
-      "Secondary_Source_URL": "https://www.cbsnews.com/boston/news/new-bedford-flock-cameras-officer-accused-tracking-ex-girlfriend/",
+      "Secondary_Source_URL": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
       "Verification_Status": "Primary local reporting",
-      "Incomplete_Exit_Notes": "Temporary suspension pending review; may resume. Related officer-misuse row FLK-2026-047 (Pacheco / administrative leave). Council discussion of the contract was scheduled for Aug. 20, 2026 per Turn to 10."
+      "Incomplete_Exit_Notes": "Temporary suspension pending audit and policy review; may resume. SouthCoast Today reported Aug. 20, 2026 that the system has been offline since Aug. 11 and will stay down after the chief said the audit found additional outliers and anomalies. Related officer-misuse row FLK-2026-047 (Pacheco / administrative leave; alleged, not charged in that coverage)."
     },
     {
       "Case_ID": "CAN-2026-069",
@@ -1239,7 +1239,7 @@
       "Primary_Source_URL": "https://www.kktv.com/2026/08/13/salida-police-department-cancels-contract-with-flock-safety/",
       "Secondary_Source_URL": "https://www.themountainmail.com/news/spd-cancels-contract-with-flock-safety-sheriff-unmoved/article_3d49ccfa-b715-4fb3-bd20-cf57b38ad615.html",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "City cameras pending Flock pickup. Chaffee County Sheriff’s Office continues its own Flock contract. Not a countywide exit."
+      "Incomplete_Exit_Notes": "City cameras pending Flock pickup. Chaffee County Sheriff\u2019s Office continues its own Flock contract. Not a countywide exit."
     },
     {
       "Case_ID": "CAN-2026-089",
@@ -1268,7 +1268,7 @@
       "Primary_Reasons": "Public backlash / privacy; Council concern about nationwide abuse; Termination-fee set-aside",
       "Primary_Source_URL": "https://www.kten.com/news/state/ingleside-pulling-plug-on-flock-camera-contract/article_5bb5f9d0-d11d-5c7d-8485-61054b1dab67.html",
       "Verification_Status": "Verified local TV",
-      "Incomplete_Exit_Notes": "Termination authorized; fee and physical-removal timetable not detailed beyond the $22,000 set-aside. Grant-funded FY2025–FY2026 contract."
+      "Incomplete_Exit_Notes": "Termination authorized; fee and physical-removal timetable not detailed beyond the $22,000 set-aside. Grant-funded FY2025\u2013FY2026 contract."
     },
     {
       "Case_ID": "CAN-2026-091",
@@ -1356,7 +1356,7 @@
       "Primary_Source_URL": "https://www.nbcdfw.com/news/local/hood-county-constable-uninstalls-flock-cameras-after-nationwide-backlash/4063520/",
       "Secondary_Source_URL": "https://www.dallasnews.com/news/article/flock-cameras-hood-county-unplug-22391434.php",
       "Verification_Status": "Verified local TV / press",
-      "Incomplete_Exit_Notes": "April 18, 2026 4-0 discontinue vote; cameras stayed up until the Aug. 15–16, 2026 covering after an Aug. 11, 2026 4-0 covering authorization. Hardware still awaiting Flock pickup. Refund claim (~$124k–$126k) was still in counsel review as of July 18, 2026. County camera count is three (NBC 5 / FOX 4 / Dallas Morning News). FOX 4: Granbury municipal Flock cameras remain."
+      "Incomplete_Exit_Notes": "April 18, 2026 4-0 discontinue vote; cameras stayed up until the Aug. 15\u201316, 2026 covering after an Aug. 11, 2026 4-0 covering authorization. Hardware still awaiting Flock pickup. Refund claim (~$124k\u2013$126k) was still in counsel review as of July 18, 2026. County camera count is three (NBC 5 / FOX 4 / Dallas Morning News). FOX 4: Granbury municipal Flock cameras remain."
     },
     {
       "Case_ID": "CAN-2026-097",
@@ -1412,7 +1412,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash / privacy; Commission 18-0 non-renewal; Prior sheriff suspend",
-      "Summary": "Sheriff Jeffrey Cassidy suspended the Sullivan County Sheriff’s Office’s 10 Flock cameras on August 17, 2026. On August 20 the County Commission voted 18–0 not to renew the Flock contract. WJHL (via Yahoo) reported the resolution was amended to say Flock cameras would not be used within the county, excluding Kingsport and Bristol police cameras. The contract ends in January 2027. Elections administrator Jason Booher said the commission cannot place Cassidy’s requested referendum on the ballot.",
+      "Summary": "Sheriff Jeffrey Cassidy suspended the Sullivan County Sheriff\u2019s Office\u2019s 10 Flock cameras on August 17, 2026. On August 20 the County Commission voted 18\u20130 not to renew the Flock contract. WJHL (via Yahoo) reported the resolution was amended to say Flock cameras would not be used within the county, excluding Kingsport and Bristol police cameras. The contract ends in January 2027. Elections administrator Jason Booher said the commission cannot place Cassidy\u2019s requested referendum on the ballot.",
       "Primary_Source_URL": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
       "Secondary_Source_URL": "https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/",
       "Verification_Status": "Verified local TV / local press",
@@ -1427,7 +1427,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash / privacy; Data-access concerns; Council vote to shut cameras immediately and cancel the contract",
-      "Summary": "Gardner City Council on August 17, 2026 agreed to turn off the city’s Flock cameras immediately and not renew the contract. KMBC reported August 18 that some cameras were covered by Tuesday, and that Gardner Police confirmed it discontinued all city Flock cameras and notified the vendor the contract was canceled. Council member Kelly Johnson said the vote covers only city-controlled cameras, not Johnson County or state units nearby. Resident Bradley Steinmetz of No Flock in Gardner said more than 1,200 vendors had access through the Flock system.",
+      "Summary": "Gardner City Council on August 17, 2026 agreed to turn off the city\u2019s Flock cameras immediately and not renew the contract. KMBC reported August 18 that some cameras were covered by Tuesday, and that Gardner Police confirmed it discontinued all city Flock cameras and notified the vendor the contract was canceled. Council member Kelly Johnson said the vote covers only city-controlled cameras, not Johnson County or state units nearby. Resident Bradley Steinmetz of No Flock in Gardner said more than 1,200 vendors had access through the Flock system.",
       "Primary_Source_URL": "https://www.kmbc.com/article/gardner-kansas-flock-cameras-license-plate-readers-privacy/73468724",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Camera count not published. County and state ALPRs in and around Gardner remain. Physical pickup timetable not published."
@@ -1442,7 +1442,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash; Mass-surveillance / Fourth Amendment / data-security concerns; Packed council meeting; Mayor terminate decision",
-      "Summary": "After residents packed the August 17, 2026 council meeting, Fort Mitchell Mayor Greg Pohlgeers said the city would shut off and dismantle its five Flock readers immediately and would not renew. LINK nky reported the 2024 contract was 24 months for about $34,000. City Administrator Edwin King said staff would coordinate with Flock to end operations. FOX19 reported the mayor’s overnight announcement on August 19.",
+      "Summary": "After residents packed the August 17, 2026 council meeting, Fort Mitchell Mayor Greg Pohlgeers said the city would shut off and dismantle its five Flock readers immediately and would not renew. LINK nky reported the 2024 contract was 24 months for about $34,000. City Administrator Edwin King said staff would coordinate with Flock to end operations. FOX19 reported the mayor\u2019s overnight announcement on August 19.",
       "Primary_Source_URL": "https://linknky.com/news/2026/08/18/fort-mitchell-ends-flock-safety-license-plate-readers/",
       "Secondary_Source_URL": "https://www.fox19.com/2026/08/19/northern-kentucky-city-ending-use-flock-cameras-mayor-says/",
       "Verification_Status": "Verified local press / local TV",
@@ -1458,7 +1458,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Budget cuts; Public trust / privacy concerns; Police announcement to council; Related ODOT ALPR agreement killed",
-      "Summary": "Winston Police Chief Brandon Sarti told City Council on August 17, 2026 that the department had canceled its Flock contract that day. NR Today reported eight cameras in Douglas County at about $24,000 a year, amid $215,000 in department budget cuts. Sarti said the lieutenant’s retirement plus the cancel should save about $217,000, and that if residents paying the bill do not want the cameras, the city is turning them off. Council also killed proposed Resolution 26-1237, an ODOT intergovernmental agreement that would have allowed ALPRs on Oregon Route 42. Mayor Christie Knutson said community outcry was part of the removal.",
+      "Summary": "Winston Police Chief Brandon Sarti told City Council on August 17, 2026 that the department had canceled its Flock contract that day. NR Today reported eight cameras in Douglas County at about $24,000 a year, amid $215,000 in department budget cuts. Sarti said the lieutenant\u2019s retirement plus the cancel should save about $217,000, and that if residents paying the bill do not want the cameras, the city is turning them off. Council also killed proposed Resolution 26-1237, an ODOT intergovernmental agreement that would have allowed ALPRs on Oregon Route 42. Mayor Christie Knutson said community outcry was part of the removal.",
       "Primary_Source_URL": "https://www.nrtoday.com/news/winston-police-department-cancels-contract-with-flock-safety-amid-budgetary-constraints/article_3043ea96-0d9b-4c5a-9d01-0fab1c3b30e8.html",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Physical removal timetable not published in the NR Today report."
@@ -1489,11 +1489,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Privacy / constitutional concerns; National misuse reports; Sheriff suspend and dismantle while contract runs through 2028",
-      "Summary": "Henry County Sheriff Wayne Davis suspended sheriff’s-office access to 14 Flock cameras (10 fixed, 4 mobile) on August 14, 2026 and said the office would explore early termination of a contract that runs through August 2028. WSLS reported August 17 that the office would begin dismantling the cameras in the coming days. Davis had said in July he would not renew in 2028; the August suspend moved that timeline up. This is a suspend / hardware pull, not a reported contract termination.",
+      "Summary": "Henry County Sheriff Wayne Davis suspended sheriff\u2019s-office access to 14 Flock cameras (10 fixed, 4 mobile) on August 14, 2026 and said the office would explore early termination of a contract that runs through August 2028. WSLS reported August 17 that the office would begin dismantling the cameras in the coming days. Davis had said in July he would not renew in 2028; the August suspend moved that timeline up. This is a suspend / hardware pull, not a reported contract termination.",
       "Primary_Source_URL": "https://www.wsls.com/news/local/2026/08/17/henry-co-sheriffs-office-suspends-access-to-flock/",
       "Secondary_Source_URL": "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately/",
       "Verification_Status": "Verified local TV",
-      "Incomplete_Exit_Notes": "Contract still runs through August 2028. WSLS quoted Davis saying cameras may still record while sheriff’s-office access is off. Physical removal was announced as beginning in the days after August 17."
+      "Incomplete_Exit_Notes": "Contract still runs through August 2028. WSLS quoted Davis saying cameras may still record while sheriff\u2019s-office access is off. Physical removal was announced as beginning in the days after August 17."
     },
     {
       "Case_ID": "CAN-2026-106",
@@ -1535,7 +1535,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Constitutional / privacy / public-trust concerns; Sheriff non-renewal after grant pilot; Fiscal responsibility",
-      "Summary": "Henry County, Missouri, Sheriff Aaron N. Brown announced August 10, 2026 that the sheriff’s office will not renew its Flock Safety LPR agreement when the current term expires March 11, 2027. The program began earlier in 2026 through a State of Missouri grant. Brown said the system assisted investigations in its first five months but that public trust and constitutional principles weighed against continuing past the grant term.",
+      "Summary": "Henry County, Missouri, Sheriff Aaron N. Brown announced August 10, 2026 that the sheriff\u2019s office will not renew its Flock Safety LPR agreement when the current term expires March 11, 2027. The program began earlier in 2026 through a State of Missouri grant. Brown said the system assisted investigations in its first five months but that public trust and constitutional principles weighed against continuing past the grant term.",
       "Primary_Source_URL": "https://www.mykdkd.com/2026/08/10/sheriff-brown-non-renewal-of-flock-safety-license-plate-reader-lpr-agreement-and-program-evaluation/",
       "Verification_Status": "Verified local press / sheriff statement",
       "Incomplete_Exit_Notes": "Operational through March 11, 2027. Camera count not published in the Aug. 10 statement. Distinct from Henry County, Virginia (CAN-2026-105)."
@@ -1565,7 +1565,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash / privacy; Outside-agency data sharing; Council 6-1 terminate vote",
-      "Summary": "Oxford City Council voted 6–1 on August 18, 2026 to terminate the police department’s Flock contract. Councilmember Bill Snavely, who offered the legislation, cited how other departments would use shared data. WVXU reported August 19 that the council considered a Police Community Relations Review Commission recommendation to keep the contract with tighter sharing, then followed resident opposition. Police Chief John Jones was to notify Flock. Nearby Hamilton residents protested the same day; Hamilton has not canceled.",
+      "Summary": "Oxford City Council voted 6\u20131 on August 18, 2026 to terminate the police department\u2019s Flock contract. Councilmember Bill Snavely, who offered the legislation, cited how other departments would use shared data. WVXU reported August 19 that the council considered a Police Community Relations Review Commission recommendation to keep the contract with tighter sharing, then followed resident opposition. Police Chief John Jones was to notify Flock. Nearby Hamilton residents protested the same day; Hamilton has not canceled.",
       "Primary_Source_URL": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
       "Verification_Status": "Verified local public radio",
       "Incomplete_Exit_Notes": "Camera count not published. Physical removal timetable not published; Snavely said Flock could turn cameras off and remove them or the city could bag them. Hamilton, Ohio, has not canceled."
@@ -1579,7 +1579,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public trust / data-privacy concerns; Sheriff end partnership; Citizen concern",
-      "Summary": "Henry County, Illinois, Sheriff Josh Verscheure announced August 19, 2026 that the sheriff’s office will end its Flock partnership on August 31. KWQC reported the cameras arrived in 2024, funded with drug-seizure proceeds rather than county tax dollars. Verscheure said the office saw no local misuse in two years and that Flock had helped investigations, but that public-trust and data-privacy concerns outweighed continuing. Distinct from Henry County, Virginia, and Henry County, Missouri.",
+      "Summary": "Henry County, Illinois, Sheriff Josh Verscheure announced August 19, 2026 that the sheriff\u2019s office will end its Flock partnership on August 31. KWQC reported the cameras arrived in 2024, funded with drug-seizure proceeds rather than county tax dollars. Verscheure said the office saw no local misuse in two years and that Flock had helped investigations, but that public-trust and data-privacy concerns outweighed continuing. Distinct from Henry County, Virginia, and Henry County, Missouri.",
       "Primary_Source_URL": "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
       "Verification_Status": "Verified local TV / sheriff statement",
       "Incomplete_Exit_Notes": "Partnership ends August 31, 2026. Camera count not published. Distinct from Henry County, Virginia (CAN-2026-105) and Henry County, Missouri (CAN-2026-108)."
@@ -1593,7 +1593,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "N",
       "Primary_Reasons": "Data-security / search-log leaks; Privacy; Non-renewal while shopping a replacement vendor",
-      "Summary": "The Abington Township Police Department is ending its Flock contracts over data-security concerns after thousands of the department’s searches appeared in public dumps, the Philadelphia Inquirer reported August 19, 2026. One contract expired in August 2026; the department will let the second expire in February 2028. Officials said they are negotiating with other vendors to replace Flock. This is an expire / vendor-swap path, not a clear exit from ALPR.",
+      "Summary": "The Abington Township Police Department is ending its Flock contracts over data-security concerns after thousands of the department\u2019s searches appeared in public dumps, the Philadelphia Inquirer reported August 19, 2026. One contract expired in August 2026; the department will let the second expire in February 2028. Officials said they are negotiating with other vendors to replace Flock. This is an expire / vendor-swap path, not a clear exit from ALPR.",
       "Primary_Source_URL": "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html",
       "Verification_Status": "Verified major press",
       "Incomplete_Exit_Notes": "One contract expired August 2026; second runs to February 2028. Department is seeking a replacement ALPR vendor. One permanent camera plus portable units kept at the station. Not a clear exit from plate readers."
@@ -1608,7 +1608,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash / privacy; Commission rescind of April 2025 authorization; Prior budget defund",
-      "Summary": "The White County Commission voted July 20, 2026 to rescind the April 2025 resolution that authorized Flock license-plate cameras. UCNOW reported Chair Derrick Hutchings cited resident privacy pushback. In June the commission had already stripped about $48,000 in Flock funding while leaving the dollars in the sheriff’s budget. Hutchings said the sheriff’s office initiated the contract, cameras went up around September or October 2025, and they likely still collect data while standing. Sparta cameras are a separate city program.",
+      "Summary": "The White County Commission voted July 20, 2026 to rescind the April 2025 resolution that authorized Flock license-plate cameras. UCNOW reported Chair Derrick Hutchings cited resident privacy pushback. In June the commission had already stripped about $48,000 in Flock funding while leaving the dollars in the sheriff\u2019s budget. Hutchings said the sheriff\u2019s office initiated the contract, cameras went up around September or October 2025, and they likely still collect data while standing. Sparta cameras are a separate city program.",
       "Primary_Source_URL": "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
       "Secondary_Source_URL": "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/",
       "Verification_Status": "Verified local press",
@@ -1638,7 +1638,7 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Rising Flock cost; Data-sharing vs Axon in-house storage; Law Committee vendor-swap recommendation; Keep one Flock for national sharing",
-      "Summary": "Monterey’s Law Committee voted Monday night, August 17, 2026, to recommend replacing most town Flock cameras with Axon readers. The Herald-Citizen quoted Lt. Andrew Neff citing rising Flock cost and nationwide data sharing; he said Axon stores data in-house. The department wants to keep one Flock camera for national sharing. The Board of Mayor and Aldermen has not finally approved the change. Vendor swap, not a privacy exit.",
+      "Summary": "Monterey\u2019s Law Committee voted Monday night, August 17, 2026, to recommend replacing most town Flock cameras with Axon readers. The Herald-Citizen quoted Lt. Andrew Neff citing rising Flock cost and nationwide data sharing; he said Axon stores data in-house. The department wants to keep one Flock camera for national sharing. The Board of Mayor and Aldermen has not finally approved the change. Vendor swap, not a privacy exit.",
       "Primary_Source_URL": "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
       "Secondary_Source_URL": "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
       "Verification_Status": "Verified local press",
@@ -1653,10 +1653,41 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Public backlash / privacy / government surveillance; Sheriff community forum; Will not replace with Axon",
-      "Summary": "Pulaski County, Missouri, Sheriff Stacy L. Ball announced August 19–20, 2026 that the sheriff’s office will discontinue Flock, will not renew, and will not replace the cameras with Axon. KRCGTV reported a community forum in Waynesville. Camera count and exact contract end date were not published.",
+      "Summary": "Pulaski County, Missouri, Sheriff Stacy L. Ball announced August 19\u201320, 2026 that the sheriff\u2019s office will discontinue Flock, will not renew, and will not replace the cameras with Axon. KRCGTV reported a community forum in Waynesville. Camera count and exact contract end date were not published.",
       "Primary_Source_URL": "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Camera count not published. Contract end date not published. KRCGTV said Ball posted that removal had begun. Distinct from Pulaski County, Arkansas or Virginia if those appear later."
+    },
+    {
+      "Case_ID": "CAN-2026-117",
+      "Jurisdiction": "Marietta",
+      "State": "OK",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-20",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy; Data retention beyond city 30-day access; Packed council meeting",
+      "Summary": "Marietta City Council voted Aug. 21, 2026 to cancel its Flock contract after residents packed a meeting called to decide whether five temporary cameras would stay. KXII reported Police Chief Brett Harris initially asked council to keep them, then said he learned during the meeting that Flock retains data after the city\u2019s 30-day access ends. Feeds were to shut off immediately, with physical removal to follow.",
+      "Primary_Source_URL": "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Vote was Thursday night, Aug. 20, 2026 (KXII published Aug. 21). Chief said feeds would shut off immediately and Flock would remove the cameras soon after. KTEN reported the chief said the city would later research other sensors the community would support. Distinct from Marietta, Georgia.",
+      "Secondary_Source_URL": "https://www.kten.com/news/flock-cameras-unplugged-in-marietta/article_a905f0fc-93f5-49ed-b57b-97aae61eeb0e.html"
+    },
+    {
+      "Case_ID": "CAN-2026-118",
+      "Jurisdiction": "Auburn",
+      "State": "NY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-20",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public backlash / privacy; Council terminate vote; Procurement / grant-process concerns; 30-day notice then stop using cameras and databases",
+      "Summary": "Auburn City Council voted unanimously Aug. 20, 2026 to terminate a four-year, about $120,000 Flock contract. WRVO and FingerLakes1 reported the resolution requires a 30-day written notice, after which city departments must stop using the cameras and databases. Council also directed staff to write an ALPR policy before any future contract. FingerLakes1 reported the roll call as 5\u20130.",
+      "Primary_Source_URL": "https://www.wrvo.org/2026-08-21/amid-privacy-concerns-auburn-votes-to-end-contract-with-flock",
+      "Secondary_Source_URL": "https://www.fingerlakes1.com/2026/08/21/auburn-ends-flock-camera-contract-advances-schines-theater-talks-and-changes-police-grant-process-video/",
+      "Verification_Status": "Verified local press / public radio",
+      "Incomplete_Exit_Notes": "Use stops after the city delivers 30-day written notice. Hardware removal timing not published. Distinct from Auburn, Alabama or Auburn, Washington."
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-08-21",
-  "count": 773,
-  "source_count": 773,
+  "as_of": "2026-08-22",
+  "count": 789,
+  "source_count": 789,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
       "url": "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg",
@@ -605,6 +605,13 @@
       "timestamp": "20260811213955",
       "captured": "2026-08-11T21:39:55Z",
       "method": "existing"
+    },
+    "https://docs.flocksafety.com/developer-hub/docs/flock-developer-platform-overview": {
+      "url": "https://docs.flocksafety.com/developer-hub/docs/flock-developer-platform-overview",
+      "wayback": "https://web.archive.org/web/20260822104337/https://docs.flocksafety.com/developer-hub/docs/flock-developer-platform-overview",
+      "timestamp": "20260822104337",
+      "captured": "2026-08-22T10:43:37Z",
+      "method": "save"
     },
     "https://doi.org/10.5281/zenodo.17529423": {
       "url": "https://doi.org/10.5281/zenodo.17529423",
@@ -2433,6 +2440,13 @@
       "captured": "2026-03-31T02:19:37Z",
       "method": "existing"
     },
+    "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm": {
+      "url": "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm",
+      "wayback": "https://web.archive.org/web/20260429092915/https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm",
+      "timestamp": "20260429092915",
+      "captured": "2026-04-29T09:29:15Z",
+      "method": "existing"
+    },
     "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/alpr-snooze.htm": {
       "url": "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/alpr-snooze.htm",
       "wayback": "https://web.archive.org/web/20260418050402/https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/alpr-snooze.htm",
@@ -2453,6 +2467,13 @@
       "timestamp": "20260816193137",
       "captured": "2026-08-16T19:31:37Z",
       "method": "save"
+    },
+    "https://www.axon.com/products/community-request": {
+      "url": "https://www.axon.com/products/community-request",
+      "wayback": "https://web.archive.org/web/20260630001701/https://www.axon.com/products/community-request",
+      "timestamp": "20260630001701",
+      "captured": "2026-06-30T00:17:01Z",
+      "method": "existing"
     },
     "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007": {
       "url": "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007/",
@@ -2606,6 +2627,13 @@
       "wayback": "https://web.archive.org/web/20260819145523/https://www.bostonglobe.com/2026/08/18/metro/stow-police-officer-terminated-flock-camera/",
       "timestamp": "20260819145523",
       "captured": "2026-08-19T14:55:23Z",
+      "method": "existing"
+    },
+    "https://www.bpr.org/politics-government/2026-08-21/asheville-considers-early-termination-of-flock-but-leaves-door-open-for-other-license-plate-readers": {
+      "url": "https://www.bpr.org/politics-government/2026-08-21/asheville-considers-early-termination-of-flock-but-leaves-door-open-for-other-license-plate-readers",
+      "wayback": "https://web.archive.org/web/20260821203715/https://www.bpr.org/politics-government/2026-08-21/asheville-considers-early-termination-of-flock-but-leaves-door-open-for-other-license-plate-readers",
+      "timestamp": "20260821203715",
+      "captured": "2026-08-21T20:37:15Z",
       "method": "existing"
     },
     "https://www.breitbart.com/tech/2026/08/07/flock-planned-to-use-350000-uber-lyft-and-delivery-drivers-as-mobile-license-plate-cameras": {
@@ -3119,6 +3147,13 @@
       "captured": "2026-08-17T11:35:07Z",
       "method": "save"
     },
+    "https://www.fingerlakes1.com/2026/08/21/auburn-ends-flock-camera-contract-advances-schines-theater-talks-and-changes-police-grant-process-video": {
+      "url": "https://www.fingerlakes1.com/2026/08/21/auburn-ends-flock-camera-contract-advances-schines-theater-talks-and-changes-police-grant-process-video/",
+      "wayback": "https://web.archive.org/web/20260822104623/https://www.fingerlakes1.com/2026/08/21/auburn-ends-flock-camera-contract-advances-schines-theater-talks-and-changes-police-grant-process-video/",
+      "timestamp": "20260822104623",
+      "captured": "2026-08-22T10:46:23Z",
+      "method": "save"
+    },
     "https://www.fingerlakesdailynews.com/local/auburn-city-council-to-discuss-flock-cameras-at-thurs-meeting": {
       "url": "https://www.fingerlakesdailynews.com/local/auburn-city-council-to-discuss-flock-cameras-at-thurs-meeting/",
       "wayback": "https://web.archive.org/web/20260817113557/https://www.fingerlakesdailynews.com/local/auburn-city-council-to-discuss-flock-cameras-at-thurs-meeting/",
@@ -3154,6 +3189,13 @@
       "captured": "2026-08-21T12:29:21Z",
       "method": "save"
     },
+    "https://www.flocksafety.com/blog/how-the-safe-list-solves-privacy-concerns-in-a-neighborhood": {
+      "url": "https://www.flocksafety.com/blog/how-the-safe-list-solves-privacy-concerns-in-a-neighborhood",
+      "archive_today": "https://archive.today/20251103202954/https://www.flocksafety.com/blog/how-the-safe-list-solves-privacy-concerns-in-a-neighborhood",
+      "timestamp": "20251103202954",
+      "captured": "2025-11-03T20:29:54Z",
+      "method": "archive.today"
+    },
     "https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices": {
       "url": "https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices",
       "wayback": "https://web.archive.org/web/20260821123003/https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices",
@@ -3174,6 +3216,27 @@
       "timestamp": "20260821123057",
       "captured": "2026-08-21T12:30:57Z",
       "method": "save"
+    },
+    "https://www.flocksafety.com/faq": {
+      "url": "https://www.flocksafety.com/faq",
+      "archive_today": "https://archive.today/20260818145414/https://www.flocksafety.com/faq",
+      "timestamp": "20260818145414",
+      "captured": "2026-08-18T14:54:14Z",
+      "method": "archive.today"
+    },
+    "https://www.flocksafety.com/legal/api-integration-terms": {
+      "url": "https://www.flocksafety.com/legal/api-integration-terms",
+      "archive_today": "https://archive.today/20260106192912/https://www.flocksafety.com/legal/api-integration-terms",
+      "timestamp": "20260106192912",
+      "captured": "2026-01-06T19:29:12Z",
+      "method": "archive.today"
+    },
+    "https://www.flocksafety.com/products/flock-dfr": {
+      "url": "https://www.flocksafety.com/products/flock-dfr",
+      "archive_today": "https://archive.today/20260726003637/https://www.flocksafety.com/products/flock-dfr",
+      "timestamp": "20260726003637",
+      "captured": "2026-07-26T00:36:37Z",
+      "method": "archive.today"
     },
     "https://www.flocksafety.com/products/flock-freeform": {
       "url": "https://www.flocksafety.com/products/flock-freeform",
@@ -3714,6 +3777,13 @@
       "captured": "2026-08-16T17:40:12Z",
       "method": "existing"
     },
+    "https://www.knoxnews.com/story/news/politics/2026/08/19/knox-county-voters-are-against-flock-safety-cameras-poll-shows/91354722007": {
+      "url": "https://www.knoxnews.com/story/news/politics/2026/08/19/knox-county-voters-are-against-flock-safety-cameras-poll-shows/91354722007/",
+      "wayback": "https://web.archive.org/web/20260821135852/https://www.knoxnews.com/story/news/politics/2026/08/19/knox-county-voters-are-against-flock-safety-cameras-poll-shows/91354722007/",
+      "timestamp": "20260821135852",
+      "captured": "2026-08-21T13:58:52Z",
+      "method": "existing"
+    },
     "https://www.koaa.com/news/local-news/salida-police-department-cancels-contract-with-flock-safety-cites-community-concerns": {
       "url": "https://www.koaa.com/news/local-news/salida-police-department-cancels-contract-with-flock-safety-cites-community-concerns",
       "wayback": "https://web.archive.org/web/20260815111930/https://www.koaa.com/news/local-news/salida-police-department-cancels-contract-with-flock-safety-cites-community-concerns",
@@ -3784,6 +3854,13 @@
       "captured": "2026-08-14T00:43:25Z",
       "method": "existing"
     },
+    "https://www.kten.com/news/flock-cameras-unplugged-in-marietta/article_a905f0fc-93f5-49ed-b57b-97aae61eeb0e.html": {
+      "url": "https://www.kten.com/news/flock-cameras-unplugged-in-marietta/article_a905f0fc-93f5-49ed-b57b-97aae61eeb0e.html",
+      "wayback": "https://web.archive.org/web/20260821202618/https://www.kten.com/news/flock-cameras-unplugged-in-marietta/article_a905f0fc-93f5-49ed-b57b-97aae61eeb0e.html",
+      "timestamp": "20260821202618",
+      "captured": "2026-08-21T20:26:18Z",
+      "method": "existing"
+    },
     "https://www.kten.com/news/state/ingleside-pulling-plug-on-flock-camera-contract/article_5bb5f9d0-d11d-5c7d-8485-61054b1dab67.html": {
       "url": "https://www.kten.com/news/state/ingleside-pulling-plug-on-flock-camera-contract/article_5bb5f9d0-d11d-5c7d-8485-61054b1dab67.html",
       "wayback": "https://web.archive.org/web/20260816173558/https://www.kten.com/news/state/ingleside-pulling-plug-on-flock-camera-contract/article_5bb5f9d0-d11d-5c7d-8485-61054b1dab67.html",
@@ -3796,6 +3873,13 @@
       "wayback": "https://web.archive.org/web/20260820002617/https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
       "timestamp": "20260820002617",
       "captured": "2026-08-20T00:26:17Z",
+      "method": "existing"
+    },
+    "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns": {
+      "url": "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260822054642/https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
+      "timestamp": "20260822054642",
+      "captured": "2026-08-22T05:46:42Z",
       "method": "existing"
     },
     "https://www.latimes.com/california/story/2026-07-11/lapd-suspends-use-of-flock-surveillance-cameras-over-privacy-issues": {
@@ -4379,6 +4463,13 @@
       "captured": "2026-08-13T21:05:38Z",
       "method": "existing"
     },
+    "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007": {
+      "url": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
+      "wayback": "https://web.archive.org/web/20260821153522/https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
+      "timestamp": "20260821153522",
+      "captured": "2026-08-21T15:35:22Z",
+      "method": "existing"
+    },
     "https://www.southportland.gov/m/NewsFlash/home/detail/550": {
       "url": "https://www.southportland.gov/m/NewsFlash/home/detail/550",
       "wayback": "https://web.archive.org/web/20260529181014/https://www.southportland.gov/m/NewsFlash/Home/Detail/550",
@@ -4573,6 +4664,13 @@
       "wayback": "https://web.archive.org/web/20260815114029/https://www.theverge.com/news/849624/flock-ai-camera-feeds-exposed-benn-jordan",
       "timestamp": "20260815114029",
       "captured": "2026-08-15T11:40:29Z",
+      "method": "existing"
+    },
+    "https://www.timesfreepress.com/news/2026/aug/14/tennessees-political-winds-appear-to-be-shifting": {
+      "url": "https://www.timesfreepress.com/news/2026/aug/14/tennessees-political-winds-appear-to-be-shifting/",
+      "wayback": "https://web.archive.org/web/20260819201507/https://www.timesfreepress.com/news/2026/aug/14/tennessees-political-winds-appear-to-be-shifting/",
+      "timestamp": "20260819201507",
+      "captured": "2026-08-19T20:15:07Z",
       "method": "existing"
     },
     "https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/brookfield-police-chief-defends-officers-high-risk-traffic-stop-based-on-flock-alert": {
@@ -4953,6 +5051,13 @@
       "captured": "2026-04-22T06:48:19Z",
       "method": "existing"
     },
+    "https://www.wrvo.org/2026-08-21/amid-privacy-concerns-auburn-votes-to-end-contract-with-flock": {
+      "url": "https://www.wrvo.org/2026-08-21/amid-privacy-concerns-auburn-votes-to-end-contract-with-flock",
+      "wayback": "https://web.archive.org/web/20260821122949/https://www.wrvo.org/2026-08-21/amid-privacy-concerns-auburn-votes-to-end-contract-with-flock",
+      "timestamp": "20260821122949",
+      "captured": "2026-08-21T12:29:49Z",
+      "method": "existing"
+    },
     "https://www.wsaz.com/2026/08/10/wsaz-investigates-wva-lawmakers-question-flock-representative-preview-potential-legislation": {
       "url": "https://www.wsaz.com/2026/08/10/wsaz-investigates-wva-lawmakers-question-flock-representative-preview-potential-legislation/",
       "wayback": "https://web.archive.org/web/20260812101534/https://www.wsaz.com/2026/08/10/wsaz-investigates-wva-lawmakers-question-flock-representative-preview-potential-legislation/",
@@ -5028,6 +5133,13 @@
       "wayback": "https://web.archive.org/web/20260728090651/https://www.wsmv.com/2026/07/27/knox-county-flock-license-plate-readers-install-paused-amid-ongoing-concerns-sheriff-says/",
       "timestamp": "20260728090651",
       "captured": "2026-07-28T09:06:51Z",
+      "method": "existing"
+    },
+    "https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract": {
+      "url": "https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract/",
+      "wayback": "https://web.archive.org/web/20260815071922/https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract/",
+      "timestamp": "20260815071922",
+      "captured": "2026-08-15T07:19:22Z",
       "method": "existing"
     },
     "https://www.wsoctv.com/news/local/illegal-flock-favor-warrants-reveal-what-led-cmpd-officers-arrest/37KLGFBQ25HG5CG6K7VBH7XT5Q": {
