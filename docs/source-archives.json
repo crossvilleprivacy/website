@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-08-22",
-  "count": 789,
-  "source_count": 789,
+  "count": 794,
+  "source_count": 794,
   "archives": {
     "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg": {
       "url": "https://1a-1791.com/video/fwe2/12/s8/1/g/d/N/G/gdNGA.qR4e-small-Whistleblower-Reveals-the-L..jpg",
@@ -612,6 +612,13 @@
       "timestamp": "20260822104337",
       "captured": "2026-08-22T10:43:37Z",
       "method": "save"
+    },
+    "https://docs.flocksafety.com/developer-hub/docs/introduction": {
+      "url": "https://docs.flocksafety.com/developer-hub/docs/introduction",
+      "archive_today": "https://archive.today/20260725225809/https://docs.flocksafety.com/developer-hub/docs/introduction",
+      "timestamp": "20260725225809",
+      "captured": "2026-07-25T22:58:09Z",
+      "method": "archive.today"
     },
     "https://doi.org/10.5281/zenodo.17529423": {
       "url": "https://doi.org/10.5281/zenodo.17529423",
@@ -2440,6 +2447,13 @@
       "captured": "2026-03-31T02:19:37Z",
       "method": "existing"
     },
+    "https://www.axon.com/help/axon-community-request/software/community-request/using/create-and-submit-community-requests.htm": {
+      "url": "https://www.axon.com/help/axon-community-request/software/community-request/using/create-and-submit-community-requests.htm",
+      "wayback": "https://web.archive.org/web/20260822105622/https://www.axon.com/help/axon-community/software/axon-community/community-request/get-started.htm",
+      "timestamp": "20260822105622",
+      "captured": "2026-08-22T10:56:22Z",
+      "method": "save"
+    },
     "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm": {
       "url": "https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm",
       "wayback": "https://web.archive.org/web/20260429092915/https://www.axon.com/help/fleet-3/cameras-and-sensors/fleet/3/alpr/admin-alpr-policy.htm",
@@ -3182,6 +3196,13 @@
       "captured": "2026-08-21T12:28:58Z",
       "method": "save"
     },
+    "https://www.flocksafety.com/blog/flock-offers-no-cost-core-apis-to-law-enforcement": {
+      "url": "https://www.flocksafety.com/blog/flock-offers-no-cost-core-apis-to-law-enforcement",
+      "wayback": "https://web.archive.org/web/20260822105400/https://www.flocksafety.com/blog/flock-offers-no-cost-core-apis-to-law-enforcement",
+      "timestamp": "20260822105400",
+      "captured": "2026-08-22T10:54:00Z",
+      "method": "save"
+    },
     "https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement": {
       "url": "https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement",
       "wayback": "https://web.archive.org/web/20260821122921/https://www.flocksafety.com/blog/how-ai-video-search-helps-law-enforcement",
@@ -3229,6 +3250,20 @@
       "archive_today": "https://archive.today/20260106192912/https://www.flocksafety.com/legal/api-integration-terms",
       "timestamp": "20260106192912",
       "captured": "2026-01-06T19:29:12Z",
+      "method": "archive.today"
+    },
+    "https://www.flocksafety.com/partner-program": {
+      "url": "https://www.flocksafety.com/partner-program",
+      "wayback": "https://web.archive.org/web/20260822105647/https://www.flocksafety.com/partner-program",
+      "timestamp": "20260822105647",
+      "captured": "2026-08-22T10:56:47Z",
+      "method": "save"
+    },
+    "https://www.flocksafety.com/products": {
+      "url": "https://www.flocksafety.com/products",
+      "archive_today": "https://archive.today/20260727123032/https://www.flocksafety.com/products",
+      "timestamp": "20260727123032",
+      "captured": "2026-07-27T12:30:32Z",
       "method": "archive.today"
     },
     "https://www.flocksafety.com/products/flock-dfr": {
@@ -3989,10 +4024,10 @@
     },
     "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor": {
       "url": "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor/",
-      "wayback": "https://web.archive.org/web/20260816173752/https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor/",
-      "timestamp": "20260816173752",
-      "captured": "2026-08-16T17:37:52Z",
-      "method": "existing"
+      "wayback": "https://web.archive.org/web/20260822105457/https://www.maryvilleprivacy.org/maryville-residents-for-privacy/axon-private-surveillance-vendor/",
+      "timestamp": "20260822105457",
+      "captured": "2026-08-22T10:54:57Z",
+      "method": "save"
     },
     "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/counter-flock-surveillance-maryville": {
       "url": "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/counter-flock-surveillance-maryville/",
@@ -4024,10 +4059,10 @@
     },
     "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/who-is-flock-safety": {
       "url": "https://www.maryvilleprivacy.org/maryville-residents-for-privacy/who-is-flock-safety/",
-      "wayback": "https://web.archive.org/web/20260814021640/https://www.maryvilleprivacy.org/maryville-residents-for-privacy/who-is-flock-safety/",
-      "timestamp": "20260814021640",
-      "captured": "2026-08-14T02:16:40Z",
-      "method": "existing"
+      "wayback": "https://web.archive.org/web/20260822105433/https://www.maryvilleprivacy.org/maryville-residents-for-privacy/who-is-flock-safety/",
+      "timestamp": "20260822105433",
+      "captured": "2026-08-22T10:54:33Z",
+      "method": "save"
     },
     "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia": {
       "url": "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
