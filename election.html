@@ -30,7 +30,7 @@
   <meta name="twitter:title" content="Election 2026: Flock and ALPR positions" />
   <meta name="twitter:description" content="Ask every Crossville candidate and Cumberland County official. Scorecard of public answers, including who has not answered." />
   <meta name="twitter:image" content="https://crossvilleprivacy.org/assets/hero-main-street.jpg" />
-  <link rel="stylesheet" href="styles.css?v=20260829-election" />
+  <link rel="stylesheet" href="styles.css?v=20260902-select" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
@@ -236,24 +236,24 @@
               <span>Search</span>
               <input type="search" data-scorecard-search placeholder="Name or office" autocomplete="off" spellcheck="false" />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>Ballot</span>
-              <select data-scorecard-body>
+              <select data-scorecard-body aria-label="Ballot">
                 <option value="">City and county</option>
                 <option value="city" selected>City</option>
                 <option value="county">County</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Answer</span>
-              <select data-scorecard-stance>
+              <select data-scorecard-stance aria-label="Answer">
                 <option value="">All answers</option>
                 <option value="cancel">Cancel / ban</option>
                 <option value="hedge">Extra rules, not cancel</option>
                 <option value="keep">Keep / no ban</option>
                 <option value="no_answer">No public answer</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-scorecard-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-scorecard-status aria-live="polite">Loading scorecard…</p>
@@ -344,7 +344,7 @@
       </p>
     </div>
   </footer>
-  <script src="assets/campaign-ux.js"></script>
+  <script src="assets/campaign-ux.js?v=20260902-select"></script>
   <script src="assets/election-scorecard.js?v=20260829c"></script>
   <script>
     (function () {

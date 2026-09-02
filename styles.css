@@ -4481,7 +4481,6 @@ body.sticky-cta-is-dismissed {
 }
 
 .audit-log-controls .speech-field input[type="search"],
-.audit-log-controls .speech-field select,
 .audit-log-controls > .btn {
   box-sizing: border-box;
   height: 2.85rem;
@@ -4494,13 +4493,19 @@ body.sticky-cta-is-dismissed {
 }
 
 .audit-log-controls .speech-field select {
+  box-sizing: border-box;
   width: 100%;
   min-width: 0;
+  height: 2.85rem;
+  min-height: 2.85rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  border-radius: 4px;
   cursor: pointer;
   pointer-events: auto;
-  padding-top: 0.45rem;
-  padding-bottom: 0.45rem;
-  padding-right: 2.35rem;
+  /* Keep real vertical padding: 0 padding breaks click-to-open on Linux. */
+  padding: 0.45rem 2.35rem 0.45rem 0.85rem;
 }
 
 .audit-log-controls .speech-field:has(select) {

@@ -30,7 +30,7 @@
   <meta name="twitter:title" content="National cases: Flock &amp; ALPR · CrossvillePrivacy.org" />
   <meta name="twitter:description" content="Nationwide misuse, wrongful-stop, and cancellation case databases for Flock Safety and ALPR systems." />
   <meta name="twitter:image" content="https://crossvilleprivacy.org/assets/hero-main-street.jpg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260902-select" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
@@ -444,27 +444,27 @@
               <span>Search</span>
               <input type="search" data-case-search placeholder="Agency, state, or Case ID" autocomplete="off" spellcheck="false" />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>State</span>
-              <select data-case-state><option value="">All states</option></select>
-            </label>
-            <label class="speech-field">
+              <select data-case-state aria-label="State"><option value="">All states</option></select>
+            </div>
+            <div class="speech-field">
               <span>Outcome</span>
-              <select data-case-extra>
+              <select data-case-extra aria-label="Outcome">
                 <option value="">All outcomes</option>
                 <option value="fired">Fired / resigned</option>
                 <option value="charged">Charged / indicted</option>
                 <option value="other">Other</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Rows</span>
-              <select data-case-page-size>
+              <select data-case-page-size aria-label="Rows">
                 <option value="15" selected>15</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-case-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-case-status aria-live="polite">Loading misuse records…</p>
@@ -507,26 +507,26 @@
               <span>Search</span>
               <input type="search" data-case-search placeholder="City, technology, or ID" autocomplete="off" spellcheck="false" />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>State</span>
-              <select data-case-state><option value="">All states</option></select>
-            </label>
-            <label class="speech-field">
+              <select data-case-state aria-label="State"><option value="">All states</option></select>
+            </div>
+            <div class="speech-field">
               <span>Lawsuit</span>
-              <select data-case-extra>
+              <select data-case-extra aria-label="Lawsuit">
                 <option value="">All records</option>
                 <option value="Y">Lawsuit filed</option>
                 <option value="N">No lawsuit</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Rows</span>
-              <select data-case-page-size>
+              <select data-case-page-size aria-label="Rows">
                 <option value="15" selected>15</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-case-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-case-status aria-live="polite">Loading wrongful-stop records…</p>
@@ -1091,41 +1091,41 @@
                 spellcheck="false"
               />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>State</span>
-              <select data-cancel-state>
+              <select data-cancel-state aria-label="State">
                 <option value="">All states</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Action</span>
-              <select data-cancel-action>
+              <select data-cancel-action aria-label="Action">
                 <option value="">All actions</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Reason</span>
-              <select data-cancel-reason>
+              <select data-cancel-reason aria-label="Reason">
                 <option value="">All reasons</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Kind</span>
-              <select data-cancel-kind>
+              <select data-cancel-kind aria-label="Kind">
                 <option value="">All records</option>
                 <option value="ended">Ended contracts</option>
                 <option value="other">Pauses and other</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Rows</span>
-              <select data-cancel-page-size>
+              <select data-cancel-page-size aria-label="Rows">
                 <option value="15" selected>15</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
                 <option value="100">100</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-cancel-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-cancel-status aria-live="polite">Loading cancellations…</p>
@@ -2215,7 +2215,7 @@
     </div>
   </footer>
 
-  <script src="assets/campaign-ux.js"></script>
+  <script src="assets/campaign-ux.js?v=20260902-select"></script>
   <script src="assets/dossier-tallies.js"></script>
   <script src="assets/cancel-lookup.js?v=tnlock2"></script>
   <script src="assets/dossier-lookup.js?v=20260816-2"></script>

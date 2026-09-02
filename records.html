@@ -30,7 +30,7 @@
   <meta name="twitter:title" content="Records &amp; TPRA templates · CrossvillePrivacy.org" />
   <meta name="twitter:description" content="Public records, Crossville PD Flock search log, Quote Q-00234, and copy/paste Tennessee Public Records Act templates." />
   <meta name="twitter:image" content="https://crossvilleprivacy.org/assets/hero-main-street.jpg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260902-select" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
@@ -180,45 +180,45 @@
                 spellcheck="false"
               />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>Month</span>
-              <select data-audit-month>
+              <select data-audit-month aria-label="Month">
                 <option value="">All months</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Officer</span>
-              <select data-audit-officer>
+              <select data-audit-officer aria-label="Officer">
                 <option value="">All officers</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Case #</span>
-              <select data-audit-case>
+              <select data-audit-case aria-label="Case #">
                 <option value="">All</option>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
                 <option value="unknown">Unknown</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Sort</span>
-              <select data-audit-sort>
+              <select data-audit-sort aria-label="Sort">
                 <option value="date-desc" selected>Date (newest)</option>
                 <option value="date-asc">Date (oldest)</option>
                 <option value="row-id-asc">Row ID (low → high)</option>
                 <option value="row-id-desc">Row ID (high → low)</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Rows</span>
-              <select data-audit-page-size>
+              <select data-audit-page-size aria-label="Rows">
                 <option value="15" selected>15</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
                 <option value="100">100</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-audit-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-audit-status aria-live="polite">Loading log…</p>
@@ -295,9 +295,9 @@
           <p class="note">Seven ready-to-send requests. Templates A–F each include a scoped ask for emails / IMs / chats with Flock–ALPR keywords; Template G is the full keyword communications pull across custodians. Replace <code>[Your Name]</code> and <code>[Your address or phone]</code>. Route: City Clerk Baylee Rhea via <a href="mailto:info@crossvilletn.gov">info@crossvilletn.gov</a>; CC City Manager Valerie Hale and Chief Jessie Brooks. If your email app truncates a long message, use <strong>Copy request text</strong> and paste into a new email.</p>
 
           <div class="speech-picker-controls tpra-picker-controls">
-            <label class="speech-field">
+            <div class="speech-field">
               <span>Request</span>
-              <select id="tpra-select" data-tpra-select aria-describedby="tpra-picker-heading">
+              <select id="tpra-select" data-tpra-select aria-describedby="tpra-picker-heading" aria-label="Request">
                 <option value="contract-costs">A · Contract, renewals, and costs</option>
                 <option value="policy-audits-sharing">B · Policy, audits, and sharing</option>
                 <option value="camera-map">C · Camera locations / map</option>
@@ -306,7 +306,7 @@
                 <option value="federal-outside-access">F · Federal / outside agency access</option>
                 <option value="emails-ims-comms">G · Emails, IMs, and keyword search</option>
               </select>
-            </label>
+            </div>
           </div>
 
           <div class="speech-meta" data-tpra-meta hidden>
@@ -344,8 +344,8 @@
     </div>
   </footer>
 
-  <script src="assets/campaign-ux.js"></script>
-  <script src="assets/flock-search-log.js?v=20260902-month-sort"></script>
+  <script src="assets/campaign-ux.js?v=20260902-select"></script>
+  <script src="assets/flock-search-log.js?v=20260902-select"></script>
   <script>
     (function () {
       if (window.CrossvilleCampaign) {

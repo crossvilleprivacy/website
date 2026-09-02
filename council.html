@@ -30,7 +30,7 @@
   <meta name="twitter:title" content="Crossville City Council election Nov. 3, 2026" />
   <meta name="twitter:description" content="Candidates, sitting council, meeting times, and a Flock yes-or-no to ask before you vote." />
   <meta name="twitter:image" content="https://crossvilleprivacy.org/assets/hero-main-street.jpg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260902-select" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
@@ -331,9 +331,9 @@
             The combined scripts cover open streams, misuse, and CEO messaging in one speech. Open-stream visuals point to 404 Media and Jordan’s video rather than re-hosted camera stills. Beyond-plates scripts pair with the <a href="flock.html#patent-vs-marketing">patent vs marketing</a> dossier. Security-only scripts pair with the <a href="flock.html#open-streams">open-streams dossier</a>.</p>
 
           <div class="speech-picker-controls">
-            <label class="speech-field">
+            <div class="speech-field">
               <span>Focus</span>
-              <select id="speech-focus" data-speech-focus aria-describedby="speech-picker-heading">
+              <select id="speech-focus" data-speech-focus aria-describedby="speech-picker-heading" aria-label="Focus">
                 <option value="combined">Open streams, misuse, and CEO (combined case)</option>
                 <option value="beyond-plates">More than plates (patent vs marketing)</option>
                 <option value="efficacy">Money vs. low hit rate</option>
@@ -347,14 +347,14 @@
                 <option value="unpopularity">Unpopular with voters</option>
                 <option value="vendor-swap">Vendor swap is not privacy (Not just Flock)</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Script</span>
-              <select id="speech-variant" data-speech-variant>
+              <select id="speech-variant" data-speech-variant aria-label="Script">
                 <option value="A">Script A</option>
                 <option value="B">Script B</option>
               </select>
-            </label>
+            </div>
           </div>
 
           <div class="speech-meta" data-speech-meta hidden>
@@ -435,7 +435,7 @@
     </div>
   </footer>
 
-  <script src="assets/campaign-ux.js"></script>
+  <script src="assets/campaign-ux.js?v=20260902-select"></script>
   <script>
     (function () {
       if (window.CrossvilleCampaign) {

@@ -30,7 +30,7 @@
   <meta name="twitter:title" content="Officials on Flock: Burchett, Sanders, Jacobs, and others" />
   <meta name="twitter:description" content="Search votes, bills, and quotes on Flock and ALPRs. Crossville’s Nov. 3 election is on the Election 2026 page." />
   <meta name="twitter:image" content="https://crossvilleprivacy.org/assets/hero-main-street.jpg" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=20260902-select" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
@@ -170,50 +170,50 @@
               <span>Search</span>
               <input type="search" data-official-search placeholder="Name, office, state, or bill" autocomplete="off" spellcheck="false" />
             </label>
-            <label class="speech-field">
+            <div class="speech-field">
               <span>State</span>
-              <select data-official-state>
+              <select data-official-state aria-label="State">
                 <option value="">All states</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Stance</span>
-              <select data-official-stance>
+              <select data-official-stance aria-label="Stance">
                 <option value="">All stances</option>
                 <option value="ban">Ban / cut funding</option>
                 <option value="restrict">Restrict / new rules</option>
                 <option value="pulled">Pulled cameras</option>
                 <option value="hedge">Hedge / keep with rules</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Level</span>
-              <select data-official-level>
+              <select data-official-level aria-label="Level">
                 <option value="">All levels</option>
                 <option value="federal">Congress</option>
                 <option value="statewide">Statewide</option>
                 <option value="local">Local</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Party</span>
-              <select data-official-party>
+              <select data-official-party aria-label="Party">
                 <option value="">All parties</option>
                 <option value="R">Republican</option>
                 <option value="D">Democratic</option>
                 <option value="I">Independent</option>
                 <option value="N">Other / nonpartisan</option>
               </select>
-            </label>
-            <label class="speech-field">
+            </div>
+            <div class="speech-field">
               <span>Rows</span>
-              <select data-official-page-size>
+              <select data-official-page-size aria-label="Rows">
                 <option value="15" selected>15</option>
                 <option value="25">25</option>
                 <option value="50">50</option>
                 <option value="100">100</option>
               </select>
-            </label>
+            </div>
             <button type="button" class="btn btn-ghost" data-official-clear>Clear</button>
           </div>
           <p class="audit-log-status" data-official-status aria-live="polite">Loading officials…</p>
@@ -313,7 +313,7 @@
       </p>
     </div>
   </footer>
-  <script src="assets/campaign-ux.js"></script>
+  <script src="assets/campaign-ux.js?v=20260902-select"></script>
   <script src="assets/politician-lookup.js"></script>
   <script>
     (function () {

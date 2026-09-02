@@ -1466,6 +1466,59 @@
     initStickyHashScroll(doc);
     initPinnedHeader(doc);
     initThemeToggle(doc);
+    hardenNativeSelects(doc);
+  }
+
+  /**
+   * Nested <label><select> on Linux Chromium opens then closes on click
+   * (mouseup re-activates the label). Prefer sibling <label for>, but
+   * keep a safety net for any leftover nesting.
+   */
+  function hardenNativeSelects(doc) {
+    doc = doc || document;
+    if (!doc || !doc.querySelectorAll) {
+      return { fixed: 0 };
+    }
+    var selects = doc.querySelectorAll("label select");
+    var fixed = 0;
+    var i;
+    for (i = 0; i < selects.length; i += 1) {
+      var select = selects[i];
+      if (select.getAttribute("data-select-hardened") === "1") {
+        continue;
+      }
+      select.setAttribute("data-select-hardened", "1");
+      select.addEventListener(
+        "mousedown",
+        function (event) {
+          event.stopPropagation();
+        },
+        true
+      );
+      select.addEventListener(
+        "click",
+        function (event) {
+          event.stopPropagation();
+        },
+        true
+      );
+      var label = select.closest ? select.closest("label") : null;
+      if (label && label.getAttribute("data-select-label-hardened") !== "1") {
+        label.setAttribute("data-select-label-hardened", "1");
+        label.addEventListener("click", function (event) {
+          var target = event.target;
+          if (
+            target &&
+            (target.tagName === "SELECT" ||
+              (target.closest && target.closest("select")))
+          ) {
+            event.preventDefault();
+          }
+        });
+      }
+      fixed += 1;
+    }
+    return { fixed: fixed };
   }
 
   function idFromHash(hash) {
@@ -2209,6 +2262,7 @@
     prefersDark: prefersDark,
     applyTheme: applyTheme,
     initThemeToggle: initThemeToggle,
+    hardenNativeSelects: hardenNativeSelects,
     init: init,
   };
 });
