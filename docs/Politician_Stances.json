@@ -3,7 +3,7 @@
   "as_of": "2026-09-02",
   "as_of_long": "September 2, 2026",
   "as_of_short": "Sept. 2, 2026",
-  "record_count": 42,
+  "record_count": 43,
   "records": [
     {
       "Slug": "bernie-sanders",
@@ -264,6 +264,19 @@
       "What": "Said ALPRs have no place in Knox County and told Fox News Flock needs a nationwide pause until constitutional guardrails catch up.",
       "Writeup": "tennessee.html#glenn-jacobs",
       "Source_URL": "https://www.foxnews.com/media/flock-safety-cameras-need-constitutional-guardrails-before-further-deployment-tennessee-mayor-argues"
+    },
+    {
+      "Slug": "knox-county-commission",
+      "Name": "Knox County Commission",
+      "Office": "Knox County Commission",
+      "State": "TN",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "ban",
+      "Date": "2026-08-31",
+      "What": "Unanimously passed an emergency ordinance banning fixed ALPRs and ordering removal of about 143 Flock cameras within 30 days.",
+      "Writeup": "tennessee.html#knox-county-commission",
+      "Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/"
     },
     {
       "Slug": "jeffrey-cassidy",
