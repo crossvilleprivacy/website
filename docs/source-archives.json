@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-02",
-  "count": 982,
-  "source_count": 982,
+  "count": 983,
+  "source_count": 983,
   "archives": {
     "http://www.clearwatercounty.org/news_detail_T2_R565.php": {
       "url": "http://www.clearwatercounty.org/news_detail_T2_R565.php",
@@ -6064,6 +6064,13 @@
       "timestamp": "20260816174555",
       "captured": "2026-08-16T17:45:55Z",
       "method": "existing"
+    },
+    "https://www.wesh.com/article/license-plate-readers-removed-from-state-roads-fdot/73572906": {
+      "url": "https://www.wesh.com/article/license-plate-readers-removed-from-state-roads-fdot/73572906",
+      "archive_today": "https://archive.today/20260901150118/https://www.wesh.com/article/license-plate-readers-removed-from-state-roads-fdot/73572906",
+      "timestamp": "20260901150118",
+      "captured": "2026-09-01T15:01:18Z",
+      "method": "archive.today"
     },
     "https://www.wesh.com/article/lindsey-isaacs-lawsuit-fhp-wrongful-arrest-hit-and-run/71535849": {
       "url": "https://www.wesh.com/article/lindsey-isaacs-lawsuit-fhp-wrongful-arrest-hit-and-run/71535849",

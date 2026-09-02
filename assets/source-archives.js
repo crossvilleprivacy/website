@@ -549,17 +549,6 @@
     if (nav !== -1 && lower.indexOf("</nav>", nav) === -1) {
       return true;
     }
-    /* Home news headlines already have Archive in .news-card-cites */
-    var news = lower.lastIndexOf("recent-news-list");
-    if (news !== -1 && lower.indexOf("</ul>", news) === -1) {
-      var cites = lower.lastIndexOf("news-card-cites");
-      if (cites < news) {
-        return true;
-      }
-      if (lower.slice(cites).indexOf("</p>") !== -1) {
-        return true;
-      }
-    }
     if (lower.lastIndexOf('class="sources"') !== -1) {
       var sources = lower.lastIndexOf('class="sources"');
       if (lower.slice(sources).indexOf("</p>") !== -1) {
@@ -577,7 +566,15 @@
 
   function injectIntoHtml(html, catalog) {
     var A_RE = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
-    var source = String(html || "");
+    var protectedBlocks = [];
+    /* Home news cards: rewrite_news_card_cites.py owns Sources archives */
+    var source = String(html || "").replace(
+      /<ul\b[^>]*\bclass="[^"]*\brecent-news-list\b[^"]*"[^>]*>[\s\S]*?<\/ul>/i,
+      function (block) {
+        protectedBlocks.push(block);
+        return "<!--NEWS_LIST_PROTECT_" + (protectedBlocks.length - 1) + "-->";
+      }
+    );
     var out = "";
     var last = 0;
     var added = 0;
@@ -587,6 +584,7 @@
     var cls;
     var rec;
     var markup;
+    var i;
     while ((match = A_RE.exec(source))) {
       out += source.slice(last, match.index);
       out += match[0];
@@ -621,6 +619,12 @@
       added += 1;
     }
     out += source.slice(last);
+    for (i = 0; i < protectedBlocks.length; i += 1) {
+      out = out.replace(
+        "<!--NEWS_LIST_PROTECT_" + i + "-->",
+        protectedBlocks[i]
+      );
+    }
     return { html: out, added: added };
   }
 
