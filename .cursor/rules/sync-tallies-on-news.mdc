@@ -1,0 +1,37 @@
+---
+description: Every news add must recompute dossier tallies and sync HTML fallbacks in the same task
+alwaysApply: true
+---
+
+# Sync tallies whenever news is added
+
+**Parent gates:** `sync-site-downloadables-and-sources.mdc`, `sync-dossiers-with-news.mdc`.
+
+Adding or updating **any** news (home feed card, National panel, Tennessee writeup, officials row, or `sources.html` cite) is not done until tallies match the catalogs.
+
+## Same-task tally workflow
+
+1. **Classify** whether the story belongs in misuse / cancel / wrongful JSON (or officials JSON). Upsert the skinny row when it does.
+2. **Recompute:** `node scripts/compute_dossier_tallies.js`  
+   Writes `docs/dossier-tallies.json` and `docs/Tennessee_Flock_Index.json`.
+3. **Sync HTML fallbacks** on `index.html`, `national.html`, `tennessee.html`, and `sources.html`:
+   - Every `[data-tally="…"]` span text must match `docs/dossier-tallies.json`.
+   - Every `[data-tally-datetime="…"]` `<time>` must use `as_of` / `as_of_long` / `as_of_short` from that file.
+   - Every `[data-tally-aria]` / dossier-tally `aria-label` must say “as of {as_of_long}”.
+   - Lookup-widget intro notes that cite counts must use the same numbers.
+4. **Sync `sources.html`** catalog footnote (`catalog_line`, searchable-table links).
+5. **Reply** with the new totals (misuse / wrongful / cancel / clear exits / as-of).
+
+## Why both JSON and HTML
+
+`assets/dossier-tallies.js` fetches JSON at runtime, but the HTML embeds **fallback numbers** inside each `[data-tally]` span. Regenerating JSON alone leaves static HTML stale. That drift is a bug.
+
+## Forbidden
+
+- Shipping news while `[data-tally]` fallbacks still show old counts or dates
+- Bumping “as of” in prose without running `compute_dossier_tallies.js`
+- Treating chronology-only markup as an excuse to skip tally sync when catalog JSON changed
+
+## Non-catalog news
+
+Pure legislation, hearings, or commentary with **no** new misuse / cancel / wrongful / officials fact still requires `sources.html` sync. If catalog JSON did not change, say so; do not bump tallies without a row change.

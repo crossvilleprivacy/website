@@ -1,0 +1,36 @@
+---
+description: Do not name misuse subjects or civilian victims in public copy
+alwaysApply: true
+---
+
+# No subject or civilian names on the public site
+
+## Redact (never name in `*.html`, speeches, news cards, sources labels, or new catalog narrative)
+
+- **Subjects** of alleged, charged, indicted, convicted, fired, resigned-for-misuse, or under-investigation ALPR / Flock cases (officers, deputies, civilian employees, dispatchers, chiefs **when they are the accused**)
+- **Civilians** those cases involve: targets, partners, “exes,” family members, victims, and their relatives
+
+Prefer: “one officer,” “a deputy,” “an unnamed employee,” “a civilian,” “someone known to the officer.”
+
+## Keep
+
+- **Official sources** speaking or acting on the record who are **not** the accused: sheriff, chief, mayor, city manager, councilmember announcing a decision or quoted (“Sheriff X said…”)
+- Cities, agencies, Case_IDs / wrongful IDs, outlet names
+- Vendor / CEO pages when the story is the company, not a misuse subject
+
+## Edge case
+
+If the announcing official **is** the accused (e.g. a chief charged or fired for personal lookups), **error on caution: do not name them.** Treat them as a subject.
+
+## Catalog JSON
+
+`Subject_Officer_Involved` may keep **role words** for the misuse lookup Outcome column (`officer`, `deputy`, `civilian employee`). Do **not** put personal names there. Do not put civilian names in any skinny index field.
+
+## Anchors
+
+Prefer generic slugs (`#oak-ridge-misuse`, `#lufkin-misuse`). Keep old name-based IDs only as hidden aliases so existing links do not break.
+
+## Related
+
+- Lookup Outcome shows jobs and counts only (`sync-dossiers-with-news.mdc`)
+- Legal gray areas: naming civilian stalking targets is **high** risk (`flag-legal-gray-areas.mdc`)

@@ -1,0 +1,80 @@
+---
+description: Hard gate — public TPRA Flock search-log CSV must pass an automated identifier scrub before any ship
+alwaysApply: true
+---
+
+# TPRA search log must be scrubbed clean before ship
+
+`docs/TPRA_Flock_Query_Records.csv` is a **public** download. Saying “triple-check” in chat is **not** enough. A machine scan must pass with **zero** hits before commit, push, or Pages deploy of any TPRA CSV / `records.html` search-log change.
+
+## Allowed public columns only
+
+`Row ID`, `officer_id`, `timestamp`, `reason`, `case_number_present`, `sha256_hash`
+
+No name, plate, case-number, filter, or org columns in the public file.
+
+## Forbidden in any public field (especially `reason`)
+
+- Officer / employee personal names (cross-check `Officer-Tokenized.csv` when available; never commit that map)
+- License plates / plate-like tokens (mixed letters+digits length 5–8, e.g. `721BRGM`, `3KS291`)
+- Case numbers or stubs, including **prefixes** with `[redacted]` still attached:
+  - `\d{2}-\d{5,7}`
+  - `CV-…`, `NA-…`, `CV-98O-[redacted]`, `Theft Investigation CV-[redacted]`
+- Email, phone, VIN (17-char), street addresses
+- Non-token `officer_id` values (must match `^Officer-\d+$`)
+- `case_number_present` values other than `yes` / `no` / `unknown`
+
+Sensitive case-type labels stay collapsed to `[redacted]` with month-only timestamps per `records.html` policy.
+
+## Same-task required scan (must print CLEAN / exit 0)
+
+Before finishing any TPRA CSV edit:
+
+```bash
+python3 - <<'PY'
+import csv, re, sys
+from pathlib import Path
+rows = list(csv.DictReader(Path("docs/TPRA_Flock_Query_Records.csv").open(encoding="utf-8")))
+allowed = {"Row ID", "officer_id", "timestamp", "reason", "case_number_present", "sha256_hash"}
+errs = []
+if set(rows[0].keys()) != allowed:
+    errs.append(f"columns {set(rows[0].keys())}")
+case_re = re.compile(r"\b\d{2}-\d{5,7}\b|\b(?:CV|NA)-[A-Za-z0-9]", re.I)
+plate_re = re.compile(r"\b(?=[A-Z0-9]*[A-Z])(?=[A-Z0-9]*\d)[A-Z0-9]{5,8}\b")
+for r in rows:
+    if not re.fullmatch(r"Officer-\d+", r["officer_id"]):
+        errs.append(f"officer {r['Row ID']}")
+    if r["case_number_present"] not in {"yes", "no", "unknown"}:
+        errs.append(f"case flag {r['Row ID']}")
+    if case_re.search(r["reason"]):
+        errs.append(f"case stub {r['Row ID']}: {r['reason'][:80]}")
+    if plate_re.search(r["reason"]):
+        errs.append(f"plate-like {r['Row ID']}: {r['reason'][:80]}")
+if errs:
+    print("FAIL", *errs[:20], sep="\n")
+    sys.exit(1)
+print("CLEAN", len(rows))
+PY
+```
+
+If that script fails, **stop**. Fix the CSV. Re-run until `CLEAN`. Do not commit or push a failing file.
+
+## “Triple-check” means
+
+1. Run the scan above (exit 0).
+2. Confirm Jul/Aug (or whatever new) append rows are included in the same scan, not only the old prefix.
+3. Confirm `records.html` tallies / redaction cards still match the CSV.
+4. Say in the reply: `TPRA scrub scan: CLEAN (N rows).`
+
+## Do not
+
+- Treat “digits already replaced with `[redacted]`” as clean if `CV-` / `NA-` / plate-shaped tokens remain
+- Ship OCR / tokenized / unredacted CSVs from Downloads into the public repo
+- Skip the scan because a prior commit “already looked fine”
+---
+
+## Related
+
+- `no-subject-or-civilian-names.mdc`
+- `flag-legal-gray-areas.mdc`
+- `sync-site-downloadables-and-sources.mdc` (search-log widget)

@@ -1,0 +1,54 @@
+---
+description: On every site change, rate legal risk low/medium/high; stop and wait for confirmation unless low
+alwaysApply: true
+---
+
+# Flag legal gray areas on every change
+
+This is a **public advocacy site**, not a newsroom or law firm. The assistant is **not a lawyer**. After **any** change that can ship (`*.html`, `docs/*`, `assets/*`, speeches, catalogs, CSS/JS that affects published copy or media), review **the diff itself**, rate the legal risk, and **tell the operator**.
+
+## Always do
+
+1. Scan the change for the risks below.
+2. Rate the **highest** risk in the diff as **low**, **medium**, or **high**. Say the word in plain English.
+3. In the **user-facing reply**, include a **Legal check** line with that rating. If anything is gray, name it (what, where, why). If nothing is gray, still give the rating (`Legal check: risk low.`).
+4. If the rating is **medium** or **high**: **stop**. Do not write, edit, commit, or ship the risky part. Explain the risk in plain English. Wait for the operator to **explicitly confirm** (for example “yes, ship it” or “I accept the medium risk”). Do not treat silence, “looks good,” or an unrelated “continue” as confirmation.
+5. Prefer hedging, primary-source links, alleged/charged language, and omitting civilian/minor identifiers over “fixing” risk by adding more detail.
+6. Do not present the check as legal advice or a clearance to publish.
+
+## Risk ratings
+
+| Rating | Use when | Action |
+|---|---|---|
+| **Low** | Typography/CSS with no new facts; existing Case_IDs; Wayback rows; tally recomputes; copy that already uses alleged/charged language, primary links, and no new civilian/minor identifiers | Proceed. State `Legal check: risk low.` |
+| **Medium** | New pending charges or investigations even with hedging; naming a public official in alleged misconduct for the first time; incomplete exits stated too cleanly; third-party clips whose methods (RF intercept, facial recognition of attendees, how a device was opened) could look like this site’s advice | **Stop.** Explain. Ship only after explicit confirmation. |
+| **High** | Pending charges or “lied” / “found false” in the site’s voice; naming a civilian target of alleged stalking; minor names, school/medical/home detail, or hosted images of children; how-tos for vandalism or disabling cameras; operator identity; copy that reads as a city document or legal advice; re-hosting news stills or playground Condor captures | **Stop.** Explain. Do not ship unless the operator explicitly confirms they accept the **high** risk. Prefer omitting or hedging instead. |
+
+If the diff mixes ratings, use the highest.
+
+## Flag (gray or worse)
+
+| Risk | Typical gray area on this site |
+|---|---|
+| Defamation | Pending charges or investigations stated as fact; “lied” / “found false” in the site’s voice; naming a civilian target of alleged stalking |
+| Minors / privacy | Minor first names, school/medical/home detail, hosted images of children (including playground Condor stills) |
+| Copyright | Re-hosting news stills, livestream captures, vendor quote layouts, YouTube thumbnail hotlinks |
+| Affiliation / UPL | Copy that reads as a city document, legal advice, or a commissioned brief |
+| Identity | Operator personal identity (see `no-identity-leaks.mdc`) |
+| Incitement | How-tos for vandalism, blocking, or disabling cameras |
+| Catalog dumps | Putting narrative PII back into JSON indexes; reviving retired master-database PDFs |
+
+## Examples
+
+- **High — stop:** “Chief X used Flock to stalk Y 600 times.” **Safer:** alleged/charged, unnamed civilian, link the investigation.
+- **High — stop:** Hosting a playground camera still. **Safer:** link 404 Media; do not re-host.
+- **Medium — stop:** Embedding a researcher clip that demonstrates intercepting conference mics or putting facial recognition on attendees, in this site’s voice. **Safer:** hold for the full documented piece, or caption it as their reporting and skip the methods.
+- **High — stop:** “PREPARED FOR CROSSVILLE CITY COUNCIL” on a community PDF. **Safer:** independent brief, “not legal advice.”
+- **Low:** typography/CSS with no new facts; adding a Case_ID that already exists; Wayback rows; tally recomputes.
+
+## Do not
+
+- Skip the check because the task was “just HTML,” a rule update, or a catalog slim
+- Dump a full-site legal memo; stay on **this change**
+- Quietly ship a flagged item because a source already published it
+- Proceed on medium or high risk without explicit confirmation

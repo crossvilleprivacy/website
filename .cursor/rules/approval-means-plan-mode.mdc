@@ -1,0 +1,12 @@
+---
+description: When the user asks for approval before edits, switch to Plan mode immediately
+alwaysApply: true
+---
+
+# Approval means Plan mode
+
+If the user asks to list findings, wait for approval, not execute until they confirm, or otherwise review before changes, **switch to Plan mode immediately**. Do not ask them to switch.
+
+Stay read-only until they explicitly approve (for example “yes,” “make it so,” “ship it,” or “execute the plan”).
+
+Do not rephrase internallish copy into a slightly softer placement lecture. Delete the lecture.

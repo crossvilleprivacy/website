@@ -1,0 +1,56 @@
+---
+description: When adding news, upsert skinny catalog JSON and tallies in the same task
+alwaysApply: true
+---
+
+# Sync catalogs when adding news
+
+**Parent gate:** `sync-site-downloadables-and-sources.mdc`.
+
+Whenever you add or update stories on the site (`national.html`, `index.html`, `tennessee.html`, etc.), update the matching **JSON index** in the **same task**. Full narratives live on the HTML page. Do not regenerate master-database PDFs.
+
+## Map story → catalog JSON
+
+| News type | Update |
+|---|---|
+| Officer misuse / stalking / firings / charges | `docs/Flock_Safety_ALPR_Misuse_Master_Database.json` |
+| City/agency cancel, non-renew, rescind, pause, remove | `docs/Flock_Municipal_Cancellations_Database.json` |
+| Wrongful stop / false arrest / FRT-ALPR / travel-history pretext | `docs/AI_Wrongful_Enforcement_Database.json` |
+
+JSON is an **index** (Case ID, place, date/action, source URL, tally fields). After editing JSON, run `node scripts/compute_dossier_tallies.js` (writes `docs/dossier-tallies.json` and `docs/Tennessee_Flock_Index.json`). Do **not** run `scripts/export_dossiers.py` for these catalogs (retired).
+
+## Checklist
+
+1. Upsert Case_ID / wrongful ID rows (continue the series; update in place when a story develops). Keep the row skinny.
+2. Align on-page tallies, as-of dates, cites, and **lookup widget** copy with JSON. Cancel rows: put the `CAN-` Case_ID on that story’s `#cancellations` article (and the Tennessee writeup when `State` is TN). Misuse: `FLK-` / `ALPR-` on the `#nationwide-misuse` article. Wrongful writeups: `wrongful ID N`. Lookups fetch JSON; do not add a second data file. Follow **Misuse Outcome column** below. Tennessee-only watch items (pause, keep, proposal, scale) go in `docs/Tennessee_Flock_Extras.json`, not a invented Case_ID.
+3. Sync `sources.html` (see `keep-sources-synced.mdc`), including “searchable table” links (`national.html#cancel-lookup`, `#misuse-lookup`, `#wrongful-lookup`; `tennessee.html#misuse-lookup`, `#wrongful-lookup`, `#cancel-lookup`, `#tn-watch-lookup`).
+4. Reply with which catalogs changed.
+
+## Misuse Outcome column
+
+`national.html#misuse-lookup` shows **jobs and counts**, never names. `assets/dossier-lookup.js` builds the label from `Outcome_Bucket` + the *role words* in `Subject_Officer_Involved` (not the person’s name).
+
+| JSON `Outcome_Bucket` | Lookup display |
+|---|---|
+| `1 Resigned` (subject is an officer) | 1 officer resigned |
+| `1 Terminated` | 1 officer fired |
+| `6 Terminated (4 officers, 2 civilian employees)` | 6 fired (4 officers and 2 civilian employees) |
+| `3 Resigned` (unnamed sheriff’s office employees; source does not say sworn vs civilian) | 3 employees resigned |
+
+When writing a row:
+
+- Put the **job** in `Subject_Officer_Involved` (`officer`, `deputy`, `dispatcher`, `civilian employees`, `Three unnamed employees`). Names may stay in that field for the index; they must not appear in `Outcome_Bucket` or the lookup Outcome cell.
+- Mixed sworn / non-sworn only when the source splits it, in the source’s words. Savannah PD is `6 Terminated (4 officers, 2 civilian employees)` (four sworn officers and two civilian SPD employees). Do not invent “other city employees.”
+- Sheriff’s office sworn staff display as **deputies**, not officers, unless the source says officer.
+- Unnamed “employees” with no sworn/civilian split stay **employees**, not officers and not civilians.
+- Keep `Terminated` in JSON (filters and tallies). The table says **fired**.
+- Use `Terminated / Resigned` when reporting does not say which.
+
+## Do not
+
+- Ship dossier-eligible news as HTML-only
+- Leave tallies or `#cancel-lookup` intro counts pointing at old totals
+- Reintroduce master-database PDFs or Excel
+- Put minor names, civilian intimate-partner names, or long narratives back into JSON
+- Put subject names in `Outcome_Bucket` or the misuse lookup Outcome column (jobs and counts only)
+- Use “intentionally unsynced this batch” for a catalog the story maps to

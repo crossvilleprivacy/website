@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-367.0 -423.0 734.0 867.0"
+     role="img" aria-label="No Flock camera">
+  <title>No Flock</title>
+  <rect x="-367.0" y="-423.0" width="734.0" height="867.0" fill="#000000"/>
+  <g id="flock-silhouette">
+    <rect x="-20" y="-140" width="40" height="560" rx="9" fill="#262626"/>
+    <rect x="-20" y="-140" width="12" height="560" rx="4" fill="#3a3a3a"/>
+    <g transform="translate(-139, -235)">
+      <polygon points="-8,78 178,-86 286,-18 100,146" fill="#4a4a4a"/>
+      <polygon points="4,78 178,-74 270,-16 96,136" fill="#1a1a1a"/>
+      <clipPath id="solar-panel-cells">
+        <polygon points="19.99,76.75 178.93,-62.09 254.01,-14.75 95.07,124.09"/>
+      </clipPath>
+      <g clip-path="url(#solar-panel-cells)">
+        <line x1="55.96" y1="45.33" x2="131.04" y2="92.67" stroke="#333333" stroke-width="4"/>
+        <line x1="99.46" y1="7.33" x2="174.54" y2="54.67" stroke="#333333" stroke-width="4"/>
+        <line x1="142.96" y1="-30.67" x2="218.04" y2="16.67" stroke="#333333" stroke-width="4"/>
+        <line x1="42.20" y1="90.75" x2="201.14" y2="-48.09" stroke="#2e2e2e" stroke-width="3"/>
+        <line x1="72.86" y1="110.09" x2="231.80" y2="-28.75" stroke="#2e2e2e" stroke-width="3"/>
+      </g>
+      <polygon points="4,78 178,-74 270,-16 96,136" fill="none" stroke="#8d8d8d" stroke-width="7"/>
+    </g>
+    <g transform="translate(0, -89)">
+      <path d="M-50,132 L-50,252 Q-50,298 0,298 Q50,298 50,252 L50,132 Q50,90 0,90 Q-50,90 -50,132 Z"
+            fill="#101010" stroke="#7a7a7a" stroke-width="7"/>
+      <circle cx="0" cy="158" r="34" fill="#242424" stroke="#e8e8e8" stroke-width="8"/>
+      <circle cx="0" cy="158" r="15" fill="#050505"/>
+      <circle cx="-22" cy="142" r="4" fill="#d0d0d0"/>
+      <circle cx="22" cy="142" r="4" fill="#d0d0d0"/>
+      <circle cx="-26" cy="162" r="4" fill="#d0d0d0"/>
+      <circle cx="26" cy="162" r="4" fill="#d0d0d0"/>
+      <circle cx="-14" cy="178" r="4" fill="#d0d0d0"/>
+      <circle cx="14" cy="178" r="4" fill="#d0d0d0"/>
+      <circle cx="0" cy="214" r="9" fill="#9a9a9a"/>
+    </g>
+  </g>
+  <g id="no-flock-mark" fill="none" stroke="#ff5c4d" stroke-width="16.0"
+     stroke-linecap="butt" stroke-linejoin="miter">
+    <circle cx="0.0" cy="-56.0" r="335.0"/>
+    <line x1="-231.22391744800106" y1="-287.2239174480011" x2="231.22391744800106" y2="175.22391744800106"/>
+  </g>
+</svg>

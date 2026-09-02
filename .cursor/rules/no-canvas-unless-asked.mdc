@@ -1,0 +1,27 @@
+---
+description: Do not open or use Canvas unless the operator explicitly asks
+alwaysApply: true
+---
+
+# No Canvas unless asked
+
+Do **not** open, create, edit, or use a Cursor Canvas unless the operator **explicitly** asks for one in this conversation.
+
+This overrides the Canvas skill. Tables, charts, audits, tallies, timelines, and other structured output stay in chat (or in repo files the operator asked for). Do not read the Canvas skill, write `.canvas.tsx`, or open a canvas pane on that basis.
+
+## Explicit ask (required)
+
+Only proceed when the operator clearly requests a canvas, for example: “use a canvas,” “open a canvas,” “make a canvas,” or “canvas this.”
+
+Silence, “looks good,” “continue,” or a request for a table/chart/analysis is **not** an ask.
+
+## Do not
+
+- Create or edit `*.canvas.tsx` files
+- Open the canvas beside the chat
+- Switch a markdown table or findings list into a canvas unprompted
+- Treat “the data is the deliverable” as permission to use Canvas
+
+## Do instead
+
+Answer in the chat or in the files the operator named. If they later ask for a canvas, then follow the Canvas skill.

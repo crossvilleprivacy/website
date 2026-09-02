@@ -1,0 +1,250 @@
+{
+  "as_of": "2026-09-02",
+  "as_of_long": "September 2, 2026",
+  "as_of_short": "Sept. 2, 2026",
+  "record_count": 15,
+  "records": [
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Hamilton County",
+      "State": "TN",
+      "What": "Paused",
+      "Date": "2026-08-31",
+      "Date_Label": "Aug. 31, 2026",
+      "ID": "CAN-2026-147",
+      "Case_ID": "CAN-2026-147",
+      "Writeup": "",
+      "Source_URL": "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns/",
+      "Source_URLs": [
+        "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns/",
+        "https://www.chattanoogan.com/2026/8/31/522745/Sheriff-Garrett-Pauses-Use-Of-License.aspx"
+      ]
+    },
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Knox County",
+      "State": "TN",
+      "What": "Terminated",
+      "Date": "2026-08-31",
+      "Date_Label": "Aug. 31, 2026",
+      "ID": "CAN-2026-145",
+      "Case_ID": "CAN-2026-145",
+      "Writeup": "",
+      "Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
+      "Source_URLs": [
+        "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
+        "https://www.knoxnews.com/story/news/politics/2026/08/31/knox-county-bans-flock-cameras-amid-surveillance-backlash/91545538007/"
+      ]
+    },
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Memphis",
+      "State": "TN",
+      "What": "MPD ~200 Flock cameras; resident privacy debate",
+      "Date": "2026-08-21",
+      "Date_Label": "Aug. 21, 2026",
+      "ID": "—",
+      "Writeup": "#memphis-flock-debate",
+      "Source_URL": "https://www.actionnews5.com/2026/08/21/flock-cameras-spark-privacy-debate-memphis/",
+      "Source_URLs": [
+        "https://www.actionnews5.com/2026/08/21/flock-cameras-spark-privacy-debate-memphis/"
+      ]
+    },
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Sullivan County",
+      "State": "TN",
+      "What": "Non-renewal",
+      "Date": "2026-08-20",
+      "Date_Label": "Aug. 20, 2026",
+      "ID": "CAN-2026-100",
+      "Case_ID": "CAN-2026-100",
+      "Writeup": "#sullivan-flock-suspend",
+      "Source_URL": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
+      "Source_URLs": [
+        "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
+        "https://www.wvlt.tv/2026/08/17/sullivan-county-sheriffs-office-suspend-use-flock-cameras-urges-communitys-right-decide/"
+      ]
+    },
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Kingston",
+      "State": "TN",
+      "What": "Non-renewal",
+      "Date": "2026-08-19",
+      "Date_Label": "Aug. 19, 2026",
+      "ID": "CAN-2026-114",
+      "Case_ID": "CAN-2026-114",
+      "Writeup": "#kingston-flock-nonrenew",
+      "Source_URL": "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
+      "Source_URLs": [
+        "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html"
+      ]
+    },
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Loudon County",
+      "State": "TN",
+      "What": "Proposed Flock rollout; room opposed; no contract signed",
+      "Date": "2026-08-19",
+      "Date_Label": "Aug. 19, 2026",
+      "ID": "—",
+      "Writeup": "#loudon-flock-proposal",
+      "Source_URL": "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/",
+      "Source_URLs": [
+        "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/"
+      ]
+    },
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Monterey",
+      "State": "TN",
+      "What": "Vendor-swap recommendation",
+      "Date": "2026-08-17",
+      "Date_Label": "Aug. 17, 2026",
+      "ID": "CAN-2026-115",
+      "Case_ID": "CAN-2026-115",
+      "Writeup": "#monterey-flock-axon",
+      "Source_URL": "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
+      "Source_URLs": [
+        "https://www.herald-citizen.com/news/local/monterey-moving-away-from-flock-cameras/article_8c3302c4-bdba-566e-ade0-f8216df038e6.html",
+        "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html"
+      ]
+    },
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Murfreesboro",
+      "State": "TN",
+      "What": "Council kept a June renewal; cameras stay",
+      "Date": "2026-08-14",
+      "Date_Label": "Aug. 14, 2026",
+      "ID": "—",
+      "Writeup": "#murfreesboro-flock-keep",
+      "Source_URL": "https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract/",
+      "Source_URLs": [
+        "https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract/"
+      ]
+    },
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Anderson County",
+      "State": "TN",
+      "What": "Mayor Frank hearing Sept. 10; SO runs 4 cameras",
+      "Date": "2026-08-11",
+      "Date_Label": "Aug. 11, 2026",
+      "ID": "—",
+      "Writeup": "#anderson-flock-hearing",
+      "Source_URL": "https://www.wvlt.tv/2026/08/11/anderson-county-mayor-calls-public-hearing-license-plate-readers/",
+      "Source_URLs": [
+        "https://www.wvlt.tv/2026/08/11/anderson-county-mayor-calls-public-hearing-license-plate-readers/"
+      ]
+    },
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "White County",
+      "State": "TN",
+      "What": "Rescinded",
+      "Date": "2026-07-20",
+      "Date_Label": "July 20, 2026",
+      "ID": "CAN-2026-113",
+      "Case_ID": "CAN-2026-113",
+      "Writeup": "#white-county-flock-rescind",
+      "Source_URL": "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
+      "Source_URLs": [
+        "https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
+        "https://theucnow.com/2026/06/15/white-county-commissioners-reject-camera-funding/"
+      ]
+    },
+    {
+      "Kind": "misuse",
+      "Kind_Label": "Misuse",
+      "Place": "Oak Ridge Police Department",
+      "State": "TN",
+      "What": "1 officer fired and criminally charged",
+      "Date": "2026",
+      "Date_Label": "2026",
+      "ID": "FLK-2025-027",
+      "Case_ID": "FLK-2025-027",
+      "Writeup": "#gauthier",
+      "Source_URL": "https://www.wbir.com/article/news/crime/da-former-oak-ridge-officer-pleads-guilty-23-counts-of-misconduct/51-c7b250d6-0843-4407-a0e2-2ecc68c2809a",
+      "Source_URLs": [
+        "https://www.wbir.com/article/news/crime/da-former-oak-ridge-officer-pleads-guilty-23-counts-of-misconduct/51-c7b250d6-0843-4407-a0e2-2ecc68c2809a"
+      ]
+    },
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Johnson City",
+      "State": "TN",
+      "What": "145 LPR + 145 PTZ Safe City Flock deal",
+      "Date": "2025-07-17",
+      "Date_Label": "July 17, 2025",
+      "ID": "—",
+      "Writeup": "#regional",
+      "Source_URL": "https://www.johnsoncitytn.org/services/police/safe_city_project/index.php",
+      "Source_URLs": [
+        "https://www.johnsoncitytn.org/services/police/safe_city_project/index.php"
+      ]
+    },
+    {
+      "Kind": "wrongful",
+      "Kind_Label": "Wrongful stop",
+      "Place": "Elizabethton / Fargo",
+      "State": "TN",
+      "What": "Facial-recognition mismatch (not Flock ALPR)",
+      "Date": "2025-07-14",
+      "Date_Label": "July 14, 2025",
+      "ID": "ID 32",
+      "Wrongful_ID": "32",
+      "Writeup": "#elizabethton-frt",
+      "Source_URL": "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+      "Source_URLs": [
+        "https://www.grandforksherald.com/news/north-dakota/ai-error-jails-innocent-grandmother-for-months-in-north-dakota-fraud-case",
+        "https://www.theguardian.com/us-news/2026/mar/12/tennessee-grandmother-ai-fraud"
+      ]
+    },
+    {
+      "Kind": "wrongful",
+      "Kind_Label": "Wrongful stop",
+      "Place": "Morristown",
+      "State": "TN",
+      "What": "Flock plate misread / gunpoint stop",
+      "Date": "2025-06",
+      "Date_Label": "June 2025",
+      "ID": "ID 31",
+      "Wrongful_ID": "31",
+      "Writeup": "#morristown-misread",
+      "Source_URL": "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
+      "Source_URLs": [
+        "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
+        "https://ij.org/dozens-of-innocent-motorists-have-been-pulled-over-detained-at-gunpoint-or-jailed-due-to-ai-license-plate-camera-errors/"
+      ]
+    },
+    {
+      "Kind": "misuse",
+      "Kind_Label": "Misuse",
+      "Place": "Shelby County Sheriff's Office",
+      "State": "TN",
+      "What": "1 deputy relieved of duty / under investigation",
+      "Date": "2024",
+      "Date_Label": "2024",
+      "ID": "ALPR-2024-030",
+      "Case_ID": "ALPR-2024-030",
+      "Writeup": "#gordon",
+      "Source_URL": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/",
+      "Source_URLs": [
+        "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/"
+      ]
+    }
+  ]
+}
