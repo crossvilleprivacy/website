@@ -205,6 +205,96 @@
     return Date.UTC(year, month - 1, date, hour, minute, second);
   }
 
+  var MONTH_NAMES = [
+    "Jan.",
+    "Feb.",
+    "Mar.",
+    "Apr.",
+    "May",
+    "Jun.",
+    "Jul.",
+    "Aug.",
+    "Sep.",
+    "Oct.",
+    "Nov.",
+    "Dec.",
+  ];
+
+  function monthKeyFromTimestamp(value) {
+    var raw = String(value || "").trim();
+    var day = raw.match(DATE_RE);
+    if (day) {
+      return day[1] + "/" + day[3];
+    }
+    var monthOnly = raw.match(MONTH_RE);
+    if (monthOnly) {
+      return monthOnly[1] + "/" + monthOnly[2];
+    }
+    var m = raw.match(TS_RE);
+    if (!m) {
+      return "";
+    }
+    return m[1] + "/" + m[3];
+  }
+
+  function formatMonthLabel(monthKey) {
+    var raw = String(monthKey || "").trim();
+    var m = raw.match(MONTH_RE);
+    if (!m) {
+      return raw;
+    }
+    var month = Number(m[1]);
+    var year = m[2];
+    if (month < 1 || month > 12) {
+      return raw;
+    }
+    return MONTH_NAMES[month - 1] + " " + year;
+  }
+
+  function monthSortValue(monthKey) {
+    var m = String(monthKey || "").trim().match(MONTH_RE);
+    if (!m) {
+      return 0;
+    }
+    return Number(m[2]) * 100 + Number(m[1]);
+  }
+
+  function uniqueMonths(records) {
+    var seen = {};
+    var out = [];
+    (records || []).forEach(function (row) {
+      var key = monthKeyFromTimestamp(row.timestamp);
+      if (!key || seen[key]) {
+        return;
+      }
+      seen[key] = true;
+      out.push(key);
+    });
+    out.sort(function (a, b) {
+      return monthSortValue(b) - monthSortValue(a);
+    });
+    return out;
+  }
+
+  function normalizeSortBy(sortBy) {
+    if (sortBy === false) {
+      return "date-asc";
+    }
+    if (sortBy === true || sortBy == null || sortBy === "") {
+      return "date-desc";
+    }
+    var raw = String(sortBy).trim().toLowerCase();
+    if (
+      raw === "date-asc" ||
+      raw === "date-desc" ||
+      raw === "row-id-asc" ||
+      raw === "row-id-desc"
+    ) {
+      return raw;
+    }
+    return "date-desc";
+  }
+
   function officerNumber(value) {
     var m = String(value || "").trim().match(OFFICER_RE);
     return m ? Number(m[1]) : 0;
@@ -293,10 +383,14 @@
     return "about " + Math.round(count / median) + "×";
   }
 
-  function filterRows(records, query, officerId, casePresent) {
+  function filterRows(records, query, officerId, casePresent, monthKey) {
     var q = String(query || "").trim().toLowerCase();
     var officer = String(officerId || "").trim();
     var caseFlag = normalizeCaseFlag(casePresent);
+    var month = String(monthKey || "").trim();
+    if (month && !MONTH_RE.test(month)) {
+      month = "";
+    }
     return (records || []).filter(function (row) {
       if (officer && row.officer_id !== officer) {
         return false;
@@ -304,16 +398,23 @@
       if (caseFlag && normalizeCaseFlag(row.case_number_present) !== caseFlag) {
         return false;
       }
+      if (month && monthKeyFromTimestamp(row.timestamp) !== month) {
+        return false;
+      }
       if (!q) {
         return true;
       }
       var rowId = String(row.row_id || "");
       var hash = String(row.sha256_hash || "").toLowerCase();
+      var rowMonth = monthKeyFromTimestamp(row.timestamp);
+      var monthLabel = formatMonthLabel(rowMonth).toLowerCase();
       return (
         rowId === q ||
         hash.indexOf(q) !== -1 ||
         row.officer_id.toLowerCase().indexOf(q) !== -1 ||
         row.timestamp.toLowerCase().indexOf(q) !== -1 ||
+        rowMonth.toLowerCase().indexOf(q) !== -1 ||
+        monthLabel.indexOf(q) !== -1 ||
         row.reason.toLowerCase().indexOf(q) !== -1 ||
         normalizeCaseFlag(row.case_number_present).indexOf(q) !== -1 ||
         caseFlagLabel(row.case_number_present).toLowerCase().indexOf(q) !== -1
@@ -321,18 +422,36 @@
     });
   }
 
-  function sortRows(records, newestFirst) {
+  function compareRowId(a, b) {
+    var idDiff = (a.row_id || 0) - (b.row_id || 0);
+    if (idDiff !== 0) {
+      return idDiff;
+    }
+    return officerNumber(a.officer_id) - officerNumber(b.officer_id);
+  }
+
+  function compareDate(a, b) {
+    var diff = parseTimestamp(a.timestamp) - parseTimestamp(b.timestamp);
+    if (diff !== 0) {
+      return diff;
+    }
+    return compareRowId(a, b);
+  }
+
+  function sortRows(records, sortBy) {
+    var mode = normalizeSortBy(sortBy);
     var copy = (records || []).slice();
     copy.sort(function (a, b) {
-      var diff = parseTimestamp(a.timestamp) - parseTimestamp(b.timestamp);
-      if (diff === 0) {
-        var idDiff = (a.row_id || 0) - (b.row_id || 0);
-        if (idDiff !== 0) {
-          return idDiff;
-        }
-        return officerNumber(a.officer_id) - officerNumber(b.officer_id);
+      if (mode === "row-id-asc") {
+        return compareRowId(a, b);
       }
-      return newestFirst === false ? diff : -diff;
+      if (mode === "row-id-desc") {
+        return compareRowId(b, a);
+      }
+      if (mode === "date-asc") {
+        return compareDate(a, b);
+      }
+      return compareDate(b, a);
     });
     return copy;
   }
@@ -378,6 +497,27 @@
       select.appendChild(opt);
     });
     if (current && (counts || []).some(function (item) { return item.officer_id === current; })) {
+      select.value = current;
+    }
+  }
+
+  function fillMonthSelect(doc, select, months) {
+    if (!select) {
+      return;
+    }
+    var current = select.value;
+    select.innerHTML = "";
+    var all = doc.createElement("option");
+    all.value = "";
+    all.textContent = "All months";
+    select.appendChild(all);
+    (months || []).forEach(function (key) {
+      var opt = doc.createElement("option");
+      opt.value = key;
+      opt.textContent = formatMonthLabel(key);
+      select.appendChild(opt);
+    });
+    if (current && (months || []).indexOf(current) !== -1) {
       select.value = current;
     }
   }
@@ -546,6 +686,8 @@
     var search = root.querySelector("[data-audit-search]");
     var officerSelect = root.querySelector("[data-audit-officer]");
     var caseSelect = root.querySelector("[data-audit-case]");
+    var monthSelect = root.querySelector("[data-audit-month]");
+    var sortSelect = root.querySelector("[data-audit-sort]");
     var pageSizeSelect = root.querySelector("[data-audit-page-size]");
     var status = root.querySelector("[data-audit-status]");
     var tbody = root.querySelector("[data-audit-body]");
@@ -563,15 +705,20 @@
       return Number((pageSizeSelect && pageSizeSelect.value) || 15);
     }
 
+    function currentSortBy() {
+      return normalizeSortBy(sortSelect ? sortSelect.value : "date-desc");
+    }
+
     function draw() {
       var filtered = sortRows(
         filterRows(
           records,
           search ? search.value : "",
           officerSelect ? officerSelect.value : "",
-          caseSelect ? caseSelect.value : ""
+          caseSelect ? caseSelect.value : "",
+          monthSelect ? monthSelect.value : ""
         ),
-        true
+        currentSortBy()
       );
       var sliced = pageRows(filtered, page, currentPageSize());
       page = sliced.page;
@@ -622,6 +769,12 @@
     if (caseSelect) {
       caseSelect.addEventListener("change", onFilterChange);
     }
+    if (monthSelect) {
+      monthSelect.addEventListener("change", onFilterChange);
+    }
+    if (sortSelect) {
+      sortSelect.addEventListener("change", onFilterChange);
+    }
     if (pageSizeSelect) {
       pageSizeSelect.addEventListener("change", onFilterChange);
     }
@@ -648,6 +801,12 @@
         if (caseSelect) {
           caseSelect.value = "";
         }
+        if (monthSelect) {
+          monthSelect.value = "";
+        }
+        if (sortSelect) {
+          sortSelect.value = "date-desc";
+        }
         page = 1;
         draw();
       });
@@ -657,6 +816,7 @@
       records = list || [];
       var counts = officerCounts(records);
       fillSelect(doc, officerSelect, counts);
+      fillMonthSelect(doc, monthSelect, uniqueMonths(records));
       renderVolume(doc, volumeEl, volumeStats(records, 5), function (officerId) {
         if (officerSelect) {
           if (officerSelect.value === officerId) {
@@ -716,6 +876,10 @@
     normalizeSourceHash: normalizeSourceHash,
     canonicalSourcePayload: canonicalSourcePayload,
     parseTimestamp: parseTimestamp,
+    monthKeyFromTimestamp: monthKeyFromTimestamp,
+    formatMonthLabel: formatMonthLabel,
+    uniqueMonths: uniqueMonths,
+    normalizeSortBy: normalizeSortBy,
     officerNumber: officerNumber,
     uniqueOfficers: uniqueOfficers,
     officerCounts: officerCounts,

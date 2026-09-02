@@ -4476,6 +4476,10 @@ body.sticky-cta-is-dismissed {
   align-items: end;
 }
 
+.search-log-controls {
+  grid-template-columns: minmax(12rem, 1.5fr) repeat(5, minmax(7.25rem, 0.75fr)) auto;
+}
+
 .audit-log-controls .speech-field input[type="search"],
 .audit-log-controls .speech-field select,
 .audit-log-controls > .btn {
@@ -4520,7 +4524,9 @@ body.sticky-cta-is-dismissed {
 .audit-log-controls .speech-field:has([data-cancel-state]),
 .audit-log-controls .speech-field:has([data-case-state]),
 .audit-log-controls .speech-field:has([data-official-state]),
-.audit-log-controls .speech-field:has([data-audit-officer]) {
+.audit-log-controls .speech-field:has([data-audit-officer]),
+.audit-log-controls .speech-field:has([data-audit-month]),
+.audit-log-controls .speech-field:has([data-audit-sort]) {
   min-width: 8rem;
 }
 
@@ -4647,9 +4653,25 @@ body.sticky-cta-is-dismissed {
   margin: 0.85rem 0 0.15rem;
 }
 
+@media (max-width: 1100px) {
+  .search-log-controls {
+    grid-template-columns: minmax(0, 1.4fr) repeat(2, minmax(7.5rem, 1fr)) auto;
+  }
+
+  .search-log-controls > .btn {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+
 @media (max-width: 800px) {
   .audit-log-controls {
     grid-template-columns: 1fr;
+  }
+
+  .search-log-controls > .btn {
+    grid-column: auto;
+    justify-self: stretch;
   }
 }
 

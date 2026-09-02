@@ -169,7 +169,7 @@
           data-csv-url="docs/TPRA_Flock_Query_Records.csv"
         >
           <div class="audit-log-volume" data-audit-volume hidden></div>
-          <div class="audit-log-controls">
+          <div class="audit-log-controls search-log-controls">
             <label class="speech-field">
               <span>Search</span>
               <input
@@ -179,6 +179,12 @@
                 autocomplete="off"
                 spellcheck="false"
               />
+            </label>
+            <label class="speech-field">
+              <span>Month</span>
+              <select data-audit-month>
+                <option value="">All months</option>
+              </select>
             </label>
             <label class="speech-field">
               <span>Officer</span>
@@ -193,6 +199,15 @@
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
                 <option value="unknown">Unknown</option>
+              </select>
+            </label>
+            <label class="speech-field">
+              <span>Sort</span>
+              <select data-audit-sort>
+                <option value="date-desc" selected>Date (newest)</option>
+                <option value="date-asc">Date (oldest)</option>
+                <option value="row-id-asc">Row ID (low → high)</option>
+                <option value="row-id-desc">Row ID (high → low)</option>
               </select>
             </label>
             <label class="speech-field">
