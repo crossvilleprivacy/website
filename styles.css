@@ -219,8 +219,9 @@ main,
   overflow-x: clip;
 }
 
-/* Form / interactive controls: visible borders so selects & fields read as clickable */
-select,
+/* Form / interactive controls: visible borders so fields read as clickable.
+   Do NOT set appearance:none on <select> — on Linux Chromium that breaks
+   click-to-open (hold-mouse-to-pick). Native menulist keeps the OS popup. */
 textarea,
 input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]):not([type="hidden"]):not([type="submit"]):not([type="button"]):not([type="reset"]):not([type="image"]) {
   appearance: none;
@@ -240,16 +241,22 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
 }
 
 select {
-  padding-right: 2.35rem;
-  background-image:
-    linear-gradient(45deg, transparent 50%, var(--muted) 50%),
-    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
-  background-position:
-    calc(100% - 1.15rem) calc(50% - 0.12rem),
-    calc(100% - 0.78rem) calc(50% - 0.12rem);
-  background-size: 0.42rem 0.42rem, 0.42rem 0.42rem;
-  background-repeat: no-repeat;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.85rem;
+  border: 1.5px solid var(--control-border);
+  border-radius: 4px;
+  background-color: var(--control-bg);
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 1rem;
+  line-height: 1.35;
   cursor: pointer;
+  /* Force the native popup control — overrides any older appearance:none. */
+  appearance: auto;
+  -webkit-appearance: menulist;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 select:hover,
@@ -1706,22 +1713,19 @@ article:has(+ .panel) {
 }
 
 .news-age-filter {
-  appearance: none;
+  appearance: auto;
+  -webkit-appearance: menulist;
   border: 1.5px solid var(--control-border);
-  background: var(--control-bg);
+  background-color: var(--control-bg);
+  background-image: none;
   color: inherit;
   font: inherit;
   font-size: 0.86rem;
   font-weight: 650;
-  padding: 0.45rem 2rem 0.45rem 0.75rem;
+  padding: 0.45rem 0.75rem;
   min-height: 2.5rem;
   border-radius: 0.35rem;
   cursor: pointer;
-  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
-    linear-gradient(135deg, currentColor 50%, transparent 50%);
-  background-position: calc(100% - 14px) calc(50% - 2px), calc(100% - 9px) calc(50% - 2px);
-  background-size: 5px 5px, 5px 5px;
-  background-repeat: no-repeat;
 }
 
 .news-age-filter:hover,
@@ -2160,10 +2164,13 @@ p.note + .commission-district {
   padding: 0.55rem 0.7rem;
   border: 1.5px solid var(--control-border);
   border-radius: 4px;
-  background: var(--panel);
+  background-color: var(--panel);
+  background-image: none;
   color: var(--ink);
   font: inherit;
   cursor: pointer;
+  appearance: auto;
+  -webkit-appearance: menulist;
 }
 
 .district-finder-result {
@@ -4264,16 +4271,19 @@ body.sticky-cta-is-dismissed {
 .speech-field select {
   width: 100%;
   min-height: 2.85rem;
-  padding: 0.75rem 2.35rem 0.75rem 0.85rem;
+  padding: 0.55rem 0.85rem;
   border: 1.5px solid var(--control-border);
   border-radius: 4px;
   background-color: var(--control-bg);
+  background-image: none;
   color: var(--ink-soft);
   font: inherit;
   font-weight: 500;
   font-size: 1rem;
   box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
   cursor: pointer;
+  appearance: auto;
+  -webkit-appearance: menulist;
 }
 
 .speech-field select:hover {
@@ -4496,7 +4506,7 @@ body.sticky-cta-is-dismissed {
   box-sizing: border-box;
   width: 100%;
   min-width: 0;
-  height: 2.85rem;
+  height: auto;
   min-height: 2.85rem;
   margin: 0;
   font-size: 1rem;
@@ -4504,8 +4514,10 @@ body.sticky-cta-is-dismissed {
   border-radius: 4px;
   cursor: pointer;
   pointer-events: auto;
-  /* Keep real vertical padding: 0 padding breaks click-to-open on Linux. */
-  padding: 0.45rem 2.35rem 0.45rem 0.85rem;
+  padding: 0.55rem 0.85rem;
+  appearance: auto;
+  -webkit-appearance: menulist;
+  background-image: none;
 }
 
 .audit-log-controls .speech-field:has(select) {
