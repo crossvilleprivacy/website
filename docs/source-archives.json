@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1042,
-  "source_count": 1042,
+  "count": 1044,
+  "source_count": 1044,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -5248,6 +5248,13 @@
       "captured": "2026-08-01T15:31:32Z",
       "method": "existing"
     },
+    "https://www.local10.com/news/florida/2026/08/31/de-flocking-florida-desantis-orders-removal-of-controversial-cameras-on-state-highways": {
+      "url": "https://www.local10.com/news/florida/2026/08/31/de-flocking-florida-desantis-orders-removal-of-controversial-cameras-on-state-highways/",
+      "wayback": "https://web.archive.org/web/20260901145838/https://www.local10.com/news/florida/2026/08/31/de-flocking-florida-desantis-orders-removal-of-controversial-cameras-on-state-highways/",
+      "timestamp": "20260901145838",
+      "captured": "2026-09-01T14:58:38Z",
+      "method": "existing"
+    },
     "https://www.local10.com/news/local/2026/03/10/florida-keys-deputy-arrested-on-computer-crimes-charges": {
       "url": "https://www.local10.com/news/local/2026/03/10/florida-keys-deputy-arrested-on-computer-crimes-charges/",
       "wayback": "https://web.archive.org/web/20260706135023/https://www.local10.com/news/local/2026/03/10/florida-keys-deputy-arrested-on-computer-crimes-charges/",
@@ -5352,6 +5359,13 @@
       "timestamp": "20260822105433",
       "captured": "2026-08-22T10:54:33Z",
       "method": "save"
+    },
+    "https://www.mlive.com/news/flint/2026/08/michigan-lawsuit-could-decide-whether-police-can-keep-flock-camera-data-secret.html": {
+      "url": "https://www.mlive.com/news/flint/2026/08/michigan-lawsuit-could-decide-whether-police-can-keep-flock-camera-data-secret.html",
+      "wayback": "https://web.archive.org/web/20260824075141/https://www.mlive.com/news/flint/2026/08/michigan-lawsuit-could-decide-whether-police-can-keep-flock-camera-data-secret.html",
+      "timestamp": "20260824075141",
+      "captured": "2026-08-24T07:51:41Z",
+      "method": "existing"
     },
     "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia": {
       "url": "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
