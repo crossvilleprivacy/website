@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1044,
-  "source_count": 1044,
+  "count": 1051,
+  "source_count": 1051,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -5472,6 +5472,20 @@
       "captured": "2026-08-17T22:47:05Z",
       "method": "save"
     },
+    "https://www.nbcmiami.com/news/local/fdot-announces-removal-of-flock-cameras-after-public-concerns-of-privacy/3852860": {
+      "url": "https://www.nbcmiami.com/news/local/fdot-announces-removal-of-flock-cameras-after-public-concerns-of-privacy/3852860/",
+      "wayback": "https://web.archive.org/web/20260901145513/https://www.nbcmiami.com/news/local/fdot-announces-removal-of-flock-cameras-after-public-concerns-of-privacy/3852860/",
+      "timestamp": "20260901145513",
+      "captured": "2026-09-01T14:55:13Z",
+      "method": "existing"
+    },
+    "https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246": {
+      "url": "https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246",
+      "wayback": "https://web.archive.org/web/20260218213513/https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246",
+      "timestamp": "20260218213513",
+      "captured": "2026-02-18T21:35:13Z",
+      "method": "existing"
+    },
     "https://www.nbcnews.com/tech/security/flock-safety-police-abuse-oversight-data-retention-rcna592217": {
       "url": "https://www.nbcnews.com/tech/security/flock-safety-police-abuse-oversight-data-retention-rcna592217",
       "wayback": "https://web.archive.org/web/20260814210008/https://www.nbcnews.com/tech/security/flock-safety-police-abuse-oversight-data-retention-rcna592217",
@@ -5507,12 +5521,26 @@
       "captured": "2026-08-30T06:56:27Z",
       "method": "existing"
     },
+    "https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action": {
+      "url": "https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action/",
+      "wayback": "https://web.archive.org/web/20260828110622/https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action/",
+      "timestamp": "20260828110622",
+      "captured": "2026-08-28T11:06:22Z",
+      "method": "existing"
+    },
     "https://www.news4jax.com/news/local/2026/08/31/jso-ends-license-plate-reader-use-following-fdots-directive": {
       "url": "https://www.news4jax.com/news/local/2026/08/31/jso-ends-license-plate-reader-use-following-fdots-directive/",
       "archive_today": "https://archive.today/20260901015250/https://www.news4jax.com/news/local/2026/08/31/jso-ends-license-plate-reader-use-following-fdots-directive/",
       "timestamp": "20260901015250",
       "captured": "2026-09-01T01:52:50Z",
       "method": "archive.today"
+    },
+    "https://www.news4jax.com/news/local/2026/08/31/putnam-county-sheriff-pulls-plug-on-license-plate-readers-amid-privacy-debate": {
+      "url": "https://www.news4jax.com/news/local/2026/08/31/putnam-county-sheriff-pulls-plug-on-license-plate-readers-amid-privacy-debate/",
+      "wayback": "https://web.archive.org/web/20260901145907/https://www.news4jax.com/news/local/2026/08/31/putnam-county-sheriff-pulls-plug-on-license-plate-readers-amid-privacy-debate/",
+      "timestamp": "20260901145907",
+      "captured": "2026-09-01T14:59:07Z",
+      "method": "existing"
     },
     "https://www.newsandsentinel.com/news/local-news/2026/08/license-to-track-lawmakers-question-flock-safety-over-data-security-and-privacy-concerns": {
       "url": "https://www.newsandsentinel.com/news/local-news/2026/08/license-to-track-lawmakers-question-flock-safety-over-data-security-and-privacy-concerns/",
@@ -5554,6 +5582,13 @@
       "wayback": "https://web.archive.org/web/20260811195912/https://www.newsradioklbj.com/headline/lago-vista-votes-to-remove-flock-cameras/",
       "timestamp": "20260811195912",
       "captured": "2026-08-11T19:59:12Z",
+      "method": "existing"
+    },
+    "https://www.newstalk987.com/2026/08/25/knox-county-commission-may-vote-to-remove-all-flock-cameras": {
+      "url": "https://www.newstalk987.com/2026/08/25/knox-county-commission-may-vote-to-remove-all-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260901133943/https://www.newstalk987.com/2026/08/25/knox-county-commission-may-vote-to-remove-all-flock-cameras/",
+      "timestamp": "20260901133943",
+      "captured": "2026-09-01T13:39:43Z",
       "method": "existing"
     },
     "https://www.newsweek.com/massie-bill-would-bar-funding-for-police-using-flock-license-plate-readers-12244884": {
@@ -5764,6 +5799,13 @@
       "wayback": "https://web.archive.org/web/20260809025417/https://www.providencejournal.com/story/news/politics/courts/2026/08/08/flock-camera-lawsuit-cumberland-rhode-island-woman-says-camera-misidentified-her-leading-to-arrest/91218705007/",
       "timestamp": "20260809025417",
       "captured": "2026-08-09T02:54:17Z",
+      "method": "existing"
+    },
+    "https://www.publicsafety.gc.ca/cnt/trnsprnc/brfng-mtrls/prlmntry-bndrs/20220625/05-en.aspx": {
+      "url": "https://www.publicsafety.gc.ca/cnt/trnsprnc/brfng-mtrls/prlmntry-bndrs/20220625/05-en.aspx",
+      "wayback": "https://web.archive.org/web/20260422043113/https://www.publicsafety.gc.ca/cnt/trnsprnc/brfng-mtrls/prlmntry-bndrs/20220625/05-en.aspx",
+      "timestamp": "20260422043113",
+      "captured": "2026-04-22T04:31:13Z",
       "method": "existing"
     },
     "https://www.rangemedia.co/flock-safety-spokane-county-bad-searches": {
@@ -6078,6 +6120,13 @@
       "wayback": "https://web.archive.org/web/20260812024303/https://www.thedrive.com/news/how-flock-cameras-wrongly-tracked-me-for-days-over-stolen-plates-and-sent-police-after-me",
       "timestamp": "20260812024303",
       "captured": "2026-08-12T02:43:03Z",
+      "method": "existing"
+    },
+    "https://www.theglobeandmail.com/canada/alberta/article-alberta-judge-hands-out-fines-over-jail-time-for-covid-19-violators": {
+      "url": "https://www.theglobeandmail.com/canada/alberta/article-alberta-judge-hands-out-fines-over-jail-time-for-covid-19-violators/",
+      "wayback": "https://web.archive.org/web/20221016010101/https://www.theglobeandmail.com/canada/alberta/article-alberta-judge-hands-out-fines-over-jail-time-for-covid-19-violators/",
+      "timestamp": "20221016010101",
+      "captured": "2022-10-16T01:01:01Z",
       "method": "existing"
     },
     "https://www.theglobeandmail.com/canada/article-canada-federal-emergencies-act-summary-powers": {
