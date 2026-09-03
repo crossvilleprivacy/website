@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1056,
-  "source_count": 1056,
+  "count": 1057,
+  "source_count": 1057,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1016,6 +1016,13 @@
       "wayback": "https://web.archive.org/web/20260815204729/https://en.wikipedia.org/wiki/Flock_Safety",
       "timestamp": "20260815204729",
       "captured": "2026-08-15T20:47:29Z",
+      "method": "existing"
+    },
+    "https://en.wikipedia.org/wiki/Nothing_to_hide_argument": {
+      "url": "https://en.wikipedia.org/wiki/Nothing_to_hide_argument",
+      "wayback": "https://web.archive.org/web/20260829034259/https://en.wikipedia.org/wiki/Nothing_to_hide_argument",
+      "timestamp": "20260829034259",
+      "captured": "2026-08-29T03:42:59Z",
       "method": "existing"
     },
     "https://epic.org/epic-files-amicus-brief-arguing-citys-use-of-flock-alprs-violated-fourth-amendment": {
