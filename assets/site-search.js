@@ -195,8 +195,8 @@
     var allInId = tokens.every(function (t) { return id.indexOf(t) !== -1; });
     if (allInId) score += 25;
     
-    // Prefer sections/articles over full pages
-    if (item.type === "section" || item.type === "article" || item.type === "panel") score += 10;
+    // Prefer sections/articles/headings over full pages
+    if (item.type === "section" || item.type === "article" || item.type === "panel" || item.type === "heading") score += 10;
     
     return score;
   }
@@ -275,6 +275,26 @@
       var body = panel.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
       items.push({
         type: "panel",
+        id: id,
+        title: title,
+        subtitle: label,
+        body: body,
+        url: pageUrl + "#" + id,
+        pageUrl: pageUrl,
+        source: null
+      });
+    });
+    // Index headings with IDs directly (common pattern: <h2 id="...">)
+    var headings = doc.querySelectorAll("h2[id], h3[id], h4[id]");
+    headings.forEach(function (heading) {
+      var id = heading.id;
+      if (!id || items.some(function (i) { return i.id === id; })) return;
+      var title = heading.textContent.trim();
+      // Get surrounding content from parent
+      var parent = heading.parentElement;
+      var body = parent ? parent.textContent.replace(/\s+/g, " ").trim().slice(0, 500) : title;
+      items.push({
+        type: "heading",
         id: id,
         title: title,
         subtitle: label,
