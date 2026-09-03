@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1039,
-  "source_count": 1039,
+  "count": 1042,
+  "source_count": 1042,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -4108,6 +4108,13 @@
       "captured": "2026-07-29T17:36:36Z",
       "method": "existing"
     },
+    "https://www.elcerrito.gov/DocumentCenter/View/20320/El-Cerrito-Police-and-Flock-Agreement": {
+      "url": "https://www.elcerrito.gov/DocumentCenter/View/20320/El-Cerrito-Police-and-Flock-Agreement",
+      "wayback": "https://web.archive.org/web/20260903180641/https://www.elcerrito.gov/DocumentCenter/View/20320/El-Cerrito-Police-and-Flock-Agreement",
+      "timestamp": "20260903180641",
+      "captured": "2026-09-03T18:06:41Z",
+      "method": "existing"
+    },
     "https://www.elkgrovenews.net/deflock-elk-grove-audit-flock-license-plate-reader-data-sharing": {
       "url": "https://www.elkgrovenews.net/deflock-elk-grove-audit-flock-license-plate-reader-data-sharing/",
       "wayback": "https://web.archive.org/web/20260803185238/https://www.elkgrovenews.net/deflock-elk-grove-audit-flock-license-plate-reader-data-sharing/",
@@ -4591,6 +4598,13 @@
       "captured": "2026-08-21T12:33:59Z",
       "method": "save"
     },
+    "https://www.govtech.com/health/cell-data-surveillance-used-to-enforce-county-pandemic-rules": {
+      "url": "https://www.govtech.com/health/cell-data-surveillance-used-to-enforce-county-pandemic-rules",
+      "wayback": "https://web.archive.org/web/20260603035700/https://www.govtech.com/health/cell-data-surveillance-used-to-enforce-county-pandemic-rules",
+      "timestamp": "20260603035700",
+      "captured": "2026-06-03T03:57:00Z",
+      "method": "existing"
+    },
     "https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000": {
       "url": "https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000",
       "wayback": "https://web.archive.org/web/20260629203349/https://www.govtech.com/public-safety/flock-safety-suspension-costs-oregon-city-7-000",
@@ -4736,6 +4750,13 @@
       "wayback": "https://web.archive.org/web/20260821090048/https://www.houstonpublicmedia.org/articles/police/2026/08/20/559941/deer-park-police-officer-suspended-after-admitting-to-the-misuse-of-flock-cameras/",
       "timestamp": "20260821090048",
       "captured": "2026-08-21T09:00:48Z",
+      "method": "existing"
+    },
+    "https://www.hrw.org/sites/default/files/report_pdf/china0519_web.pdf": {
+      "url": "https://www.hrw.org/sites/default/files/report_pdf/china0519_web.pdf",
+      "wayback": "https://web.archive.org/web/20260416020953/https://www.hrw.org/sites/default/files/report_pdf/china0519_web.pdf",
+      "timestamp": "20260416020953",
+      "captured": "2026-04-16T02:09:53Z",
       "method": "existing"
     },
     "https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case": {
