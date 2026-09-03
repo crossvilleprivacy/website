@@ -1,9 +1,16 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1035,
-  "source_count": 1035,
+  "count": 1039,
+  "source_count": 1039,
   "archives": {
+    "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
+      "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
+      "wayback": "https://web.archive.org/web/20230202071400/http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
+      "timestamp": "20230202071400",
+      "captured": "2023-02-02T07:14:00Z",
+      "method": "existing"
+    },
     "http://www.clearwatercounty.org/news_detail_T2_R565.php": {
       "url": "http://www.clearwatercounty.org/news_detail_T2_R565.php",
       "wayback": "https://web.archive.org/web/20260829235753/http://www.clearwatercounty.org/news_detail_T2_R565.php",
@@ -906,6 +913,13 @@
       "captured": "2026-08-16T17:11:11Z",
       "method": "existing"
     },
+    "https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location": {
+      "url": "https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location/",
+      "wayback": "https://web.archive.org/web/20260830221506/https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location/",
+      "timestamp": "20260830221506",
+      "captured": "2026-08-30T22:15:06Z",
+      "method": "existing"
+    },
     "https://deflock.org/": {
       "url": "https://deflock.org/",
       "wayback": "https://web.archive.org/web/20260809223512/https://deflock.org/",
@@ -1666,6 +1680,13 @@
       "wayback": "https://web.archive.org/web/20260512145951/https://midbaynews.com/post/niceville-officer-accused-of-using-police-databases-to-target-fellow-cop",
       "timestamp": "20260512145951",
       "captured": "2026-05-12T14:59:51Z",
+      "method": "existing"
+    },
+    "https://midbaynews.com/post/walton-commission-says-flock-you-to-controversial-cameras-in-rapid-vote": {
+      "url": "https://midbaynews.com/post/walton-commission-says-flock-you-to-controversial-cameras-in-rapid-vote",
+      "wayback": "https://web.archive.org/web/20260903164430/https://midbaynews.com/post/walton-commission-says-flock-you-to-controversial-cameras-in-rapid-vote",
+      "timestamp": "20260903164430",
+      "captured": "2026-09-03T16:44:30Z",
       "method": "existing"
     },
     "https://mix993.com/2026/08/12/residents-speak-out-on-flock-cameras-at-crossville-city-council": {
@@ -2835,6 +2856,13 @@
       "wayback": "https://web.archive.org/web/20260814021642/https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-ceo-goes-ballistic",
       "timestamp": "20260814021642",
       "captured": "2026-08-14T02:16:42Z",
+      "method": "existing"
+    },
+    "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates": {
+      "url": "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates",
+      "wayback": "https://web.archive.org/web/20260825031828/https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates",
+      "timestamp": "20260825031828",
+      "captured": "2026-08-25T03:18:28Z",
       "method": "existing"
     },
     "https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country": {

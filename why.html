@@ -97,6 +97,7 @@
               <a href="#nothing-to-hide">The argument</a>
               <a href="#covid">COVID</a>
               <a href="#surveillance-states">Surveillance states</a>
+              <a href="#fine-print">The fine print</a>
               <a href="#here">It can happen here</a>
             </nav>
           </div>
@@ -126,6 +127,11 @@
               <a href="#iran">Iran</a> ·
               <a href="#russia">Russia</a> ·
               <a href="#china">China</a>
+            </li>
+            <li><a href="#fine-print">The fine print</a> ·
+              <a href="#contract-clause">The clause</a> ·
+              <a href="#aggregated-data">Aggregated data</a> ·
+              <a href="#public-private-network">Public-private network</a>
             </li>
             <li><a href="#here">It can happen here</a> ·
               <a href="#deflock-monitoring">They're watching</a>
@@ -384,6 +390,47 @@
       </div>
     </section>
 
+    <section aria-labelledby="fine-print">
+      <div class="wrap">
+        <span class="section-label">Contract language</span>
+        <h2 id="fine-print"><a href="#fine-print" class="heading-anchor">The fine print: who owns your data?</a></h2>
+
+        <p>Flock says they don't sell customer data. The contract says they don't need to — they already have a perpetual license to it.</p>
+
+        <article class="case" id="contract-clause">
+          <h3><a href="#contract-clause" class="heading-anchor">The "worldwide, perpetual" clause</a></h3>
+          <p>The <a href="https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates" target="_blank" rel="noopener">ACLU</a> <a class="source-archive" href="https://web.archive.org/web/20260825031828/https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-25T03:18:28Z">archived Aug. 25, 2026</time></a> found that Flock's template contract — signed by police departments across the country — contains this language:</p>
+          <blockquote class="pull-quote" style="margin:1.25rem 0;padding:1rem 1.25rem;border-left:4px solid var(--accent);background:var(--card-bg);font-size:0.95rem;">
+            <p style="margin:0;">The customer "hereby grants Flock" a <strong>"non-exclusive, worldwide, perpetual, royalty-free right and license"</strong> to "disclose the Agency Data… for investigative purposes."</p>
+          </blockquote>
+          <p>Even if a department clicks "don't share my data" in Flock's system settings, this contract clause may override that choice. The ACLU of Massachusetts found it in contracts across 80+ police departments. Boston PD is the only major department known to have negotiated the clause out of their agreement.</p>
+        </article>
+
+        <article class="case" id="aggregated-data">
+          <h3><a href="#aggregated-data" class="heading-anchor">Raw data vs. "Aggregated Data"</a></h3>
+          <p>The contracts draw a distinction:</p>
+          <ul>
+            <li><strong>Raw plate data and footage:</strong> Contractually limited to law enforcement "for investigative purposes only."</li>
+            <li><strong>"Aggregated Data":</strong> Flock gets a perpetual, irrevocable license to use it for "crime prevention efforts, other Flock offerings, and marketing."</li>
+          </ul>
+          <p>The catch: <strong>Flock defines what "aggregated" means.</strong> Their contract says it's data where personal information has been "permanently anonymized by commercially available standards" — but Flock decides when that standard is met. "Crime prevention efforts" and "other Flock offerings" are vague enough to include partnerships with private security firms, analytics companies, or products sold to HOAs and businesses.</p>
+        </article>
+
+        <article class="case" id="public-private-network">
+          <h3><a href="#public-private-network" class="heading-anchor">The network is already public-private</a></h3>
+          <p>Flock's contracts explicitly list "schools, neighborhood homeowners associations, businesses, and individual users" as "Non-Agency End Users" who can share footage into the same cloud that police search. The bigger issue isn't whether Flock will sell your data to private companies — it's that private companies are already feeding data into the system your police department queries.</p>
+          <p>When Crossville PD searches Flock, they're searching a database that includes cameras from retailers, HOAs, and private security across the network. When those private entities search, they can see alerts from police hotlists. It's one system with public and private nodes.</p>
+        </article>
+
+        <p class="sources"><span class="source-cite-label">Sources</span>
+          <span class="source-cite-item"><a href="https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates" target="_blank" rel="noopener">ACLU: Flock Can Share Data Even When Police Opt Out (Oct. 2025)</a> <a class="source-archive" href="https://web.archive.org/web/20260825031828/https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-massachusetts-and-updates" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-25T03:18:28Z">archived Aug. 25, 2026</time></a></span>
+          <span class="source-cite-item"><a href="https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location/" target="_blank" rel="noopener">ACLU-MA: Flock Gives Law Enforcement All Over the Country Access (Oct. 2025)</a> <a class="source-archive" href="https://web.archive.org/web/20260830221506/https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-30T22:15:06Z">archived Aug. 30, 2026</time></a></span>
+          <span class="source-cite-item"><a href="https://www.elcerrito.gov/DocumentCenter/View/20320/El-Cerrito-Police-and-Flock-Agreement" target="_blank" rel="noopener">El Cerrito, CA Flock contract (PDF)</a></span>
+          <span class="source-cite-item"><a href="http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823" target="_blank" rel="noopener">Pascagoula, MS Flock contract (PDF)</a> <a class="source-archive" href="https://web.archive.org/web/20230202071400/http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2023-02-02T07:14:00Z">archived Feb. 2, 2023</time></a></span>
+        </p>
+      </div>
+    </section>
+
     <section aria-labelledby="here">
       <div class="wrap">
         <span class="section-label">Crossville</span>
@@ -484,5 +531,6 @@
   </footer>
 
   <script src="assets/campaign-ux.js" defer></script>
+  <script src="assets/site-search.js?v=20260903b"></script>
 </body>
 </html>
