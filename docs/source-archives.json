@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 1051,
-  "source_count": 1051,
+  "count": 1056,
+  "source_count": 1056,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -6423,6 +6423,13 @@
       "captured": "2026-08-08T05:09:13Z",
       "method": "existing"
     },
+    "https://www.wboi.org/2026-08-31/fort-waynes-flock-cameras-are-offline-and-coming-down": {
+      "url": "https://www.wboi.org/2026-08-31/fort-waynes-flock-cameras-are-offline-and-coming-down",
+      "wayback": "https://web.archive.org/web/20260903150720/https://www.wboi.org/2026-08-31/fort-waynes-flock-cameras-are-offline-and-coming-down",
+      "timestamp": "20260903150720",
+      "captured": "2026-09-03T15:07:20Z",
+      "method": "existing"
+    },
     "https://www.wboi.org/government/2026-08-25/fort-wayne-city-council-rejects-flock-camera-contract": {
       "url": "https://www.wboi.org/government/2026-08-25/fort-wayne-city-council-rejects-flock-camera-contract",
       "wayback": "https://web.archive.org/web/20260826062151/https://www.wboi.org/government/2026-08-25/fort-wayne-city-council-rejects-flock-camera-contract",
@@ -6512,6 +6519,13 @@
       "timestamp": "20260819231251",
       "captured": "2026-08-19T23:12:51Z",
       "method": "save"
+    },
+    "https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824": {
+      "url": "https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824",
+      "wayback": "https://web.archive.org/web/20260903150819/https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824",
+      "timestamp": "20260903150819",
+      "captured": "2026-09-03T15:08:19Z",
+      "method": "existing"
     },
     "https://www.wesh.com/article/haines-city-police-officer-arrested-accused-of-misusing-investigative-database/73405827": {
       "url": "https://www.wesh.com/article/haines-city-police-officer-arrested-accused-of-misusing-investigative-database/73405827",
@@ -6659,6 +6673,13 @@
       "timestamp": "20260901144831",
       "captured": "2026-09-01T14:48:31Z",
       "method": "save"
+    },
+    "https://www.wjhg.com/2026/09/01/franklin-county-joins-other-panhandle-counties-dropping-flock-cameras": {
+      "url": "https://www.wjhg.com/2026/09/01/franklin-county-joins-other-panhandle-counties-dropping-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260901113811/https://www.wjhg.com/2026/09/01/franklin-county-joins-other-panhandle-counties-dropping-flock-cameras/",
+      "timestamp": "20260901113811",
+      "captured": "2026-09-01T11:38:11Z",
+      "method": "existing"
     },
     "https://www.wjhl.com/news/local/johnson-city-getting-new-security-equipment": {
       "url": "https://www.wjhl.com/news/local/johnson-city-getting-new-security-equipment/",
@@ -6833,6 +6854,13 @@
       "wayback": "https://web.archive.org/web/20260815030354/https://www.wsbtv.com/news/local/paulding-county/ex-911-director-arrested-misusing-flock-camera/SK2OPFQWFJAQBFH3SEUIZJ63FE/",
       "timestamp": "20260815030354",
       "captured": "2026-08-15T03:03:54Z",
+      "method": "existing"
+    },
+    "https://www.wsfa.com/2026/08/27/alabama-lawmakers-could-weigh-flock-camera-legislation-2027-session": {
+      "url": "https://www.wsfa.com/2026/08/27/alabama-lawmakers-could-weigh-flock-camera-legislation-2027-session/",
+      "wayback": "https://web.archive.org/web/20260829052958/https://www.wsfa.com/2026/08/27/alabama-lawmakers-could-weigh-flock-camera-legislation-2027-session/",
+      "timestamp": "20260829052958",
+      "captured": "2026-08-29T05:29:58Z",
       "method": "existing"
     },
     "https://www.wsls.com/news/local/2026/08/14/henry-county-sheriff-wayne-davis-suspends-hcsos-access-to-flock-camera-system-effective-immediately": {
@@ -7044,6 +7072,13 @@
       "timestamp": "20260825122057",
       "captured": "2026-08-25T12:20:57Z",
       "method": "save"
+    },
+    "https://www.wvlt.tv/2026/09/01/knox-county-commission-passes-emergency-ordinance-remove-flock-cameras-heres-what-happens-next": {
+      "url": "https://www.wvlt.tv/2026/09/01/knox-county-commission-passes-emergency-ordinance-remove-flock-cameras-heres-what-happens-next/",
+      "wayback": "https://web.archive.org/web/20260901113534/https://www.wvlt.tv/2026/09/01/knox-county-commission-passes-emergency-ordinance-remove-flock-cameras-heres-what-happens-next/",
+      "timestamp": "20260901113534",
+      "captured": "2026-09-01T11:35:34Z",
+      "method": "existing"
     },
     "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton": {
       "url": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
