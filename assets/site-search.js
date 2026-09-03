@@ -158,8 +158,11 @@
   }
 
   function haystack(item) {
+    // Include ID with hyphens converted to spaces for better matching
+    var idVariants = (item.id || "").replace(/-/g, " ");
     return normalize([
       item.id,
+      idVariants,
       item.title,
       item.subtitle,
       item.body,
@@ -167,15 +170,51 @@
     ].join(" "));
   }
 
+  function scoreMatch(item, tokens, query) {
+    // Higher score = better match
+    var score = 0;
+    var id = normalize(item.id || "");
+    var title = normalize(item.title || "");
+    var q = normalize(query);
+    
+    // Exact ID match (e.g., searching "fine-print" or "fine print" matches #fine-print)
+    if (id === q || id === q.replace(/\s+/g, "-")) score += 100;
+    // ID contains query
+    else if (id.indexOf(q.replace(/\s+/g, "-")) !== -1) score += 50;
+    
+    // Title starts with query
+    if (title.indexOf(q) === 0) score += 80;
+    // Title contains query as whole phrase
+    else if (title.indexOf(q) !== -1) score += 40;
+    
+    // All tokens in title
+    var allInTitle = tokens.every(function (t) { return title.indexOf(t) !== -1; });
+    if (allInTitle) score += 30;
+    
+    // All tokens in ID
+    var allInId = tokens.every(function (t) { return id.indexOf(t) !== -1; });
+    if (allInId) score += 25;
+    
+    // Prefer sections/articles over full pages
+    if (item.type === "section" || item.type === "article" || item.type === "panel") score += 10;
+    
+    return score;
+  }
+
   function searchIndex(query, scope) {
     var q = normalize(query);
     if (!q) return [];
     var tokens = q.split(/\s+/).filter(Boolean);
     var pool = scope === "page" ? pageIndex : index.concat(pageIndex);
-    return pool.filter(function (item) {
+    var matches = pool.filter(function (item) {
       var h = item._haystack || (item._haystack = haystack(item));
       return tokens.every(function (t) { return h.indexOf(t) !== -1; });
-    }).slice(0, 50);
+    });
+    // Sort by relevance score
+    matches.sort(function (a, b) {
+      return scoreMatch(b, tokens, q) - scoreMatch(a, tokens, q);
+    });
+    return matches.slice(0, 50);
   }
 
   function loadJSON(url) {
@@ -217,6 +256,25 @@
       var body = section.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
       items.push({
         type: "section",
+        id: id,
+        title: title,
+        subtitle: label,
+        body: body,
+        url: pageUrl + "#" + id,
+        pageUrl: pageUrl,
+        source: null
+      });
+    });
+    // Index panels and other divs with IDs that have headings
+    var panels = doc.querySelectorAll("div.panel[id], div.case[id], div[id]:has(h2, h3, h4)");
+    panels.forEach(function (panel) {
+      var id = panel.id;
+      if (!id || items.some(function (i) { return i.id === id; })) return;
+      var h = panel.querySelector("h2, h3, h4");
+      var title = h ? h.textContent.trim() : id;
+      var body = panel.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
+      items.push({
+        type: "panel",
         id: id,
         title: title,
         subtitle: label,
