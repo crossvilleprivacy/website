@@ -195,8 +195,9 @@
     var allInId = tokens.every(function (t) { return id.indexOf(t) !== -1; });
     if (allInId) score += 25;
     
-    // Prefer sections/articles/headings over full pages
-    if (item.type === "section" || item.type === "article" || item.type === "panel" || item.type === "heading") score += 10;
+    // Prefer specific anchors over full pages
+    if (item.type === "section" || item.type === "article" || item.type === "panel" || item.type === "heading" || item.type === "case") score += 15;
+    else if (item.type === "anchor") score += 5;
     
     return score;
   }
@@ -228,81 +229,81 @@
     var parser = new DOMParser();
     var doc = parser.parseFromString(html, "text/html");
     var items = [];
-    // Index articles
-    var articles = doc.querySelectorAll("article[id]");
-    articles.forEach(function (article) {
-      var id = article.id;
-      var h = article.querySelector("h2, h3, h4, .article-title");
-      var title = h ? h.textContent.trim() : id;
-      var body = article.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
+    var seenIds = {};
+    
+    function addItem(type, id, title, body, extraKeywords) {
+      if (!id || seenIds[id]) return;
+      seenIds[id] = true;
+      var keywords = extraKeywords || "";
       items.push({
-        type: "page",
+        type: type,
         id: id,
         title: title,
         subtitle: label,
-        body: body,
+        body: body + " " + keywords,
         url: pageUrl + "#" + id,
         pageUrl: pageUrl,
         source: null
       });
+    }
+    
+    // Index ANY element with an ID (comprehensive)
+    var allWithIds = doc.querySelectorAll("[id]");
+    allWithIds.forEach(function (el) {
+      var id = el.id;
+      if (!id || seenIds[id]) return;
+      // Skip script, style, meta elements
+      var tag = el.tagName.toLowerCase();
+      if (tag === "script" || tag === "style" || tag === "meta" || tag === "link") return;
+      
+      // Determine title based on element type
+      var title = "";
+      var h = el.querySelector("h1, h2, h3, h4, h5, h6");
+      if (h) {
+        title = h.textContent.trim();
+      } else if (tag.match(/^h[1-6]$/)) {
+        title = el.textContent.trim();
+      } else {
+        // Use first 80 chars of text or the ID
+        title = el.textContent.replace(/\s+/g, " ").trim().slice(0, 80) || id;
+      }
+      
+      // Get body content
+      var body = el.textContent.replace(/\s+/g, " ").trim().slice(0, 600);
+      
+      // Extract extra keywords: link text, Case IDs mentioned
+      var extraKeywords = [];
+      var links = el.querySelectorAll("a[href]");
+      links.forEach(function (a) {
+        var linkText = a.textContent.trim();
+        if (linkText && linkText.length < 100) extraKeywords.push(linkText);
+      });
+      // Find Case IDs in text (CAN-xxx, FLK-xxx, ALPR-xxx, ID xxx)
+      var caseIdMatches = body.match(/\b(CAN|FLK|ALPR)-\d+\b/gi) || [];
+      var idMatches = body.match(/\bID\s*\d+\b/gi) || [];
+      extraKeywords = extraKeywords.concat(caseIdMatches, idMatches);
+      
+      // Determine type
+      var type = "anchor";
+      if (tag === "article") type = "article";
+      else if (tag === "section") type = "section";
+      else if (tag.match(/^h[1-6]$/)) type = "heading";
+      else if (el.classList.contains("panel")) type = "panel";
+      else if (el.classList.contains("case")) type = "case";
+      else if (tag === "div" && h) type = "panel";
+      
+      addItem(type, id, title, body, extraKeywords.join(" "));
     });
-    // Index sections
-    var sections = doc.querySelectorAll("section[id]");
-    sections.forEach(function (section) {
-      var id = section.id;
-      if (items.some(function (i) { return i.id === id; })) return;
-      var h = section.querySelector("h2, h3");
-      var title = h ? h.textContent.trim() : id;
-      var body = section.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
-      items.push({
-        type: "section",
-        id: id,
-        title: title,
-        subtitle: label,
-        body: body,
-        url: pageUrl + "#" + id,
-        pageUrl: pageUrl,
-        source: null
-      });
-    });
-    // Index panels and other divs with IDs that have headings
-    var panels = doc.querySelectorAll("div.panel[id], div.case[id], div[id]:has(h2, h3, h4)");
-    panels.forEach(function (panel) {
-      var id = panel.id;
-      if (!id || items.some(function (i) { return i.id === id; })) return;
-      var h = panel.querySelector("h2, h3, h4");
-      var title = h ? h.textContent.trim() : id;
-      var body = panel.textContent.replace(/\s+/g, " ").trim().slice(0, 500);
-      items.push({
-        type: "panel",
-        id: id,
-        title: title,
-        subtitle: label,
-        body: body,
-        url: pageUrl + "#" + id,
-        pageUrl: pageUrl,
-        source: null
-      });
-    });
-    // Index headings with IDs directly (common pattern: <h2 id="...">)
-    var headings = doc.querySelectorAll("h2[id], h3[id], h4[id]");
-    headings.forEach(function (heading) {
-      var id = heading.id;
-      if (!id || items.some(function (i) { return i.id === id; })) return;
-      var title = heading.textContent.trim();
-      // Get surrounding content from parent
-      var parent = heading.parentElement;
-      var body = parent ? parent.textContent.replace(/\s+/g, " ").trim().slice(0, 500) : title;
-      items.push({
-        type: "heading",
-        id: id,
-        title: title,
-        subtitle: label,
-        body: body,
-        url: pageUrl + "#" + id,
-        pageUrl: pageUrl,
-        source: null
-      });
+    
+    // Also index sections by aria-labelledby (common pattern where ID is on the heading)
+    var labelledSections = doc.querySelectorAll("section[aria-labelledby]");
+    labelledSections.forEach(function (section) {
+      var labelId = section.getAttribute("aria-labelledby");
+      if (!labelId || seenIds[labelId]) return;
+      var h = doc.getElementById(labelId);
+      var title = h ? h.textContent.trim() : labelId;
+      var body = section.textContent.replace(/\s+/g, " ").trim().slice(0, 600);
+      addItem("section", labelId, title, body, "");
     });
     // Index the whole page as fallback
     var mainTitle = doc.querySelector("title");
