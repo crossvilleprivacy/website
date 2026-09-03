@@ -180,6 +180,22 @@ h2 {
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
+h2[id],
+article[id],
+section[id] {
+  scroll-margin-top: calc(var(--site-header-h, 4rem) + 1rem);
+}
+
+.heading-anchor {
+  color: inherit;
+  text-decoration: none;
+}
+.heading-anchor:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.15em;
+}
+
 h3 {
   font-size: 1.2rem;
 }
@@ -1229,13 +1245,16 @@ section {
 }
 
 .section-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  color: var(--accent);
-  font-size: 0.78rem;
+  display: inline-block;
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0.75rem;
+  background: var(--accent);
+  color: #fff;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  border-radius: 4px;
 }
 
 .tldr {

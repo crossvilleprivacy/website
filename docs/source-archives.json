@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-03",
-  "count": 990,
-  "source_count": 990,
+  "count": 1035,
+  "source_count": 1035,
   "archives": {
     "http://www.clearwatercounty.org/news_detail_T2_R565.php": {
       "url": "http://www.clearwatercounty.org/news_detail_T2_R565.php",
@@ -123,11 +123,32 @@
       "captured": "2026-08-10T07:03:13Z",
       "method": "existing"
     },
+    "https://abcnews.go.com/US/police-officer-arrested-park-throwing-ball-daughter-due/story?id=70032966": {
+      "url": "https://abcnews.go.com/US/police-officer-arrested-park-throwing-ball-daughter-due/story?id=70032966",
+      "wayback": "https://web.archive.org/web/20260815173253/https://abcnews.go.com/US/police-officer-arrested-park-throwing-ball-daughter-due/story?id=70032966",
+      "timestamp": "20260815173253",
+      "captured": "2026-08-15T17:32:53Z",
+      "method": "existing"
+    },
     "https://abcnews4.com/newsletter-daily/teen-wrongfully-detained-north-myrtle-beach-police-department-press-conference-lanisha-hemingway-tyler-bailey-law-firm-bodycam-video": {
       "url": "https://abcnews4.com/newsletter-daily/teen-wrongfully-detained-north-myrtle-beach-police-department-press-conference-lanisha-hemingway-tyler-bailey-law-firm-bodycam-video",
       "wayback": "https://web.archive.org/web/20241122145937/https://www.abcnews4.com/newsletter-daily/teen-wrongfully-detained-north-myrtle-beach-police-department-press-conference-lanisha-hemingway-tyler-bailey-law-firm-bodycam-video",
       "timestamp": "20241122145937",
       "captured": "2024-11-22T14:59:37Z",
+      "method": "existing"
+    },
+    "https://apnews.com/article/088cbf7bf64c8fda8ac3b1ffd66a0b86": {
+      "url": "https://apnews.com/article/088cbf7bf64c8fda8ac3b1ffd66a0b86",
+      "wayback": "https://web.archive.org/web/20260504215108/https://apnews.com/article/088cbf7bf64c8fda8ac3b1ffd66a0b86",
+      "timestamp": "20260504215108",
+      "captured": "2026-05-04T21:51:08Z",
+      "method": "existing"
+    },
+    "https://apnews.com/article/08ed2492e93b2e815eca0a38ad6a1c70": {
+      "url": "https://apnews.com/article/08ed2492e93b2e815eca0a38ad6a1c70",
+      "wayback": "https://web.archive.org/web/20260903153458/https://apnews.com/article/08ed2492e93b2e815eca0a38ad6a1c70",
+      "timestamp": "20260903153458",
+      "captured": "2026-09-03T15:34:58Z",
       "method": "existing"
     },
     "https://apnews.com/article/detroit-facial-recognition-arrest-821d260e932a4582a6a912dd61fde157": {
@@ -149,6 +170,13 @@
       "wayback": "https://web.archive.org/web/20260417154915/https://apnews.com/article/handcuffed-black-girls-colorado-settlement-a7a695839b8841e56b7db0d103cc5ed1",
       "timestamp": "20260417154915",
       "captured": "2026-04-17T15:49:15Z",
+      "method": "existing"
+    },
+    "https://apnews.com/general-news-fc6e542ad4817e3e90d8828a34272805": {
+      "url": "https://apnews.com/general-news-fc6e542ad4817e3e90d8828a34272805",
+      "wayback": "https://web.archive.org/web/20260903153608/https://apnews.com/general-news-fc6e542ad4817e3e90d8828a34272805",
+      "timestamp": "20260903153608",
+      "captured": "2026-09-03T15:36:08Z",
       "method": "existing"
     },
     "https://arkansasradio.com/2026/08/mayflower-follows-cabot-halting-flock-cameras": {
@@ -270,6 +298,13 @@
       "captured": "2026-08-16T17:06:28Z",
       "method": "save"
     },
+    "https://barrypopik.com/new_york_city/entry/you_have_nothing_to_fear_if_you_have_nothing_to_hide": {
+      "url": "https://barrypopik.com/new_york_city/entry/you_have_nothing_to_fear_if_you_have_nothing_to_hide",
+      "wayback": "https://web.archive.org/web/20250824005259/https://barrypopik.com/new_york_city/entry/you_have_nothing_to_fear_if_you_have_nothing_to_hide",
+      "timestamp": "20250824005259",
+      "captured": "2025-08-24T00:52:59Z",
+      "method": "existing"
+    },
     "https://baynews9.com/fl/tampa/news/2026/08/26/pasco-sheriff-nocco-to-end-license-plate-detection-systems": {
       "url": "https://baynews9.com/fl/tampa/news/2026/08/26/pasco-sheriff-nocco-to-end-license-plate-detection-systems",
       "wayback": "https://web.archive.org/web/20260827130552/https://baynews9.com/fl/tampa/news/2026/08/26/pasco-sheriff-nocco-to-end-license-plate-detection-systems",
@@ -372,6 +407,13 @@
       "wayback": "https://web.archive.org/web/20260801012444/https://centralcurrent.org/flock-safety-removes-its-license-plate-readers-finalizing-eight-month-breakup-with-city-of-syracuse/",
       "timestamp": "20260801012444",
       "captured": "2026-08-01T01:24:44Z",
+      "method": "existing"
+    },
+    "https://civiciq.com/blog/flock-safety-alternatives-competitors-top-alpr-solutions-for-government-agencies-in-2026": {
+      "url": "https://civiciq.com/blog/flock-safety-alternatives-competitors-top-alpr-solutions-for-government-agencies-in-2026",
+      "wayback": "https://web.archive.org/web/20260901113241/https://civiciq.com/blog/flock-safety-alternatives-competitors-top-alpr-solutions-for-government-agencies-in-2026",
+      "timestamp": "20260901113241",
+      "captured": "2026-09-01T11:32:41Z",
       "method": "existing"
     },
     "https://clarksvillenow.com/local/license-plate-reader-cameras-council-debates-pros-and-cons-before-vote-to-support-them-in-clarksville": {
@@ -1095,6 +1137,13 @@
       "captured": "2026-08-02T08:21:12Z",
       "method": "existing"
     },
+    "https://fox49.tv/news/local/desantis-calls-for-florida-action-on-flock-cameras-warns-against-digital-surveillance-st": {
+      "url": "https://fox49.tv/news/local/desantis-calls-for-florida-action-on-flock-cameras-warns-against-digital-surveillance-st",
+      "wayback": "https://web.archive.org/web/20260903144924/https://fox49.tv/news/local/desantis-calls-for-florida-action-on-flock-cameras-warns-against-digital-surveillance-st",
+      "timestamp": "20260903144924",
+      "captured": "2026-09-03T14:49:24Z",
+      "method": "existing"
+    },
     "https://foxchattanooga.com/news/local/bradley-county-residents-raise-concerns-over-ai-powered-flock-cameras-near-businesses": {
       "url": "https://foxchattanooga.com/news/local/bradley-county-residents-raise-concerns-over-ai-powered-flock-cameras-near-businesses",
       "wayback": "https://web.archive.org/web/20260816171408/https://foxchattanooga.com/news/local/bradley-county-residents-raise-concerns-over-ai-powered-flock-cameras-near-businesses",
@@ -1326,6 +1375,13 @@
       "captured": "2026-08-16T17:17:15Z",
       "method": "existing"
     },
+    "https://ipvm.com/reports/xinjiang-police-files": {
+      "url": "https://ipvm.com/reports/xinjiang-police-files",
+      "archive_today": "https://archive.today/20241101154137/https://ipvm.com/reports/xinjiang-police-files",
+      "timestamp": "20241101154137",
+      "captured": "2024-11-01T15:41:37Z",
+      "method": "archive.today"
+    },
     "https://jambroadcasting.com/kendall-county-votes-to-end-flock-safety-contract": {
       "url": "https://jambroadcasting.com/kendall-county-votes-to-end-flock-safety-contract",
       "wayback": "https://web.archive.org/web/20260827140131/https://jambroadcasting.com/kendall-county-votes-to-end-flock-safety-contract/",
@@ -1407,6 +1463,13 @@
       "wayback": "https://web.archive.org/web/20260826061127/https://keyt.com/news/top-stories/2026/08/25/santa-barbara-city-council-delays-decision-on-flock-camera-replacement/",
       "timestamp": "20260826061127",
       "captured": "2026-08-26T06:11:27Z",
+      "method": "existing"
+    },
+    "https://kgfw.com/2026/08/04/ord-city-council-votes-to-remove-flock-cameras": {
+      "url": "https://kgfw.com/2026/08/04/ord-city-council-votes-to-remove-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260903145006/https://kgfw.com/2026/08/04/ord-city-council-votes-to-remove-flock-cameras/",
+      "timestamp": "20260903145006",
+      "captured": "2026-09-03T14:50:06Z",
       "method": "existing"
     },
     "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras": {
@@ -1584,6 +1647,13 @@
       "captured": "2025-10-29T15:05:52Z",
       "method": "existing"
     },
+    "https://michiganadvance.com/2026/08/24/kettering-university-student-sues-genesee-county-alleges-they-withheld-records-on-flock-cameras": {
+      "url": "https://michiganadvance.com/2026/08/24/kettering-university-student-sues-genesee-county-alleges-they-withheld-records-on-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260827064139/https://michiganadvance.com/2026/08/24/kettering-university-student-sues-genesee-county-alleges-they-withheld-records-on-flock-cameras/",
+      "timestamp": "20260827064139",
+      "captured": "2026-08-27T06:41:39Z",
+      "method": "existing"
+    },
     "https://midbaynews.com/post/former-niceville-cop-no-contest-in-flock-stalking-case": {
       "url": "https://midbaynews.com/post/former-niceville-cop-no-contest-in-flock-stalking-case",
       "wayback": "https://web.archive.org/web/20260812031450/https://midbaynews.com/post/former-niceville-cop-no-contest-in-flock-stalking-case",
@@ -1646,6 +1716,13 @@
       "timestamp": "20260813175723",
       "captured": "2026-08-13T17:57:23Z",
       "method": "existing"
+    },
+    "https://nationalpost.com/news/canada/banks-were-only-asked-to-freeze-accounts-of-freedom-convoy-protestors-in-ottawa-and-after-most-were-warned-rcmp": {
+      "url": "https://nationalpost.com/news/canada/banks-were-only-asked-to-freeze-accounts-of-freedom-convoy-protestors-in-ottawa-and-after-most-were-warned-rcmp",
+      "archive_today": "https://archive.today/20220308111203/https://nationalpost.com/news/canada/banks-were-only-asked-to-freeze-accounts-of-freedom-convoy-protestors-in-ottawa-and-after-most-were-warned-rcmp",
+      "timestamp": "20220308111203",
+      "captured": "2022-03-08T11:12:03Z",
+      "method": "archive.today"
     },
     "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances": {
       "url": "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
@@ -1716,6 +1793,13 @@
       "timestamp": "20260729184045",
       "captured": "2026-07-29T18:40:45Z",
       "method": "existing"
+    },
+    "https://ovd.news/": {
+      "url": "https://ovd.news/",
+      "archive_today": "https://archive.today/20240324200955/http://ovd.news/",
+      "timestamp": "20240324200955",
+      "captured": "2024-03-24T20:09:55Z",
+      "method": "archive.today"
     },
     "https://patents.google.com/patent/US11416545B1/en": {
       "url": "https://patents.google.com/patent/US11416545B1/en",
@@ -2242,6 +2326,13 @@
       "captured": "2026-07-16T09:46:40Z",
       "method": "existing"
     },
+    "https://us105fm.com/robinson-council-discontinues-flock-safety-contract": {
+      "url": "https://us105fm.com/robinson-council-discontinues-flock-safety-contract/",
+      "wayback": "https://web.archive.org/web/20260903133121/https://us105fm.com/robinson-council-discontinues-flock-safety-contract/",
+      "timestamp": "20260903133121",
+      "captured": "2026-09-03T13:31:21Z",
+      "method": "existing"
+    },
     "https://usa.streetsblog.org/2026/07/30/flock-off-mass-surveillance-surge-jeopardizes-lifesaving-crash-reduction-strategy": {
       "url": "https://usa.streetsblog.org/2026/07/30/flock-off-mass-surveillance-surge-jeopardizes-lifesaving-crash-reduction-strategy",
       "wayback": "https://web.archive.org/web/20260807205854/https://usa.streetsblog.org/2026/07/30/flock-off-mass-surveillance-surge-jeopardizes-lifesaving-crash-reduction-strategy",
@@ -2515,6 +2606,13 @@
       "captured": "2026-08-25T19:59:42Z",
       "method": "existing"
     },
+    "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts": {
+      "url": "https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
+      "wayback": "https://web.archive.org/web/20260825224637/https://www.404media.co/the-government-is-monitoring-anti-flock-tiktok-and-instagram-accounts/",
+      "timestamp": "20260825224637",
+      "captured": "2026-08-25T22:46:37Z",
+      "method": "existing"
+    },
     "https://www.404media.co/the-mayor-who-said-no-when-flock-came-to-town": {
       "url": "https://www.404media.co/the-mayor-who-said-no-when-flock-came-to-town/",
       "wayback": "https://web.archive.org/web/20260817113824/https://www.404media.co/the-mayor-who-said-no-when-flock-came-to-town/",
@@ -2557,12 +2655,47 @@
       "captured": "2026-08-15T13:57:58Z",
       "method": "existing"
     },
+    "https://www.991thesportsanimal.com/2026/08/31/knox-county-commission-orders-removal-of-all-flock-cameras-within-30-days": {
+      "url": "https://www.991thesportsanimal.com/2026/08/31/knox-county-commission-orders-removal-of-all-flock-cameras-within-30-days/",
+      "wayback": "https://web.archive.org/web/20260901113637/https://www.991thesportsanimal.com/2026/08/31/knox-county-commission-orders-removal-of-all-flock-cameras-within-30-days/",
+      "timestamp": "20260901113637",
+      "captured": "2026-09-01T11:36:37Z",
+      "method": "existing"
+    },
     "https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2": {
       "url": "https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2",
       "archive_today": "https://archive.today/20260501145654/https://www.9news.com/article/news/local/coloradan-stopped-by-police-data-errors-flock-alerts/73-593a3772-f43d-46b1-8744-af888b9bd7f2",
       "timestamp": "20260501145654",
       "captured": "2026-05-01T14:56:54Z",
       "method": "archive.today"
+    },
+    "https://www.abc.net.au/news/2019-05-02/chinese-surveillance-app-reverse-engineered-by-rights-group/11062670": {
+      "url": "https://www.abc.net.au/news/2019-05-02/chinese-surveillance-app-reverse-engineered-by-rights-group/11062670",
+      "archive_today": "https://archive.today/20190502015535/https://www.abc.net.au/news/2019-05-02/chinese-surveillance-app-reverse-engineered-by-rights-group/11062670",
+      "timestamp": "20190502015535",
+      "captured": "2019-05-02T01:55:35Z",
+      "method": "archive.today"
+    },
+    "https://www.abc.net.au/news/2021-09-10/covid-19-home-quarantine-facial-recognition-app-divides-opinion/100446812": {
+      "url": "https://www.abc.net.au/news/2021-09-10/covid-19-home-quarantine-facial-recognition-app-divides-opinion/100446812",
+      "archive_today": "https://archive.today/20210910121815/https://www.abc.net.au/news/2021-09-10/covid-19-home-quarantine-facial-recognition-app-divides-opinion/100446812",
+      "timestamp": "20210910121815",
+      "captured": "2021-09-10T12:18:15Z",
+      "method": "archive.today"
+    },
+    "https://www.abc.net.au/news/2021-12-01/multiple-people-escape-howard-springs-quarantine-facility-darwin/100663994": {
+      "url": "https://www.abc.net.au/news/2021-12-01/multiple-people-escape-howard-springs-quarantine-facility-darwin/100663994",
+      "archive_today": "https://archive.today/20211209195215/https://www.abc.net.au/news/2021-12-01/multiple-people-escape-howard-springs-quarantine-facility-darwin/100663994",
+      "timestamp": "20211209195215",
+      "captured": "2021-12-09T19:52:15Z",
+      "method": "archive.today"
+    },
+    "https://www.abc.net.au/news/2023-11-24/investigation-into-legality-of-covid-mandatory-quarantine/103146634": {
+      "url": "https://www.abc.net.au/news/2023-11-24/investigation-into-legality-of-covid-mandatory-quarantine/103146634",
+      "wayback": "https://web.archive.org/web/20260320045723/https://www.abc.net.au/news/2023-11-24/investigation-into-legality-of-covid-mandatory-quarantine/103146634",
+      "timestamp": "20260320045723",
+      "captured": "2026-03-20T04:57:23Z",
+      "method": "existing"
     },
     "https://www.abc10.com/article/news/nation-world/ring-flock-safety/507-cd7aa4e7-156a-4831-8c6e-e97ba90928e0": {
       "url": "https://www.abc10.com/article/news/nation-world/ring-flock-safety/507-cd7aa4e7-156a-4831-8c6e-e97ba90928e0",
@@ -2661,6 +2794,13 @@
       "timestamp": "20260813175743",
       "captured": "2026-08-13T17:57:43Z",
       "method": "existing"
+    },
+    "https://www.aclu.org/news/national-security/you-may-have-nothing-hide-you-still-have-something-fear": {
+      "url": "https://www.aclu.org/news/national-security/you-may-have-nothing-hide-you-still-have-something-fear",
+      "archive_today": "https://archive.today/20240716232447/https://www.aclu.org/news/national-security/you-may-have-nothing-hide-you-still-have-something-fear",
+      "timestamp": "20240716232447",
+      "captured": "2024-07-16T23:24:47Z",
+      "method": "archive.today"
     },
     "https://www.aclu.org/news/privacy-technology/despite-new-updates-flocks-creepy-cameras-remain-major-civil-liberties-threat": {
       "url": "https://www.aclu.org/news/privacy-technology/despite-new-updates-flocks-creepy-cameras-remain-major-civil-liberties-threat",
@@ -2766,6 +2906,13 @@
       "timestamp": "20260902145318",
       "captured": "2026-09-02T14:53:18Z",
       "method": "save"
+    },
+    "https://www.ag.idaho.gov/newsroom/attorney-general-labrador-moves-to-dismiss-charges-against-sara-brady": {
+      "url": "https://www.ag.idaho.gov/newsroom/attorney-general-labrador-moves-to-dismiss-charges-against-sara-brady/",
+      "wayback": "https://web.archive.org/web/20260410164321/https://www.ag.idaho.gov/newsroom/attorney-general-labrador-moves-to-dismiss-charges-against-sara-brady/",
+      "timestamp": "20260410164321",
+      "captured": "2026-04-10T16:43:21Z",
+      "method": "existing"
     },
     "https://www.ajc.com/news/2026/06/2-more-cherokee-deputies-accused-of-misusing-license-plate-reader-database": {
       "url": "https://www.ajc.com/news/2026/06/2-more-cherokee-deputies-accused-of-misusing-license-plate-reader-database/",
@@ -3110,12 +3257,40 @@
       "captured": "2026-08-27T12:12:56Z",
       "method": "save"
     },
+    "https://www.bbc.co.uk/news/articles/c5y3gre3y9yo": {
+      "url": "https://www.bbc.co.uk/news/articles/c5y3gre3y9yo",
+      "archive_today": "https://archive.today/20240816183614/https://www.bbc.co.uk/news/articles/c5y3gre3y9yo",
+      "timestamp": "20240816183614",
+      "captured": "2024-08-16T18:36:14Z",
+      "method": "archive.today"
+    },
+    "https://www.bbc.co.uk/news/articles/cy76dxkpjpjo": {
+      "url": "https://www.bbc.co.uk/news/articles/cy76dxkpjpjo",
+      "archive_today": "https://archive.today/20250314023108/https://www.bbc.co.uk/news/articles/cy76dxkpjpjo",
+      "timestamp": "20250314023108",
+      "captured": "2025-03-14T02:31:08Z",
+      "method": "archive.today"
+    },
+    "https://www.bbc.co.uk/news/world-australia-59486285": {
+      "url": "https://www.bbc.co.uk/news/world-australia-59486285",
+      "archive_today": "https://archive.today/20220108042541/https://www.bbc.co.uk/news/world-australia-59486285",
+      "timestamp": "20220108042541",
+      "captured": "2022-01-08T04:25:41Z",
+      "method": "archive.today"
+    },
     "https://www.bbc.com/news/articles/crrv1rjwgl9o": {
       "url": "https://www.bbc.com/news/articles/crrv1rjwgl9o",
       "wayback": "https://web.archive.org/web/20260814151735/https://www.bbc.com/news/articles/crrv1rjwgl9o",
       "timestamp": "20260814151735",
       "captured": "2026-08-14T15:17:35Z",
       "method": "existing"
+    },
+    "https://www.bbc.com/news/world-middle-east-63240911": {
+      "url": "https://www.bbc.com/news/world-middle-east-63240911",
+      "archive_today": "https://archive.today/20221014135146/https://www.bbc.com/news/world-middle-east-63240911",
+      "timestamp": "20221014135146",
+      "captured": "2022-10-14T13:51:46Z",
+      "method": "archive.today"
     },
     "https://www.biometricupdate.com/202604/lawsuit-alleges-systemic-misuse-of-facial-recognition-by-reno-police": {
       "url": "https://www.biometricupdate.com/202604/lawsuit-alleges-systemic-misuse-of-facial-recognition-by-reno-police",
@@ -3241,6 +3416,13 @@
       "captured": "2026-08-11T16:15:09Z",
       "method": "existing"
     },
+    "https://www.brookings.edu/articles/how-china-harnesses-data-fusion-to-make-sense-of-surveillance-data": {
+      "url": "https://www.brookings.edu/articles/how-china-harnesses-data-fusion-to-make-sense-of-surveillance-data/",
+      "wayback": "https://web.archive.org/web/20260513102600/https://www.brookings.edu/articles/how-china-harnesses-data-fusion-to-make-sense-of-surveillance-data/",
+      "timestamp": "20260513102600",
+      "captured": "2026-05-13T10:26:00Z",
+      "method": "existing"
+    },
     "https://www.businessinsider.com/cities-putting-trash-bags-over-flock-license-plate-readers-2026-6": {
       "url": "https://www.businessinsider.com/cities-putting-trash-bags-over-flock-license-plate-readers-2026-6",
       "wayback": "https://web.archive.org/web/20260812043125/https://www.businessinsider.com/cities-putting-trash-bags-over-flock-license-plate-readers-2026-6",
@@ -3303,6 +3485,34 @@
       "timestamp": "20260523192044",
       "captured": "2026-05-23T19:20:44Z",
       "method": "existing"
+    },
+    "https://www.cbc.ca/amp/1.6376955": {
+      "url": "https://www.cbc.ca/amp/1.6376955",
+      "wayback": "https://web.archive.org/web/20220327151534/https://www.cbc.ca/amp/1.6376955",
+      "timestamp": "20220327151534",
+      "captured": "2022-03-27T15:15:34Z",
+      "method": "existing"
+    },
+    "https://www.cbc.ca/news/canada/calgary/artur-dawid-pawlowski-1.6019536": {
+      "url": "https://www.cbc.ca/news/canada/calgary/artur-dawid-pawlowski-1.6019536",
+      "archive_today": "https://archive.today/20210508222822/https://www.cbc.ca/news/canada/calgary/artur-dawid-pawlowski-1.6019536",
+      "timestamp": "20210508222822",
+      "captured": "2021-05-08T22:28:22Z",
+      "method": "archive.today"
+    },
+    "https://www.cbc.ca/news/canada/calgary/pawlowski-brother-street-church-christopher-scott-contempt-1.6209420": {
+      "url": "https://www.cbc.ca/news/canada/calgary/pawlowski-brother-street-church-christopher-scott-contempt-1.6209420",
+      "archive_today": "https://archive.today/20211015021656/https://www.cbc.ca/news/canada/calgary/pawlowski-brother-street-church-christopher-scott-contempt-1.6209420",
+      "timestamp": "20211015021656",
+      "captured": "2021-10-15T02:16:56Z",
+      "method": "archive.today"
+    },
+    "https://www.cbc.ca/news/politics/emergencies-act-banks-ottawa-protests-1.6353968": {
+      "url": "https://www.cbc.ca/news/politics/emergencies-act-banks-ottawa-protests-1.6353968",
+      "archive_today": "https://archive.today/20220310050743/https://www.cbc.ca/news/politics/emergencies-act-banks-ottawa-protests-1.6353968",
+      "timestamp": "20220310050743",
+      "captured": "2022-03-10T05:07:43Z",
+      "method": "archive.today"
     },
     "https://www.cbs58.com/news/Sheboygan-police-chief-city-administrator-recommend-ending-Flock-Safety-contract": {
       "url": "https://www.cbs58.com/news/Sheboygan-police-chief-city-administrator-recommend-ending-Flock-Safety-contract",
@@ -3555,6 +3765,13 @@
       "captured": "2026-07-26T06:11:01Z",
       "method": "existing"
     },
+    "https://www.cnn.com/2020/04/11/us/kentucky-easter-quarantine-trnd": {
+      "url": "https://www.cnn.com/2020/04/11/us/kentucky-easter-quarantine-trnd",
+      "wayback": "https://web.archive.org/web/20260829004631/https://www.cnn.com/2020/04/11/us/kentucky-easter-quarantine-trnd",
+      "timestamp": "20260829004631",
+      "captured": "2026-08-29T00:46:31Z",
+      "method": "existing"
+    },
     "https://www.cnn.com/2024/02/05/us/colorado-aurora-settlement-stolen-vehicle-mixup": {
       "url": "https://www.cnn.com/2024/02/05/us/colorado-aurora-settlement-stolen-vehicle-mixup",
       "wayback": "https://web.archive.org/web/20260425041656/https://www.cnn.com/2024/02/05/us/colorado-aurora-settlement-stolen-vehicle-mixup",
@@ -3616,6 +3833,13 @@
       "wayback": "https://web.archive.org/web/20260801012459/https://www.congress.gov/119/bills/hr9800/BILLS-119hr9800ih.pdf",
       "timestamp": "20260801012459",
       "captured": "2026-08-01T01:24:59Z",
+      "method": "existing"
+    },
+    "https://www.congress.gov/bill/119th-congress/house-bill/9800": {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9800",
+      "wayback": "https://web.archive.org/web/20260903145803/https://www.congress.gov/bill/119th-congress/house-bill/9800",
+      "timestamp": "20260903145803",
+      "captured": "2026-09-03T14:58:03Z",
       "method": "existing"
     },
     "https://www.cookeville-tn.gov/AgendaCenter/ViewFile/Agenda/_07062023-623": {
@@ -4912,6 +5136,20 @@
       "captured": "2026-08-24T08:41:42Z",
       "method": "existing"
     },
+    "https://www.lansingstatejournal.com/story/news/local/2020/10/19/karl-manke-barber-charges-dropped-whitmer-executive-orders-covid-19-coronavirus/5982347002": {
+      "url": "https://www.lansingstatejournal.com/story/news/local/2020/10/19/karl-manke-barber-charges-dropped-whitmer-executive-orders-covid-19-coronavirus/5982347002/",
+      "archive_today": "https://archive.today/20201020165849/https://www.lansingstatejournal.com/story/news/local/2020/10/19/karl-manke-barber-charges-dropped-whitmer-executive-orders-covid-19-coronavirus/5982347002/",
+      "timestamp": "20201020165849",
+      "captured": "2020-10-20T16:58:49Z",
+      "method": "archive.today"
+    },
+    "https://www.latimes.com/california/story/2020-04-03/paddle-boarder-arrested-in-malibu-after-flouting-coronavirus-closures": {
+      "url": "https://www.latimes.com/california/story/2020-04-03/paddle-boarder-arrested-in-malibu-after-flouting-coronavirus-closures",
+      "archive_today": "https://archive.today/20210904105627/https://www.latimes.com/california/story/2020-04-03/paddle-boarder-arrested-in-malibu-after-flouting-coronavirus-closures",
+      "timestamp": "20210904105627",
+      "captured": "2021-09-04T10:56:27Z",
+      "method": "archive.today"
+    },
     "https://www.latimes.com/california/story/2026-07-11/lapd-suspends-use-of-flock-surveillance-cameras-over-privacy-issues": {
       "url": "https://www.latimes.com/california/story/2026-07-11/lapd-suspends-use-of-flock-surveillance-cameras-over-privacy-issues",
       "wayback": "https://web.archive.org/web/20260814121524/https://www.latimes.com/california/story/2026-07-11/lapd-suspends-use-of-flock-surveillance-cameras-over-privacy-issues",
@@ -4974,6 +5212,13 @@
       "timestamp": "20260812180728",
       "captured": "2026-08-12T18:07:28Z",
       "method": "existing"
+    },
+    "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county": {
+      "url": "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
+      "archive_today": "https://archive.today/20260821042731/https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
+      "timestamp": "20260821042731",
+      "captured": "2026-08-21T04:27:31Z",
+      "method": "archive.today"
     },
     "https://www.macon.com/news/local/crime/article316753780.html": {
       "url": "https://www.macon.com/news/local/crime/article316753780.html",
@@ -5325,6 +5570,13 @@
       "captured": "2026-08-21T14:18:41Z",
       "method": "existing"
     },
+    "https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html": {
+      "url": "https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html",
+      "archive_today": "https://archive.today/20260814065937/https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html",
+      "timestamp": "20260814065937",
+      "captured": "2026-08-14T06:59:37Z",
+      "method": "archive.today"
+    },
     "https://www.oakpark.com/2025/12/02/new-reports-emerge-on-border-patrol-use-of-flock-cameras": {
       "url": "https://www.oakpark.com/2025/12/02/new-reports-emerge-on-border-patrol-use-of-flock-cameras/",
       "wayback": "https://web.archive.org/web/20260513114304/https://www.oakpark.com/2025/12/02/new-reports-emerge-on-border-patrol-use-of-flock-cameras/",
@@ -5472,6 +5724,13 @@
       "captured": "2026-08-21T12:39:04Z",
       "method": "existing"
     },
+    "https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16": {
+      "url": "https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16/",
+      "archive_today": "https://archive.today/20210916122903/https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16/",
+      "timestamp": "20210916122903",
+      "captured": "2021-09-16T12:29:03Z",
+      "method": "archive.today"
+    },
     "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract": {
       "url": "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract/",
       "wayback": "https://web.archive.org/web/20260816174111/https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract/",
@@ -5491,6 +5750,13 @@
       "wayback": "https://web.archive.org/web/20260816174236/https://www.riaclu.org/publications/letter-re-flock-safety-photo-leads-to-false-arrest-in-cumberland/",
       "timestamp": "20260816174236",
       "captured": "2026-08-16T17:42:36Z",
+      "method": "existing"
+    },
+    "https://www.rotherham.gov.uk/downloads/file/279/independent-inquiry-into-child-sexual-exploitation-in-rotherham-1997-2013": {
+      "url": "https://www.rotherham.gov.uk/downloads/file/279/independent-inquiry-into-child-sexual-exploitation-in-rotherham-1997-2013",
+      "wayback": "https://web.archive.org/web/20250906163323/https://www.rotherham.gov.uk/downloads/file/279/independent-inquiry-into-child-sexual-exploitation-in-rotherham-1997-2013",
+      "timestamp": "20250906163323",
+      "captured": "2025-09-06T16:33:23Z",
       "method": "existing"
     },
     "https://www.rwcpulse.com/redwood-city/2026/08/01/redwood-city-seeks-license-plate-reader-proposals-amid-renewed-public-opposition": {
@@ -5562,6 +5828,13 @@
       "timestamp": "20260813210538",
       "captured": "2026-08-13T21:05:38Z",
       "method": "existing"
+    },
+    "https://www.silive.com/crime-safety/2021/12/one-year-later-manager-of-former-macs-public-house-resolves-criminal-court-case.html": {
+      "url": "https://www.silive.com/crime-safety/2021/12/one-year-later-manager-of-former-macs-public-house-resolves-criminal-court-case.html",
+      "archive_today": "https://archive.today/20230913195327/https://www.silive.com/crime-safety/2021/12/one-year-later-manager-of-former-macs-public-house-resolves-criminal-court-case.html",
+      "timestamp": "20230913195327",
+      "captured": "2023-09-13T19:53:27Z",
+      "method": "archive.today"
     },
     "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007": {
       "url": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
@@ -5744,6 +6017,27 @@
       "captured": "2026-08-12T02:43:03Z",
       "method": "existing"
     },
+    "https://www.theglobeandmail.com/canada/article-canada-federal-emergencies-act-summary-powers": {
+      "url": "https://www.theglobeandmail.com/canada/article-canada-federal-emergencies-act-summary-powers/",
+      "archive_today": "https://archive.today/20220215025213/https://www.theglobeandmail.com/canada/article-canada-federal-emergencies-act-summary-powers/",
+      "timestamp": "20220215025213",
+      "captured": "2022-02-15T02:52:13Z",
+      "method": "archive.today"
+    },
+    "https://www.theguardian.com/australia-news/2021/nov/21/nt-communities-of-binjari-and-rockhole-in-hard-lockdown-as-covid-outbreak-expected-to-worsen": {
+      "url": "https://www.theguardian.com/australia-news/2021/nov/21/nt-communities-of-binjari-and-rockhole-in-hard-lockdown-as-covid-outbreak-expected-to-worsen",
+      "archive_today": "https://archive.today/20211219231520/https://www.theguardian.com/australia-news/2021/nov/21/nt-communities-of-binjari-and-rockhole-in-hard-lockdown-as-covid-outbreak-expected-to-worsen",
+      "timestamp": "20211219231520",
+      "captured": "2021-12-19T23:15:20Z",
+      "method": "archive.today"
+    },
+    "https://www.theguardian.com/politics/article/2024/aug/09/two-men-jailed-for-social-media-posts-that-stirred-up-far-right-violence": {
+      "url": "https://www.theguardian.com/politics/article/2024/aug/09/two-men-jailed-for-social-media-posts-that-stirred-up-far-right-violence",
+      "archive_today": "https://archive.today/20241114141324/https://www.theguardian.com/politics/article/2024/aug/09/two-men-jailed-for-social-media-posts-that-stirred-up-far-right-violence",
+      "timestamp": "20241114141324",
+      "captured": "2024-11-14T14:13:24Z",
+      "method": "archive.today"
+    },
     "https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police": {
       "url": "https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police",
       "archive_today": "https://archive.today/20241102074508/https://www.theguardian.com/us-news/2024/feb/06/aurora-settlement-black-family-held-gunpoint-police",
@@ -5898,6 +6192,13 @@
       "captured": "2026-07-25T09:54:46Z",
       "method": "existing"
     },
+    "https://www.vanityfair.com/hollywood/2016/09/edward-snowden-privacy-speech": {
+      "url": "https://www.vanityfair.com/hollywood/2016/09/edward-snowden-privacy-speech",
+      "archive_today": "https://archive.today/20161204212019/http://www.vanityfair.com/hollywood/2016/09/edward-snowden-privacy-speech",
+      "timestamp": "20161204212019",
+      "captured": "2016-12-04T21:20:19Z",
+      "method": "archive.today"
+    },
     "https://www.vice.com/en/article/3k9bjj/license-plate-scanners-track-millions-of-drivers-to-catch-a-handful-of-criminals": {
       "url": "https://www.vice.com/en/article/3k9bjj/license-plate-scanners-track-millions-of-drivers-to-catch-a-handful-of-criminals",
       "wayback": "https://web.archive.org/web/20240306113431/https://www.vice.com/en/article/3k9bjj/license-plate-scanners-track-millions-of-drivers-to-catch-a-handful-of-criminals",
@@ -6051,6 +6352,13 @@
       "timestamp": "20241222212437",
       "captured": "2024-12-22T21:24:37Z",
       "method": "existing"
+    },
+    "https://www.wcjb.com/2026/08/31/florida-sheriff-orders-all-flock-style-license-plate-reader-cameras-removed": {
+      "url": "https://www.wcjb.com/2026/08/31/florida-sheriff-orders-all-flock-style-license-plate-reader-cameras-removed/",
+      "archive_today": "https://archive.today/20260901221631/https://www.wcjb.com/2026/08/31/florida-sheriff-orders-all-flock-style-license-plate-reader-cameras-removed/",
+      "timestamp": "20260901221631",
+      "captured": "2026-09-01T22:16:31Z",
+      "method": "archive.today"
     },
     "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933": {
       "url": "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933",
@@ -6918,6 +7226,13 @@
       "timestamp": "20260818141207",
       "captured": "2026-08-18T14:12:07Z",
       "method": "existing"
+    },
+    "https://xjdp.aspi.org.au/explainers/how-mass-surveillance-works-in-xinjiang": {
+      "url": "https://xjdp.aspi.org.au/explainers/how-mass-surveillance-works-in-xinjiang/",
+      "archive_today": "https://archive.today/20230809221625/https://xjdp.aspi.org.au/explainers/how-mass-surveillance-works-in-xinjiang/",
+      "timestamp": "20230809221625",
+      "captured": "2023-08-09T22:16:25Z",
+      "method": "archive.today"
     },
     "https://youtu.be/fVCVQcd9PLc?t=712": {
       "url": "https://youtu.be/fVCVQcd9PLc?t=712",
