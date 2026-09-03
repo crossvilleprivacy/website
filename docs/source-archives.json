@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-02",
-  "count": 983,
-  "source_count": 983,
+  "as_of": "2026-09-03",
+  "count": 990,
+  "source_count": 990,
   "archives": {
     "http://www.clearwatercounty.org/news_detail_T2_R565.php": {
       "url": "http://www.clearwatercounty.org/news_detail_T2_R565.php",
@@ -2249,6 +2249,13 @@
       "captured": "2026-08-07T20:58:54Z",
       "method": "existing"
     },
+    "https://wacotrib.com/news/local/government-politics/article_4750c478-a70b-444e-a881-719f08bf8a00.html": {
+      "url": "https://wacotrib.com/news/local/government-politics/article_4750c478-a70b-444e-a881-719f08bf8a00.html",
+      "wayback": "https://web.archive.org/web/20260903133435/https://wacotrib.com/news/local/government-politics/article_4750c478-a70b-444e-a881-719f08bf8a00.html",
+      "timestamp": "20260903133435",
+      "captured": "2026-09-03T13:34:35Z",
+      "method": "save"
+    },
     "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2608&ga=114": {
       "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2608&ga=114",
       "wayback": "https://web.archive.org/web/20260513164352/https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2608&GA=114",
@@ -2940,6 +2947,13 @@
       "wayback": "https://web.archive.org/web/20260816193031/https://www.atlasofsurveillance.org/a/TN0780000ALPR",
       "timestamp": "20260816193031",
       "captured": "2026-08-16T19:30:31Z",
+      "method": "save"
+    },
+    "https://www.audacy.com/krld/news/local/dallas-police-to-shut-off-321-flock-cameras-after-state-funding-pause": {
+      "url": "https://www.audacy.com/krld/news/local/dallas-police-to-shut-off-321-flock-cameras-after-state-funding-pause",
+      "wayback": "https://web.archive.org/web/20260903132619/https://www.audacy.com/krld/news/local/dallas-police-to-shut-off-321-flock-cameras-after-state-funding-pause",
+      "timestamp": "20260903132619",
+      "captured": "2026-09-03T13:26:19Z",
       "method": "save"
     },
     "https://www.augustachronicle.com/story/news/crime/2026/07/20/richmond-county-augusta-georgia-law-officers-charged-in-illegal-use-of-flock-license-plate-readers/90985319007": {
@@ -4150,6 +4164,13 @@
       "captured": "2026-08-25T10:11:40Z",
       "method": "existing"
     },
+    "https://www.fox6now.com/news/kenosha-police-ending-flock-contract-moving-axon": {
+      "url": "https://www.fox6now.com/news/kenosha-police-ending-flock-contract-moving-axon",
+      "wayback": "https://web.archive.org/web/20260903132720/https://www.fox6now.com/news/kenosha-police-ending-flock-contract-moving-axon",
+      "timestamp": "20260903132720",
+      "captured": "2026-09-03T13:27:20Z",
+      "method": "save"
+    },
     "https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback": {
       "url": "https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback",
       "wayback": "https://web.archive.org/web/20260628073251/https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback",
@@ -4338,6 +4359,13 @@
       "timestamp": "20260526151649",
       "captured": "2026-05-26T15:16:49Z",
       "method": "existing"
+    },
+    "https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras": {
+      "url": "https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras",
+      "wayback": "https://web.archive.org/web/20260903133341/https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras",
+      "timestamp": "20260903133341",
+      "captured": "2026-09-03T13:33:41Z",
+      "method": "save"
     },
     "https://www.gpb.org/news/2026/08/04/bibb-county-sheriffs-office-launches-investigation-for-potential-misuse-of-flock": {
       "url": "https://www.gpb.org/news/2026/08/04/bibb-county-sheriffs-office-launches-investigation-for-potential-misuse-of-flock",
@@ -4855,6 +4883,13 @@
       "timestamp": "20260822054642",
       "captured": "2026-08-22T05:46:42Z",
       "method": "existing"
+    },
+    "https://www.kxxv.com/news/local-news/robinson-city-council-votes-to-end-flock-camera-contract-amid-privacy-concerns": {
+      "url": "https://www.kxxv.com/news/local-news/robinson-city-council-votes-to-end-flock-camera-contract-amid-privacy-concerns",
+      "wayback": "https://web.archive.org/web/20260903132849/https://www.kxxv.com/news/local-news/robinson-city-council-votes-to-end-flock-camera-contract-amid-privacy-concerns",
+      "timestamp": "20260903132849",
+      "captured": "2026-09-03T13:28:49Z",
+      "method": "save"
     },
     "https://www.ky3.com/2026/08/12/city-bolivar-mo-votes-unanimously-terminate-flock-contract": {
       "url": "https://www.ky3.com/2026/08/12/city-bolivar-mo-votes-unanimously-terminate-flock-contract/",
@@ -6660,6 +6695,13 @@
       "captured": "2026-08-11T12:42:56Z",
       "method": "existing"
     },
+    "https://www.yahoo.com/news/politics/articles/robinson-strikes-down-flock-cameras-172807717.html": {
+      "url": "https://www.yahoo.com/news/politics/articles/robinson-strikes-down-flock-cameras-172807717.html",
+      "wayback": "https://web.archive.org/web/20260903133534/https://www.yahoo.com/news/politics/articles/robinson-strikes-down-flock-cameras-172807717.html",
+      "timestamp": "20260903133534",
+      "captured": "2026-09-03T13:35:34Z",
+      "method": "save"
+    },
     "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html": {
       "url": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
       "wayback": "https://web.archive.org/web/20260821115155/https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html",
@@ -6854,6 +6896,13 @@
       "wayback": "https://web.archive.org/web/20260726115050/https://www.youtube.com/watch?v=zNrmeuU3csg",
       "timestamp": "20260726115050",
       "captured": "2026-07-26T11:50:50Z",
+      "method": "existing"
+    },
+    "https://www.zerohedge.com/political/dallas-police-shut-down-hundreds-flock-cameras": {
+      "url": "https://www.zerohedge.com/political/dallas-police-shut-down-hundreds-flock-cameras",
+      "wayback": "https://web.archive.org/web/20260903000355/https://www.zerohedge.com/political/dallas-police-shut-down-hundreds-flock-cameras",
+      "timestamp": "20260903000355",
+      "captured": "2026-09-03T00:03:55Z",
       "method": "existing"
     },
     "https://www.zoomeye.ai/": {
