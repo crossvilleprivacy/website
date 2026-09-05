@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-03",
-  "count": 1057,
-  "source_count": 1057,
+  "as_of": "2026-09-05",
+  "count": 1065,
+  "source_count": 1065,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -359,6 +359,13 @@
       "timestamp": "20260513164353",
       "captured": "2026-05-13T16:43:53Z",
       "method": "existing"
+    },
+    "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next": {
+      "url": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "wayback": "https://web.archive.org/web/20260905115649/https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "timestamp": "20260905115649",
+      "captured": "2026-09-05T11:56:49Z",
+      "method": "save"
     },
     "https://carolinapublicpress.org/80468/asheville-terminates-flock-contract-in-heated-council-meeting": {
       "url": "https://carolinapublicpress.org/80468/asheville-terminates-flock-contract-in-heated-council-meeting/",
@@ -1661,6 +1668,13 @@
       "captured": "2026-08-21T12:21:40Z",
       "method": "save"
     },
+    "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851": {
+      "url": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851",
+      "wayback": "https://web.archive.org/web/20260905115447/https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851",
+      "timestamp": "20260905115447",
+      "captured": "2026-09-05T11:54:47Z",
+      "method": "save"
+    },
     "https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf": {
       "url": "https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf",
       "wayback": "https://web.archive.org/web/20251029150552/https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf",
@@ -2388,6 +2402,13 @@
       "timestamp": "20260513083327",
       "captured": "2026-05-13T08:33:27Z",
       "method": "existing"
+    },
+    "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny": {
+      "url": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "wayback": "https://web.archive.org/web/20260905115948/https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "timestamp": "20260905115948",
+      "captured": "2026-09-05T11:59:48Z",
+      "method": "save"
     },
     "https://weartv.com/news/local/walton-county-approves-removal-of-flock-license-plate-readers-off-county-right-of-ways": {
       "url": "https://weartv.com/news/local/walton-county-approves-removal-of-flock-license-plate-readers-off-county-right-of-ways",
@@ -3562,6 +3583,13 @@
       "captured": "2026-08-11T03:41:08Z",
       "method": "existing"
     },
+    "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing": {
+      "url": "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing",
+      "wayback": "https://web.archive.org/web/20260905115946/https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing",
+      "timestamp": "20260905115946",
+      "captured": "2026-09-05T11:59:46Z",
+      "method": "wayback-available"
+    },
     "https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew": {
       "url": "https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew/",
       "wayback": "https://web.archive.org/web/20260814141109/https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew/",
@@ -4591,6 +4619,13 @@
       "captured": "2026-09-01T11:37:31Z",
       "method": "save"
     },
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr10221ih/pdf/BILLS-119hr10221ih.pdf": {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr10221ih/pdf/BILLS-119hr10221ih.pdf",
+      "wayback": "https://web.archive.org/web/20260905115518/https://www.govinfo.gov/content/pkg/BILLS-119hr10221ih/pdf/BILLS-119hr10221ih.pdf",
+      "timestamp": "20260905115518",
+      "captured": "2026-09-05T11:55:18Z",
+      "method": "save"
+    },
     "https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html": {
       "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html",
       "wayback": "https://web.archive.org/web/20260816173817/https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html",
@@ -5598,6 +5633,13 @@
       "captured": "2026-09-01T13:39:43Z",
       "method": "existing"
     },
+    "https://www.newsweek.com/flock-cameras-face-removal-nationwide-under-new-bill-12399057": {
+      "url": "https://www.newsweek.com/flock-cameras-face-removal-nationwide-under-new-bill-12399057",
+      "archive_today": "https://archive.today/20260903132132/https://www.newsweek.com/flock-cameras-face-removal-nationwide-under-new-bill-12399057",
+      "timestamp": "20260903132132",
+      "captured": "2026-09-03T13:21:32Z",
+      "method": "archive.today"
+    },
     "https://www.newsweek.com/massie-bill-would-bar-funding-for-police-using-flock-license-plate-readers-12244884": {
       "url": "https://www.newsweek.com/massie-bill-would-bar-funding-for-police-using-flock-license-plate-readers-12244884",
       "wayback": "https://web.archive.org/web/20260802115600/https://www.newsweek.com/massie-bill-would-bar-funding-for-police-using-flock-license-plate-readers-12244884",
@@ -6513,6 +6555,13 @@
       "captured": "2026-08-27T15:11:37Z",
       "method": "save"
     },
+    "https://www.wdbj7.com/2026/09/01/wythe-county-ends-use-flock-cameras": {
+      "url": "https://www.wdbj7.com/2026/09/01/wythe-county-ends-use-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260905115817/https://www.wdbj7.com/2026/09/01/wythe-county-ends-use-flock-cameras/",
+      "timestamp": "20260905115817",
+      "captured": "2026-09-05T11:58:17Z",
+      "method": "existing"
+    },
     "https://www.wdef.com/hcso-pauses-flock-lpr-and-motorola-lpr-programs": {
       "url": "https://www.wdef.com/hcso-pauses-flock-lpr-and-motorola-lpr-programs/",
       "wayback": "https://web.archive.org/web/20260901170141/https://www.wdef.com/hcso-pauses-flock-lpr-and-motorola-lpr-programs/",
@@ -6897,6 +6946,13 @@
       "timestamp": "20260826040307",
       "captured": "2026-08-26T04:03:07Z",
       "method": "existing"
+    },
+    "https://www.wsls.com/news/local/2026/09/03/lynchburg-flock-camera-resolution/": {
+      "url": "https://www.wsls.com/news/local/2026/09/03/lynchburg-flock-camera-resolution/",
+      "wayback": "https://web.archive.org/web/20260905115608/https://www.wsls.com/news/local/2026/09/03/lynchburg-flock-camera-resolution/",
+      "timestamp": "20260905115608",
+      "captured": "2026-09-05T11:56:08Z",
+      "method": "wayback-available"
     },
     "https://www.wsmv.com/2025/02/07/wilson-county-sheriff-says-its-time-davidson-county-get-board-with-lprs": {
       "url": "https://www.wsmv.com/2025/02/07/wilson-county-sheriff-says-its-time-davidson-county-get-board-with-lprs/",

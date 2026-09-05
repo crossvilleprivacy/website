@@ -1,9 +1,9 @@
 {
   "note": "Documented public statements and votes on Flock / ALPRs. Not a Case_ID catalog. Incomplete on purpose. Hedge rows are not bans.",
-  "as_of": "2026-09-02",
-  "as_of_long": "September 2, 2026",
-  "as_of_short": "Sept. 2, 2026",
-  "record_count": 43,
+  "as_of": "2026-09-04",
+  "as_of_long": "September 4, 2026",
+  "as_of_short": "Sept. 4, 2026",
+  "record_count": 44,
   "records": [
     {
       "Slug": "bernie-sanders",
@@ -14,7 +14,7 @@
       "Level": "federal",
       "Stance": "ban",
       "Date": "2026-08-18",
-      "What": "Posted \u201cSTOP AI MASS SURVEILLANCE. STOP FLOCK.\u201d No Senate ban bill in Aug. 20 Washington Times reporting.",
+      "What": "Posted “STOP AI MASS SURVEILLANCE. STOP FLOCK.” No Senate ban bill in Aug. 20 Washington Times reporting.",
       "Writeup": "national.html#langley-fox-compromise",
       "Source_URL": "https://x.com/SenSanders/status/2089716977442926842"
     },
@@ -39,10 +39,23 @@
       "Party": "R",
       "Level": "federal",
       "Stance": "ban",
-      "Date": "2026-07-27",
-      "What": "Said he would sponsor a bill to withhold federal money from cities and departments that deploy Flock-style cameras. Formal text was not out in that coverage.",
-      "Writeup": "national.html#massie-bill",
-      "Source_URL": "https://www.newsweek.com/massie-bill-would-bar-funding-for-police-using-flock-license-plate-readers-12244884"
+      "Date": "2026-09-02",
+      "What": "Introduced H.R. 10221, the Flock-Off Act, with Rep. Eric Burlison. The bill would cut federal funds for ALPRs and biometric cameras and require federally funded systems down in 180 days (toll and border exceptions). Massie said it would not ban locally funded cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "eric-burlison",
+      "Name": "Eric Burlison",
+      "Office": "U.S. House, Missouri 7th District",
+      "State": "MO",
+      "Party": "R",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Co-led H.R. 10221, the Flock-Off Act, with Rep. Thomas Massie to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
     },
     {
       "Slug": "josh-hawley",
@@ -66,7 +79,7 @@
       "Level": "statewide",
       "Stance": "restrict",
       "Date": "2026-08-31",
-      "What": "Said ALPRs including Flock are \u201cout of control,\u201d warned of a surveillance state, and quoted ordinary travel: \u201cIt's really none of the government's damn business.\u201d Urged legislative guardrails; FDOT then revoked state-highway ALPR permits for 30-day removal.",
+      "What": "Said ALPRs including Flock are “out of control,” warned of a surveillance state, and quoted ordinary travel: “It's really none of the government's damn business.” Urged legislative guardrails; FDOT then revoked state-highway ALPR permits for 30-day removal.",
       "Writeup": "officials.html#ron-desantis",
       "Source_URL": "https://floridapolitics.com/archives/816839-desantis-flock-off/"
     },
@@ -92,7 +105,7 @@
       "Level": "statewide",
       "Stance": "ban",
       "Date": "2026-09-01",
-      "What": "Called for an ALPR ban in a \u201cGet the Flock Out of Texas!\u201d post and said the Senate will take up the issue when the 90th Legislature convenes in January.",
+      "What": "Called for an ALPR ban in a “Get the Flock Out of Texas!” post and said the Senate will take up the issue when the 90th Legislature convenes in January.",
       "Writeup": "officials.html#lois-kolkhorst",
       "Source_URL": "https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban/"
     },
@@ -144,7 +157,7 @@
       "Level": "statewide",
       "Stance": "restrict",
       "Date": "2026-08-23",
-      "What": "Plans post\u2013Nov. 3 legislation for statewide ALPR guardrails\u2014including possible ban. Said the status quo on ~2,800 Flock cameras is \u201ctotally unacceptable.\u201d",
+      "What": "Plans post–Nov. 3 legislation for statewide ALPR guardrails—including possible ban. Said the status quo on ~2,800 Flock cameras is “totally unacceptable.”",
       "Writeup": "officials.html#arthur-orr",
       "Source_URL": "https://www.al.com/news/2026/08/alabama-lawmakers-may-soon-restrict-or-ban-states-2800-flock-cameras-we-need-to-rein-them-in.html"
     },
@@ -287,7 +300,7 @@
       "Level": "local",
       "Stance": "pulled",
       "Date": "2026-08-20",
-      "What": "Suspended 10 Flock cameras. Commission then voted 18\u20130 not to renew. Contract ends January 2027.",
+      "What": "Suspended 10 Flock cameras. Commission then voted 18–0 not to renew. Contract ends January 2027.",
       "Writeup": "tennessee.html#jeffrey-cassidy",
       "Source_URL": "https://www.yahoo.com/news/politics/articles/sullivan-county-commission-votes-not-030722045.html"
     },
@@ -339,7 +352,7 @@
       "Level": "statewide",
       "Stance": "hedge",
       "Date": "2026-08-12",
-      "What": "Flagged Flock\u2019s open data-access model versus closed systems. That is a vendor-architecture argument, not an exit from plate readers.",
+      "What": "Flagged Flock’s open data-access model versus closed systems. That is a vendor-architecture argument, not an exit from plate readers.",
       "Writeup": "tennessee.html#jason-zachary",
       "Source_URL": "https://nashvillebanner.com/2026/08/12/tennessee-lprs-flock-safety-privacy-concerns/"
     },
@@ -371,7 +384,7 @@
     },
     {
       "Slug": "freddie-oconnell",
-      "Name": "Freddie O\u2019Connell",
+      "Name": "Freddie O’Connell",
       "Office": "Mayor of Nashville; former Metro Councilmember",
       "State": "TN",
       "Party": "D",
@@ -391,7 +404,7 @@
       "Level": "local",
       "Stance": "restrict",
       "Date": "2023-08-15",
-      "What": "Voted no on full LPR implementation, warning biased users can turn \u201cneutral\u201d tools against people.",
+      "What": "Voted no on full LPR implementation, warning biased users can turn “neutral” tools against people.",
       "Writeup": "tennessee.html#sharon-hurt",
       "Source_URL": "https://eu.knoxnews.com/story/news/local/davidson/2023/08/16/nashville-council-approves-license-plate-reader-expansion/70598263007/"
     },
@@ -430,7 +443,7 @@
       "Level": "local",
       "Stance": "restrict",
       "Date": "2025-01-08",
-      "What": "Voted against Knoxville\u2019s Axon / RTIC surveillance package. Argued policy must precede contracts.",
+      "What": "Voted against Knoxville’s Axon / RTIC surveillance package. Argued policy must precede contracts.",
       "Writeup": "tennessee.html#amelia-parker",
       "Source_URL": "https://compassknox.com/2025/01/08/recording-crime/"
     },
@@ -443,7 +456,7 @@
       "Level": "local",
       "Stance": "restrict",
       "Date": "2025-01-08",
-      "What": "Voted against Knoxville\u2019s Axon / RTIC surveillance package.",
+      "What": "Voted against Knoxville’s Axon / RTIC surveillance package.",
       "Writeup": "tennessee.html#seema-singh",
       "Source_URL": "https://compassknox.com/2025/01/08/recording-crime/"
     },
@@ -456,7 +469,7 @@
       "Level": "local",
       "Stance": "restrict",
       "Date": "2025-02-24",
-      "What": "Opposed a state bill that would have preempted Metro\u2019s local LPR and surveillance rules.",
+      "What": "Opposed a state bill that would have preempted Metro’s local LPR and surveillance rules.",
       "Writeup": "tennessee.html#rollin-horton",
       "Source_URL": "https://tennesseelookout.com/2025/02/24/a-legislative-bill-filed-and-hastily-withdrawn-by-a-nashville-democrat-shows-need-for-transparency/"
     },
