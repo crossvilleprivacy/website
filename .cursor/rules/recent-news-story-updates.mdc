@@ -1,7 +1,7 @@
 ---
 description: Home feed = new card per update; National = one card per story with Developments, newest first
 globs: "{index.html,national.html}"
-alwaysApply: false
+alwaysApply: true
 ---
 
 # Story updates: home feed cards vs National panels
@@ -11,7 +11,7 @@ alwaysApply: false
 - **One card per public beat.** The original story card stays dated where it was.
 - **Each update gets a new card** (new `<li>` with the update’s date), linking to the same National (or TN) panel `#anchor`.
 - On update cards, wrap the date column as `<div class="news-when">` with `<time>…</time>` plus `<span class="news-update">Update</span>` under the date. Original (first) cards keep a bare `<time>` only.
-- Place cards **newest first** among all stories being added or adjusted (fresh stories and update cards compete in one reverse-chrono list).
+- Place cards **newest first** among all stories being added or adjusted (fresh stories and update cards compete in one reverse-chrono list). **Never pin Crossville or local above a later-dated card** (`news-feed-newest-first.mdc`).
 - Do **not** rewrite or re-date the original card to absorb the update.
 - Keep the **headline** pointed at the outlet (or the on-site page for local flagship items). End each card with `<p class="news-card-cites">` listing **Sources:** (outlet host + `source-archive` when we have one) and the on-site **writeup** link (`Tennessee writeup` / `National writeup` / etc.). Do not leave the writeup only buried inside `.note`.
 
