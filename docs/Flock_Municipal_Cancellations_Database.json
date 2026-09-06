@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-04",
+  "compiled": "2026-09-06",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2465,10 +2465,12 @@
       "Spotlight": "N",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Sheriff pause citing discrepancies to review with Flock",
-      "Summary": "The Amherst County, Virginia, Sheriff's Office announced around September 3, 2026 that it would stop using Flock, citing discrepancies it wants to review with the company, per Cardinal News.",
+      "Summary": "The Amherst County, Virginia, Sheriff's Office announced around September 3, 2026 that it would stop using Flock, citing discrepancies it wants to review with the company, per Cardinal News. WSET reported four cameras would be shut down and remain inoperable until further notice.",
       "Primary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
       "Verification_Status": "Verified regional press",
-      "Incomplete_Exit_Notes": "Pause pending vendor review, not a confirmed terminate."
+      "Incomplete_Exit_Notes": "Pause pending vendor review, not a confirmed terminate.",
+      "Camera_Count": 4,
+      "Secondary_Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026"
     },
     {
       "Case_ID": "CAN-2026-171",
@@ -2508,11 +2510,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Loss of control over investigative data; Out-of-state open-records releases of search logs",
-      "Summary": "All agencies in Fond du Lac County, including the sheriff's office, dropped or suspended Flock on September 4, 2026. CBS 58 quoted the county citing loss of control over investigative data. Wausau Pilot & Review said five Fond du Lac County agencies suspended programs after search data, including records tied to active investigations, was released by agencies in other states responding to open-records requests because Flock search logs are shared across a national network.",
+      "Summary": "All agencies in Fond du Lac County, including the sheriff's office, dropped or suspended Flock on September 4, 2026. CBS 58 quoted the county citing loss of control over investigative data. Wausau Pilot & Review said five Fond du Lac County agencies suspended programs after search data, including records tied to active investigations, was released by agencies in other states responding to open-records requests because Flock search logs are shared across a national network. WBAY reported September 5 that covers would be installed over every camera.",
       "Primary_Source_URL": "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing",
       "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
       "Verification_Status": "Verified local TV / local press",
-      "Incomplete_Exit_Notes": "Coverage mixes drop/end and suspend. Catalogued as Suspended until a published terminate. County-level row for the five-agency cluster; unnamed city agencies not listed separately."
+      "Incomplete_Exit_Notes": "Coverage mixes drop/end and suspend. Catalogued as Suspended until a published terminate. WBAY reported covers going on every camera. County-level row for the five-agency cluster; unnamed city agencies not listed separately."
     },
     {
       "Case_ID": "CAN-2026-174",
@@ -2525,9 +2527,9 @@
       "Primary_Reasons": "Investigative-data integrity; National search-log sharing / out-of-state records releases",
       "Summary": "The Winnebago County Sheriff's Office and other agencies in the county suspended or ended Flock programs on September 4, 2026. CBS 58 quoted the county saying protecting the integrity of investigative data and public trust are paramount. Wausau Pilot & Review tied the move to out-of-state open-records releases of shared Flock search logs.",
       "Primary_Source_URL": "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing",
-      "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "Secondary_Source_URL": "https://www.wsaw.com/2026/09/06/more-wisconsin-communities-stop-use-flock-cameras/",
       "Verification_Status": "Verified local TV / local press",
-      "Incomplete_Exit_Notes": "Coverage mixes ending and suspend. Catalogued as Suspended. Separate rows for Neenah and Menasha police."
+      "Incomplete_Exit_Notes": "Coverage mixes ending and suspend. Catalogued as Suspended. Separate rows for Neenah, Menasha, Fox Crossing, Winneconne, and UW-Oshkosh."
     },
     {
       "Case_ID": "CAN-2026-175",
@@ -2558,6 +2560,110 @@
       "Secondary_Source_URL": "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Suspend reported with Winnebago County cluster. Distinct from Menasha officer misuse case. Confirm whether the city later terminates."
+    },
+    {
+      "Case_ID": "CAN-2026-177",
+      "Jurisdiction": "Bland County",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-07-11",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff stopped use July 11; Work order for hardware removal",
+      "Summary": "WSET reported that the Bland County, Virginia, Sheriff's Office announced September 1, 2026 that it stopped using Flock cameras on July 11. Sheriff Jason Ramsey said a work order has been placed with Flock to remove the cameras.",
+      "Primary_Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "Secondary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "Verification_Status": "Verified local TV / regional press",
+      "Incomplete_Exit_Notes": "Sheriff said cameras stopped July 11 and a work order is in for removal. Confirm hardware status."
+    },
+    {
+      "Case_ID": "CAN-2026-178",
+      "Jurisdiction": "Carroll County",
+      "State": "VA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-07",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Contract expired July; Sheriff said not renewed",
+      "Summary": "WSET reported that Carroll County, Virginia, Sheriff Kevin Kemp told ABC 13 the county's Flock Safety contract expired in July and was not renewed. Distinct from Carroll County elsewhere.",
+      "Primary_Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Virginia Carroll County. Sheriff said the July expiration was not renewed. Hardware removal timetable not in cited coverage."
+    },
+    {
+      "Case_ID": "CAN-2026-179",
+      "Jurisdiction": "Giles County",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-26",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff office terminated Flock contract",
+      "Summary": "WSET reported that the Giles County, Virginia, Sheriff's Office announced in a Facebook post on August 26, 2026 that it has terminated its contract with Flock Safety.",
+      "Primary_Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "Secondary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "Verification_Status": "Verified local TV / regional press",
+      "Incomplete_Exit_Notes": "Virginia Giles County. Confirm hardware removal."
+    },
+    {
+      "Case_ID": "CAN-2026-180",
+      "Jurisdiction": "Halifax County",
+      "State": "VA",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-08-28",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Temporary pause of fixed ALPRs",
+      "Summary": "WSET reported that the Halifax County, Virginia, Sheriff's Office announced August 28, 2026 that it would temporarily pause its fixed Flock automatic license plate recognition cameras.",
+      "Primary_Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "Secondary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "Verification_Status": "Verified local TV / regional press",
+      "Incomplete_Exit_Notes": "Pause, not a confirmed terminate. Virginia Halifax County."
+    },
+    {
+      "Case_ID": "CAN-2026-181",
+      "Jurisdiction": "Fox Crossing",
+      "State": "WI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-04",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Winnebago County cluster; Out-of-state open-records releases of search logs",
+      "Summary": "WBAY reported that Winnebago County's decision involved the sheriff's office and the police chiefs of Fox Crossing, Menasha, Neenah, University of Wisconsin-Oshkosh, and Winneconne. The cameras were deactivated after search data from Flock systems was disclosed to the public by law enforcement agencies in other states in response to open-records requests.",
+      "Primary_Source_URL": "https://www.wsaw.com/2026/09/06/more-wisconsin-communities-stop-use-flock-cameras/",
+      "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Suspend reported with Winnebago County cluster. Confirm whether the village later terminates."
+    },
+    {
+      "Case_ID": "CAN-2026-182",
+      "Jurisdiction": "Winneconne",
+      "State": "WI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-04",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Winnebago County cluster; Out-of-state open-records releases of search logs",
+      "Summary": "WBAY named Winneconne police among the Winnebago County agencies ceasing Flock use, along with the sheriff's office and Fox Crossing, Menasha, Neenah, and UW-Oshkosh police.",
+      "Primary_Source_URL": "https://www.wsaw.com/2026/09/06/more-wisconsin-communities-stop-use-flock-cameras/",
+      "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Suspend reported with Winnebago County cluster. Confirm whether the village later terminates."
+    },
+    {
+      "Case_ID": "CAN-2026-183",
+      "Jurisdiction": "UW-Oshkosh",
+      "State": "WI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-04",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Winnebago County cluster; Out-of-state open-records releases of search logs",
+      "Summary": "WBAY named University of Wisconsin-Oshkosh police among the Winnebago County agencies ceasing Flock use. Distinct from the City of Oshkosh's April 2026 7-0 terminate (CAN-2026-001).",
+      "Primary_Source_URL": "https://www.wsaw.com/2026/09/06/more-wisconsin-communities-stop-use-flock-cameras/",
+      "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Campus PD suspend with Winnebago County cluster, not the City of Oshkosh cancel."
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "note": "Documented public statements and votes on Flock / ALPRs. Not a Case_ID catalog. Incomplete on purpose. Hedge rows are not bans.",
-  "as_of": "2026-09-04",
-  "as_of_long": "September 4, 2026",
-  "as_of_short": "Sept. 4, 2026",
-  "record_count": 44,
+  "as_of": "2026-09-06",
+  "as_of_long": "September 6, 2026",
+  "as_of_short": "Sept. 6, 2026",
+  "record_count": 54,
   "records": [
     {
       "Slug": "bernie-sanders",
@@ -54,6 +54,71 @@
       "Stance": "restrict",
       "Date": "2026-09-02",
       "What": "Co-led H.R. 10221, the Flock-Off Act, with Rep. Thomas Massie to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "ro-khanna",
+      "Name": "Ro Khanna",
+      "Office": "U.S. House, California 17th District",
+      "State": "CA",
+      "Party": "D",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Original cosponsor of H.R. 10221, the Flock-Off Act, to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "victoria-spartz",
+      "Name": "Victoria Spartz",
+      "Office": "U.S. House, Indiana 5th District",
+      "State": "IN",
+      "Party": "R",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Original cosponsor of H.R. 10221, the Flock-Off Act, to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "paul-gosar",
+      "Name": "Paul Gosar",
+      "Office": "U.S. House, Arizona 9th District",
+      "State": "AZ",
+      "Party": "R",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Original cosponsor of H.R. 10221, the Flock-Off Act, to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "chip-roy",
+      "Name": "Chip Roy",
+      "Office": "U.S. House, Texas 21st District",
+      "State": "TX",
+      "Party": "R",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Original cosponsor of H.R. 10221, the Flock-Off Act, to cut federal funds for ALPRs and biometric cameras.",
+      "Writeup": "national.html#massie-flock-off-act",
+      "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
+    },
+    {
+      "Slug": "lauren-boebert",
+      "Name": "Lauren Boebert",
+      "Office": "U.S. House, Colorado 4th District",
+      "State": "CO",
+      "Party": "R",
+      "Level": "federal",
+      "Stance": "restrict",
+      "Date": "2026-09-02",
+      "What": "Original cosponsor of H.R. 10221, the Flock-Off Act, to cut federal funds for ALPRs and biometric cameras.",
       "Writeup": "national.html#massie-flock-off-act",
       "Source_URL": "https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851"
     },
@@ -576,6 +641,71 @@
       "What": "Will not renew the operational contract when it expires September 29, citing Fourth Amendment concerns.",
       "Writeup": "national.html#pinal-cancel",
       "Source_URL": "https://www.azfamily.com/2026/08/06/pinal-county-chooses-not-renew-flock-camera-contract/"
+    },
+    {
+      "Slug": "anthony-cline",
+      "Name": "Anthony Cline",
+      "Office": "Wythe County Sheriff, Virginia",
+      "State": "VA",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "pulled",
+      "Date": "2026-09-01",
+      "What": "Ending the sheriff's office Flock contract and removing four cameras, citing privacy, data sharing, and constitutional concerns.",
+      "Writeup": "national.html#virginia-sept-flock",
+      "Source_URL": "https://www.wdbj7.com/2026/09/01/wythe-county-ends-use-flock-cameras/"
+    },
+    {
+      "Slug": "whit-clark",
+      "Name": "Whit Clark",
+      "Office": "Campbell County Sheriff, Virginia",
+      "State": "VA",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "pulled",
+      "Date": "2026-09-02",
+      "What": "Canceled the county's Flock contract after residents raised privacy and civil-liberty concerns. Distinct from Campbell, California.",
+      "Writeup": "national.html#virginia-sept-flock",
+      "Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/"
+    },
+    {
+      "Slug": "robert-richardson",
+      "Name": "Robert Richardson",
+      "Office": "Appomattox County Sheriff, Virginia",
+      "State": "VA",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "pulled",
+      "Date": "2026-09-02",
+      "What": "Announced the office is terminating its Flock contract. Said the tool is valuable and that the data must be handled with transparency.",
+      "Writeup": "national.html#virginia-sept-flock",
+      "Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/"
+    },
+    {
+      "Slug": "jason-ramsey",
+      "Name": "Jason Ramsey",
+      "Office": "Bland County Sheriff, Virginia",
+      "State": "VA",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "pulled",
+      "Date": "2026-09-01",
+      "What": "Said the office stopped using Flock cameras on July 11 and placed a work order with Flock to remove them.",
+      "Writeup": "national.html#virginia-sept-flock",
+      "Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026"
+    },
+    {
+      "Slug": "kevin-kemp",
+      "Name": "Kevin Kemp",
+      "Office": "Carroll County Sheriff, Virginia",
+      "State": "VA",
+      "Party": "N",
+      "Level": "local",
+      "Stance": "pulled",
+      "Date": "2026-07",
+      "What": "Told ABC 13 the county's Flock contract expired in July and was not renewed.",
+      "Writeup": "national.html#virginia-sept-flock",
+      "Source_URL": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026"
     }
   ]
 }

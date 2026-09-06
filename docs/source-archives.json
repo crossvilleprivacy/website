@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-05",
-  "count": 1065,
-  "source_count": 1065,
+  "as_of": "2026-09-06",
+  "count": 1067,
+  "source_count": 1067,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -30,6 +30,13 @@
       "wayback": "https://web.archive.org/web/20260823113838/https://3bmedianews.com/candidates-for-crossville-city-council-election/",
       "timestamp": "20260823113838",
       "captured": "2026-08-23T11:38:38Z",
+      "method": "save"
+    },
+    "https://3bmedianews.com/crossville-council-hears-public-calls-to-remove-flock-cameras-at-tuesday-work-session": {
+      "url": "https://3bmedianews.com/crossville-council-hears-public-calls-to-remove-flock-cameras-at-tuesday-work-session/",
+      "wayback": "https://web.archive.org/web/20260906113649/https://3bmedianews.com/crossville-council-hears-public-calls-to-remove-flock-cameras-at-tuesday-work-session/",
+      "timestamp": "20260906113649",
+      "captured": "2026-09-06T11:36:49Z",
       "method": "save"
     },
     "https://3bmedianews.com/former-oak-ridge-police-officer-sentenced-on-23-counts-of-official-misconduct": {
@@ -2534,6 +2541,13 @@
       "wayback": "https://web.archive.org/web/20260815000319/https://wset.com/news/local/henry-county-sheriff-suspends-access-to-flock-cameras-due-to-growing-concerns-safety-southside-wayne-davis-august-2026",
       "timestamp": "20260815000319",
       "captured": "2026-08-15T00:03:19Z",
+      "method": "existing"
+    },
+    "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026": {
+      "url": "https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "wayback": "https://web.archive.org/web/20260903174103/https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
+      "timestamp": "20260903174103",
+      "captured": "2026-09-03T17:41:03Z",
       "method": "existing"
     },
     "https://wtmj.com/news/2026/08/07/brookfield-police-chief-defends-his-officers-actions-after-high-risk-traffic-stop": {
