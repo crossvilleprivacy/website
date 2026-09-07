@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-06",
-  "as_of_long": "September 6, 2026",
-  "as_of_short": "Sept. 6, 2026",
-  "record_count": 15,
+  "as_of": "2026-09-07",
+  "as_of_long": "September 7, 2026",
+  "as_of_short": "Sept. 7, 2026",
+  "record_count": 14,
   "records": [
     {
       "Kind": "cancel",
@@ -228,22 +228,6 @@
       "Source_URLs": [
         "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
         "https://ij.org/dozens-of-innocent-motorists-have-been-pulled-over-detained-at-gunpoint-or-jailed-due-to-ai-license-plate-camera-errors/"
-      ]
-    },
-    {
-      "Kind": "misuse",
-      "Kind_Label": "Misuse",
-      "Place": "Shelby County Sheriff's Office",
-      "State": "TN",
-      "What": "1 deputy relieved of duty / under investigation",
-      "Date": "2024",
-      "Date_Label": "2024",
-      "ID": "ALPR-2024-030",
-      "Case_ID": "ALPR-2024-030",
-      "Writeup": "#gordon",
-      "Source_URL": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/",
-      "Source_URLs": [
-        "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk/"
       ]
     }
   ]

@@ -1,9 +1,9 @@
 {
   "note": "Documented public statements and votes on Flock / ALPRs. Not a Case_ID catalog. Incomplete on purpose. Hedge rows are not bans.",
-  "as_of": "2026-09-06",
-  "as_of_long": "September 6, 2026",
-  "as_of_short": "Sept. 6, 2026",
-  "record_count": 54,
+  "as_of": "2026-09-07",
+  "as_of_long": "September 7, 2026",
+  "as_of_short": "Sept. 7, 2026",
+  "record_count": 56,
   "records": [
     {
       "Slug": "bernie-sanders",
@@ -173,6 +173,32 @@
       "What": "Called for an ALPR ban in a “Get the Flock Out of Texas!” post and said the Senate will take up the issue when the 90th Legislature convenes in January.",
       "Writeup": "officials.html#lois-kolkhorst",
       "Source_URL": "https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban/"
+    },
+    {
+      "Slug": "lina-hidalgo",
+      "Name": "Lina Hidalgo",
+      "Office": "Harris County Judge",
+      "State": "TX",
+      "Party": "D",
+      "Level": "local",
+      "Stance": "restrict",
+      "Date": "2026-09-06",
+      "What": "Called for a special commissioners-court meeting on Harris County’s Flock contract and asked to pause the program until privacy and oversight clauses are added. The May 2026 renewal still runs through June 2027. Not a cancel vote.",
+      "Writeup": "officials.html#lina-hidalgo",
+      "Source_URL": "https://www.click2houston.com/news/local/2026/09/07/harris-county-judge-calls-for-special-session-on-flock-as-governor-pulls-state-funding/"
+    },
+    {
+      "Slug": "andrew-ginther",
+      "Name": "Andrew Ginther",
+      "Office": "Mayor of Columbus, Ohio",
+      "State": "OH",
+      "Party": "D",
+      "Level": "local",
+      "Stance": "restrict",
+      "Date": "2026-09-03",
+      "What": "Paused Columbus police use of Flock. City began covering 65 cameras. Contract still runs to December. Not a council terminate.",
+      "Writeup": "national.html#columbus-flock-hearing",
+      "Source_URL": "https://www.wosu.org/politics-government/2026-09-04/columbus-will-cover-up-the-citys-65-flock-cameras-after-mayor-pauses-police-use"
     },
     {
       "Slug": "josh-shapiro",

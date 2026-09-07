@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-06",
+  "compiled": "2026-09-07",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -833,11 +833,11 @@
       "Action_Date": "2026-07-23",
       "Spotlight": "N",
       "Public_Backlash_Cited": "N",
-      "Primary_Reasons": "Officer database / ALPR misuse; Internal audit; Agency integrity response",
+      "Primary_Reasons": "Temporary camera suspension pending internal audit",
       "Primary_Source_URL": "https://www.wftv.com/news/local/sumter-detective-fired-arrested-using-police-cameras-spy-husbands-ex-wife/O2ZIHFAP4FC7VINFSGNDGPU6DI/",
       "Secondary_Source_URL": "https://www.wesh.com/article/sumter-detective-arrested-database-misuse/73251430",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "Temporary suspension pending complete internal audit; agency had not announced when or whether cameras would return as of July 24, 2026 reporting. Related misuse row: FLK-2026-020."
+      "Incomplete_Exit_Notes": "Temporary suspension pending complete internal audit; agency had not announced when or whether cameras would return as of July 24, 2026 reporting."
     },
     {
       "Case_ID": "CAN-2026-061",
@@ -946,11 +946,11 @@
       "Action_Date": "2026-08-11",
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Privacy / mass-surveillance risk; Data sharing / access review; Internal misuse investigation",
+      "Primary_Reasons": "Privacy / mass-surveillance risk; Data sharing / access review; Audit of search outliers",
       "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/08/11/new-bedford-temporarily-suspends-use-of-flock-as-the-surveillance-cameras-come-under-increased-scrutiny/",
       "Secondary_Source_URL": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
       "Verification_Status": "Primary local reporting",
-      "Incomplete_Exit_Notes": "Temporary suspension pending audit and policy review; may resume. SouthCoast Today reported Aug. 20, 2026 that the system has been offline since Aug. 11 and will stay down after the chief said the audit found additional outliers and anomalies. Related officer-misuse row FLK-2026-047 (one officer on administrative leave; alleged, not charged in that coverage)."
+      "Incomplete_Exit_Notes": "Temporary suspension pending audit and policy review; may resume. SouthCoast Today reported Aug. 20, 2026 that the system has been offline since Aug. 11 and will stay down after the chief said the audit found additional outliers and anomalies."
     },
     {
       "Case_ID": "CAN-2026-069",
@@ -1163,11 +1163,11 @@
       "Camera_Count": 28,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Officer ALPR misuse audit anomaly; Council cancel after temporary suspend; Valley-wide Flock misuse wave",
+      "Primary_Reasons": "Council cancel after temporary suspend; audit anomaly cited",
       "Primary_Source_URL": "https://www.azcentral.com/story/news/local/surprise/2026/08/14/surprise-cancels-flock-camera-contract-after-anomaly-found/91314065007/",
       "Secondary_Source_URL": "https://www.azcentral.com/story/news/local/surprise/2026/08/12/surprise-suspends-flock-safety-cameras/91280900007/",
       "Verification_Status": "Verified major press",
-      "Incomplete_Exit_Notes": "Cancel confirmed by councilmember; city/PD spokespeople had not commented in the Aug. 14 AZ Central report. Physical removal requested; timetable not published. Related officer-leave row FLK-2026-041 remains pending."
+      "Incomplete_Exit_Notes": "Cancel confirmed by councilmember; city/PD spokespeople had not commented in the Aug. 14 AZ Central report. Physical removal requested; timetable not published."
     },
     {
       "Case_ID": "CAN-2026-084",
@@ -1472,8 +1472,8 @@
       "Camera_Count": 3,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "N",
-      "Primary_Reasons": "Officer alleged personal Flock / CJIS lookups; Police chief ended the Flock relationship as a direct result; Last camera removed",
-      "Summary": "Stow Police Chief Michael Sallese announced August 18, 2026 that the department ended its Flock relationship as a direct result of alleged personal Flock and CJIS lookups by a Stow officer. The Boston Globe and boston.com reported the last remaining Flock camera was removed in early August; two other ALPRs came down earlier in 2026 after an effectiveness review. See FLK-2026-048. The department said it will evaluate safeguards before any future ALPR use and will bring a tighter request/approval policy to the Select Board.",
+      "Primary_Reasons": "Police chief ended the Flock relationship; last camera removed",
+      "Summary": "Stow Police Chief Michael Sallese announced August 18, 2026 that the department ended its Flock relationship. The Boston Globe and boston.com reported the last remaining Flock camera was removed in early August; two other ALPRs came down earlier in 2026 after an effectiveness review. The department said it will evaluate safeguards before any future ALPR use.",
       "Primary_Source_URL": "https://www.bostonglobe.com/2026/08/18/metro/stow-police-officer-terminated-flock-camera/",
       "Secondary_Source_URL": "https://www.boston.com/news/local-news/2026/08/18/stow-police-cut-ties-with-flock-safety-after-officer-allegedly-used-cameras-to-track-someone-he-knows/",
       "Verification_Status": "Verified major press / local press",
@@ -1713,11 +1713,11 @@
       "Action_Date": "2026-08-20",
       "Spotlight": "Y",
       "Public_Backlash_Cited": "N",
-      "Primary_Reasons": "Chief suspended Flock during alleged officer misuse investigation / indictment coverage",
-      "Summary": "Lufkin Police Chief Travis Brazil suspended Flock camera use on August 20, 2026 after the department said it began an audit and Texas Rangers investigated alleged Flock misuse. KTRE reported that one Lufkin officer was arrested that week and, on August 24, that an Angelina County grand jury indicted that officer on 100 counts of misuse of official information. Arrests and indictments are allegations; no conviction is reported in the cited coverage. A second unnamed officer was placed on administrative leave. This site does not name the charged officer. Duration and hardware-removal timetable were not published. See FLK-2026-059.",
+      "Primary_Reasons": "Chief suspended Flock cameras",
+      "Summary": "Lufkin Police Chief Travis Brazil suspended Flock camera use on August 20, 2026. Duration and hardware-removal timetable were not published. This is a suspend, not a reported contract termination.",
       "Primary_Source_URL": "https://www.ktre.com/2026/08/20/1-officer-arrested-1-placed-leave-amid-lufkin-flock-camera-misuse-investigation/",
       "Verification_Status": "Verified local TV / local press",
-      "Incomplete_Exit_Notes": "Suspend during an open investigation, not a reported contract termination. Duration and hardware-removal timetable not published. Related alleged misuse: FLK-2026-059."
+      "Incomplete_Exit_Notes": "Suspend, not a reported contract termination. Duration and hardware-removal timetable not published."
     },
     {
       "Case_ID": "CAN-2026-121",
@@ -2664,6 +2664,124 @@
       "Secondary_Source_URL": "https://wausaupilotandreview.com/2026/09/04/wisconsin-agencies-pull-flock-cameras-as-wausau-marathon-county-contracts-face-scrutiny/",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Campus PD suspend with Winnebago County cluster, not the City of Oshkosh cancel."
+    },
+    {
+      "Case_ID": "CAN-2026-184",
+      "Jurisdiction": "Magnolia",
+      "State": "TX",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-06",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Privacy and data-control concerns; tight budget; limited use in a low-crime city",
+      "Summary": "Magnolia Police Chief Kyle Montgomery told KPRC 2 the department will not renew its Flock contract when it expires in October 2026. He cited privacy, budget, and limited use. The city does not own the cameras; Flock is to retrieve them after the contract ends. He said the department had no known local misuse. Distinct from Harris County's still-active renewal.",
+      "Primary_Source_URL": "https://www.click2houston.com/news/local/2026/09/07/harris-county-judge-calls-for-special-session-on-flock-as-governor-pulls-state-funding/",
+      "Secondary_Source_URL": "https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Contract still runs until October 2026 expiration; cameras come down after Flock retrieves them. Not a mid-term terminate."
+    },
+    {
+      "Case_ID": "CAN-2026-185",
+      "Jurisdiction": "Leander",
+      "State": "TX",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-03",
+      "Camera_Count": 14,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Resident privacy concerns; council directed staff to discontinue Flock after a public hearing",
+      "Summary": "Leander City Council on September 3, 2026, instructed staff to suspend police use of 14 Flock cameras after an hour-plus public hearing. A city spokesperson said the council decided to discontinue Flock services and stop funding the contract. Police are no longer using Flock cameras or Flock data.",
+      "Primary_Source_URL": "https://communityimpact.com/leander-liberty-hill/government/leander-city-council-to-discontinue-flock-services/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Council directed discontinue/suspend; hardware-removal date not published in the cited story."
+    },
+    {
+      "Case_ID": "CAN-2026-186",
+      "Jurisdiction": "El Paso",
+      "State": "TX",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-03",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Abbott state funding pause; city halted use of state-funded ALPRs",
+      "Summary": "El Paso Police Chief Peter Pacillas said the department halted use of state-funded ALPR devices after Gov. Greg Abbott's order pausing state Flock funding. El Paso Matters reported September 3, 2026, that cameras remain installed and that the city may seek other funding to restart. Spokesman said the halt does not mean immediate take-down.",
+      "Primary_Source_URL": "https://elpasomatters.org/2026/09/03/el-paso-police-eppd-flock-license-plate-reader-halted-greg-abbott/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Pause of state-funded use only. Cameras stay installed. City may restart with other funds. Not a full El Paso Flock exit. Related to Abbott pause and Dallas partial cut."
+    },
+    {
+      "Case_ID": "CAN-2026-187",
+      "Jurisdiction": "Columbus",
+      "State": "OH",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-03",
+      "Camera_Count": 65,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor paused police use after alleged officer Flock misuse; city covering cameras; contract expires December",
+      "Summary": "Columbus Mayor Andrew Ginther paused the city's Flock use September 3, 2026. WOSU reported September 4 that Columbus Division of Police began covering the city's 65 Flock cameras. The city contract expires in December; council has not voted a terminate. Other local Flock (Ohio State, ODOT, nearby governments) is separate.",
+      "Primary_Source_URL": "https://www.wosu.org/politics-government/2026-09-04/columbus-will-cover-up-the-citys-65-flock-cameras-after-mayor-pauses-police-use",
+      "Verification_Status": "Verified local public radio",
+      "Incomplete_Exit_Notes": "Mayoral pause and camera covers, not a council terminate. Contract still runs to December 2026. Neighboring and campus cameras not included."
+    },
+    {
+      "Case_ID": "CAN-2026-188",
+      "Jurisdiction": "Abington",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-31",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Resident privacy concerns; police chief ended the agreement",
+      "Summary": "Abington, Massachusetts, Police Chief John Bonney announced the department will end its Flock agreement and have the cameras removed, citing community concern. Boston.com and WCVB reported the announcement with Ayer, Groton, and Southbridge. Distinct from Abington Township, Pennsylvania (CAN-2026-112).",
+      "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/09/01/4-more-mass-towns-stop-using-or-pause-use-of-flock-cameras/",
+      "Secondary_Source_URL": "https://www.wcvb.com/article/flock-massachusetts-abington-ayer-southbridge/73583944",
+      "Verification_Status": "Verified Boston.com / local TV",
+      "Incomplete_Exit_Notes": "Chief announced terminate and removal; take-down date not published in the cited stories. Not Abington Township, PA."
+    },
+    {
+      "Case_ID": "CAN-2026-189",
+      "Jurisdiction": "Ayer",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-31",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Resident concerns; Select Board voted to disable and remove cameras and terminate the contract immediately",
+      "Summary": "Ayer Select Board voted unanimously August 31, 2026, to immediately disable and remove Flock cameras and terminate the town contract. Police said they contacted Flock to start decommissioning.",
+      "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/09/01/4-more-mass-towns-stop-using-or-pause-use-of-flock-cameras/",
+      "Secondary_Source_URL": "https://www.wcvb.com/article/flock-massachusetts-abington-ayer-southbridge/73583944",
+      "Verification_Status": "Verified Boston.com / local TV / town statement via Boston.com"
+    },
+    {
+      "Case_ID": "CAN-2026-190",
+      "Jurisdiction": "Groton",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-31",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public concern; town manager and police chief terminated current contract pending a Spring 2027 Town Meeting recommendation",
+      "Summary": "Groton Town Manager Mark Haddad and Police Chief Michael Luth announced August 31, 2026, that the town will terminate its current Flock contract immediately. A Police Camera Working Group will bring a permanent recommendation to the Spring 2027 Town Meeting. That later vote could still recommend some form of ALPR.",
+      "Primary_Source_URL": "https://www.grotonma.gov/2026/08/31/town-of-groton-to-terminate-flock-safety-camera-contract-commit-to-developing-permanent-solution-for-spring-2027-town-meeting/",
+      "Secondary_Source_URL": "https://www.boston.com/news/local-news/2026/09/01/4-more-mass-towns-stop-using-or-pause-use-of-flock-cameras/",
+      "Verification_Status": "Verified town primary / Boston.com",
+      "Incomplete_Exit_Notes": "Current contract terminated. Working group may recommend a future ALPR system at Spring 2027 Town Meeting."
+    },
+    {
+      "Case_ID": "CAN-2026-191",
+      "Jurisdiction": "Southbridge",
+      "State": "MA",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-08-31",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Resident concerns; police paused use pending public discussion and statewide guardrails",
+      "Summary": "Southbridge Police announced August 31, 2026, that it was suspending use of Flock cameras installed earlier in 2026. The department said officers had not used them for investigative or enforcement purposes and that it wanted public discussion of safeguards, retention, access, and oversight. Pause, not a confirmed terminate.",
+      "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/09/01/4-more-mass-towns-stop-using-or-pause-use-of-flock-cameras/",
+      "Secondary_Source_URL": "https://www.wcvb.com/article/flock-massachusetts-abington-ayer-southbridge/73583944",
+      "Verification_Status": "Verified Boston.com / local TV",
+      "Incomplete_Exit_Notes": "Suspend only. Cameras were installed; contract terminate not confirmed in the cited stories."
     }
   ]
 }
