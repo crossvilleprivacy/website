@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-07",
-  "count": 1082,
-  "source_count": 1082,
+  "count": 1084,
+  "source_count": 1084,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1932,6 +1932,13 @@
       "wayback": "https://web.archive.org/web/20260824152552/https://reason.com/2026/08/13/flock-cameras-and-license-plate-readers-are-everywhere-can-we-trust-cops-with-them/",
       "timestamp": "20260824152552",
       "captured": "2026-08-24T15:25:52Z",
+      "method": "existing"
+    },
+    "https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop": {
+      "url": "https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop/",
+      "wayback": "https://web.archive.org/web/20260906185453/https://reason.com/2026/09/02/wisconsin-cops-used-flock-over-100-times-to-track-a-navy-veteran-after-he-lawfully-recorded-a-traffic-stop/",
+      "timestamp": "20260906185453",
+      "captured": "2026-09-06T18:54:53Z",
       "method": "existing"
     },
     "https://reclaimthenet.org/tower-dumps-are-unconstitutional-federal-judge-rules": {
@@ -6393,6 +6400,13 @@
       "wayback": "https://web.archive.org/web/20260808145227/https://www.tmj4.com//news/local-news/in-your-community/waukesha-county/brookfield-police-chief-defends-officers-high-risk-traffic-stop-based-on-flock-alert",
       "timestamp": "20260808145227",
       "captured": "2026-08-08T14:52:27Z",
+      "method": "existing"
+    },
+    "https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/lawsuit-waukesha-county-man-gets-flocked-by-sheriffs-dept-after-filing-complaint-against-deputy": {
+      "url": "https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/lawsuit-waukesha-county-man-gets-flocked-by-sheriffs-dept-after-filing-complaint-against-deputy",
+      "wayback": "https://web.archive.org/web/20260905184209/https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/lawsuit-waukesha-county-man-gets-flocked-by-sheriffs-dept-after-filing-complaint-against-deputy",
+      "timestamp": "20260905184209",
+      "captured": "2026-09-05T18:42:09Z",
       "method": "existing"
     },
     "https://www.tn.gov/revenue/title-and-registration/license-plates.html": {
