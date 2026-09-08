@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-07",
-  "count": 1084,
-  "source_count": 1084,
+  "as_of": "2026-09-08",
+  "count": 1087,
+  "source_count": 1087,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2143,6 +2143,13 @@
       "timestamp": "20260827145336",
       "captured": "2026-08-27T14:53:36Z",
       "method": "save"
+    },
+    "https://spectrumnews1.com/ky/louisville/news/2026/09/04/body-camera-video-of-shively-officer-arrest-released": {
+      "url": "https://spectrumnews1.com/ky/louisville/news/2026/09/04/body-camera-video-of-shively-officer-arrest-released",
+      "wayback": "https://web.archive.org/web/20260906041720/https://spectrumnews1.com/ky/louisville/news/2026/09/04/body-camera-video-of-shively-officer-arrest-released",
+      "timestamp": "20260906041720",
+      "captured": "2026-09-06T04:17:20Z",
+      "method": "existing"
     },
     "https://spotontennessee.com/upper-cumberland/1332619/new-flock-camera-system-to-provide-police.html": {
       "url": "https://spotontennessee.com/upper-cumberland/1332619/new-flock-camera-system-to-provide-police.html",
@@ -5409,6 +5416,13 @@
       "captured": "2026-08-12T18:07:28Z",
       "method": "existing"
     },
+    "https://www.lpm.org/investigate/2026-08-26/shively-police-officer-arrested-for-using-license-plate-readers-to-track-woman": {
+      "url": "https://www.lpm.org/investigate/2026-08-26/shively-police-officer-arrested-for-using-license-plate-readers-to-track-woman",
+      "wayback": "https://web.archive.org/web/20260904231205/https://www.lpm.org/investigate/2026-08-26/shively-police-officer-arrested-for-using-license-plate-readers-to-track-woman",
+      "timestamp": "20260904231205",
+      "captured": "2026-09-04T23:12:05Z",
+      "method": "existing"
+    },
     "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county": {
       "url": "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
       "archive_today": "https://archive.today/20260821042731/https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
@@ -6903,6 +6917,13 @@
       "wayback": "https://web.archive.org/web/20260731014313/https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety/",
       "timestamp": "20260731014313",
       "captured": "2026-07-31T01:43:13Z",
+      "method": "existing"
+    },
+    "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times": {
+      "url": "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times/",
+      "wayback": "https://web.archive.org/web/20260829135557/https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times/",
+      "timestamp": "20260829135557",
+      "captured": "2026-08-29T13:55:57Z",
       "method": "existing"
     },
     "https://www.wosu.org/politics-government/2026-08-11/columbus-city-council-public-hearing-on-flock-cameras-voices-concerns-with-technology": {
