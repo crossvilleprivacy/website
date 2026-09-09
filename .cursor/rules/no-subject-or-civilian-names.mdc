@@ -12,6 +12,24 @@ alwaysApply: true
 
 Prefer: “one officer,” “a deputy,” “an unnamed employee,” “a civilian,” “someone known to the officer.”
 
+## Required sentence (accused / charged / fired / investigated)
+
+On public pages, every new or updated mention of a misuse subject uses this shape:
+
+**[Source] reported that [a job] from [agency or city] was [event] with [the official accusation or employment action].**
+
+Example: “GBI reported that a deputy from the Clayton County Sheriff’s Office was charged with misuse of a license-plate reader system.”
+
+| Slot | Fill with | Never |
+|---|---|---|
+| Source | Linked outlet or official paper (GBI, PD, docket) | This site as the finder of guilt |
+| Job | officer, deputy, civilian employee, former officer | A personal name |
+| Agency or city | Clayton County Sheriff’s Office, Hahira PD | Home address, precinct gossip |
+| Event | charged, arrested, fired, resigned, recommended for firing, under investigation | “misused Flock,” “stalked,” “is guilty” in our voice |
+| Accusation / action | the charge or HR action **as the source stated it** | Civilian names, “ex,” plates, kids, extra counts we cannot source |
+
+Same formula for arrests and firings (“WALB reported that an officer from Hahira PD was fired, then arrested…”). Do not put the accused’s name in headlines, body, sources labels, JSON narrative, or lookup Outcome.
+
 ## Keep
 
 - **Official sources** speaking or acting on the record who are **not** the accused: sheriff, chief, mayor, city manager, councilmember announcing a decision or quoted (“Sheriff X said…”)
@@ -33,4 +51,4 @@ Prefer generic slugs (`#oak-ridge-misuse`, `#lufkin-misuse`). Keep old name-base
 ## Related
 
 - Lookup Outcome shows jobs and counts only (`sync-dossiers-with-news.mdc`)
-- Legal gray areas: naming civilian stalking targets is **high** risk (`flag-legal-gray-areas.mdc`)
+- Legal gray areas: naming civilian stalking targets is **high** risk; attributed charge/arrest events with unnamed people are **low** (`flag-legal-gray-areas.mdc`)

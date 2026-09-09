@@ -254,6 +254,10 @@
       .replace(/\bTerminated\b/g, "fired")
       .replace(/\bCriminally Charged\b/g, "criminally charged")
       .replace(/\bIndicted\b/g, "indicted")
+      .replace(/\bGuilty Plea\b/g, "pleaded guilty")
+      .replace(/\bNo-contest\b/gi, "no-contest")
+      .replace(/\bSentenced\b/g, "sentenced")
+      .replace(/\bConvicted\b/g, "convicted")
       .replace(/\bRelieved of Duty\b/g, "relieved of duty")
       .replace(/\bUnder Investigation\b/g, "under investigation")
       .replace(/\bInternal Disciplinary Action\b/g, "internal discipline")
@@ -335,6 +339,8 @@
         State: String((row && row.State) || "").trim().toUpperCase(),
         Outcome: bucket,
         Outcome_Label: formatMisuseOutcome(bucket, subject, agency),
+        Personnel_Charged: typeof (row && row.Personnel_Charged) === "number" ? row.Personnel_Charged : 0,
+        Personnel_Convicted: typeof (row && row.Personnel_Convicted) === "number" ? row.Personnel_Convicted : 0,
         Month: month,
         Month_Label: monthLabel(month),
         Year: row && row.Year != null && row.Year !== "" ? Number(row.Year) : 0,
@@ -400,14 +406,22 @@
         return false;
       }
       var fired = /Terminated|Resigned/.test(row.Outcome);
-      var charged = /Criminally Charged|Indicted/.test(row.Outcome);
+      var charged =
+        /Criminally Charged|Indicted/.test(row.Outcome) ||
+        Number(row.Personnel_Charged) > 0;
+      var convicted =
+        /Sentenced|Convicted|Guilty Plea|No-contest|No contest/i.test(row.Outcome) ||
+        Number(row.Personnel_Convicted) > 0;
       if (bucket === "fired" && !fired) {
         return false;
       }
       if (bucket === "charged" && !charged) {
         return false;
       }
-      if (bucket === "other" && (fired || charged)) {
+      if (bucket === "convicted" && !convicted) {
+        return false;
+      }
+      if (bucket === "other" && (fired || charged || convicted)) {
         return false;
       }
       if (!q) {

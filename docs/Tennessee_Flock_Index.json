@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-09-07",
-  "as_of_long": "September 7, 2026",
-  "as_of_short": "Sept. 7, 2026",
-  "record_count": 14,
+  "as_of": "2026-09-09",
+  "as_of_long": "September 9, 2026",
+  "as_of_short": "Sept. 9, 2026",
+  "record_count": 15,
   "records": [
     {
       "Kind": "cancel",
@@ -170,7 +170,7 @@
       "Kind_Label": "Misuse",
       "Place": "Oak Ridge Police Department",
       "State": "TN",
-      "What": "1 officer fired and criminally charged",
+      "What": "1 officer fired, criminally charged, and sentenced",
       "Date": "2026",
       "Date_Label": "2026",
       "ID": "FLK-2025-027",
@@ -228,6 +228,22 @@
       "Source_URLs": [
         "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
         "https://ij.org/dozens-of-innocent-motorists-have-been-pulled-over-detained-at-gunpoint-or-jailed-due-to-ai-license-plate-camera-errors/"
+      ]
+    },
+    {
+      "Kind": "misuse",
+      "Kind_Label": "Misuse",
+      "Place": "Shelby County Sheriff's Office",
+      "State": "TN",
+      "What": "1 deputy relieved of duty",
+      "Date": "2024",
+      "Date_Label": "2024",
+      "ID": "FLK-2026-091",
+      "Case_ID": "FLK-2026-091",
+      "Writeup": "",
+      "Source_URL": "https://ij.org/the-ij-database-of-alpr-abuse/",
+      "Source_URLs": [
+        "https://ij.org/the-ij-database-of-alpr-abuse/"
       ]
     }
   ]

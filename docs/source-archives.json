@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-08",
-  "count": 1087,
-  "source_count": 1087,
+  "as_of": "2026-09-09",
+  "count": 1128,
+  "source_count": 1128,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -81,6 +81,13 @@
       "captured": "2026-08-12T01:09:37Z",
       "method": "existing"
     },
+    "https://abc13.com/post/former-katy-police-officer-terminated-misusing-flock-cameras-track-ex-wife-months-pd-says/19735902": {
+      "url": "https://abc13.com/post/former-katy-police-officer-terminated-misusing-flock-cameras-track-ex-wife-months-pd-says/19735902/",
+      "wayback": "https://web.archive.org/web/20260907141004/https://abc13.com/post/former-katy-police-officer-terminated-misusing-flock-cameras-track-ex-wife-months-pd-says/19735902/",
+      "timestamp": "20260907141004",
+      "captured": "2026-09-07T14:10:04Z",
+      "method": "existing"
+    },
     "https://abc13.com/post/fort-bend-county-sheriffs-office-lieutenant-admits-improper-use-flock-cameras-docs/19528986": {
       "url": "https://abc13.com/post/fort-bend-county-sheriffs-office-lieutenant-admits-improper-use-flock-cameras-docs/19528986/",
       "wayback": "https://web.archive.org/web/20260815081750/https://abc13.com/post/fort-bend-county-sheriffs-office-lieutenant-admits-improper-use-flock-cameras-docs/19528986/",
@@ -94,6 +101,13 @@
       "timestamp": "20260819231907",
       "captured": "2026-08-19T23:19:07Z",
       "method": "save"
+    },
+    "https://abc13.com/post/manvel-city-council-votes-end-flock-camera-use/19808559": {
+      "url": "https://abc13.com/post/manvel-city-council-votes-end-flock-camera-use/19808559/",
+      "wayback": "https://web.archive.org/web/20260909035504/https://abc13.com/post/manvel-city-council-votes-end-flock-camera-use/19808559/",
+      "timestamp": "20260909035504",
+      "captured": "2026-09-09T03:55:04Z",
+      "method": "existing"
     },
     "https://abc13.com/post/officer-accused-misusing-flock-cameras-allegedly-stalk-woman-court-documents-show/19720238": {
       "url": "https://abc13.com/post/officer-accused-misusing-flock-cameras-allegedly-stalk-woman-court-documents-show/19720238/",
@@ -386,6 +400,13 @@
       "wayback": "https://web.archive.org/web/20260828140114/https://cbs12.com/news/local/desantis-calls-flock-license-plate-cameras-out-of-control-urges-overhaul-desantis-ron-desantis-flock-cameras-flock-safety-license-plate-readers-license-plate-reader-cameras-florida-florida-politics-privacy-concerns-surveillance-state-government",
       "timestamp": "20260828140114",
       "captured": "2026-08-28T14:01:14Z",
+      "method": "existing"
+    },
+    "https://cbsaustin.com/news/local/bastrop-city-council-votes-unanimously-to-decommission-flock-camera-system": {
+      "url": "https://cbsaustin.com/news/local/bastrop-city-council-votes-unanimously-to-decommission-flock-camera-system",
+      "wayback": "https://web.archive.org/web/20260909105033/https://cbsaustin.com/news/local/bastrop-city-council-votes-unanimously-to-decommission-flock-camera-system",
+      "timestamp": "20260909105033",
+      "captured": "2026-09-09T10:50:33Z",
       "method": "existing"
     },
     "https://cbsaustin.com/news/local/burnet-county-removes-license-plate-reader-cameras-after-vandalism-incidents": {
@@ -1151,6 +1172,13 @@
       "captured": "2026-06-28T15:38:52Z",
       "method": "existing"
     },
+    "https://fox11online.com/news/local/menasha-votes-to-terminate-flock-contract-neenah-working-toward-termination-too": {
+      "url": "https://fox11online.com/news/local/menasha-votes-to-terminate-flock-contract-neenah-working-toward-termination-too",
+      "wayback": "https://web.archive.org/web/20260909105331/https://fox11online.com/news/local/menasha-votes-to-terminate-flock-contract-neenah-working-toward-termination-too",
+      "timestamp": "20260909105331",
+      "captured": "2026-09-09T10:53:31Z",
+      "method": "save"
+    },
     "https://fox17.com/news/local/2025-2-7-wilson-county-tennessee-sheriff-criticizes-nashville-leaders-out-for-lack-of-lprs-license-plate-readers": {
       "url": "https://fox17.com/news/local/2025-2-7-wilson-county-tennessee-sheriff-criticizes-nashville-leaders-out-for-lack-of-lprs-license-plate-readers",
       "wayback": "https://web.archive.org/web/20260816171340/https://fox17.com/news/local/2025-2-7-wilson-county-tennessee-sheriff-criticizes-nashville-leaders-out-for-lack-of-lprs-license-plate-readers",
@@ -1221,6 +1249,13 @@
       "captured": "2026-08-04T22:43:05Z",
       "method": "existing"
     },
+    "https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges",
+      "wayback": "https://web.archive.org/web/20260615133511/https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges",
+      "timestamp": "20260615133511",
+      "captured": "2026-06-15T13:35:11Z",
+      "method": "existing"
+    },
     "https://gbi.georgia.gov/press-releases/2026-07-06/gbi-arrests-five-former-albany-police-department-officers-misuse-license": {
       "url": "https://gbi.georgia.gov/press-releases/2026-07-06/gbi-arrests-five-former-albany-police-department-officers-misuse-license",
       "wayback": "https://web.archive.org/web/20260810203407/https://gbi.georgia.gov/press-releases/2026-07-06/gbi-arrests-five-former-albany-police-department-officers-misuse-license",
@@ -1242,11 +1277,32 @@
       "captured": "2026-08-11T15:26:18Z",
       "method": "existing"
     },
+    "https://gbi.georgia.gov/press-releases/2026-08-07/gbi-arrests-former-polk-county-police-officer-misuse-license-plate-reader": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-08-07/gbi-arrests-former-polk-county-police-officer-misuse-license-plate-reader",
+      "wayback": "https://web.archive.org/web/20260904124736/https://gbi.georgia.gov/press-releases/2026-08-07/gbi-arrests-former-polk-county-police-officer-misuse-license-plate-reader",
+      "timestamp": "20260904124736",
+      "captured": "2026-09-04T12:47:36Z",
+      "method": "existing"
+    },
+    "https://gbi.georgia.gov/press-releases/2026-08-12/gbi-arrests-former-911-director-paulding-county-misuse-license-plate": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-08-12/gbi-arrests-former-911-director-paulding-county-misuse-license-plate",
+      "wayback": "https://web.archive.org/web/20260904125909/https://gbi.georgia.gov/press-releases/2026-08-12/gbi-arrests-former-911-director-paulding-county-misuse-license-plate",
+      "timestamp": "20260904125909",
+      "captured": "2026-09-04T12:59:09Z",
+      "method": "existing"
+    },
     "https://gbi.georgia.gov/press-releases/2026-09-01/gbi-arrests-gdc-special-agent-charge-misuse-license-plate-reader-system": {
       "url": "https://gbi.georgia.gov/press-releases/2026-09-01/gbi-arrests-gdc-special-agent-charge-misuse-license-plate-reader-system",
       "wayback": "https://web.archive.org/web/20260902203045/https://gbi.georgia.gov/press-releases/2026-09-01/gbi-arrests-gdc-special-agent-charge-misuse-license-plate-reader-system",
       "timestamp": "20260902203045",
       "captured": "2026-09-02T20:30:45Z",
+      "method": "existing"
+    },
+    "https://gbi.georgia.gov/press-releases/2026-09-02/gbi-arrests-clayton-county-sheriffs-office-deputy-misuse-license-plate": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-09-02/gbi-arrests-clayton-county-sheriffs-office-deputy-misuse-license-plate",
+      "wayback": "https://web.archive.org/web/20260906010423/https://gbi.georgia.gov/press-releases/2026-09-02/gbi-arrests-clayton-county-sheriffs-office-deputy-misuse-license-plate",
+      "timestamp": "20260906010423",
+      "captured": "2026-09-06T01:04:23Z",
       "method": "existing"
     },
     "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order": {
@@ -1794,6 +1850,13 @@
       "captured": "2022-03-08T11:12:03Z",
       "method": "archive.today"
     },
+    "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners": {
+      "url": "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners/",
+      "wayback": "https://web.archive.org/web/20260905151002/https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners/",
+      "timestamp": "20260905151002",
+      "captured": "2026-09-05T15:10:02Z",
+      "method": "existing"
+    },
     "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances": {
       "url": "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
       "wayback": "https://web.archive.org/web/20260401100753/https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
@@ -1904,6 +1967,27 @@
       "wayback": "https://web.archive.org/web/20260510203335/https://police.fhda.edu/_about-us/n-automated-license-plate-readers.html",
       "timestamp": "20260510203335",
       "captured": "2026-05-10T20:33:35Z",
+      "method": "existing"
+    },
+    "https://portcitydaily.com/latest-news/2026/09/01/brunswick-county-deputy-under-sbi-investigation-for-flock-misuse": {
+      "url": "https://portcitydaily.com/latest-news/2026/09/01/brunswick-county-deputy-under-sbi-investigation-for-flock-misuse/",
+      "wayback": "https://web.archive.org/web/20260902014845/https://portcitydaily.com/latest-news/2026/09/01/brunswick-county-deputy-under-sbi-investigation-for-flock-misuse/",
+      "timestamp": "20260902014845",
+      "captured": "2026-09-02T01:48:45Z",
+      "method": "existing"
+    },
+    "https://portcitydaily.com/latest-news/2026/09/08/flock-contract-canceled-in-new-hanover-county": {
+      "url": "https://portcitydaily.com/latest-news/2026/09/08/flock-contract-canceled-in-new-hanover-county/",
+      "wayback": "https://web.archive.org/web/20260908162108/https://portcitydaily.com/latest-news/2026/09/08/flock-contract-canceled-in-new-hanover-county/",
+      "timestamp": "20260908162108",
+      "captured": "2026-09-08T16:21:08Z",
+      "method": "existing"
+    },
+    "https://portcitydaily.com/news-briefs/2026/09/08/wbpd-officer-no-longer-employed-by-town-after-flock-misuse": {
+      "url": "https://portcitydaily.com/news-briefs/2026/09/08/wbpd-officer-no-longer-employed-by-town-after-flock-misuse/",
+      "wayback": "https://web.archive.org/web/20260908234725/https://portcitydaily.com/news-briefs/2026/09/08/wbpd-officer-no-longer-employed-by-town-after-flock-misuse/",
+      "timestamp": "20260908234725",
+      "captured": "2026-09-08T23:47:25Z",
       "method": "existing"
     },
     "https://quadrangle.michigan.law.umich.edu/issues/winter-2024-2025/flawed-facial-recognition-technology-leads-wrongful-arrest-and-historic": {
@@ -2501,6 +2585,13 @@
       "captured": "2026-08-16T17:25:14Z",
       "method": "existing"
     },
+    "https://whbl.com/2026/09/08/sale-of-private-data-behind-citys-bid-to-drop-flock": {
+      "url": "https://whbl.com/2026/09/08/sale-of-private-data-behind-citys-bid-to-drop-flock/",
+      "wayback": "https://web.archive.org/web/20260908112514/https://whbl.com/2026/09/08/sale-of-private-data-behind-citys-bid-to-drop-flock/",
+      "timestamp": "20260908112514",
+      "captured": "2026-09-08T11:25:14Z",
+      "method": "existing"
+    },
     "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety": {
       "url": "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety/",
       "wayback": "https://web.archive.org/web/20260821024728/https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety/",
@@ -2751,6 +2842,13 @@
       "wayback": "https://web.archive.org/web/20260805163138/https://www.41nbc.com/bibb-internal-affairs-flock-camera-query-review/",
       "timestamp": "20260805163138",
       "captured": "2026-08-05T16:31:38Z",
+      "method": "existing"
+    },
+    "https://www.41nbc.com/houston-county-sro-suspended-flock-data-misuse": {
+      "url": "https://www.41nbc.com/houston-county-sro-suspended-flock-data-misuse/",
+      "wayback": "https://web.archive.org/web/20260819162831/https://www.41nbc.com/houston-county-sro-suspended-flock-data-misuse/",
+      "timestamp": "20260819162831",
+      "captured": "2026-08-19T16:28:31Z",
       "method": "existing"
     },
     "https://www.41nbc.com/milledgeville-police-major-brandon-sellers-arrested": {
@@ -3103,6 +3201,20 @@
       "captured": "2026-04-10T01:32:33Z",
       "method": "existing"
     },
+    "https://www.appenmedia.com/city_council/dunwoody-defers-vote-on-controversial-flock-contract/article_a860e304-7566-4d25-a6ff-0faf2c1fb234.html": {
+      "url": "https://www.appenmedia.com/city_council/dunwoody-defers-vote-on-controversial-flock-contract/article_a860e304-7566-4d25-a6ff-0faf2c1fb234.html",
+      "wayback": "https://web.archive.org/web/20260825085029/https://www.appenmedia.com/city_council/dunwoody-defers-vote-on-controversial-flock-contract/article_a860e304-7566-4d25-a6ff-0faf2c1fb234.html",
+      "timestamp": "20260825085029",
+      "captured": "2026-08-25T08:50:29Z",
+      "method": "existing"
+    },
+    "https://www.appenmedia.com/news/sandy-springs-officer-resigns-amid-flock-misuse-investigation/article_b2aa4213-4acc-4098-9f94-2ec986165bac.html": {
+      "url": "https://www.appenmedia.com/news/sandy-springs-officer-resigns-amid-flock-misuse-investigation/article_b2aa4213-4acc-4098-9f94-2ec986165bac.html",
+      "wayback": "https://web.archive.org/web/20260825122335/https://www.appenmedia.com/news/sandy-springs-officer-resigns-amid-flock-misuse-investigation/article_b2aa4213-4acc-4098-9f94-2ec986165bac.html",
+      "timestamp": "20260825122335",
+      "captured": "2026-08-25T12:23:35Z",
+      "method": "existing"
+    },
     "https://www.arkansasonline.com/news/2026/aug/07/cabot-halts-use-of-flock-license-plate-readers": {
       "url": "https://www.arkansasonline.com/news/2026/aug/07/cabot-halts-use-of-flock-license-plate-readers/",
       "wayback": "https://web.archive.org/web/20260813143642/https://www.arkansasonline.com/news/2026/aug/07/cabot-halts-use-of-flock-license-plate-readers/",
@@ -3129,6 +3241,13 @@
       "wayback": "https://web.archive.org/web/20260308194229/https://www.arkansasonline.com/news/2026/mar/02/loose-plate-holder-leads-to-errant-traffic-stop/",
       "timestamp": "20260308194229",
       "captured": "2026-03-08T19:42:29Z",
+      "method": "existing"
+    },
+    "https://www.atlantanewsfirst.com/2026/07/08/greene-county-deputy-arrested-fired-after-allegedly-misusing-flock-cameras": {
+      "url": "https://www.atlantanewsfirst.com/2026/07/08/greene-county-deputy-arrested-fired-after-allegedly-misusing-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260718192914/https://www.atlantanewsfirst.com/2026/07/08/greene-county-deputy-arrested-fired-after-allegedly-misusing-flock-cameras/",
+      "timestamp": "20260718192914",
+      "captured": "2026-07-18T19:29:14Z",
       "method": "existing"
     },
     "https://www.atlantanewsfirst.com/2026/07/17/3-fayetteville-police-officers-fired-accused-misusing-flock-camera-system": {
@@ -3185,6 +3304,13 @@
       "wayback": "https://web.archive.org/web/20260815145556/https://www.atlantanewsfirst.com/2026/08/15/atlanta-reviews-police-use-flock-safety-cameras-amid-advocacy-pushback/",
       "timestamp": "20260815145556",
       "captured": "2026-08-15T14:55:56Z",
+      "method": "existing"
+    },
+    "https://www.atlantanewsfirst.com/2026/08/28/athens-police-employee-fired-facing-criminal-investigation-allegedly-misusing-flock-cameras": {
+      "url": "https://www.atlantanewsfirst.com/2026/08/28/athens-police-employee-fired-facing-criminal-investigation-allegedly-misusing-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260830034424/https://www.atlantanewsfirst.com/2026/08/28/athens-police-employee-fired-facing-criminal-investigation-allegedly-misusing-flock-cameras/",
+      "timestamp": "20260830034424",
+      "captured": "2026-08-30T03:44:24Z",
       "method": "existing"
     },
     "https://www.atlantanewsfirst.com/2026/09/02/hall-county-deputy-fired-after-being-accused-misusing-flock-cameras": {
@@ -3667,6 +3793,13 @@
       "captured": "2026-09-05T11:59:46Z",
       "method": "wayback-available"
     },
+    "https://www.cbsnews.com/atlanta/news/3-deputies-georgia-corrections-special-agent-arrested-for-alleged-misuse-of-flock-cameras": {
+      "url": "https://www.cbsnews.com/atlanta/news/3-deputies-georgia-corrections-special-agent-arrested-for-alleged-misuse-of-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260909014241/https://www.cbsnews.com/atlanta/news/3-deputies-georgia-corrections-special-agent-arrested-for-alleged-misuse-of-flock-cameras/",
+      "timestamp": "20260909014241",
+      "captured": "2026-09-09T01:42:41Z",
+      "method": "existing"
+    },
     "https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew": {
       "url": "https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew/",
       "wayback": "https://web.archive.org/web/20260814141109/https://www.cbsnews.com/atlanta/news/3-georgia-deputies-arrested-after-allegedly-using-flock-cameras-to-stalk-people-they-knew/",
@@ -3686,6 +3819,13 @@
       "wayback": "https://web.archive.org/web/20260824200836/https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/",
       "timestamp": "20260824200836",
       "captured": "2026-08-24T20:08:36Z",
+      "method": "existing"
+    },
+    "https://www.cbsnews.com/atlanta/news/another-georgia-officer-arrested-over-alleged-flock-camera-misuse-as-internal-audits-continue-uncovering-cases": {
+      "url": "https://www.cbsnews.com/atlanta/news/another-georgia-officer-arrested-over-alleged-flock-camera-misuse-as-internal-audits-continue-uncovering-cases/",
+      "wayback": "https://web.archive.org/web/20260904094137/https://www.cbsnews.com/atlanta/news/another-georgia-officer-arrested-over-alleged-flock-camera-misuse-as-internal-audits-continue-uncovering-cases/",
+      "timestamp": "20260904094137",
+      "captured": "2026-09-04T09:41:37Z",
       "method": "existing"
     },
     "https://www.cbsnews.com/atlanta/news/cherokee-county-deputy-fired-arrested-for-allegedly-misusing-flock-cameras-sheriff-says": {
@@ -3793,6 +3933,13 @@
       "captured": "2026-08-16T17:33:29Z",
       "method": "save"
     },
+    "https://www.charlotteobserver.com/news/local/crime/article316774997.html": {
+      "url": "https://www.charlotteobserver.com/news/local/crime/article316774997.html",
+      "archive_today": "https://archive.today/20260806132759/https://www.charlotteobserver.com/news/local/crime/article316774997.html",
+      "timestamp": "20260806132759",
+      "captured": "2026-08-06T13:27:59Z",
+      "method": "archive.today"
+    },
     "https://www.chattanoogan.com/2026/8/31/522745/Sheriff-Garrett-Pauses-Use-Of-License.aspx": {
       "url": "https://www.chattanoogan.com/2026/8/31/522745/Sheriff-Garrett-Pauses-Use-Of-License.aspx",
       "wayback": "https://web.archive.org/web/20260901165853/https://www.chattanoogan.com/2026/8/31/522745/Sheriff-Garrett-Pauses-Use-Of-License.aspx",
@@ -3870,6 +4017,13 @@
       "captured": "2026-08-07T00:50:34Z",
       "method": "existing"
     },
+    "https://www.click2houston.com/news/local/2026/07/30/baytown-officer-resigns-as-investigations-continue-into-alleged-misuse-of-flock-license-plate-reader-system": {
+      "url": "https://www.click2houston.com/news/local/2026/07/30/baytown-officer-resigns-as-investigations-continue-into-alleged-misuse-of-flock-license-plate-reader-system/",
+      "wayback": "https://web.archive.org/web/20260904091304/https://www.click2houston.com/news/local/2026/07/30/baytown-officer-resigns-as-investigations-continue-into-alleged-misuse-of-flock-license-plate-reader-system/",
+      "timestamp": "20260904091304",
+      "captured": "2026-09-04T09:13:04Z",
+      "method": "existing"
+    },
     "https://www.click2houston.com/news/local/2026/08/25/former-katy-police-officer-accused-of-using-flock-cameras-tracking-device-to-stalk-ex-wife": {
       "url": "https://www.click2houston.com/news/local/2026/08/25/former-katy-police-officer-accused-of-using-flock-cameras-tracking-device-to-stalk-ex-wife/",
       "wayback": "https://web.archive.org/web/20260827145729/https://www.click2houston.com/news/local/2026/08/25/former-katy-police-officer-accused-of-using-flock-cameras-tracking-device-to-stalk-ex-wife/",
@@ -3883,6 +4037,13 @@
       "timestamp": "20260907120842",
       "captured": "2026-09-07T12:08:42Z",
       "method": "save"
+    },
+    "https://www.click2houston.com/news/local/2026/09/08/willis-shuts-off-flock-cameras-until-further-notice-amid-residents-concerns": {
+      "url": "https://www.click2houston.com/news/local/2026/09/08/willis-shuts-off-flock-cameras-until-further-notice-amid-residents-concerns/",
+      "wayback": "https://web.archive.org/web/20260909021220/https://www.click2houston.com/news/local/2026/09/08/willis-shuts-off-flock-cameras-until-further-notice-amid-residents-concerns/",
+      "timestamp": "20260909021220",
+      "captured": "2026-09-09T02:12:20Z",
+      "method": "existing"
     },
     "https://www.clickondetroit.com/news/local/2026/07/10/westland-to-remove-flock-safety-license-plate-cameras-after-privacy-concerns": {
       "url": "https://www.clickondetroit.com/news/local/2026/07/10/westland-to-remove-flock-safety-license-plate-cameras-after-privacy-concerns/",
@@ -4472,6 +4633,13 @@
       "captured": "2026-08-19T14:52:58Z",
       "method": "save"
     },
+    "https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras": {
+      "url": "https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260909021256/https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras/",
+      "timestamp": "20260909021256",
+      "captured": "2026-09-09T02:12:56Z",
+      "method": "existing"
+    },
     "https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police": {
       "url": "https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police",
       "wayback": "https://web.archive.org/web/20260818120454/https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police",
@@ -4533,6 +4701,20 @@
       "wayback": "https://web.archive.org/web/20260813171723/https://www.fox5atlanta.com/news/atlanta-police-auditing-use-flock-license-plate-reader-system",
       "timestamp": "20260813171723",
       "captured": "2026-08-13T17:17:23Z",
+      "method": "existing"
+    },
+    "https://www.fox5atlanta.com/news/clayton-county-deputy-arrested-alleged-misuse-flock-system": {
+      "url": "https://www.fox5atlanta.com/news/clayton-county-deputy-arrested-alleged-misuse-flock-system",
+      "wayback": "https://web.archive.org/web/20260906192835/https://www.fox5atlanta.com/news/clayton-county-deputy-arrested-alleged-misuse-flock-system",
+      "timestamp": "20260906192835",
+      "captured": "2026-09-06T19:28:35Z",
+      "method": "existing"
+    },
+    "https://www.fox5atlanta.com/news/habersham-county-deputy-fired-arrested-misuse-license-plate-data": {
+      "url": "https://www.fox5atlanta.com/news/habersham-county-deputy-fired-arrested-misuse-license-plate-data",
+      "wayback": "https://web.archive.org/web/20260827215730/https://www.fox5atlanta.com/news/habersham-county-deputy-fired-arrested-misuse-license-plate-data",
+      "timestamp": "20260827215730",
+      "captured": "2026-08-27T21:57:30Z",
       "method": "existing"
     },
     "https://www.fox5atlanta.com/news/inside-gwinnett-county-police-audit-exposed-license-plate-data-abuse": {
@@ -4906,6 +5088,13 @@
       "captured": "2026-04-16T02:09:53Z",
       "method": "existing"
     },
+    "https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007": {
+      "url": "https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007/",
+      "wayback": "https://web.archive.org/web/20260818174151/https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007/",
+      "timestamp": "20260818174151",
+      "captured": "2026-08-18T17:41:51Z",
+      "method": "existing"
+    },
     "https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case": {
       "url": "https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case",
       "wayback": "https://web.archive.org/web/20260505170831/https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case",
@@ -4925,6 +5114,13 @@
       "wayback": "https://web.archive.org/web/20260814062330/https://www.investigatetv.com/2026/05/18/flock-safety-cameras-help-solve-crimes-whos-watching-watchers/",
       "timestamp": "20260814062330",
       "captured": "2026-08-14T06:23:30Z",
+      "method": "existing"
+    },
+    "https://www.investigatetv.com/2026/08/10/flock-alters-system-tracking-transparency-while-shadow-alleged-misuse-cases-expands": {
+      "url": "https://www.investigatetv.com/2026/08/10/flock-alters-system-tracking-transparency-while-shadow-alleged-misuse-cases-expands/",
+      "wayback": "https://web.archive.org/web/20260825214949/https://www.investigatetv.com/2026/08/10/flock-alters-system-tracking-transparency-while-shadow-alleged-misuse-cases-expands/",
+      "timestamp": "20260825214949",
+      "captured": "2026-08-25T21:49:49Z",
       "method": "existing"
     },
     "https://www.isanti-chisagocountystar.com/news/north-branch-pauses-flock-camera-installation/article_446102b0-3c16-415e-8f13-75d84811c6eb.html": {
@@ -4996,6 +5192,13 @@
       "timestamp": "20260902144356",
       "captured": "2026-09-02T14:43:56Z",
       "method": "save"
+    },
+    "https://www.kbtx.com/2026/09/09/bastrop-city-council-votes-terminate-flock-contract-prevent-similar-cameras-future/": {
+      "url": "https://www.kbtx.com/2026/09/09/bastrop-city-council-votes-terminate-flock-contract-prevent-similar-cameras-future/",
+      "wayback": "https://web.archive.org/web/20260909105134/https://www.kbtx.com/2026/09/09/bastrop-city-council-votes-terminate-flock-contract-prevent-similar-cameras-future/",
+      "timestamp": "20260909105134",
+      "captured": "2026-09-09T10:51:34Z",
+      "method": "existing"
     },
     "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns": {
       "url": "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
@@ -5675,6 +5878,13 @@
       "captured": "2026-08-30T06:56:27Z",
       "method": "existing"
     },
+    "https://www.newbedfordpd.com/2026/09/chief-thody-recommends-termination-of-two-nbpd-officers-following-internal-investigation-into-usage-of-automated-license-plate-reader-technology": {
+      "url": "https://www.newbedfordpd.com/2026/09/chief-thody-recommends-termination-of-two-nbpd-officers-following-internal-investigation-into-usage-of-automated-license-plate-reader-technology/",
+      "wayback": "https://web.archive.org/web/20260909105428/https://www.newbedfordpd.com/2026/09/chief-thody-recommends-termination-of-two-nbpd-officers-following-internal-investigation-into-usage-of-automated-license-plate-reader-technology/",
+      "timestamp": "20260909105428",
+      "captured": "2026-09-09T10:54:28Z",
+      "method": "save"
+    },
     "https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action": {
       "url": "https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action/",
       "wayback": "https://web.archive.org/web/20260828110622/https://www.news4jax.com/news/local/2026/08/26/desantis-calls-flock-camera-surveillance-out-of-control-urges-legislative-action/",
@@ -5906,6 +6116,13 @@
       "captured": "2026-08-12T21:18:36Z",
       "method": "existing"
     },
+    "https://www.postandcourier.com/greenville/news/greenville-county-sheriff-flock-cameras-misused/article_be22023b-01f0-4d84-9c1b-e9eda39fbfb2.html": {
+      "url": "https://www.postandcourier.com/greenville/news/greenville-county-sheriff-flock-cameras-misused/article_be22023b-01f0-4d84-9c1b-e9eda39fbfb2.html",
+      "wayback": "https://web.archive.org/web/20260826095619/https://www.postandcourier.com/greenville/news/greenville-county-sheriff-flock-cameras-misused/article_be22023b-01f0-4d84-9c1b-e9eda39fbfb2.html",
+      "timestamp": "20260826095619",
+      "captured": "2026-08-26T09:56:19Z",
+      "method": "existing"
+    },
     "https://www.postandcourier.com/greenville/news/greer-south-carolina-flock-cameras-suspended/article_63442586-c542-45cd-9d4e-5fbf02fc6e74.html": {
       "url": "https://www.postandcourier.com/greenville/news/greer-south-carolina-flock-cameras-suspended/article_63442586-c542-45cd-9d4e-5fbf02fc6e74.html",
       "wayback": "https://web.archive.org/web/20260822200037/https://www.postandcourier.com/greenville/news/greer-south-carolina-flock-cameras-suspended/article_63442586-c542-45cd-9d4e-5fbf02fc6e74.html",
@@ -6101,6 +6318,13 @@
       "timestamp": "20230913195327",
       "captured": "2023-09-13T19:53:27Z",
       "method": "archive.today"
+    },
+    "https://www.southcarolinapublicradio.org/sc-news/2026-07-30/flock-camera-controversy-another-law-enforcement-officer-accused-of-misuse": {
+      "url": "https://www.southcarolinapublicradio.org/sc-news/2026-07-30/flock-camera-controversy-another-law-enforcement-officer-accused-of-misuse",
+      "wayback": "https://web.archive.org/web/20260803093800/https://www.southcarolinapublicradio.org/sc-news/2026-07-30/flock-camera-controversy-another-law-enforcement-officer-accused-of-misuse",
+      "timestamp": "20260803093800",
+      "captured": "2026-08-03T09:38:00Z",
+      "method": "existing"
     },
     "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007": {
       "url": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
@@ -6409,6 +6633,13 @@
       "captured": "2026-08-19T20:15:07Z",
       "method": "existing"
     },
+    "https://www.tmj4.com/news/local-news/in-your-community/sheboygan-county/sheboygan-common-council-unanimously-votes-to-end-flock-camera-contract": {
+      "url": "https://www.tmj4.com/news/local-news/in-your-community/sheboygan-county/sheboygan-common-council-unanimously-votes-to-end-flock-camera-contract",
+      "wayback": "https://web.archive.org/web/20260909105228/https://www.tmj4.com/news/local-news/in-your-community/sheboygan-county/sheboygan-common-council-unanimously-votes-to-end-flock-camera-contract",
+      "timestamp": "20260909105228",
+      "captured": "2026-09-09T10:52:28Z",
+      "method": "existing"
+    },
     "https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/brookfield-police-chief-defends-officers-high-risk-traffic-stop-based-on-flock-alert": {
       "url": "https://www.tmj4.com/news/local-news/in-your-community/waukesha-county/brookfield-police-chief-defends-officers-high-risk-traffic-stop-based-on-flock-alert",
       "wayback": "https://web.archive.org/web/20260808145227/https://www.tmj4.com//news/local-news/in-your-community/waukesha-county/brookfield-police-chief-defends-officers-high-risk-traffic-stop-based-on-flock-alert",
@@ -6514,6 +6745,20 @@
       "captured": "2026-08-24T20:08:46Z",
       "method": "existing"
     },
+    "https://www.walb.com/2026/08/27/hahira-pd-officer-fired-over-alleged-policy-violations": {
+      "url": "https://www.walb.com/2026/08/27/hahira-pd-officer-fired-over-alleged-policy-violations/",
+      "wayback": "https://web.archive.org/web/20260829115556/https://www.walb.com/2026/08/27/hahira-pd-officer-fired-over-alleged-policy-violations/",
+      "timestamp": "20260829115556",
+      "captured": "2026-08-29T11:55:56Z",
+      "method": "existing"
+    },
+    "https://www.walb.com/2026/09/01/flock-camera-misuse-allegations-lead-hahira-pd-officers-arrest": {
+      "url": "https://www.walb.com/2026/09/01/flock-camera-misuse-allegations-lead-hahira-pd-officers-arrest/",
+      "wayback": "https://web.archive.org/web/20260903014547/https://www.walb.com/2026/09/01/flock-camera-misuse-allegations-lead-hahira-pd-officers-arrest/",
+      "timestamp": "20260903014547",
+      "captured": "2026-09-03T01:45:47Z",
+      "method": "existing"
+    },
     "https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition": {
       "url": "https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition/",
       "wayback": "https://web.archive.org/web/20260724220800/https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition/",
@@ -6591,6 +6836,13 @@
       "captured": "2026-07-11T17:58:17Z",
       "method": "existing"
     },
+    "https://www.wbay.com/2026/09/09/neenah-menasha-waupaca-county-move-cut-ties-with-flock-cameras/": {
+      "url": "https://www.wbay.com/2026/09/09/neenah-menasha-waupaca-county-move-cut-ties-with-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260909105135/https://www.wbay.com/2026/09/09/neenah-menasha-waupaca-county-move-cut-ties-with-flock-cameras/",
+      "timestamp": "20260909105135",
+      "captured": "2026-09-09T10:51:35Z",
+      "method": "existing"
+    },
     "https://www.wbng.com/2026/08/07/binghamton-city-council-resolution-urges-mayor-terminate-flock-camera-contract": {
       "url": "https://www.wbng.com/2026/08/07/binghamton-city-council-resolution-urges-mayor-terminate-flock-camera-contract/",
       "wayback": "https://web.archive.org/web/20260808050913/https://www.wbng.com/2026/08/07/binghamton-city-council-resolution-urges-mayor-terminate-flock-camera-contract/",
@@ -6638,6 +6890,13 @@
       "wayback": "https://web.archive.org/web/20260826102606/https://www.wbtv.com/2026/08/05/mooresville-police-officer-accused-using-flock-cameras-track-boyfriends-ex-wife/",
       "timestamp": "20260826102606",
       "captured": "2026-08-26T10:26:06Z",
+      "method": "existing"
+    },
+    "https://www.wbtv.com/2026/09/08/north-carolina-town-will-not-extend-contract-with-flock-safety-what-we-know": {
+      "url": "https://www.wbtv.com/2026/09/08/north-carolina-town-will-not-extend-contract-with-flock-safety-what-we-know/",
+      "wayback": "https://web.archive.org/web/20260909020715/https://www.wbtv.com/2026/09/08/north-carolina-town-will-not-extend-contract-with-flock-safety-what-we-know/",
+      "timestamp": "20260909020715",
+      "captured": "2026-09-09T02:07:15Z",
       "method": "existing"
     },
     "https://www.wbtw.com/news/grand-strand/north-myrtle-beach/north-myrtle-beach-womans-wrongful-detainment-lawsuit-settled-for-250k": {
@@ -6807,6 +7066,13 @@
       "captured": "2026-08-16T17:47:15Z",
       "method": "existing"
     },
+    "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend": {
+      "url": "https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
+      "wayback": "https://web.archive.org/web/20260909015946/https://www.wired.com/story/a-georgia-cop-used-flock-to-track-2-other-cops-his-ex-and-her-friend/",
+      "timestamp": "20260909015946",
+      "captured": "2026-09-09T01:59:46Z",
+      "method": "existing"
+    },
     "https://www.wired.com/story/flock-safety-os-investigate": {
       "url": "https://www.wired.com/story/flock-safety-os-investigate/",
       "wayback": "https://web.archive.org/web/20260819130832/https://www.wired.com/story/flock-safety-os-investigate/",
@@ -6968,6 +7234,13 @@
       "captured": "2026-09-01T14:41:47Z",
       "method": "existing"
     },
+    "https://www.wpbf.com/article/fort-pierce-police-former-officer-database-misuse/73643478": {
+      "url": "https://www.wpbf.com/article/fort-pierce-police-former-officer-database-misuse/73643478",
+      "wayback": "https://web.archive.org/web/20260908214846/https://www.wpbf.com/article/fort-pierce-police-former-officer-database-misuse/73643478",
+      "timestamp": "20260908214846",
+      "captured": "2026-09-08T21:48:46Z",
+      "method": "existing"
+    },
     "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers": {
       "url": "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers/",
       "wayback": "https://web.archive.org/web/20260820142101/https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers/",
@@ -6980,6 +7253,13 @@
       "wayback": "https://web.archive.org/web/20260816174944/https://www.wpri.com/news/local-news/south-county/south-kingstown-to-stop-using-automated-license-plate-readers/",
       "timestamp": "20260816174944",
       "captured": "2026-08-16T17:49:44Z",
+      "method": "existing"
+    },
+    "https://www.wptv.com/news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems": {
+      "url": "https://www.wptv.com/news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems",
+      "wayback": "https://web.archive.org/web/20260908231845/https://www.wptv.com//news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems",
+      "timestamp": "20260908231845",
+      "captured": "2026-09-08T23:18:45Z",
       "method": "existing"
     },
     "https://www.wrdw.com/2026/07/20/3-more-local-deputies-arrested-fired-over-misusing-license-plate-readers": {
@@ -7295,6 +7575,13 @@
       "wayback": "https://web.archive.org/web/20260820012535/https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
       "timestamp": "20260820012535",
       "captured": "2026-08-20T01:25:35Z",
+      "method": "existing"
+    },
+    "https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program": {
+      "url": "https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program/",
+      "wayback": "https://web.archive.org/web/20260909020205/https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program/",
+      "timestamp": "20260909020205",
+      "captured": "2026-09-09T02:02:05Z",
       "method": "existing"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {

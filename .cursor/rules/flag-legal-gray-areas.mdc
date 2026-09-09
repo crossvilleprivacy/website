@@ -5,7 +5,9 @@ alwaysApply: true
 
 # Flag legal gray areas on every change
 
-This is a **public advocacy site**, not a newsroom or law firm. The assistant is **not a lawyer**. After **any** change that can ship (`*.html`, `docs/*`, `assets/*`, speeches, catalogs, CSS/JS that affects published copy or media), review **the diff itself**, rate the legal risk, and **tell the operator**.
+This is a **public advocacy / research site**, not a newsroom or law firm. The assistant is **not a lawyer**. After **any** change that can ship (`*.html`, `docs/*`, `assets/*`, speeches, catalogs, CSS/JS that affects published copy or media), review **the diff itself**, rate the **house** risk, and **tell the operator**.
+
+House ratings are a shipping brake. They are **not** a legal opinion, a privilege, or “cover.”
 
 ## Always do
 
@@ -13,16 +15,34 @@ This is a **public advocacy site**, not a newsroom or law firm. The assistant is
 2. Rate the **highest** risk in the diff as **low**, **medium**, or **high**. Say the word in plain English.
 3. In the **user-facing reply**, include a **Legal check** line with that rating. If anything is gray, name it (what, where, why). If nothing is gray, still give the rating (`Legal check: risk low.`).
 4. If the rating is **medium** or **high**: **stop**. Do not write, edit, commit, or ship the risky part. Explain the risk in plain English. Wait for the operator to **explicitly confirm** (for example “yes, ship it” or “I accept the medium risk”). Do not treat silence, “looks good,” or an unrelated “continue” as confirmation.
-5. Prefer hedging, primary-source links, alleged/charged language, and omitting civilian/minor identifiers over “fixing” risk by adding more detail.
+5. Prefer official-source links, outlet attribution, charge-as-event language, and omitting civilian/minor identifiers over “fixing” risk by adding more detail.
 6. Do not present the check as legal advice or a clearance to publish.
+
+## Charges, arrests, and investigations (log them)
+
+**Do catalog** firings, charges, arrests, and open investigations. Completeness of the abuse log is the point. Do not hold a row just because the criminal case is pending.
+
+The fact to report is the **official event** (a charge was filed, an arrest was made, a chief asked GBI to look), not that the person committed the crime.
+
+**Required shape (this is low when all of it is true):**
+
+Write it as **“[Source] reported that [a job] from [agency] was [charged / arrested / fired] with [Z].”** Full template: `no-subject-or-civilian-names.mdc`. Prefer the official paper (GBI, PD, docket) as Source; use the news outlet when that is all we have. Link that URL in the same sentence (`inline-cites-must-link.mdc`). Archive it.
+
+No names. Stay on the event. Not allowed in this site’s voice: “misused Flock,” “stalked,” “lied,” “is guilty.” Pending charges are **not** a plea or sentence; do not bump that tally for an arrest or a filed charge with no court outcome.
+
+**Outlet attribution is the method, not immunity.** “FOX 5 reported that…” does not make a false extra true. If we add a civilian name, a search count, or “he did it” that the official record does not carry, we are the speaker of that extra. Do not call attribution “cover” in the rule, the commit, or the page.
+
+**Low example:** “GBI reported that a deputy from the Clayton County Sheriff’s Office was charged with misuse of a license-plate reader system.” Link the GBI release.
+
+**High example:** “Deputy Smith used Flock to stalk his ex Jane on Maple Street.”
 
 ## Risk ratings
 
 | Rating | Use when | Action |
 |---|---|---|
-| **Low** | Typography/CSS with no new facts; existing Case_IDs; Wayback rows; tally recomputes; copy that already uses alleged/charged language, primary links, and no new civilian/minor identifiers | Proceed. State `Legal check: risk low.` |
-| **Medium** | New pending charges or investigations even with hedging; naming a public official in alleged misconduct for the first time; incomplete exits stated too cleanly; third-party clips whose methods (RF intercept, facial recognition of attendees, how a device was opened) could look like this site’s advice | **Stop.** Explain. Ship only after explicit confirmation. |
-| **High** | Pending charges or “lied” / “found false” in the site’s voice; naming a civilian target of alleged stalking; minor names, school/medical/home detail, or hosted images of children; how-tos for vandalism or disabling cameras; operator identity; copy that reads as a city document or legal advice; re-hosting news stills or playground Condor captures | **Stop.** Explain. Do not ship unless the operator explicitly confirms they accept the **high** risk. Prefer omitting or hedging instead. |
+| **Low** | Typography/CSS with no new facts; existing Case_IDs; Wayback rows; tally recomputes; cancel/pause votes; **and** new charge / arrest / investigation / firing rows that follow **Charges, arrests, and investigations** above (attributed event, unnamed people, primary link, no plea/sentence inflation) | Proceed. State `Legal check: risk low.` |
+| **Medium** | Incomplete exits stated too cleanly (pause written as a terminate); third-party clips whose methods (RF intercept, facial recognition of attendees, how a device was opened) could look like this site’s advice; we only have a vague recap and cannot attribute the official event | **Stop.** Explain. Ship only after explicit confirmation. |
+| **High** | Guilt or “lied” / “found false” in this site’s voice; naming a civilian target of alleged stalking; naming a misuse **subject** on a public page; minor names, school/medical/home detail, or hosted images of children; how-tos for vandalism or disabling cameras; operator identity; copy that reads as a city document or legal advice; re-hosting news stills or playground Condor captures | **Stop.** Explain. Do not ship unless the operator explicitly confirms they accept the **high** risk. Prefer omitting or hedging instead. |
 
 If the diff mixes ratings, use the highest.
 
@@ -30,7 +50,7 @@ If the diff mixes ratings, use the highest.
 
 | Risk | Typical gray area on this site |
 |---|---|
-| Defamation | Pending charges or investigations stated as fact; “lied” / “found false” in the site’s voice; naming a civilian target of alleged stalking |
+| Defamation | Guilt or “did it” in this site’s voice; “lied” / “found false”; naming a civilian target of alleged stalking. A true, attributed report that an agency **charged** or **arrested** someone is the event, not a guilt finding. |
 | Minors / privacy | Minor first names, school/medical/home detail, hosted images of children (including playground Condor stills) |
 | Copyright | Re-hosting news stills, livestream captures, vendor quote layouts, YouTube thumbnail hotlinks |
 | Affiliation / UPL | Copy that reads as a city document, legal advice, or a commissioned brief |
@@ -40,15 +60,17 @@ If the diff mixes ratings, use the highest.
 
 ## Examples
 
-- **High — stop:** “Chief X used Flock to stalk Y 600 times.” **Safer:** alleged/charged, unnamed civilian, link the investigation.
+- **High — stop:** “Chief X used Flock to stalk Y 600 times.” **Safer:** GBI / the paper said a chief was charged; unnamed civilian; link the release.
 - **High — stop:** Hosting a playground camera still. **Safer:** link 404 Media; do not re-host.
 - **Medium — stop:** Embedding a researcher clip that demonstrates intercepting conference mics or putting facial recognition on attendees, in this site’s voice. **Safer:** hold for the full documented piece, or caption it as their reporting and skip the methods.
 - **High — stop:** “PREPARED FOR CROSSVILLE CITY COUNCIL” on a community PDF. **Safer:** independent brief, “not legal advice.”
-- **Low:** typography/CSS with no new facts; adding a Case_ID that already exists; Wayback rows; tally recomputes.
+- **Low:** typography/CSS with no new facts; adding a Case_ID that already exists; Wayback rows; tally recomputes; an attributed, unnamed charge/arrest/firing row with a primary link.
 
 ## Do not
 
 - Skip the check because the task was “just HTML,” a rule update, or a catalog slim
 - Dump a full-site legal memo; stay on **this change**
-- Quietly ship a flagged item because a source already published it
+- Treat “a newspaper already printed it” as a reason to add names, search counts, or guilt in this site’s voice
+- Skip a catalog row because the case is still pending
+- Call outlet attribution a legal shield or “cover”
 - Proceed on medium or high risk without explicit confirmation

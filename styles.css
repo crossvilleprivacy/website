@@ -1369,7 +1369,11 @@ section {
 }
 
 .stats.dossier-tally.row-misuse {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stats.dossier-tally.row-fallout {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .stats.dossier-tally.row-exits {
@@ -3975,6 +3979,7 @@ body.sticky-cta-is-dismissed {
 
   .stats.dossier-tally,
   .stats.dossier-tally.row-misuse,
+  .stats.dossier-tally.row-fallout,
   .stats.dossier-tally.row-exits {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }

@@ -144,6 +144,11 @@
     return /Criminally Charged|Indicted/.test(bucket);
   }
 
+  function isConvicted(row) {
+    var bucket = String((row && row.Outcome_Bucket) || "");
+    return /Sentenced|Convicted|Guilty Plea|No-contest|No contest/i.test(bucket);
+  }
+
   function personnelCount(row, key) {
     var n = row && row[key];
     return typeof n === "number" && n > 0 ? n : 0;
@@ -164,6 +169,14 @@
       return n;
     }
     return isCharged(row) ? 1 : 0;
+  }
+
+  function convictedPeople(row) {
+    var n = personnelCount(row, "Personnel_Convicted");
+    if (n > 0) {
+      return n;
+    }
+    return isConvicted(row) ? 1 : 0;
   }
 
   function formatLookupFloor(n) {
@@ -249,6 +262,7 @@
       tn_aggregator_count: tn.aggregator_count,
       tn_fired_count: tn.fired_count,
       tn_charged_count: tn.charged_count,
+      tn_convicted_count: tn.convicted_count,
       tn_lookup_floor: tn.lookup_floor,
       tn_lookup_rows: tn.lookup_rows,
       tn_lookup_floor_display: tn.lookup_floor_display,
@@ -327,6 +341,9 @@
       }, 0),
       charged_count: incidents.reduce(function (sum, row) {
         return sum + chargedPeople(row);
+      }, 0),
+      convicted_count: incidents.reduce(function (sum, row) {
+        return sum + convictedPeople(row);
       }, 0),
       lookup_floor: lookupFloor,
       lookup_rows: lookupRows,
@@ -434,6 +451,7 @@
     personalLookupCount: personalLookupCount,
     firedPeople: firedPeople,
     chargedPeople: chargedPeople,
+    convictedPeople: convictedPeople,
     computeTallies: computeTallies,
     computeAllTallies: computeAllTallies,
     filterMisuseByState: filterMisuseByState,
