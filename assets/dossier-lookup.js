@@ -182,40 +182,129 @@
     return i >= 1 && i <= 12 ? MONTH_LABELS[i - 1] : "—";
   }
 
-  function latestMonthInYear(text, year) {
-    var y = Number(year);
-    if (!y) {
-      return 0;
+  var SCHEDULED_DATE_RE =
+    /\b(?:court\s+date|hearing\s+date|trial\s+date|next\s+(?:court|hearing|appearance)|return\s+date|set\s+for|scheduled(?:\s+for)?|due\s+back)\b/i;
+  var DATED_WITH_YEAR_RE = new RegExp(
+    "\\b" + MONTH_TOKEN +
+      "(?:\\s*[\\u2013\\u2014-]\\s*" + MONTH_TOKEN + ")?" +
+      "(?:\\s+(\\d{1,2})(?:st|nd|rd|th)?" +
+      "(?:\\s*[\\u2013\\u2014-]\\s*(\\d{1,2})(?:st|nd|rd|th)?)?)?,?\\s+(\\d{4})\\b",
+    "gi"
+  );
+  var DATED_DAY_NO_YEAR_RE = new RegExp(
+    "\\b" + MONTH_TOKEN +
+      "\\s+(\\d{1,2})(?:st|nd|rd|th)?" +
+      "(?:\\s*[\\u2013\\u2014-]\\s*(\\d{1,2})(?:st|nd|rd|th)?)?\\b(?!,?\\s*\\d{4})",
+    "gi"
+  );
+
+  function asOfParts(now) {
+    var d = now instanceof Date ? now : now ? new Date(now) : new Date();
+    if (isNaN(d.getTime())) {
+      d = new Date();
     }
-    var re = new RegExp(
-      "\\b" + MONTH_TOKEN +
-        "(?:\\s*[\\u2013\\u2014-]\\s*" + MONTH_TOKEN + ")?" +
-        "(?:\\s+\\d{1,2}(?:st|nd|rd|th)?)?,?\\s+(" + y + ")\\b",
-      "gi"
-    );
-    var blob = String(text || "");
-    var best = 0;
-    var match;
-    while ((match = re.exec(blob))) {
-      var first = monthNumber(match[1]);
-      var second = monthNumber(match[2]);
-      if (first > best) {
-        best = first;
-      }
-      if (second > best) {
-        best = second;
-      }
+    return {
+      year: d.getFullYear(),
+      month: d.getMonth() + 1,
+      day: d.getDate(),
+    };
+  }
+
+  function dateIsFuture(year, month, day, asOf) {
+    if (!year || !month) {
+      return false;
+    }
+    if (year !== asOf.year) {
+      return year > asOf.year;
+    }
+    if (month !== asOf.month) {
+      return month > asOf.month;
+    }
+    if (!day) {
+      return false;
+    }
+    return day > asOf.day;
+  }
+
+  function isScheduledDateContext(blob, index) {
+    var prefix = String(blob || "").slice(Math.max(0, index - 48), index);
+    return SCHEDULED_DATE_RE.test(prefix);
+  }
+
+  function betterDate(best, year, month, day) {
+    if (!year || !month) {
+      return best;
+    }
+    if (
+      year > best.year ||
+      (year === best.year && month > best.month) ||
+      (year === best.year && month === best.month && day > best.day)
+    ) {
+      return { year: year, month: month, day: day || 0 };
     }
     return best;
   }
 
-  function monthFromMisuseRow(row) {
-    var blob = [
+  function latestOccurredDate(text, defaultYear, now) {
+    var blob = String(text || "");
+    var asOf = asOfParts(now);
+    var fallbackYear = Number(defaultYear) || 0;
+    var best = { year: 0, month: 0, day: 0 };
+    var match;
+    var year;
+    var month;
+    var day;
+    var first;
+    var second;
+
+    DATED_WITH_YEAR_RE.lastIndex = 0;
+    while ((match = DATED_WITH_YEAR_RE.exec(blob))) {
+      if (isScheduledDateContext(blob, match.index)) {
+        continue;
+      }
+      first = monthNumber(match[1]);
+      second = monthNumber(match[2]);
+      month = second > first ? second : first;
+      day = match[4] ? Number(match[4]) : match[3] ? Number(match[3]) : 0;
+      year = Number(match[5]);
+      if (dateIsFuture(year, month, day, asOf)) {
+        continue;
+      }
+      best = betterDate(best, year, month, day);
+    }
+
+    DATED_DAY_NO_YEAR_RE.lastIndex = 0;
+    while ((match = DATED_DAY_NO_YEAR_RE.exec(blob))) {
+      if (!fallbackYear || isScheduledDateContext(blob, match.index)) {
+        continue;
+      }
+      month = monthNumber(match[1]);
+      day = match[3] ? Number(match[3]) : Number(match[2]) || 0;
+      if (dateIsFuture(fallbackYear, month, day, asOf)) {
+        continue;
+      }
+      best = betterDate(best, fallbackYear, month, day);
+    }
+
+    return best;
+  }
+
+  function misuseRowBlob(row) {
+    return [
       row && row.Year_Note,
       row && row.Outcome_Disciplinary_Action,
       row && row.Detailed_Summary,
     ].join(" ");
-    return latestMonthInYear(blob, row && row.Year);
+  }
+
+  function dateFromMisuseRow(row, now) {
+    var dated = latestOccurredDate(misuseRowBlob(row), row && row.Year, now);
+    var year = dated.year || (row && row.Year != null && row.Year !== "" ? Number(row.Year) : 0);
+    return { month: dated.month, year: year };
+  }
+
+  function monthFromMisuseRow(row, now) {
+    return dateFromMisuseRow(row, now).month;
   }
 
   var SWORN_TITLE_RE =
@@ -321,10 +410,10 @@
     return text.replace(/\s+/g, " ").trim();
   }
 
-  function recordsFromMisuse(data) {
+  function recordsFromMisuse(data, now) {
     var list = (data && data.verified_incidents) || [];
     return list.map(function (row) {
-      var month = monthFromMisuseRow(row);
+      var dated = dateFromMisuseRow(row, now);
       var urls = collectSourceUrls(
         row && row.Source_URL,
         row && row.Detailed_Summary,
@@ -341,9 +430,9 @@
         Outcome_Label: formatMisuseOutcome(bucket, subject, agency),
         Personnel_Charged: typeof (row && row.Personnel_Charged) === "number" ? row.Personnel_Charged : 0,
         Personnel_Convicted: typeof (row && row.Personnel_Convicted) === "number" ? row.Personnel_Convicted : 0,
-        Month: month,
-        Month_Label: monthLabel(month),
-        Year: row && row.Year != null && row.Year !== "" ? Number(row.Year) : 0,
+        Month: dated.month,
+        Month_Label: monthLabel(dated.month),
+        Year: dated.year,
         Source_URL: urls[0] || "",
         Source_URLs: urls,
         Verification: String((row && row.Verification_Status) || "").trim(),
@@ -906,6 +995,7 @@
     WRONGFUL_JSON_URL: WRONGFUL_JSON_URL,
     recordsFromMisuse: recordsFromMisuse,
     recordsFromWrongful: recordsFromWrongful,
+    dateFromMisuseRow: dateFromMisuseRow,
     monthFromMisuseRow: monthFromMisuseRow,
     monthLabel: monthLabel,
     filterMisuse: filterMisuse,

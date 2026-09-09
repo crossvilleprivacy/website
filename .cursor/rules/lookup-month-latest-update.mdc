@@ -1,0 +1,23 @@
+---
+description: Lookup Month/Year is the latest occurred update, never a future court date
+alwaysApply: true
+---
+
+# Lookup date = latest update that already happened
+
+Misuse table **Month** and **Year** (`assets/dossier-lookup.js`) are the latest **occurred** dated event in that row (arrest, charge, firing, resignation, plea, conviction, sentence, or the dated public report of that event). They are not the archive stamp, not the first incident month, and not a hearing that has not happened yet.
+
+## Do
+
+- July arrest → July. September conviction → September (the row moves).
+- Put the new dated event in `Year_Note` when a story develops so the table can find it.
+- Skip scheduled language (`court date`, `set for`, `scheduled`, `trial date`, `next hearing`) even if that day has passed.
+- Skip dates after today.
+
+## Do not
+
+- Let `court date Oct. 7, 2026` make an August arrest show as October.
+- Treat Wayback `archived Aug. 27` as the case month.
+- Invent a month when the notes have no occurred date (show —).
+
+Cancel rows keep `Action_Date`. Wrongful rows keep `Incident_Year` / `Incident_Date`.

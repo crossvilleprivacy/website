@@ -46,6 +46,10 @@ When writing a row:
 - Keep `Terminated` in JSON (filters and tallies). The table says **fired**.
 - Use `Terminated / Resigned` when reporting does not say which.
 
+## Misuse Month / Year column
+
+`national.html#misuse-lookup` Month/Year is the latest **occurred** update in the row notes (arrest, firing, plea, conviction), not a future court date. When a story develops, add that dated event to `Year_Note` so the table moves. See `lookup-month-latest-update.mdc`.
+
 ## Do not
 
 - Ship dossier-eligible news as HTML-only
