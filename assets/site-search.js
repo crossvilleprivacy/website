@@ -140,6 +140,7 @@
     { url: "election.html", label: "Election 2026" },
     { url: "flock.html", label: "Flock Dossier" },
     { url: "printables.html", label: "Printables" },
+    { url: "resources.html", label: "Resources" },
     { url: "sources.html", label: "Sources" }
   ];
 

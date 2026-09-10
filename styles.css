@@ -3556,6 +3556,14 @@ a.deep-link-hash {
   margin-top: 1.15rem;
 }
 
+.resource-block {
+  margin-top: 0.25rem;
+}
+
+.resource-block .wrap {
+  padding-top: 0.35rem;
+}
+
 .hero-jumps {
   display: flex;
   flex-wrap: wrap;

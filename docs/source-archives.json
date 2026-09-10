@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-10",
-  "count": 1136,
-  "source_count": 1136,
+  "count": 1149,
+  "source_count": 1149,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -163,6 +163,13 @@
       "wayback": "https://web.archive.org/web/20241122145937/https://www.abcnews4.com/newsletter-daily/teen-wrongfully-detained-north-myrtle-beach-police-department-press-conference-lanisha-hemingway-tyler-bailey-law-firm-bodycam-video",
       "timestamp": "20241122145937",
       "captured": "2024-11-22T14:59:37Z",
+      "method": "existing"
+    },
+    "https://alprwatch.org/": {
+      "url": "https://alprwatch.org/",
+      "wayback": "https://web.archive.org/web/20260907134015/https://alprwatch.org/",
+      "timestamp": "20260907134015",
+      "captured": "2026-09-07T13:40:15Z",
       "method": "existing"
     },
     "https://apnews.com/article/088cbf7bf64c8fda8ac3b1ffd66a0b86": {
@@ -1053,6 +1060,13 @@
       "captured": "2026-08-21T12:16:39Z",
       "method": "save"
     },
+    "https://dontgetflocked.com/": {
+      "url": "https://dontgetflocked.com/",
+      "wayback": "https://web.archive.org/web/20260904045401/https://www.dontgetflocked.com/",
+      "timestamp": "20260904045401",
+      "captured": "2026-09-04T04:54:01Z",
+      "method": "existing"
+    },
     "https://elpasomatters.org/2026/09/03/el-paso-police-eppd-flock-license-plate-reader-halted-greg-abbott": {
       "url": "https://elpasomatters.org/2026/09/03/el-paso-police-eppd-flock-license-plate-reader-halted-greg-abbott/",
       "wayback": "https://web.archive.org/web/20260905112710/https://elpasomatters.org/2026/09/03/el-paso-police-eppd-flock-license-plate-reader-halted-greg-abbott/",
@@ -1074,6 +1088,13 @@
       "captured": "2026-08-29T03:42:59Z",
       "method": "existing"
     },
+    "https://enoughsecrets.com/": {
+      "url": "https://enoughsecrets.com/",
+      "wayback": "https://web.archive.org/web/20260910215856/https://enoughsecrets.com/",
+      "timestamp": "20260910215856",
+      "captured": "2026-09-10T21:58:56Z",
+      "method": "save"
+    },
     "https://epic.org/epic-files-amicus-brief-arguing-citys-use-of-flock-alprs-violated-fourth-amendment": {
       "url": "https://epic.org/epic-files-amicus-brief-arguing-citys-use-of-flock-alprs-violated-fourth-amendment/",
       "wayback": "https://web.archive.org/web/20260824151043/https://epic.org/epic-files-amicus-brief-arguing-citys-use-of-flock-alprs-violated-fourth-amendment/",
@@ -1094,6 +1115,13 @@
       "timestamp": "20240317010033",
       "captured": "2024-03-17T01:00:33Z",
       "method": "archive.today"
+    },
+    "https://eyesonflock.com/": {
+      "url": "https://eyesonflock.com/",
+      "wayback": "https://web.archive.org/web/20260829004605/https://eyesonflock.com/",
+      "timestamp": "20260829004605",
+      "captured": "2026-08-29T00:46:05Z",
+      "method": "existing"
     },
     "https://faceprivacy.ai/blog/wrongful-arrests-facial-recognition": {
       "url": "https://faceprivacy.ai/blog/wrongful-arrests-facial-recognition/",
@@ -1331,6 +1359,13 @@
       "wayback": "https://web.archive.org/web/20260814043905/https://haveibeenflocked.com/",
       "timestamp": "20260814043905",
       "captured": "2026-08-14T04:39:05Z",
+      "method": "existing"
+    },
+    "https://haveibeenflocked.com/about/audit-logs": {
+      "url": "https://haveibeenflocked.com/about/audit-logs",
+      "wayback": "https://web.archive.org/web/20260903032955/https://haveibeenflocked.com/about/audit-logs",
+      "timestamp": "20260903032955",
+      "captured": "2026-09-03T03:29:55Z",
       "method": "existing"
     },
     "https://hoodline.com/2026/08/anderson-county-mayor-fears-flock-cameras-could-become-mass-surveillance": {
@@ -1591,6 +1626,13 @@
       "captured": "2026-09-03T14:50:06Z",
       "method": "existing"
     },
+    "https://knoxflock.com/": {
+      "url": "https://knoxflock.com/",
+      "wayback": "https://web.archive.org/web/20260910215949/https://knoxflock.com/",
+      "timestamp": "20260910215949",
+      "captured": "2026-09-10T21:59:49Z",
+      "method": "save"
+    },
     "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras": {
       "url": "https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
       "wayback": "https://web.archive.org/web/20260820195113/https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
@@ -1701,6 +1743,13 @@
       "wayback": "https://web.archive.org/web/20260816171848/https://legistar.granicus.com/Crossville/meetings/2022/6/2050_M_City_Council_22-06-14_Minutes.pdf",
       "timestamp": "20260816171848",
       "captured": "2026-08-16T17:18:48Z",
+      "method": "existing"
+    },
+    "https://library.kansas.watch/": {
+      "url": "https://library.kansas.watch/",
+      "wayback": "https://web.archive.org/web/20260721073949/https://library.kansas.watch/",
+      "timestamp": "20260721073949",
+      "captured": "2026-07-21T07:39:49Z",
       "method": "existing"
     },
     "https://linknky.com/news/2026/08/18/fort-mitchell-ends-flock-safety-license-plate-readers": {
@@ -2984,6 +3033,13 @@
       "captured": "2026-07-07T19:50:22Z",
       "method": "existing"
     },
+    "https://www.aclu.org/campaigns-initiatives/get-the-flock-out": {
+      "url": "https://www.aclu.org/campaigns-initiatives/get-the-flock-out",
+      "wayback": "https://web.archive.org/web/20260903085428/https://www.aclu.org/campaigns-initiatives/get-the-flock-out",
+      "timestamp": "20260903085428",
+      "captured": "2026-09-03T08:54:28Z",
+      "method": "existing"
+    },
     "https://www.aclu.org/cases/kimberlee-williams-wrongful-arrest": {
       "url": "https://www.aclu.org/cases/kimberlee-williams-wrongful-arrest",
       "wayback": "https://web.archive.org/web/20260609095534/https://www.aclu.org/cases/kimberlee-williams-wrongful-arrest?",
@@ -3368,6 +3424,13 @@
       "timestamp": "20260816193031",
       "captured": "2026-08-16T19:30:31Z",
       "method": "save"
+    },
+    "https://www.atlasofsurveillance.org/search?vendor=Flock+Safety": {
+      "url": "https://www.atlasofsurveillance.org/search?vendor=Flock+Safety",
+      "wayback": "https://web.archive.org/web/20260812132422/https://www.atlasofsurveillance.org/search?vendor=Flock+Safety",
+      "timestamp": "20260812132422",
+      "captured": "2026-08-12T13:24:22Z",
+      "method": "existing"
     },
     "https://www.audacy.com/krld/news/local/dallas-police-to-shut-off-321-flock-cameras-after-state-funding-pause": {
       "url": "https://www.audacy.com/krld/news/local/dallas-police-to-shut-off-321-flock-cameras-after-state-funding-pause",
@@ -4584,6 +4647,13 @@
       "captured": "2026-08-21T12:26:22Z",
       "method": "save"
     },
+    "https://www.flocksafety.com/trust/law-enforcement-access": {
+      "url": "https://www.flocksafety.com/trust/law-enforcement-access",
+      "wayback": "https://web.archive.org/web/20260910220033/https://www.flocksafety.com/trust/law-enforcement-access",
+      "timestamp": "20260910220033",
+      "captured": "2026-09-10T22:00:33Z",
+      "method": "save"
+    },
     "https://www.flocksafety.com/trust/rights-safeguards": {
       "url": "https://www.flocksafety.com/trust/rights-safeguards",
       "wayback": "https://web.archive.org/web/20260821122704/https://www.flocksafety.com/trust/rights-safeguards",
@@ -4848,6 +4918,13 @@
       "wayback": "https://web.archive.org/web/20260810030251/https://www.foxnews.com/tech/facial-recognition-jails-innocent-grandmother-attorney-says",
       "timestamp": "20260810030251",
       "captured": "2026-08-10T03:02:51Z",
+      "method": "existing"
+    },
+    "https://www.foxnews.com/video/6404768316112": {
+      "url": "https://www.foxnews.com/video/6404768316112",
+      "wayback": "https://web.archive.org/web/20260910055001/https://www.foxnews.com/video/6404768316112",
+      "timestamp": "20260910055001",
+      "captured": "2026-09-10T05:50:01Z",
       "method": "existing"
     },
     "https://www.freep.com/story/news/local/michigan/detroit/2024/09/16/detroit-police-license-plate-readers-isoke-robinson-car-shooting/75189126007": {
@@ -5353,6 +5430,13 @@
       "timestamp": "20260825101002",
       "captured": "2026-08-25T10:10:02Z",
       "method": "archive.today"
+    },
+    "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007": {
+      "url": "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
+      "wayback": "https://web.archive.org/web/20260910174330/https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
+      "timestamp": "20260910174330",
+      "captured": "2026-09-10T17:43:30Z",
+      "method": "wayback"
     },
     "https://www.knoxnews.com/story/news/local/2026/07/24/flock-cameras-knox-county-controversy/91034183007": {
       "url": "https://www.knoxnews.com/story/news/local/2026/07/24/flock-cameras-knox-county-controversy/91034183007/",
@@ -7052,6 +7136,13 @@
       "captured": "2026-08-16T17:47:17Z",
       "method": "existing"
     },
+    "https://www.wesh.com/article/woman-wrongfully-arrested-in-deadly-i-4-crash-speaks-out-after-charges-dropped/71393304": {
+      "url": "https://www.wesh.com/article/woman-wrongfully-arrested-in-deadly-i-4-crash-speaks-out-after-charges-dropped/71393304",
+      "wayback": "https://web.archive.org/web/20260812081029/https://www.wesh.com/article/woman-wrongfully-arrested-in-deadly-i-4-crash-speaks-out-after-charges-dropped/71393304",
+      "timestamp": "20260812081029",
+      "captured": "2026-08-12T08:10:29Z",
+      "method": "existing"
+    },
     "https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras": {
       "url": "https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras",
       "wayback": "https://web.archive.org/web/20260807020752/https://www.wfae.org/charlotte-area/2026-08-05/mooresville-police-officer-arrested-for-misuse-of-flock-cameras",
@@ -7947,13 +8038,6 @@
       "timestamp": "20260824111300",
       "captured": "2026-08-24T11:13:00Z",
       "method": "existing"
-    },
-    "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007": {
-      "url": "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
-      "wayback": "https://web.archive.org/web/20260910174330/https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
-      "timestamp": "20260910174330",
-      "captured": "2026-09-10T17:43:30Z",
-      "method": "wayback"
     }
   }
 }
