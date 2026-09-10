@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-09",
+  "compiled": "2026-09-10",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2088,11 +2088,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Unanimous emergency ordinance ban; Public backlash / privacy; Sheriff purchases just under review threshold; Mayor disputes contract validity",
-      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff’s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way.",
+      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff’s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way. On September 10, 2026, Knox News reported Mayor Betsy Henderson said Flock will not remove the cameras until October 7 and that the county will cover mounted units with “personal privacy shields” until takedown.",
       "Primary_Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
       "Secondary_Source_URL": "https://www.knoxnews.com/story/news/politics/2026/08/31/knox-county-bans-flock-cameras-amid-surveillance-backlash/91545538007/",
       "Verification_Status": "Verified local press / local TV",
-      "Incomplete_Exit_Notes": "Sheriff is independently elected; KCSO had not publicly responded as of cited reporting. Sheriff-elect Brent Gibson could seek a new program under a different process. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
+      "Incomplete_Exit_Notes": "Hardware still mounted after the Sept. 16 removal deadline. Knox News (Sept. 10, 2026) reported Mayor Betsy Henderson said Flock told the county it cannot remove the cameras until Oct. 7, and that county crews designed “personal privacy shields” to cover mounted units so Flock cannot collect plate data until takedown. Sheriff is independently elected; Sheriff-elect Brent Gibson could seek a new program under a different process. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
     },
     {
       "Case_ID": "CAN-2026-146",

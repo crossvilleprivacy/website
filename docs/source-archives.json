@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-10",
-  "count": 1135,
-  "source_count": 1135,
+  "count": 1136,
+  "source_count": 1136,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2191,6 +2191,13 @@
       "wayback": "https://web.archive.org/web/20260816172234/https://signalcleveland.org/cleveland-city-council-poised-to-back-six-month-extension-for-flock-license-plate-readers/",
       "timestamp": "20260816172234",
       "captured": "2026-08-16T17:22:34Z",
+      "method": "existing"
+    },
+    "https://signalcleveland.org/cleveland-flock-license-plate-readers-surveillance-debate-takeaways": {
+      "url": "https://signalcleveland.org/cleveland-flock-license-plate-readers-surveillance-debate-takeaways/",
+      "wayback": "https://web.archive.org/web/20260719115631/https://signalcleveland.org/cleveland-flock-license-plate-readers-surveillance-debate-takeaways/",
+      "timestamp": "20260719115631",
+      "captured": "2026-07-19T11:56:31Z",
       "method": "existing"
     },
     "https://spacecoastdaily.com/2026/08/palm-bay-suspends-flock-license-plate-reader-camera-system-pending-review-of-installation-permitting": {
@@ -7940,6 +7947,13 @@
       "timestamp": "20260824111300",
       "captured": "2026-08-24T11:13:00Z",
       "method": "existing"
+    },
+    "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007": {
+      "url": "https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
+      "wayback": "https://web.archive.org/web/20260910174330/https://www.knoxnews.com/story/news/crime/2026/09/10/knox-county-shields-flock-cameras-after-company-misses-removal-deadline/91687135007/",
+      "timestamp": "20260910174330",
+      "captured": "2026-09-10T17:43:30Z",
+      "method": "wayback"
     }
   }
 }
