@@ -2887,6 +2887,50 @@
       "Primary_Source_URL": "https://www.wbay.com/2026/09/09/neenah-menasha-waupaca-county-move-cut-ties-with-flock-cameras/",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Committee funding cut and sheriff suspend. Full board terminate not reported in the cited WBAY story. Camera count not published."
+    },
+    {
+      "Case_ID": "CAN-2026-199",
+      "Jurisdiction": "Tallahassee",
+      "State": "FL",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-09",
+      "Camera_Count": 80,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Unanimous commission suspend of all city ALPR after public comment; mirrors Leon County Sheriff ALPR suspend; FDOT state-ROW crackdown",
+      "Summary": "Tallahassee City Commission voted unanimously September 9, 2026 to suspend city use of automated license plate readers, including about 80 Flock cameras and 75 Vigilant cameras (155 total). Tallahassee Reports said City Manager Reese Goad would turn the cameras off so the city and others cannot access them through the system. A motion to cover within 24 hours and remove within 30 days failed 3-2. Two weeks earlier, on August 26, a 3-2 vote had kept Flock. Incomplete exit: suspend/off, not a terminate or physical removal.",
+      "Primary_Source_URL": "https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras/",
+      "Verification_Status": "Verified local outlet",
+      "Incomplete_Exit_Notes": "Unanimous suspend. Cameras may stay mounted while turned off. Cover/remove motion failed. Vigilant cameras suspended too; Flock count is 80."
+    },
+    {
+      "Case_ID": "CAN-2026-200",
+      "Jurisdiction": "Stevens Point",
+      "State": "WI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-09",
+      "Camera_Count": 10,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Cannot audit where Flock data goes; data-sale / Traffic Analytics trust concerns statewide",
+      "Summary": "WPR reported September 9, 2026 that Stevens Point covered 10 Flock cameras to stop collection. Mayor Mike Wiza said the city has no simple way to audit where Flock data goes once collected and that the community is not comfortable without assurances the cameras are used only as authorized. Part of the Wisconsin September cascade after Racine and Sheboygan data-sale disputes.",
+      "Primary_Source_URL": "https://www.wpr.org/news/wisconsin-cities-disable-flock-cameras-cancel-contracts",
+      "Verification_Status": "Verified public radio",
+      "Incomplete_Exit_Notes": "Cover/suspend. Contract terminate not reported in the WPR story."
+    },
+    {
+      "Case_ID": "CAN-2026-201",
+      "Jurisdiction": "Leon County Sheriff",
+      "State": "FL",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-09",
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff suspended ALPR use while seeking stronger oversight and accreditation standards",
+      "Summary": "Tallahassee Reports said Leon County Sheriff Walt McNeil suspended the Leon County Sheriff's Office use of ALPR technology while seeking stronger oversight and accreditation standards. Tallahassee City Commission cited that sheriff suspend when it unanimously suspended city ALPR on September 9, 2026. Distinct from CAN-2026-061 (Leon County grant rejection) and from the Tallahassee city suspend (CAN-2026-199).",
+      "Primary_Source_URL": "https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras/",
+      "Verification_Status": "Verified local outlet",
+      "Incomplete_Exit_Notes": "Sheriff suspend cited in city coverage. Exact suspend date and camera count not published in that story. Catalogued as of the Sept. 9 city-vote reporting."
     }
   ]
 }

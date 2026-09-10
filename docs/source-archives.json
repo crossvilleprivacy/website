@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-09",
-  "count": 1128,
-  "source_count": 1128,
+  "as_of": "2026-09-10",
+  "count": 1135,
+  "source_count": 1135,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1473,6 +1473,13 @@
       "captured": "2026-08-16T17:16:45Z",
       "method": "save"
     },
+    "https://inquest.org/9-11-surveillance-payday": {
+      "url": "https://inquest.org/9-11-surveillance-payday/",
+      "wayback": "https://web.archive.org/web/20260910162613/https://inquest.org/9-11-surveillance-payday/",
+      "timestamp": "20260910162613",
+      "captured": "2026-09-10T16:26:13Z",
+      "method": "save"
+    },
     "https://insideinvestigator.org/killingworth-to-end-flock-contract": {
       "url": "https://insideinvestigator.org/killingworth-to-end-flock-contract/",
       "wayback": "https://web.archive.org/web/20260728234411/https://insideinvestigator.org/killingworth-to-end-flock-contract/",
@@ -2305,6 +2312,13 @@
       "captured": "2026-08-06T20:28:56Z",
       "method": "existing"
     },
+    "https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras": {
+      "url": "https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras/",
+      "wayback": "https://web.archive.org/web/20260910163722/https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras/",
+      "timestamp": "20260910163722",
+      "captured": "2026-09-10T16:37:22Z",
+      "method": "existing"
+    },
     "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy": {
       "url": "https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
       "wayback": "https://web.archive.org/web/20260813032547/https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
@@ -2352,6 +2366,13 @@
       "wayback": "https://web.archive.org/web/20260809042412/https://theintercept.com/2025/09/02/atlanta-seattle-police-axon-fusus-surveillance/",
       "timestamp": "20260809042412",
       "captured": "2026-08-09T04:24:12Z",
+      "method": "existing"
+    },
+    "https://theintercept.com/2026/09/09/flock-cameras-police-loitering-curfew-surveillance": {
+      "url": "https://theintercept.com/2026/09/09/flock-cameras-police-loitering-curfew-surveillance/",
+      "wayback": "https://web.archive.org/web/20260910151218/https://theintercept.com/2026/09/09/flock-cameras-police-loitering-curfew-surveillance/",
+      "timestamp": "20260910151218",
+      "captured": "2026-09-10T15:12:18Z",
       "method": "existing"
     },
     "https://themarijuanaherald.com/2026/08/wisconsin-police-used-flock-cameras-to-track-mans-trips-to-michigan-where-marijuana-is-legal-before-searching-his-car-for-marijuana": {
@@ -5626,6 +5647,13 @@
       "captured": "2026-09-04T23:12:05Z",
       "method": "existing"
     },
+    "https://www.lpm.org/news/2026-09-09/amid-backlash-kentucky-lawmakers-signal-support-for-more-flock-camera-regulations": {
+      "url": "https://www.lpm.org/news/2026-09-09/amid-backlash-kentucky-lawmakers-signal-support-for-more-flock-camera-regulations",
+      "wayback": "https://web.archive.org/web/20260910051442/https://www.lpm.org/news/2026-09-09/amid-backlash-kentucky-lawmakers-signal-support-for-more-flock-camera-regulations",
+      "timestamp": "20260910051442",
+      "captured": "2026-09-10T05:14:42Z",
+      "method": "existing"
+    },
     "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county": {
       "url": "https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
       "archive_today": "https://archive.today/20260821042731/https://www.mackinac.org/litigation/cases/tewolde-v-genesee-county",
@@ -6913,6 +6941,13 @@
       "captured": "2026-09-01T22:16:31Z",
       "method": "archive.today"
     },
+    "https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras": {
+      "url": "https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras/",
+      "wayback": "https://web.archive.org/web/20260910061452/https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras/",
+      "timestamp": "20260910061452",
+      "captured": "2026-09-10T06:14:52Z",
+      "method": "existing"
+    },
     "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933": {
       "url": "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933",
       "wayback": "https://web.archive.org/web/20260827140108/https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933",
@@ -7036,6 +7071,13 @@
       "wayback": "https://web.archive.org/web/20260726151759/https://www.wftv.com/news/local/sumter-detective-fired-arrested-using-police-cameras-spy-husbands-ex-wife/O2ZIHFAP4FC7VINFSGNDGPU6DI/",
       "timestamp": "20260726151759",
       "captured": "2026-07-26T15:17:59Z",
+      "method": "existing"
+    },
+    "https://www.wgbh.org/news/politics/2026-09-09/state-lawmakers-look-to-put-guardrails-on-flock": {
+      "url": "https://www.wgbh.org/news/politics/2026-09-09/state-lawmakers-look-to-put-guardrails-on-flock",
+      "wayback": "https://web.archive.org/web/20260910025242/https://www.wgbh.org/news/politics/2026-09-09/state-lawmakers-look-to-put-guardrails-on-flock",
+      "timestamp": "20260910025242",
+      "captured": "2026-09-10T02:52:42Z",
       "method": "existing"
     },
     "https://www.wgcu.org/top-story/2026-08-31/desantis-administration-shutters-flock-cameras-on-florida-state-roads": {
@@ -7240,6 +7282,13 @@
       "timestamp": "20260908214846",
       "captured": "2026-09-08T21:48:46Z",
       "method": "existing"
+    },
+    "https://www.wpr.org/news/wisconsin-cities-disable-flock-cameras-cancel-contracts": {
+      "url": "https://www.wpr.org/news/wisconsin-cities-disable-flock-cameras-cancel-contracts",
+      "wayback": "https://web.archive.org/web/20260910163815/https://www.wpr.org/news/wisconsin-cities-disable-flock-cameras-cancel-contracts",
+      "timestamp": "20260910163815",
+      "captured": "2026-09-10T16:38:15Z",
+      "method": "save"
     },
     "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers": {
       "url": "https://www.wpri.com/news/local-news/south-county/narragansett-to-stop-using-automated-license-plate-readers/",
