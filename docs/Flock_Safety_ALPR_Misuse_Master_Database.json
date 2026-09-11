@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-09",
+  "compiled": "2026-09-11",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-09"
+    "generated_on": "2026-09-11"
   },
   "verified_incidents": [
     {
@@ -1569,6 +1569,41 @@
       "Year_Note": "WCVB reported that a Stow officer resigned Aug. 26, 2026 before a termination hearing after an internal investigation found alleged Flock and CJIS searches without a legitimate law-enforcement reason. The department said it filed a criminal complaint seeking charges. No conviction reported. Officer not named on this site.",
       "Outcome_Bucket": "1 Resigned",
       "Personnel_Resigned": 1
+    },
+    {
+      "Case_ID": "FLK-2026-114",
+      "Year": 2026,
+      "State": "TX",
+      "Agency_Jurisdiction": "Amarillo Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "76",
+      "Source_URL": "https://www.newschannel10.com/2026/09/02/court-records-former-amarillo-police-officer-facing-78-charges/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "KFDA reported an Amarillo officer was fired July 17, 2026, then charged with 78 counts of tampering with a government record. The Potter County Attorney's Office accepted the complaint Aug. 31, 2026. KFDA reported he turned himself in Sept. 1, 2026. The complaint alleges 76 Flock plate searches from Feb. 25 through June 13 plus two searches in another database. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Terminated and Criminally Charged",
+      "Personnel_Terminated": 1,
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-115",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Peachtree City Police Department",
+      "Subject_Officer_Involved": "officers",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "The Citizen reported Sept. 10, 2026 that Peachtree City Police said two officers are no longer employed and that both matters were turned over to the Georgia Bureau of Investigation. The department said the officers' activities appear to have involved misuse of the city's Flock system. Fired vs resigned not specified. Officers not named on this site. A referral is not a finding of guilt.",
+      "Outcome_Bucket": "2 Terminated / Resigned",
+      "Personnel_Resigned": 2
     }
   ]
 }

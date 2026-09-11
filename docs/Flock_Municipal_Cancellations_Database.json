@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-10",
+  "compiled": "2026-09-11",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2931,6 +2931,80 @@
       "Primary_Source_URL": "https://tallahasseereports.com/2026/09/10/tallahassee-city-commission-reverses-course-suspends-license-plate-reader-cameras/",
       "Verification_Status": "Verified local outlet",
       "Incomplete_Exit_Notes": "Sheriff suspend cited in city coverage. Exact suspend date and camera count not published in that story. Catalogued as of the Sept. 9 city-vote reporting."
+    },
+    {
+      "Case_ID": "CAN-2026-202",
+      "Jurisdiction": "Jefferson County",
+      "State": "WI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-10",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff said data was released without permission; trust in how Flock described access",
+      "Summary": "WMTV reported September 10, 2026 that the Jefferson County, Wisconsin, Sheriff's Office is suspending its Flock cameras. Sheriff Travis Maze said the office learned its data was released without permission, including 2025 investigations, after Flock had said data would not be released without the county's permission. The office said it has no evidence of staff wrongdoing. Wisconsin Jefferson County, not another state's Jefferson.",
+      "Primary_Source_URL": "https://www.wmtv15news.com/2026/09/11/jefferson-county-sheriffs-office-suspending-flock-cameras/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Suspend announced. Contract terminate and camera count not reported in the WMTV story."
+    },
+    {
+      "Case_ID": "CAN-2026-203",
+      "Jurisdiction": "Bellevue",
+      "State": "KY",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-09",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Unanimous vote to disable cameras until the contract ends; city will study removal cost",
+      "Summary": "LINK nky reported September 10, 2026 that Bellevue City Council voted unanimously September 9 to suspend Flock use and disable the cameras until the two-year contract ends. More than a year remains on the about $43,000 contract. Council asked staff to study removal cost and to cover cameras while that review continues. Kentucky Bellevue, not another state's Bellevue.",
+      "Primary_Source_URL": "https://linknky.com/news/2026/09/10/bellevue-suspends-flock-cameras/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Suspend and disable until contract end. Not a terminate. Hardware may stay covered. Camera count not published."
+    },
+    {
+      "Case_ID": "CAN-2026-204",
+      "Jurisdiction": "Bridgewater",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-08",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Unanimous council vote to terminate and remove five cameras; no replacement ALPR without a public process",
+      "Summary": "Rocktown Now reported September 9, 2026 that Bridgewater Town Council voted unanimously September 8 to immediately terminate its Flock contract and remove the town's five cameras. The vote also bars reinstalling any automated license plate reader without a public process first. Virginia Bridgewater, not East Bridgewater, Massachusetts.",
+      "Primary_Source_URL": "https://rocktownnow.com/news/218812-bridgewater-town-council-votes-to-remove-flock-cameras/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Immediate terminate and removal vote. Hardware pickup timetable not in the cited story."
+    },
+    {
+      "Case_ID": "CAN-2026-205",
+      "Jurisdiction": "Independence",
+      "State": "KY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-31",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor ordered removal after public opposition; cameras deactivated",
+      "Summary": "WLWT reported August 31, 2026 that Independence deactivated its Flock cameras a week after Mayor Chris Reinersman announced they would come down. Poles stay until Flock removes the hardware. WCPO reported the mayor's notice after an August 17 meeting. Camera counts in that coverage conflict, so none is listed here.",
+      "Primary_Source_URL": "https://www.wlwt.com/article/independence-deactivates-flock-cameras-announcing-removal/73573076",
+      "Secondary_Source_URL": "https://www.wcpo.com/news/local-news/kenton-county/independence/mayor-independence-will-remove-all-flock-safety-cameras-from-city",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Deactivated Aug. 31. Vendor pickup not confirmed. Do not cite a camera count; cited stories disagree."
+    },
+    {
+      "Case_ID": "CAN-2026-206",
+      "Jurisdiction": "Erlanger",
+      "State": "KY",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-08-27",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City did not renew; four cameras already removed; fifth inactive pending vendor pickup",
+      "Summary": "FOX19 reported August 27, 2026 that Erlanger did not renew its Flock contract. Four cameras near Holly Lane are already down. A fifth camera on Commonwealth is still up but inactive, and officers no longer have access, while the city waits on Flock to remove the hardware.",
+      "Primary_Source_URL": "https://www.fox19.com/2026/08/28/erlanger-ditches-flock-cameras-prioritizes-good-police-work-over-technology/",
+      "Secondary_Source_URL": "https://www.wlwt.com/article/erlanger-kentucky-ends-flock-camera-use/73553810",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Non-renewal. Four cameras down; one inactive unit still mounted pending Flock pickup."
     }
   ]
 }

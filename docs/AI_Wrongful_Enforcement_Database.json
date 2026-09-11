@@ -611,5 +611,19 @@
     "Primary_Source_URL": "https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/",
     "Secondary_Source_URL": "https://gizmodo.com/wisconsin-cops-tracked-a-man-with-flock-cameras-to-arrest-him-for-weed-2000795424",
     "Public_KPI_Exclude": false
+  },
+  {
+    "ID": 46,
+    "Incident_Date": "2026-09-07",
+    "Incident_Year": 2026,
+    "City": "Atlanta",
+    "State": "GA",
+    "Technology_Category": "ALPR",
+    "Technology": "Flock ALPR / stale insurance alert",
+    "Vendor": "Flock Safety",
+    "Lawsuit_Filed": "N",
+    "Primary_Source_URL": "https://www.youtube.com/watch?v=TWws6i4nQ5w",
+    "Secondary_Source_URL": "https://www.wsbtv.com/video/local-video/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/df7cce85-0db6-4dde-a116-b0580df7e447/",
+    "Public_KPI_Exclude": false
   }
 ]

@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-11",
-  "count": 1151,
-  "source_count": 1151,
+  "count": 1166,
+  "source_count": 1166,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -135,6 +135,13 @@
       "wayback": "https://web.archive.org/web/20260814224952/https://abc7.com/post/lapd-ending-agreement-surveillance-company-flock-safety/19483200/",
       "timestamp": "20260814224952",
       "captured": "2026-08-14T22:49:52Z",
+      "method": "existing"
+    },
+    "https://abc7amarillo.com/news/local/court-records-fired-amarillo-officer-tracked-colleagues-boyfriend-using-flock-cameras-christian-slade-eder-flock-cameras-tloxp-records-database-tampering-with-government-records-misuse-of-department-resources": {
+      "url": "https://abc7amarillo.com/news/local/court-records-fired-amarillo-officer-tracked-colleagues-boyfriend-using-flock-cameras-christian-slade-eder-flock-cameras-tloxp-records-database-tampering-with-government-records-misuse-of-department-resources",
+      "wayback": "https://web.archive.org/web/20260908214748/https://abc7amarillo.com/news/local/court-records-fired-amarillo-officer-tracked-colleagues-boyfriend-using-flock-cameras-christian-slade-eder-flock-cameras-tloxp-records-database-tampering-with-government-records-misuse-of-department-resources",
+      "timestamp": "20260908214748",
+      "captured": "2026-09-08T21:47:48Z",
       "method": "existing"
     },
     "https://abcnews.com/US/flock-cameras-trigger-nationwide-backlash-privacy-concerns-police/story?id=136084771": {
@@ -1766,6 +1773,13 @@
       "captured": "2026-08-19T14:52:19Z",
       "method": "save"
     },
+    "https://linknky.com/news/2026/09/10/bellevue-suspends-flock-cameras": {
+      "url": "https://linknky.com/news/2026/09/10/bellevue-suspends-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260911114358/https://linknky.com/news/2026/09/10/bellevue-suspends-flock-cameras/",
+      "timestamp": "20260911114358",
+      "captured": "2026-09-11T11:43:58Z",
+      "method": "save"
+    },
     "https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage": {
       "url": "https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage",
       "wayback": "https://web.archive.org/web/20260819192153/https://local12.com/news/local/felony-charges-dismissed-against-clermont-county-man-destruction-flock-camera-cincinnati-union-township-cody-morelock-damage",
@@ -2416,6 +2430,13 @@
       "timestamp": "20260812035911",
       "captured": "2026-08-12T03:59:11Z",
       "method": "existing"
+    },
+    "https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed": {
+      "url": "https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed/",
+      "wayback": "https://web.archive.org/web/20260911114531/https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed/",
+      "timestamp": "20260911114531",
+      "captured": "2026-09-11T11:45:31Z",
+      "method": "save"
     },
     "https://thedeepdive.ca/leonardo-signaltrace-alpr-device-tracking": {
       "url": "https://thedeepdive.ca/leonardo-signaltrace-alpr-device-tracking/",
@@ -4738,6 +4759,13 @@
       "captured": "2026-08-19T14:52:58Z",
       "method": "save"
     },
+    "https://www.fox19.com/2026/08/28/erlanger-ditches-flock-cameras-prioritizes-good-police-work-over-technology": {
+      "url": "https://www.fox19.com/2026/08/28/erlanger-ditches-flock-cameras-prioritizes-good-police-work-over-technology/",
+      "wayback": "https://web.archive.org/web/20260904121645/https://www.fox19.com/2026/08/28/erlanger-ditches-flock-cameras-prioritizes-good-police-work-over-technology/",
+      "timestamp": "20260904121645",
+      "captured": "2026-09-04T12:16:45Z",
+      "method": "existing"
+    },
     "https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras": {
       "url": "https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras/",
       "wayback": "https://web.archive.org/web/20260909021256/https://www.fox19.com/2026/09/09/lebanon-council-votes-remove-all-flock-cameras/",
@@ -5240,6 +5268,13 @@
       "wayback": "https://web.archive.org/web/20260807130000/https://www.isanti-chisagocountystar.com/news/north-branch-pauses-flock-camera-installation/article_446102b0-3c16-415e-8f13-75d84811c6eb.html",
       "timestamp": "20260807130000",
       "captured": "2026-08-07T13:00:00Z",
+      "method": "existing"
+    },
+    "https://www.jalopnik.com/2253119/police-issue-insurance-ticket-after-flock-cameras-alert-despite-valid-driver-insurance": {
+      "url": "https://www.jalopnik.com/2253119/police-issue-insurance-ticket-after-flock-cameras-alert-despite-valid-driver-insurance/",
+      "wayback": "https://web.archive.org/web/20260910175531/https://www.jalopnik.com/2253119/police-issue-insurance-ticket-after-flock-cameras-alert-despite-valid-driver-insurance/",
+      "timestamp": "20260910175531",
+      "captured": "2026-09-10T17:55:31Z",
       "method": "existing"
     },
     "https://www.johnsoncitytn.org/services/police/safe_city_project/index.php": {
@@ -6037,6 +6072,20 @@
       "wayback": "https://web.archive.org/web/20260816174031/https://www.newsandsentinel.com/news/local-news/2026/08/license-to-track-lawmakers-question-flock-safety-over-data-security-and-privacy-concerns/",
       "timestamp": "20260816174031",
       "captured": "2026-08-16T17:40:31Z",
+      "method": "existing"
+    },
+    "https://www.newschannel10.com/2026/09/02/court-records-former-amarillo-police-officer-facing-78-charges": {
+      "url": "https://www.newschannel10.com/2026/09/02/court-records-former-amarillo-police-officer-facing-78-charges/",
+      "wayback": "https://web.archive.org/web/20260909081445/https://www.newschannel10.com/2026/09/02/court-records-former-amarillo-police-officer-facing-78-charges/",
+      "timestamp": "20260909081445",
+      "captured": "2026-09-09T08:14:45Z",
+      "method": "existing"
+    },
+    "https://www.newschannel10.com/2026/09/08/amarillo-police-chief-addresses-department-flock-policies-city-council-meeting": {
+      "url": "https://www.newschannel10.com/2026/09/08/amarillo-police-chief-addresses-department-flock-policies-city-council-meeting/",
+      "wayback": "https://web.archive.org/web/20260910152038/https://www.newschannel10.com/2026/09/08/amarillo-police-chief-addresses-department-flock-policies-city-council-meeting/",
+      "timestamp": "20260910152038",
+      "captured": "2026-09-10T15:20:38Z",
       "method": "existing"
     },
     "https://www.newschannel5.com/news/ai-facial-recognition-led-to-wrongful-arrest-of-tenn-woman-in-state-she-says-shes-never-visited": {
@@ -7046,6 +7095,13 @@
       "captured": "2026-09-01T22:16:31Z",
       "method": "archive.today"
     },
+    "https://www.wcpo.com/news/local-news/kenton-county/independence/mayor-independence-will-remove-all-flock-safety-cameras-from-city": {
+      "url": "https://www.wcpo.com/news/local-news/kenton-county/independence/mayor-independence-will-remove-all-flock-safety-cameras-from-city",
+      "wayback": "https://web.archive.org/web/20260906003642/https://www.wcpo.com/news/local-news/kenton-county/independence/mayor-independence-will-remove-all-flock-safety-cameras-from-city",
+      "timestamp": "20260906003642",
+      "captured": "2026-09-06T00:36:42Z",
+      "method": "existing"
+    },
     "https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras": {
       "url": "https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras/",
       "wayback": "https://web.archive.org/web/20260910061452/https://www.wctv.tv/2026/09/10/tallahassee-city-commission-suspends-alpr-cameras/",
@@ -7332,12 +7388,33 @@
       "captured": "2026-08-19T22:58:21Z",
       "method": "save"
     },
+    "https://www.wlwt.com/article/erlanger-kentucky-ends-flock-camera-use/73553810": {
+      "url": "https://www.wlwt.com/article/erlanger-kentucky-ends-flock-camera-use/73553810",
+      "wayback": "https://web.archive.org/web/20260829031440/https://www.wlwt.com/article/erlanger-kentucky-ends-flock-camera-use/73553810",
+      "timestamp": "20260829031440",
+      "captured": "2026-08-29T03:14:40Z",
+      "method": "existing"
+    },
+    "https://www.wlwt.com/article/independence-deactivates-flock-cameras-announcing-removal/73573076": {
+      "url": "https://www.wlwt.com/article/independence-deactivates-flock-cameras-announcing-removal/73573076",
+      "wayback": "https://web.archive.org/web/20260901064713/https://www.wlwt.com/article/independence-deactivates-flock-cameras-announcing-removal/73573076",
+      "timestamp": "20260901064713",
+      "captured": "2026-09-01T06:47:13Z",
+      "method": "existing"
+    },
     "https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety": {
       "url": "https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety/",
       "wayback": "https://web.archive.org/web/20260731014313/https://www.wmtv15news.com/2026/07/29/stoughton-city-council-unanimously-votes-terminate-agreement-with-flock-safety/",
       "timestamp": "20260731014313",
       "captured": "2026-07-31T01:43:13Z",
       "method": "existing"
+    },
+    "https://www.wmtv15news.com/2026/09/11/jefferson-county-sheriffs-office-suspending-flock-cameras": {
+      "url": "https://www.wmtv15news.com/2026/09/11/jefferson-county-sheriffs-office-suspending-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260911114320/https://www.wmtv15news.com/2026/09/11/jefferson-county-sheriffs-office-suspending-flock-cameras/",
+      "timestamp": "20260911114320",
+      "captured": "2026-09-11T11:43:20Z",
+      "method": "save"
     },
     "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times": {
       "url": "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times/",
@@ -7498,6 +7575,13 @@
       "wayback": "https://web.archive.org/web/20260815030354/https://www.wsbtv.com/news/local/paulding-county/ex-911-director-arrested-misusing-flock-camera/SK2OPFQWFJAQBFH3SEUIZJ63FE/",
       "timestamp": "20260815030354",
       "captured": "2026-08-15T03:03:54Z",
+      "method": "existing"
+    },
+    "https://www.wsbtv.com/video/local-video/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/df7cce85-0db6-4dde-a116-b0580df7e447": {
+      "url": "https://www.wsbtv.com/video/local-video/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/df7cce85-0db6-4dde-a116-b0580df7e447/",
+      "wayback": "https://web.archive.org/web/20260907224750/https://www.wsbtv.com/video/local-video/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/df7cce85-0db6-4dde-a116-b0580df7e447/",
+      "timestamp": "20260907224750",
+      "captured": "2026-09-07T22:47:50Z",
       "method": "existing"
     },
     "https://www.wsfa.com/2026/08/27/alabama-lawmakers-could-weigh-flock-camera-legislation-2027-session": {
@@ -7948,6 +8032,20 @@
       "captured": "2025-11-13T09:23:48Z",
       "method": "existing"
     },
+    "https://www.youtube.com/watch?v=TWws6i4nQ5w": {
+      "url": "https://www.youtube.com/watch?v=TWws6i4nQ5w",
+      "wayback": "https://web.archive.org/web/20260908204447/https://www.youtube.com/watch?v=TWws6i4nQ5w",
+      "timestamp": "20260908204447",
+      "captured": "2026-09-08T20:44:47Z",
+      "method": "existing"
+    },
+    "https://www.youtube.com/watch?v=Xc_6Xap8Yy4": {
+      "url": "https://www.youtube.com/watch?v=Xc_6Xap8Yy4",
+      "wayback": "https://web.archive.org/web/20260910195201/https://www.youtube.com/watch?si=lldITZ8pgdurySqy&v=Xc_6Xap8Yy4",
+      "timestamp": "20260910195201",
+      "captured": "2026-09-10T19:52:01Z",
+      "method": "existing"
+    },
     "https://www.youtube.com/watch?v=YNXeNklUrIc": {
       "url": "https://www.youtube.com/watch?v=YNXeNklUrIc",
       "wayback": "https://web.archive.org/web/20260615190810/https://www.youtube.com/watch?v=YNXeNklUrIc&feature=youtu.be",
@@ -8002,6 +8100,13 @@
       "wayback": "https://web.archive.org/web/20260816175521/https://www.youtube.com/watch?v=m_eM3t7z4sc",
       "timestamp": "20260816175521",
       "captured": "2026-08-16T17:55:21Z",
+      "method": "existing"
+    },
+    "https://www.youtube.com/watch?v=nImeh1Uoobk": {
+      "url": "https://www.youtube.com/watch?v=nImeh1Uoobk",
+      "wayback": "https://web.archive.org/web/20260911094258/https://www.youtube.com/watch?is=8ZGphQoWfEfC3VN1&v=nImeh1Uoobk",
+      "timestamp": "20260911094258",
+      "captured": "2026-09-11T09:42:58Z",
       "method": "existing"
     },
     "https://www.youtube.com/watch?v=vU1-uiUlHTo": {
