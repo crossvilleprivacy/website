@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-10",
-  "count": 1149,
-  "source_count": 1149,
+  "as_of": "2026-09-11",
+  "count": 1151,
+  "source_count": 1151,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1065,6 +1065,13 @@
       "wayback": "https://web.archive.org/web/20260904045401/https://www.dontgetflocked.com/",
       "timestamp": "20260904045401",
       "captured": "2026-09-04T04:54:01Z",
+      "method": "existing"
+    },
+    "https://dontgetflocked.com/timeline": {
+      "url": "https://dontgetflocked.com/timeline",
+      "wayback": "https://web.archive.org/web/20260611185606/https://dontgetflocked.com/timeline",
+      "timestamp": "20260611185606",
+      "captured": "2026-06-11T18:56:06Z",
       "method": "existing"
     },
     "https://elpasomatters.org/2026/09/03/el-paso-police-eppd-flock-license-plate-reader-halted-greg-abbott": {
@@ -6191,6 +6198,13 @@
       "wayback": "https://web.archive.org/web/20260825164057/https://www.opb.org/article/2026/08/20/winston-police-southern-oregon-ends-flock-cameras-contract/",
       "timestamp": "20260825164057",
       "captured": "2026-08-25T16:40:57Z",
+      "method": "existing"
+    },
+    "https://www.openstreetmap.org/copyright": {
+      "url": "https://www.openstreetmap.org/copyright",
+      "wayback": "https://web.archive.org/web/20260910185957/https://www.openstreetmap.org/copyright",
+      "timestamp": "20260910185957",
+      "captured": "2026-09-10T18:59:57Z",
       "method": "existing"
     },
     "https://www.oxnard.gov/pd-news/news-release-oxnard-police-department-suspends-use-of-flock-safety-automated-license-plate-readers-02-27-26": {

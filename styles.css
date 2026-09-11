@@ -3373,6 +3373,33 @@ a.deep-link-hash {
   margin-top: 1.35rem;
 }
 
+.map-then-now {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.15rem 0 0.35rem;
+}
+
+.map-then-now figure {
+  margin: 0;
+}
+
+.map-then-now img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1.5px solid var(--control-border);
+  border-radius: 4px;
+  background: #141414;
+}
+
+.map-then-now figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--ink-soft);
+}
+
 .printables-picker {
   margin: 1rem 0 0.25rem;
 }
@@ -3961,7 +3988,8 @@ body.sticky-cta-is-dismissed {
   .contact-grid,
   .video-grid,
   .proof-strip,
-  .allies-section-grid {
+  .allies-section-grid,
+  .map-then-now {
     grid-template-columns: 1fr;
   }
 
