@@ -2526,6 +2526,15 @@ h3.is-district-target {
   border: 1px solid var(--line);
 }
 
+table.city-cam-table {
+  font-size: 0.86rem;
+}
+
+table.city-cam-table th:first-child,
+table.city-cam-table td:first-child {
+  white-space: nowrap;
+}
+
 table.pr-wording-compare {
   font-size: 0.9rem;
 }
