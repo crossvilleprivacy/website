@@ -28,6 +28,9 @@
     "CAN-2026-113": "#white-county-flock-rescind",
     "CAN-2026-114": "#kingston-flock-nonrenew",
     "CAN-2026-115": "#monterey-flock-axon",
+    "CAN-2026-145": "#knox-flock-ban",
+    "CAN-2026-147": "#hamilton-county-flock-pause",
+    "CAN-2026-207": "#collegedale-flock-cancel",
     "ID 31": "#morristown-misread",
     "ID 32": "#elizabethton-frt",
   };

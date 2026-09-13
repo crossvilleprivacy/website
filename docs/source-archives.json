@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-11",
-  "count": 1167,
-  "source_count": 1167,
+  "as_of": "2026-09-13",
+  "count": 1182,
+  "source_count": 1182,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -430,6 +430,13 @@
       "captured": "2026-08-16T17:07:31Z",
       "method": "existing"
     },
+    "https://cbsaustin.com/news/local/liberty-hill-city-council-votes-unanimously-to-end-flock-safety-contract": {
+      "url": "https://cbsaustin.com/news/local/liberty-hill-city-council-votes-unanimously-to-end-flock-safety-contract",
+      "wayback": "https://web.archive.org/web/20260911001751/https://cbsaustin.com/news/local/liberty-hill-city-council-votes-unanimously-to-end-flock-safety-contract",
+      "timestamp": "20260911001751",
+      "captured": "2026-09-11T00:17:51Z",
+      "method": "existing"
+    },
     "https://cbsaustin.com/news/local/pflugerville-shuts-down-flock-system-after-finding-hundreds-of-unapproved-users": {
       "url": "https://cbsaustin.com/news/local/pflugerville-shuts-down-flock-system-after-finding-hundreds-of-unapproved-users",
       "wayback": "https://web.archive.org/web/20260826125246/https://cbsaustin.com/news/local/pflugerville-shuts-down-flock-system-after-finding-hundreds-of-unapproved-users",
@@ -463,6 +470,13 @@
       "wayback": "https://web.archive.org/web/20260801012444/https://centralcurrent.org/flock-safety-removes-its-license-plate-readers-finalizing-eight-month-breakup-with-city-of-syracuse/",
       "timestamp": "20260801012444",
       "captured": "2026-08-01T01:24:44Z",
+      "method": "existing"
+    },
+    "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process": {
+      "url": "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
+      "wayback": "https://web.archive.org/web/20260913132123/https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
+      "timestamp": "20260913132123",
+      "captured": "2026-09-13T13:21:23Z",
       "method": "existing"
     },
     "https://civiciq.com/blog/flock-safety-alternatives-competitors-top-alpr-solutions-for-government-agencies-in-2026": {
@@ -1955,6 +1969,13 @@
       "captured": "2026-07-19T21:16:01Z",
       "method": "existing"
     },
+    "https://newschannel9.com/news/local/collegedale-commission-votes-unanimously-to-end-flock-camera-contract": {
+      "url": "https://newschannel9.com/news/local/collegedale-commission-votes-unanimously-to-end-flock-camera-contract",
+      "wayback": "https://web.archive.org/web/20260909133146/https://newschannel9.com/news/local/collegedale-commission-votes-unanimously-to-end-flock-camera-contract",
+      "timestamp": "20260909133146",
+      "captured": "2026-09-09T13:31:46Z",
+      "method": "existing"
+    },
     "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns": {
       "url": "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns/",
       "wayback": "https://web.archive.org/web/20260901165725/https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns",
@@ -2408,6 +2429,13 @@
       "wayback": "https://web.archive.org/web/20260813032547/https://techcrunch.com/2026/07/13/lapd-lets-contract-with-surveillance-giant-flock-expire-citing-serious-concerns-over-civil-liberties-and-privacy/",
       "timestamp": "20260813032547",
       "captured": "2026-08-13T03:25:47Z",
+      "method": "existing"
+    },
+    "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns": {
+      "url": "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260913131922/https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/",
+      "timestamp": "20260913131922",
+      "captured": "2026-09-13T13:19:22Z",
       "method": "existing"
     },
     "https://tennesseelookout.com/2025/02/24/a-legislative-bill-filed-and-hastily-withdrawn-by-a-nashville-democrat-shows-need-for-transparency": {
@@ -3745,6 +3773,13 @@
       "timestamp": "20260826115427",
       "captured": "2026-08-26T11:54:27Z"
     },
+    "https://www.boston25news.com/news/local/another-massachusetts-town-suspends-use-flock-license-plate-readers/LXDIECMVIJB2NPSDH4NP3JCC7E": {
+      "url": "https://www.boston25news.com/news/local/another-massachusetts-town-suspends-use-flock-license-plate-readers/LXDIECMVIJB2NPSDH4NP3JCC7E/",
+      "wayback": "https://web.archive.org/web/20260912224836/https://www.boston25news.com/news/local/another-massachusetts-town-suspends-use-flock-license-plate-readers/lxdiecmvijb2npsdh4np3jcc7e/",
+      "timestamp": "20260912224836",
+      "captured": "2026-09-12T22:48:36Z",
+      "method": "existing"
+    },
     "https://www.bostonglobe.com/2026/08/04/metro/narragansett-town-council-ends-flock-safety-contract-ri": {
       "url": "https://www.bostonglobe.com/2026/08/04/metro/narragansett-town-council-ends-flock-safety-contract-ri/",
       "wayback": "https://web.archive.org/web/20260815174553/https://www.bostonglobe.com/2026/08/04/metro/narragansett-town-council-ends-flock-safety-contract-ri/",
@@ -3995,6 +4030,13 @@
       "timestamp": "20260901144308",
       "captured": "2026-09-01T14:43:08Z",
       "method": "save"
+    },
+    "https://www.cbsnews.com/minnesota/news/crystal-police-take-down-flock-cameras-privacy-concerns": {
+      "url": "https://www.cbsnews.com/minnesota/news/crystal-police-take-down-flock-cameras-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260911214153/https://www.cbsnews.com/minnesota/news/crystal-police-take-down-flock-cameras-privacy-concerns/",
+      "timestamp": "20260911214153",
+      "captured": "2026-09-11T21:41:53Z",
+      "method": "existing"
     },
     "https://www.cbsnews.com/minnesota/news/flock-cameras-wrongly-flag-plates-as-stolen": {
       "url": "https://www.cbsnews.com/minnesota/news/flock-cameras-wrongly-flag-plates-as-stolen/",
@@ -4885,11 +4927,25 @@
       "captured": "2026-09-03T13:27:20Z",
       "method": "save"
     },
+    "https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract": {
+      "url": "https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract",
+      "wayback": "https://web.archive.org/web/20260911214004/https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract",
+      "timestamp": "20260911214004",
+      "captured": "2026-09-11T21:40:04Z",
+      "method": "existing"
+    },
     "https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback": {
       "url": "https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback",
       "wayback": "https://web.archive.org/web/20260628073251/https://www.fox9.com/news/columbia-heights-set-drop-flock-license-plate-cameras-after-community-pushback",
       "timestamp": "20260628073251",
       "captured": "2026-06-28T07:32:51Z",
+      "method": "existing"
+    },
+    "https://www.fox9.com/news/crystal-drops-flock-cams-after-community-concerns": {
+      "url": "https://www.fox9.com/news/crystal-drops-flock-cams-after-community-concerns",
+      "wayback": "https://web.archive.org/web/20260910035936/https://www.fox9.com/news/crystal-drops-flock-cams-after-community-concerns",
+      "timestamp": "20260910035936",
+      "captured": "2026-09-10T03:59:36Z",
       "method": "existing"
     },
     "https://www.fox9.com/news/duluth-pd-ends-flock-camera-contract-keep-using-license-plate-reader-tech": {
@@ -5247,6 +5303,20 @@
       "wayback": "https://web.archive.org/web/20260505170831/https://www.inforum.com/news/fargo/fargo-police-change-facial-recognition-policy-after-use-in-naming-tennessee-woman-in-bank-fraud-case",
       "timestamp": "20260505170831",
       "captured": "2026-05-05T17:08:31Z",
+      "method": "existing"
+    },
+    "https://www.inkfreenews.com/2026/09/11/kosciusko-county-council-defunds-flock-cameras-other-surveillance-tech": {
+      "url": "https://www.inkfreenews.com/2026/09/11/kosciusko-county-council-defunds-flock-cameras-other-surveillance-tech/",
+      "wayback": "https://web.archive.org/web/20260911201107/https://www.inkfreenews.com/2026/09/11/kosciusko-county-council-defunds-flock-cameras-other-surveillance-tech/",
+      "timestamp": "20260911201107",
+      "captured": "2026-09-11T20:11:07Z",
+      "method": "existing"
+    },
+    "https://www.inkfreenews.com/2026/09/11/kosciusko-prosecutor-issues-directive-implementing-county-council-vote-on-flock-technology": {
+      "url": "https://www.inkfreenews.com/2026/09/11/kosciusko-prosecutor-issues-directive-implementing-county-council-vote-on-flock-technology/",
+      "wayback": "https://web.archive.org/web/20260913131937/https://www.inkfreenews.com/2026/09/11/kosciusko-prosecutor-issues-directive-implementing-county-council-vote-on-flock-technology/",
+      "timestamp": "20260913131937",
+      "captured": "2026-09-13T13:19:37Z",
       "method": "existing"
     },
     "https://www.inquirer.com/news/flock-safety-abington-police-security-20260819.html": {
@@ -5661,6 +5731,13 @@
       "captured": "2026-08-20T00:26:17Z",
       "method": "existing"
     },
+    "https://www.kwtx.com/2026/08/21/temple-police-department-officer-resigns-after-unauthorized-use-flock-camera-discovered": {
+      "url": "https://www.kwtx.com/2026/08/21/temple-police-department-officer-resigns-after-unauthorized-use-flock-camera-discovered/",
+      "wayback": "https://web.archive.org/web/20260909043344/https://www.kwtx.com/2026/08/21/temple-police-department-officer-resigns-after-unauthorized-use-flock-camera-discovered/",
+      "timestamp": "20260909043344",
+      "captured": "2026-09-09T04:33:44Z",
+      "method": "existing"
+    },
     "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns": {
       "url": "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
       "wayback": "https://web.archive.org/web/20260822054642/https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
@@ -5687,6 +5764,13 @@
       "wayback": "https://web.archive.org/web/20260822110906/https://www.ky3.com/2026/08/21/willard-mo-police-chief-says-flock-safety-contract-will-not-be-renewed/",
       "timestamp": "20260822110906",
       "captured": "2026-08-22T11:09:06Z",
+      "method": "existing"
+    },
+    "https://www.lakecityreporter.com/regional/live-oak-canceling-flock-contract": {
+      "url": "https://www.lakecityreporter.com/regional/live-oak-canceling-flock-contract",
+      "wayback": "https://web.archive.org/web/20260913132026/https://www.lakecityreporter.com/regional/live-oak-canceling-flock-contract",
+      "timestamp": "20260913132026",
+      "captured": "2026-09-13T13:20:26Z",
       "method": "existing"
     },
     "https://www.lakemchenryscanner.com/2026/06/19/prosecutors-say-mchenry-county-police-chief-used-flock-license-plate-reader-data-hundreds-of-times-to-track-people-he-knew": {
@@ -5757,6 +5841,13 @@
       "wayback": "https://web.archive.org/web/20260801153132/https://www.limaohio.com/top-stories/2026/08/01/flock-cameras-raise-surveillance-concerns/",
       "timestamp": "20260801153132",
       "captured": "2026-08-01T15:31:32Z",
+      "method": "existing"
+    },
+    "https://www.littletonindependent.net/news/englewood-city-council-unanimously-votes-to-terminate-flock-contract/article_0c449706-b0fa-4d26-9478-3329aeb7773a.html": {
+      "url": "https://www.littletonindependent.net/news/englewood-city-council-unanimously-votes-to-terminate-flock-contract/article_0c449706-b0fa-4d26-9478-3329aeb7773a.html",
+      "wayback": "https://web.archive.org/web/20260913132006/https://www.littletonindependent.net/news/englewood-city-council-unanimously-votes-to-terminate-flock-contract/article_0c449706-b0fa-4d26-9478-3329aeb7773a.html",
+      "timestamp": "20260913132006",
+      "captured": "2026-09-13T13:20:06Z",
       "method": "existing"
     },
     "https://www.local10.com/news/florida/2026/08/31/de-flocking-florida-desantis-orders-removal-of-controversial-cameras-on-state-highways": {
@@ -5967,6 +6058,13 @@
       "wayback": "https://web.archive.org/web/20260805191004/https://www.nbc4i.com/news/local-news/reynoldsburg/reynoldsburg-officer-may-have-misused-flock-cameras-records-show/",
       "timestamp": "20260805191004",
       "captured": "2026-08-05T19:10:04Z",
+      "method": "existing"
+    },
+    "https://www.nbcbayarea.com/news/local/san-jose-police-fired-flock-camera/4141719": {
+      "url": "https://www.nbcbayarea.com/news/local/san-jose-police-fired-flock-camera/4141719/",
+      "wayback": "https://web.archive.org/web/20260912034634/https://www.nbcbayarea.com/news/local/san-jose-police-fired-flock-camera/4141719/",
+      "timestamp": "20260912034634",
+      "captured": "2026-09-12T03:46:34Z",
       "method": "existing"
     },
     "https://www.nbcchicago.com/news/local/company-violated-illinois-law-by-sharing-license-plate-data-with-customs-and-border-protection-giannoulias/3814914": {
@@ -7505,6 +7603,13 @@
       "wayback": "https://web.archive.org/web/20260908231845/https://www.wptv.com//news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems",
       "timestamp": "20260908231845",
       "captured": "2026-09-08T23:18:45Z",
+      "method": "existing"
+    },
+    "https://www.wqcs.org/wqcs-news/2026-09-09/former-fort-pierce-officer-arrested-after-alleged-misuse-of-license-plate-reader-system": {
+      "url": "https://www.wqcs.org/wqcs-news/2026-09-09/former-fort-pierce-officer-arrested-after-alleged-misuse-of-license-plate-reader-system",
+      "wayback": "https://web.archive.org/web/20260909133600/https://www.wqcs.org/wqcs-news/2026-09-09/former-fort-pierce-officer-arrested-after-alleged-misuse-of-license-plate-reader-system",
+      "timestamp": "20260909133600",
+      "captured": "2026-09-09T13:36:00Z",
       "method": "existing"
     },
     "https://www.wrdw.com/2026/07/20/3-more-local-deputies-arrested-fired-over-misusing-license-plate-readers": {

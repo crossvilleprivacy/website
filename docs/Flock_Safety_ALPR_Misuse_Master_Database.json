@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-11",
+  "compiled": "2026-09-13",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-11"
+    "generated_on": "2026-09-13"
   },
   "verified_incidents": [
     {
@@ -408,16 +408,16 @@
       "Case_ID": "FLK-2026-025",
       "Year": 2026,
       "State": "TX",
-      "Agency_Jurisdiction": "Fort Bend County Sheriff\u2019s Office",
+      "Agency_Jurisdiction": "Fort Bend County Sheriff’s Office",
       "Subject_Officer_Involved": "Unnamed lieutenant",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-      "Documented_Search_Count_Frequency": "About 148 searches of one plate; about 41 of another (2022\u20132025)",
+      "Documented_Search_Count_Frequency": "About 148 searches of one plate; about 41 of another (2022–2025)",
       "Source_URL": "https://abc13.com/post/fort-bend-county-sheriffs-office-lieutenant-admits-improper-use-flock-cameras-docs/19528986/",
       "Verification_Status": "Verified",
       "Incident_Year": "2022-2025",
       "Resolution_Year": 2026,
-      "Year_Note": "Search window 2022\u20132025; discipline reported mid-2026 / Chron Aug 2.",
+      "Year_Note": "Search window 2022–2025; discipline reported mid-2026 / Chron Aug 2.",
       "Outcome_Bucket": "1 Internal Disciplinary Action (suspended)",
       "Personal_Lookup_Count": 189
     },
@@ -460,7 +460,7 @@
       "Case_ID": "FLK-2026-030",
       "Year": 2026,
       "State": "GA",
-      "Agency_Jurisdiction": "Coweta County Sheriff\u2019s Office",
+      "Agency_Jurisdiction": "Coweta County Sheriff’s Office",
       "Subject_Officer_Involved": "Three unnamed employees",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
@@ -498,12 +498,12 @@
       "Subject_Officer_Involved": "Eight unnamed DeKalb police officers",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-      "Documented_Search_Count_Frequency": "Agency ran 53,576 Flock searches Jan. 1\u2013July 24, 2026; individual misuse counts not public",
+      "Documented_Search_Count_Frequency": "Agency ran 53,576 Flock searches Jan. 1–July 24, 2026; individual misuse counts not public",
       "Source_URL": "https://www.wsbtv.com/news/local/dekalb-county/flock-misuse-8-metro-atlanta-officers-suspended-over-policy-violations/GNWFLJLWSJGM7MGDWBMD3VJJIM/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Suspensions confirmed Aug. 7\u20139, 2026 reporting; audit window Jan.\u2013July 2026.",
+      "Year_Note": "Suspensions confirmed Aug. 7–9, 2026 reporting; audit window Jan.–July 2026.",
       "Outcome_Bucket": "8 Suspended (no criminal charges filed)"
     },
     {
@@ -565,12 +565,12 @@
       "Subject_Officer_Involved": "Unnamed officer (terminated)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking",
-      "Documented_Search_Count_Frequency": "166 Flock searches of a former significant other\u2019s plate (March\u2013July 2026)",
+      "Documented_Search_Count_Frequency": "166 Flock searches of a former significant other’s plate (March–July 2026)",
       "Source_URL": "https://www.foxcarolina.com/2026/08/14/mauldin-officer-accused-using-flock-cameras-over-160-times-track-ex/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Lookups March\u2013July 2026; termination Aug. 3; public confirmation Aug. 10\u201314.",
+      "Year_Note": "Lookups March–July 2026; termination Aug. 3; public confirmation Aug. 10–14.",
       "Outcome_Bucket": "1 Terminated",
       "Personal_Lookup_Count": 166,
       "Personnel_Terminated": 1
@@ -583,12 +583,12 @@
       "Subject_Officer_Involved": "Unnamed deputy (terminated)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
-      "Documented_Search_Count_Frequency": "Department: several thousand searches of a former fianc\u00e9e\u2019s plate, 2024\u20132026; exact count not published",
+      "Documented_Search_Count_Frequency": "Department: several thousand searches of a former fiancée’s plate, 2024–2026; exact count not published",
       "Source_URL": "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html",
       "Verification_Status": "Verified",
       "Incident_Year": "2024-2026",
       "Resolution_Year": 2026,
-      "Year_Note": "Media inquiry Aug. 17, 2026; admission and suspend Aug. 18; termination announced Aug. 19. No criminal charges; former fianc\u00e9e declined a complaint.",
+      "Year_Note": "Media inquiry Aug. 17, 2026; admission and suspend Aug. 18; termination announced Aug. 19. No criminal charges; former fiancée declined a complaint.",
       "Outcome_Bucket": "1 Terminated",
       "Personnel_Terminated": 1
     },
@@ -624,7 +624,7 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Audit Assist activated Aug. 12, 2026; alleged misuse identified Aug. 13; a lieutenant was fired Aug. 20, 2026. Sheriff\u2019s office said individual deputies no longer have direct Flock access.",
+      "Year_Note": "Audit Assist activated Aug. 12, 2026; alleged misuse identified Aug. 13; a lieutenant was fired Aug. 20, 2026. Sheriff’s office said individual deputies no longer have direct Flock access.",
       "Outcome_Bucket": "1 Terminated",
       "Personal_Lookup_Count": 2700,
       "Personnel_Terminated": 1
@@ -689,12 +689,12 @@
       "Subject_Officer_Involved": "officer (indicted)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
-      "Documented_Search_Count_Frequency": "More than 10,000 searches of one plate alleged (June 2024 \u2013 December 2025); additional searches alleged",
+      "Documented_Search_Count_Frequency": "More than 10,000 searches of one plate alleged (June 2024 – December 2025); additional searches alleged",
       "Source_URL": "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times/",
       "Verification_Status": "Verified",
       "Incident_Year": "2024-2025",
       "Resolution_Year": 2026,
-      "Year_Note": "Searches June 2024 \u2013 December 2025. Public-information request Aug. 14, 2026 triggered LPD audit; Texas Rangers investigation; booked Aug. 20, 2026 on $700,000 bond. Indicted on charges of tampering with governmental records, abuse of official capacity, and misuse of official information. Related cancel: CAN-2026-120 (Lufkin suspended Flock cameras).",
+      "Year_Note": "Searches June 2024 – December 2025. Public-information request Aug. 14, 2026 triggered LPD audit; Texas Rangers investigation; booked Aug. 20, 2026 on $700,000 bond. Indicted on charges of tampering with governmental records, abuse of official capacity, and misuse of official information. Related cancel: CAN-2026-120 (Lufkin suspended Flock cameras).",
       "Outcome_Bucket": "1 Criminally Charged",
       "Personal_Lookup_Count": 10000,
       "Personnel_Charged": 1
@@ -707,7 +707,7 @@
       "Subject_Officer_Involved": "officer (charged; suspended without pay)",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
-      "Documented_Search_Count_Frequency": "2,048 searches on two plates alleged (Jan. 1 \u2013 May 2, 2026)",
+      "Documented_Search_Count_Frequency": "2,048 searches on two plates alleged (Jan. 1 – May 2, 2026)",
       "Source_URL": "https://www.courier-journal.com/story/news/local/public-safety/2026/08/26/shively-police-officer-accused-of-using-flock-cameras-to-harass-woman/91471283007/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
@@ -748,7 +748,7 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Chief ordered a Flock audit July 31, 2026. One officer\u2019s access suspended that day; a sergeant\u2019s access deactivated Aug. 5. Internal affairs alleged personal lookups of people known to the officers. Chief recommended firing both Sept. 3, 2026; civil-service hearings pending. Cases referred to the Bristol County District Attorney. Related pause: CAN-2026-068.",
+      "Year_Note": "Chief ordered a Flock audit July 31, 2026. One officer’s access suspended that day; a sergeant’s access deactivated Aug. 5. Internal affairs alleged personal lookups of people known to the officers. Chief recommended firing both Sept. 3, 2026; civil-service hearings pending. Cases referred to the Bristol County District Attorney. Related pause: CAN-2026-068.",
       "Outcome_Bucket": "2 Internal Disciplinary Action (firing recommended; hearings pending)"
     },
     {
@@ -764,7 +764,7 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "GBI charged a Clayton County deputy Sept. 1\u20132, 2026 with misuse of a license plate reader system after the sheriff\u2019s office asked GBI to investigate alleged non-law-enforcement Flock use. The deputy turned themselves in Sept. 1. Case to go to the Clayton County District Attorney. Employment status not confirmed in the cited GBI release.",
+      "Year_Note": "GBI charged a Clayton County deputy Sept. 1–2, 2026 with misuse of a license plate reader system after the sheriff’s office asked GBI to investigate alleged non-law-enforcement Flock use. The deputy turned themselves in Sept. 1. Case to go to the Clayton County District Attorney. Employment status not confirmed in the cited GBI release.",
       "Outcome_Bucket": "1 Criminally Charged",
       "Personnel_Charged": 1
     },
@@ -845,15 +845,17 @@
       "Subject_Officer_Involved": "officer",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
-      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
-      "Source_URL": "https://www.wptv.com/news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems",
+      "Documented_Search_Count_Frequency": "382",
+      "Source_URL": "https://www.wqcs.org/wqcs-news/2026-09-09/former-fort-pierce-officer-arrested-after-alleged-misuse-of-license-plate-reader-system",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "WPTV reported Sept. 8, 2026 that a former Fort Pierce officer was arrested over alleged misuse of police database systems. That writeup said the department had not yet released the officer's name or the charges. Former employment is not specified as fired vs resigned. Officer not named on this site. An arrest is not a finding of guilt.",
-      "Outcome_Bucket": "1 Terminated / Resigned and Criminally Charged",
+      "Year_Note": "WPTV reported Sept. 8, 2026 that a former Fort Pierce officer was arrested over alleged misuse of police database systems. WQCS reported Sept. 9, 2026 that Police Chief David M. Smith said the former officer was arrested on four felony unauthorized-computer-access counts after investigators found 382 Flock searches of one plate from October 2025 through July 2026 with no legitimate law-enforcement purpose. WQCS said the officer resigned Aug. 18 during the investigation. Officer and civilian not named on this site. An arrest is not a finding of guilt.",
+      "Outcome_Bucket": "1 Resigned and Criminally Charged",
       "Personnel_Resigned": 1,
-      "Personnel_Charged": 1
+      "Personnel_Charged": 1,
+      "Personal_Lookup_Count": 382,
+      "Secondary_Source_URL": "https://www.wptv.com/news/local-news/our-community/fort-pierce/former-fort-pierce-police-officer-arrested-for-alleged-misuse-of-police-database-systems"
     },
     {
       "Case_ID": "FLK-2026-073",
@@ -1604,6 +1606,41 @@
       "Year_Note": "The Citizen reported Sept. 10, 2026 that Peachtree City Police said two officers are no longer employed and that both matters were turned over to the Georgia Bureau of Investigation. The department said the officers' activities appear to have involved misuse of the city's Flock system. Fired vs resigned not specified. Officers not named on this site. A referral is not a finding of guilt.",
       "Outcome_Bucket": "2 Terminated / Resigned",
       "Personnel_Resigned": 2
+    },
+    {
+      "Case_ID": "FLK-2026-116",
+      "Year": 2026,
+      "State": "CA",
+      "Agency_Jurisdiction": "San Jose Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://www.nbcbayarea.com/news/local/san-jose-police-fired-flock-camera/4141719/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "NBC Bay Area reported Sept. 11, 2026 that San Jose Police Chief Paul Joseph said an officer was fired after accessing Flock license-plate data on a personal phone and giving it to a domestic-violence suspect, which the chief said enabled that suspect to locate a victim. The chief said the department referred the case to the district attorney. Officer not named on this site. A referral is not a finding of guilt.",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-117",
+      "Year": 2026,
+      "State": "TX",
+      "Agency_Jurisdiction": "Temple Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "1",
+      "Personal_Lookup_Count": 1,
+      "Source_URL": "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "Temple Police said Aug. 21, 2026 that an advanced Flock audit on Aug. 18 flagged a search without a legitimate law-enforcement purpose. The department said the officer was placed on investigative leave and then resigned. Temple asked the Texas Rangers to investigate. Officer not named on this site. A referral is not a finding of guilt.",
+      "Outcome_Bucket": "1 Resigned",
+      "Personnel_Resigned": 1
     }
   ]
 }

@@ -1,9 +1,26 @@
 {
-  "as_of": "2026-09-11",
-  "as_of_long": "September 11, 2026",
-  "as_of_short": "Sept. 11, 2026",
-  "record_count": 15,
+  "as_of": "2026-09-13",
+  "as_of_long": "September 13, 2026",
+  "as_of_short": "Sept. 13, 2026",
+  "record_count": 16,
   "records": [
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Collegedale",
+      "State": "TN",
+      "What": "Terminated",
+      "Date": "2026-09-08",
+      "Date_Label": "Sept. 8, 2026",
+      "ID": "CAN-2026-207",
+      "Case_ID": "CAN-2026-207",
+      "Writeup": "#collegedale-flock-cancel",
+      "Source_URL": "https://newschannel9.com/news/local/collegedale-commission-votes-unanimously-to-end-flock-camera-contract",
+      "Source_URLs": [
+        "https://newschannel9.com/news/local/collegedale-commission-votes-unanimously-to-end-flock-camera-contract",
+        "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/"
+      ]
+    },
     {
       "Kind": "cancel",
       "Kind_Label": "Exit",
@@ -14,7 +31,7 @@
       "Date_Label": "Aug. 31, 2026",
       "ID": "CAN-2026-147",
       "Case_ID": "CAN-2026-147",
-      "Writeup": "",
+      "Writeup": "#hamilton-county-flock-pause",
       "Source_URL": "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns/",
       "Source_URLs": [
         "https://newschannel9.com/news/local/hamilton-county-sheriff-pauses-flock-motorola-license-plate-reader-programs-over-data-concerns/",
@@ -31,7 +48,7 @@
       "Date_Label": "Aug. 31, 2026",
       "ID": "CAN-2026-145",
       "Case_ID": "CAN-2026-145",
-      "Writeup": "",
+      "Writeup": "#knox-flock-ban",
       "Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
       "Source_URLs": [
         "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
