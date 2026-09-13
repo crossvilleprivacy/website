@@ -207,6 +207,9 @@
       }
 
       var nameTd = doc.createElement("td");
+      nameTd.setAttribute("data-label", "Name");
+      var nameWrap = doc.createElement("span");
+      nameWrap.className = "election-score-name-cell";
       var nameEl;
       if (anchor) {
         nameEl = doc.createElement("a");
@@ -216,17 +219,24 @@
         nameEl = doc.createElement("strong");
       }
       nameEl.textContent = row.Name || "—";
-      nameTd.appendChild(nameEl);
+      nameWrap.appendChild(nameEl);
       if (row.Incumbent) {
-        nameTd.appendChild(doc.createTextNode(" (incumbent)"));
+        nameWrap.appendChild(doc.createTextNode(" "));
+        var incumbentEl = doc.createElement("span");
+        incumbentEl.className = "election-score-incumbent";
+        incumbentEl.textContent = "(incumbent)";
+        nameWrap.appendChild(incumbentEl);
       }
+      nameTd.appendChild(nameWrap);
       tr.appendChild(nameTd);
 
       var raceTd = doc.createElement("td");
+      raceTd.setAttribute("data-label", "Race");
       raceTd.textContent = (row.Body_Label ? row.Body_Label + " · " : "") + (row.Race || row.Office || "—");
       tr.appendChild(raceTd);
 
       var stanceTd = doc.createElement("td");
+      stanceTd.setAttribute("data-label", "Position");
       var stanceEl = doc.createElement("span");
       stanceEl.className = "election-stance election-stance-" + (trim(row.Stance) || "no_answer");
       stanceEl.textContent = row.Stance_Label || stanceLabel(row);
@@ -234,10 +244,13 @@
       tr.appendChild(stanceTd);
 
       var answerTd = doc.createElement("td");
+      answerTd.setAttribute("data-label", "Quote");
       answerTd.textContent = row.Answer || "—";
       tr.appendChild(answerTd);
 
       var srcTd = doc.createElement("td");
+      srcTd.setAttribute("data-label", "Source");
+      srcTd.className = "lookup-source-cell";
       var source = sourceDisplay(row);
       if (source.href) {
         var src = doc.createElement("a");

@@ -4587,11 +4587,13 @@ body.sticky-cta-is-dismissed {
 .audit-log-officer {
   border: 0;
   padding: 0;
+  margin: 0;
   background: none;
   color: var(--accent-dark);
   font: inherit;
   font-weight: 650;
   cursor: pointer;
+  text-align: left;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -4770,10 +4772,6 @@ a.source-archive:focus {
   .case-lookup-controls {
     grid-template-columns: minmax(0, 1.2fr) minmax(8rem, 1fr) minmax(8rem, 1fr);
   }
-
-  .election-scorecard-controls {
-    grid-template-columns: minmax(0, 1.2fr) minmax(8rem, 1fr);
-  }
 }
 
 @media (max-width: 800px) {
@@ -4835,6 +4833,10 @@ a.source-archive:focus {
     white-space: normal !important;
   }
 
+  .audit-log-table td:not([data-label]) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .audit-log-table td:last-child {
     border-bottom: 0;
   }
@@ -4861,6 +4863,12 @@ a.source-archive:focus {
   .audit-log-table td.lookup-source-cell a.source-archive {
     display: inline;
     white-space: normal;
+  }
+
+  .audit-log-table .audit-log-officer,
+  .audit-log-table .audit-log-hash {
+    justify-self: start;
+    max-width: 100%;
   }
 
   .audit-log-hash {
@@ -5004,14 +5012,56 @@ html[data-theme="dark"] .contact-card .tap-row a.tap-mail {
   grid-template-columns: minmax(0, 1.4fr) minmax(9rem, 0.85fr) minmax(11rem, 1.1fr) auto;
 }
 
-.election-scorecard-table th:nth-child(1),
-.election-scorecard-table td:nth-child(1) {
-  width: 18%;
+.election-scorecard-controls > * {
+  min-width: 0;
 }
 
-.election-scorecard-table th:nth-child(3),
-.election-scorecard-table td:nth-child(3) {
-  width: 16%;
+@media (max-width: 1100px) {
+  .election-scorecard-controls {
+    grid-template-columns: minmax(0, 1.2fr) minmax(8rem, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .election-scorecard-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .election-scorecard-controls .speech-field,
+  .election-scorecard-controls .speech-field:has(select) {
+    min-width: 0;
+  }
+
+  .election-scorecard-controls > .btn {
+    width: 100%;
+    justify-self: stretch;
+  }
+}
+
+.audit-log-table.election-scorecard-table td:nth-child(1) {
+  overflow-wrap: break-word;
+}
+
+@media (min-width: 721px) {
+  .audit-log-table.election-scorecard-table th:nth-child(1),
+  .audit-log-table.election-scorecard-table td:nth-child(1) {
+    width: 18%;
+  }
+
+  .election-scorecard-table th:nth-child(3),
+  .election-scorecard-table td:nth-child(3) {
+    width: 16%;
+    white-space: nowrap;
+  }
+}
+
+.election-score-name-cell {
+  display: block;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.election-score-incumbent {
   white-space: nowrap;
 }
 
