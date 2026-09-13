@@ -165,6 +165,29 @@
     return { href: "", text: "—" };
   }
 
+  function rowAnchor(row) {
+    var slug = trim(row && row.Slug);
+    return slug ? "score-" + slug : "";
+  }
+
+  function recordForAnchor(records, hash) {
+    var needle = trim(hash);
+    if (needle.indexOf("#") === 0) {
+      needle = needle.slice(1);
+    }
+    if (needle.indexOf("score-") !== 0) {
+      return null;
+    }
+    var slug = needle.slice("score-".length);
+    var list = records || [];
+    for (var i = 0; i < list.length; i++) {
+      if (trim(list[i].Slug) === slug) {
+        return list[i];
+      }
+    }
+    return null;
+  }
+
   function renderTable(doc, tbody, rows) {
     tbody.textContent = "";
     if (!rows.length) {
@@ -178,14 +201,22 @@
     }
     rows.forEach(function (row) {
       var tr = doc.createElement("tr");
-      if (row.Slug) {
-        tr.id = "score-" + row.Slug;
+      var anchor = rowAnchor(row);
+      if (anchor) {
+        tr.id = anchor;
       }
 
       var nameTd = doc.createElement("td");
-      var nameStrong = doc.createElement("strong");
-      nameStrong.textContent = row.Name || "—";
-      nameTd.appendChild(nameStrong);
+      var nameEl;
+      if (anchor) {
+        nameEl = doc.createElement("a");
+        nameEl.href = "#" + anchor;
+        nameEl.className = "election-score-name";
+      } else {
+        nameEl = doc.createElement("strong");
+      }
+      nameEl.textContent = row.Name || "—";
+      nameTd.appendChild(nameEl);
       if (row.Incumbent) {
         nameTd.appendChild(doc.createTextNode(" (incumbent)"));
       }
@@ -245,6 +276,17 @@
     var records = [];
     var debounce = null;
 
+    function currentHash() {
+      if (doc.location && doc.location.hash) {
+        return doc.location.hash;
+      }
+      var win = doc.defaultView || (typeof window !== "undefined" ? window : null);
+      if (win && win.location && win.location.hash) {
+        return win.location.hash;
+      }
+      return "";
+    }
+
     function draw() {
       var filtered = sortRows(
         filterRows(
@@ -263,21 +305,41 @@
           ? "Showing " + filtered.length + " of " + records.length + "."
           : "No names match those filters."
       );
-      jumpToHash();
     }
 
     function jumpToHash() {
-      var hash = "";
-      if (doc.location && doc.location.hash) {
-        hash = doc.location.hash;
-      }
+      var hash = currentHash();
       if (hash.indexOf("#score-") !== 0) {
+        return;
+      }
+      var campaign =
+        (doc.defaultView && doc.defaultView.CrossvilleCampaign) ||
+        (typeof window !== "undefined" ? window.CrossvilleCampaign : null);
+      if (campaign && campaign.pinHashTarget) {
+        campaign.pinHashTarget(doc, doc.defaultView || window);
         return;
       }
       var el = doc.getElementById(hash.slice(1));
       if (el && el.scrollIntoView) {
-        el.scrollIntoView({ block: "center" });
+        el.scrollIntoView({ block: "start" });
       }
+    }
+
+    function applyIncomingHash() {
+      var target = recordForAnchor(records, currentHash());
+      if (target) {
+        if (search) {
+          search.value = "";
+        }
+        if (stanceSelect) {
+          stanceSelect.value = "";
+        }
+        if (bodySelect) {
+          bodySelect.value = trim(target.Body) || DEFAULT_BODY;
+        }
+      }
+      draw();
+      jumpToHash();
     }
 
     function scheduleDraw() {
@@ -294,7 +356,7 @@
       if (asOfEl && meta && meta.as_of_long) {
         asOfEl.textContent = meta.as_of_long;
       }
-      draw();
+      applyIncomingHash();
     }
 
     if (search) {
@@ -319,6 +381,11 @@
         }
         draw();
       });
+    }
+
+    var win = doc.defaultView || (typeof window !== "undefined" ? window : null);
+    if (win && win.addEventListener) {
+      win.addEventListener("hashchange", applyIncomingHash);
     }
 
     if (options.records) {
@@ -364,6 +431,8 @@
     tallyLine: tallyLine,
     sourceHref: sourceHref,
     sourceDisplay: sourceDisplay,
+    rowAnchor: rowAnchor,
+    recordForAnchor: recordForAnchor,
     renderTable: renderTable,
     initElectionScorecard: initElectionScorecard,
   };

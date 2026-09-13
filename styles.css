@@ -5038,6 +5038,22 @@ html[data-theme="dark"] .contact-card .tap-row a.tap-mail {
   font-weight: 650;
 }
 
+.election-score-name {
+  color: inherit;
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.election-score-name:hover,
+.election-score-name:focus-visible {
+  color: var(--accent);
+}
+
+.election-scorecard-table tr:target {
+  background: var(--accent-soft);
+}
+
 /* ============================================
    SITE SEARCH MODAL (assets/site-search.js)
    ============================================ */
