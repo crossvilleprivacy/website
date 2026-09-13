@@ -5024,7 +5024,8 @@ html[data-theme="dark"] .contact-card .tap-row a.tap-mail {
   font-weight: 550;
 }
 
-.election-stance-cancel {
+.election-stance-cancel,
+.election-stance-oppose {
   color: var(--ink);
 }
 

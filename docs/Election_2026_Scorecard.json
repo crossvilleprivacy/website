@@ -1,8 +1,8 @@
 {
   "note": "Local 2026 Flock / ALPR positions. Quotes only. Not an endorsement. Not a Case_ID catalog.",
-  "as_of": "2026-08-29",
-  "as_of_long": "August 29, 2026",
-  "as_of_short": "Aug. 29, 2026",
+  "as_of": "2026-09-13",
+  "as_of_long": "September 13, 2026",
+  "as_of_short": "Sept. 13, 2026",
   "record_count": 26,
   "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and refuse any plate-reader replacement (Flock, Axon, or otherwise)? If you will not cancel, will you require a recorded public yes-or-no vote each year before any renewal, plus a public camera map and monthly search reports (who searched, what, why, hits, and sharing)? Please put that answer on the record.",
   "county_question": "Will you vote to ban county purchase, lease, funding, or operation of Flock, Axon, or any other automated license-plate reader or similar AI mass-surveillance tool? Confirm in writing whether the county or Sheriff already has any such agreement. Please put that answer on the record.",
@@ -60,8 +60,9 @@
       "Race": "Regular council seats",
       "Incumbent": false,
       "Sort": 5,
-      "Stance": "no_answer",
-      "Answer": "Has not published a Flock or license-plate-reader position."
+      "Stance": "oppose",
+      "Answer": "Told this site’s admin in a text message that if he had to make a decision today, he “would not support” having them up. He has spoken with Crossville PD, plans to meet them in the next few days, and said he will keep listening to residents. Some people he has talked with are totally opposed; a lot do not have an opinion.",
+      "Source_Label": "Sept. 13, 2026 text message to this site’s admin"
     },
     {
       "Slug": "melinda-kelsey",

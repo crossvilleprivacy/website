@@ -17,12 +17,14 @@
   var LOAD_ERROR = "Could not load this table. Try again on the live site.";
   var STANCE_LABELS = {
     cancel: "Cancel and remove",
+    oppose: "Would not keep cameras",
     keep: "Keep cameras",
     hedge: "Extra rules, not cancel",
     no_answer: "No public answer",
   };
   var COUNTY_STANCE_LABELS = {
     cancel: "Ban ALPRs",
+    oppose: "Would not keep cameras",
     keep: "No ban",
     hedge: "Extra rules, not a ban",
     no_answer: "No public answer",
@@ -151,6 +153,18 @@
     return trim(row && row.Source_URL);
   }
 
+  function sourceDisplay(row) {
+    var href = sourceHref(row);
+    var label = trim(row && row.Source_Label);
+    if (href) {
+      return { href: href, text: label || "Source" };
+    }
+    if (label) {
+      return { href: "", text: label };
+    }
+    return { href: "", text: "—" };
+  }
+
   function renderTable(doc, tbody, rows) {
     tbody.textContent = "";
     if (!rows.length) {
@@ -193,16 +207,16 @@
       tr.appendChild(answerTd);
 
       var srcTd = doc.createElement("td");
-      var href = sourceHref(row);
-      if (href) {
+      var source = sourceDisplay(row);
+      if (source.href) {
         var src = doc.createElement("a");
-        src.href = href;
+        src.href = source.href;
         src.target = "_blank";
         src.rel = "noopener";
-        src.textContent = row.Source_Label || "Source";
+        src.textContent = source.text;
         srcTd.appendChild(src);
       } else {
-        srcTd.textContent = "—";
+        srcTd.textContent = source.text;
       }
       tr.appendChild(srcTd);
 
@@ -349,6 +363,7 @@
     tally: tally,
     tallyLine: tallyLine,
     sourceHref: sourceHref,
+    sourceDisplay: sourceDisplay,
     renderTable: renderTable,
     initElectionScorecard: initElectionScorecard,
   };
