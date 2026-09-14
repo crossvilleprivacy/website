@@ -62,10 +62,11 @@
     "I will be at the next council meeting.";
 
   var CANDIDATE_ASK =
-    "Will you vote to cancel Crossville's Flock contract, remove the cameras, and refuse any plate-reader " +
-    "replacement (Flock, Axon, or otherwise)? If you will not cancel, will you require a recorded public " +
-    "yes-or-no vote each year before any renewal, plus a public camera map and monthly search reports " +
-    "(who searched, what, why, hits, and sharing)? Please put that answer on the record."
+    "Will you vote to cancel Crossville's Flock contract, remove the cameras, and enact a full city ban on " +
+    "Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require " +
+    "a voter referendum (same idea as Crossville's water referendum) before the city may ever bring those " +
+    "tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for " +
+    "you to support that? Please put that answer on the record."
 
   function buildMailto(to, subject, body, cc) {
     var href =
