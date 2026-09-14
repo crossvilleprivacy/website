@@ -1593,6 +1593,10 @@ article:has(+ .panel) {
   scroll-margin-top: calc(var(--site-header-h, 4rem) + 0.75rem);
 }
 
+.news-spotlight + .news-spotlight {
+  margin-top: 0.7rem;
+}
+
 #recent-news {
   scroll-margin-top: calc(var(--site-header-h, 4rem) + 0.75rem);
 }

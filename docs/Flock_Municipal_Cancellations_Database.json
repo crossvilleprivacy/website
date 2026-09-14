@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-13",
+  "compiled": "2026-09-14",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3110,6 +3110,21 @@
       "Secondary_Source_URL": "https://www.inkfreenews.com/2026/09/11/kosciusko-county-council-defunds-flock-cameras-other-surveillance-tech/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Council cannot cancel the contract. Commissioners have not yet voted to terminate. Prosecutor ordered hardware down and access cut after Sept. 18. Camera count not published."
+    },
+    {
+      "Case_ID": "CAN-2026-214",
+      "Jurisdiction": "Boston",
+      "State": "MA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-14",
+      "Camera_Count": 45,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Vendor sharing stayed on despite contract off-switch; city committed not to use Flock going forward",
+      "Summary": "WBUR reported September 14, 2026 that Boston's 2025 Surveillance Technology Report said other agencies could access Boston Flock plate and vehicle data within three days of a no-cost 45-camera pilot that ran April 1 to September 4, 2025, after the contract and Flock settings were supposed to keep sharing off. The report called that a Flock error. BPD and city officials committed not to use Flock going forward. Flock cameras were already removed after the 2025 trial. The city later ran Motorola and Axon ALPR pilots.",
+      "Primary_Source_URL": "https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report",
+      "Verification_Status": "Verified major press",
+      "Incomplete_Exit_Notes": "Flock hardware already removed after the 2025 pilot. Not a full ALPR exit: Motorola (45 cameras, February 2026) and Axon (30 cameras, June 2026) pilots followed. Not a council terminate of a paid Flock contract."
     }
   ]
 }

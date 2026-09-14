@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-13",
-  "count": 1182,
-  "source_count": 1182,
+  "as_of": "2026-09-14",
+  "count": 1186,
+  "source_count": 1186,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -4556,6 +4556,20 @@
       "captured": "2026-08-14T04:57:13Z",
       "method": "existing"
     },
+    "https://www.eff.org/deeplinks/2026/09/cops-play-hide-and-seek-about-using-spy-tech-avoid-scrutiny-and-bad-pr": {
+      "url": "https://www.eff.org/deeplinks/2026/09/cops-play-hide-and-seek-about-using-spy-tech-avoid-scrutiny-and-bad-pr",
+      "wayback": "https://web.archive.org/web/20260910152722/https://www.eff.org/deeplinks/2026/09/cops-play-hide-and-seek-about-using-spy-tech-avoid-scrutiny-and-bad-pr",
+      "timestamp": "20260910152722",
+      "captured": "2026-09-10T15:27:22Z",
+      "method": "existing"
+    },
+    "https://www.eff.org/deeplinks/2026/09/high-crime-lmao-how-cops-are-treating-mass-surveillance-joke": {
+      "url": "https://www.eff.org/deeplinks/2026/09/high-crime-lmao-how-cops-are-treating-mass-surveillance-joke",
+      "wayback": "https://web.archive.org/web/20260914175125/https://www.eff.org/deeplinks/2026/09/high-crime-lmao-how-cops-are-treating-mass-surveillance-joke",
+      "timestamp": "20260914175125",
+      "captured": "2026-09-14T17:51:25Z",
+      "method": "existing"
+    },
     "https://www.eff.org/pages/automated-license-plate-reader-dataset": {
       "url": "https://www.eff.org/pages/automated-license-plate-reader-dataset",
       "wayback": "https://web.archive.org/web/20260729173636/https://www.eff.org/pages/automated-license-plate-reader-dataset",
@@ -4659,6 +4673,13 @@
       "archive_today": "https://archive.today/20251103202954/https://www.flocksafety.com/blog/how-the-safe-list-solves-privacy-concerns-in-a-neighborhood",
       "timestamp": "20251103202954",
       "captured": "2025-11-03T20:29:54Z",
+      "method": "archive.today"
+    },
+    "https://www.flocksafety.com/blog/offense-type-dropdown-a-simpler-more-accurate-audit": {
+      "url": "https://www.flocksafety.com/blog/offense-type-dropdown-a-simpler-more-accurate-audit",
+      "archive_today": "https://archive.today/20260422165321/https://www.flocksafety.com/blog/offense-type-dropdown-a-simpler-more-accurate-audit",
+      "timestamp": "20260422165321",
+      "captured": "2026-04-22T16:53:21Z",
       "method": "archive.today"
     },
     "https://www.flocksafety.com/blog/response-to-compiled-security-research-on-flock-safety-devices": {
@@ -7191,6 +7212,13 @@
       "wayback": "https://web.archive.org/web/20241222212437/https://www.wbtw.com/news/grand-strand/north-myrtle-beach/north-myrtle-beach-womans-wrongful-detainment-lawsuit-settled-for-250k/",
       "timestamp": "20241222212437",
       "captured": "2024-12-22T21:24:37Z",
+      "method": "existing"
+    },
+    "https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report": {
+      "url": "https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report",
+      "wayback": "https://web.archive.org/web/20260914152704/https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report",
+      "timestamp": "20260914152704",
+      "captured": "2026-09-14T15:27:04Z",
       "method": "existing"
     },
     "https://www.wcjb.com/2026/08/31/florida-sheriff-orders-all-flock-style-license-plate-reader-cameras-removed": {
