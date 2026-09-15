@@ -20,6 +20,7 @@
     oppose: "Would not keep cameras",
     keep: "Keep cameras",
     hedge: "Extra rules, not cancel",
+    reviewing: "Still researching",
     no_answer: "No public answer",
   };
   var COUNTY_STANCE_LABELS = {
@@ -27,6 +28,7 @@
     oppose: "Would not keep cameras",
     keep: "No ban",
     hedge: "Extra rules, not a ban",
+    reviewing: "Still researching",
     no_answer: "No public answer",
   };
 
@@ -135,10 +137,6 @@
       counts.city_answered +
       " of " +
       counts.city_total +
-      " have answered. County: " +
-      counts.county_answered +
-      " of " +
-      counts.county_total +
       " have answered."
     );
   }

@@ -1,10 +1,13 @@
 {
   "note": "Local 2026 Flock / ALPR positions. Quotes only. Not an endorsement. Not a Case_ID catalog.",
-  "as_of": "2026-09-13",
-  "as_of_long": "September 13, 2026",
-  "as_of_short": "Sept. 13, 2026",
+  "as_of": "2026-09-15",
+  "as_of_long": "September 15, 2026",
+  "as_of_short": "Sept. 15, 2026",
   "record_count": 26,
-  "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and enact a full city ban on Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require a voter referendum (same idea as Crossville’s water referendum) before the city may ever bring those tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for you to support that? Please put that answer on the record.",
+  "ask_note": "The site’s admin asked every Crossville City Council candidate for a public Flock position. Two wordings were used: city_question by email (short form optional), and city_question_oneliner by text. County officials were not part of that ask. A one-liner on the record is not scored as a cancel pledge. Still researching is not a yes or no.",
+  "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and enact a full city ban on Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require a voter referendum (same idea as Crossville’s water referendum) before the city may ever bring those tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for you to support that?",
+  "city_question_short": "Cancel, remove, and ban — yes / no / other (please say what)\nVoter referendum before any return — yes / no / other\nIf not a clear yes on cancel / remove / ban: what would it take? (conditions, evidence, process, timeline—be specific)",
+  "city_question_oneliner": "Can you text me a one-liner on your position on Flock on the record.",
   "county_question": "Will you vote to ban county purchase, lease, funding, or operation of Flock, Axon, or any other automated license-plate reader or similar AI mass-surveillance tool? Confirm in writing whether the county or Sheriff already has any such agreement. Please put that answer on the record.",
   "records": [
     {
@@ -61,6 +64,7 @@
       "Incumbent": false,
       "Sort": 5,
       "Stance": "oppose",
+      "Asked": "Short ask by text — one-liner on his position on Flock, on the record.",
       "Answer": "Told this site’s admin in a text message that if he had to make a decision today, he “would not support” having them up. He has spoken with Crossville PD, plans to meet them in the next few days, and said he will keep listening to residents. Some people he has talked with are totally opposed; a lot do not have an opinion.",
       "Source_Label": "Sept. 13, 2026 text message to this site’s admin"
     },
@@ -72,8 +76,10 @@
       "Race": "Unexpired Mayberry term",
       "Incumbent": false,
       "Sort": 6,
-      "Stance": "no_answer",
-      "Answer": "Has not published a Flock or license-plate-reader position."
+      "Stance": "reviewing",
+      "Asked": "Written ask by email — cancel, remove, and ban.",
+      "Answer": "Emailed this site’s admin: “I am researching additional information regarding FLOCK.” No yes or no yet on cancel, remove, and ban.",
+      "Source_Label": "Sept. 15, 2026 email to this site’s admin"
     },
     {
       "Slug": "louis-morrison",

@@ -66,7 +66,11 @@
     "Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require " +
     "a voter referendum (same idea as Crossville's water referendum) before the city may ever bring those " +
     "tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for " +
-    "you to support that? Please put that answer on the record."
+    "you to support that?\n\n" +
+    "If you prefer, you can answer in short lines:\n\n" +
+    "Cancel, remove, and ban — yes / no / other (please say what)\n" +
+    "Voter referendum before any return — yes / no / other\n" +
+    "If not a clear yes on cancel / remove / ban: what would it take? (conditions, evidence, process, timeline—be specific)";
 
   function buildMailto(to, subject, body, cc) {
     var href =

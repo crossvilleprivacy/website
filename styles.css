@@ -5084,7 +5084,8 @@ html[data-theme="dark"] .contact-card .tap-row a.tap-mail {
 }
 
 .election-stance-keep,
-.election-stance-hedge {
+.election-stance-hedge,
+.election-stance-reviewing {
   color: var(--ink);
 }
 
