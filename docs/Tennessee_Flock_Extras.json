@@ -1,0 +1,45 @@
+{
+  "note": "Tennessee watch items that are not misuse, cancel, or wrongful catalog rows. Rebuild docs/Tennessee_Flock_Index.json with node scripts/compute_dossier_tallies.js after edits.",
+  "records": [
+    {
+      "Kind": "watch",
+      "Place": "Memphis",
+      "What": "MPD ~200 Flock cameras; resident privacy debate",
+      "Date": "2026-08-21",
+      "Writeup": "#memphis-flock-debate",
+      "Source_URL": "https://www.actionnews5.com/2026/08/21/flock-cameras-spark-privacy-debate-memphis/"
+    },
+    {
+      "Kind": "watch",
+      "Place": "Anderson County",
+      "What": "Mayor Frank hearing Sept. 10; SO runs 4 cameras",
+      "Date": "2026-08-11",
+      "Writeup": "#anderson-flock-hearing",
+      "Source_URL": "https://www.wvlt.tv/2026/08/11/anderson-county-mayor-calls-public-hearing-license-plate-readers/"
+    },
+    {
+      "Kind": "watch",
+      "Place": "Loudon County",
+      "What": "Proposed Flock rollout; room opposed; no contract signed",
+      "Date": "2026-08-19",
+      "Writeup": "#loudon-flock-proposal",
+      "Source_URL": "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/"
+    },
+    {
+      "Kind": "watch",
+      "Place": "Murfreesboro",
+      "What": "Council kept a June renewal; cameras stay",
+      "Date": "2026-08-14",
+      "Writeup": "#murfreesboro-flock-keep",
+      "Source_URL": "https://www.wsmv.com/2026/08/14/murfreesboro-residents-speak-out-against-flock-cameras-after-city-renews-contract/"
+    },
+    {
+      "Kind": "watch",
+      "Place": "Johnson City",
+      "What": "145 LPR + 145 PTZ Safe City Flock deal",
+      "Date": "2025-07-17",
+      "Writeup": "#regional",
+      "Source_URL": "https://www.johnsoncitytn.org/services/police/safe_city_project/index.php"
+    }
+  ]
+}

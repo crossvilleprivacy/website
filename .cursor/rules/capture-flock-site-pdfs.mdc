@@ -1,0 +1,35 @@
+---
+description: Print-to-PDF every new flocksafety.com (and subdomain) cite; store under docs/flock-site-captures/
+alwaysApply: true
+---
+
+# Capture Flock domain pages as print PDFs
+
+Flock’s public site is often excluded from the Wayback Machine. Whenever you **add or update** a live cite to Flock’s own domains, save a local print PDF in the **same task**.
+
+## Domains
+
+- `flocksafety.com` and any subdomain (`www.`, `docs.`, `transparency.`, etc.)
+- Same rule if the primary `href` is already a PDF on those hosts (download a dated copy into the captures folder)
+
+## Same-task steps
+
+1. Keep the **live URL** as the primary `href` (do not replace it with the PDF).
+2. Still run the usual archive flow (`archive-sources-on-wayback.mdc`): Wayback first, then archive.today when Wayback has nothing or excludes the host.
+3. Capture the live page as a PDF the simple way:
+   - **Preferred:** open the URL in a normal browser → **Print → Save as PDF** (or “Print to file”).
+   - **Optional CLI** if Chromium/Chrome/Brave is installed:  
+     `chromium --headless --disable-gpu --no-pdf-header-footer --print-to-pdf=docs/flock-site-captures/NAME.pdf 'https://…'`  
+     (same flags work for `google-chrome` / Brave; Flatpak: `flatpak run org.chromium.Chromium …`).
+4. Save under `docs/flock-site-captures/` with a stable slug + capture date, e.g. `flocksafety-com-faq-2026-08-24.pdf`.
+5. Link that PDF beside the live cite (or in Sources / Flock platform bibliography). List new captures on `sources.html` in the same task.
+6. Do **not** invent page content. If the live page fails to load, note that and keep archive.today / prior captures; do not paste scraped HTML into `docs/`.
+
+## Do not
+
+- Add Playwright, Puppeteer, or other browser-automation stacks just for this
+- Re-capture an unchanged URL the same calendar day unless the operator asks
+
+## Skip
+
+- Third-party mirrors, municipal contract PDFs on city sites, news stories *about* Flock

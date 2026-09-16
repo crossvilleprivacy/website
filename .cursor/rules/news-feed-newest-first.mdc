@@ -1,0 +1,30 @@
+---
+description: Home news feed is reverse chronological; never pin local or Crossville above a later date
+alwaysApply: true
+---
+
+# News feed: newest first
+
+`index.html` `.recent-news-list` is one reverse-chronological list. Sort by each card’s `<time datetime>`. Newest at the top. Local Crossville cards compete in that same list. Hometown does not jump the date.
+
+## Do
+
+- Insert a new card by its story date, not at the top by default
+- Let a Sept. 6 national update sit above a Sept. 2 Crossville card
+- Same calendar day: keep existing same-day order; do not invent a local-first tie-break
+
+## Do not
+
+- Pin Crossville / `data-geo="local"` above a later-dated card
+- Treat “most important locally” as a reason to break date order
+- Re-date an old card to make it look newer (`recent-news-story-updates.mdc`)
+
+```html
+<!-- BAD: Sept. 2 local above Sept. 6 national -->
+<li data-geo="local">… <time datetime="2026-09-02">…</time></li>
+<li data-geo="national">… <time datetime="2026-09-06">…</time></li>
+
+<!-- GOOD: date order, local in its slot -->
+<li data-geo="national">… <time datetime="2026-09-06">…</time></li>
+<li data-geo="local">… <time datetime="2026-09-02">…</time></li>
+```

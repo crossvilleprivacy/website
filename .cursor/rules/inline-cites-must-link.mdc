@@ -1,0 +1,25 @@
+---
+description: Inline outlet/source attributions in body copy must be direct links
+alwaysApply: true
+---
+
+# Inline citations must link
+
+Whenever body copy names a source inline (`per the Daily Times`, `Knox News reported`, `according to Business Insider`, `cited by Tennessee Firefly`, `404 Media reviewed`, etc.), **the outlet or document name must be a direct `<a href="..." target="_blank" rel="noopener">` link** to that primary URL in the same sentence—not bare text with the link only in a Sources footer.
+
+## Do
+
+- Link the first clear attribution in the paragraph to the same URL used in that panel’s Sources list
+- Prefer primary reporting / official records already cited on the page
+- Keep a Sources footer as a bibliography; it does not replace the inline link
+
+## Do not
+
+- Ship “per the *Outlet*” / “*Outlet* reported” with an unlinked outlet name
+- Invent a secondary URL just to satisfy the rule—if you cannot cite a real URL, drop or rephrase the named attribution
+- Link every repeated “told *Outlet*” in the same paragraph after the first linked mention (first mention is enough)
+
+## Related
+
+- Still sync `sources.html` per `keep-sources-synced.mdc`
+- Still sync downloadables when a story belongs in a dossier per `sync-site-downloadables-and-sources.mdc`

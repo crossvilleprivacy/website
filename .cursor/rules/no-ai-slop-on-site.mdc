@@ -1,0 +1,38 @@
+---
+description: Never ship internallish catalog voice, cut-off sentences, or AI-tell copy on public pages
+alwaysApply: true
+---
+
+# No AI slop on the public site
+
+Published copy (`*.html`, speech JSON, widget intro text, news notes) is for residents. Maintainer taxonomy stays in `.cursor/rules/`, catalog JSON fields, and git comments.
+
+Before shipping any new or edited sentence, read it as a stranger. If it explains how this repo is organized, how a table is wired, or why a Case_ID was skipped, **delete it**. Finish every sentence. Do not paste assistant notes into the page.
+
+## Internallish voice (ban)
+
+Do not tell readers about JSON indexes, skinny rows, lookup jumps, flagship writeups, “catalog rows,” or “not a Case_ID.”
+
+| Ban | Why | Public instead |
+|---|---|---|
+| “Adult names stay in the story writeups; they are not in the JSON index. Writeups that cite a wrongful ID jump from the table.” | Repo mechanics | “Search by city, technology, or ID.” |
+| “City names with a local writeup jump to that panel… Month is the latest dated month in that catalog year when the dossier names one.” | Widget internals | Count + what the columns mean, then stop |
+| “This is a catalogued Tennessee non-renewal in the municipal-cancellations index… are separate rows.” | Catalog taxonomy | The facts (cameras stay until January; sheriff use is off) |
+| “Vendor PR, not a Case_ID.” / “Keep, not a cancel.” / “This is a keep, not a municipal exit, so it has no…” | Maintainer triage | “Cameras stay.” / “Holt voted no.” |
+| “Six flagship writeups stay in full because council speeches cite them.” | Editorial process | Omit, or point to the tables |
+
+Useful public status is fine: cameras stay, sheriff refused, council has not voted, Henry County IL is not Henry County VA. Cite `CAN-` / `FLK-` / wrongful IDs as footnotes, not as a lecture on why a row exists.
+
+## Cut-off sentences (ban)
+
+Do not ship a new clause that dies mid-thought. No `so it has no…`. No ending a **new** card on a dangling verb or preposition (`logging untrue reasons…`, `the Atlanta…`, `and…`).
+
+If a one-liner must stay short, write a **complete** short sentence. Ellipsis is for quoted omissions in a source, not for the model running out of room.
+
+## AI-tell (ban)
+
+No First:/Second:/Separately scaffolds, em-dash piles, waxed eloquence, or “It’s important to note.” Write like a resident briefing neighbors.
+
+## Check
+
+Scan the **diff** before finishing. If any added line would only make sense to the person maintaining the catalogs, strip it in the same task.

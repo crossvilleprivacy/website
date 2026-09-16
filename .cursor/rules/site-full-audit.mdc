@@ -1,0 +1,46 @@
+---
+description: Full Site Audit routine — run when user asks to audit or re-audit the site
+alwaysApply: true
+---
+
+# Full Site Audit
+
+When the user asks to **run the full audit**, **re-audit**, or **audit the site / documentation / downloadables / sources**, follow this routine.
+
+## Process
+
+1. Switch to **Plan mode** immediately (see `approval-means-plan-mode.mdc`). Do not ask the user to switch. Report findings **before** edits.
+2. Wait for explicit approval before making corrections.
+3. After approval, fix in priority order (P0 → P1 → P2), then sync catalog JSON + `sources.html` in the same task.
+4. Note in the reply what was synced. Dossier-eligible stories left unsynced are **P0**, not “N/A.”
+
+## Dimensions (not limited to)
+
+1. **Accuracy** — tallies, Case_IDs, dates, vendor names vs `docs/*Database.json` and internal HTML contradictions
+2. **Uncited sources** — strong claims / panels missing `Sources:` or Case_ID / dossier cites where siblings have them
+3. **Out-of-sync sources** — page `https://` URLs and on-site distributables missing from `sources.html`; dead local paths
+4. **Out-of-sync catalogs** — site stories missing from cancel / misuse / wrongful JSON; tallies ≠ JSON / `docs/dossier-tallies.json`; lookup widget copy ≠ JSON (`national.html#cancel-lookup`, `#misuse-lookup`, `#wrongful-lookup`; `tennessee.html#misuse-lookup`, `#wrongful-lookup`, `#cancel-lookup`, `#tn-watch-lookup`); cancel Case_IDs missing from `#cancellations` articles so the lookup cannot deep-link; misuse `FLK-` / wrongful ID missing from `#nationwide-misuse` articles; Tennessee Case_IDs / wrongful IDs missing from matching `tennessee.html` articles; Tennessee catalog widgets missing `data-state-lock="TN"` or showing out-of-state rows; any “catalogs intentionally unchanged” for a catalog-eligible panel (**P0**); inlined `*-data.js` copies of files the widgets already fetch (`docs/*.json` / search-log CSV); leftover links to retired master-database PDFs
+5. **Missing cross-references** — story on one page not linked from related pages (vendor dossier, national, index, speeches)
+6. **Layperson jargon** — patentese, acronyms without gloss, blogger/academic voice
+7. **AI-tell / internallish voice** — see `no-ai-slop-on-site.mdc`. Sentence fragments and mid-clause `…` cutoffs; catalog-taxonomy asides (“not a Case_ID,” “JSON index,” “jump from the table,” “catalogued … separate rows”); stiff scaffolds (“First: / Second: / Separately,”); waxed eloquence. **P1** on public pages.
+
+## Priority labels
+
+- **P0** — must fix (tally/dossier drift, internal contradictions, missing flagship cross-refs, speeches that overrun the slot)
+- **P1** — should fix same pass
+- **P2** — polish
+
+## Also enforce
+
+- `sync-site-downloadables-and-sources.mdc` (hard 100% sync gate)
+- `sync-dossiers-with-news.mdc`
+- `keep-sources-synced.mdc`
+- `no-identity-leaks.mdc`
+- `no-ai-slop-on-site.mdc`
+
+## Report format
+
+- What’s already healthy
+- Findings table per dimension (file path, short quote, priority)
+- Suggested fix order
+- Do not edit until the user approves

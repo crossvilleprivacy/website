@@ -1,0 +1,29 @@
+---
+description: Never create GitHub repos, mirrors, or backups without explicit user approval
+alwaysApply: true
+---
+
+# No unauthorized GitHub repos
+
+This project has **one** GitHub remote: `crossvilleprivacy/website`.
+
+## Never do without explicit user approval
+
+- `gh repo create`, `gh repo fork`, or any new repo under `crossvilleprivacy` or the user's account
+- Private backup / mirror / archive / snapshot repos (including names like `*-archive`, `*-backup`, `*-poisoned*`, `*-mirror`)
+- Pushing this codebase to any remote other than `origin` → `crossvilleprivacy/website`
+- Using Cursor **Share**, **new-repo**, or **origin** skills to host or duplicate the project on GitHub
+- Creating a second repo "just in case" before legal hardening, refactors, or risky edits
+
+## Do instead
+
+- Keep all history in the single repo: branches, tags, stashes, or local commits
+- If a rollback point is needed, use a **local** git tag or branch — not a new GitHub repo
+- Before any `gh` command that creates or deletes a repo, **stop and ask** unless the user named the exact repo and action in the same request
+
+## Allowed by default
+
+- Normal git work on `crossvilleprivacy/website`: commit, push, pull, branch, PR — when the user asked for that work
+- Read-only `gh` inspection (`gh repo view`, `gh run list`, etc.) when needed to diagnose the site
+
+If unsure whether the user wants a new repo, **do not create one**. Ask first.

@@ -1,0 +1,153 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj << /Type /Catalog /Pages 2 0 R >> endobj
+2 0 obj << /Type /Pages /Kids [4 0 R 5 0 R] /Count 2 >> endobj
+3 0 obj << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> endobj
+4 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 6 0 R /Resources << /Font << /F1 3 0 R >> >> >> endobj
+6 0 obj << /Length 3226 >> stream
+BT
+/F1 11 Tf
+14 TL
+72 760 Td
+(Flock Safety blog print capture ? Sept. 14, 2026) Tj
+T*
+(https://www.flocksafety.com/blog/offense-type-dropdown-a-simpler-more-accurate-audit) Tj
+T*
+() Tj
+T*
+(Offense Type Dropdown: A Simpler, More Accurate Audit) Tj
+T*
+(Josh Thomas | Published: December 10, 2025 | Page also showed July 24, 2026) Tj
+T*
+() Tj
+T*
+(We live in a time where both public safety technology and the political and legal landscape) Tj
+T*
+(governing public safety technology is constantly evolving. And law enforcement officers need) Tj
+T*
+(to balance solving cases quickly while adhering to these shifts.) Tj
+T*
+() Tj
+T*
+(Our goal is to make compliance easier by building simple, built-in product features that) Tj
+T*
+(support consistent documentation, clearer oversight, and more confident collaboration,) Tj
+T*
+(without adding friction to every day workflows.) Tj
+T*
+() Tj
+T*
+(Starting this week, Flock has introduced a new, required step in every ALPR Search: Offense) Tj
+T*
+(Type Dropdowns.) Tj
+T*
+() Tj
+T*
+(This update adds a standardized, NIBRS-based offense selection \(expanded through customer) Tj
+T*
+(feedback and data analysis\) so agencies can capture the purpose of their search in a clear,) Tj
+T*
+(consistent way, while keeping searches as fast and seamless as you should always expect with) Tj
+T*
+(Flock.) Tj
+T*
+() Tj
+T*
+(An Offense Type for Every ALPR Search) Tj
+T*
+() Tj
+T*
+(Beginning this week, "Offense Type" will be the first required field on any ALPR Search run) Tj
+T*
+(in Flock. This applies to all forms of Search - on your own cameras, on Statewide Lookup,) Tj
+T*
+(and on National Lookup.) Tj
+T*
+() Tj
+T*
+(The existing Search Reason field will still be available as an optional place to add extra) Tj
+T*
+(detail, and agencies still have the option to require it.) Tj
+T*
+() Tj
+T*
+(Here's how the Offense Type Dropdown works within the search experience:) Tj
+T*
+() Tj
+T*
+(1\) Users must select at least one Offense Type before they can perform a search.) Tj
+T*
+(2\) Users can select multiple Offense Types when needed, but at least one is required.) Tj
+T*
+(3\) Users can also start typing and the relevant Offense Type will populate to maximize) Tj
+T*
+(speed.) Tj
+T*
+(4\) The admin can configure which Offense Type categories to include in the dropdown, except) Tj
+T*
+(where legally required to keep them all.) Tj
+T*
+(5\) If a user believes the Offense Type dropdown does not contain the correct description,) Tj
+T*
+(she can select "Other." However, if "Other" is selected, the system will require the user to) Tj
+T*
+(enter a Search Reason for that search, so there's always context when a standard category) Tj
+T*
+(doesn't apply.) Tj
+T*
+() Tj
+T*
+(Enabling Seamless Transparency) Tj
+T*
+() Tj
+T*
+(The Offense Type dropdown was designed to make documentation more consistent and oversight) Tj
+T*
+(more straightforward, without creating extra steps in an officer or detective's workflow.) Tj
+T*
+() Tj
+T*
+(Offense Types, along with any associated Search Reasons and Case Numbers, are included in) Tj
+T*
+(Organization and Network Audits. Similar to Search Reason and Case Number, Offense Type can) Tj
+T*
+(also be included in automated Public Search Audit exports in an agency's ALPR Transparency) Tj
+ET
+endstream endobj
+5 0 obj << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 7 0 R /Resources << /Font << /F1 3 0 R >> >> >> endobj
+7 0 obj << /Length 470 >> stream
+BT
+/F1 11 Tf
+14 TL
+72 760 Td
+(Portal.) Tj
+T*
+() Tj
+T*
+(Our Commitment: Keeping ALPR Usage Fast, Clear, and Accountable) Tj
+T*
+() Tj
+T*
+(At Flock, we're committed to helping agencies solve crime while supporting responsible,) Tj
+T*
+(transparent use of public safety technology. Offense Type Dropdown is a simple change that) Tj
+T*
+(makes a big difference: clearer documentation, more consistent audits, and an even stronger) Tj
+T*
+(foundation for community trust.) Tj
+ET
+endstream endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000323 00000 n 
+0000003600 00000 n 
+0000003726 00000 n 
+trailer << /Size 8 /Root 1 0 R >>
+startxref
+4246
+%%EOF
