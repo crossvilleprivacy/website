@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-14",
-  "count": 1186,
-  "source_count": 1186,
+  "as_of": "2026-09-16",
+  "count": 1197,
+  "source_count": 1197,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1403,6 +1403,13 @@
       "captured": "2026-08-13T17:59:29Z",
       "method": "existing"
     },
+    "https://hoodline.com/2026/09/wilmington-to-end-flock-camera-contract-over-privacy-concerns": {
+      "url": "https://hoodline.com/2026/09/wilmington-to-end-flock-camera-contract-over-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260915235706/https://hoodline.com/2026/09/wilmington-to-end-flock-camera-contract-over-privacy-concerns/",
+      "timestamp": "20260915235706",
+      "captured": "2026-09-15T23:57:06Z",
+      "method": "existing"
+    },
     "https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras": {
       "url": "https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras/",
       "wayback": "https://web.archive.org/web/20260821024630/https://hopkintonindependent.com/hopkinton-terminates-contract-for-flock-security-cameras/",
@@ -1703,6 +1710,13 @@
       "captured": "2026-08-15T20:57:43Z",
       "method": "existing"
     },
+    "https://ktul.com/news/local/tahlequah-police-to-remove-flock-cameras-citing-public-trust-concerns-09-14-2026": {
+      "url": "https://ktul.com/news/local/tahlequah-police-to-remove-flock-cameras-citing-public-trust-concerns-09-14-2026",
+      "wayback": "https://web.archive.org/web/20260914190542/https://ktul.com/news/local/tahlequah-police-to-remove-flock-cameras-citing-public-trust-concerns-09-14-2026",
+      "timestamp": "20260914190542",
+      "captured": "2026-09-14T19:05:42Z",
+      "method": "existing"
+    },
     "https://kutv.com/news/2news-investigates/privacy-concerns-grow-as-flock-police-cameras-expand-across-utah": {
       "url": "https://kutv.com/news/2news-investigates/privacy-concerns-grow-as-flock-police-cameras-expand-across-utah",
       "wayback": "https://web.archive.org/web/20260816171803/https://kutv.com/news/2news-investigates/privacy-concerns-grow-as-flock-police-cameras-expand-across-utah",
@@ -1715,6 +1729,13 @@
       "wayback": "https://web.archive.org/web/20260812141136/https://kutv.com/news/local/city-removes-unauthorized-flock-license-plate-reader-camera",
       "timestamp": "20260812141136",
       "captured": "2026-08-12T14:11:36Z",
+      "method": "existing"
+    },
+    "https://kvia.com/news/el-paso/2026/09/15/el-paso-could-remove-flock-cameras": {
+      "url": "https://kvia.com/news/el-paso/2026/09/15/el-paso-could-remove-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260915235438/https://kvia.com/news/el-paso/2026/09/15/el-paso-could-remove-flock-cameras/",
+      "timestamp": "20260915235438",
+      "captured": "2026-09-15T23:54:38Z",
       "method": "existing"
     },
     "https://law.justia.com/cases/federal/district-courts/ohio/ohndce/5:2023cv02198/301907/38": {
@@ -3467,6 +3488,13 @@
       "captured": "2026-09-04T12:42:51Z",
       "method": "existing"
     },
+    "https://www.atlantanewsfirst.com/2026/09/15/atlanta-mayor-introduce-citywide-surveillance-rules-after-audit-flags-79-apd-flock-camera-searches": {
+      "url": "https://www.atlantanewsfirst.com/2026/09/15/atlanta-mayor-introduce-citywide-surveillance-rules-after-audit-flags-79-apd-flock-camera-searches/",
+      "wayback": "https://web.archive.org/web/20260915235559/https://www.atlantanewsfirst.com/2026/09/15/atlanta-mayor-introduce-citywide-surveillance-rules-after-audit-flags-79-apd-flock-camera-searches/",
+      "timestamp": "20260915235559",
+      "captured": "2026-09-15T23:55:59Z",
+      "method": "existing"
+    },
     "https://www.atlasofsurveillance.org/a/TN0180100ALPR": {
       "url": "https://www.atlasofsurveillance.org/a/TN0180100ALPR",
       "wayback": "https://web.archive.org/web/20260424234203/https://www.atlasofsurveillance.org/a/TN0180100ALPR",
@@ -3501,6 +3529,13 @@
       "timestamp": "20260903132619",
       "captured": "2026-09-03T13:26:19Z",
       "method": "save"
+    },
+    "https://www.audacy.com/wbbm780/news/chesterton-discontinues-the-use-of-flock-technology": {
+      "url": "https://www.audacy.com/wbbm780/news/chesterton-discontinues-the-use-of-flock-technology",
+      "wayback": "https://web.archive.org/web/20260915235719/https://www.audacy.com/wbbm780/news/chesterton-discontinues-the-use-of-flock-technology",
+      "timestamp": "20260915235719",
+      "captured": "2026-09-15T23:57:19Z",
+      "method": "existing"
     },
     "https://www.augustachronicle.com/story/news/crime/2026/07/20/richmond-county-augusta-georgia-law-officers-charged-in-illegal-use-of-flock-license-plate-readers/90985319007": {
       "url": "https://www.augustachronicle.com/story/news/crime/2026/07/20/richmond-county-augusta-georgia-law-officers-charged-in-illegal-use-of-flock-license-plate-readers/90985319007/",
@@ -4878,6 +4913,13 @@
       "captured": "2026-08-09T04:54:52Z",
       "method": "existing"
     },
+    "https://www.fox4news.com/news/dallas-police-looking-new-ways-keep-over-300-flock-cameras-operational-state-funding-ends": {
+      "url": "https://www.fox4news.com/news/dallas-police-looking-new-ways-keep-over-300-flock-cameras-operational-state-funding-ends",
+      "wayback": "https://web.archive.org/web/20260915235452/https://www.fox4news.com/news/dallas-police-looking-new-ways-keep-over-300-flock-cameras-operational-state-funding-ends",
+      "timestamp": "20260915235452",
+      "captured": "2026-09-15T23:54:52Z",
+      "method": "existing"
+    },
     "https://www.fox4news.com/news/hood-county-discontinues-use-flock-cameras-amid-national-debate": {
       "url": "https://www.fox4news.com/news/hood-county-discontinues-use-flock-cameras-amid-national-debate",
       "wayback": "https://web.archive.org/web/20260817224843/https://www.fox4news.com/news/hood-county-discontinues-use-flock-cameras-amid-national-debate",
@@ -5471,6 +5513,13 @@
       "wayback": "https://web.archive.org/web/20260823102707/https://www.kcur.org/news/2026-08-23/flock-cameras-misuse-missouri-st-charles-county-police",
       "timestamp": "20260823102707",
       "captured": "2026-08-23T10:27:07Z",
+      "method": "existing"
+    },
+    "https://www.kcur.org/politics-elections-and-government/2026-09-15/lees-summit-restricts-flock-data-access-by-law-enforcement-after-criticism-from-residents": {
+      "url": "https://www.kcur.org/politics-elections-and-government/2026-09-15/lees-summit-restricts-flock-data-access-by-law-enforcement-after-criticism-from-residents",
+      "wayback": "https://web.archive.org/web/20260915235553/https://www.kcur.org/politics-elections-and-government/2026-09-15/lees-summit-restricts-flock-data-access-by-law-enforcement-after-criticism-from-residents",
+      "timestamp": "20260915235553",
+      "captured": "2026-09-15T23:55:53Z",
       "method": "existing"
     },
     "https://www.kgun9.com/news/community-inspired-journalism/cochise-county/sierra-vista-ends-contract-with-flock": {
@@ -6906,6 +6955,13 @@
       "captured": "2026-08-21T03:05:13Z",
       "method": "save"
     },
+    "https://www.theoaklandpress.com/2026/09/15/independence-township-cancels-flock-camera-contract": {
+      "url": "https://www.theoaklandpress.com/2026/09/15/independence-township-cancels-flock-camera-contract/",
+      "wayback": "https://web.archive.org/web/20260915235512/https://www.theoaklandpress.com/2026/09/15/independence-township-cancels-flock-camera-contract/",
+      "timestamp": "20260915235512",
+      "captured": "2026-09-15T23:55:12Z",
+      "method": "existing"
+    },
     "https://www.thepitchkc.com/eyesoffkc-organizes-against-flock-surveillance-for-upcoming-national-week-of-action": {
       "url": "https://www.thepitchkc.com/eyesoffkc-organizes-against-flock-surveillance-for-upcoming-national-week-of-action/",
       "wayback": "https://web.archive.org/web/20260807024038/https://www.thepitchkc.com/eyesoffkc-organizes-against-flock-surveillance-for-upcoming-national-week-of-action/",
@@ -7242,6 +7298,13 @@
       "captured": "2026-09-10T06:14:52Z",
       "method": "existing"
     },
+    "https://www.wctv.tv/2026/09/15/gadsden-county-commissioners-vote-end-flock-agreement": {
+      "url": "https://www.wctv.tv/2026/09/15/gadsden-county-commissioners-vote-end-flock-agreement/",
+      "wayback": "https://web.archive.org/web/20260915235840/https://www.wctv.tv/2026/09/15/gadsden-county-commissioners-vote-end-flock-agreement/",
+      "timestamp": "20260915235840",
+      "captured": "2026-09-15T23:58:40Z",
+      "method": "existing"
+    },
     "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933": {
       "url": "https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933",
       "wayback": "https://web.archive.org/web/20260827140108/https://www.wcvb.com/article/douglas-auburn-end-flock-safety-contract/73521933",
@@ -7548,6 +7611,20 @@
       "timestamp": "20260911114320",
       "captured": "2026-09-11T11:43:20Z",
       "method": "save"
+    },
+    "https://www.wndu.com/2026/09/14/marshall-county-council-votes-defund-flock-cameras": {
+      "url": "https://www.wndu.com/2026/09/14/marshall-county-council-votes-defund-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260914231318/https://www.wndu.com/2026/09/14/marshall-county-council-votes-defund-flock-cameras/",
+      "timestamp": "20260914231318",
+      "captured": "2026-09-14T23:13:18Z",
+      "method": "existing"
+    },
+    "https://www.wndu.com/2026/09/15/marshall-county-council-votes-end-funding-flock-cameras": {
+      "url": "https://www.wndu.com/2026/09/15/marshall-county-council-votes-end-funding-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260915235816/https://www.wndu.com/2026/09/15/marshall-county-council-votes-end-funding-flock-cameras/",
+      "timestamp": "20260915235816",
+      "captured": "2026-09-15T23:58:16Z",
+      "method": "existing"
     },
     "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times": {
       "url": "https://www.wnem.com/2026/08/27/officer-accused-using-flock-cameras-search-ex-girlfriends-plate-more-than-10000-times/",
