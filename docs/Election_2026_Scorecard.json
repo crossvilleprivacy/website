@@ -1,8 +1,8 @@
 {
   "note": "Local 2026 Flock / ALPR positions. Quotes only. Not an endorsement. Not a Case_ID catalog.",
-  "as_of": "2026-09-16",
-  "as_of_long": "September 16, 2026",
-  "as_of_short": "Sept. 16, 2026",
+  "as_of": "2026-09-17",
+  "as_of_long": "September 17, 2026",
+  "as_of_short": "Sept. 17, 2026",
   "record_count": 26,
   "ask_note": "The site’s admin asked every Crossville City Council candidate for a public Flock position. Two wordings were used: city_question by email (short form optional), and city_question_oneliner by text.",
   "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and enact a full city ban on Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require a voter referendum (same idea as Crossville’s water referendum) before the city may ever bring those tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for you to support that?",
@@ -41,8 +41,10 @@
       "Race": "Regular council seats",
       "Incumbent": false,
       "Sort": 3,
-      "Stance": "no_answer",
-      "Answer": "Has not published a Flock or license-plate-reader position."
+      "Stance": "hedge",
+      "Asked": "Written ask by email — cancel, remove, and ban.",
+      "Answer": "Emailed this site’s admin that examples from other cities “are not evidence that those same problems have occurred within the Crossville Police Department.” He has not seen documented Crossville PD misuse, has spoken with the police chief and sitting council members, and said he would reevaluate if documented Crossville PD misuse comes to light. He supports clearly published policies on access, retention, and use, plus regular public reporting. No yes or no yet on cancel, remove, and ban.",
+      "Source_Label": "Sept. 17, 2026 email to this site’s admin"
     },
     {
       "Slug": "greg-wood",
