@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-16",
-  "count": 1203,
-  "source_count": 1203,
+  "as_of": "2026-09-17",
+  "count": 1207,
+  "source_count": 1207,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2515,6 +2515,13 @@
       "captured": "2026-09-10T15:12:18Z",
       "method": "existing"
     },
+    "https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support": {
+      "url": "https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support/",
+      "wayback": "https://web.archive.org/web/20260917141527/https://theintercept.com/2026/09/17/flock-cameras-ai-astroturf-support/",
+      "timestamp": "20260917141527",
+      "captured": "2026-09-17T14:15:27Z",
+      "method": "existing"
+    },
     "https://themarijuanaherald.com/2026/08/wisconsin-police-used-flock-cameras-to-track-mans-trips-to-michigan-where-marijuana-is-legal-before-searching-his-car-for-marijuana": {
       "url": "https://themarijuanaherald.com/2026/08/wisconsin-police-used-flock-cameras-to-track-mans-trips-to-michigan-where-marijuana-is-legal-before-searching-his-car-for-marijuana/",
       "wayback": "https://web.archive.org/web/20260816192222/https://themarijuanaherald.com/2026/08/wisconsin-police-used-flock-cameras-to-track-mans-trips-to-michigan-where-marijuana-is-legal-before-searching-his-car-for-marijuana/",
@@ -4001,6 +4008,13 @@
       "wayback": "https://web.archive.org/web/20260811034108/https://www.cbs58.com/news/brookfield-police-stop-vehicle-on-i-94-after-outdated-flock-alert-from-milwaukee-police",
       "timestamp": "20260811034108",
       "captured": "2026-08-11T03:41:08Z",
+      "method": "existing"
+    },
+    "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program": {
+      "url": "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
+      "wayback": "https://web.archive.org/web/20260917004324/https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
+      "timestamp": "20260917004324",
+      "captured": "2026-09-17T00:43:24Z",
       "method": "existing"
     },
     "https://www.cbs58.com/news/dominoes-fall-more-than-a-dozen-wisconsin-communities-have-dropped-flock-cameras-amid-concerns-with-privacy-and-data-sharing": {
@@ -6704,6 +6718,13 @@
       "captured": "2026-08-03T09:38:00Z",
       "method": "existing"
     },
+    "https://www.southcarolinapublicradio.org/sc-news/2026-09-16/oconee-county-becomes-scs-first-to-ban-alpr-cameras": {
+      "url": "https://www.southcarolinapublicradio.org/sc-news/2026-09-16/oconee-county-becomes-scs-first-to-ban-alpr-cameras",
+      "wayback": "https://web.archive.org/web/20260916221751/https://www.southcarolinapublicradio.org/sc-news/2026-09-16/oconee-county-becomes-scs-first-to-ban-alpr-cameras",
+      "timestamp": "20260916221751",
+      "captured": "2026-09-16T22:17:51Z",
+      "method": "existing"
+    },
     "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007": {
       "url": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
       "wayback": "https://web.archive.org/web/20260821153522/https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
@@ -8100,6 +8121,13 @@
       "wayback": "https://web.archive.org/web/20260810203257/https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_ftc_on_flockpdf.pdf",
       "timestamp": "20260810203257",
       "captured": "2026-08-10T20:32:57Z",
+      "method": "existing"
+    },
+    "https://www.wyff4.com/article/flock-cameras-banned-oconee-county/73753231": {
+      "url": "https://www.wyff4.com/article/flock-cameras-banned-oconee-county/73753231",
+      "wayback": "https://web.archive.org/web/20260917020352/https://www.wyff4.com/article/flock-cameras-banned-oconee-county/73753231",
+      "timestamp": "20260917020352",
+      "captured": "2026-09-17T02:03:52Z",
       "method": "existing"
     },
     "https://www.yahoo.com/news/articles/county-commissioners-approve-1-flock-045900904.html": {

@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-16",
+  "compiled": "2026-09-17",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3233,6 +3233,64 @@
       "Secondary_Source_URL": "https://wjla.com/news/local/arlington-flock-camera-board-license-plate-readers-end-autonomous-council-virginia-cars-vehicles-law-enforcement-police-concern-controversial",
       "Verification_Status": "Verified local TV / county release",
       "Incomplete_Exit_Notes": "Removal requested within 14 business days; timeline may slip. Private-property cameras stay. Public update Sept. 22, 2026."
+    },
+    {
+      "Case_ID": "CAN-2026-222",
+      "Jurisdiction": "Oconee County",
+      "State": "SC",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-15",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Final Protection from Mass Surveillance ordinance; county funds and property barred",
+      "Summary": "Oconee County Council passed the Protection from Mass Surveillance Ordinance on third reading September 15, 2026. WYFF reported four votes for the ban and one against. The ordinance bars county funds, property, personnel, and road rights-of-way from supporting systems like license-plate readers. South Carolina Public Radio reported the county had funded five cameras since 2022 and that the ban does not cover municipal ALPRs in Seneca, West Union, Westminster, or Walhalla.",
+      "Primary_Source_URL": "https://www.wyff4.com/article/flock-cameras-banned-oconee-county/73753231",
+      "Secondary_Source_URL": "https://www.southcarolinapublicradio.org/sc-news/2026-09-16/oconee-county-becomes-scs-first-to-ban-alpr-cameras",
+      "Verification_Status": "Verified local TV / public radio",
+      "Incomplete_Exit_Notes": "Municipal ALPRs in Seneca, West Union, Westminster, and Walhalla are not covered by the county ordinance. Hardware removal not confirmed in the archived vote coverage."
+    },
+    {
+      "Case_ID": "CAN-2026-223",
+      "Jurisdiction": "Oconomowoc",
+      "State": "WI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-15",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Common Council 5-2 cancel; vendor trust / data-destination concerns",
+      "Summary": "CBS 58 reported that Oconomowoc Common Council voted 5-2 on September 15, 2026, to cancel the city's Flock Safety program. Distinct from Waukesha's discontinue-after-2026 vote the same night.",
+      "Primary_Source_URL": "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "CBS 58 reported a 5-2 cancel vote. Coverage did not confirm cameras already down."
+    },
+    {
+      "Case_ID": "CAN-2026-224",
+      "Jurisdiction": "Waukesha",
+      "State": "WI",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-15",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council dropped 2027 Flock funding; chief cited vendor trust, not ALPR value",
+      "Summary": "CBS 58 reported that Waukesha Common Council voted September 15, 2026, to discontinue the city's Flock Safety program after 2026. Police Chief Dan Thompson said effectiveness alone is not enough and that the city wants trust, transparency, and confidence in vendor practices. The story is not an immediate camera pull.",
+      "Primary_Source_URL": "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
+      "Verification_Status": "Verified local TV / local press",
+      "Incomplete_Exit_Notes": "CBS 58 reported the program will be discontinued after 2026. Cameras are not reported already down."
+    },
+    {
+      "Case_ID": "CAN-2026-225",
+      "Jurisdiction": "Racine",
+      "State": "WI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-15",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Common Council voted to terminate the city Flock agreement",
+      "Summary": "CBS 58 reported that Racine Common Council voted September 15, 2026, to terminate the city's Flock Safety agreement. This is the city's contract, not the Racine County Sheriff's September 4 takedown (CAN-2026-172).",
+      "Primary_Source_URL": "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
+      "Verification_Status": "Verified local press / local TV",
+      "Incomplete_Exit_Notes": "CBS 58 reported a Tuesday terminate vote. Removal timing is not in that story. Distinct from Racine County sheriff pull."
     }
   ]
 }
