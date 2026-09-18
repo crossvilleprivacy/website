@@ -716,13 +716,6 @@ html[data-theme="dark"] .theme-icon-moon {
   color: var(--ink-soft);
 }
 
-.trust-updated {
-  display: inline-block;
-  margin-top: 0.35rem;
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-
 .found-card-note {
   margin: 0 0 1.1rem;
   font-size: 0.92rem;
