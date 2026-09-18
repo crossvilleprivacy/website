@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-17",
+  "compiled": "2026-09-18",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3291,6 +3291,21 @@
       "Primary_Source_URL": "https://www.cbs58.com/news/cities-of-waukesha-oconomowoc-elect-to-discontinue-flock-program",
       "Verification_Status": "Verified local press / local TV",
       "Incomplete_Exit_Notes": "CBS 58 reported a Tuesday terminate vote. Removal timing is not in that story. Distinct from Racine County sheriff pull."
+    },
+    {
+      "Case_ID": "CAN-2026-226",
+      "Jurisdiction": "Clark County",
+      "State": "WI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-10",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff canceled after resident privacy concerns",
+      "Summary": "WSAW and WEAU reported that Clark County Sheriff Kerry Kirn notified Flock Safety on September 10, 2026, that the sheriff's office was canceling its contract and discontinuing the program. Coverage published September 17. Wisconsin Clark County (Neillsville), not another state's Clark County.",
+      "Primary_Source_URL": "https://www.wsaw.com/2026/09/17/clark-county-sheriffs-office-drops-flock-safety-cameras-citing-privacy-concerns/",
+      "Secondary_Source_URL": "https://www.weau.com/2026/09/17/clark-county-sheriffs-office-announces-its-no-longer-using-flock-safety-cameras/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Sheriff said the office notified Flock and discontinued the program. Hardware-down is not confirmed in that coverage. Wisconsin Clark County, not Washington or another Clark County."
     }
   ]
 }

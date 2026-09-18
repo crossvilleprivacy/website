@@ -1,9 +1,24 @@
 {
-  "as_of": "2026-09-17",
-  "as_of_long": "September 17, 2026",
-  "as_of_short": "Sept. 17, 2026",
-  "record_count": 16,
+  "as_of": "2026-09-18",
+  "as_of_long": "September 18, 2026",
+  "as_of_short": "Sept. 18, 2026",
+  "record_count": 17,
   "records": [
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Cookeville",
+      "State": "TN",
+      "What": "Council 4–0 two-year 10-camera $60k contract; cameras stay",
+      "Date": "2026-09-17",
+      "Date_Label": "Sept. 17, 2026",
+      "ID": "—",
+      "Writeup": "#cookeville-flock-keep",
+      "Source_URL": "https://theucnow.com/2026/09/17/cookeville-city-council-approves-surveillance-amid-outcry/",
+      "Source_URLs": [
+        "https://theucnow.com/2026/09/17/cookeville-city-council-approves-surveillance-amid-outcry/"
+      ]
+    },
     {
       "Kind": "cancel",
       "Kind_Label": "Exit",

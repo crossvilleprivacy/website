@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-17",
-  "count": 1207,
-  "source_count": 1207,
+  "as_of": "2026-09-18",
+  "count": 1210,
+  "source_count": 1210,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -5319,6 +5319,13 @@
       "captured": "2026-08-17T11:34:20Z",
       "method": "save"
     },
+    "https://www.herald-citizen.com/news/cookeville-council-considers-flock-camera-contract/article_a8704705-1371-5c0d-b3b0-78a548932e67.html": {
+      "url": "https://www.herald-citizen.com/news/cookeville-council-considers-flock-camera-contract/article_a8704705-1371-5c0d-b3b0-78a548932e67.html",
+      "wayback": "https://web.archive.org/web/20260917032320/https://www.herald-citizen.com/news/cookeville-council-considers-flock-camera-contract/article_a8704705-1371-5c0d-b3b0-78a548932e67.html",
+      "timestamp": "20260917032320",
+      "captured": "2026-09-17T03:23:20Z",
+      "method": "existing"
+    },
     "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html": {
       "url": "https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
       "wayback": "https://web.archive.org/web/20260818182741/https://www.herald-citizen.com/news/cpd-chief-address-crime-centers-license-plate-readers/article_c03168dc-4692-553d-bcd3-1bfb11b22016.html",
@@ -5332,6 +5339,13 @@
       "timestamp": "20260821114524",
       "captured": "2026-08-21T11:45:24Z",
       "method": "save"
+    },
+    "https://www.herald-citizen.com/news/residents-speak-against-flock-cameras/article_165b63bf-ff32-519b-ac54-4a33e4ab1fec.html": {
+      "url": "https://www.herald-citizen.com/news/residents-speak-against-flock-cameras/article_165b63bf-ff32-519b-ac54-4a33e4ab1fec.html",
+      "archive_today": "https://archive.today/20260918023959/https://www.herald-citizen.com/news/residents-speak-against-flock-cameras/article_165b63bf-ff32-519b-ac54-4a33e4ab1fec.html",
+      "timestamp": "20260918023959",
+      "captured": "2026-09-18T02:39:59Z",
+      "method": "archive.today"
     },
     "https://www.heraldnet.com/2026/06/05/everett-settles-flock-records-case-for-25k": {
       "url": "https://www.heraldnet.com/2026/06/05/everett-settles-flock-records-case-for-25k/",
@@ -6870,6 +6884,13 @@
       "timestamp": "20260829010301",
       "captured": "2026-08-29T01:03:01Z",
       "method": "existing"
+    },
+    "https://www.texastribune.org/2026/09/17/texas-flock-camera-pause-highways-txdot": {
+      "url": "https://www.texastribune.org/2026/09/17/texas-flock-camera-pause-highways-txdot/",
+      "archive_today": "https://archive.today/20260918013435/https://www.texastribune.org/2026/09/17/texas-flock-camera-pause-highways-txdot/",
+      "timestamp": "20260918013435",
+      "captured": "2026-09-18T01:34:35Z",
+      "method": "archive.today"
     },
     "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html": {
       "url": "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html",

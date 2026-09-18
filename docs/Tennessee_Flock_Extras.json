@@ -3,6 +3,14 @@
   "records": [
     {
       "Kind": "watch",
+      "Place": "Cookeville",
+      "What": "Council 4–0 two-year 10-camera $60k contract; cameras stay",
+      "Date": "2026-09-17",
+      "Writeup": "#cookeville-flock-keep",
+      "Source_URL": "https://theucnow.com/2026/09/17/cookeville-city-council-approves-surveillance-amid-outcry/"
+    },
+    {
+      "Kind": "watch",
       "Place": "Memphis",
       "What": "MPD ~200 Flock cameras; resident privacy debate",
       "Date": "2026-08-21",
