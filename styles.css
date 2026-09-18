@@ -3621,6 +3621,19 @@ a.deep-link-hash {
   color: var(--ink-soft);
 }
 
+.candidate-on-record {
+  margin: 0.55rem 0 0.7rem;
+  padding-left: 1.15rem;
+}
+
+.candidate-on-record li {
+  margin: 0 0 0.45rem;
+}
+
+.candidate-on-record li:last-child {
+  margin-bottom: 0;
+}
+
 .game-plan-steps {
   margin: 0;
   padding-left: 1.25rem;
