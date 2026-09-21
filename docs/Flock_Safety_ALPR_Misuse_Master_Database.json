@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-15",
+  "compiled": "2026-09-21",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-15"
+    "generated_on": "2026-09-21"
   },
   "verified_incidents": [
     {
@@ -1658,6 +1658,107 @@
       "Year_Note": "WBBM reported September 15, 2026 that Chesterton Town Council voted unanimously September 14 to discontinue Flock after Police Chief Tim Richardson investigated reported misuse of the system by an officer. The station said that officer has since resigned and that the chief deactivated officer access except command staff for an internal audit. Officer not named on this site. An allegation is not a finding of guilt.",
       "Outcome_Bucket": "1 Resigned",
       "Personnel_Resigned": 1
+    },
+    {
+      "Case_ID": "FLK-2026-119",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Emerson Police Department / Acworth Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-09-14/gbi-arrests-former-emerson-police-department-officer-misuse-license-plate",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Sept. 14, 2026 that a former Emerson Police officer was charged with two counts of misuse of a license-plate reader system and violation of oath of office. Acworth Police asked GBI to investigate alleged non-law-enforcement use of Acworth's Flock system while the officer worked there and after the transfer to Emerson in 2025. The officer turned themselves in Sept. 14. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-120",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Colquitt County Sheriff's Office",
+      "Subject_Officer_Involved": "deputy",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-09-14/gbi-arrests-former-colquitt-county-deputy-misuse-license-plate-reader",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Sept. 14, 2026 that a former Colquitt County deputy was charged with two counts of misuse of a license-plate reader system and two counts of violation of oath of office. The sheriff's office asked GBI on Sept. 8 to investigate alleged non-law-enforcement Flock use. The deputy turned themselves in Sept. 14. Deputy not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-121",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Braselton Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://www.fox5atlanta.com/news/braselton-officer-ousted-after-internal-audit-uncovers-flock-camera-misuse",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "FOX 5 Atlanta and Atlanta News First reported Sept. 11, 2026 that Braselton Police fired an unnamed officer Aug. 20 after an internal investigation found alleged improper Flock use in 2024 and 2025. The town referred the matter to GBI. Distinct from the Braselton chief row (FLK-2026-080). Officer not named on this site. A referral is not a finding of guilt.",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-122",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "University of Georgia Police Department",
+      "Subject_Officer_Involved": "civilian employee (IT)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "2",
+      "Personal_Lookup_Count": 2,
+      "Source_URL": "https://news.uga.edu/uga-police-department-disciplines-it-employee-for-unauthorized-flock-use/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2025,
+      "Resolution_Year": 2026,
+      "Year_Note": "UGA Today reported Sept. 11, 2026 that University of Georgia Police suspended a civilian IT employee without pay for 20 business days and demoted the employee after an audit found two unauthorized Flock searches in 2025. Internal affairs said the searches were not criminal. Employee not named on this site.",
+      "Outcome_Bucket": "1 Suspended"
+    },
+    {
+      "Case_ID": "FLK-2026-123",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Covington Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-08-27/gbi-arrests-former-covington-police-department-officer-misuse-license",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Aug. 27, 2026 that a former Covington Police officer was charged with misuse of a license-plate reader system and one count of violation of oath of office. Covington Police asked GBI on Aug. 6 to investigate alleged non-law-enforcement Flock use. The officer was arrested Aug. 26. Georgia Covington, not Covington, Washington. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-124",
+      "Year": 2026,
+      "State": "DC",
+      "Agency_Jurisdiction": "Metropolitan Police Department",
+      "Subject_Officer_Involved": "officers",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://wtop.com/dc/2026/09/dc-police-investigate-2-cases-of-potential-misuse-of-flock-cameras-letter-says/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "WTOP reported Sept. 18, 2026 that interim Chief Jeffery Carroll told D.C. Council member Brooke Pinto that Internal Affairs is investigating two cases of potential Flock misuse, one first flagged by Flock's audit tool. Officers not named. An investigation is not a finding of guilt. Separate from the union grievance: WTOP reported Sept. 11 that the D.C. Police Union said managers used Flock in a noncriminal Internal Affairs investigation of an officer; MPD said that use was appropriate because the alleged misconduct was potentially criminal.",
+      "Outcome_Bucket": "2 Under Investigation"
     }
   ]
 }

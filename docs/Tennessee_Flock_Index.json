@@ -1,9 +1,26 @@
 {
-  "as_of": "2026-09-18",
-  "as_of_long": "September 18, 2026",
-  "as_of_short": "Sept. 18, 2026",
-  "record_count": 17,
+  "as_of": "2026-09-21",
+  "as_of_long": "September 21, 2026",
+  "as_of_short": "Sept. 21, 2026",
+  "record_count": 18,
   "records": [
+    {
+      "Kind": "cancel",
+      "Kind_Label": "Exit",
+      "Place": "Coopertown",
+      "State": "TN",
+      "What": "Terminated",
+      "Date": "2026-09-18",
+      "Date_Label": "Sept. 18, 2026",
+      "ID": "CAN-2026-227",
+      "Case_ID": "CAN-2026-227",
+      "Writeup": "",
+      "Source_URL": "https://fox17.com/news/local/coopertown-flock-license-plate-reader-cameras-removed",
+      "Source_URLs": [
+        "https://fox17.com/news/local/coopertown-flock-license-plate-reader-cameras-removed",
+        "https://www.wsmv.com/2026/09/21/middle-tn-town-removing-flock-cameras-after-community-feedback/"
+      ]
+    },
     {
       "Kind": "watch",
       "Kind_Label": "Watch",

@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-18",
+  "compiled": "2026-09-21",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3306,6 +3306,38 @@
       "Secondary_Source_URL": "https://www.weau.com/2026/09/17/clark-county-sheriffs-office-announces-its-no-longer-using-flock-safety-cameras/",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Sheriff said the office notified Flock and discontinued the program. Hardware-down is not confirmed in that coverage. Wisconsin Clark County, not Washington or another Clark County."
+    },
+    {
+      "Case_ID": "CAN-2026-227",
+      "Jurisdiction": "Coopertown",
+      "State": "TN",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-18",
+      "Camera_Count": 4,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor ended town Flock after resident comments; cameras to come down",
+      "Summary": "FOX 17 reported that Coopertown Mayor Jeff Smith announced September 18, 2026, that the town would end its Flock agreement, stop using its four license-plate cameras immediately, and remove them. WSMV reported the same announcement. Smith said cameras may still look live until they are covered or removed, and that Robertson County Sheriff's Office cameras inside town limits stay.",
+      "Primary_Source_URL": "https://fox17.com/news/local/coopertown-flock-license-plate-reader-cameras-removed",
+      "Secondary_Source_URL": "https://www.wsmv.com/2026/09/21/middle-tn-town-removing-flock-cameras-after-community-feedback/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Town cameras may still look live until covered or removed. Robertson County Sheriff's Office cameras in town stay."
+    },
+    {
+      "Case_ID": "CAN-2026-228",
+      "Jurisdiction": "Dumfries",
+      "State": "VA",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-09-01",
+      "Camera_Count": 8,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town Council 4-2 vote to take cameras down and pause the program for public input",
+      "Summary": "WTOP and InsideNoVa reported that Dumfries Town Council voted 4-2 on September 1, 2026, to remove eight Flock cameras and pause the program while the town gathers public comment. Officials said cameras will not be reinstalled or reactivated without another council vote. Coverage said the cameras had not gone live.",
+      "Primary_Source_URL": "https://wtop.com/virginia/2026/09/dumfries-pumps-the-brakes-on-flock-cameras-rollout/",
+      "Secondary_Source_URL": "https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html",
+      "Verification_Status": "Verified local press / local radio",
+      "Incomplete_Exit_Notes": "Pause pending public engagement. Council left the door open to a later vote. Hardware-down not independently confirmed."
     }
   ]
 }
