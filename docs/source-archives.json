@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-21",
-  "count": 1226,
-  "source_count": 1226,
+  "as_of": "2026-09-23",
+  "count": 1231,
+  "source_count": 1231,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -44,6 +44,13 @@
       "wayback": "https://web.archive.org/web/20260816170613/https://3bmedianews.com/former-oak-ridge-police-officer-sentenced-on-23-counts-of-official-misconduct/",
       "timestamp": "20260816170613",
       "captured": "2026-08-16T17:06:13Z",
+      "method": "existing"
+    },
+    "https://3bmedianews.com/new-website-launches-to-oppose-crossville-flock-cameras-ahead-of-november-city-council-election": {
+      "url": "https://3bmedianews.com/new-website-launches-to-oppose-crossville-flock-cameras-ahead-of-november-city-council-election/",
+      "wayback": "https://web.archive.org/web/20260918143207/https://3bmedianews.com/new-website-launches-to-oppose-crossville-flock-cameras-ahead-of-november-city-council-election/",
+      "timestamp": "20260918143207",
+      "captured": "2026-09-18T14:32:07Z",
       "method": "existing"
     },
     "https://3bmedianews.com/off-duty-deputy-and-flock-cameras-help-identify-crossville-shoplifting-suspect": {
@@ -4178,6 +4185,13 @@
       "captured": "2026-08-07T13:10:21Z",
       "method": "existing"
     },
+    "https://www.cbsnews.com/detroit/news/easpointe-flock-cameras-contract-termination-misuse": {
+      "url": "https://www.cbsnews.com/detroit/news/easpointe-flock-cameras-contract-termination-misuse/",
+      "wayback": "https://web.archive.org/web/20260918164500/https://www.cbsnews.com/detroit/news/easpointe-flock-cameras-contract-termination-misuse/",
+      "timestamp": "20260918164500",
+      "captured": "2026-09-18T16:45:00Z",
+      "method": "existing"
+    },
     "https://www.cbsnews.com/miami/news/florida-lpr-camera-permits-halted-removal-order-desantis": {
       "url": "https://www.cbsnews.com/miami/news/florida-lpr-camera-permits-halted-removal-order-desantis/",
       "wayback": "https://web.archive.org/web/20260901144308/https://www.cbsnews.com/miami/news/florida-lpr-camera-permits-halted-removal-order-desantis/",
@@ -4997,6 +5011,13 @@
       "captured": "2026-09-09T02:12:56Z",
       "method": "existing"
     },
+    "https://www.fox2detroit.com/news/eastpointe-votes-cancel-flock-contract-license-plate-reader-cameras": {
+      "url": "https://www.fox2detroit.com/news/eastpointe-votes-cancel-flock-contract-license-plate-reader-cameras",
+      "wayback": "https://web.archive.org/web/20260917100802/https://www.fox2detroit.com/news/eastpointe-votes-cancel-flock-contract-license-plate-reader-cameras",
+      "timestamp": "20260917100802",
+      "captured": "2026-09-17T10:08:02Z",
+      "method": "existing"
+    },
     "https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police": {
       "url": "https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police",
       "wayback": "https://web.archive.org/web/20260818120454/https://www.fox2detroit.com/news/flock-camera-agreement-canceled-sumpter-township-police",
@@ -5591,6 +5612,13 @@
       "timestamp": "20260826121228",
       "captured": "2026-08-26T12:12:28Z",
       "method": "archive.today"
+    },
+    "https://www.judiciary.senate.gov/committee-activity/hearings/always-watching-flocks-nationwide-ai-surveillance-network": {
+      "url": "https://www.judiciary.senate.gov/committee-activity/hearings/always-watching-flocks-nationwide-ai-surveillance-network",
+      "wayback": "https://web.archive.org/web/20260923070125/https://www.judiciary.senate.gov/committee-activity/hearings/always-watching-flocks-nationwide-ai-surveillance-network",
+      "timestamp": "20260923070125",
+      "captured": "2026-09-23T07:01:25Z",
+      "method": "existing"
     },
     "https://www.k105.com/2025/05/30/leitchfield-pd-releases-bodycam-footage-statement-after-flock-camera-misreads-license-plate-leading-to-traffic-stop": {
       "url": "https://www.k105.com/2025/05/30/leitchfield-pd-releases-bodycam-footage-statement-after-flock-camera-misreads-license-plate-leading-to-traffic-stop/",
@@ -8240,6 +8268,13 @@
       "wayback": "https://web.archive.org/web/20260909020205/https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program/",
       "timestamp": "20260909020205",
       "captured": "2026-09-09T02:02:05Z",
+      "method": "existing"
+    },
+    "https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff": {
+      "url": "https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff",
+      "wayback": "https://web.archive.org/web/20260918011733/https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff",
+      "timestamp": "20260918011733",
+      "captured": "2026-09-18T01:17:33Z",
       "method": "existing"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {

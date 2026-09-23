@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-21",
+  "compiled": "2026-09-23",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3338,6 +3338,38 @@
       "Secondary_Source_URL": "https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html",
       "Verification_Status": "Verified local press / local radio",
       "Incomplete_Exit_Notes": "Pause pending public engagement. Council left the door open to a later vote. Hardware-down not independently confirmed."
+    },
+    {
+      "Case_ID": "CAN-2026-229",
+      "Jurisdiction": "Monroe",
+      "State": "OH",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-22",
+      "Camera_Count": 24,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City Council unanimous vote to terminate Flock and shut cameras off immediately",
+      "Summary": "FOX19 and WLWT reported that Monroe, Ohio, City Council voted unanimously September 22, 2026, to terminate the city's Flock Safety contract and shut off the cameras immediately. FOX19 counted 24 cameras; WKRC counted 23. Hardware removal is on Flock. Ohio Monroe in Butler County, not Monroe County, Indiana.",
+      "Primary_Source_URL": "https://www.fox19.com/2026/09/23/monroe-council-votes-remove-flock-cameras/",
+      "Secondary_Source_URL": "https://www.wlwt.com/article/monroe-ohio-city-council-vote-flock-contract-termination/73846153",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Cameras shut off immediately. Hardware removal is on Flock. FOX19 counted 24 cameras; WKRC counted 23. Ohio Monroe, not Monroe County, Indiana."
+    },
+    {
+      "Case_ID": "CAN-2026-230",
+      "Jurisdiction": "Eastpointe",
+      "State": "MI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-15",
+      "Camera_Count": 18,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City Council 4-1 vote to terminate Flock; police later reported two employees misused the system",
+      "Summary": "Eastpointe City Council voted 4-1 on September 15, 2026, to terminate the city's Flock contract. Mayor Michael Klinefelt introduced the motion. FOX 2 counted 19 cameras; WXYZ counted 18. The next day Police Chief Corey Haines said two employees misused Flock: one personal use with severe discipline, and one policy-violation case still under investigation. Employees are not named on this site. Hardware-removal date is not set. Related misuse row: FLK-2026-125.",
+      "Primary_Source_URL": "https://www.cbsnews.com/detroit/news/easpointe-flock-cameras-contract-termination-misuse/",
+      "Secondary_Source_URL": "https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Police discontinued use. Hardware-removal date is not set. FOX 2 counted 19 cameras; WXYZ counted 18."
     }
   ]
 }

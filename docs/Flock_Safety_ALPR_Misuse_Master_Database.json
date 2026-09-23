@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-21",
+  "compiled": "2026-09-23",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-21"
+    "generated_on": "2026-09-23"
   },
   "verified_incidents": [
     {
@@ -1759,6 +1759,22 @@
       "Resolution_Year": 2026,
       "Year_Note": "WTOP reported Sept. 18, 2026 that interim Chief Jeffery Carroll told D.C. Council member Brooke Pinto that Internal Affairs is investigating two cases of potential Flock misuse, one first flagged by Flock's audit tool. Officers not named. An investigation is not a finding of guilt. Separate from the union grievance: WTOP reported Sept. 11 that the D.C. Police Union said managers used Flock in a noncriminal Internal Affairs investigation of an officer; MPD said that use was appropriate because the alleged misconduct was potentially criminal.",
       "Outcome_Bucket": "2 Under Investigation"
+    },
+    {
+      "Case_ID": "FLK-2026-125",
+      "Year": 2026,
+      "State": "MI",
+      "Agency_Jurisdiction": "Eastpointe Police Department",
+      "Subject_Officer_Involved": "employees",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://www.cbsnews.com/detroit/news/easpointe-flock-cameras-contract-termination-misuse/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "CBS Detroit and WXYZ reported Sept. 16, 2026 that Eastpointe Police said two employees misused Flock. One used the system for personal reasons and received severe discipline. The other was a policy-violation case still under investigation. Employees not named. A charge or accusation is not a finding of guilt. City Council had voted 4-1 the night before to terminate the contract (CAN-2026-230).",
+      "Outcome_Bucket": "1 Disciplined, 1 Under Investigation"
     }
   ]
 }
