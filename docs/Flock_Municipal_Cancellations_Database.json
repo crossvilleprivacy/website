@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-23",
+  "compiled": "2026-09-24",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3102,16 +3102,16 @@
       "Case_ID": "CAN-2026-213",
       "Jurisdiction": "Kosciusko County",
       "State": "IN",
-      "Action_Type": "Suspended",
-      "Action_Date": "2026-09-11",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-22",
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Council 5-0 defund Sept. 10; prosecutor ordered cameras down and new searches stopped",
-      "Summary": "InkFreeNews reported that Kosciusko County Council voted 5-0 on September 10, 2026 to withhold funding for Flock ALPRs and other surveillance tech. Commissioners still have to act on the existing contract (coverage named a Sept. 22 meeting). On September 11, Prosecutor Brad Voelz ordered agencies to stop new routine searches, preserve evidence through September 18, then cut system access, and to take down and store camera hardware pending vendor pickup.",
-      "Primary_Source_URL": "https://www.inkfreenews.com/2026/09/11/kosciusko-prosecutor-issues-directive-implementing-county-council-vote-on-flock-technology/",
-      "Secondary_Source_URL": "https://www.inkfreenews.com/2026/09/11/kosciusko-county-council-defunds-flock-cameras-other-surveillance-tech/",
+      "Primary_Reasons": "Commissioners voted Sept. 22 to void the contract, with termination effective at the end of fiscal 2026",
+      "Summary": "ABC57 reported that Kosciusko County commissioners voted unanimously September 22, 2026 to void the county Flock contract, stop further payments, and dissolve a donation fund. Written notice makes termination effective at the end of the 2026 fiscal year. On September 10 the county council voted 5-0 to withhold funding. On September 11 Prosecutor Brad Voelz ordered agencies to stop new routine searches, preserve evidence through September 18, then cut access and take cameras down pending vendor pickup.",
+      "Primary_Source_URL": "https://www.abc57.com/news/kosciusko-county-commissioners-vote-to-void-flock-contract",
+      "Secondary_Source_URL": "https://www.inkfreenews.com/2026/09/11/kosciusko-prosecutor-issues-directive-implementing-county-council-vote-on-flock-technology/",
       "Verification_Status": "Verified local press",
-      "Incomplete_Exit_Notes": "Council cannot cancel the contract. Commissioners have not yet voted to terminate. Prosecutor ordered hardware down and access cut after Sept. 18. Camera count not published."
+      "Incomplete_Exit_Notes": "Termination notice is effective at the end of fiscal 2026. Prosecutor had already ordered hardware down. Camera count not published."
     },
     {
       "Case_ID": "CAN-2026-214",
@@ -3370,6 +3370,51 @@
       "Secondary_Source_URL": "https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Police discontinued use. Hardware-removal date is not set. FOX 2 counted 19 cameras; WXYZ counted 18."
+    },
+    {
+      "Case_ID": "CAN-2026-231",
+      "Jurisdiction": "Plymouth",
+      "State": "MN",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-22",
+      "Camera_Count": 18,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City Council 6-1 vote to stop Flock service over privacy and outside access to the data",
+      "Summary": "KSTP and MPR News reported that the Plymouth, Minnesota, City Council voted 6-1 on September 22, 2026 to stop using the city's Flock cameras. Mayor Jeffry Wosje was the no vote. KSTP counted 18 cameras (16 fixed and two portable). MPR counted 16 permanent cameras. Physical removal may take time. Minnesota Plymouth, not Plymouth, Indiana.",
+      "Primary_Source_URL": "https://kstp.com/kstp-news/top-news/plymouth-votes-to-shut-off-18-flock-cameras-over-privacy-concerns/",
+      "Secondary_Source_URL": "https://www.mprnews.org/story/2026/09/23/plymouth-stops-using-flock-cameras",
+      "Verification_Status": "Verified local TV / public radio",
+      "Incomplete_Exit_Notes": "Vote stops service. Physical removal may take time. KSTP counted 18 cameras; MPR counted 16 permanent. Minnesota Plymouth, not Plymouth, Indiana."
+    },
+    {
+      "Case_ID": "CAN-2026-232",
+      "Jurisdiction": "Sterling",
+      "State": "IL",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-21",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Police chief said the city is ending Flock and will have the cameras disabled and removed",
+      "Summary": "Shaw Local reported that Sterling Police Chief Pat Bartel said September 21, 2026 that the city is terminating Flock use. Bartel said the cameras will be disabled and the platform deactivated, and that a Flock contractor will remove them on Flock's schedule. The contract had been set to run until May 2027. Illinois Sterling, not another state's Sterling.",
+      "Primary_Source_URL": "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Chief announcement, not a counted council vote. Removal timing is up to Flock. Camera count not published. Hardware-down not confirmed."
+    },
+    {
+      "Case_ID": "CAN-2026-233",
+      "Jurisdiction": "Monterey County",
+      "State": "CA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-22",
+      "Camera_Count": 63,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Board of Supervisors 3-2 vote against a 10-year sheriff contract and to remove 63 cameras",
+      "Summary": "Monterey County Now reported that the Board of Supervisors voted 3-2 on September 22, 2026 against negotiating a 10-year, $1.7 million Flock contract for the sheriff and told the sheriff to end access to 63 cameras and have them removed within 60 days. City contracts in the county stay. California Monterey County, not Monterey, Tennessee.",
+      "Primary_Source_URL": "https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Removal ordered within 60 days. Hardware-down not confirmed. City Flock contracts in the county stay. California Monterey County, not Monterey, Tennessee."
     }
   ]
 }

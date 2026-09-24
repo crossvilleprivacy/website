@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-23",
-  "count": 1231,
-  "source_count": 1231,
+  "as_of": "2026-09-24",
+  "count": 1241,
+  "source_count": 1241,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -149,6 +149,13 @@
       "wayback": "https://web.archive.org/web/20260908214748/https://abc7amarillo.com/news/local/court-records-fired-amarillo-officer-tracked-colleagues-boyfriend-using-flock-cameras-christian-slade-eder-flock-cameras-tloxp-records-database-tampering-with-government-records-misuse-of-department-resources",
       "timestamp": "20260908214748",
       "captured": "2026-09-08T21:47:48Z",
+      "method": "existing"
+    },
+    "https://abcnews.com/US/5-indianapolis-police-officers-charged-misusing-license-plate/story?id=136696856": {
+      "url": "https://abcnews.com/US/5-indianapolis-police-officers-charged-misusing-license-plate/story?id=136696856",
+      "wayback": "https://web.archive.org/web/20260924154402/https://abcnews.com/US/5-indianapolis-police-officers-charged-misusing-license-plate/story?id=136696856",
+      "timestamp": "20260924154402",
+      "captured": "2026-09-24T15:44:02Z",
       "method": "existing"
     },
     "https://abcnews.com/US/flock-cameras-trigger-nationwide-backlash-privacy-concerns-police/story?id=136084771": {
@@ -1717,6 +1724,13 @@
       "captured": "2026-08-16T17:16:02Z",
       "method": "existing"
     },
+    "https://kstp.com/kstp-news/top-news/plymouth-votes-to-shut-off-18-flock-cameras-over-privacy-concerns": {
+      "url": "https://kstp.com/kstp-news/top-news/plymouth-votes-to-shut-off-18-flock-cameras-over-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260924154412/https://kstp.com/kstp-news/top-news/plymouth-votes-to-shut-off-18-flock-cameras-over-privacy-concerns/",
+      "timestamp": "20260924154412",
+      "captured": "2026-09-24T15:44:12Z",
+      "method": "existing"
+    },
     "https://kstp.com/kstp-news/top-news/roadside-cameras-going-dark-another-department-makes-changes-to-program-over-accountability-concerns": {
       "url": "https://kstp.com/kstp-news/top-news/roadside-cameras-going-dark-another-department-makes-changes-to-program-over-accountability-concerns/",
       "wayback": "https://web.archive.org/web/20260814230126/https://kstp.com/kstp-news/top-news/roadside-cameras-going-dark-another-department-makes-changes-to-program-over-accountability-concerns/",
@@ -2905,6 +2919,13 @@
       "wayback": "https://web.archive.org/web/20260903174103/https://wset.com/news/local/several-virginia-localities-suspend-reduce-use-of-flock-cameras-automated-license-plate-recognition-september-2026",
       "timestamp": "20260903174103",
       "captured": "2026-09-03T17:41:03Z",
+      "method": "existing"
+    },
+    "https://wtaw.com/college-station-city-council-will-decide-fate-of-citys-flock-safety-cameras": {
+      "url": "https://wtaw.com/college-station-city-council-will-decide-fate-of-citys-flock-safety-cameras/",
+      "wayback": "https://web.archive.org/web/20260924154726/https://wtaw.com/college-station-city-council-will-decide-fate-of-citys-flock-safety-cameras/",
+      "timestamp": "20260924154726",
+      "captured": "2026-09-24T15:47:26Z",
       "method": "existing"
     },
     "https://wtmj.com/news/2026/08/07/brookfield-police-chief-defends-his-officers-actions-after-high-risk-traffic-stop": {
@@ -5662,6 +5683,13 @@
       "captured": "2026-09-09T10:51:34Z",
       "method": "existing"
     },
+    "https://www.kbtx.com/2026/09/24/closer-look-flock-before-college-stations-contract-renewal-vote": {
+      "url": "https://www.kbtx.com/2026/09/24/closer-look-flock-before-college-stations-contract-renewal-vote/",
+      "wayback": "https://web.archive.org/web/20260924154709/https://www.kbtx.com/2026/09/24/closer-look-flock-before-college-stations-contract-renewal-vote/",
+      "timestamp": "20260924154709",
+      "captured": "2026-09-24T15:47:09Z",
+      "method": "existing"
+    },
     "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns": {
       "url": "https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
       "wayback": "https://web.archive.org/web/20260819100805/https://www.kcrg.com/2026/08/18/indianola-deactivates-its-flock-cameras-review-privacy-concerns/",
@@ -6228,6 +6256,13 @@
       "captured": "2026-08-24T07:51:41Z",
       "method": "existing"
     },
+    "https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html": {
+      "url": "https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html",
+      "wayback": "https://web.archive.org/web/20260924154459/https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html",
+      "timestamp": "20260924154459",
+      "captured": "2026-09-24T15:44:59Z",
+      "method": "existing"
+    },
     "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia": {
       "url": "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
       "wayback": "https://web.archive.org/web/20260728222431/https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia/",
@@ -6240,6 +6275,13 @@
       "wayback": "https://web.archive.org/web/20260808175537/https://www.motherjones.com/politics/2026/07/police-losing-jobs-flock-cameras-alprs/",
       "timestamp": "20260808175537",
       "captured": "2026-08-08T17:55:37Z",
+      "method": "existing"
+    },
+    "https://www.mprnews.org/story/2026/09/23/plymouth-stops-using-flock-cameras": {
+      "url": "https://www.mprnews.org/story/2026/09/23/plymouth-stops-using-flock-cameras",
+      "wayback": "https://web.archive.org/web/20260924154436/https://www.mprnews.org/story/2026/09/23/plymouth-stops-using-flock-cameras",
+      "timestamp": "20260924154436",
+      "captured": "2026-09-24T15:44:36Z",
       "method": "existing"
     },
     "https://www.mtas.tennessee.edu/directories/cities/crossville": {
@@ -6676,6 +6718,13 @@
       "captured": "2026-08-19T14:49:59Z",
       "method": "save"
     },
+    "https://www.postandcourier.com/pee-dee/news/florence-sc-flock-safety-contract/article_56fb3d9f-d2af-4f08-9387-8c58bd0e5157.html": {
+      "url": "https://www.postandcourier.com/pee-dee/news/florence-sc-flock-safety-contract/article_56fb3d9f-d2af-4f08-9387-8c58bd0e5157.html",
+      "wayback": "https://web.archive.org/web/20260924154746/https://www.postandcourier.com/pee-dee/news/florence-sc-flock-safety-contract/article_56fb3d9f-d2af-4f08-9387-8c58bd0e5157.html",
+      "timestamp": "20260924154746",
+      "captured": "2026-09-24T15:47:46Z",
+      "method": "existing"
+    },
     "https://www.postcrescent.com/story/news/crime/2026/08/17/menasha-police-officer-sentenced-for-off-duty-use-of-flock-technology/91339812007": {
       "url": "https://www.postcrescent.com/story/news/crime/2026/08/17/menasha-police-officer-sentenced-for-off-duty-use-of-flock-technology/91339812007/",
       "wayback": "https://web.archive.org/web/20260818082033/https://www.postcrescent.com/story/news/crime/2026/08/17/menasha-police-officer-sentenced-for-off-duty-use-of-flock-technology/91339812007/",
@@ -6835,6 +6884,13 @@
       "archive_today": "https://archive.today/20260826010759/https://www.shawlocal.com/daily-chronicle/2026/08/25/town-of-cortland-terminates-flock-camera-contract-for-police/",
       "timestamp": "20260826010759",
       "captured": "2026-08-26T01:07:59Z",
+      "method": "archive.today"
+    },
+    "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief": {
+      "url": "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
+      "archive_today": "https://archive.today/20260923095249/https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
+      "timestamp": "20260923095249",
+      "captured": "2026-09-23T09:52:49Z",
       "method": "archive.today"
     },
     "https://www.shodan.io/": {
@@ -7123,6 +7179,13 @@
       "captured": "2024-07-24T19:37:54Z",
       "method": "existing"
     },
+    "https://www.theindianalawyer.com/articles/indianapolis-officers-face-fraud-misconduct-charges-over-license-plate-reader-technology": {
+      "url": "https://www.theindianalawyer.com/articles/indianapolis-officers-face-fraud-misconduct-charges-over-license-plate-reader-technology",
+      "wayback": "https://web.archive.org/web/20260924154413/https://www.theindianalawyer.com/articles/indianapolis-officers-face-fraud-misconduct-charges-over-license-plate-reader-technology",
+      "timestamp": "20260924154413",
+      "captured": "2026-09-24T15:44:13Z",
+      "method": "existing"
+    },
     "https://www.themarshallproject.org/2026/03/07/police-camera-wisconsin-california-colorado": {
       "url": "https://www.themarshallproject.org/2026/03/07/police-camera-wisconsin-california-colorado",
       "wayback": "https://web.archive.org/web/20260812193534/https://www.themarshallproject.org/2026/03/07/police-camera-wisconsin-california-colorado",
@@ -7346,6 +7409,13 @@
       "timestamp": "20260916090353",
       "captured": "2026-09-16T09:03:53Z",
       "method": "existing"
+    },
+    "https://www.washingtonpost.com/technology/2026/09/23/five-indianapolis-officers-charged-following-posts-reporting-flock-misuse": {
+      "url": "https://www.washingtonpost.com/technology/2026/09/23/five-indianapolis-officers-charged-following-posts-reporting-flock-misuse/",
+      "archive_today": "https://archive.today/20260923235955/https://www.washingtonpost.com/technology/2026/09/23/five-indianapolis-officers-charged-following-posts-reporting-flock-misuse/",
+      "timestamp": "20260923235955",
+      "captured": "2026-09-23T23:59:55Z",
+      "method": "archive.today"
     },
     "https://www.washingtontimes.com/news/2026/aug/20/congress-talks-tough-flock-cameras-no-bill-would-ban-outright": {
       "url": "https://www.washingtontimes.com/news/2026/aug/20/congress-talks-tough-flock-cameras-no-bill-would-ban-outright/",

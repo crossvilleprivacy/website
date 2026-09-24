@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-23",
+  "compiled": "2026-09-24",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-23"
+    "generated_on": "2026-09-24"
   },
   "verified_incidents": [
     {
@@ -1509,16 +1509,18 @@
       "Year": 2026,
       "State": "IN",
       "Agency_Jurisdiction": "Indianapolis Metropolitan Police Department",
-      "Subject_Officer_Involved": "officer",
+      "Subject_Officer_Involved": "officers",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
-      "Documented_Search_Count_Frequency": "hundreds",
-      "Source_URL": "https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007/",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://abcnews.com/US/5-indianapolis-police-officers-charged-misusing-license-plate/story?id=136696856",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "IndyStar reported Aug. 13, 2026 that an IMPD officer admitted personal ALPR use, had police powers revoked, and was recommended for termination. A later IndyStar recap said the officer told a supervisor about hundreds of searches on a few plates. No firing or charge announced in that coverage. Officer not named on this site.",
-      "Outcome_Bucket": "1 Recommended for termination"
+      "Year_Note": "ABC News reported Sept. 23, 2026 that the Marion County prosecutor charged five IMPD officers with misusing the department's license-plate reader system. The Indiana Lawyer reported Chief Tanya Terry said one officer resigned and the other four were suspended, with termination recommended to the Merit Board. IndyStar had reported Aug. 13 that one officer was recommended for firing; that story did not announce a charge. Officers not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "5 Criminally Charged (1 Resigned)",
+      "Personnel_Charged": 5,
+      "Personnel_Resigned": 1
     },
     {
       "Case_ID": "FLK-2026-111",
