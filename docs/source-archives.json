@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-09-24",
-  "count": 1241,
-  "source_count": 1241,
+  "count": 1242,
+  "source_count": 1242,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -8541,6 +8541,13 @@
       "wayback": "https://web.archive.org/web/20260708214824/https://www.youtube.com/watch?v=InkrrAU14JI",
       "timestamp": "20260708214824",
       "captured": "2026-07-08T21:48:24Z",
+      "method": "existing"
+    },
+    "https://www.youtube.com/watch?v=KKU-lwnfDhw": {
+      "url": "https://www.youtube.com/watch?v=KKU-lwnfDhw",
+      "wayback": "https://web.archive.org/web/20260924030230/https://www.youtube.com/watch?v=KKU-lwnfDhw",
+      "timestamp": "20260924030230",
+      "captured": "2026-09-24T03:02:30Z",
       "method": "existing"
     },
     "https://www.youtube.com/watch?v=MqVJ-_6QDPM": {
