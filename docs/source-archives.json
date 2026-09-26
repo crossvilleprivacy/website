@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-24",
-  "count": 1242,
-  "source_count": 1242,
+  "as_of": "2026-09-26",
+  "count": 1256,
+  "source_count": 1256,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -79,6 +79,13 @@
       "wayback": "https://web.archive.org/web/20260827144630/https://828newsnow.com/news/228822-asheville-remembers-dolly-parton-beloved-musician-dies-at-80/partial/",
       "timestamp": "20260827144630",
       "captured": "2026-08-27T14:46:30Z",
+      "method": "save"
+    },
+    "https://abc11.com/story/flock-cameras-alleged-misuse-leads-nc-deputy-being-fired-suspension-system-franklin-county/19870977": {
+      "url": "https://abc11.com/story/flock-cameras-alleged-misuse-leads-nc-deputy-being-fired-suspension-system-franklin-county/19870977/",
+      "wayback": "https://web.archive.org/web/20260926125349/https://abc11.com/story/flock-cameras-alleged-misuse-leads-nc-deputy-being-fired-suspension-system-franklin-county/19870977/",
+      "timestamp": "20260926125349",
+      "captured": "2026-09-26T12:53:49Z",
       "method": "save"
     },
     "https://abc13.com/post/baytown-police-chief-launches-investigation-misuse-flock-cameras-officer/19570969": {
@@ -1619,6 +1626,13 @@
       "timestamp": "20260827140131",
       "captured": "2026-08-27T14:01:31Z"
     },
+    "https://jaxtoday.org/2026/08/26/council-member-push-rules-flock-cameras": {
+      "url": "https://jaxtoday.org/2026/08/26/council-member-push-rules-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20260921003447/https://jaxtoday.org/2026/08/26/council-member-push-rules-flock-cameras/",
+      "timestamp": "20260921003447",
+      "captured": "2026-09-21T00:34:47Z",
+      "method": "existing"
+    },
     "https://jaxtoday.org/2026/08/31/florida-blocks-flock-cameras": {
       "url": "https://jaxtoday.org/2026/08/31/florida-blocks-flock-cameras/",
       "wayback": "https://web.archive.org/web/20260902144803/https://jaxtoday.org/2026/08/31/florida-blocks-flock-cameras/",
@@ -2017,6 +2031,13 @@
       "timestamp": "20220308111203",
       "captured": "2022-03-08T11:12:03Z",
       "method": "archive.today"
+    },
+    "https://newbedfordlight.org/city-council-passes-temporary-ordinance-continuing-flock-shutdown": {
+      "url": "https://newbedfordlight.org/city-council-passes-temporary-ordinance-continuing-flock-shutdown/",
+      "wayback": "https://web.archive.org/web/20260926133041/https://newbedfordlight.org/city-council-passes-temporary-ordinance-continuing-flock-shutdown/",
+      "timestamp": "20260926133041",
+      "captured": "2026-09-26T13:30:41Z",
+      "method": "save"
     },
     "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners": {
       "url": "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners/",
@@ -2466,6 +2487,13 @@
       "captured": "2026-07-16T22:28:32Z",
       "method": "existing"
     },
+    "https://steube.house.gov/wp-content/uploads/2026/09/FLAFO-Act.pdf": {
+      "url": "https://steube.house.gov/wp-content/uploads/2026/09/FLAFO-Act.pdf",
+      "wayback": "https://web.archive.org/web/20260926125644/https://steube.house.gov/wp-content/uploads/2026/09/FLAFO-Act.pdf",
+      "timestamp": "20260926125644",
+      "captured": "2026-09-26T12:56:44Z",
+      "method": "save"
+    },
     "https://storage.courtlistener.com/recap/gov.uscourts.mssd.127963/gov.uscourts.mssd.127963.41.0.pdf": {
       "url": "https://storage.courtlistener.com/recap/gov.uscourts.mssd.127963/gov.uscourts.mssd.127963.41.0.pdf",
       "wayback": "https://web.archive.org/web/20260807064126/https://storage.courtlistener.com/recap/gov.uscourts.mssd.127963/gov.uscourts.mssd.127963.41.0.pdf",
@@ -2850,6 +2878,13 @@
       "timestamp": "20260805071559",
       "captured": "2026-08-05T07:15:59Z",
       "method": "existing"
+    },
+    "https://wibc.com/897748/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse": {
+      "url": "https://wibc.com/897748/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse/",
+      "wayback": "https://web.archive.org/web/20260926125748/https://wibc.com/897748/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse/",
+      "timestamp": "20260926125748",
+      "captured": "2026-09-26T12:57:48Z",
+      "method": "save"
     },
     "https://wisconsinexaminer.com/2026/02/02/verona-expected-to-begin-work-to-removing-flock-cameras": {
       "url": "https://wisconsinexaminer.com/2026/02/02/verona-expected-to-begin-work-to-removing-flock-cameras/",
@@ -3753,6 +3788,13 @@
       "timestamp": "20260630001701",
       "captured": "2026-06-30T00:17:01Z",
       "method": "existing"
+    },
+    "https://www.azag.gov/press-release/attorney-general-mayes-announces-review-automated-license-plate-readers-impact": {
+      "url": "https://www.azag.gov/press-release/attorney-general-mayes-announces-review-automated-license-plate-readers-impact",
+      "wayback": "https://web.archive.org/web/20260926132952/https://www.azag.gov/press-release/attorney-general-mayes-announces-review-automated-license-plate-readers-impact",
+      "timestamp": "20260926132952",
+      "captured": "2026-09-26T13:29:52Z",
+      "method": "save"
     },
     "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007": {
       "url": "https://www.azcentral.com/story/news/local/chandler-breaking/2026/08/07/chandler-arizona-discontinues-flock-cameras/91218403007/",
@@ -5340,6 +5382,13 @@
       "captured": "2026-09-05T11:55:18Z",
       "method": "save"
     },
+    "https://www.govinfo.gov/content/pkg/BILLS-119hr10366ih/xhtml/BILLS-119hr10366ih.html": {
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr10366ih/xhtml/BILLS-119hr10366ih.html",
+      "wayback": "https://web.archive.org/web/20260917160602/https://www.govinfo.gov/content/pkg/BILLS-119hr10366ih/xhtml/BILLS-119hr10366ih.html",
+      "timestamp": "20260917160602",
+      "captured": "2026-09-17T16:06:02Z",
+      "method": "existing"
+    },
     "https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html": {
       "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html",
       "wayback": "https://web.archive.org/web/20260816173817/https://www.govinfo.gov/content/pkg/BILLS-119hr9716ih/xhtml/BILLS-119hr9716ih.html",
@@ -6424,6 +6473,13 @@
       "captured": "2026-08-09T11:26:16Z",
       "method": "existing"
     },
+    "https://www.nbcphiladelphia.com/news/local/philly-city-council-to-discuss-legislation-calling-for-ban-on-flock-cameras/4468456": {
+      "url": "https://www.nbcphiladelphia.com/news/local/philly-city-council-to-discuss-legislation-calling-for-ban-on-flock-cameras/4468456/",
+      "wayback": "https://web.archive.org/web/20260924154402/https://www.nbcphiladelphia.com/news/local/philly-city-council-to-discuss-legislation-calling-for-ban-on-flock-cameras/4468456/",
+      "timestamp": "20260924154402",
+      "captured": "2026-09-24T15:44:02Z",
+      "method": "existing"
+    },
     "https://www.nbcphiladelphia.com/news/politics/gov-josh-shapiro-says-he-would-welcome-pennsylvania-ban-on-flock-cameras/4455288": {
       "url": "https://www.nbcphiladelphia.com/news/politics/gov-josh-shapiro-says-he-would-welcome-pennsylvania-ban-on-flock-cameras/4455288/",
       "wayback": "https://web.archive.org/web/20260830065627/https://www.nbcphiladelphia.com/news/politics/gov-josh-shapiro-says-he-would-welcome-pennsylvania-ban-on-flock-cameras/4455288/",
@@ -6606,6 +6662,20 @@
       "captured": "2026-08-21T14:18:41Z",
       "method": "existing"
     },
+    "https://www.nysenate.gov/legislation/bills/2025/A10808": {
+      "url": "https://www.nysenate.gov/legislation/bills/2025/A10808",
+      "wayback": "https://web.archive.org/web/20260422153818/https://www.nysenate.gov/legislation/bills/2025/A10808",
+      "timestamp": "20260422153818",
+      "captured": "2026-04-22T15:38:18Z",
+      "method": "existing"
+    },
+    "https://www.nysenate.gov/legislation/bills/2025/S9890": {
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S9890",
+      "wayback": "https://web.archive.org/web/20260421105749/https://www.nysenate.gov/legislation/bills/2025/S9890",
+      "timestamp": "20260421105749",
+      "captured": "2026-04-21T10:57:49Z",
+      "method": "existing"
+    },
     "https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html": {
       "url": "https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html",
       "archive_today": "https://archive.today/20260814065937/https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html",
@@ -6619,6 +6689,13 @@
       "timestamp": "20260513114304",
       "captured": "2026-05-13T11:43:04Z",
       "method": "existing"
+    },
+    "https://www.oakpark.com/2026/09/25/flock-cameras-berwyn-shutdown": {
+      "url": "https://www.oakpark.com/2026/09/25/flock-cameras-berwyn-shutdown/",
+      "wayback": "https://web.archive.org/web/20260926125959/https://www.oakpark.com/2026/09/25/flock-cameras-berwyn-shutdown/",
+      "timestamp": "20260926125959",
+      "captured": "2026-09-26T12:59:59Z",
+      "method": "save"
     },
     "https://www.oklahoman.com/story/news/local/oklahoma-city/2026/08/03/okc-stalls-vote-flock-cameras-renewal/91159028007": {
       "url": "https://www.oklahoman.com/story/news/local/oklahoma-city/2026/08/03/okc-stalls-vote-flock-cameras-renewal/91159028007/",
@@ -6794,6 +6871,13 @@
       "timestamp": "20210916122903",
       "captured": "2021-09-16T12:29:03Z",
       "method": "archive.today"
+    },
+    "https://www.reviewjournal.com/news/politics-and-government/nevada/nevada-lawmakers-propose-bill-to-regulate-flock-cameras-3870615": {
+      "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/nevada-lawmakers-propose-bill-to-regulate-flock-cameras-3870615/",
+      "wayback": "https://web.archive.org/web/20260919004516/https://www.reviewjournal.com/news/politics-and-government/nevada/nevada-lawmakers-propose-bill-to-regulate-flock-cameras-3870615/",
+      "timestamp": "20260919004516",
+      "captured": "2026-09-19T00:45:16Z",
+      "method": "existing"
     },
     "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract": {
       "url": "https://www.riaclu.org/news/flock-safety-image-led-to-false-arrest-aclu-urges-cumberland-cancel-contract/",
@@ -7172,6 +7256,13 @@
       "captured": "2026-03-15T05:11:34Z",
       "method": "archive.today"
     },
+    "https://www.theguardian.com/us-news/2026/sep/25/florida-warrants-flock-camera-greg-steube": {
+      "url": "https://www.theguardian.com/us-news/2026/sep/25/florida-warrants-flock-camera-greg-steube",
+      "wayback": "https://web.archive.org/web/20260925160112/https://www.theguardian.com/us-news/2026/sep/25/florida-warrants-flock-camera-greg-steube",
+      "timestamp": "20260925160112",
+      "captured": "2026-09-25T16:01:12Z",
+      "method": "existing"
+    },
     "https://www.theiacp.org/news/blog-post/sponsored-content-how-alpr-encourages-objective-policing": {
       "url": "https://www.theiacp.org/news/blog-post/sponsored-content-how-alpr-encourages-objective-policing",
       "wayback": "https://web.archive.org/web/20240724193754/https://www.theiacp.org/news/blog-post/sponsored-content-how-alpr-encourages-objective-policing",
@@ -7486,6 +7577,13 @@
       "timestamp": "20260909105135",
       "captured": "2026-09-09T10:51:35Z",
       "method": "existing"
+    },
+    "https://www.wbiw.com/2026/09/24/indiana-state-police-investigation-leads-to-charges-against-hancock-county-deputy-for-intimidation-and-license-plate-reader-misuse": {
+      "url": "https://www.wbiw.com/2026/09/24/indiana-state-police-investigation-leads-to-charges-against-hancock-county-deputy-for-intimidation-and-license-plate-reader-misuse/",
+      "wayback": "https://web.archive.org/web/20260926125712/https://www.wbiw.com/2026/09/24/indiana-state-police-investigation-leads-to-charges-against-hancock-county-deputy-for-intimidation-and-license-plate-reader-misuse/",
+      "timestamp": "20260926125712",
+      "captured": "2026-09-26T12:57:12Z",
+      "method": "save"
     },
     "https://www.wbng.com/2026/08/07/binghamton-city-council-resolution-urges-mayor-terminate-flock-camera-contract": {
       "url": "https://www.wbng.com/2026/08/07/binghamton-city-council-resolution-urges-mayor-terminate-flock-camera-contract/",

@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-24",
+  "compiled": "2026-09-25",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-24"
+    "generated_on": "2026-09-25"
   },
   "verified_incidents": [
     {
@@ -1777,6 +1777,40 @@
       "Resolution_Year": 2026,
       "Year_Note": "CBS Detroit and WXYZ reported Sept. 16, 2026 that Eastpointe Police said two employees misused Flock. One used the system for personal reasons and received severe discipline. The other was a policy-violation case still under investigation. Employees not named. A charge or accusation is not a finding of guilt. City Council had voted 4-1 the night before to terminate the contract (CAN-2026-230).",
       "Outcome_Bucket": "1 Disciplined, 1 Under Investigation"
+    },
+    {
+      "Case_ID": "FLK-2026-126",
+      "Year": 2026,
+      "State": "IN",
+      "Agency_Jurisdiction": "Hancock County Sheriff's Office",
+      "Subject_Officer_Involved": "deputy",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://www.wbiw.com/2026/09/24/indiana-state-police-investigation-leads-to-charges-against-hancock-county-deputy-for-intimidation-and-license-plate-reader-misuse/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "WBIW reported September 24, 2026 that Indiana State Police arrested a Hancock County sheriff's deputy after submitting probable cause for intimidation, official misconduct, and fraud. ISP said an audit found unauthorized license-plate-reader searches tied to people the deputy knew. The deputy had been placed on leave when the intimidation allegation was referred in April 2026. Deputy not named on this site. A charge is not a finding of guilt. Separate from the Indianapolis Metropolitan Police charges (FLK-2026-110).",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-127",
+      "Year": 2026,
+      "State": "NC",
+      "Agency_Jurisdiction": "Franklin County Sheriff's Office",
+      "Subject_Officer_Involved": "detective",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://abc11.com/story/flock-cameras-alleged-misuse-leads-nc-deputy-being-fired-suspension-system-franklin-county/19870977/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "ABC11 reported September 25, 2026 that Franklin County Sheriff Kevin White said a detective was fired after an audit found Flock use to monitor a private citizen, and that the office indefinitely suspended its cameras. Findings were sent to the district attorney. Detective not named on this site. A firing is not a criminal conviction. North Carolina Franklin County, not Franklin County, Florida. Related pause: CAN-2026-235.",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1
     }
   ]
 }

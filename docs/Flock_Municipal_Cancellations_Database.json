@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-24",
+  "compiled": "2026-09-25",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3415,6 +3415,34 @@
       "Primary_Source_URL": "https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Removal ordered within 60 days. Hardware-down not confirmed. City Flock contracts in the county stay. California Monterey County, not Monterey, Tennessee."
+    },
+    {
+      "Case_ID": "CAN-2026-235",
+      "Jurisdiction": "Franklin County",
+      "State": "NC",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-25",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Sheriff indefinitely suspended Flock after firing a detective",
+      "Summary": "ABC11 reported September 25, 2026 that Franklin County Sheriff Kevin White indefinitely suspended the sheriff's office Flock cameras after a detective was fired. White said the findings went to the district attorney. This is a suspension of use, not a reported contract termination. North Carolina Franklin County, not Franklin County, Florida. Related misuse row: FLK-2026-127.",
+      "Primary_Source_URL": "https://abc11.com/story/flock-cameras-alleged-misuse-leads-nc-deputy-being-fired-suspension-system-franklin-county/19870977/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Indefinite suspension of use. Contract termination was not reported. Hardware-down not confirmed. North Carolina Franklin County, not Franklin County, Florida."
+    },
+    {
+      "Case_ID": "CAN-2026-236",
+      "Jurisdiction": "Berwyn",
+      "State": "IL",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-22",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor's executive order suspends police use of Flock through June 2028; contract not cancelled",
+      "Summary": "Wednesday Journal of Oak Park and River Forest reported that Berwyn Mayor Robert J. Lovero signed an executive order September 22, 2026 telling police to stop using Flock and barring city employees from the stored data through June 2028, the end of a five-year contract that began in June 2023. The city said the order was not an accusation of misconduct by Berwyn police. The order does not cancel the contract and does not require the cameras to be covered or removed. Illinois Berwyn.",
+      "Primary_Source_URL": "https://www.oakpark.com/2026/09/25/flock-cameras-berwyn-shutdown/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Use is suspended through June 2028. The contract is not cancelled. The order does not require cameras to be covered or removed. Hardware-down not confirmed."
     }
   ]
 }
