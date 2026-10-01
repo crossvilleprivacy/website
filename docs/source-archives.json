@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-09-26",
-  "count": 1256,
-  "source_count": 1256,
+  "as_of": "2026-10-01",
+  "count": 1264,
+  "source_count": 1264,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1409,6 +1409,13 @@
       "timestamp": "20260915203043",
       "captured": "2026-09-15T20:30:43Z",
       "method": "existing"
+    },
+    "https://gbi.georgia.gov/press-releases/2026-09-30/gbi-arrests-former-hall-county-sheriffs-office-investigator-misuse": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-09-30/gbi-arrests-former-hall-county-sheriffs-office-investigator-misuse",
+      "wayback": "https://web.archive.org/web/20261001190127/https://gbi.georgia.gov/press-releases/2026-09-30/gbi-arrests-former-hall-county-sheriffs-office-investigator-misuse",
+      "timestamp": "20261001190127",
+      "captured": "2026-10-01T19:01:27Z",
+      "method": "save"
     },
     "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order": {
       "url": "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order/",
@@ -4451,6 +4458,13 @@
       "captured": "2026-07-14T18:57:45Z",
       "method": "existing"
     },
+    "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down": {
+      "url": "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
+      "wayback": "https://web.archive.org/web/20261001190550/https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
+      "timestamp": "20261001190550",
+      "captured": "2026-10-01T19:05:50Z",
+      "method": "save"
+    },
     "https://www.clickorlando.com/news/florida/2026/08/31/florida-revokes-all-permits-for-flock-cameras-on-state-roads": {
       "url": "https://www.clickorlando.com/news/florida/2026/08/31/florida-revokes-all-permits-for-flock-cameras-on-state-roads/",
       "wayback": "https://web.archive.org/web/20260901143953/https://www.clickorlando.com/news/florida/2026/08/31/florida-revokes-all-permits-for-flock-cameras-on-state-roads/",
@@ -4611,6 +4625,13 @@
       "timestamp": "20260817224741",
       "captured": "2026-08-17T22:47:41Z",
       "method": "save"
+    },
+    "https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php": {
+      "url": "https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php",
+      "archive_today": "https://archive.today/20260930231606/https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php",
+      "timestamp": "20260930231606",
+      "captured": "2026-09-30T23:16:06Z",
+      "method": "archive.today"
     },
     "https://www.daytondailynews.com/local/city-covers-all-flock-cameras-amid-program-suspension/article_01aa7687-f68e-5443-b102-d98dd38ed9b6.html": {
       "url": "https://www.daytondailynews.com/local/city-covers-all-flock-cameras-amid-program-suspension/article_01aa7687-f68e-5443-b102-d98dd38ed9b6.html",
@@ -5431,6 +5452,13 @@
       "captured": "2026-05-26T15:16:49Z",
       "method": "existing"
     },
+    "https://www.govtech.com/public-safety/nypd-reviews-use-of-flock-safety-ai-license-plate-readers": {
+      "url": "https://www.govtech.com/public-safety/nypd-reviews-use-of-flock-safety-ai-license-plate-readers",
+      "wayback": "https://web.archive.org/web/20261001190737/https://www.govtech.com/public-safety/nypd-reviews-use-of-flock-safety-ai-license-plate-readers",
+      "timestamp": "20261001190737",
+      "captured": "2026-10-01T19:07:37Z",
+      "method": "save"
+    },
     "https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras": {
       "url": "https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras",
       "wayback": "https://web.archive.org/web/20260903133341/https://www.govtech.com/public-safety/with-state-funding-pause-dallas-to-switch-off-flock-cameras",
@@ -5641,6 +5669,13 @@
       "captured": "2026-08-25T21:49:49Z",
       "method": "existing"
     },
+    "https://www.investigatetv.com/2026/09/30/flock-warns-conn-police-about-security-breach-records-reveal-company-knew-about-it-months-ago": {
+      "url": "https://www.investigatetv.com/2026/09/30/flock-warns-conn-police-about-security-breach-records-reveal-company-knew-about-it-months-ago/",
+      "wayback": "https://web.archive.org/web/20261001190300/https://www.investigatetv.com/2026/09/30/flock-warns-conn-police-about-security-breach-records-reveal-company-knew-about-it-months-ago/",
+      "timestamp": "20261001190300",
+      "captured": "2026-10-01T19:03:00Z",
+      "method": "save"
+    },
     "https://www.isanti-chisagocountystar.com/news/north-branch-pauses-flock-camera-installation/article_446102b0-3c16-415e-8f13-75d84811c6eb.html": {
       "url": "https://www.isanti-chisagocountystar.com/news/north-branch-pauses-flock-camera-installation/article_446102b0-3c16-415e-8f13-75d84811c6eb.html",
       "wayback": "https://web.archive.org/web/20260807130000/https://www.isanti-chisagocountystar.com/news/north-branch-pauses-flock-camera-installation/article_446102b0-3c16-415e-8f13-75d84811c6eb.html",
@@ -5807,6 +5842,13 @@
       "wayback": "https://web.archive.org/web/20260807235400/https://www.khq.com/news/clearwater-county-sheriff-s-office-ends-flock-camera-program-after-nine-months/article_4bd68f0c-caf2-4aca-85d0-19cd79a3e183.html",
       "timestamp": "20260807235400",
       "captured": "2026-08-07T23:54:00Z",
+      "method": "existing"
+    },
+    "https://www.khqa.com/news/local/louisiana-mo-unanimously-votes-yes-to-remove-flock-cams/article_27669ad2-2492-48fa-a7c4-7a7d8a0ab990.html": {
+      "url": "https://www.khqa.com/news/local/louisiana-mo-unanimously-votes-yes-to-remove-flock-cams/article_27669ad2-2492-48fa-a7c4-7a7d8a0ab990.html",
+      "wayback": "https://web.archive.org/web/20260930140539/https://www.khqa.com/news/local/louisiana-mo-unanimously-votes-yes-to-remove-flock-cams/article_27669ad2-2492-48fa-a7c4-7a7d8a0ab990.html",
+      "timestamp": "20260930140539",
+      "captured": "2026-09-30T14:05:39Z",
       "method": "existing"
     },
     "https://www.king5.com/article/news/local/license-plate-camera-error-police-arrest-washington-father-instead/281-6fa1842c-ca72-4150-a8ff-b076e456fbff": {
@@ -7075,6 +7117,13 @@
       "captured": "2026-08-22T05:50:11Z",
       "method": "existing"
     },
+    "https://www.stopspying.org/content-input/nypd-ran-1710-flock-searches-despite-publicly-denying-contract": {
+      "url": "https://www.stopspying.org/content-input/nypd-ran-1710-flock-searches-despite-publicly-denying-contract",
+      "wayback": "https://web.archive.org/web/20261001190658/https://www.stopspying.org/content-input/nypd-ran-1710-flock-searches-despite-publicly-denying-contract",
+      "timestamp": "20261001190658",
+      "captured": "2026-10-01T19:06:58Z",
+      "method": "save"
+    },
     "https://www.tallahassee.com/story/news/local/2026/07/16/leon-county-rejects-grants-for-flock-license-plate-readers/90930124007": {
       "url": "https://www.tallahassee.com/story/news/local/2026/07/16/leon-county-rejects-grants-for-flock-license-plate-readers/90930124007/",
       "wayback": "https://web.archive.org/web/20260717225000/https://www.tallahassee.com/story/news/local/2026/07/16/leon-county-rejects-grants-for-flock-license-plate-readers/90930124007/",
@@ -7373,6 +7422,13 @@
       "wayback": "https://web.archive.org/web/20260728172938/https://www.tn.gov/revenue/title-and-registration/license-plates.html",
       "timestamp": "20260728172938",
       "captured": "2026-07-28T17:29:38Z",
+      "method": "existing"
+    },
+    "https://www.tomshardware.com/tech-industry/cyber-security/flock-seeks-to-have-security-researchers-map-of-flock-cameras-taken-down-unauthenticated-flaw-exposed-335-701-camera-locations-nationwide": {
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/flock-seeks-to-have-security-researchers-map-of-flock-cameras-taken-down-unauthenticated-flaw-exposed-335-701-camera-locations-nationwide",
+      "wayback": "https://web.archive.org/web/20260930231941/https://www.tomshardware.com/tech-industry/cyber-security/flock-seeks-to-have-security-researchers-map-of-flock-cameras-taken-down-unauthenticated-flaw-exposed-335-701-camera-locations-nationwide",
+      "timestamp": "20260930231941",
+      "captured": "2026-09-30T23:19:41Z",
       "method": "existing"
     },
     "https://www.tpr.org/technology-entrepreneurship/2026-07-29/flock-cameras-expand-across-bexar-county-as-privacy-concerns-grow": {
@@ -8787,6 +8843,34 @@
       "timestamp": "20260824111300",
       "captured": "2026-08-24T11:13:00Z",
       "method": "existing"
+    },
+    "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3": {
+      "url": "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
+      "wayback": "https://web.archive.org/web/20261001190114/https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
+      "timestamp": "20261001190114",
+      "captured": "2026-10-01T19:01:14Z",
+      "method": "save"
+    },
+    "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/": {
+      "url": "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
+      "wayback": "https://web.archive.org/web/20261001190431/https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
+      "timestamp": "20261001190431",
+      "captured": "2026-10-01T19:04:31Z",
+      "method": "save"
+    },
+    "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html": {
+      "url": "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
+      "wayback": "https://web.archive.org/web/20261001190446/https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
+      "timestamp": "20261001190446",
+      "captured": "2026-10-01T19:04:46Z",
+      "method": "save"
+    },
+    "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/": {
+      "url": "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
+      "wayback": "https://web.archive.org/web/20261001191034/https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
+      "timestamp": "20261001191034",
+      "captured": "2026-10-01T19:10:34Z",
+      "method": "save"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-25",
+  "compiled": "2026-09-30",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-25"
+    "generated_on": "2026-09-30"
   },
   "verified_incidents": [
     {
@@ -672,14 +672,15 @@
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
       "Documented_Search_Count_Frequency": "Alleged non-law-enforcement searches of a person known to one investigator; other counts not published",
-      "Source_URL": "https://www.atlantanewsfirst.com/2026/09/02/hall-county-deputy-fired-after-being-accused-misusing-flock-cameras/",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-09-30/gbi-arrests-former-hall-county-sheriffs-office-investigator-misuse",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Atlanta News First Sept. 2, 2026: two investigators fired the prior week, three deputies resigned Sept. 1, one investigator fired Sept. 2 after an internal Flock audit. Sheriff's office referred alleged violations to Georgia POST. Press release cited did not mention criminal charges. Deputies not named on this site.",
-      "Outcome_Bucket": "6 Terminated / Resigned",
+      "Year_Note": "Atlanta News First Sept. 2, 2026: two investigators fired the prior week, three deputies resigned Sept. 1, one investigator fired Sept. 2 after an internal Flock audit. GBI reported Sept. 30, 2026 that a former Hall County investigator was charged with two counts of misuse of a license-plate reader system and two counts of violation of oath of office. GBI said the sheriff's office asked it to investigate Aug. 18 after an internal Flock audit. Deputies and investigators not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "6 Terminated / Resigned (1 investigator charged)",
       "Personnel_Terminated": 3,
-      "Personnel_Resigned": 3
+      "Personnel_Resigned": 3,
+      "Personnel_Charged": 1
     },
     {
       "Case_ID": "FLK-2026-063",
@@ -1811,6 +1812,25 @@
       "Year_Note": "ABC11 reported September 25, 2026 that Franklin County Sheriff Kevin White said a detective was fired after an audit found Flock use to monitor a private citizen, and that the office indefinitely suspended its cameras. Findings were sent to the district attorney. Detective not named on this site. A firing is not a criminal conviction. North Carolina Franklin County, not Franklin County, Florida. Related pause: CAN-2026-235.",
       "Outcome_Bucket": "1 Terminated",
       "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-128",
+      "Year": 2026,
+      "State": "FL",
+      "Agency_Jurisdiction": "Pinellas County Sheriff's Office",
+      "Subject_Officer_Involved": "deputy",
+      "System_Vendor": "Flock Safety / Axon / Motorola ALPR",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "300 ALPR queries of one plate (381 across five databases)",
+      "Source_URL": "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2025-2026",
+      "Resolution_Year": 2026,
+      "Year_Note": "Pinellas County Sheriff's Office reported Sept. 30, 2026 that a deputy was arrested and charged with four counts of unauthorized computer access and official misconduct after ALPR audits showed 381 queries across five databases, including 300 ALPR queries of one plate, from January 2025 through July 2026. The office said the deputy resigned Sept. 11 when questioned. A media inquiry on Aug. 20 started the review. Deputy not named on this site. A charge is not a finding of guilt. The same release announced a second deputy arrested the same day on computer-access charges in a separate investigation the office did not describe as ALPR.",
+      "Outcome_Bucket": "1 Resigned and Criminally Charged",
+      "Personnel_Resigned": 1,
+      "Personnel_Charged": 1,
+      "Personal_Lookup_Count": 300
     }
   ]
 }

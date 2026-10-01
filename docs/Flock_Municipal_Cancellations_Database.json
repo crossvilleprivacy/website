@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-09-27",
+  "compiled": "2026-10-01",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2311,17 +2311,17 @@
       "Case_ID": "CAN-2026-160",
       "Jurisdiction": "Dallas",
       "State": "TX",
-      "Action_Type": "Terminated",
-      "Action_Date": "2026-09-15",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-09-30",
       "Camera_Count": 321,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Abbott state grant funding pause; 10-day cancel notice sent Sept. 15; Partial network remain city funded",
-      "Summary": "Dallas Police announced September 1, 2026 that 321 Flock cameras supported by affected Texas state grant funding would be canceled after Gov. Greg Abbott ordered state agencies to pause Flock funding. FOX 4 reported September 15 that DPD sent Flock the required 10-day cancellation notice that afternoon, so those 321 cameras stay on through September 25. DPD said it is still looking for replacement money. More than 300 city-funded Flock cameras remain. Not a full Dallas Flock exit.",
-      "Primary_Source_URL": "https://www.keranews.org/government/2026-09-01/dallas-police-department-to-stop-using-more-than-300-of-its-flock-cameras-city-council",
-      "Secondary_Source_URL": "https://www.fox4news.com/news/dallas-police-looking-new-ways-keep-over-300-flock-cameras-operational-state-funding-ends",
-      "Verification_Status": "Verified local public radio / local radio",
-      "Incomplete_Exit_Notes": "Partial exit. FOX 4 reported the 321 formerly state-funded cameras will be deactivated September 25 after a 10-day notice sent September 15. DPD is hunting replacement funding. About 300 city-funded cameras stay. Not a full Dallas Flock pull."
+      "Primary_Reasons": "Abbott state grant funding pause; 10-day cancel notice sent Sept. 15; Flock later kept the grant-funded cameras on for 90 days",
+      "Summary": "Dallas Police announced September 1, 2026 that 321 Flock cameras supported by affected Texas state grant funding would be canceled after Gov. Greg Abbott ordered state agencies to pause Flock funding. FOX 4 reported September 15 that DPD sent Flock the required 10-day cancellation notice that afternoon. The Dallas Morning News and CBS Texas reported September 30 that Police Chief Daniel Comeaux met Flock CEO Garrett Langley and that Flock agreed to keep those grant-funded cameras online for at least another 90 days. Terms, including whether Dallas would pay, were not disclosed. About 300 city-funded Flock cameras remain. Not a full Dallas Flock exit. Cameras stay.",
+      "Primary_Source_URL": "https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php",
+      "Secondary_Source_URL": "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
+      "Verification_Status": "Verified local press / local TV",
+      "Incomplete_Exit_Notes": "Incomplete exit. The Sept. 15 10-day notice did not take the 321 cameras down. Flock agreed Sept. 30 to keep them on for at least 90 more days. About 300 city-funded cameras stay. Not a full Dallas Flock pull."
     },
     {
       "Case_ID": "CAN-2026-161",
@@ -3563,6 +3563,66 @@
       "Secondary_Source_URL": "https://www.cascadiadaily.com/2026/jul/02/flock-cameras-turned-off-in-mount-vernon/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Cameras voted off and later reported covered. Contract expiration was November 2026. Termination was not reported. Washington Mount Vernon, not Mount Vernon, New York."
+    },
+    {
+      "Case_ID": "CAN-2026-245",
+      "Jurisdiction": "South Lyon",
+      "State": "MI",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-28",
+      "Camera_Count": 2,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City council voted 5-2 to shut and cover two cameras and not renew",
+      "Summary": "New Media Detroit reported that South Lyon City Council voted 5-2 on September 28, 2026, to immediately shut down and cover the city's two Flock cameras and to notify Flock that the city will not renew. The contract auto-renews unless written notice is given at least 30 days before the term ends. Cameras remain installed but covered so they are not collecting data. Hardware-down is not confirmed.",
+      "Primary_Source_URL": "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cameras covered and shut. Contract allowed to expire rather than an early terminate. Hardware still installed. Michigan South Lyon."
+    },
+    {
+      "Case_ID": "CAN-2026-246",
+      "Jurisdiction": "Louisiana",
+      "State": "MO",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-28",
+      "Camera_Count": 7,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City council voted unanimously to end the contract and take cameras down",
+      "Summary": "KHQA reported that Louisiana, Missouri, city council voted unanimously September 28, 2026, to end the city's Flock contract and take the cameras down. Police Chief Josh Baker said the city approved five cameras under a Missouri Blue Shield grant, that Flock installed seven, and that Flock would not charge to remove the two extras. Baker said Flock was charging $800 per camera to remove the rest. The two-year contract was about $30,000. Hardware-down is not confirmed. Missouri Louisiana, not the state of Louisiana.",
+      "Primary_Source_URL": "https://www.khqa.com/news/local/louisiana-mo-unanimously-votes-yes-to-remove-flock-cams/article_27669ad2-2492-48fa-a7c4-7a7d8a0ab990.html",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Unanimous terminate vote. Removal fee and refund still being worked out. Hardware-down not confirmed. Missouri Louisiana, not the state of Louisiana."
+    },
+    {
+      "Case_ID": "CAN-2026-247",
+      "Jurisdiction": "Cle Elum",
+      "State": "WA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-28",
+      "Camera_Count": 5,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City council voted 4-1 not to renew; cameras deactivate when the contract ends",
+      "Summary": "The Daily Record reported October 1, 2026, that Cle Elum City Council voted 4-1 at a September 28 special meeting not to renew its Flock contract. The contract was set to expire September 30. Coverage put five cameras in Cle Elum. They deactivate when the contract ends. Councilmember Johnson was the no vote. Ellensburg remains on Flock. Washington Cle Elum.",
+      "Primary_Source_URL": "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Non-renewal. Cameras deactivate at term end. Hardware-down not confirmed. Ellensburg stays. Washington Cle Elum."
+    },
+    {
+      "Case_ID": "CAN-2026-248",
+      "Jurisdiction": "Lincoln Park",
+      "State": "MI",
+      "Action_Type": "Suspended",
+      "Action_Date": "2026-09-28",
+      "Camera_Count": 24,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City council ordered remaining cameras covered and turned off while it decides whether to keep the contract",
+      "Summary": "ClickOnDetroit reported that Lincoln Park City Council passed a resolution Monday, September 28, 2026, directing that remaining Flock cameras be covered and turned off. Police Chief Scott Lavis said Flock decommissioned the cameras Tuesday and that eight of the city's 24 cameras had recently been damaged. Mayor Maureen Tobin said commissions will review the program and that council will then decide whether to continue the contract. This is a pause, not a reported contract end.",
+      "Primary_Source_URL": "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Cameras covered and turned off. Contract decision still pending. Not a reported terminate. Michigan Lincoln Park."
     }
   ]
 }
