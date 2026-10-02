@@ -625,5 +625,18 @@
     "Primary_Source_URL": "https://www.youtube.com/watch?v=TWws6i4nQ5w",
     "Secondary_Source_URL": "https://www.wsbtv.com/video/local-video/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/df7cce85-0db6-4dde-a116-b0580df7e447/",
     "Public_KPI_Exclude": false
+  },
+  {
+    "ID": 47,
+    "Incident_Date": "2026-10-01",
+    "Incident_Year": 2026,
+    "City": "Tulsa",
+    "State": "OK",
+    "Technology_Category": "ALPR",
+    "Technology": "Flock and VehicleManager historical ALPR search",
+    "Vendor": "Flock Safety",
+    "Lawsuit_Filed": "N",
+    "Primary_Source_URL": "https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf",
+    "Public_KPI_Exclude": false
   }
 ]

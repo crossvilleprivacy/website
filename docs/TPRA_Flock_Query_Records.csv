@@ -10644,3 +10644,92 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 10643,Officer-20,08/01/2026,Hit and Run/Car Accident - suspect vehicle in accident,yes,fc7a9b014f9a0cce109e968fc3f340f5acba3352841b28a39e10472998e6ec12
 10644,Officer-20,08/01/2026,Hit and Run/Car Accident - suspect vehicle in accident,yes,2c31ef88576f8ff6e97e532a35fef3cc7783927362cefeb0db77fe275503b2ea
 10645,Officer-20,08/01/2026,Hit and Run/Car Accident - suspect vehicle in accident,yes,6d7d78c4f6bb9981e187aed00dc738c4a43fb0f9cee24f38c97ab09456b9a52b
+10646,Officer-18,09/30/2026,Wanted Person (Arrest Warrant/Fugitive) - evading arrest,yes,52d1ff15b2cf0ff164d98c823010d12e3050301325e5e646f5a07527759d9530
+10647,Officer-23,09/29/2026,Motor Vehicle Theft/Stolen - Stolen vehicle,yes,c4d7f14a050bd49d32da4ae61994fcfed34c2cb77cc76a73f31f5b4a611e2531
+10648,Officer-23,09/29/2026,Motor Vehicle Theft/Stolen - Stolen vehicle,yes,5dc2c8dc660669bd8f7f396955a1fa4965d1fa85b9f32ba89e2e2a223c3361aa
+10649,Officer-23,09/29/2026,Motor Vehicle Theft/Stolen - Stolen vehicle,yes,a6e19d4eb1463befa6f762bb2088e6665eee54d22901a7c9d2b5f4704329db07
+10650,Officer-29,09/28/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,7d7b7642d23747cb9a58a6e1084873f6e04659b964297323902e2d1127c8bc96
+10651,Officer-20,09/25/2026,Larceny/Theft Offenses - suspect veh.,yes,bf525dff50420c03001be061b1d33f24b123151cc9d493207053ac9fdae2e0ba
+10652,Officer-19,09/24/2026,City Planning/Traffic Analysis - Flock presentation for city hall per Chief Brooks,yes,a4c5718d0c389e1c13897eadfaf306c36be7832102b2404562b667806516ca30
+10653,Officer-5,09/24/2026,Drugs/Narcotics - Warrant,yes,897ee50f84bfdda3bdf39e72235294767d472c5df270511fc386b86beb9c17e2
+10654,Officer-5,09/24/2026,Drugs/Narcotics - Warrant,yes,163b9d6ce835fccbb0d945c84a79840b485f38ffe29d61962950fb0425a7d84a
+10655,Officer-5,09/24/2026,Drugs/Narcotics - Warrant,yes,8951cc5a929c4a97ecbb092642cfa91aaff35788e48dea13df2d406ca64384f0
+10656,Officer-19,09/2026,[redacted],yes,f008b7204acfcfd60f492860cb5e865b2acf27c6f302703d5f5bca276ef00af4
+10657,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,257d4205af0abd49a63e3b6156c7a6fc1893a72ceea3ccc7c31fc0a8fa493c8b
+10658,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,af1205f0007bfe32cc862aed0a979d772a20b4174993cbecdcf84ddcdf8589cf
+10659,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,d62cefe67e63d5b4e956602608efa907a6dd78cd744e60b04e9df19513168768
+10660,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,dcf4c9cd7978eadedd4424a9d27ed3186ebf407c5a76049b682390009b0fd100
+10661,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,a361ac9e5abd8f455968f0a8e1ac0dba3c4af8100ff3fb76db4eb92555a527a1
+10662,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,a0c67b6435485e11021ed10ef6132b5d36d2a21bcde86d1fcb5c92a454d8cea8
+10663,Officer-3,09/17/2026,Larceny/Theft Offenses - theft,yes,1605f4809c1d5c7d10ad5be4a555f33ff5b1616e91e56ba63d295a2596c4a03d
+10664,Officer-23,09/09/2026,Hit and Run/Car Accident - Hit and run suspect vehicle,yes,f0c6d9e4f7e866d1921ebef063a374d3181371f3c415592ae369559398f10446
+10665,Officer-23,09/09/2026,Hit and Run/Car Accident - Hit and run suspect vehicle,yes,7856507ed317a0988e0866f48c32a5c902785041941a2f8d1bd5ff3f69adb4d7
+10666,Officer-31,09/09/2026,Arson - Vehicle Arson Investigation,yes,e913ef4bf14398f44fa34ef81ac94cf31b36e9cb03ce2bdb78827ad722211dca
+10667,Officer-31,09/09/2026,Arson - Vehicle Arson Investigation,yes,eae880c17471376ad6d636008bfd21b99fe33b72671931d91fe78d1bf0b45c76
+10668,Officer-31,09/09/2026,Arson - Vehicle Arson Investigation,yes,0fc0dc1e6b1915905f74033924cc1d363a08cfe32f1d857928f0e95672459797
+10669,Officer-31,09/09/2026,Hit and Run/Car Accident - Hit and Run investigation,yes,6c5691a995fdc7941b0c18e6e2f60510d0ce4c3c37b9d9604effc86e6ef1aeb4
+10670,Officer-31,09/09/2026,Hit and Run/Car Accident - Hit and Run investigation,yes,ad98214fa2ba3c1e2d9b530050571c0aa22f6b2b68172503dacc9b9a3519bb57
+10671,Officer-12,09/04/2026,Drugs/Narcotics - drug investigation,yes,1c4c092086d517aa72f2bf4af048c6562bc176f2177c4ddecd15f63577fa534b
+10672,Officer-12,09/04/2026,Drugs/Narcotics - drug investigation,yes,4a32a5f7592b883133f0a121652024ef94c4d01a33d8cb1352bcfd4335a6ca8a
+10673,Officer-12,09/04/2026,Drugs/Narcotics - drug investigation,yes,c08c8425c12b63e671bf9aa1b48722ccfa171ba4bbff272f7dc800fd21f5905c
+10674,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,fef4fb2722b79454ae9d3dbb781cf88f0db9dd0ed8ca30524b129c953b26fc8e
+10675,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,90adaadbe02004c6730c24f49522445c047fa2c2ac7a4a76b4f18fc9e18ec291
+10676,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,4f8f3b38644d6e8922c52059b6926860d87727b52034faf4b0a8227c8a6112bc
+10677,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,b8e6bbc0c3a2ea777f3247ebfa2f5077671cce5974cdcb12ce20993baf700008
+10678,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,8441057af6625b996c37d9213cecd89001910b43a43ed3fc22a27a959c706084
+10679,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,1cc7295f6fcc32c4d1bd96d563f80e8997c68097a4fc5683f02f19221ed0c2d5
+10680,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,62283b17f3756586e7af8148c72dfbc1beb563a786b56487967af0a3cfe594f9
+10681,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,7336ca72ba76fdfec93e2c7615a8622b0a430816e607c3c9b452a8e558da46f3
+10682,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,31806847422f261fe4d304ef5dfbba8244454b47a901e03f26a0e5840522fbb6
+10683,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,87f37b13923ea22e78a003c76c16ba1b80950260023b8ba20ee25d79455131bd
+10684,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,aee3795d2feee505b6f8a5a60c61a79f70fcfd4a841e4427bb734f1ecf50a7b0
+10685,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,0d1500f9dfc12c3038b00e4186bd2be2a1c7f42cfc03b24a8a05a320eae77bcf
+10686,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,112e9787f86a938ac1ffca16727ac0e1beece1dd0d8ef3bc9a8bb5639381a4f5
+10687,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,917fbd3a2dfa8408d01637a5a6b5e5bc5d482591ae284de1872ec64cfdb575b9
+10688,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,478e5d5e05492b35532b5d2aaa76930241f7569b57a370f536173ddc91519c40
+10689,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,4ca772d4ff8fca09740cab9dcaba7cf70a1388d86f9adf4dc7173a8228c3f30a
+10690,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,0eef1744064b7fa995d821dcc7df967114366a32ef27a547f356943ee11bbea4
+10691,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,c0ec24c01f07d38b8ceec8ceabde1763d9b035741f6e8f8a3065de7a3650c1d9
+10692,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,886f83e7f69a9f6f0085f7fb263dc510015dc3dc3bd3ab1d506d8bebc2b8682a
+10693,Officer-12,09/03/2026,Burglary/Breaking & Entering - burglary investigation,yes,ba1e5466dd9f7a476566831488e37cc32859425fd8e6436f9b9a63f6cfcabeec
+10694,Officer-8,09/03/2026,Burglary/Breaking & Entering - theft,yes,951cb839f8b3e81148bef70d802c35ae50185b66e4e36b9cfab69750c92d0fe8
+10695,Officer-8,09/03/2026,Burglary/Breaking & Entering - theft,yes,cf6ec41eaedb75962b9e4f2c81be2cca8b5fd4089d0dd803997b7d071327391d
+10696,Officer-8,09/03/2026,Burglary/Breaking & Entering - theft,yes,d791d7b6f2d51d0130062734c1195061c0ddee848238aa304fb0dfa7eac39e7e
+10697,Officer-8,09/03/2026,Burglary/Breaking & Entering - theft,yes,99038e9444008f2d05c6749ec58efe427b088fd18cb99efd8797a24f588f7428
+10698,Officer-8,09/03/2026,Burglary/Breaking & Entering - theft,yes,fa554165716e19b6a99b52f08517c202bca7e432adf81362b7a176a42977b3ec
+10699,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,d30dcac6f21de4eaf785b1ea592a99c15ca2a063a72e23890de7b76b1b129bea
+10700,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,068c2c4c8dc5363ed75402f87dbb2cd514a1f39ce2d9bbaf30ef47948291b62f
+10701,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,63dd1b51045a92ad0722bc4f1080e3d7e0faeb39b391af74c2e62394c147edc0
+10702,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,b54c8e778c43fbb0effad6a28878ed3fd01f97548ff5265a088b3d915cdfd85c
+10703,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,fc488032223ba6575fba2d7f2cefef7990b36f85913867d52e3f7c2165260364
+10704,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,21e2db2a038b716bfc44d9379e9dad4d1cd83bda72b281112e65e80fbbd7c813
+10705,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,e4927fee419abb43b72aca2012c706c20cf3a5bc376a82df2315b51d67ac909c
+10706,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,1f857fabbbc8a302128ce84c07efa17b8f250f280f82fe7b2c180751e69ae874
+10707,Officer-19,09/02/2026,Larceny/Theft Offenses - theft from ymca,yes,6947f9198f8627f1461f15d0ae16ae44469476636489ab2df656689e7dea889e
+10708,Officer-19,09/02/2026,Larceny/Theft Offenses - Theft from YMCA,yes,3ebfa6a05bbfcb0faf9a85bf4a9c44d08bbf539bb85172b0c2cf90ed716d8863
+10709,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,5f9415771dd86d5c33c307b7f858c0b0835a9b694cbbd4f3d8b78c0e456449b8
+10710,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,d454e13f36c88553f61237f7bc36ffe0984e40b6426c8208c42d329f96541db1
+10711,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,db1e8c63190c28c9acb83332a4c1d5c34d3fc3cdad54a377d6591cbe2207749d
+10712,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,d581c48e12198b2d6eac3bbc8590d47f526e2af6f557b4b6b16f3971504c014d
+10713,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,ea913c08b1a1cd9fb7a8c7488c3698c75e8c528b216affa221b005cadea72264
+10714,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,994d1b0ea41d7f6b347b1da0f3e2ce6e401e1781636fa1142d92a618369561ff
+10715,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,849c524f3ddac3f99b6daf161c716c7793ab24cde422a769df913afac7a7fb88
+10716,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,e76f69e5ad2987c8f071c6e38fac78347d0194c89e281225b2d9d56d2db4ca33
+10717,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,d181f62f6d734f07bfeeaa00aeee03d783414835e2863405f08cb32ebbbc9733
+10718,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,14b7a184e545babc7c62f7955bd24cef10acb6c3710503ed3ab9240344bcd61f
+10719,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,bc5a4e7677eccc3482b6fa4a90819c2c4254491853396c5950bec3af400675fc
+10720,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,b651f71c22e0a91f0d9e38d78399ae5ffc6474e203b339d67cda1ab605f34ea4
+10721,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,3c2bba92e36f2c939fb2311ab3345d624b61ec4b750a248161283e5658b8b26d
+10722,Officer-12,09/02/2026,Larceny/Theft Offenses - theft,yes,9393d43101e9edff89e4e6a43d0c0032e936fad0c5052ae898b68e472224ec40
+10723,Officer-34,09/02/2026,Larceny/Theft Offenses - try to identify a vehicle in an equipment theft,yes,47dc2dc821494e7249774221f9ef43181f737c7bd479b7b075a05688ea8e5fa3
+10724,Officer-34,09/02/2026,Larceny/Theft Offenses - trying to identify vehicle used in equipment theft,yes,478055451c495ee34df3038c23c31b1f7c0bd5051229bc697080ac8fcf4ce087
+10725,Officer-34,09/01/2026,Larceny/Theft Offenses - looking for suspect vehicle in theft of equipment,yes,cff87492bddcc2568c87f993da530a3a34a8989620a6ae596baecb77719d2f0b
+10726,Officer-34,09/01/2026,Larceny/Theft Offenses - looking for suspect vehicle in theft of equipment,yes,30eaefd116a4d9818aaed8f8e618ca184409981d21b0d7ca584f0d1804291a6d
+10727,Officer-34,09/01/2026,Larceny/Theft Offenses - looking for suspect vehicle in theft of equipment,yes,e5e1ee6c6f413b0772d2072f45d3326b112acce1f6ac179e32c4700711652cf7
+10728,Officer-34,09/01/2026,Larceny/Theft Offenses - looking for suspect vehicle in theft of equipment,yes,0ae8e2f19385641f4dd220cf2a1475782a1b03c446bd88c1e542888caec514b3
+10729,Officer-34,09/01/2026,Larceny/Theft Offenses - looking for suspect vehicle in theft of equipment,yes,794f3f78ad81584ca0d30ea5afd1bbca212c9038ffe8f5272ec4f01c512017e9
+10730,Officer-21,09/2026,[redacted],yes,da2e630feff414022f9d2e0fbabec2ca72b353fa0990d34cb75cf8deaa9084b5
+10731,Officer-21,09/2026,[redacted],yes,ce17356a6c445d7ce75bd3b05a2eca422f4d279ed102934c3755759f6d94731b
+10732,Officer-21,09/2026,[redacted],yes,ba6428148adaac40144f2fc8df3e5b41caec2d2e9debfadf2e5882a77ee9056a
+10733,Officer-21,09/2026,[redacted],yes,0ade9d5a43aee099aaddf025b25e25599b2d4cdc595da59101d97bcee0041dd7
+10734,Officer-21,09/2026,[redacted],yes,5984564c3b7b9e498c497847df508a24e4954fc06f0362df5583e67119bbee0e

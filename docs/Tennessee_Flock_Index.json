@@ -1,9 +1,24 @@
 {
-  "as_of": "2026-10-01",
-  "as_of_long": "October 1, 2026",
-  "as_of_short": "Oct. 1, 2026",
+  "as_of": "2026-10-02",
+  "as_of_long": "October 2, 2026",
+  "as_of_short": "Oct. 2, 2026",
   "record_count": 18,
   "records": [
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Loudon County",
+      "State": "TN",
+      "What": "Sheriff not using cameras; commission discussing rules; city cameras are separate",
+      "Date": "2026-09-22",
+      "Date_Label": "Sept. 22, 2026",
+      "ID": "—",
+      "Writeup": "#loudon-flock-proposal",
+      "Source_URL": "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/",
+      "Source_URLs": [
+        "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/"
+      ]
+    },
     {
       "Kind": "cancel",
       "Kind_Label": "Exit",
@@ -133,21 +148,6 @@
       "Source_URL": "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html",
       "Source_URLs": [
         "https://www.themountainpress.com/roane/news/kingston-not-renewing-flock-contract/article_4df2a6c5-3064-5897-9875-89da22f3d56b.html"
-      ]
-    },
-    {
-      "Kind": "watch",
-      "Kind_Label": "Watch",
-      "Place": "Loudon County",
-      "State": "TN",
-      "What": "Proposed Flock rollout; room opposed; no contract signed",
-      "Date": "2026-08-19",
-      "Date_Label": "Aug. 19, 2026",
-      "ID": "—",
-      "Writeup": "#loudon-flock-proposal",
-      "Source_URL": "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/",
-      "Source_URLs": [
-        "https://www.wvlt.tv/2026/08/19/loudon-county-residents-push-back-flock-camera-proposal/"
       ]
     },
     {

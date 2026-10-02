@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-01",
-  "count": 1264,
-  "source_count": 1264,
+  "as_of": "2026-10-02",
+  "count": 1277,
+  "source_count": 1277,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -1647,6 +1647,13 @@
       "captured": "2026-09-02T14:48:03Z",
       "method": "save"
     },
+    "https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood": {
+      "url": "https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/",
+      "wayback": "https://web.archive.org/web/20261002203900/https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/",
+      "timestamp": "20261002203900",
+      "captured": "2026-10-02T20:39:00Z",
+      "method": "save"
+    },
     "https://journalrecord.com/2026/08/04/oklahoma-city-delays-flock-camera-contract-resident-concerns": {
       "url": "https://journalrecord.com/2026/08/04/oklahoma-city-delays-flock-camera-contract-resident-concerns/",
       "wayback": "https://web.archive.org/web/20260806113217/https://journalrecord.com/2026/08/04/oklahoma-city-delays-flock-camera-contract-resident-concerns/",
@@ -2053,6 +2060,13 @@
       "captured": "2026-09-05T15:10:02Z",
       "method": "existing"
     },
+    "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/": {
+      "url": "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
+      "wayback": "https://web.archive.org/web/20261001190431/https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
+      "timestamp": "20261001190431",
+      "captured": "2026-10-01T19:04:31Z",
+      "method": "save"
+    },
     "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances": {
       "url": "https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
       "wayback": "https://web.archive.org/web/20260401100753/https://news.stanford.edu/stories/2024/09/stanford-to-install-license-plate-cameras-at-campus-entrances",
@@ -2108,6 +2122,13 @@
       "timestamp": "20260815134225",
       "captured": "2026-08-15T13:42:25Z",
       "method": "existing"
+    },
+    "https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use": {
+      "url": "https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/",
+      "wayback": "https://web.archive.org/web/20261002203926/https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/",
+      "timestamp": "20261002203926",
+      "captured": "2026-10-02T20:39:26Z",
+      "method": "save"
     },
     "https://nvd.nist.gov/vuln/detail/CVE-2025-47823": {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47823",
@@ -2507,6 +2528,13 @@
       "timestamp": "20260807064126",
       "captured": "2026-08-07T06:41:26Z",
       "method": "existing"
+    },
+    "https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf": {
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf",
+      "wayback": "https://web.archive.org/web/20261002203714/https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf",
+      "timestamp": "20261002203714",
+      "captured": "2026-10-02T20:37:14Z",
+      "method": "save"
     },
     "https://support.amcrest.com/hc/en-us/articles/360054919632-How-To-View-MicroSD-Card-Recordings-AD410": {
       "url": "https://support.amcrest.com/hc/en-us/articles/360054919632-How-To-View-MicroSD-Card-Recordings-AD410",
@@ -4311,6 +4339,13 @@
       "captured": "2026-08-14T01:28:03Z",
       "method": "existing"
     },
+    "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/": {
+      "url": "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
+      "wayback": "https://web.archive.org/web/20261001191034/https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
+      "timestamp": "20261001191034",
+      "captured": "2026-10-01T19:10:34Z",
+      "method": "save"
+    },
     "https://www.cbsnews.com/texas/news/texas-hood-county-flock-cameras-privacy-concerns": {
       "url": "https://www.cbsnews.com/texas/news/texas-hood-county-flock-cameras-privacy-concerns/",
       "wayback": "https://web.archive.org/web/20260817113327/https://www.cbsnews.com/texas/news/texas-hood-county-flock-cameras-privacy-concerns/",
@@ -4610,6 +4645,13 @@
       "wayback": "https://web.archive.org/web/20260826140121/https://www.ctas.tennessee.edu/directory/Cumberland",
       "timestamp": "20260826140121",
       "captured": "2026-08-26T14:01:21Z",
+      "method": "save"
+    },
+    "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html": {
+      "url": "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
+      "wayback": "https://web.archive.org/web/20261001190446/https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
+      "timestamp": "20261001190446",
+      "captured": "2026-10-01T19:04:46Z",
       "method": "save"
     },
     "https://www.dailytrib.com/2026/08/05/burnet-county-sheriffs-office-drops-flock-cameras-others-remain": {
@@ -5613,6 +5655,20 @@
       "captured": "2026-04-16T02:09:53Z",
       "method": "existing"
     },
+    "https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html": {
+      "url": "https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html",
+      "wayback": "https://web.archive.org/web/20260913195011/https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html",
+      "timestamp": "20260913195011",
+      "captured": "2026-09-13T19:50:11Z",
+      "method": "existing"
+    },
+    "https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html": {
+      "url": "https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html",
+      "wayback": "https://web.archive.org/web/20261002203958/https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html",
+      "timestamp": "20261002203958",
+      "captured": "2026-10-02T20:39:58Z",
+      "method": "save"
+    },
     "https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007": {
       "url": "https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007/",
       "wayback": "https://web.archive.org/web/20260818174151/https://www.indystar.com/story/news/crime/2026/08/13/impd-officer-under-criminal-investigation-after-misuse-of-flock-cameras-tanya-terry-misconduct-alpr/91285993007/",
@@ -6101,6 +6157,13 @@
       "timestamp": "20260909043344",
       "captured": "2026-09-09T04:33:44Z",
       "method": "existing"
+    },
+    "https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas": {
+      "url": "https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/",
+      "wayback": "https://web.archive.org/web/20261002203827/https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/",
+      "timestamp": "20261002203827",
+      "captured": "2026-10-02T20:38:27Z",
+      "method": "save"
     },
     "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns": {
       "url": "https://www.kxii.com/2026/08/21/texoma-town-cancels-flock-camera-contract-after-residents-raise-privacy-concerns/",
@@ -6787,6 +6850,13 @@
       "timestamp": "20260816174146",
       "captured": "2026-08-16T17:41:46Z",
       "method": "existing"
+    },
+    "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3": {
+      "url": "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
+      "wayback": "https://web.archive.org/web/20261001190114/https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
+      "timestamp": "20261001190114",
+      "captured": "2026-10-01T19:01:14Z",
+      "method": "save"
     },
     "https://www.police1.com/police-products/police-technology/publicsafetysoftware/flock-safety-reveals-the-most-expansive-ai-and-data-analysis-toolset-for-law-enforcement-including-flock-nova-a-new-platform-to-transform-investigations": {
       "url": "https://www.police1.com/police-products/police-technology/publicsafetysoftware/flock-safety-reveals-the-most-expansive-ai-and-data-analysis-toolset-for-law-enforcement-including-flock-nova-a-new-platform-to-transform-investigations",
@@ -8480,6 +8550,27 @@
       "captured": "2026-09-01T11:35:34Z",
       "method": "existing"
     },
+    "https://www.wvlt.tv/2026/09/10/loudon-county-commissioner-proposes-removing-license-plate-readers-county-land": {
+      "url": "https://www.wvlt.tv/2026/09/10/loudon-county-commissioner-proposes-removing-license-plate-readers-county-land/",
+      "wayback": "https://web.archive.org/web/20260915042933/https://www.wvlt.tv/2026/09/10/loudon-county-commissioner-proposes-removing-license-plate-readers-county-land/",
+      "timestamp": "20260915042933",
+      "captured": "2026-09-15T04:29:33Z",
+      "method": "existing"
+    },
+    "https://www.wvlt.tv/2026/09/21/commissioners-discuss-future-surveillance-technology-loudon-county-including-license-plate-readers": {
+      "url": "https://www.wvlt.tv/2026/09/21/commissioners-discuss-future-surveillance-technology-loudon-county-including-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20260923014624/https://www.wvlt.tv/2026/09/21/commissioners-discuss-future-surveillance-technology-loudon-county-including-license-plate-readers/",
+      "timestamp": "20260923014624",
+      "captured": "2026-09-23T01:46:24Z",
+      "method": "existing"
+    },
+    "https://www.wvlt.tv/2026/09/22/loudon-county-weighs-rules-license-plate-reader-cameras": {
+      "url": "https://www.wvlt.tv/2026/09/22/loudon-county-weighs-rules-license-plate-reader-cameras/",
+      "wayback": "https://web.archive.org/web/20260924002118/https://www.wvlt.tv/2026/09/22/loudon-county-weighs-rules-license-plate-reader-cameras/",
+      "timestamp": "20260924002118",
+      "captured": "2026-09-24T00:21:18Z",
+      "method": "existing"
+    },
     "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton": {
       "url": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
       "wayback": "https://web.archive.org/web/20260820012535/https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
@@ -8843,34 +8934,6 @@
       "timestamp": "20260824111300",
       "captured": "2026-08-24T11:13:00Z",
       "method": "existing"
-    },
-    "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3": {
-      "url": "https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
-      "wayback": "https://web.archive.org/web/20261001190114/https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3",
-      "timestamp": "20261001190114",
-      "captured": "2026-10-01T19:01:14Z",
-      "method": "save"
-    },
-    "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/": {
-      "url": "https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
-      "wayback": "https://web.archive.org/web/20261001190431/https://newmediadetroit.com/south-lyon-votes-5-2-to-shut-down-flock-cameras-contract-will-not-be-renewed/",
-      "timestamp": "20261001190431",
-      "captured": "2026-10-01T19:04:31Z",
-      "method": "save"
-    },
-    "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html": {
-      "url": "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
-      "wayback": "https://web.archive.org/web/20261001190446/https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
-      "timestamp": "20261001190446",
-      "captured": "2026-10-01T19:04:46Z",
-      "method": "save"
-    },
-    "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/": {
-      "url": "https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
-      "wayback": "https://web.archive.org/web/20261001191034/https://www.cbsnews.com/texas/news/dallas-police-flock-cameras-status-9-30-2026/",
-      "timestamp": "20261001191034",
-      "captured": "2026-10-01T19:10:34Z",
-      "method": "save"
     }
   }
 }

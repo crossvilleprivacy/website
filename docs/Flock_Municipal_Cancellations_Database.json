@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-01",
+  "compiled": "2026-10-02",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3623,6 +3623,65 @@
       "Primary_Source_URL": "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
       "Verification_Status": "Verified local TV",
       "Incomplete_Exit_Notes": "Cameras covered and turned off. Contract decision still pending. Not a reported terminate. Michigan Lincoln Park."
+    },
+    {
+      "Case_ID": "CAN-2026-249",
+      "Jurisdiction": "Hewitt",
+      "State": "TX",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-01",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "City shut down cameras and ended the Flock agreement after state grant funding stopped",
+      "Summary": "KWTX reported October 2, 2026, that Hewitt shut down its cameras and system on October 1 and ended its agreement with Flock after the loss of grant funding tied to Gov. Abbott's pause. Camera count and hardware-removal timing were not published. Texas Hewitt.",
+      "Primary_Source_URL": "https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Agreement ended and system shut down October 1. Camera count and hardware-down not published. Texas Hewitt."
+    },
+    {
+      "Case_ID": "CAN-2026-250",
+      "Jurisdiction": "Cottonwood",
+      "State": "AZ",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-22",
+      "Camera_Count": 11,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City manager announced the ALPR contract would be canceled after cameras were shut off",
+      "Summary": "The Verde Independent / Journal reported that Cottonwood shut off its Flock cameras September 4, 2026, and that City Manager Mario Cifuentez told the council on September 22 the city is canceling the ALPR contract and ordering 11 cameras removed. Staff had covered the cameras. Mayor Ann Shaw said there was no timeline for physical removal or for when the contract paperwork would be finished. A separate Flock drone lease stays. Arizona Cottonwood.",
+      "Primary_Source_URL": "https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cameras shut off September 4 and covered. Cancel announced September 22. Physical removal and the paperwork date were not set. Drone lease stays. Arizona Cottonwood."
+    },
+    {
+      "Case_ID": "CAN-2026-251",
+      "Jurisdiction": "North Attleborough",
+      "State": "MA",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-09-28",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town Council voted 8-0 to pause cameras while a bylaw subcommittee writes local rules",
+      "Summary": "The North Star Reporter said North Attleborough Town Council voted 8-0 on September 28, 2026, to ask that ALPR cameras be shut off while officials write local rules. Town Manager Michael Borg said the next day he had directed police to stop use immediately, including data collection and sharing with other agencies. The pause stays while a bylaw subcommittee looks at retention, access, sharing, and audits. This is a pause, not a reported contract end. Massachusetts North Attleborough.",
+      "Primary_Source_URL": "https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Pause while bylaws are drafted. Not a reported contract termination. Camera count not published. Massachusetts North Attleborough."
+    },
+    {
+      "Case_ID": "CAN-2026-252",
+      "Jurisdiction": "North Kingstown",
+      "State": "RI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-08-17",
+      "Camera_Count": 6,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town Council voted 3-2 to terminate the contract; cameras later disabled",
+      "Summary": "The Independent reported that North Kingstown Town Council voted 3-2 on Monday night, August 17, 2026, to terminate the town's Flock contract and seek removal of six cameras. A later manager's report, covered October 1, said police access was shut off and the vendor was asked to remove the cameras within about 30 days. One camera on a state road at West Allenton was also asked to come down. Rhode Island North Kingstown, not South Kingstown.",
+      "Primary_Source_URL": "https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html",
+      "Secondary_Source_URL": "https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Contract terminated August 17. Access shut off by the October 1 report. Physical removal still expected. Rhode Island North Kingstown, not South Kingstown."
     }
   ]
 }

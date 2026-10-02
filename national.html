@@ -176,6 +176,7 @@
             <li><a href="#databases">Case databases</a> · <a href="#dossier-tally">Dossier tallies</a></li>
             <li><a href="#nationwide-misuse">Misuse &amp; wrongful stops</a> · <a href="#misuse-lookup">Search misuse</a> · <a href="#wrongful-lookup">Search wrongful stops</a></li>
             <li>Longer writeups:
+              <a href="#kyle-alpr-suppress">Oklahoma ALPR suppression</a> ·
               <a href="#pinellas-misuse">Pinellas County, FL</a> ·
               <a href="#hall-county-misuse">Hall County, GA</a> ·
               <a href="#flock-device-map">Flock device map</a> ·
@@ -217,6 +218,10 @@
               <a href="#racine-cancel">Racine, WI</a> ·
               <a href="#el-paso-cancel">El Paso, TX</a> ·
               <a href="#arlington-va-cancel">Arlington County, VA</a> ·
+              <a href="#hewitt-cancel">Hewitt, TX</a> ·
+              <a href="#north-kingstown-cancel">North Kingstown, RI</a> ·
+              <a href="#cottonwood-cancel">Cottonwood, AZ</a> ·
+              <a href="#north-attleborough-cancel">North Attleborough, MA</a> ·
               <a href="#dallas-tx-cancel">Dallas, TX</a> ·
               <a href="#lincoln-park-mi-cancel">Lincoln Park, MI</a> ·
               <a href="#south-lyon-cancel">South Lyon, MI</a> ·
@@ -593,7 +598,7 @@
           <a href="tennessee.html">Tennessee</a> ·
           <a href="national.html">National</a>.</p>
 
-        <div id="dossier-tally" class="dossier-tally-stack" data-tally-aria data-tally-src="docs/dossier-tallies.json" aria-label="Dossier tallies as of October 1, 2026">
+        <div id="dossier-tally" class="dossier-tally-stack" data-tally-aria data-tally-src="docs/dossier-tallies.json" aria-label="Dossier tallies as of October 2, 2026">
           <div>
             <span class="dossier-tally-row-label">Officer misuse</span>
             <div class="stats dossier-tally row-misuse" role="group" aria-label="Officer misuse tallies">
@@ -640,28 +645,28 @@
                 <span class="cap">Documented settlements awarded<br />(12 paid cases; incl. non-Flock ALPR)</span>
               </div>
               <div class="stat">
-                <span class="num"><a href="#cancel-lookup"><span data-tally="clear_exits">188</span></a></span>
+                <span class="num"><a href="#cancel-lookup"><span data-tally="clear_exits">191</span></a></span>
                 <span class="cap">Municipalities that ended Flock<br />(voted cancel / non-renew / rescind)</span>
               </div>
             </div>
           </div>
         </div>
-        <p class="dossier-tally-note">The <strong><span data-tally="misuse_count">107</span></strong> documented misuse cases are as of <time datetime="2026-10-01" data-tally-datetime="as_of_long">October 1, 2026</time>. Fired / resigned (<strong><span data-tally="fired_count">96</span></strong>), charged or arrested (<strong><span data-tally="charged_count">70</span></strong>), and convicted or sentenced (<strong><span data-tally="convicted_count">8</span></strong>) count people, not incidents, so one agency probe can add several people. Those three counts overlap: one person can be fired and charged, or charged and later convicted. A charge, arrest, or accusation is not a finding of guilt. Convicted counts a published guilty plea, no-contest plea, jury conviction, or sentence. The <strong><span data-tally="lookup_floor_display">18,590+</span></strong> personal-search figure is a <strong>minimum</strong>: it only sums the <span data-tally="lookup_rows">28</span> cases that published those counts. Most other cases do not, so the real figure is higher. It excludes wrongful-stop AI errors and the separate 2.6M+ federal / out-of-state access figure in the San Francisco / Los Altos class-action. The <strong><span data-tally="lawsuit_count">25</span></strong> wrongful-stop lawsuits are false matches, bad stops, and related damages claims. This site also documents <strong><span data-tally="constitutional_count">5</span></strong> constitutional / program challenges:
+        <p class="dossier-tally-note">The <strong><span data-tally="misuse_count">107</span></strong> documented misuse cases are as of <time datetime="2026-10-02" data-tally-datetime="as_of_long">October 2, 2026</time>. Fired / resigned (<strong><span data-tally="fired_count">96</span></strong>), charged or arrested (<strong><span data-tally="charged_count">70</span></strong>), and convicted or sentenced (<strong><span data-tally="convicted_count">8</span></strong>) count people, not incidents, so one agency probe can add several people. Those three counts overlap: one person can be fired and charged, or charged and later convicted. A charge, arrest, or accusation is not a finding of guilt. Convicted counts a published guilty plea, no-contest plea, jury conviction, or sentence. The <strong><span data-tally="lookup_floor_display">18,590+</span></strong> personal-search figure is a <strong>minimum</strong>: it only sums the <span data-tally="lookup_rows">28</span> cases that published those counts. Most other cases do not, so the real figure is higher. It excludes wrongful-stop AI errors and the separate 2.6M+ federal / out-of-state access figure in the San Francisco / Los Altos class-action. The <strong><span data-tally="lawsuit_count">25</span></strong> wrongful-stop lawsuits are false matches, bad stops, and related damages claims. This site also documents <strong><span data-tally="constitutional_count">5</span></strong> constitutional / program challenges:
           <a href="index.html#fourth">Schmidt v. Norfolk</a> (Fourth Amendment / continuous tracking; ongoing appeal),
           <a href="#wichita-flock-suit">Wichita / Grimmett</a> (Kansas Constitution challenge seeking to end the program),
           <a href="https://boulderreportinglab.org/2026/05/28/boulder-residents-sue-police-chief-over-alleged-mass-surveillance-by-flock-cameras/" target="_blank" rel="noopener">Boulder Flock class action</a> <a class="source-archive" href="https://web.archive.org/web/20260805164026/https://boulderreportinglab.org/2026/05/28/boulder-residents-sue-police-chief-over-alleged-mass-surveillance-by-flock-cameras/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-05T16:40:26Z">archived Aug. 5, 2026</time></a> (mass-surveillance challenge),
           <a href="#huntington-aclu">Huntington ACLU suit</a> (challenge to the city’s $2.1M Flock approval process), and
-          <a href="#san-jose-ij-suit">San Jose / Institute for Justice</a> (Fourth Amendment class action seeking 24-hour delete / warrant limits). Those five are <strong>not</strong> inside the wrongful-stop “<span data-tally="lawsuit_count">25</span>.” The <strong><span data-tally="settlement_display">$3.68M</span></strong> figure sums documented paid settlements ($3,679,500 across 12 cases). It includes major non-Flock ALPR settlements cited for scale (Aurora $1.9M and San Francisco $495k) and excludes open claims without a paid amount. The <strong><span data-tally="clear_exits">188</span></strong> municipal exits are cities, counties, and one campus that terminated, did not renew, rescinded, or canceled Flock before install. That leaves out <strong><span data-tally="other_cancels">60</span></strong> pauses, temporary suspensions, and similar records. The searchable table holds <strong><a href="#cancellations"><span data-tally="cancel_count">248</span></a></strong> records.</p>
+          <a href="#san-jose-ij-suit">San Jose / Institute for Justice</a> (Fourth Amendment class action seeking 24-hour delete / warrant limits). Those five are <strong>not</strong> inside the wrongful-stop “<span data-tally="lawsuit_count">25</span>.” The <strong><span data-tally="settlement_display">$3.68M</span></strong> figure sums documented paid settlements ($3,679,500 across 12 cases). It includes major non-Flock ALPR settlements cited for scale (Aurora $1.9M and San Francisco $495k) and excludes open claims without a paid amount. The <strong><span data-tally="clear_exits">191</span></strong> municipal exits are cities, counties, and one campus that terminated, did not renew, rescinded, or canceled Flock before install. That leaves out <strong><span data-tally="other_cancels">61</span></strong> pauses, temporary suspensions, and similar records. The searchable table holds <strong><a href="#cancellations"><span data-tally="cancel_count">252</span></a></strong> records.</p>
 
         <ul class="doc-list" style="margin-top:1rem;">
           <li><a href="#misuse-lookup">Officer-misuse catalog</a>
             <span class="note"><a href="docs/Flock_Safety_ALPR_Misuse_Master_Database.json">JSON</a> ·
             <a href="#misuse-lookup">searchable table</a>
-            (<strong><span data-tally="misuse_count">107</span></strong> documented cases as of <span data-tally="as_of_long">October 1, 2026</span>)</span></li>
+            (<strong><span data-tally="misuse_count">107</span></strong> documented cases as of <span data-tally="as_of_long">October 2, 2026</span>)</span></li>
             <li><a href="#cancel-lookup">Municipal cancellations catalog</a>
             <span class="note"><a href="docs/Flock_Municipal_Cancellations_Database.json">JSON</a> ·
             <a href="#cancel-lookup">searchable table</a>
-            cities that quit / suspended Flock (<strong><span data-tally="cancel_count">248</span></strong> records as of <span data-tally="as_of_long">October 1, 2026</span>)</span></li>
+            cities that quit / suspended Flock (<strong><span data-tally="cancel_count">252</span></strong> records as of <span data-tally="as_of_long">October 2, 2026</span>)</span></li>
           <li><a href="#wrongful-lookup">Wrongful-stop catalog</a> <span class="note">(ALPR / facial recognition / related tools)</span>
             <span class="note"><a href="docs/AI_Wrongful_Enforcement_Database.json">JSON</a> ·
             <a href="#wrongful-lookup">searchable table</a></span></li>
@@ -749,7 +754,7 @@
         </noscript>
 
         <h3 id="wrongful-lookup">Search wrongful-stop records</h3>
-        <p class="note"><span data-tally="wrongful_count">46</span> wrongful-stop records, including ALPR and facial-recognition cases. Search by city, technology, or ID.</p>
+        <p class="note"><span data-tally="wrongful_count">47</span> wrongful-stop records, including ALPR and facial-recognition cases. Search by city, technology, or ID.</p>
         <div
           class="audit-log-widget cancel-lookup-widget"
           data-wrongful-lookup
@@ -807,6 +812,12 @@
         <noscript>
           <p>Turn on JavaScript to search this table.</p>
         </noscript>
+
+<article data-sort-date="2026-10-01" class="case case-slim" id="kyle-alpr-suppress">
+          <h3><a href="https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener">Federal judge suppresses evidence from a warrantless Flock search; the case is not dismissed</a> <a class="source-archive" href="https://web.archive.org/web/20261002203714/https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:37:14Z">archived Oct. 2, 2026</time></a></h3>
+          <p>U.S. District Judge Sara E. Hill <a href="https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener">granted a motion to suppress</a> <a class="source-archive" href="https://web.archive.org/web/20261002203714/https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:37:14Z">archived Oct. 2, 2026</time></a> on October 1, 2026, in United States v. Kyle, No. 4:26-cr-00189-SEH, in the Northern District of Oklahoma. The order does not dismiss the case. Hill held that a Tulsa County deputy’s warrantless query of Flock and a second license-plate system, run after he saw a California plate and before the traffic stop, was a Fourth Amendment search. The opinion says that search returned more than 50 location records covering about a month, and that seeing the out-of-state plate was not probable cause. Hill suppressed evidence obtained after the deputy started that search.</p>
+          <p class="sources"><span class="source-cite-label">Sources</span> <span class="source-cite-item"><a href="https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener">storage.courtlistener.com</a> <a class="source-archive" href="https://web.archive.org/web/20261002203714/https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:37:14Z">archived Oct. 2, 2026</time></a></span> <span class="source-cite-extra">wrongful ID 47 in the <a href="#wrongful-lookup">wrongful-stop table</a></span></p>
+        </article>
 
 <article data-sort-date="2026-09-30" class="case case-slim" id="pinellas-misuse">
           <h3><a href="https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3" target="_blank" rel="noopener">Pinellas County Sheriff’s Office reported that a deputy was arrested after ALPR audits</a> <a class="source-archive" href="https://web.archive.org/web/20261001190114/https://www.pinellassheriff.gov/Contents/ContentItems/4x4ahx0dz7baq2r38qatxafkx3" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-01T19:01:14Z">archived Oct. 1, 2026</time></a></h3>
@@ -1616,7 +1627,7 @@
       <div class="wrap">
         <span class="section-label">Municipal cancellations</span>
         <h2 id="cancellations">Cities that cancelled, removed, or let Flock expire</h2>
-        <p>Cities and agencies across the country have terminated contracts, refused renewal, let agreements expire, suspended cameras, or rescinded approvals. The <a href="https://sfstandard.com/2026/05/11/flock-safety-berkeley-sanctuary-city-contract" target="_blank" rel="noopener">SF Standard</a> <a class="source-archive" href="https://web.archive.org/web/20260804040213/https://sfstandard.com/2026/05/11/flock-safety-berkeley-sanctuary-city-contract/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-04T04:02:13Z">archived Aug. 4, 2026</time></a> / Ban Flock Cameras tally cited on this page reported roughly <strong>82 ended contracts across 28 states</strong> from Aug. 2021 to May 2026. That May 2026 count is smaller and older than this site’s <strong><span data-tally="cancel_count">248</span></strong> municipal exit records.</p>
+        <p>Cities and agencies across the country have terminated contracts, refused renewal, let agreements expire, suspended cameras, or rescinded approvals. The <a href="https://sfstandard.com/2026/05/11/flock-safety-berkeley-sanctuary-city-contract" target="_blank" rel="noopener">SF Standard</a> <a class="source-archive" href="https://web.archive.org/web/20260804040213/https://sfstandard.com/2026/05/11/flock-safety-berkeley-sanctuary-city-contract/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-04T04:02:13Z">archived Aug. 4, 2026</time></a> / Ban Flock Cameras tally cited on this page reported roughly <strong>82 ended contracts across 28 states</strong> from Aug. 2021 to May 2026. That May 2026 count is smaller and older than this site’s <strong><span data-tally="cancel_count">252</span></strong> municipal exit records.</p>
         <div class="pull-card" style="margin:1.1rem 0 1.25rem;">
           <strong>Public pressure has ended contracts elsewhere, but quitting Flock is not always quitting ALPR.</strong>
           <span>In many cities, residents speaking at council helped drive cancellations. Some of those same cities then hired Axon, or shop other ALPR brands like Motorola Vigilant, Rekor, or Leonardo ELSAG, for plate readers on the same poles. That swaps the company name. It does not end mass plate scanning. Some pitches go further (Leonardo SignalTrace correlates plates with phone and Bluetooth IDs). Read
@@ -1624,7 +1635,7 @@
             <a href="flock.html#other-vendors">other vendors</a>, and
             <a href="https://www.gadgetreview.com/cities-are-ditching-flock-safety-cameras-then-hiring-axon-to-do-the-same-job" target="_blank" rel="noopener">Gadget Review: Cities Are Ditching Flock Safety Cameras - Then Hiring Axon to Do the Same Job</a> <a class="source-archive" href="https://web.archive.org/web/20260815210955/https://www.gadgetreview.com/cities-are-ditching-flock-safety-cameras-then-hiring-axon-to-do-the-same-job" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-08-15T21:09:55Z">archived Aug. 15, 2026</time></a> (July 20, 2026).</span>
         </div>
-                <p class="note"><strong><span data-tally="cancel_count">248</span></strong> municipal exit records as of <span data-tally="as_of_long">October 1, 2026</span>. <strong><span data-tally="clear_exits">188</span></strong> of those ended the contract. Search by city, state, or reason.</p>
+                <p class="note"><strong><span data-tally="cancel_count">252</span></strong> municipal exit records as of <span data-tally="as_of_long">October 2, 2026</span>. <strong><span data-tally="clear_exits">191</span></strong> of those ended the contract. Search by city, state, or reason.</p>
         <div
           class="audit-log-widget cancel-lookup-widget"
           id="cancel-lookup"
@@ -1709,7 +1720,7 @@
         <noscript>
           <p>Turn on JavaScript to search this table.</p>
         </noscript>
-        <p class="note">Ended contracts (terminated, non-renewal, rescinded, or cancelled before install) currently number <strong><span data-tally="clear_exits">188</span></strong>. The other rows are pauses, suspensions, expire / renegotiate cases, or unauthorized removals. One card per story below. Panels are ordered by <strong>newest development first</strong> (fresh stories and updates). Multi-stage cases list each beat under <strong>Developments</strong>.</p>
+        <p class="note">Ended contracts (terminated, non-renewal, rescinded, or cancelled before install) currently number <strong><span data-tally="clear_exits">191</span></strong>. The other rows are pauses, suspensions, expire / renegotiate cases, or unauthorized removals. One card per story below. Panels are ordered by <strong>newest development first</strong> (fresh stories and updates). Multi-stage cases list each beat under <strong>Developments</strong>.</p>
 
         <div class="compare stance-compare stance-compare-praise" id="officials-who-ended-flock" style="margin-block:1.15rem 1.25rem;">
           <div class="good">
@@ -1866,6 +1877,37 @@
         </div>
 
 
+
+<article data-sort-date="2026-10-01" class="case case-slim" id="hewitt-cancel">
+          <h3><a href="https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener">Hewitt, Texas, shuts down Flock after the state grant pause</a> <a class="source-archive" href="https://web.archive.org/web/20261002203827/https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:38:27Z">archived Oct. 2, 2026</time></a></h3>
+          <p><a href="https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener">KWTX</a> <a class="source-archive" href="https://web.archive.org/web/20261002203827/https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:38:27Z">archived Oct. 2, 2026</time></a> reported October 2, 2026, that Hewitt shut down its cameras and system on October 1 and ended its agreement with Flock after the loss of grant funding. Camera count and hardware removal were not published. Texas Hewitt.</p>
+          <p class="sources"><span class="source-cite-label">Sources</span> <span class="source-cite-item"><a href="https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener">kwtx.com</a> <a class="source-archive" href="https://web.archive.org/web/20261002203827/https://www.kwtx.com/2026/10/02/flock-safety-rollout-mandatory-audits-lockout-system-alpr-cameras-spark-debate-across-central-texas/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:38:27Z">archived Oct. 2, 2026</time></a></span> <span class="source-cite-extra">CAN-2026-249 in the <a href="#cancel-lookup">cancellations table</a></span></p>
+        </article>
+
+<article data-sort-date="2026-10-01" class="case case-slim" id="north-kingstown-cancel">
+          <h3><a href="https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html" target="_blank" rel="noopener">North Kingstown, Rhode Island, disables six Flock cameras after a 3–2 terminate vote</a></h3>
+          <p><a href="https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html" target="_blank" rel="noopener">The Independent</a> reported that North Kingstown Town Council voted 3–2 on Monday night, August 17, 2026, to terminate the town’s Flock contract. <a href="https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html" target="_blank" rel="noopener">A later report</a> said Town Manager Ralph Mollis told the council that police access to all six town cameras is shut off and that the vendor was asked to remove them within about 30 days. The council also asked that a camera on a state road at West Allenton come down. Rhode Island North Kingstown, not South Kingstown.</p>
+          <div class="case-developments">
+            <h4>Developments</h4>
+            <ol>
+              <li><time datetime="2026-10-01">Oct. 1, 2026</time>: The Independent reports the six cameras are disabled and removal is expected within about 30 days.</li>
+              <li><time datetime="2026-08-17">Aug. 17, 2026</time>: Town Council votes 3–2 to terminate the contract.</li>
+            </ol>
+          </div>
+          <p class="sources"><span class="source-cite-label">Sources</span> <span class="source-cite-item"><a href="https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html" target="_blank" rel="noopener">independentri.com</a> <a class="source-archive" href="https://web.archive.org/web/20261002203958/https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:39:58Z">archived Oct. 2, 2026</time></a></span> <span class="source-cite-item"><a href="https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html" target="_blank" rel="noopener">independentri.com</a> <a class="source-archive" href="https://web.archive.org/web/20260913195011/https://www.independentri.com/news/article_52a9b58b-30a3-42b5-8c9a-0c7faab8f0dc.html" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-09-13T19:50:11Z">archived Sept. 13, 2026</time></a></span> <span class="source-cite-extra">CAN-2026-252 in the <a href="#cancel-lookup">cancellations table</a></span></p>
+        </article>
+
+<article data-sort-date="2026-10-01" class="case case-slim" id="cottonwood-cancel">
+          <h3><a href="https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/" target="_blank" rel="noopener">Cottonwood, Arizona, cancels 11 Flock cameras after shutting them off</a></h3>
+          <p>The <a href="https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/" target="_blank" rel="noopener">Verde Independent / Journal</a> reported that Cottonwood shut off its Flock cameras on September 4, 2026, and that City Manager Mario Cifuentez told the council on September 22 the city is canceling the ALPR contract and ordering 11 cameras removed. Staff covered the cameras. Mayor Ann Shaw said there was no timeline for physical removal or for when the contract paperwork would be finished. A separate Flock drone lease stays.</p>
+          <p class="sources"><span class="source-cite-label">Sources</span> <span class="source-cite-item"><a href="https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/" target="_blank" rel="noopener">journalaz.com</a> <a class="source-archive" href="https://web.archive.org/web/20261002203900/https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:39:00Z">archived Oct. 2, 2026</time></a></span> <span class="source-cite-extra">CAN-2026-250 in the <a href="#cancel-lookup">cancellations table</a></span></p>
+        </article>
+
+<article data-sort-date="2026-09-30" class="case case-slim" id="north-attleborough-cancel">
+          <h3><a href="https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/" target="_blank" rel="noopener">North Attleborough, Massachusetts, pauses Flock while it writes local rules</a></h3>
+          <p>The <a href="https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/" target="_blank" rel="noopener">North Star Reporter</a> said Town Council voted 8–0 on September 28, 2026, to ask that the cameras be shut off while officials write local rules. Town Manager Michael Borg said the next day he directed police to stop use immediately, including data collection and sharing with other agencies. The pause stays while a bylaw subcommittee looks at retention, access, sharing, and audits. This is a pause, not a reported contract end. Massachusetts North Attleborough.</p>
+          <p class="sources"><span class="source-cite-label">Sources</span> <span class="source-cite-item"><a href="https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/" target="_blank" rel="noopener">northstarreporter.com</a> <a class="source-archive" href="https://web.archive.org/web/20261002203926/https://northstarreporter.com/2026/09/30/north-attleborough-halts-flock-camera-use/" target="_blank" rel="noopener" title="Wayback Machine snapshot"><time datetime="2026-10-02T20:39:26Z">archived Oct. 2, 2026</time></a></span> <span class="source-cite-extra">CAN-2026-251 in the <a href="#cancel-lookup">cancellations table</a></span></p>
+        </article>
 
 <article data-sort-date="2026-09-30" class="case case-slim" id="dallas-tx-cancel">
           <h3><a href="https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php" target="_blank" rel="noopener">Dallas grant-funded Flock cameras stay on for at least 90 more days</a> <a class="source-archive" href="https://archive.today/20260930231606/https://www.dallasnews.com/news/public-safety/article/dallas-flock-network-police-chief-ceo-meeting-22456897.php" target="_blank" rel="noopener" title="archive.today snapshot"><time datetime="2026-09-30T23:16:06Z">archived Sept. 30, 2026</time></a></h3>
