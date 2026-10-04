@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-02",
+  "compiled": "2026-10-04",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2231,7 +2231,7 @@
       "Primary_Source_URL": "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order/",
       "Secondary_Source_URL": "https://midbaynews.com/post/okaloosa-county-to-remove-all-flock-cameras-after-fdot-memo",
       "Verification_Status": "Verified local press",
-      "Incomplete_Exit_Notes": "Panhandle cluster with Franklin and neighbors. Private-property Flock cameras not covered by FDOT memo."
+      "Incomplete_Exit_Notes": "Panhandle cluster with Franklin and neighbors. Private-property Flock cameras not covered by FDOT memo. Crestview News Bulletin reported October 2, 2026, that county cameras are being removed. Crestview city is a separate contract."
     },
     {
       "Case_ID": "CAN-2026-155",
@@ -2447,15 +2447,16 @@
       "Case_ID": "CAN-2026-169",
       "Jurisdiction": "Montgomery County",
       "State": "VA",
-      "Action_Type": "Paused",
-      "Action_Date": "2026-09-03",
-      "Spotlight": "N",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-01",
+      "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Sheriff pause for policy-review committee",
-      "Summary": "The Montgomery County, Virginia, Sheriff's Office announced around September 3, 2026 that it would stop using Flock while it sets up a committee to review current Flock policies and practices, per Cardinal News. Distinct from Montgomery County elsewhere.",
-      "Primary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
-      "Verification_Status": "Verified regional press",
-      "Incomplete_Exit_Notes": "Pause for review, not a confirmed terminate. Virginia Montgomery County."
+      "Primary_Reasons": "Sheriff terminated use after a September 3 suspension and review",
+      "Summary": "WDBJ reported October 1, 2026, that Montgomery County, Virginia, Sheriff Robert Page terminated the office's use of Flock cameras. Page said he suspended use on September 3 and, after a review, decided to terminate it. He said the office will not resume until clearer standards exist, and that the decision could be revisited if the law changes. Hardware removal was not reported. Virginia Montgomery County.",
+      "Primary_Source_URL": "https://www.wdbj7.com/2026/10/01/montgomery-county-will-discontinue-use-flock-cameras/",
+      "Secondary_Source_URL": "https://cardinalnews.org/2026/09/03/at-least-a-dozen-virginia-localities-have-pulled-away-from-flock-safety-devices-since-july-lynchburg-could-be-next/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Use terminated October 1 after a September 3 suspension. Hardware-down not reported. Virginia Montgomery County."
     },
     {
       "Case_ID": "CAN-2026-170",
@@ -3682,6 +3683,93 @@
       "Secondary_Source_URL": "https://www.independentri.com/news/article_7ab6c428-312c-4546-97e9-ccf0b8bb4d64.html",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Contract terminated August 17. Access shut off by the October 1 report. Physical removal still expected. Rhode Island North Kingstown, not South Kingstown."
+    },
+    {
+      "Case_ID": "CAN-2026-253",
+      "Jurisdiction": "Hamilton County",
+      "State": "OH",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-02",
+      "Camera_Count": 75,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff's office said it is fully ending Flock use after a September pause",
+      "Summary": "WVXU reported October 2, 2026, that the Hamilton County Sheriff's Office said it is fully ending use of its 75 Flock cameras after residents raised concerns about who can see the data and how it is shared. The office said internal audits found no misuse. Sheriff Charmaine McGuffey had paused the cameras in September. Hardware removal was not reported. Ohio Hamilton County, not Hamilton County, Tennessee.",
+      "Primary_Source_URL": "https://www.wvxu.org/local-news/2026-10-02/hamilton-county-sheriffs-office-terminates-use-of-flock-cameras",
+      "Verification_Status": "Verified local public radio",
+      "Incomplete_Exit_Notes": "Office said use is fully ending. Hardware-down not reported. Ohio Hamilton County, not Hamilton County, Tennessee."
+    },
+    {
+      "Case_ID": "CAN-2026-254",
+      "Jurisdiction": "El Paso County",
+      "State": "CO",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-30",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff discontinued use immediately and sent a non-renewal notice",
+      "Summary": "The Gazette reported September 30, 2026, that the El Paso County Sheriff's Office will stop using nearly two dozen Flock cameras effective immediately, sent a non-renewal notice, and asked Flock to collect the cameras. Sheriff Joseph Roybal cited concerns about the future of the program and expected legislation. Colorado Springs uses Axon readers. Colorado El Paso County, not El Paso, Texas.",
+      "Primary_Source_URL": "https://gazette.com/2026/09/30/el-paso-county-sheriffs-office-ends-flock-contract-3/",
+      "Secondary_Source_URL": "https://krdo.com/news/2026/09/30/el-paso-county-sheriff-discontinues-contract-with-flock-safety-cameras/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Use stops immediately. Non-renewal sent. Hardware pickup requested, not confirmed. Colorado El Paso County, not El Paso, Texas."
+    },
+    {
+      "Case_ID": "CAN-2026-255",
+      "Jurisdiction": "Newburgh",
+      "State": "NY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-28",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City Council voted to end the contract and stop routine use within 14 days",
+      "Summary": "WAMC reported September 29, 2026, that Newburgh City Council passed a resolution Monday night, September 28, to discontinue routine use of Flock cameras within 14 days and to take legal steps to dissolve contracts with Flock. Camera count and hardware removal were not reported. New York Newburgh.",
+      "Primary_Source_URL": "https://www.wamc.org/news/2026-09-29/newburgh-city-council-votes-to-end-flock-contract",
+      "Verification_Status": "Verified public radio",
+      "Incomplete_Exit_Notes": "Routine use to stop within 14 days of the September 28 vote. Hardware-down not reported. New York Newburgh."
+    },
+    {
+      "Case_ID": "CAN-2026-256",
+      "Jurisdiction": "Manitowoc",
+      "State": "WI",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-29",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor said the city will not renew and asked Flock to remove the cameras",
+      "Summary": "Sheboygan's Country B93 reported September 29, 2026, that Mayor Justin Nickels said Manitowoc will not renew its Flock contract when it expires early next year and asked Flock to remove the cameras. The city had deactivated them earlier in September. Camera count was not published. Wisconsin Manitowoc.",
+      "Primary_Source_URL": "https://b93radio.com/2026/09/29/manitowoc-joins-communities-cutting-flock-contracts-2/",
+      "Verification_Status": "Verified local radio",
+      "Incomplete_Exit_Notes": "Cameras deactivated earlier in September. Contract runs until early next year. Removal requested, not confirmed. Wisconsin Manitowoc."
+    },
+    {
+      "Case_ID": "CAN-2026-257",
+      "Jurisdiction": "Manawa",
+      "State": "WI",
+      "Action_Type": "Pre-install cancel",
+      "Action_Date": "2026-09-28",
+      "Camera_Count": 0,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council authorized the city attorney to cancel before cameras were installed",
+      "Summary": "TCH Daily News reported that Manawa Common Council voted unanimously September 28, 2026, to authorize the city attorney to cancel the Flock contract. Police Chief Jason Severson said he no longer trusted the company's data practices. The cameras had not been installed, and police said no searches were run during onboarding. Wisconsin Manawa.",
+      "Primary_Source_URL": "https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Contract cancel authorized before install. No cameras were up. Wisconsin Manawa."
+    },
+    {
+      "Case_ID": "CAN-2026-258",
+      "Jurisdiction": "Crestview",
+      "State": "FL",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-02",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Police department said the city canceled and cameras are being removed",
+      "Summary": "The Crestview News Bulletin reported October 2, 2026, that the Crestview Police Department and the Okaloosa County Sheriff's Office said both the city and the county have canceled their Flock contracts and that the cameras are being removed. The city's decision date and camera count were not published. Okaloosa County is a separate row. Florida Crestview.",
+      "Primary_Source_URL": "https://crestviewbulletin.com/flock-cameras-are-coming-down-in-crestview-okaloosa-county/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "City and county both reported as canceled, with removal in process. City decision date and camera count not published. Okaloosa County is separate. Florida Crestview."
     }
   ]
 }

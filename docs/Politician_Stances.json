@@ -1,9 +1,9 @@
 {
   "note": "Documented public statements and votes on Flock / ALPRs. Not a Case_ID catalog. Incomplete on purpose. Hedge rows are not bans.",
-  "as_of": "2026-09-25",
-  "as_of_long": "September 25, 2026",
-  "as_of_short": "Sept. 25, 2026",
-  "record_count": 78,
+  "as_of": "2026-10-04",
+  "as_of_long": "October 4, 2026",
+  "as_of_short": "Oct. 4, 2026",
+  "record_count": 80,
   "records": [
     {
       "Slug": "donald-trump",
@@ -26,10 +26,36 @@
       "Party": "I",
       "Level": "federal",
       "Stance": "ban",
-      "Date": "2026-08-18",
-      "What": "Posted “STOP AI MASS SURVEILLANCE. STOP FLOCK.” No Senate ban bill in Aug. 20 Washington Times reporting.",
-      "Writeup": "national.html#langley-fox-compromise",
-      "Source_URL": "https://x.com/SenSanders/status/2089716977442926842"
+      "Date": "2026-10-02",
+      "What": "With Sen. Jeff Merkley and Rep. Alexandria Ocasio-Cortez, released the Ban Flock Act on Oct. 2, 2026. The release says it would bar federal agencies from using automatic license-plate readers or their data, block some federal grants to governments that use them, and allow suits against the federal government. Introduced bill, not a statute. August 18 post: “STOP FLOCK.”",
+      "Writeup": "national.html#ban-flock-act",
+      "Source_URL": "https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans"
+    },
+    {
+      "Slug": "jeff-merkley",
+      "Name": "Jeff Merkley",
+      "Office": "U.S. Senate (D-Ore.)",
+      "State": "OR",
+      "Party": "D",
+      "Level": "federal",
+      "Stance": "ban",
+      "Date": "2026-10-02",
+      "What": "With Sen. Bernie Sanders and Rep. Alexandria Ocasio-Cortez, released the Ban Flock Act on Oct. 2, 2026. The release says it would bar federal agencies from using automatic license-plate readers or their data and block some federal grants to governments that use them. Introduced bill, not a statute.",
+      "Writeup": "national.html#ban-flock-act",
+      "Source_URL": "https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans"
+    },
+    {
+      "Slug": "alexandria-ocasio-cortez",
+      "Name": "Alexandria Ocasio-Cortez",
+      "Office": "U.S. House, New York 14th District",
+      "State": "NY",
+      "Party": "D",
+      "Level": "federal",
+      "Stance": "ban",
+      "Date": "2026-10-02",
+      "What": "With Sens. Bernie Sanders and Jeff Merkley, released the Ban Flock Act on Oct. 2, 2026. The release says it would bar federal agencies from using automatic license-plate readers or their data and block some federal grants to governments that use them. Introduced bill, not a statute.",
+      "Writeup": "national.html#ban-flock-act",
+      "Source_URL": "https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans"
     },
     {
       "Slug": "tim-burchett",
@@ -143,10 +169,10 @@
       "Party": "R",
       "Level": "federal",
       "Stance": "restrict",
-      "Date": "2026-09-23",
-      "What": "Opened a Senate investigation in August 2026 and held the Sept. 23 hearing “Always Watching.” In his opening he said Flock’s own figures are about 120,000 cameras and 20 billion images a month, and that Flock admitted in a letter that users could search for images that include people. He invited the Flock, Axon, Motorola, and Verkada CEOs. They are not on the published witness list.",
-      "Writeup": "officials.html#josh-hawley",
-      "Source_URL": "https://www.judiciary.senate.gov/committee-activity/hearings/always-watching-flocks-nationwide-ai-surveillance-network"
+      "Date": "2026-09-30",
+      "What": "On Sept. 30, 2026, announced he will introduce the Stop Flock Abuse Act. His office said it would require written search approval, audit logs, encrypted U.S.-only storage, deletion of driver data after ten days except for active investigations, and bans on selling the data, foreign-adversary hardware, and facial recognition on the networks. Announced bill, not a statute. He held the Sept. 23 hearing “Always Watching.”",
+      "Writeup": "national.html#hawley-stop-flock-act",
+      "Source_URL": "https://www.hawley.senate.gov/hawley-to-introduce-stop-flock-abuse-act-establishing-safeguards-for-ai-powered-cameras/"
     },
     {
       "Slug": "raphael-warnock",

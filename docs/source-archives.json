@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-02",
-  "count": 1277,
-  "source_count": 1277,
+  "as_of": "2026-10-04",
+  "count": 1290,
+  "source_count": 1290,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -277,6 +277,13 @@
       "captured": "2026-08-15T12:58:38Z",
       "method": "existing"
     },
+    "https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras": {
+      "url": "https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261003080111/https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/",
+      "timestamp": "20261003080111",
+      "captured": "2026-10-03T08:01:11Z",
+      "method": "existing"
+    },
     "https://assets.aclu.org/live/uploads/2024/12/Automated-Police-Reports-1291.pdf": {
       "url": "https://assets.aclu.org/live/uploads/2024/12/Automated-Police-Reports-1291.pdf",
       "wayback": "https://web.archive.org/web/20260629024139/https://assets.aclu.org/live/uploads/2024/12/Automated-Police-Reports-1291.pdf",
@@ -353,6 +360,13 @@
       "timestamp": "20260817114650",
       "captured": "2026-08-17T11:46:50Z",
       "method": "save"
+    },
+    "https://b93radio.com/2026/09/29/manitowoc-joins-communities-cutting-flock-contracts-2": {
+      "url": "https://b93radio.com/2026/09/29/manitowoc-joins-communities-cutting-flock-contracts-2/",
+      "wayback": "https://web.archive.org/web/20260929190229/https://b93radio.com/2026/09/29/manitowoc-joins-communities-cutting-flock-contracts-2/",
+      "timestamp": "20260929190229",
+      "captured": "2026-09-29T19:02:29Z",
+      "method": "existing"
     },
     "https://ballotpedia.org/Tony_Crisp": {
       "url": "https://ballotpedia.org/Tony_Crisp",
@@ -674,6 +688,13 @@
       "timestamp": "20260816171025",
       "captured": "2026-08-16T17:10:25Z",
       "method": "save"
+    },
+    "https://crestviewbulletin.com/flock-cameras-are-coming-down-in-crestview-okaloosa-county": {
+      "url": "https://crestviewbulletin.com/flock-cameras-are-coming-down-in-crestview-okaloosa-county/",
+      "wayback": "https://web.archive.org/web/20261003082933/https://crestviewbulletin.com/flock-cameras-are-coming-down-in-crestview-okaloosa-county/",
+      "timestamp": "20261003082933",
+      "captured": "2026-10-03T08:29:33Z",
+      "method": "existing"
     },
     "https://crimewatch.net/us/va/culpeper-county/culpeper-pd/117322/post/culpeper-police-begin-using-high-tech-license-plate-reading-cameras": {
       "url": "https://crimewatch.net/us/va/culpeper-county/culpeper-pd/117322/post/culpeper-police-begin-using-high-tech-license-plate-reading-cameras",
@@ -1333,6 +1354,13 @@
       "captured": "2026-08-04T22:43:05Z",
       "method": "existing"
     },
+    "https://gazette.com/2026/09/30/el-paso-county-sheriffs-office-ends-flock-contract-3": {
+      "url": "https://gazette.com/2026/09/30/el-paso-county-sheriffs-office-ends-flock-contract-3/",
+      "wayback": "https://web.archive.org/web/20261002085508/https://gazette.com/2026/09/30/el-paso-county-sheriffs-office-ends-flock-contract-3/",
+      "timestamp": "20261002085508",
+      "captured": "2026-10-02T08:55:08Z",
+      "method": "existing"
+    },
     "https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges": {
       "url": "https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges",
       "wayback": "https://web.archive.org/web/20260615133511/https://gbi.georgia.gov/press-releases/2026-01-07/former-echols-county-sheriffs-office-employee-arrested-multiple-charges",
@@ -1743,6 +1771,13 @@
       "wayback": "https://web.archive.org/web/20260820195113/https://krcgtv.com/news/local/pulaski-county-sheriffs-office-to-discontinue-flock-safety-cameras",
       "timestamp": "20260820195113",
       "captured": "2026-08-20T19:51:13Z",
+      "method": "existing"
+    },
+    "https://krdo.com/news/2026/09/30/el-paso-county-sheriff-discontinues-contract-with-flock-safety-cameras": {
+      "url": "https://krdo.com/news/2026/09/30/el-paso-county-sheriff-discontinues-contract-with-flock-safety-cameras/",
+      "wayback": "https://web.archive.org/web/20261001155129/https://krdo.com/news/2026/09/30/el-paso-county-sheriff-discontinues-contract-with-flock-safety-cameras/",
+      "timestamp": "20261001155129",
+      "captured": "2026-10-01T15:51:29Z",
       "method": "existing"
     },
     "https://kstp.com/kstp-news/local-news/sherburne-county-ends-flock-camera-program-over-public-concerns": {
@@ -2156,6 +2191,13 @@
       "wayback": "https://web.archive.org/web/20260729184045/https://oaklandside.org/2026/03/23/alameda-county-sheriff-flock-safety-license-plate-camera-thieves/",
       "timestamp": "20260729184045",
       "captured": "2026-07-29T18:40:45Z",
+      "method": "existing"
+    },
+    "https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans": {
+      "url": "https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans",
+      "wayback": "https://web.archive.org/web/20261004044529/https://ocasio-cortez.house.gov/media/press-releases/news-ocasio-cortez-sanders-merkley-unveil-ban-flock-act-protect-americans",
+      "timestamp": "20261004044529",
+      "captured": "2026-10-04T04:45:29Z",
       "method": "existing"
     },
     "https://ovd.news/": {
@@ -5557,6 +5599,13 @@
       "captured": "2026-08-27T12:10:56Z",
       "method": "existing"
     },
+    "https://www.hawley.senate.gov/hawley-to-introduce-stop-flock-abuse-act-establishing-safeguards-for-ai-powered-cameras": {
+      "url": "https://www.hawley.senate.gov/hawley-to-introduce-stop-flock-abuse-act-establishing-safeguards-for-ai-powered-cameras/",
+      "wayback": "https://web.archive.org/web/20261003072656/https://www.hawley.senate.gov/hawley-to-introduce-stop-flock-abuse-act-establishing-safeguards-for-ai-powered-cameras/",
+      "timestamp": "20261003072656",
+      "captured": "2026-10-03T07:26:56Z",
+      "method": "existing"
+    },
     "https://www.hcnews.com/stories/commissioners-vote-to-block-flock-surveillance-cameras,121697": {
       "url": "https://www.hcnews.com/stories/commissioners-vote-to-block-flock-surveillance-cameras,121697",
       "wayback": "https://web.archive.org/web/20260419033433/https://www.hcnews.com/stories/commissioners-vote-to-block-flock-surveillance-cameras,121697",
@@ -7207,6 +7256,13 @@
       "timestamp": "20260812125537",
       "captured": "2026-08-12T12:55:37Z"
     },
+    "https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns": {
+      "url": "https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns/",
+      "wayback": "https://web.archive.org/web/20261003194602/https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns/",
+      "timestamp": "20261003194602",
+      "captured": "2026-10-03T19:46:02Z",
+      "method": "existing"
+    },
     "https://www.techdirt.com/2023/11/17/surveillance-tech-companies-are-writing-press-releases-for-cops-worse-news-agencies-are-publishing-them": {
       "url": "https://www.techdirt.com/2023/11/17/surveillance-tech-companies-are-writing-press-releases-for-cops-worse-news-agencies-are-publishing-them/",
       "wayback": "https://web.archive.org/web/20251020120556/https://www.techdirt.com/2023/11/17/surveillance-tech-companies-are-writing-press-releases-for-cops-worse-news-agencies-are-publishing-them/",
@@ -7283,6 +7339,13 @@
       "timestamp": "20260918013435",
       "captured": "2026-09-18T01:34:35Z",
       "method": "archive.today"
+    },
+    "https://www.texastribune.org/2026/09/24/texas-flock-cameras-state-funding-local-cities-counties-reaction": {
+      "url": "https://www.texastribune.org/2026/09/24/texas-flock-cameras-state-funding-local-cities-counties-reaction/",
+      "wayback": "https://web.archive.org/web/20261004002239/https://www.texastribune.org/2026/09/24/texas-flock-cameras-state-funding-local-cities-counties-reaction/",
+      "timestamp": "20261004002239",
+      "captured": "2026-10-04T00:22:39Z",
+      "method": "existing"
     },
     "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html": {
       "url": "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html",
@@ -7599,6 +7662,13 @@
       "captured": "2026-09-03T01:45:47Z",
       "method": "existing"
     },
+    "https://www.wamc.org/news/2026-09-29/newburgh-city-council-votes-to-end-flock-contract": {
+      "url": "https://www.wamc.org/news/2026-09-29/newburgh-city-council-votes-to-end-flock-contract",
+      "wayback": "https://web.archive.org/web/20261001185426/https://www.wamc.org/news/2026-09-29/newburgh-city-council-votes-to-end-flock-contract",
+      "timestamp": "20261001185426",
+      "captured": "2026-10-01T18:54:26Z",
+      "method": "existing"
+    },
     "https://www.washingtonexaminer.com/news/white-house/4726568/trump-support-flock-cameras-i-like-them": {
       "url": "https://www.washingtonexaminer.com/news/white-house/4726568/trump-support-flock-cameras-i-like-them/",
       "wayback": "https://web.archive.org/web/20260915061126/https://www.washingtonexaminer.com/news/white-house/4726568/trump-support-flock-cameras-i-like-them/",
@@ -7611,6 +7681,13 @@
       "wayback": "https://web.archive.org/web/20260724220800/https://www.washingtonpost.com/business/interactive/2025/police-artificial-intelligence-facial-recognition/",
       "timestamp": "20260724220800",
       "captured": "2026-07-24T22:08:00Z",
+      "method": "existing"
+    },
+    "https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner": {
+      "url": "https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/",
+      "wayback": "https://web.archive.org/web/20261003080109/https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/",
+      "timestamp": "20261003080109",
+      "captured": "2026-10-03T08:01:09Z",
       "method": "existing"
     },
     "https://www.washingtonpost.com/technology/2026/08/02/how-police-officers-used-vast-network-cameras-spy-their-exes": {
@@ -7848,6 +7925,13 @@
       "wayback": "https://web.archive.org/web/20260905115817/https://www.wdbj7.com/2026/09/01/wythe-county-ends-use-flock-cameras/",
       "timestamp": "20260905115817",
       "captured": "2026-09-05T11:58:17Z",
+      "method": "existing"
+    },
+    "https://www.wdbj7.com/2026/10/01/montgomery-county-will-discontinue-use-flock-cameras": {
+      "url": "https://www.wdbj7.com/2026/10/01/montgomery-county-will-discontinue-use-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261003092227/https://www.wdbj7.com/2026/10/01/montgomery-county-will-discontinue-use-flock-cameras/",
+      "timestamp": "20261003092227",
+      "captured": "2026-10-03T09:22:27Z",
       "method": "existing"
     },
     "https://www.wdef.com/hcso-pauses-flock-lpr-and-motorola-lpr-programs": {
@@ -8576,6 +8660,13 @@
       "wayback": "https://web.archive.org/web/20260820012535/https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
       "timestamp": "20260820012535",
       "captured": "2026-08-20T01:25:35Z",
+      "method": "existing"
+    },
+    "https://www.wvxu.org/local-news/2026-10-02/hamilton-county-sheriffs-office-terminates-use-of-flock-cameras": {
+      "url": "https://www.wvxu.org/local-news/2026-10-02/hamilton-county-sheriffs-office-terminates-use-of-flock-cameras",
+      "wayback": "https://web.archive.org/web/20261003183205/https://www.wvxu.org/local-news/2026-10-02/hamilton-county-sheriffs-office-terminates-use-of-flock-cameras",
+      "timestamp": "20261003183205",
+      "captured": "2026-10-03T18:32:05Z",
       "method": "existing"
     },
     "https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program": {
