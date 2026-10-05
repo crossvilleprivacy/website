@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-04",
+  "compiled": "2026-10-05",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3770,6 +3770,51 @@
       "Primary_Source_URL": "https://crestviewbulletin.com/flock-cameras-are-coming-down-in-crestview-okaloosa-county/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "City and county both reported as canceled, with removal in process. City decision date and camera count not published. Okaloosa County is separate. Florida Crestview."
+    },
+    {
+      "Case_ID": "CAN-2026-259",
+      "Jurisdiction": "Milwaukee County",
+      "State": "WI",
+      "Action_Type": "Removal ordered",
+      "Action_Date": "2026-10-01",
+      "Camera_Count": 42,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "County board ordered Flock cameras off parkland by the end of 2026",
+      "Summary": "Urban Milwaukee reported that the Milwaukee County Board voted 16-0 on October 1, 2026, to direct removal of Flock cameras from county parkland. The paper said 42 Flock cameras sit in 11 parks. The sheriff's office operates most of them, including 25 plate readers and six Condor cameras. WTMJ reported the cameras must come down by the end of 2026. Six other Flock cameras on county roads, and cameras run by city police, are outside that parks vote. The sheriff's office opposed the resolution. County Executive David Crowley left Flock out of his 2027 budget proposal. Wisconsin Milwaukee County parks, not a citywide Milwaukee Police exit.",
+      "Primary_Source_URL": "https://urbanmilwaukee.com/2026/10/03/mke-county-supervisors-pass-flock-ban/",
+      "Secondary_Source_URL": "https://wtmj.com/news/2026/10/01/flock-cameras-to-come-down-in-milwaukee-county-parks/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Removal ordered from county parks, due by the end of 2026. Cameras were still up when the board voted. Conventional replacements were authorized; funding was not set. Not a citywide Milwaukee Police exit."
+    },
+    {
+      "Case_ID": "CAN-2026-260",
+      "Jurisdiction": "Fort Myers Beach",
+      "State": "FL",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-01",
+      "Camera_Count": 6,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town council canceled the contract; the town said the six cameras are deactivated",
+      "Summary": "The Fort Myers Beach Observer reported October 1, 2026, that the town council voted the prior month to cancel its contract for six Flock cameras. Town manager Will McKannay asked for the cancel because the town pays for the cameras and does not operate them. The town public information officer said the cameras are deactivated and that the town was waiting on a removal date. A Lee County sheriff's commander said the sheriff's office does not own or remove the town's cameras. The vote day in September was not published. Florida Fort Myers Beach.",
+      "Primary_Source_URL": "https://www.fortmyersbeachtalk.com/news/community-news/2026/10/flock-safety-license-plater-reader-cameras-removed-from-fort-myers-beach-bridges/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Contract canceled and the town said the six cameras are deactivated. Physical removal was not confirmed. The sheriff's office said it does not remove the town's cameras. September vote day not published."
+    },
+    {
+      "Case_ID": "CAN-2026-261",
+      "Jurisdiction": "Edgewood",
+      "State": "KY",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-09-03",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor paused the cameras for a review before an October 5 council discussion",
+      "Summary": "WLWT reported that Mayor John Link said Edgewood paused its Flock cameras. Link called the pause temporary and said it is a review of how the cameras are used, not a decision to drop them. He said Flock would not go on a council agenda until October 5, 2026. No vote from that meeting is in this report. Kentucky Edgewood, in Kenton County.",
+      "Primary_Source_URL": "https://www.wlwt.com/article/edgewood-kentucky-flock-cameras-pause-city-council-residents/73606250",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Pause for review. Mayor said it is not a decision to drop the technology. Contract still in place. October 5 council discussion had no published outcome in this report."
     }
   ]
 }
