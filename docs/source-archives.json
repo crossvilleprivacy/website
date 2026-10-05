@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-10-05",
-  "count": 1295,
-  "source_count": 1295,
+  "count": 1301,
+  "source_count": 1301,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2562,6 +2562,13 @@
       "wayback": "https://web.archive.org/web/20260716222832/https://stateofsurveillance.org/news/flock-safety-rebellion-cities-canceling-federal-access-2026/",
       "timestamp": "20260716222832",
       "captured": "2026-07-16T22:28:32Z",
+      "method": "existing"
+    },
+    "https://stephenhalbrook.com/lawsuits/Nagin/nagin_permanent_injunction.pdf": {
+      "url": "https://stephenhalbrook.com/lawsuits/Nagin/nagin_permanent_injunction.pdf",
+      "wayback": "https://web.archive.org/web/20260413200451/https://stephenhalbrook.com/lawsuits/Nagin/nagin_permanent_injunction.pdf",
+      "timestamp": "20260413200451",
+      "captured": "2026-04-13T20:04:51Z",
       "method": "existing"
     },
     "https://steube.house.gov/wp-content/uploads/2026/09/FLAFO-Act.pdf": {
@@ -6333,6 +6340,13 @@
       "captured": "2026-08-12T02:43:13Z",
       "method": "existing"
     },
+    "https://www.law.cornell.edu/uscode/text/42/5207": {
+      "url": "https://www.law.cornell.edu/uscode/text/42/5207",
+      "wayback": "https://web.archive.org/web/20260617023010/https://www.law.cornell.edu/uscode/text/42/5207",
+      "timestamp": "20260617023010",
+      "captured": "2026-06-17T02:30:10Z",
+      "method": "existing"
+    },
     "https://www.leonardocompany-us.com/lpr/elsag-signaltrace": {
       "url": "https://www.leonardocompany-us.com/lpr/elsag-signaltrace",
       "wayback": "https://web.archive.org/web/20260812121835/https://www.leonardocompany-us.com/lpr/elsag-signaltrace",
@@ -6620,6 +6634,13 @@
       "captured": "2026-09-01T14:55:13Z",
       "method": "existing"
     },
+    "https://www.nbcnews.com/id/wbna27087738": {
+      "url": "https://www.nbcnews.com/id/wbna27087738",
+      "wayback": "https://web.archive.org/web/20260923095954/https://www.nbcnews.com/id/wbna27087738",
+      "timestamp": "20260923095954",
+      "captured": "2026-09-23T09:59:54Z",
+      "method": "existing"
+    },
     "https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246": {
       "url": "https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246",
       "wayback": "https://web.archive.org/web/20260218213513/https://www.nbcnews.com/news/us-news/louisiana-pastor-charged-defying-coronavirus-order-against-large-gatherings-n1173246",
@@ -6809,6 +6830,13 @@
       "captured": "2026-08-03T19:23:08Z",
       "method": "existing"
     },
+    "https://www.nraila.org/grassroots-alerts/grassroots-alert?id=1809": {
+      "url": "https://www.nraila.org/grassroots-alerts/grassroots-alert/?id=1809",
+      "wayback": "https://web.archive.org/web/20180329182303/https://www.nraila.org/grassroots-alerts/grassroots-alert/?id=1809",
+      "timestamp": "20180329182303",
+      "captured": "2018-03-29T18:23:03Z",
+      "method": "existing"
+    },
     "https://www.nrtoday.com/news/winston-police-department-cancels-contract-with-flock-safety-amid-budgetary-constraints/article_3043ea96-0d9b-4c5a-9d01-0fab1c3b30e8.html": {
       "url": "https://www.nrtoday.com/news/winston-police-department-cancels-contract-with-flock-safety-amid-budgetary-constraints/article_3043ea96-0d9b-4c5a-9d01-0fab1c3b30e8.html",
       "wayback": "https://web.archive.org/web/20260819145420/https://www.nrtoday.com/news/winston-police-department-cancels-contract-with-flock-safety-amid-budgetary-constraints/article_3043ea96-0d9b-4c5a-9d01-0fab1c3b30e8.html",
@@ -6856,6 +6884,13 @@
       "wayback": "https://web.archive.org/web/20260421105749/https://www.nysenate.gov/legislation/bills/2025/S9890",
       "timestamp": "20260421105749",
       "captured": "2026-04-21T10:57:49Z",
+      "method": "existing"
+    },
+    "https://www.nytimes.com/2005/09/09/us/nationalspecial/police-begin-seizing-guns-of-civilians.html": {
+      "url": "https://www.nytimes.com/2005/09/09/us/nationalspecial/police-begin-seizing-guns-of-civilians.html",
+      "wayback": "https://web.archive.org/web/20260923075529/https://www.nytimes.com/2005/09/09/us/nationalspecial/police-begin-seizing-guns-of-civilians.html",
+      "timestamp": "20260923075529",
+      "captured": "2026-09-23T07:55:29Z",
       "method": "existing"
     },
     "https://www.nytimes.com/2019/07/26/technology/hong-kong-protests-facial-recognition-surveillance.html": {
@@ -7738,6 +7773,13 @@
       "timestamp": "20260923235955",
       "captured": "2026-09-23T23:59:55Z",
       "method": "archive.today"
+    },
+    "https://www.washingtonpost.com/wp-dyn/content/article/2005/09/08/AR2005090802089.html": {
+      "url": "https://www.washingtonpost.com/wp-dyn/content/article/2005/09/08/AR2005090802089.html",
+      "wayback": "https://web.archive.org/web/20250418034523/http://www.washingtonpost.com/wp-dyn/content/article/2005/09/08/AR2005090802089.html",
+      "timestamp": "20250418034523",
+      "captured": "2025-04-18T03:45:23Z",
+      "method": "existing"
     },
     "https://www.washingtontimes.com/news/2026/aug/20/congress-talks-tough-flock-cameras-no-bill-would-ban-outright": {
       "url": "https://www.washingtontimes.com/news/2026/aug/20/congress-talks-tough-flock-cameras-no-bill-would-ban-outright/",
