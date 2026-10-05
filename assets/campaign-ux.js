@@ -1470,6 +1470,7 @@
     initVideoFacades(doc);
     initStickyHashScroll(doc);
     initPinnedHeader(doc);
+    watchStickyHeader(doc);
     initThemeToggle(doc);
     hardenNativeSelects(doc);
   }
@@ -1636,6 +1637,31 @@
         : 0;
     root.style.setProperty("--renewal-banner-h", "0px");
     root.style.setProperty("--site-header-h", hh + "px");
+  }
+
+  function watchStickyHeader(doc) {
+    doc = doc || (typeof document !== "undefined" ? document : null);
+    if (!doc || !doc.querySelector) {
+      return null;
+    }
+    var header = doc.querySelector(".site-header");
+    if (!header || header.getAttribute("data-sticky-watched") === "1") {
+      return null;
+    }
+    header.setAttribute("data-sticky-watched", "1");
+    function sync() {
+      syncStickyOffsets(doc);
+    }
+    if (typeof ResizeObserver === "function") {
+      var observer = new ResizeObserver(sync);
+      observer.observe(header);
+    }
+    var fonts = doc.fonts;
+    if (fonts && fonts.ready && typeof fonts.ready.then === "function") {
+      fonts.ready.then(sync);
+    }
+    sync();
+    return { sync: sync };
   }
 
   function isHiddenHashTarget(el) {
@@ -2245,6 +2271,7 @@
     idFromHash: idFromHash,
     stickyChromePx: stickyChromePx,
     syncStickyOffsets: syncStickyOffsets,
+    watchStickyHeader: watchStickyHeader,
     hashScrollY: hashScrollY,
     isHiddenHashTarget: isHiddenHashTarget,
     resolveHashRedirect: resolveHashRedirect,

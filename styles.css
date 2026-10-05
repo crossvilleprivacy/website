@@ -133,7 +133,10 @@ html {
 
 body {
   margin: 0;
-  padding-top: var(--site-header-h);
+  /* Header is sticky, so it already takes its own height. A padding-top
+     spacer left the election banner tucked under the nav on pages that
+     do not also have the meeting banner. */
+  padding-top: 0;
   width: 100%;
   max-width: 100%;
   background:
@@ -642,7 +645,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
 
 /* Header */
 .site-header {
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   left: 0;
