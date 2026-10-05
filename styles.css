@@ -229,6 +229,7 @@ p {
 
 main,
 .renewal-banner,
+.election-banner,
 .site-footer {
   max-width: 100%;
   overflow-x: clip;
@@ -514,6 +515,129 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="
 .renewal-banner.is-passed {
   background: linear-gradient(105deg, #1a1205 0%, #4a2c00 50%, #8b4500 100%);
   border-bottom-color: #ffb020;
+}
+
+.election-banner {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(105deg, #10141c 0%, #1a2433 55%, #243044 100%);
+  color: #f4f7fb;
+  border-bottom: 3px solid #7eb6ff;
+}
+
+.election-banner-inner {
+  width: min(100%, var(--wide));
+  margin-inline: auto;
+  padding: 0.7rem 1rem 0.8rem;
+  box-sizing: border-box;
+}
+
+.election-banner-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.2rem 0.75rem;
+  margin: 0 0 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.election-banner-topic {
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-weight: 650;
+  color: #f4f7fb;
+}
+
+.election-banner-kicker a {
+  color: #b9d4ff;
+  text-decoration: none;
+}
+
+.election-banner-kicker a:hover,
+.election-banner-kicker a:focus-visible {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.election-banner-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.4rem;
+  margin: 0;
+}
+
+.election-banner-line a {
+  display: inline-block;
+  padding: 0.18rem 0.45rem;
+  border: 1px solid rgba(185, 212, 255, 0.35);
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.22);
+  color: #f4f7fb;
+  font-size: 0.84rem;
+  font-weight: 650;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.election-banner-line a strong {
+  font-weight: 750;
+  color: #d6e6ff;
+}
+
+.election-banner-line a.is-opposed {
+  border-color: #86efac;
+  background: rgba(134, 239, 172, 0.16);
+}
+
+.election-banner-line a.is-opposed strong {
+  color: #86efac;
+}
+
+.election-banner-line a.is-unsettled {
+  border-color: #ffd166;
+  background: rgba(255, 209, 102, 0.14);
+}
+
+.election-banner-line a.is-unsettled strong {
+  color: #ffd166;
+}
+
+.election-banner-line a.is-silent {
+  border-color: #ff8a7a;
+  background: rgba(255, 107, 90, 0.18);
+}
+
+.election-banner-line a.is-silent strong {
+  color: #ff8a7a;
+}
+
+.election-banner-line a:hover,
+.election-banner-line a:focus-visible {
+  color: #fff;
+  border-color: #fff;
+  outline: none;
+}
+
+.election-banner-ask {
+  margin: 0.45rem 0 0;
+  font-size: 0.92rem;
+  font-weight: 650;
+  line-height: 1.35;
+}
+
+.election-banner-ask a {
+  color: #ff8a7a;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.election-banner-ask a:hover,
+.election-banner-ask a:focus-visible {
+  color: #fff;
 }
 
 /* Header */
@@ -4024,6 +4148,23 @@ body.sticky-cta-is-dismissed {
   .renewal-cta,
   a.btn.renewal-cta {
     display: none;
+  }
+
+  .election-banner-inner {
+    padding: 0.55rem 0.85rem 0.65rem;
+  }
+
+  .election-banner-kicker {
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+  }
+
+  .election-banner-line a {
+    font-size: 0.78rem;
+  }
+
+  .election-banner-ask {
+    font-size: 0.84rem;
   }
 
   .renewal-place {

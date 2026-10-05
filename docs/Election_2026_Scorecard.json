@@ -1,8 +1,8 @@
 {
   "note": "Local 2026 Flock / ALPR positions. Quotes only. Not an endorsement. Not a Case_ID catalog.",
-  "as_of": "2026-09-18",
-  "as_of_long": "September 18, 2026",
-  "as_of_short": "Sept. 18, 2026",
+  "as_of": "2026-10-05",
+  "as_of_long": "October 5, 2026",
+  "as_of_short": "Oct. 5, 2026",
   "record_count": 26,
   "ask_note": "The site’s admin asked every Crossville City Council candidate for a public Flock position. Two wordings were used: city_question by email (short form optional), and city_question_oneliner by text.",
   "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and enact a full city ban on Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require a voter referendum (same idea as Crossville’s water referendum) before the city may ever bring those tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for you to support that?",
@@ -19,7 +19,9 @@
       "Incumbent": true,
       "Sort": 1,
       "Stance": "no_answer",
-      "Answer": "Has not published a 2026 Flock or license-plate-reader position.",
+      "Asked": "Written ask by email, sent more than once to the address he listed with the Cumberland County Election Commission.",
+      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. He has not given a Flock or license-plate-reader position.",
+      "Source_Label": "Emails to the address on his Election Commission filing. No reply as of Oct. 5, 2026.",
       "Email": "mike.turner@crossvilletn.gov"
     },
     {
@@ -31,7 +33,9 @@
       "Incumbent": false,
       "Sort": 2,
       "Stance": "no_answer",
-      "Answer": "Has not published a Flock or license-plate-reader position."
+      "Asked": "Written ask by email, sent more than once to the address he listed with the Cumberland County Election Commission.",
+      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. He has not given a Flock or license-plate-reader position.",
+      "Source_Label": "Emails to the address on his Election Commission filing. No reply as of Oct. 5, 2026."
     },
     {
       "Slug": "robbie-poore",
@@ -94,7 +98,9 @@
       "Incumbent": false,
       "Sort": 7,
       "Stance": "no_answer",
-      "Answer": "Has not published a Flock or license-plate-reader position."
+      "Asked": "Written ask by email, sent more than once to the address listed with the Cumberland County Election Commission.",
+      "Answer": "This site emailed Louis Morrison more than once at the address listed with the Cumberland County Election Commission and received no response whatsoever. No Flock or license-plate-reader position has been given.",
+      "Source_Label": "Emails to the address on the Election Commission filing. No reply as of Oct. 5, 2026."
     },
     {
       "Slug": "allen-foster",
