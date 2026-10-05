@@ -1184,8 +1184,21 @@ html[data-theme="dark"] .theme-icon-moon {
   font-weight: 700;
 }
 
-.hero h1 span {
+.hero h1 span,
+.hero-brand span {
   color: #ffb4ab;
+}
+
+.hero-brand {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.35rem, 3vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.hero h1.page-title {
+  max-width: 16em;
+  font-size: clamp(1.55rem, 3.4vw, 2.35rem);
 }
 
 .hero .lede {

@@ -1,0 +1,38 @@
+---
+description: Do not add public copy that explains how this website is arranged
+alwaysApply: true
+---
+
+# Do not explain the site to itself
+
+Published copy (`*.html`, speech JSON, widget intro text, news notes) is for residents. A sentence that only tells the reader where this website keeps something, how a page is wired, or how the editor scored a row is slop. Delete it in the same edit. Do not replace it with a softer version of the same lecture.
+
+Parent: `no-ai-slop-on-site.mdc`.
+
+## Ban
+
+| Slop | Write instead |
+|---|---|
+| “Crossville-specific contacts and templates stay on this site.” | The contacts, or a plain link. Then stop. |
+| “Crossville records stay on this site.” / “Meeting times and speeches stay on this page.” | Omit. |
+| “Crossville-specific Tennessee cases and local action tools remain on the home page.” | Link the home page if a reader needs it. Do not narrate the filing. |
+| “The East Tennessee investigation this site is patterned after…” | What that neighbor site is. |
+| “We still link primary sources for Crossville-specific claims.” | Omit. |
+| “These counts come from the case tables on this site. Geography hubs:” | The place links, with no label about hubs or tables. |
+| “Same searchable tables as the National page, Tennessee only.” | “Tennessee rows.” plus the National link if needed. |
+| “…are in the JSON catalog, not repeated here.” | The fact, or “Pauses are in the cancellation table.” |
+| “Extra rules without cancel are not scored as cancel.” / “not scored as a yes or no in the table” | The public fact. “That is not a promise to cancel.” |
+| “This site does not name civilian speakers.” | Omit the name. Do not announce the omission. |
+| “Newcomers without a published email are omitted.” | Name who the button emails. |
+| “Treat that as Inquest’s summary of the same rivalry already on this page.” | Inquest’s facts. Stop. |
+| “The signed agreement is now on this site.” | “The signed agreement is posted.” |
+
+Also ban: “patterned after,” “stay on this site,” “stay on this page,” “remain on the home page,” “not repeated here,” “cross-links,” “geography hubs,” “Case catalogs (on this site).”
+
+## Still fine
+
+A link a resident can use. A status fact (cameras stay, council has not voted). A footnote Case_ID. “Not an endorsement.” “Not legal advice.”
+
+## Check
+
+Read every new sentence as a stranger. If it would only make sense to the person who built the page, strip it before finishing.
