@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-05",
-  "count": 1301,
-  "source_count": 1301,
+  "as_of": "2026-10-06",
+  "count": 1313,
+  "source_count": 1313,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -310,6 +310,13 @@
       "wayback": "https://web.archive.org/web/20260808174705/https://atlpresscollective.com/2025/06/26/ethics-probe-freeman-fusus-conflict-of-interest/",
       "timestamp": "20260808174705",
       "captured": "2026-08-08T17:47:05Z",
+      "method": "existing"
+    },
+    "https://atlpresscollective.com/2026/04/14/dunwoody-flock-safety-contract-passed": {
+      "url": "https://atlpresscollective.com/2026/04/14/dunwoody-flock-safety-contract-passed/",
+      "wayback": "https://web.archive.org/web/20261003104713/https://atlpresscollective.com/2026/04/14/dunwoody-flock-safety-contract-passed/",
+      "timestamp": "20261003104713",
+      "captured": "2026-10-03T10:47:13Z",
       "method": "existing"
     },
     "https://atlpresscollective.com/2026/07/28/flock-cameras-atlanta-clearance-rates": {
@@ -1487,6 +1494,13 @@
       "captured": "2026-09-03T03:29:55Z",
       "method": "existing"
     },
+    "https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html": {
+      "url": "https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html",
+      "wayback": "https://web.archive.org/web/20261004135517/https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html",
+      "timestamp": "20261004135517",
+      "captured": "2026-10-04T13:55:17Z",
+      "method": "existing"
+    },
     "https://hoodline.com/2026/08/anderson-county-mayor-fears-flock-cameras-could-become-mass-surveillance": {
       "url": "https://hoodline.com/2026/08/anderson-county-mayor-fears-flock-cameras-could-become-mass-surveillance/",
       "wayback": "https://web.archive.org/web/20260813175929/https://hoodline.com/2026/08/anderson-county-mayor-fears-flock-cameras-could-become-mass-surveillance/",
@@ -2473,6 +2487,13 @@
       "captured": "2026-07-19T11:56:31Z",
       "method": "existing"
     },
+    "https://southjersey.media/cherry-hill-news/cherry-hill-to-end-flock-camera-contract": {
+      "url": "https://southjersey.media/cherry-hill-news/cherry-hill-to-end-flock-camera-contract/",
+      "wayback": "https://web.archive.org/web/20260919035930/https://southjersey.media/cherry-hill-news/cherry-hill-to-end-flock-camera-contract/",
+      "timestamp": "20260919035930",
+      "captured": "2026-09-19T03:59:30Z",
+      "method": "existing"
+    },
     "https://spacecoastdaily.com/2026/08/palm-bay-suspends-flock-license-plate-reader-camera-system-pending-review-of-installation-permitting": {
       "url": "https://spacecoastdaily.com/2026/08/palm-bay-suspends-flock-license-plate-reader-camera-system-pending-review-of-installation-permitting/",
       "wayback": "https://web.archive.org/web/20260809112134/https://spacecoastdaily.com/2026/08/palm-bay-suspends-flock-license-plate-reader-camera-system-pending-review-of-installation-permitting/",
@@ -2772,6 +2793,13 @@
       "wayback": "https://web.archive.org/web/20260816192336/https://tnfirefly.com/news/congressman-rose-loans-campaign-millions-to-compete-with-senator-blackburn",
       "timestamp": "20260816192336",
       "captured": "2026-08-16T19:23:36Z",
+      "method": "save"
+    },
+    "https://townofnorwell.net/news_detail_T2_R162.php": {
+      "url": "https://townofnorwell.net/news_detail_T2_R162.php",
+      "wayback": "https://web.archive.org/web/20261006143510/https://townofnorwell.net/news_detail_T2_R162.php",
+      "timestamp": "20261006143510",
+      "captured": "2026-10-06T14:35:10Z",
       "method": "save"
     },
     "https://tspantx.com/guadalupe-county-approves-terminating-flock-camera-contract-citing-vandalism-public-scrutiny": {
@@ -4563,12 +4591,26 @@
       "captured": "2026-07-14T18:57:45Z",
       "method": "existing"
     },
+    "https://www.clickondetroit.com/news/local/2026/09/24/st-clair-shores-covers-12-flock-cameras-after-residents-raise-privacy-concerns": {
+      "url": "https://www.clickondetroit.com/news/local/2026/09/24/st-clair-shores-covers-12-flock-cameras-after-residents-raise-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20260925020108/https://www.clickondetroit.com/news/local/2026/09/24/st-clair-shores-covers-12-flock-cameras-after-residents-raise-privacy-concerns/",
+      "timestamp": "20260925020108",
+      "captured": "2026-09-25T02:01:08Z",
+      "method": "existing"
+    },
     "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down": {
       "url": "https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
       "wayback": "https://web.archive.org/web/20261001190550/https://www.clickondetroit.com/news/local/2026/10/01/lincoln-park-turns-off-flock-cameras-after-police-chief-says-several-cameras-damaged-cut-down/",
       "timestamp": "20261001190550",
       "captured": "2026-10-01T19:05:50Z",
       "method": "save"
+    },
+    "https://www.clickondetroit.com/news/local/2026/10/06/milford-village-council-votes-7-0-to-remove-flock-safety-license-plate-cameras-after-resident-concerns": {
+      "url": "https://www.clickondetroit.com/news/local/2026/10/06/milford-village-council-votes-7-0-to-remove-flock-safety-license-plate-cameras-after-resident-concerns/",
+      "wayback": "https://web.archive.org/web/20261006143405/https://www.clickondetroit.com/news/local/2026/10/06/milford-village-council-votes-7-0-to-remove-flock-safety-license-plate-cameras-after-resident-concerns/",
+      "timestamp": "20261006143405",
+      "captured": "2026-10-06T14:34:05Z",
+      "method": "existing"
     },
     "https://www.clickorlando.com/news/florida/2026/08/31/florida-revokes-all-permits-for-flock-cameras-on-state-roads": {
       "url": "https://www.clickorlando.com/news/florida/2026/08/31/florida-revokes-all-permits-for-flock-cameras-on-state-roads/",
@@ -4800,6 +4842,13 @@
       "timestamp": "20260820134822",
       "captured": "2026-08-20T13:48:22Z",
       "method": "save"
+    },
+    "https://www.detroitnews.com/story/news/local/oakland-county/2026/10/05/another-metro-detroit-community-says-no-to-flock-cameras/92113158007": {
+      "url": "https://www.detroitnews.com/story/news/local/oakland-county/2026/10/05/another-metro-detroit-community-says-no-to-flock-cameras/92113158007/",
+      "wayback": "https://web.archive.org/web/20261006143730/https://www.detroitnews.com/story/news/local/oakland-county/2026/10/05/another-metro-detroit-community-says-no-to-flock-cameras/92113158007/",
+      "timestamp": "20261006143730",
+      "captured": "2026-10-06T14:37:30Z",
+      "method": "existing"
     },
     "https://www.dispatch.com/story/news/politics/state/2026/08/20/ohio-bill-would-make-flock-camera-misuse-a-felony/91350499007": {
       "url": "https://www.dispatch.com/story/news/politics/state/2026/08/20/ohio-bill-would-make-flock-camera-misuse-a-felony/91350499007/",
@@ -5788,6 +5837,13 @@
       "captured": "2026-08-19T22:50:39Z",
       "method": "existing"
     },
+    "https://www.inquirer.com/south-jersey/cherry-hill-flock-cameras-surveillance-20260918.html": {
+      "url": "https://www.inquirer.com/south-jersey/cherry-hill-flock-cameras-surveillance-20260918.html",
+      "wayback": "https://web.archive.org/web/20260921144114/https://www.inquirer.com/south-jersey/cherry-hill-flock-cameras-surveillance-20260918.html",
+      "timestamp": "20260921144114",
+      "captured": "2026-09-21T14:41:14Z",
+      "method": "existing"
+    },
     "https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html": {
       "url": "https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html",
       "wayback": "https://web.archive.org/web/20260909204550/https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html",
@@ -6226,6 +6282,13 @@
       "wayback": "https://web.archive.org/web/20260827150646/https://www.ktre.com/2026/08/26/lufkin-officer-accused-searching-ex-girlfriends-plates-flock-cameras-more-than-10000-times/",
       "timestamp": "20260827150646",
       "captured": "2026-08-27T15:06:46Z",
+      "method": "existing"
+    },
+    "https://www.ktre.com/2026/09/30/lufkin-officer-pleads-5-years-100-counts-related-flock-camera-misuse": {
+      "url": "https://www.ktre.com/2026/09/30/lufkin-officer-pleads-5-years-100-counts-related-flock-camera-misuse/",
+      "wayback": "https://web.archive.org/web/20261003062956/https://www.ktre.com/2026/09/30/lufkin-officer-pleads-5-years-100-counts-related-flock-camera-misuse/",
+      "timestamp": "20261003062956",
+      "captured": "2026-10-03T06:29:56Z",
       "method": "existing"
     },
     "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock": {
@@ -7634,6 +7697,13 @@
       "captured": "2026-08-01T04:08:44Z",
       "method": "existing"
     },
+    "https://www.tspr.org/tspr-local-news/2026-10-05/monmouth-police-wont-renew-flock-safety-contract": {
+      "url": "https://www.tspr.org/tspr-local-news/2026-10-05/monmouth-police-wont-renew-flock-safety-contract",
+      "wayback": "https://web.archive.org/web/20261006022956/https://www.tspr.org/tspr-local-news/2026-10-05/monmouth-police-wont-renew-flock-safety-contract",
+      "timestamp": "20261006022956",
+      "captured": "2026-10-06T02:29:56Z",
+      "method": "existing"
+    },
     "https://www.tucsonspotlight.org/south-tucson-ends-flock-camera-contract": {
       "url": "https://www.tucsonspotlight.org/south-tucson-ends-flock-camera-contract/",
       "wayback": "https://web.archive.org/web/20260721102848/https://www.tucsonspotlight.org/south-tucson-ends-flock-camera-contract/",
@@ -7981,6 +8051,13 @@
       "wayback": "https://web.archive.org/web/20260820214517/https://www.wcvb.com/article/lynn-massachusetts-officers-on-leave-flock-license-plate-reader-audit/73484480",
       "timestamp": "20260820214517",
       "captured": "2026-08-20T21:45:17Z",
+      "method": "existing"
+    },
+    "https://www.wcvb.com/article/norwell-massachusetts-cancels-flock-cameras/73974128": {
+      "url": "https://www.wcvb.com/article/norwell-massachusetts-cancels-flock-cameras/73974128",
+      "wayback": "https://web.archive.org/web/20261002193806/https://www.wcvb.com/article/norwell-massachusetts-cancels-flock-cameras/73974128",
+      "timestamp": "20261002193806",
+      "captured": "2026-10-02T19:38:06Z",
       "method": "existing"
     },
     "https://www.wcvb.com/article/stow-police-officer-quits-investigation-improper-database-flock-searches/73533639": {
@@ -8758,6 +8835,13 @@
       "wayback": "https://web.archive.org/web/20260918011733/https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff",
       "timestamp": "20260918011733",
       "captured": "2026-09-18T01:17:33Z",
+      "method": "existing"
+    },
+    "https://www.wxyz.com/news/st-clair-shores-pauses-flock-camera-program-amid-privacy-concerns-over-data-sharing": {
+      "url": "https://www.wxyz.com/news/st-clair-shores-pauses-flock-camera-program-amid-privacy-concerns-over-data-sharing",
+      "wayback": "https://web.archive.org/web/20260926233321/https://www.wxyz.com/news/st-clair-shores-pauses-flock-camera-program-amid-privacy-concerns-over-data-sharing",
+      "timestamp": "20260926233321",
+      "captured": "2026-09-26T23:33:21Z",
       "method": "existing"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {
