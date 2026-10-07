@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-05",
+  "compiled": "2026-10-06",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2088,11 +2088,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Unanimous emergency ordinance ban; Public backlash / privacy; Sheriff purchases just under review threshold; Mayor disputes contract validity",
-      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff\u2019s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way. On September 10, 2026, Knox News reported Mayor Betsy Henderson said Flock will not remove the cameras until October 7 and that the county will cover mounted units with \u201cpersonal privacy shields\u201d until takedown.",
+      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff\u2019s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way. On September 10, 2026, Knox News reported Mayor Betsy Henderson said Flock will not remove the cameras until October 7 and that the county will cover mounted units with \u201cpersonal privacy shields\u201d until takedown. On October 6, 2026, WVLT reported KCSO said it has stopped purchasing, leasing, operating, and maintaining fixed ALPR systems, will not renew those contracts, and that fixed units are being uninstalled or have access suspended.",
       "Primary_Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
       "Secondary_Source_URL": "https://www.knoxnews.com/story/news/politics/2026/08/31/knox-county-bans-flock-cameras-amid-surveillance-backlash/91545538007/",
       "Verification_Status": "Verified local press / local TV",
-      "Incomplete_Exit_Notes": "Hardware still mounted after the Sept. 16 removal deadline. Knox News (Sept. 10, 2026) reported Mayor Betsy Henderson said Flock told the county it cannot remove the cameras until Oct. 7, and that county crews designed \u201cpersonal privacy shields\u201d to cover mounted units so Flock cannot collect plate data until takedown. Sheriff is independently elected; Sheriff-elect Brent Gibson could seek a new program under a different process. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
+      "Incomplete_Exit_Notes": "WVLT (Oct. 6, 2026) reported KCSO said it has stopped operating fixed ALPR systems and that fixed units are being uninstalled or have access suspended. Full hardware removal of every camera was not confirmed in that report. Flock had told the county takedown would slip to Oct. 7. Knox News (Sept. 10, 2026) reported Mayor Betsy Henderson covered mounted units with privacy shields until takedown. Sheriff is independently elected. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
     },
     {
       "Case_ID": "CAN-2026-146",
@@ -3895,6 +3895,64 @@
       "Secondary_Source_URL": "https://southjersey.media/cherry-hill-news/cherry-hill-to-end-flock-camera-contract/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Cameras stay until December 31, 2026, then inactive with vendor removal. Axon readers under evaluation, not approved. New Jersey Cherry Hill, not Cherry Hills Village, Colorado."
+    },
+    {
+      "Case_ID": "CAN-2026-267",
+      "Jurisdiction": "Henrico County",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-06",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "County is ending the contract early over privacy concerns",
+      "Summary": "VPM reported October 6, 2026, that Henrico County is terminating its Flock contract early. The agreement was set to run until November 14. Fairfield Supervisor Roscoe Cooper told VPM the police division would end the contract within seven days. County Manager John Vithoulkas told VPM there is no financial penalty and that the county has installed over 120 readers since November 2022. The police division said the decision came down to privacy concerns. Virginia Henrico County.",
+      "Primary_Source_URL": "https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cooper told VPM the contract ends within seven days of the October 6 announcement. VPM did not report a hardware-removal date. Over 120 readers since November 2022; an exact camera count was not published."
+    },
+    {
+      "Case_ID": "CAN-2026-268",
+      "Jurisdiction": "Murphy",
+      "State": "TX",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-06",
+      "Camera_Count": 4,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "City council gave Flock 30 days notice to remove four cameras",
+      "Summary": "The Murphy Monitor reported October 6, 2026, that the Murphy City Council, after a presentation by Police Chief Jeff Gibson, gave Flock 30 days notice to remove four cameras. Gibson said Flock would remove them on the company's schedule and that the cameras stay active until then. Council members cited the lack of national or state ALPR rules and uncertainty about reimbursement under a state grant program paused by Gov. Greg Abbott. Texas Murphy.",
+      "Primary_Source_URL": "https://murphymonitor.com/2026/10/06/murphy-to-discontinue-flock-cameras/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "30-day removal notice. The chief said the four cameras stay active until Flock removes them on Flock's schedule. Texas Murphy."
+    },
+    {
+      "Case_ID": "CAN-2026-269",
+      "Jurisdiction": "Ledyard",
+      "State": "CT",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-18",
+      "Camera_Count": 4,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town ended Flock after a reported security incident; four cameras are covered",
+      "Summary": "NBC Connecticut reported September 29, 2026, that Mayor Fred B. Allyn III said Ledyard police and his office decided on September 18 to end the town's Flock relationship after Flock notified the chief of a security incident. The town had four cameras. Town Council chair Gary St. Vil said the cameras are covered and data collection has stopped. Connecticut Ledyard.",
+      "Primary_Source_URL": "https://www.nbcconnecticut.com/news/local/ledyard-police-raise-concerns-about-flock-cameras-after-recent-security-incident/3779608/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Relationship ended September 18. Cameras are covered and collection has stopped. Physical removal was not confirmed as finished. Connecticut Ledyard."
+    },
+    {
+      "Case_ID": "CAN-2026-270",
+      "Jurisdiction": "Sturgis",
+      "State": "MI",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-09-23",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "City commission will not renew when the contract ends at the end of 2026",
+      "Summary": "WWMT reported September 25, 2026, that the Sturgis City Commission said at its Wednesday meeting the city will not renew its Flock contract when it expires at the end of 2026, citing the budget. Public Safety Director Ryan Banaszak said the cameras are a useful tool and that the city is dropping them because of cost. WWMT reported the cameras will not come down right away and will be non-operational once the contract expires. Camera count was not published. Michigan Sturgis.",
+      "Primary_Source_URL": "https://wwmt.com/news/local/city-of-sturgis-to-get-rid-of-flock-cameras-after-contract-expires-at-the-end-of-this-year-commission-meeting-public-safety-director-budget",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Non-renewal at the end of 2026. Cameras stay up until then and become non-operational when the contract expires. Removal is not immediate. Camera count was not published. Michigan Sturgis."
     }
   ]
 }

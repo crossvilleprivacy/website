@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-06",
-  "count": 1313,
-  "source_count": 1313,
+  "as_of": "2026-10-07",
+  "count": 1320,
+  "source_count": 1320,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2053,6 +2053,13 @@
       "captured": "2026-08-16T19:18:25Z",
       "method": "existing"
     },
+    "https://murphymonitor.com/2026/10/06/murphy-to-discontinue-flock-cameras": {
+      "url": "https://murphymonitor.com/2026/10/06/murphy-to-discontinue-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261007181823/https://murphymonitor.com/2026/10/06/murphy-to-discontinue-flock-cameras/",
+      "timestamp": "20261007181823",
+      "captured": "2026-10-07T18:18:23Z",
+      "method": "existing"
+    },
     "https://mygeeni.com/products/geeni-halo-2k-doorbell-camera-with-chime": {
       "url": "https://mygeeni.com/products/geeni-halo-2k-doorbell-camera-with-chime",
       "wayback": "https://web.archive.org/web/20260816171956/https://mygeeni.com/products/geeni-halo-2k-doorbell-camera-with-chime",
@@ -2527,6 +2534,13 @@
       "wayback": "https://web.archive.org/web/20260816172322/https://spectrumlocalnews.com/nys/central-ny/politics/2026/07/23/all-flock-cameras-in-syracuse-have-been-removed",
       "timestamp": "20260816172322",
       "captured": "2026-08-16T17:23:22Z",
+      "method": "save"
+    },
+    "https://spectrumlocalnews.com/sc/south-carolina/news/2026/10/06/south-carolina-alan-wilson-flock-safety": {
+      "url": "https://spectrumlocalnews.com/sc/south-carolina/news/2026/10/06/south-carolina-alan-wilson-flock-safety",
+      "wayback": "https://web.archive.org/web/20261007182001/https://spectrumlocalnews.com/sc/south-carolina/news/2026/10/06/south-carolina-alan-wilson-flock-safety",
+      "timestamp": "20261007182001",
+      "captured": "2026-10-07T18:20:01Z",
       "method": "save"
     },
     "https://spectrumnews1.com/ky/louisville/news/2026/08/26/shively-flock-misuse": {
@@ -3143,6 +3157,13 @@
       "wayback": "https://web.archive.org/web/20260718105228/https://wvpublic.org/story/government/aclu-sues-huntington-over-flock-surveillance-contract/",
       "timestamp": "20260718105228",
       "captured": "2026-07-18T10:52:28Z",
+      "method": "existing"
+    },
+    "https://wwmt.com/news/local/city-of-sturgis-to-get-rid-of-flock-cameras-after-contract-expires-at-the-end-of-this-year-commission-meeting-public-safety-director-budget": {
+      "url": "https://wwmt.com/news/local/city-of-sturgis-to-get-rid-of-flock-cameras-after-contract-expires-at-the-end-of-this-year-commission-meeting-public-safety-director-budget",
+      "wayback": "https://web.archive.org/web/20261001143326/https://wwmt.com/news/local/city-of-sturgis-to-get-rid-of-flock-cameras-after-contract-expires-at-the-end-of-this-year-commission-meeting-public-safety-director-budget",
+      "timestamp": "20261001143326",
+      "captured": "2026-10-01T14:33:26Z",
       "method": "existing"
     },
     "https://www.1039wvbo.com/2026/08/07/brookfield-police-detain-two-innocent-drivers-after-flock-camera-error": {
@@ -6676,6 +6697,13 @@
       "captured": "2026-08-04T05:03:38Z",
       "method": "existing"
     },
+    "https://www.nbcconnecticut.com/news/local/ledyard-police-raise-concerns-about-flock-cameras-after-recent-security-incident/3779608": {
+      "url": "https://www.nbcconnecticut.com/news/local/ledyard-police-raise-concerns-about-flock-cameras-after-recent-security-incident/3779608/",
+      "wayback": "https://web.archive.org/web/20261005002508/https://www.nbcconnecticut.com/news/local/ledyard-police-raise-concerns-about-flock-cameras-after-recent-security-incident/3779608/",
+      "timestamp": "20261005002508",
+      "captured": "2026-10-05T00:25:08Z",
+      "method": "existing"
+    },
     "https://www.nbcconnecticut.com/news/local/two-towns-end-contracts-with-automated-license-plate-reader-company-flock-safety/3755508": {
       "url": "https://www.nbcconnecticut.com/news/local/two-towns-end-contracts-with-automated-license-plate-reader-company-flock-safety/3755508/",
       "wayback": "https://web.archive.org/web/20260728233704/https://www.nbcconnecticut.com/news/local/two-towns-end-contracts-with-automated-license-plate-reader-company-flock-safety/3755508/",
@@ -7760,6 +7788,13 @@
       "captured": "2024-03-06T11:34:31Z",
       "method": "existing"
     },
+    "https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby": {
+      "url": "https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby/",
+      "wayback": "https://web.archive.org/web/20261007181604/https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby/",
+      "timestamp": "20261007181604",
+      "captured": "2026-10-07T18:16:04Z",
+      "method": "save"
+    },
     "https://www.walb.com/2026/05/05/former-coffee-county-deputy-arrested-invasion-privacy-charges-following-gbi-investigation": {
       "url": "https://www.walb.com/2026/05/05/former-coffee-county-deputy-arrested-invasion-privacy-charges-following-gbi-investigation/",
       "wayback": "https://web.archive.org/web/20260508172536/https://www.walb.com/2026/05/05/former-coffee-county-deputy-arrested-invasion-privacy-charges-following-gbi-investigation/",
@@ -8808,6 +8843,20 @@
       "timestamp": "20260924002118",
       "captured": "2026-09-24T00:21:18Z",
       "method": "existing"
+    },
+    "https://www.wvlt.tv/2026/10/06/knox-county-sheriffs-office-says-it-is-compliant-with-county-ordinance-stop-using-flock-cameras": {
+      "url": "https://www.wvlt.tv/2026/10/06/knox-county-sheriffs-office-says-it-is-compliant-with-county-ordinance-stop-using-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261007181854/https://www.wvlt.tv/2026/10/06/knox-county-sheriffs-office-says-it-is-compliant-with-county-ordinance-stop-using-flock-cameras/",
+      "timestamp": "20261007181854",
+      "captured": "2026-10-07T18:18:54Z",
+      "method": "save"
+    },
+    "https://www.wvnews.com/news/wvnews/wv-house-panel-gives-flock-safety-friday-deadline-over-data-security-questions/article_620e4fff-2ab7-4c48-8a48-5d4997e32f9e.html": {
+      "url": "https://www.wvnews.com/news/wvnews/wv-house-panel-gives-flock-safety-friday-deadline-over-data-security-questions/article_620e4fff-2ab7-4c48-8a48-5d4997e32f9e.html",
+      "wayback": "https://web.archive.org/web/20261007182109/https://www.wvnews.com/news/wvnews/wv-house-panel-gives-flock-safety-friday-deadline-over-data-security-questions/article_620e4fff-2ab7-4c48-8a48-5d4997e32f9e.html",
+      "timestamp": "20261007182109",
+      "captured": "2026-10-07T18:21:09Z",
+      "method": "save"
     },
     "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton": {
       "url": "https://www.wvxu.org/local-news/2026-08-19/oxford-flock-contract-butler-county-protest-hamilton",
