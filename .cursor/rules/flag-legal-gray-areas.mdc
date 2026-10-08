@@ -41,7 +41,7 @@ No names. Stay on the event. Not allowed in this site’s voice: “misused Floc
 | Rating | Use when | Action |
 |---|---|---|
 | **Low** | Typography/CSS with no new facts; existing Case_IDs; Wayback rows; tally recomputes; cancel/pause votes; **and** new charge / arrest / investigation / firing rows that follow **Charges, arrests, and investigations** above (attributed event, unnamed people, primary link, no plea/sentence inflation) | Proceed. State `Legal check: risk low.` |
-| **Medium** | Incomplete exits stated too cleanly (pause written as a terminate); third-party clips whose methods (RF intercept, facial recognition of attendees, how a device was opened) could look like this site’s advice; we only have a vague recap and cannot attribute the official event | **Stop.** Explain. Ship only after explicit confirmation. |
+| **Medium** | Incomplete exits stated too cleanly (pause written as a cancel/end); third-party clips whose methods (RF intercept, facial recognition of attendees, how a device was opened) could look like this site’s advice; we only have a vague recap and cannot attribute the official event | **Stop.** Explain. Ship only after explicit confirmation. |
 | **High** | Guilt or “lied” / “found false” in this site’s voice; naming a civilian target of alleged stalking; naming a misuse **subject** on a public page; minor names, school/medical/home detail, or hosted images of children; how-tos for vandalism or disabling cameras; operator identity; copy that reads as a city document or legal advice; re-hosting news stills or playground Condor captures | **Stop.** Explain. Do not ship unless the operator explicitly confirms they accept the **high** risk. Prefer omitting or hedging instead. |
 
 If the diff mixes ratings, use the highest.

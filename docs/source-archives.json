@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-07",
-  "count": 1320,
-  "source_count": 1320,
+  "as_of": "2026-10-08",
+  "count": 1321,
+  "source_count": 1321,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2989,6 +2989,13 @@
       "wayback": "https://web.archive.org/web/20260908112514/https://whbl.com/2026/09/08/sale-of-private-data-behind-citys-bid-to-drop-flock/",
       "timestamp": "20260908112514",
       "captured": "2026-09-08T11:25:14Z",
+      "method": "existing"
+    },
+    "https://whbl.com/2026/09/09/sheboygan-common-council-votes-to-terminate-flock-safety-contract": {
+      "url": "https://whbl.com/2026/09/09/sheboygan-common-council-votes-to-terminate-flock-safety-contract/",
+      "wayback": "https://web.archive.org/web/20260909110238/https://whbl.com/2026/09/09/sheboygan-common-council-votes-to-terminate-flock-safety-contract/",
+      "timestamp": "20260909110238",
+      "captured": "2026-09-09T11:02:38Z",
       "method": "existing"
     },
     "https://whdh.com/news/hopkinton-cancels-contract-with-flock-safety": {

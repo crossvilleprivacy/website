@@ -1,0 +1,33 @@
+---
+description: Never use bare terminate/terminated/termination in this site’s public voice
+alwaysApply: true
+---
+
+# No bare “terminate” in public copy
+
+Residents hear **terminate** as movie-kill slang, not HR or contract jargon. Do not put bare `terminate` / `terminated` / `termination` in this site’s voice on published pages (`*.html`, speech JSON, widget intro text, news notes).
+
+## Employment
+
+| Ban (our voice) | Write instead |
+|---|---|
+| “was terminated,” “officer terminated,” “terminated them,” “pending termination” | **fired**, **resigned**, or (rare) **terminated their employment** |
+| Lookup Outcome saying “Terminated” | **fired** (JSON may keep `Terminated` for filters/tallies) |
+
+## Contracts / municipal exits
+
+| Ban (our voice) | Write instead |
+|---|---|
+| “terminate the contract,” “terminate vote,” “terminate resolution,” “this is a terminate” | **end**, **cancel**, **drop**, **cut**, **non-renew**, **vote to end** |
+| “Pause, not a reported terminate” | “Pause, not a reported cancel.” / “Cameras stay; no end vote yet.” |
+
+## OK to leave
+
+- Direct quotes from outlets, officials, or contracts (`“removed upon the termination or expiration of this Agreement”`)
+- Outlet titles and `href` / archive URLs that contain the word
+- Catalog JSON machine values (`Outcome_Bucket`, action enums) when the **public** label is already rewritten
+- Maintainer-only notes in `.cursor/rules/` and git comments
+
+## Check
+
+Before finishing public copy, scan the **diff** for `terminat`. If it is this site speaking, rewrite it in the same task.
