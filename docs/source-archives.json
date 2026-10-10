@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
   "as_of": "2026-10-10",
-  "count": 1353,
-  "source_count": 1353,
+  "count": 1357,
+  "source_count": 1357,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -3327,11 +3327,25 @@
       "captured": "2026-08-11T21:28:32Z",
       "method": "existing"
     },
+    "https://www.404media.co/following-404-media-investigation-senator-demands-info-about-white-houses-license-plate-surveillance-program": {
+      "url": "https://www.404media.co/following-404-media-investigation-senator-demands-info-about-white-houses-license-plate-surveillance-program/",
+      "wayback": "https://web.archive.org/web/20261010111303/https://www.404media.co/following-404-media-investigation-senator-demands-info-about-white-houses-license-plate-surveillance-program/",
+      "timestamp": "20261010111303",
+      "captured": "2026-10-10T11:13:03Z",
+      "method": "existing"
+    },
     "https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2": {
       "url": "https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/",
       "wayback": "https://web.archive.org/web/20260916132129/https://www.404media.co/hackers-stole-flocks-camera-software-revealing-how-the-company-tracks-cars-and-people-2/",
       "timestamp": "20260916132129",
       "captured": "2026-09-16T13:21:29Z",
+      "method": "existing"
+    },
+    "https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta": {
+      "url": "https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/",
+      "wayback": "https://web.archive.org/web/20261006193451/https://www.404media.co/how-cities-are-forced-to-funnel-license-plate-data-to-a-massive-federal-surveillance-program-hidta/",
+      "timestamp": "20261006193451",
+      "captured": "2026-10-06T19:34:51Z",
       "method": "existing"
     },
     "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech": {
@@ -9118,6 +9132,20 @@
       "wayback": "https://web.archive.org/web/20260926233321/https://www.wxyz.com/news/st-clair-shores-pauses-flock-camera-program-amid-privacy-concerns-over-data-sharing",
       "timestamp": "20260926233321",
       "captured": "2026-09-26T23:33:21Z",
+      "method": "existing"
+    },
+    "https://www.wyden.senate.gov/download/10082026-wyden-letter-to-ondcp-requesting-release-of-hidta-privacy-review": {
+      "url": "https://www.wyden.senate.gov/download/10082026-wyden-letter-to-ondcp-requesting-release-of-hidta-privacy-review",
+      "wayback": "https://web.archive.org/web/20261010115332/https://www.wyden.senate.gov/imo/media/doc/10082026wydenlettertoondcprequestingreleaseofhidtaprivacyreview.pdf",
+      "timestamp": "20261010115332",
+      "captured": "2026-10-10T11:53:32Z",
+      "method": "save"
+    },
+    "https://www.wyden.senate.gov/imo/media/doc/10082026wydenlettertoondcprequestingreleaseofhidtaprivacyreview.pdf": {
+      "url": "https://www.wyden.senate.gov/imo/media/doc/10082026wydenlettertoondcprequestingreleaseofhidtaprivacyreview.pdf",
+      "wayback": "https://web.archive.org/web/20261010115332/https://www.wyden.senate.gov/imo/media/doc/10082026wydenlettertoondcprequestingreleaseofhidtaprivacyreview.pdf",
+      "timestamp": "20261010115332",
+      "captured": "2026-10-10T11:53:32Z",
       "method": "existing"
     },
     "https://www.wyden.senate.gov/imo/media/doc/wyden_letter_to_flock.pdf": {
