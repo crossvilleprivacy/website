@@ -469,9 +469,10 @@
     "Technology_Category": "ALPR + AI Vehicle Recognition",
     "Technology": "Flock ALPR",
     "Vendor": "Flock Safety",
-    "Primary_Source_URL": "https://coloradosun.com/2025/11/11/columbine-valley-police-officer-flock-disciplinary-action/",
-    "Secondary_Source_URL": "https://ij.org/dozens-of-innocent-motorists-have-been-pulled-over-detained-at-gunpoint-or-jailed-due-to-ai-license-plate-camera-errors/",
-    "Public_KPI_Exclude": false
+    "Primary_Source_URL": "https://coloradosun.com/2026/10/06/flock-cameras-columbine-valley-police-colorado-lawsuit/",
+    "Secondary_Source_URL": "https://www.courthousenews.com/colorado-woman-wrongfully-cited-for-theft-files-class-action-against-flock/",
+    "Public_KPI_Exclude": false,
+    "Lawsuit_Filed": "Y"
   },
   {
     "ID": 36,
@@ -637,6 +638,19 @@
     "Vendor": "Flock Safety",
     "Lawsuit_Filed": "N",
     "Primary_Source_URL": "https://storage.courtlistener.com/recap/gov.uscourts.oknd.76981/gov.uscourts.oknd.76981.62.0.pdf",
+    "Public_KPI_Exclude": false
+  },
+  {
+    "ID": 48,
+    "Incident_Date": "2025-05-04",
+    "Incident_Year": 2025,
+    "City": "Coweta County",
+    "State": "GA",
+    "Technology_Category": "ALPR",
+    "Technology": "Flock ALPR nationwide network search",
+    "Vendor": "Flock Safety",
+    "Lawsuit_Filed": "Y",
+    "Primary_Source_URL": "https://www.hallandlampros.com/blog/class-action-lawsuit-against-flock-safety-and-coweta-county/",
     "Public_KPI_Exclude": false
   }
 ]

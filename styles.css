@@ -5226,10 +5226,21 @@ html[data-theme="dark"] .contact-card .tap-row a.tap-mail {
   }
 
   .election-scorecard-table th:nth-child(3),
-  .election-scorecard-table td:nth-child(3) {
-    width: 16%;
-    white-space: nowrap;
+  .election-scorecard-table td:nth-child(3),
+  .election-scorecard-table th:nth-child(4),
+  .election-scorecard-table td:nth-child(4) {
+    width: 34%;
   }
+}
+
+.election-score-th-date {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.78em;
+  font-weight: 550;
+  color: var(--muted);
+  white-space: normal;
+  line-height: 1.25;
 }
 
 .election-score-name-cell {

@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-09-30",
+  "compiled": "2026-10-10",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-09-30"
+    "generated_on": "2026-10-10"
   },
   "verified_incidents": [
     {
@@ -831,13 +831,14 @@
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
       "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
-      "Source_URL": "https://portcitydaily.com/latest-news/2026/09/01/brunswick-county-deputy-under-sbi-investigation-for-flock-misuse/",
+      "Source_URL": "https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Port City Daily reported Sept. 1, 2026 that a Brunswick County deputy resigned after a Flock-system review. Sheriff referred the case to the SBI. The district attorney will decide whether to charge. No charges announced in that coverage.",
-      "Outcome_Bucket": "1 Resigned",
-      "Personnel_Resigned": 1
+      "Year_Note": "Port City Daily reported Sept. 1, 2026 that a Brunswick County deputy resigned after a Flock-system review. WECT reported Oct. 8–9, 2026 that the former deputy was charged with six counts of misusing an automated license-plate reader system; indictments allege searches without a legitimate law-enforcement purpose between February and August. Deputy not named on this site. A charge is not a finding of guilt. A county commissioner raised questions about policy and flagged records; no cancel vote in that coverage.",
+      "Outcome_Bucket": "1 Resigned and Criminally Charged",
+      "Personnel_Resigned": 1,
+      "Personnel_Charged": 1
     },
     {
       "Case_ID": "FLK-2026-072",
@@ -1832,6 +1833,91 @@
       "Personnel_Resigned": 1,
       "Personnel_Charged": 1,
       "Personal_Lookup_Count": 300
+    },
+    {
+      "Case_ID": "FLK-2026-129",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Athens-Clarke County Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Romantic Stalking / Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Numerous times over approximately one week in 2025",
+      "Source_URL": "https://www.fox5atlanta.com/news/athens-police-officer-fired-allegedly-using-flock-system-track-ex",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2025,
+      "Resolution_Year": 2026,
+      "Year_Note": "FOX 5 Atlanta reported October 7, 2026 that Athens-Clarke County Police fired an officer after an internal investigation found improper Flock ALPR searches of a vehicle plate associated with someone known to that officer, numerous times over about one week in 2025. Another officer reported the suspected misuse October 5. The department asked GBI for an independent criminal investigation and said search access is now limited to supervisors and above. Officer not named on this site. A firing is not a criminal conviction. Separate from the August 2026 Athens-Clarke civilian-employee case (FLK-2026-069).",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-130",
+      "Year": 2026,
+      "State": "IL",
+      "Agency_Jurisdiction": "Itasca Police Department",
+      "Subject_Officer_Involved": "former officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (June 2025–May 2026)",
+      "Source_URL": "https://www.shawlocal.com/my-suburban-life/2026/10/06/former-itasca-west-chicago-cops-accused-of-misusing-flock-license-plate-cameras/",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2025-2026",
+      "Resolution_Year": 2026,
+      "Year_Note": "Shaw Local reported Oct. 5–6, 2026 that the DuPage County State's Attorney said a former Itasca officer was indicted Sept. 29 on official-misconduct and computer-tampering charges after alleged unauthorized Flock and LEADS plate searches between June 2025 and May 2026. The former officer surrendered and was released pending trial. Officer not named on this site. A charge is not a finding of guilt. Separate from the West Chicago case in the same release (FLK-2026-131).",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-131",
+      "Year": 2026,
+      "State": "IL",
+      "Agency_Jurisdiction": "West Chicago Police Department",
+      "Subject_Officer_Involved": "former officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Unauthorized plate searches Dec. 18, 2024–Jan. 25, 2025",
+      "Source_URL": "https://www.shawlocal.com/my-suburban-life/2026/10/06/former-itasca-west-chicago-cops-accused-of-misusing-flock-license-plate-cameras/",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2024-2025",
+      "Resolution_Year": 2026,
+      "Year_Note": "Shaw Local reported Oct. 5–6, 2026 that the DuPage County State's Attorney said a former West Chicago officer was indicted Sept. 29 on official-misconduct and computer-tampering charges after alleged unauthorized Flock plate searches between Dec. 18, 2024, and Jan. 25, 2025. The department said the officer had been placed on leave in early September. Officer not named on this site. A charge is not a finding of guilt. Separate from the Itasca case in the same release (FLK-2026-130).",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-132",
+      "Year": 2026,
+      "State": "IL",
+      "Agency_Jurisdiction": "Joliet Police Department",
+      "Subject_Officer_Involved": "former lieutenant",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Not published",
+      "Source_URL": "https://chicago.suntimes.com/crime/2026/10/07/former-joliet-police-officer-charged-over-alleged-flock-camera-misuse",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2025,
+      "Resolution_Year": 2026,
+      "Year_Note": "Chicago Sun-Times reported Oct. 7, 2026 that Illinois State Police said a former Joliet police lieutenant faces computer-tampering and official-misconduct charges in Will County after alleged Flock database misuse; court documents put the alleged offense on July 23, 2025. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-133",
+      "Year": 2026,
+      "State": "VA",
+      "Agency_Jurisdiction": "Chesterfield County Police Department",
+      "Subject_Officer_Involved": "civilian employee",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Not published",
+      "Source_URL": "https://www.vpm.org/news/2026-10-02/chesterfield-police-flock-safety-cameras-alprs-carpenter-jones-sturtevant-schmidt/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "VPM reported Oct. 2, 2026 that Chesterfield County Police said a civilian intelligence investigator was charged with two counts of improper ALPR use by law enforcement and two counts of computer invasion of privacy after coworkers reported concerns Aug. 27 and an audit found suspicious queries. Access revoked; unpaid administrative leave. Employee not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
     }
   ]
 }

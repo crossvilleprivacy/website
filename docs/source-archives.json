@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-08",
-  "count": 1321,
-  "source_count": 1321,
+  "as_of": "2026-10-10",
+  "count": 1353,
+  "source_count": 1353,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -66,6 +66,13 @@
       "timestamp": "20260611042729",
       "captured": "2026-06-11T04:27:29Z",
       "method": "existing"
+    },
+    "https://3bmedianews.com/rockwood-and-crossville-set-to-host-local-political-forums-tonight": {
+      "url": "https://3bmedianews.com/rockwood-and-crossville-set-to-host-local-political-forums-tonight/",
+      "wayback": "https://web.archive.org/web/20261009231027/https://3bmedianews.com/rockwood-and-crossville-set-to-host-local-political-forums-tonight/",
+      "timestamp": "20261009231027",
+      "captured": "2026-10-09T23:10:27Z",
+      "method": "save"
     },
     "https://3bmedianews.com/water-rates-flock-cameras-infrastructure-and-more-at-tuesdays-crossville-city-council-work-session": {
       "url": "https://3bmedianews.com/water-rates-flock-cameras-infrastructure-and-more-at-tuesdays-crossville-city-council-work-session/",
@@ -451,6 +458,13 @@
       "captured": "2026-09-05T11:56:49Z",
       "method": "save"
     },
+    "https://cardinalnews.org/2026/10/08/damascus-cancels-flock-cameras-contract-joining-other-virginia-localities-that-have-recently-severed-ties-with-the-tech-company": {
+      "url": "https://cardinalnews.org/2026/10/08/damascus-cancels-flock-cameras-contract-joining-other-virginia-localities-that-have-recently-severed-ties-with-the-tech-company/",
+      "wayback": "https://web.archive.org/web/20261009142820/https://cardinalnews.org/2026/10/08/damascus-cancels-flock-cameras-contract-joining-other-virginia-localities-that-have-recently-severed-ties-with-the-tech-company/",
+      "timestamp": "20261009142820",
+      "captured": "2026-10-09T14:28:20Z",
+      "method": "wayback-save"
+    },
     "https://carolinapublicpress.org/80468/asheville-terminates-flock-contract-in-heated-council-meeting": {
       "url": "https://carolinapublicpress.org/80468/asheville-terminates-flock-contract-in-heated-council-meeting/",
       "wayback": "https://web.archive.org/web/20260826080819/https://carolinapublicpress.org/80468/asheville-terminates-flock-contract-in-heated-council-meeting/",
@@ -521,6 +535,13 @@
       "captured": "2026-08-01T01:24:44Z",
       "method": "existing"
     },
+    "https://chicago.suntimes.com/crime/2026/10/07/former-joliet-police-officer-charged-over-alleged-flock-camera-misuse": {
+      "url": "https://chicago.suntimes.com/crime/2026/10/07/former-joliet-police-officer-charged-over-alleged-flock-camera-misuse",
+      "wayback": "https://web.archive.org/web/20261009144237/https://chicago.suntimes.com/crime/2026/10/07/former-joliet-police-officer-charged-over-alleged-flock-camera-misuse",
+      "timestamp": "20261009144237",
+      "captured": "2026-10-09T14:42:37Z",
+      "method": "existing"
+    },
     "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process": {
       "url": "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
       "wayback": "https://web.archive.org/web/20260913132123/https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
@@ -561,6 +582,13 @@
       "wayback": "https://web.archive.org/web/20260529231355/https://coloradosun.com/2026/05/28/lawsuit-boulder-police-flock-cameras/",
       "timestamp": "20260529231355",
       "captured": "2026-05-29T23:13:55Z",
+      "method": "existing"
+    },
+    "https://coloradosun.com/2026/10/06/flock-cameras-columbine-valley-police-colorado-lawsuit": {
+      "url": "https://coloradosun.com/2026/10/06/flock-cameras-columbine-valley-police-colorado-lawsuit/",
+      "wayback": "https://web.archive.org/web/20261007132001/https://coloradosun.com/2026/10/06/flock-cameras-columbine-valley-police-colorado-lawsuit/",
+      "timestamp": "20261007132001",
+      "captured": "2026-10-07T13:20:01Z",
       "method": "existing"
     },
     "https://commons.wikimedia.org/wiki/File:Byrd_Creek_Dam_%26_Bridge_-_Cumberland_Mountain_State_Park,_Tennessee_-_June_24,_2014.jpg": {
@@ -1037,6 +1065,13 @@
       "wayback": "https://web.archive.org/web/20260816171111/https://dailycallernewsfoundation.org/2026/07/15/keith-self-flock-safety-cameras-surveillance-data-warrant-privacy-act/",
       "timestamp": "20260816171111",
       "captured": "2026-08-16T17:11:11Z",
+      "method": "existing"
+    },
+    "https://dailytitan.com/news/fullerton-city-council-approves-six-month-suspension-of-flock-safety-cameras/article_8dd85f60-aa0b-46e8-80e2-221775a585d5.html": {
+      "url": "https://dailytitan.com/news/fullerton-city-council-approves-six-month-suspension-of-flock-safety-cameras/article_8dd85f60-aa0b-46e8-80e2-221775a585d5.html",
+      "wayback": "https://web.archive.org/web/20261009144622/https://dailytitan.com/news/fullerton-city-council-approves-six-month-suspension-of-flock-safety-cameras/article_8dd85f60-aa0b-46e8-80e2-221775a585d5.html",
+      "timestamp": "20261009144622",
+      "captured": "2026-10-09T14:46:22Z",
       "method": "existing"
     },
     "https://data.aclum.org/2025/10/07/flock-gives-law-enforcement-all-over-the-country-access-to-your-location": {
@@ -2193,6 +2228,13 @@
       "captured": "2026-10-02T20:39:26Z",
       "method": "save"
     },
+    "https://nowgeorgia.com/wp-content/uploads/2026/10/ACCPD-Press-Release_ALPR_10072026_ed.SHD_.pdf": {
+      "url": "https://nowgeorgia.com/wp-content/uploads/2026/10/ACCPD-Press-Release_ALPR_10072026_ed.SHD_.pdf",
+      "wayback": "https://web.archive.org/web/20261009143244/https://nowgeorgia.com/wp-content/uploads/2026/10/ACCPD-Press-Release_ALPR_10072026_ed.SHD_.pdf",
+      "timestamp": "20261009143244",
+      "captured": "2026-10-09T14:32:44Z",
+      "method": "wayback-save"
+    },
     "https://nvd.nist.gov/vuln/detail/CVE-2025-47823": {
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-47823",
       "wayback": "https://web.archive.org/web/20260724033249/https://nvd.nist.gov/vuln/detail/CVE-2025-47823",
@@ -2669,6 +2711,13 @@
       "captured": "2026-09-20T06:27:42Z",
       "method": "existing"
     },
+    "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows": {
+      "url": "https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+      "wayback": "https://web.archive.org/web/20261009134539/https://techcrunch.com/2026/10/09/surveillance-company-flock-cuts-staff-as-privacy-backlash-grows/",
+      "timestamp": "20261009134539",
+      "captured": "2026-10-09T13:45:39Z",
+      "method": "existing"
+    },
     "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns": {
       "url": "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/",
       "wayback": "https://web.archive.org/web/20260913131922/https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/",
@@ -2753,6 +2802,13 @@
       "captured": "2026-07-28T18:51:06Z",
       "method": "existing"
     },
+    "https://thenevadaindependent.com/article/reno-is-latest-city-in-nevada-to-end-contract-with-flock-safety": {
+      "url": "https://thenevadaindependent.com/article/reno-is-latest-city-in-nevada-to-end-contract-with-flock-safety",
+      "wayback": "https://web.archive.org/web/20261010050553/https://thenevadaindependent.com/article/reno-is-latest-city-in-nevada-to-end-contract-with-flock-safety",
+      "timestamp": "20261010050553",
+      "captured": "2026-10-10T05:05:53Z",
+      "method": "existing"
+    },
     "https://thestarnewsnetwork.com/2026/08/01/flock-safety-says-bill-by-congressman-tim-burchett-would-effectively-ban-controversial-cameras-calls-for-federal-safeguards": {
       "url": "https://thestarnewsnetwork.com/2026/08/01/flock-safety-says-bill-by-congressman-tim-burchett-would-effectively-ban-controversial-cameras-calls-for-federal-safeguards/",
       "wayback": "https://web.archive.org/web/20260802011707/https://thestarnewsnetwork.com/2026/08/01/flock-safety-says-bill-by-congressman-tim-burchett-would-effectively-ban-controversial-cameras-calls-for-federal-safeguards/",
@@ -2787,6 +2843,13 @@
       "timestamp": "20260821030246",
       "captured": "2026-08-21T03:02:46Z",
       "method": "save"
+    },
+    "https://thisisreno.com/2026/06/sparks-city-axon-license-plate-readers": {
+      "url": "https://thisisreno.com/2026/06/sparks-city-axon-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20260825052151/https://thisisreno.com/2026/06/sparks-city-axon-license-plate-readers/",
+      "timestamp": "20260825052151",
+      "captured": "2026-08-25T05:21:51Z",
+      "method": "existing"
     },
     "https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away": {
       "url": "https://timesofsandiego.com/crime/2026/06/07/a-flock-license-plate-reader-linked-a-san-diego-man-to-a-violent-crime-he-was-five-miles-away/",
@@ -2912,6 +2975,13 @@
       "wayback": "https://web.archive.org/web/20260807205854/https://usa.streetsblog.org/2026/07/30/flock-off-mass-surveillance-surge-jeopardizes-lifesaving-crash-reduction-strategy",
       "timestamp": "20260807205854",
       "captured": "2026-08-07T20:58:54Z",
+      "method": "existing"
+    },
+    "https://voiceofoc.org/2026/10/one-oc-city-set-to-pause-flock-cameras-will-a-second-one-follow": {
+      "url": "https://voiceofoc.org/2026/10/one-oc-city-set-to-pause-flock-cameras-will-a-second-one-follow/",
+      "wayback": "https://web.archive.org/web/20261009144655/https://voiceofoc.org/2026/10/one-oc-city-set-to-pause-flock-cameras-will-a-second-one-follow/",
+      "timestamp": "20261009144655",
+      "captured": "2026-10-09T14:46:55Z",
       "method": "existing"
     },
     "https://wacotrib.com/news/local/government-politics/article_4750c478-a70b-444e-a881-719f08bf8a00.html": {
@@ -4374,6 +4444,13 @@
       "captured": "2026-09-04T09:41:37Z",
       "method": "existing"
     },
+    "https://www.cbsnews.com/atlanta/news/athens-clarke-county-police-officer-accused-of-using-flock-cameras-to-surveil-ex-girlfriend": {
+      "url": "https://www.cbsnews.com/atlanta/news/athens-clarke-county-police-officer-accused-of-using-flock-cameras-to-surveil-ex-girlfriend/",
+      "wayback": "https://web.archive.org/web/20261009143156/https://www.cbsnews.com/atlanta/news/athens-clarke-county-police-officer-accused-of-using-flock-cameras-to-surveil-ex-girlfriend/",
+      "timestamp": "20261009143156",
+      "captured": "2026-10-09T14:31:56Z",
+      "method": "wayback-save"
+    },
     "https://www.cbsnews.com/atlanta/news/cherokee-county-deputy-fired-arrested-for-allegedly-misusing-flock-cameras-sheriff-says": {
       "url": "https://www.cbsnews.com/atlanta/news/cherokee-county-deputy-fired-arrested-for-allegedly-misusing-flock-cameras-sheriff-says/",
       "wayback": "https://web.archive.org/web/20260821154847/https://www.cbsnews.com/atlanta/news/cherokee-county-deputy-fired-arrested-for-allegedly-misusing-flock-cameras-sheriff-says/",
@@ -4773,6 +4850,13 @@
       "captured": "2026-08-27T15:00:25Z",
       "method": "save"
     },
+    "https://www.courthousenews.com/colorado-woman-wrongfully-cited-for-theft-files-class-action-against-flock": {
+      "url": "https://www.courthousenews.com/colorado-woman-wrongfully-cited-for-theft-files-class-action-against-flock/",
+      "wayback": "https://web.archive.org/web/20261008071312/https://www.courthousenews.com/colorado-woman-wrongfully-cited-for-theft-files-class-action-against-flock/",
+      "timestamp": "20261008071312",
+      "captured": "2026-10-08T07:13:12Z",
+      "method": "existing"
+    },
     "https://www.craigdailypress.com/news/moffat-county-sheriffs-office-to-end-flock-camera-contract": {
       "url": "https://www.craigdailypress.com/news/moffat-county-sheriffs-office-to-end-flock-camera-contract/",
       "wayback": "https://web.archive.org/web/20260825125027/https://www.craigdailypress.com/news/moffat-county-sheriffs-office-to-end-flock-camera-contract/",
@@ -4786,6 +4870,13 @@
       "timestamp": "20260826140121",
       "captured": "2026-08-26T14:01:21Z",
       "method": "save"
+    },
+    "https://www.ctinsider.com/journalinquirer/article/south-windsor-deactivates-flock-cameras-22468088.php": {
+      "url": "https://www.ctinsider.com/journalinquirer/article/south-windsor-deactivates-flock-cameras-22468088.php",
+      "wayback": "https://web.archive.org/web/20261009144510/https://www.ctinsider.com/journalinquirer/article/south-windsor-deactivates-flock-cameras-22468088.php",
+      "timestamp": "20261009144510",
+      "captured": "2026-10-09T14:45:10Z",
+      "method": "existing"
     },
     "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html": {
       "url": "https://www.dailyrecordnews.com/ellensburg/cle-elum-ends-flock-contract-ellensburg-remains-onboard/article_dbb7dbd8-287a-4010-977f-c7e3810cd330.html",
@@ -5361,6 +5452,13 @@
       "captured": "2026-08-05T22:24:00Z",
       "method": "existing"
     },
+    "https://www.fox5atlanta.com/news/athens-police-officer-fired-allegedly-using-flock-system-track-ex": {
+      "url": "https://www.fox5atlanta.com/news/athens-police-officer-fired-allegedly-using-flock-system-track-ex",
+      "wayback": "https://web.archive.org/web/20261009143135/https://www.fox5atlanta.com/news/athens-police-officer-fired-allegedly-using-flock-system-track-ex",
+      "timestamp": "20261009143135",
+      "captured": "2026-10-09T14:31:35Z",
+      "method": "wayback-save"
+    },
     "https://www.fox5atlanta.com/news/atlanta-police-auditing-use-flock-license-plate-reader-system": {
       "url": "https://www.fox5atlanta.com/news/atlanta-police-auditing-use-flock-license-plate-reader-system",
       "wayback": "https://web.archive.org/web/20260813171723/https://www.fox5atlanta.com/news/atlanta-police-auditing-use-flock-license-plate-reader-system",
@@ -5564,6 +5662,13 @@
       "captured": "2026-03-14T13:21:57Z",
       "method": "existing"
     },
+    "https://www.gjsentinel.com/news/western_colorado/gunnison-pulls-the-plug-on-flock-cameras-after-traffic-stop-mix-up/article_fc6816ed-f496-451f-8fdf-3f2569b5b7f8.html": {
+      "url": "https://www.gjsentinel.com/news/western_colorado/gunnison-pulls-the-plug-on-flock-cameras-after-traffic-stop-mix-up/article_fc6816ed-f496-451f-8fdf-3f2569b5b7f8.html",
+      "wayback": "https://web.archive.org/web/20261007180059/https://www.gjsentinel.com/news/western_colorado/gunnison-pulls-the-plug-on-flock-cameras-after-traffic-stop-mix-up/article_fc6816ed-f496-451f-8fdf-3f2569b5b7f8.html",
+      "timestamp": "20261007180059",
+      "captured": "2026-10-07T18:00:59Z",
+      "method": "existing"
+    },
     "https://www.glendale-wi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement": {
       "url": "https://www.glendale-wi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement",
       "wayback": "https://web.archive.org/web/20260821123307/https://www.glendalewi.gov/DocumentCenter/View/4116/Flock-Safety-Agreement",
@@ -5697,12 +5802,38 @@
       "captured": "2026-09-07T12:10:00Z",
       "method": "save"
     },
+    "https://www.gunnisontimes.com/stories/gunnison-law-enforcement-cancels-contract-with-flock-group,63403": {
+      "url": "https://www.gunnisontimes.com/stories/gunnison-law-enforcement-cancels-contract-with-flock-group,63403",
+      "wayback": "https://web.archive.org/web/20261010112204/https://www.gunnisontimes.com/stories/gunnison-law-enforcement-cancels-contract-with-flock-group,63403",
+      "timestamp": "20261010112204",
+      "captured": "2026-10-10T11:22:04Z"
+    },
     "https://www.hagerty.senate.gov/": {
       "url": "https://www.hagerty.senate.gov/",
       "wayback": "https://web.archive.org/web/20260811045730/https://www.hagerty.senate.gov/",
       "timestamp": "20260811045730",
       "captured": "2026-08-11T04:57:30Z",
       "method": "existing"
+    },
+    "https://www.hallandlampros.com/blog/class-action-lawsuit-against-flock-safety-and-coweta-county/": {
+      "url": "https://www.hallandlampros.com/blog/class-action-lawsuit-against-flock-safety-and-coweta-county/",
+      "wayback": "https://web.archive.org/web/20261010112448/https://www.hallandlampros.com/blog/class-action-lawsuit-against-flock-safety-and-coweta-county/",
+      "timestamp": "20261010112448",
+      "captured": "2026-10-10T11:24:48Z"
+    },
+    "https://www.hallandlampros.com/current-cases-investigations/murkerson-v-flock-group-inc-et-al": {
+      "url": "https://www.hallandlampros.com/current-cases-investigations/murkerson-v-flock-group-inc-et-al/",
+      "wayback": "https://web.archive.org/web/20261010113255/https://www.hallandlampros.com/current-cases-investigations/murkerson-v-flock-group-inc-et-al/",
+      "timestamp": "20261010113255",
+      "captured": "2026-10-10T11:32:55Z",
+      "method": "existing"
+    },
+    "https://www.hallandlampros.com/wp-content/uploads/2026/10/COMPLAINT-for-Damages-and-Injunctive-relief-with-Jury-Demand-filed-by-Tyler-Murkerson.pdf": {
+      "url": "https://www.hallandlampros.com/wp-content/uploads/2026/10/COMPLAINT-for-Damages-and-Injunctive-relief-with-Jury-Demand-filed-by-Tyler-Murkerson.pdf",
+      "wayback": "https://web.archive.org/web/20261010112958/https://www.hallandlampros.com/wp-content/uploads/2026/10/COMPLAINT-for-Damages-and-Injunctive-relief-with-Jury-Demand-filed-by-Tyler-Murkerson.pdf",
+      "timestamp": "20261010112958",
+      "captured": "2026-10-10T11:29:58Z",
+      "method": "save"
     },
     "https://www.hawley.senate.gov/chairman-hawley-investigates-ai-powered-flock-cameras-amidst-privacy-concerns": {
       "url": "https://www.hawley.senate.gov/chairman-hawley-investigates-ai-powered-flock-cameras-amidst-privacy-concerns/",
@@ -5800,6 +5931,13 @@
       "wayback": "https://web.archive.org/web/20260815081749/https://www.houstonchronicle.com/news/houston-texas/trending/article/flock-camera-baytown-police-officer-22360387.php",
       "timestamp": "20260815081749",
       "captured": "2026-08-15T08:17:49Z",
+      "method": "existing"
+    },
+    "https://www.houstonpublicmedia.org/articles/news/harris-county/2026/10/08/563919/more-than-60-flock-cameras-to-be-decommissioned-in-harris-county-commissioner-says": {
+      "url": "https://www.houstonpublicmedia.org/articles/news/harris-county/2026/10/08/563919/more-than-60-flock-cameras-to-be-decommissioned-in-harris-county-commissioner-says/",
+      "wayback": "https://web.archive.org/web/20261009144804/https://www.houstonpublicmedia.org/articles/news/harris-county/2026/10/08/563919/more-than-60-flock-cameras-to-be-decommissioned-in-harris-county-commissioner-says/",
+      "timestamp": "20261009144804",
+      "captured": "2026-10-09T14:48:04Z",
       "method": "existing"
     },
     "https://www.houstonpublicmedia.org/articles/police/2026/08/20/559941/deer-park-police-officer-suspended-after-admitting-to-the-misuse-of-flock-cameras": {
@@ -6243,6 +6381,13 @@
       "captured": "2026-04-09T02:24:28Z",
       "method": "existing"
     },
+    "https://www.kolotv.com/2026/10/10/city-reno-will-not-renew-its-contract-with-flock-safety-over-privacy-concerns": {
+      "url": "https://www.kolotv.com/2026/10/10/city-reno-will-not-renew-its-contract-with-flock-safety-over-privacy-concerns/",
+      "wayback": "https://web.archive.org/web/20261010111957/https://www.kolotv.com/2026/10/10/city-reno-will-not-renew-its-contract-with-flock-safety-over-privacy-concerns/",
+      "timestamp": "20261010111957",
+      "captured": "2026-10-10T11:19:57Z",
+      "method": "save"
+    },
     "https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety": {
       "url": "https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety",
       "wayback": "https://web.archive.org/web/20260814225111/https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety",
@@ -6318,6 +6463,12 @@
       "timestamp": "20261003062956",
       "captured": "2026-10-03T06:29:56Z",
       "method": "existing"
+    },
+    "https://www.kunr.org/local-stories/2026-10-09/reno-ends-flock-contract": {
+      "url": "https://www.kunr.org/local-stories/2026-10-09/reno-ends-flock-contract",
+      "wayback": "https://web.archive.org/web/20261010111837/https://www.kunr.org/local-stories/2026-10-09/reno-ends-flock-contract",
+      "timestamp": "20261010111837",
+      "captured": "2026-10-10T11:18:37Z"
     },
     "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock": {
       "url": "https://www.kwqc.com/2026/08/19/henry-county-il-sheriff-ending-partnership-with-flock/",
@@ -6597,6 +6748,13 @@
       "wayback": "https://web.archive.org/web/20260924154459/https://www.montereycountynow.com/blogs/news_blog/county-supervisors-vote-to-take-down-all-sheriffs-flock-cameras/article_b7cfff00-8f45-4fdb-bd98-c8e86f0d02c9.html",
       "timestamp": "20260924154459",
       "captured": "2026-09-24T15:44:59Z",
+      "method": "existing"
+    },
+    "https://www.montrosepress.com/news/gunnison-pulls-the-plug-on-flock-cameras-citing-dissatisfaction-sunday-traffic-stop/article_0480a99f-4d75-4eae-b53a-3073bff3558c.html": {
+      "url": "https://www.montrosepress.com/news/gunnison-pulls-the-plug-on-flock-cameras-citing-dissatisfaction-sunday-traffic-stop/article_0480a99f-4d75-4eae-b53a-3073bff3558c.html",
+      "wayback": "https://web.archive.org/web/20261006182410/https://www.montrosepress.com/news/gunnison-pulls-the-plug-on-flock-cameras-citing-dissatisfaction-sunday-traffic-stop/article_0480a99f-4d75-4eae-b53a-3073bff3558c.html",
+      "timestamp": "20261006182410",
+      "captured": "2026-10-06T18:24:10Z",
       "method": "existing"
     },
     "https://www.motherjones.com/criminal-justice/2025/08/axon-police-ai-draft-one-foia": {
@@ -7187,6 +7345,13 @@
       "captured": "2026-08-21T12:39:04Z",
       "method": "existing"
     },
+    "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09": {
+      "url": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/",
+      "archive_today": "https://archive.today/20261009014947/https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/",
+      "timestamp": "20261009014947",
+      "captured": "2026-10-09T01:49:47Z",
+      "method": "archive.today"
+    },
     "https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16": {
       "url": "https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16/",
       "archive_today": "https://archive.today/20210916122903/https://www.reuters.com/world/asia-pacific/australias-two-largest-states-trial-facial-recognition-software-police-pandemic-2021-09-16/",
@@ -7291,6 +7456,13 @@
       "timestamp": "20260826010759",
       "captured": "2026-08-26T01:07:59Z",
       "method": "archive.today"
+    },
+    "https://www.shawlocal.com/my-suburban-life/2026/10/06/former-itasca-west-chicago-cops-accused-of-misusing-flock-license-plate-cameras": {
+      "url": "https://www.shawlocal.com/my-suburban-life/2026/10/06/former-itasca-west-chicago-cops-accused-of-misusing-flock-license-plate-cameras/",
+      "wayback": "https://web.archive.org/web/20261009144027/https://www.shawlocal.com/my-suburban-life/2026/10/06/former-itasca-west-chicago-cops-accused-of-misusing-flock-license-plate-cameras/",
+      "timestamp": "20261009144027",
+      "captured": "2026-10-09T14:40:27Z",
+      "method": "save"
     },
     "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief": {
       "url": "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
@@ -7506,6 +7678,13 @@
       "wayback": "https://web.archive.org/web/20261004002239/https://www.texastribune.org/2026/09/24/texas-flock-cameras-state-funding-local-cities-counties-reaction/",
       "timestamp": "20261004002239",
       "captured": "2026-10-04T00:22:39Z",
+      "method": "existing"
+    },
+    "https://www.texastribune.org/2026/10/05/texas-flock-cameras-two-million-public-records-information": {
+      "url": "https://www.texastribune.org/2026/10/05/texas-flock-cameras-two-million-public-records-information/",
+      "wayback": "https://web.archive.org/web/20261006102830/https://www.texastribune.org/2026/10/05/texas-flock-cameras-two-million-public-records-information/",
+      "timestamp": "20261006102830",
+      "captured": "2026-10-06T10:28:30Z",
       "method": "existing"
     },
     "https://www.theadvocate.com/baton_rouge/news/crime_police/jpso-deputy-flock-camera-abuse/article_a41e70f5-fb70-57df-b609-de401722c5a6.html": {
@@ -7795,6 +7974,13 @@
       "captured": "2024-03-06T11:34:31Z",
       "method": "existing"
     },
+    "https://www.vpm.org/news/2026-10-02/chesterfield-police-flock-safety-cameras-alprs-carpenter-jones-sturtevant-schmidt": {
+      "url": "https://www.vpm.org/news/2026-10-02/chesterfield-police-flock-safety-cameras-alprs-carpenter-jones-sturtevant-schmidt/",
+      "wayback": "https://web.archive.org/web/20261007215343/https://www.vpm.org/news/2026-10-02/chesterfield-police-flock-safety-cameras-alprs-carpenter-jones-sturtevant-schmidt/",
+      "timestamp": "20261007215343",
+      "captured": "2026-10-07T21:53:43Z",
+      "method": "existing"
+    },
     "https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby": {
       "url": "https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby/",
       "wayback": "https://web.archive.org/web/20261007181604/https://www.vpm.org/news/2026-10-06/henrico-police-cancel-flock-safety-alpr-vithoulkas-cooper-newby/",
@@ -7843,6 +8029,12 @@
       "timestamp": "20261001185426",
       "captured": "2026-10-01T18:54:26Z",
       "method": "existing"
+    },
+    "https://www.warwickadvertiser.com/news/local-news/warwick-ends-contract-with-flock-safety-XA6277642": {
+      "url": "https://www.warwickadvertiser.com/news/local-news/warwick-ends-contract-with-flock-safety-XA6277642",
+      "wayback": "https://web.archive.org/web/20261010112730/https://www.warwickadvertiser.com/news/local-news/warwick-ends-contract-with-flock-safety-XA6277642",
+      "timestamp": "20261010112730",
+      "captured": "2026-10-10T11:27:30Z"
     },
     "https://www.washingtonexaminer.com/news/white-house/4726568/trump-support-flock-cameras-i-like-them": {
       "url": "https://www.washingtonexaminer.com/news/white-house/4726568/trump-support-flock-cameras-i-like-them/",
@@ -8137,6 +8329,13 @@
       "captured": "2026-08-19T23:12:51Z",
       "method": "save"
     },
+    "https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records": {
+      "url": "https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records/",
+      "wayback": "https://web.archive.org/web/20261009144428/https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records/",
+      "timestamp": "20261009144428",
+      "captured": "2026-10-09T14:44:28Z",
+      "method": "existing"
+    },
     "https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824": {
       "url": "https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824",
       "wayback": "https://web.archive.org/web/20260903150819/https://www.wesh.com/article/central-florida-license-plate-reader-policies-fdot-memo/73574824",
@@ -8212,6 +8411,13 @@
       "wayback": "https://web.archive.org/web/20260726151759/https://www.wftv.com/news/local/sumter-detective-fired-arrested-using-police-cameras-spy-husbands-ex-wife/O2ZIHFAP4FC7VINFSGNDGPU6DI/",
       "timestamp": "20260726151759",
       "captured": "2026-07-26T15:17:59Z",
+      "method": "existing"
+    },
+    "https://www.wftv.com/news/local/volusia-county/volusia-county-council-approves-one-year-moratorium-license-plate-reader-cameras/NEY62RTEORBLXNO3UQJMYUEIQM": {
+      "url": "https://www.wftv.com/news/local/volusia-county/volusia-county-council-approves-one-year-moratorium-license-plate-reader-cameras/NEY62RTEORBLXNO3UQJMYUEIQM/",
+      "wayback": "https://web.archive.org/web/20261006222343/https://www.wftv.com/news/local/volusia-county/volusia-county-council-approves-one-year-moratorium-license-plate-reader-cameras/ney62rteorblxno3uqjmyueiqm/",
+      "timestamp": "20261006222343",
+      "captured": "2026-10-06T22:23:43Z",
       "method": "existing"
     },
     "https://www.wgbh.org/news/politics/2026-09-09/state-lawmakers-look-to-put-guardrails-on-flock": {
@@ -8557,6 +8763,13 @@
       "captured": "2026-08-16T17:50:18Z",
       "method": "existing"
     },
+    "https://www.wsbtv.com/news/local/clarke-county/north-georgia-officer-terminated-accused-misusing-flock-safety-system-track-ex-girlfriend/6DRWCJN55FGDVJGAGB6WMMVROA": {
+      "url": "https://www.wsbtv.com/news/local/clarke-county/north-georgia-officer-terminated-accused-misusing-flock-safety-system-track-ex-girlfriend/6DRWCJN55FGDVJGAGB6WMMVROA/",
+      "wayback": "https://web.archive.org/web/20261009143215/https://www.wsbtv.com/news/local/clarke-county/north-georgia-officer-terminated-accused-misusing-flock-safety-system-track-ex-girlfriend/6DRWCJN55FGDVJGAGB6WMMVROA/",
+      "timestamp": "20261009143215",
+      "captured": "2026-10-09T14:32:15Z",
+      "method": "wayback-save"
+    },
     "https://www.wsbtv.com/news/local/coweta-county/3-former-sheriffs-office-employees-accused-misusing-flock-safety-system-after-audit/SJDDJ7KLBRE7BMVSXA2JU2HPGM": {
       "url": "https://www.wsbtv.com/news/local/coweta-county/3-former-sheriffs-office-employees-accused-misusing-flock-safety-system-after-audit/SJDDJ7KLBRE7BMVSXA2JU2HPGM/",
       "wayback": "https://web.archive.org/web/20260805113820/https://www.wsbtv.com/news/local/coweta-county/3-former-sheriffs-office-employees-accused-misusing-flock-safety-system-after-audit/SJDDJ7KLBRE7BMVSXA2JU2HPGM/",
@@ -8695,6 +8908,13 @@
       "wayback": "https://web.archive.org/web/20260824145527/https://www.wtoc.com/2026/08/21/there-is-no-excuse-breaking-that-trust-gbi-arrests-4-former-savannah-pd-employees-flock-misuse-case/",
       "timestamp": "20260824145527",
       "captured": "2026-08-24T14:55:27Z",
+      "method": "existing"
+    },
+    "https://www.wtvr.com/news/local-news/chesterfield-county/rebekkah-robinson-charged-invastion-of-privacy-flock-oct-2-2026": {
+      "url": "https://www.wtvr.com/news/local-news/chesterfield-county/rebekkah-robinson-charged-invastion-of-privacy-flock-oct-2-2026",
+      "wayback": "https://web.archive.org/web/20261003034316/https://www.wtvr.com/news/local-news/chesterfield-county/rebekkah-robinson-charged-invastion-of-privacy-flock-oct-2-2026",
+      "timestamp": "20261003034316",
+      "captured": "2026-10-03T03:43:16Z",
       "method": "existing"
     },
     "https://www.wuky.org/wuky-news/2026-07-27/massie-teases-anti-flock-camera-push-as-backlash-brews": {

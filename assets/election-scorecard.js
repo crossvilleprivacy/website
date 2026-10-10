@@ -68,6 +68,14 @@
     return rows.map(decorate);
   }
 
+  function writtenQuote(row) {
+    return trim(row && row.Answer) || "—";
+  }
+
+  function forumQuote(row) {
+    return trim(row && row.Forum_Answer) || "—";
+  }
+
   function haystack(row) {
     return [
       row.Name,
@@ -76,6 +84,7 @@
       row.Body_Label,
       row.Stance_Label,
       row.Answer,
+      row.Forum_Answer,
     ]
       .join(" ")
       .toLowerCase();
@@ -130,15 +139,9 @@
     };
   }
 
-  function tallyLine(counts) {
-    counts = counts || tally([]);
-    return (
-      "City: " +
-      counts.city_answered +
-      " of " +
-      counts.city_total +
-      " have answered."
-    );
+  function tallyLine(/* counts */) {
+    // Answered X-of-Y counters retired after every city candidate had a public Flock remark.
+    return "";
   }
 
   function setText(el, text) {
@@ -191,7 +194,7 @@
     if (!rows.length) {
       var empty = doc.createElement("tr");
       var cell = doc.createElement("td");
-      cell.setAttribute("colspan", "5");
+      cell.setAttribute("colspan", "4");
       cell.textContent = "No names match those filters.";
       empty.appendChild(cell);
       tbody.appendChild(empty);
@@ -233,34 +236,15 @@
       raceTd.textContent = (row.Body_Label ? row.Body_Label + " · " : "") + (row.Race || row.Office || "—");
       tr.appendChild(raceTd);
 
-      var stanceTd = doc.createElement("td");
-      stanceTd.setAttribute("data-label", "Position");
-      var stanceEl = doc.createElement("span");
-      stanceEl.className = "election-stance election-stance-" + (trim(row.Stance) || "no_answer");
-      stanceEl.textContent = row.Stance_Label || stanceLabel(row);
-      stanceTd.appendChild(stanceEl);
-      tr.appendChild(stanceTd);
-
       var answerTd = doc.createElement("td");
-      answerTd.setAttribute("data-label", "Quote");
-      answerTd.textContent = row.Answer || "—";
+      answerTd.setAttribute("data-label", "Email / text");
+      answerTd.textContent = writtenQuote(row);
       tr.appendChild(answerTd);
 
-      var srcTd = doc.createElement("td");
-      srcTd.setAttribute("data-label", "Source");
-      srcTd.className = "lookup-source-cell";
-      var source = sourceDisplay(row);
-      if (source.href) {
-        var src = doc.createElement("a");
-        src.href = source.href;
-        src.target = "_blank";
-        src.rel = "noopener";
-        src.textContent = source.text;
-        srcTd.appendChild(src);
-      } else {
-        srcTd.textContent = source.text;
-      }
-      tr.appendChild(srcTd);
+      var forumTd = doc.createElement("td");
+      forumTd.setAttribute("data-label", "Forum");
+      forumTd.textContent = forumQuote(row);
+      tr.appendChild(forumTd);
 
       tbody.appendChild(tr);
     });
@@ -362,8 +346,7 @@
 
     function applyRecords(rows, meta) {
       records = rows || [];
-      var counts = tally(records);
-      setText(tallyEl, tallyLine(counts));
+      setText(tallyEl, "");
       if (asOfEl && meta && meta.as_of_long) {
         asOfEl.textContent = meta.as_of_long;
       }
@@ -433,6 +416,8 @@
     COUNTY_STANCE_LABELS: COUNTY_STANCE_LABELS,
     bodyLabel: bodyLabel,
     stanceLabel: stanceLabel,
+    writtenQuote: writtenQuote,
+    forumQuote: forumQuote,
     isAnswered: isAnswered,
     decorate: decorate,
     recordsFromIndex: recordsFromIndex,

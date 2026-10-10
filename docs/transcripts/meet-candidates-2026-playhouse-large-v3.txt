@@ -1,0 +1,1165 @@
+# Meet the Candidates — Crossville 2026
+# Model: faster-whisper large-v3 (local, int8 CPU)
+# Settings: beam=8 best_of=8 patience=2 vad=on condition_on_previous_text=off
+# Source: meet-candidates-2026.wav
+
+[00000.21 → 00021.00] all the impact welcome each and every one of y'all our sound guy can't see elliot i'm blinded i'm sure
+[00021.00 → 00025.76] my bald head is shining through if you want to turn that down but uh so thank you guys very much
+[00025.76 → 00030.12] ethan thank you in the chamber we're always putting these together giving your team a good
+[00030.12 → 00037.79] job prepping all this stuff and i'm just here to kind of move it on we're going to do the same as
+[00037.79 → 00043.76] we've done in the past obviously uh candidates are going to have a couple minutes to talk about
+[00043.76 → 00049.36] the questions and introduce yourself here in a second folks with you all uh we ask you know
+[00049.36 → 00057.30] let's maintain some decorum because a lot of times we lose the traceability of all conversation
+[00057.30 → 00063.12] and the other side of that is so we'll maintain that we got some questions answered from the
+[00063.12 → 00069.69] audience afterwards and uh each of them will be kind of holding up a cheap start getting a little
+[00069.69 → 00077.00] a long time, but don't feel pressured. To begin with, we have a prepared statement from
+[00077.26 → 00084.01] Lou Morrison, and I've already told the candidates. Lou wanted me to read this. He says,
+[00084.21 → 00088.53] Hello everyone, I apologize that I could not attend tonight's festivities. I'm on my way
+[00088.53 → 00095.09] to Spain with Vicki and Orion. We are walking a portion of the Camino Santiago Trail in
+[00095.09 → 00124.87] coverage of the tomb of St. James. I am a 24 year resident of Crossfield. I have seven kids, six sons and daughter. My youngest, currently a freshman at CCHS and the rest have all graduated from CCHS. I'm a veteran of the United States Army and was a police officer for seven years. I own and manage residential retails in Crossfield and I am a general contractor. I've served on the city's personnel board and
+[00124.87 → 00129.46] currently vice chair of sports first i want to say that our recent city council
+[00130.22 → 00135.46] very good job in guiding the city through a lot of growth and change there are a lot of really
+[00135.46 → 00141.75] good things going on across the world currently and many to come that our city has in place where
+[00141.75 → 00146.57] people want to live and raise their families in conversations reading online and in the newspaper
+[00147.21 → 00154.57] there are several issues uh concerns facing the city concerns about vagrancy flock cameras data
+[00154.57 → 00161.91] Data centers, the ambulance service, abandoned and dilapidated properties, and of course, the big one, elephant room, the water and sewer.
+[00163.32 → 00172.10] Talking about differences regarding the outcome of the referendum, the new council will have a lot they will need to sort to.
+[00172.28 → 00182.42] If the referendum vote is no, I believe the city should look into changing the structure of our utilities away from just the council having to decide the actual board structure.
+[00182.42 → 00189.10] Having a cost-full regional water authority would allow the city to more effectively partner
+[00189.10 → 00193.50] up or work with other utilities and move toward a long-term water security.
+[00194.26 → 00199.06] If the vote is yes, then the city will have to sort through the sales pitches, dire warnings,
+[00199.28 → 00203.04] and personal bases that have clouded this.
+[00203.20 → 00208.82] The city will also have to consider joining or partnering with the CPWA, but in a way
+[00208.82 → 00213.80] that makes the city and its tax rate payers feel that they're getting a fair
+[00213.80 → 00218.80] shape. The city, on behalf of its rate payers, has built up assets and
+[00218.80 → 00224.24] infrastructure since the 1930s to simplify relinquishing those funds feels
+[00224.24 → 00228.88] uncomfortable. Again, I apologize for not being there. I humbly ask for your vote
+[00228.88 → 00233.26] and I wish the other candidates well and good luck. Thank you.
+[00233.26 → 00245.49] you with Morris. Okay, that's interesting. State. Go ahead and start there. And what we'll do this y'all
+[00247.01 → 00251.89] tell what term number you're up for and all that little bit of history and then we'll get
+[00251.89 → 00263.13] going after that. Start here. Christopher Cole. I've been across it for 30 years and I'm in the
+[00263.13 → 00269.87] field time. I'm a local general contractor doing every service except for plumbing and electrical
+[00270.81 → 00274.27] So I understand, don't follow the problems that we're talking about.
+[00274.31 → 00275.57] It's on a small scale, but it's similar.
+[00276.09 → 00278.73] We have our different structures and systems and figuring out solutions.
+[00278.89 → 00280.67] We're in a budget, usually a tight budget.
+[00282.12 → 00284.12] The reason I'm running this is because I live across the wildlife.
+[00284.36 → 00285.70] I'm still here because I love it.
+[00287.26 → 00292.07] And it's always been a safe, secure, much trustworthy place to live.
+[00292.47 → 00293.72] And I want to keep it that way.
+[00294.38 → 00296.08] Because with the changes that are going on,
+[00296.18 → 00297.84] not really because of crawlers or wolves,
+[00298.04 → 00302.65] and things are getting really, I don't want to say scary,
+[00302.65 → 00320.12] But then, so the city can do it, which I think the only option they have is for the city to do everything they can and step up beyond what I would expect to be their normal capacity to come to afford the, not just the city, but also represents Cumberland County as a whole.
+[00320.44 → 00332.05] It's the heart of Cumberland County, so the heart is as strong as possible and functioning as efficient as possible for the good of the people is really the best bet that I see for all of us moving forward.
+[00332.05 → 00351.49] So it goes on to lunch here and to run if I get the opportunity, I'll do everything that I can to keep it affordable, to keep it safe, and to keep looking out for all of us because CrossFit always had like two structures, a couple of structures, but there's the lower class, there's like a middle class, and if you're a middle class in CrossFit, you're rich, CrossFit rich.
+[00352.56 → 00361.95] Even now, the CrossFit rich group, House Life, and the six figures are still not working much of a check-to-check, and so that's up for a lot of people I know.
+[00361.95 → 00365.41] So, moving forward, keep looking out for everybody where they are.
+[00365.91 → 00368.79] Looking out for everybody where they are, going to look out for everybody where they are, going to look out for everybody.
+[00369.72 → 00371.40] And doing the best that you can to make everyone safe.
+[00371.76 → 00374.98] Looking out to make sure that nobody's getting pulled over or taken advantage of from us.
+[00375.53 → 00384.68] And when things are moving in and moving out, making sure that Crossville is kept safe and that nobody's taken advantage of us.
+[00387.18 → 00387.78] Ms. Kelsey?
+[00388.52 → 00393.36] I'm Melinda Kelsey, and I'm running for the two-year term from the late James Mayfield.
+[00393.97 → 00400.55] First and foremost, I'm a mother, a grandmother, and I've spent my entire career in public service.
+[00400.93 → 00412.93] I was honored to work for six Tennessee governors across Democrat, Republican, and I also included, I worked for the Tennessee Secretary of State by part of it.
+[00413.45 → 00417.55] So my life, passion, and commitment has always been public service.
+[00417.55 → 00427.73] I had all 95 counties many times, and I worked very closely with the TCATs across Tennessee among multiple waves of government.
+[00428.17 → 00436.77] I feel like when I moved here, let me back up just a little bit, I was appointed the very first by Governor Bill Haslam,
+[00437.01 → 00440.57] the first Chief of Staff for the Tennessee Department of Labor and Workforce Development.
+[00441.03 → 00444.69] It's a title, it's a big title, and I was humbled to get that.
+[00444.69 → 00450.81] The second thing I was able to do when I finished my career with the Tennessee Secretary of State,
+[00451.03 → 00457.51] I was Frank Hargis, Director of Human Resources and Organizational Development, which includes elections.
+[00458.81 → 00464.05] So those are big titles, but I learned a lot. I learned a lot from the people.
+[00464.23 → 00468.79] When you go to Mountain City or you go to Memphis, sometimes the problems are still the same.
+[00469.03 → 00473.27] I feel like I bring a lot to the table as far as bringing people to the table
+[00473.27 → 00474.91] with integrity, compassion.
+[00475.75 → 00478.79] I'm a good listener, and I've been listening for six years.
+[00479.07 → 00482.05] When I retired in 2020, I didn't go home and retire.
+[00482.17 → 00484.91] I never began volunteering, of which I still do.
+[00485.29 → 00487.47] And I do that because that's in my DNA.
+[00487.57 → 00488.43] That's what I do.
+[00489.63 → 00492.03] I feel like that when we look at Crossville,
+[00492.11 → 00495.33] I chose Crossville, and I think Crossville chose me.
+[00496.09 → 00499.37] I'm originally from White County, Sparta, actually Doral.
+[00499.39 → 00501.41] So if you know where Doral is, that's where I grew up.
+[00501.41 → 00503.67] So I'm really proud of that as well.
+[00503.87 → 00505.63] And my history runs really deep there.
+[00505.67 → 00509.29] My roots run deep in giving back to the communities.
+[00509.73 → 00510.51] I listen.
+[00510.73 → 00512.33] I've been listening for six years.
+[00512.55 → 00514.75] And I think you made a great point.
+[00515.01 → 00520.03] There are a lot of people that live paycheck to paycheck, day to day.
+[00520.27 → 00525.53] I met with a lady that makes $500, lives on $500 a month.
+[00526.57 → 00528.07] I can understand that.
+[00528.27 → 00529.55] I relate to that.
+[00529.75 → 00531.25] I can relate to that.
+[00531.25 → 00553.82] I feel like we have a lot of opportunities. There's growth that's coming forth in Cumberland County and the city of Crossville. I live in the city of Crossville. I care about the city. I care about the people. And I know that there's growth, but we have to be very strategic in what we do. I'm very conservative in the way I vote and the way I look at financial.
+[00553.82 → 00556.18] We have to be with the fiduciary.
+[00556.20 → 00565.88] Whoever's on this council are the fiduciary people that take care of the taxpayers' dollars inside the city hospital.
+[00566.28 → 00567.96] That is a huge responsibility.
+[00568.66 → 00572.30] I have to do that with the state, and I feel like I've learned a lot to the table.
+[00572.50 → 00575.18] And if I don't win, I've not lost one thing.
+[00575.30 → 00575.84] I've gained.
+[00576.08 → 00580.30] I've gained friendships and relationships that I could bring to the table as well.
+[00580.62 → 00582.08] So that's who I am.
+[00582.08 → 00587.60] and I went to the board meeting, and I appreciate this young man putting his name on the ballot and stuff.
+[00587.72 → 00589.02] He said, I don't know, man, it's worth it.
+[00589.08 → 00590.56] I do hope they vote for me, Chris.
+[00592.69 → 00593.09] What?
+[00596.62 → 00597.02] Yeah.
+[00599.58 → 00600.48] I'm Danny White.
+[00600.84 → 00607.74] For the ones that don't know me, I put my numbers on my sign, and they're welcome to call me.
+[00608.46 → 00610.74] I first thought, well, it's these other guys.
+[00611.26 → 00611.90] She's right.
+[00612.72 → 00615.12] It's a big step to step out into this.
+[00615.14 → 00616.02] It's a big step aside.
+[00618.42 → 00620.38] And it's a tough situation.
+[00620.64 → 00622.24] It's a long time until the election.
+[00622.42 → 00624.68] You won't put a dime down in front of a crowd.
+[00627.08 → 00632.68] So I think you've got a good choice with the several people that are in both these races.
+[00635.56 → 00638.28] What's tough is you've got two people in one person.
+[00641.08 → 00642.36] That should never happen.
+[00643.76 → 00649.62] But I promise to listen, and I will value your dollars conservatively,
+[00653.90 → 00665.01] Yes, my name is Mike Turner, I've lived in Crossville most of my life, between Clinton
+[00665.01 → 00666.19] and Oak Ridge.
+[00666.31 → 00671.19] My father was a lineman for the volunteer electorate, he was killed in the line of duty
+[00671.57 → 00672.84] in 1979.
+[00673.46 → 00679.98] I started my career in 1975, Judge Lon Tabor, our county mayor used to be county judge,
+[00679.98 → 00685.66] I don't know if I remember that, but he hired me when I was 19 years old in the fire department.
+[00686.34 → 00692.88] Cumberland County Fire Department. Jim Isen was my first chief. He taught me a lot. He was a great person.
+[00694.83 → 00700.91] I served there for 15 years, and then I went to the Y-12 nuclear complex in Oak Ridge,
+[00701.21 → 00706.63] served as a firefighter there, and rose to the rank of lieutenant.
+[00706.63 → 00717.23] And in 1993, the city of Crosswell hired me as their fire chief, and I spent 28 years as chief for the Crosswell Fire Department.
+[00717.55 → 00722.13] And I've never been, this is my first forum, four years ago, and I don't think we had a forum.
+[00722.69 → 00731.38] But anyway, so I don't have any notes, and I'll try to answer any question I can.
+[00732.80 → 00738.58] But in total, I've served the public for like 46 years of my career.
+[00738.58 → 00741.10] and I've loved every minute of it
+[00741.10 → 00743.12] and the last four years
+[00743.12 → 00744.44] as city councilman I've
+[00745.00 → 00747.26] tried to make the most common sense
+[00747.26 → 00748.52] decisions I can make
+[00749.30 → 00752.60] and I know not everyone
+[00752.60 → 00754.16] is going to agree with me that you can satisfy
+[00754.16 → 00756.56] 50% you're doing really good but I don't think
+[00756.56 → 00758.44] you can so I've tried to make
+[00758.44 → 00759.70] the best decisions
+[00760.73 → 00762.25] to my common sense
+[00762.25 → 00763.53] that my father taught me
+[00764.81 → 00766.57] when I was a young boy
+[00766.57 → 00768.97] so I hope
+[00768.97 → 00770.21] to serve the next four years
+[00770.21 → 00776.37] I run for re-election, and I live right down the street here on Florida Highway.
+[00777.37 → 00782.20] I hear a pointy dog on the hill on the left, and it's in the center of my yard.
+[00782.90 → 00786.86] But I appreciate being here, and thank you, Mr. Whiteman, for inviting me.
+[00787.50 → 00794.52] And you can call me at my city email as possible, mike.herbertproperty.gov.
+[00795.23 → 00798.21] You can email me any time, and I'll try to answer your questions.
+[00798.21 → 00806.25] uh in my cell phone i can reconnect you to my cell phones 931-202-0635
+[00807.42 → 00812.82] so thank you for letting me be here and uh i look forward to serving the next four years
+[00812.82 → 00822.25] if you like me thank you hey i'm ronnie for i'm a lifelong resident i'm going for a four-year
+[00822.25 → 00826.48] one of the soft four years a lifelong resident other than just a couple of years here and there
+[00826.48 → 00833.06] I've lived in Cocoa for a little bit, and I've also lived in Nashville for a little bit.
+[00833.86 → 00840.26] Me and my wife have a little one at home, and that's what made me come back to Crossville as home, is where I was born and raised.
+[00841.22 → 00850.02] I've seen other towns, and Crossville has a lot to offer for not only the retirement community, but the direction we're going in has a lot to offer for the youth as well.
+[00850.38 → 00855.86] I spend my day working at a local independent insurance agency that's been servicing the community since 1981.
+[00855.86 → 00861.30] a one i paid brian running that agency we have a good team there that helps the community every
+[00861.30 → 00866.32] single day i get to talk to people from all walks of life we have a personal side of the business
+[00866.32 → 00871.12] side we have a lot of good things going on across y'all have lots of good things going on um you
+[00871.12 → 00876.44] know the businesses that aren't here in the other businesses so i'm thankful so now those individuals
+[00883.10 → 00888.50] I'm Greg Wood. I'm running for the four-year term and I've seen a lot of service.
+[00888.76 → 00898.28] I was the longest-standing city manager in the last 30 years, but I really can't thank
+[00903.26 → 00911.76] I think that's the key to the city running well and going on in the future is to have a good council.
+[00911.90 → 00919.18] And I've been asked to run, but I've never really thought about it, but I would encourage it very much.
+[00919.26 → 00924.32] So I think it's a matter of stewardship that I owe it to people with my experience.
+[00924.32 → 00927.78] I have spent four years in the public administration.
+[00928.22 → 00930.50] I've been buying experience for 35 years.
+[00931.14 → 00935.26] I've been with CERB, joined the Air Force when I was 17, so that's kind of young.
+[00936.20 → 00941.84] Some of the things we did while I was there is we did some hawk refurbishment with the Flash Pad.
+[00942.10 → 00943.60] We brought puppies here.
+[00944.28 → 00946.94] We did a rural canning harbor freight here.
+[00947.52 → 00952.98] We conducted a haystay to make sure that our employees were working independently
+[00952.98 → 00957.42] with other solid ground so that we would be able to make it properly.
+[00957.98 → 00960.10] I'm not saying there's a fire treatment.
+[00960.48 → 00965.64] When I'm active, we will run a full-time fire truck to emergency medical calls,
+[00965.66 → 00968.90] which is not the smartest thing to do.
+[00969.02 → 00971.66] I think there's a lot of work here on a very expensive piece of equipment
+[00971.66 → 00974.04] that doesn't do that well through the SWAT,
+[00974.64 → 00978.90] which provides a more cost-effective response.
+[00978.90 → 00985.32] off. My background, of course, is majority in the medical side of the house, but I also
+[00985.32 → 00990.65] work at the Weatherport office, so I'm looking forward to working with you guys to try it
+[00990.65 → 00999.39] there. I guess there are a lot of questions. Hopefully, I'll give you a better idea of
+[00999.39 → 01003.99] my thoughts on this, because I have a long amount of my account. But, of course, now
+[01003.99 → 01008.69] community service, some of these folks at the table, I'm going to see you forward and
+[01013.31 → 01022.77] Okay, so the questions here were all Ethan, I feel like you've done a great job of picking through some.
+[01023.91 → 01027.07] I'm not as involved in Covington County as I used to be.
+[01027.21 → 01030.41] I still, again, grew up here, but a lot of good questions.
+[01030.71 → 01036.65] And remember, folks, when we were talking, I know most of you all, they probably don't.
+[01036.67 → 01038.03] That's where the focus needs to be.
+[01038.27 → 01040.25] And we'll start out in a random order.
+[01040.25 → 01044.61] and get a well start to have a sprinkler as we go with questions you'll answer and we'll answer
+[01044.61 → 01051.31] right down we'll start back from the other end so the the big one um obviously is is uh
+[01051.89 → 01057.83] is the big one of course you know some of us are still old enough to remember when we had
+[01057.83 → 01063.57] well first remember when we first stopped so with that we'll start with this question
+[01064.23 → 01070.01] there has been much discussion on the topic of future water security what are the main
+[01070.01 → 01075.27] challenges as you see it and if you oppose a regional approach merging with
+[01075.27 → 01080.27] the common plateau water utility what is your specific alternative to finding
+[01080.27 → 01083.53] costal future water and sewer infrastructure needs
+[01085.05 → 01094.68] I just thought about it. Okay.
+[01095.04 → 01100.65] Okay so the first part of the question was what are the main challenges right now?
+[01100.93 → 01106.54] The main challenge is money. The issue that we're facing as far as I understand it is
+[01106.54 → 01111.11] It's not completely that we don't have enough water.
+[01111.33 → 01112.75] It's that we're losing enough water.
+[01113.46 → 01123.04] I think it's across the sea, all the utilities, 16 to 32% of the water that is already paid for as far as process.
+[01123.20 → 01130.70] So everything from operating the utilities, from treating the water and pumping the water,
+[01130.96 → 01135.40] everything is paid for all the way up until it goes to where it should be charged and paid for.
+[01135.42 → 01137.16] And it's basically disappearing.
+[01138.24 → 01144.01] and it could be a big part of it that they know about already it is the meters all meters that
+[01144.01 → 01150.50] are bad and then water starts passing by that isn't tracked also the meters could read to
+[01150.50 → 01156.66] where there could be a water leak but uh they find it too like there's already been so much
+[01156.66 → 01163.20] water that has been lost that if we were able to cut down the water loss then we could save
+[01163.20 → 01168.28] enough water to be the same as if we had almost another reserve i think so 16 to 32 across the
+[01168.28 → 01177.04] utilities i'm not sure if this is correct i think 32 percent is the report that's one out of every
+[01177.04 → 01181.32] three gallons if that's the case and you think that's a third of the landscape that's a huge
+[01181.32 → 01187.17] expenditure so that's the main issue is even the new meters like modern meters that have like
+[01187.17 → 01192.41] immediate response and tell you how much water has been pumped they can read if there's an issue if
+[01192.41 → 01197.20] too much is gone from like a week or something like that and most importantly even if it's not
+[01197.20 → 01204.26] not a leak, water that is being used but not tracked and not paid for, if it was paid for by the city, it wasn't paid for by the city.
+[01207.22 → 01211.30] If we cut that back, I mean, the budget definitely that it's taking is huge.
+[01212.54 → 01215.48] So, even replacing the meters is a cost.
+[01220.87 → 01227.30] So, really what we need for the city, actually I would say the number one biggest issue that the city has is sorting out the numbers themselves
+[01227.72 → 01230.30] and putting them out to be able to be cross-referenced with water quality.
+[01230.30 → 01237.18] So, if we had that, we'd actually see what the policy would be, because one thing I have heard,
+[01237.70 → 01243.17] if I looked in the research, which I don't really count for, is the repairs and maintenance, because it is now.
+[01243.65 → 01247.67] The only issue with the board is they are now, if the water authority does it,
+[01247.75 → 01253.01] then the only things that they have is the safe time for all type of water to get in and dry for months,
+[01254.18 → 01255.48] because we're at the election time.
+[01258.31 → 01260.53] Do y'all remember, kind of keep looking at it,
+[01270.14 → 01277.46] I have the privilege of going and visiting and listening for about three and a half hours
+[01277.46 → 01283.62] and actually touring the facility at Otter Creek with CPWA.
+[01283.92 → 01285.70] And I've saved and listened and absorbed.
+[01285.74 → 01288.16] Again, you learn more by listening than by speaking.
+[01288.16 → 01288.22] Thank you.
+[01288.62 → 01293.18] But also, I attended the meeting that was held at the Palace Center.
+[01293.62 → 01296.40] There are multiple layers of issues.
+[01296.68 → 01300.46] I think misinformation is where we are.
+[01300.68 → 01304.02] I truly do think misinformation from both sides.
+[01304.34 → 01308.90] But I think when you really look at where we are, I've listened to a lot of people,
+[01309.06 → 01312.26] and I've only had four people say this is a good idea to march.
+[01313.47 → 01314.33] I'm listening.
+[01314.61 → 01316.47] And I would come back as a revolt.
+[01316.75 → 01317.79] Do we need to do this?
+[01317.79 → 01323.35] do we not need to do this why do we need to do this it is challenging and it's very controversial
+[01323.84 → 01328.99] i also got a question and i will post that to each of you four years ago this this wasn't even
+[01328.99 → 01336.27] the topic it was the ymca and now it's water so you know i'll pay attention to what is being said
+[01336.27 → 01344.35] challenges absolutely do i support either or i'm still asking questions myself as a citizen as a
+[01344.35 → 01350.73] tax plan citizen and as a candidate i'm listening more than i'm asking because i think that's how
+[01350.73 → 01356.21] you learn what people are saying and if we listen to a few and not listen to masses we get in
+[01356.21 → 01362.21] trouble um that's what's happened in my career when i was looking at budgeting we were looking
+[01362.21 → 01367.59] at a lot of different things and everybody's very passionate about what they do so i do feel like
+[01367.59 → 01373.25] that we need to look at the holistic picture i'm really concerned about our city employees
+[01373.25 → 01376.89] Police, I'm very concerned about that, because they'll probably be with me.
+[01378.90 → 01379.40] It's wild.
+[01385.52 → 01390.92] This is a tough situation, and you've got to get through to all the information, and a lot of us have not.
+[01391.30 → 01399.14] We don't know where to start.
+[01399.38 → 01414.70] To start with, I guess, the way that place is, it's circling around the right player on the equipment assets across the water.
+[01414.76 → 01415.50] That's not the case.
+[01416.00 → 01417.18] You've got to read the chart.
+[01418.20 → 01426.28] The city of Crossville, everything in and across the water department, then the city of Crossville's name, including the property and all that goes with it.
+[01428.46 → 01435.74] So, now, if that weren't the case, I can go out and dig my water line up and you can drill me a well and I'm covered.
+[01435.86 → 01437.42] If you start doing that, you're going to go to jail.
+[01439.62 → 01442.46] So, that's a perfect place to start.
+[01443.27 → 01448.25] If this happens, this will cost the city the point of a million and a half to two million dollars
+[01448.25 → 01456.35] and share employee expenses, we would have to put on our own fire hydrants in their lives.
+[01456.57 → 01462.48] Our developers and contractors will not have anybody to go to for assistance and help in
+[01462.48 → 01462.94] development.
+[01463.99 → 01467.11] So it just creates a mess of what we have right now.
+[01468.08 → 01475.82] Saying all that, on the downside, we're processing a little over 4 million gallons a day.
+[01475.82 → 01488.76] All of our reports from back when I was on the council fire go to the wicked process in an average dry year of $70,000 a day.
+[01489.75 → 01492.23] We're not in nowhere in a panic state yet.
+[01492.27 → 01494.89] This has all been circled around on both sides.
+[01495.17 → 01496.41] But this is a panic thing.
+[01496.43 → 01498.07] We've got to run out and break that part of the thing.
+[01498.19 → 01499.13] That's not the case.
+[01499.91 → 01504.68] We're about 65% of the time from what we're taking to the process.
+[01505.16 → 01505.82] Thank you.
+[01510.31 → 01517.12] Well, the water situation is according to what expert you ask about our situation.
+[01518.12 → 01525.36] And I'm very satisfied with our, on and down the street, our water employees.
+[01525.52 → 01531.16] I had a break just a few months ago down Kings Road, and I have a ride on top of it.
+[01532.31 → 01538.34] And it's in the hands of the voters of the city right there.
+[01538.34 → 01556.02] Now, it's been said that, well, us in the county can't vote on it, but it's in, and I agree with you, but it's in the charter that all of the city rectifiers can vote on this, and I can't change that.
+[01556.57 → 01559.71] I don't know if the act says that much, but you can change that.
+[01560.59 → 01563.75] So, I think, like I said, it's important for you to ask.
+[01563.81 → 01564.57] I think we're fine.
+[01565.97 → 01571.16] My water at my house is, you know, I think it's...
+[01571.16 → 01574.92] So for every gallon that I use, I'm charged for two and a half gallons.
+[01575.22 → 01576.18] It's covered with sewer.
+[01576.38 → 01577.88] The sewer is not a moneymaker.
+[01578.36 → 01580.30] The water takes care of our sewer.
+[01580.50 → 01582.79] It doesn't give you money.
+[01584.25 → 01587.20] And I think we're fine.
+[01587.98 → 01589.56] Like I said, it's important.
+[01590.04 → 01592.34] I've asked several people, and I've listened also.
+[01594.08 → 01597.54] I read Matt Chamber and Mitch said, well, like you said, it's important that you ask.
+[01598.08 → 01602.46] I've had former city employees say, we're fine.
+[01605.28 → 01610.32] So, knowing the third, you've got your conscience, and we'll go from there.
+[01610.68 → 01611.26] Thank you.
+[01612.58 → 01613.08] Thanks, Ford.
+[01613.40 → 01616.76] I think the biggest thing with me is trying to find a dependable water source for our
+[01616.76 → 01617.06] future.
+[01617.42 → 01621.52] I mean, we've got to be looking at 20, you know, 15, 20, 30 years down the road.
+[01621.70 → 01625.95] And my son did choose to stay here as well.
+[01626.19 → 01627.59] That's what I'm working out for.
+[01627.97 → 01629.95] And we've got to find ways that people can afford.
+[01631.02 → 01633.18] Remember how this referendum turned out.
+[01633.20 → 01634.48] Both of those are still on the table.
+[01634.48 → 01642.42] I think the biggest confusion is what we're actually voting on and that means we no longer can assess it until something else comes up down the road.
+[01642.58 → 01647.48] A yes just means that we can get in further negotiations and talks with the CPWA.
+[01647.82 → 01652.82] Doesn't mean that everything that's set in stone that they've proposed so far is there.
+[01653.22 → 01655.08] That's what we're going to elect.
+[01655.32 → 01657.68] What's up here to go on and find out what we have.
+[01659.28 → 01662.80] It's just a matter of, you know, there are some...
+[01662.80 → 01668.82] And what I dislike about it, like what Mr. Kern said, there's some folks that live outside the city that don't have a say in this.
+[01669.42 → 01676.22] I don't like that idea of how many representatives people have that don't get a say in this, that they're representing.
+[01677.27 → 01684.29] But the biggest thing with me is just finding a long-term solution that is best for the repairs and to get rid of this now.
+[01687.01 → 01687.69] Mr. Wood.
+[01688.01 → 01689.84] I could go on and on.
+[01690.30 → 01694.96] I was the only person sitting at this table when that idea was asked.
+[01695.57 → 01706.45] The county mayor said, I need this to happen so that it would make an end-to-end deal in such type of tactics that the whole issue was that there would be labor going on in the water.
+[01707.26 → 01717.48] The other thing that was brought to me by the tax manager was this wonderful new reservoir that services the regional area, wonderful regional area.
+[01717.96 → 01720.94] It was great and wonderful. It turned out to be damaged quickly.
+[01721.44 → 01723.40] That's the only time I jumped off it.
+[01723.40 → 01728.04] I WASN'T SUPPORTING IT, IT WAS WHAT WAS BEING TOLD I WAS SUPPORTING IT NOW.
+[01728.52 → 01732.16] BUT THE FACT IS, CROWTHILL IS ALREADY AN INDIGENOUS AUTHORITY.
+[01732.28 → 01735.74] WE SERVE THIS FAMILY, WE COULD FIGHT IN FAMILIES, WE COULD FIGHT FOR FAMILIES.
+[01735.74 → 01739.99] IT IS A RANGING SYSTEM WHICH A LOT OF PEOPLE DON'T UNDERSTAND.
+[01740.25 → 01746.38] FOR EXAMPLE, A SEPARATE HR DIRECTOR, A SEPARATE FINANCE DIRECTOR, A SEPARATE MANAGER,
+[01746.52 → 01750.48] THOSE ALL RIP TOGETHER AND WE GET THAT ECONOMIC SCALE OUT OF THAT.
+[01750.68 → 01753.60] WE LOOK FORWARD TO SEEING IF WE LOCK THAT ECONOMIC SCALE,
+[01753.60 → 01761.92] For example, for insurance, the fallacy that they're bringing all these confessors, no, they're not.
+[01762.24 → 01765.14] We already get the revenue from South Beverly.
+[01765.40 → 01769.10] We already provide water to what we used to be a crab orchard.
+[01769.59 → 01771.95] They don't provide water to Westbound on the internet.
+[01772.02 → 01772.76] I have to provide it to them.
+[01773.02 → 01776.54] So there's a fallacy that they're going to bring all these confessors.
+[01776.68 → 01779.20] The other thing is we already serve them most of the year.
+[01781.35 → 01783.35] Water loss rate is not correct.
+[01783.43 → 01787.80] It's not upstart.
+[01787.80 → 01792.28] But you can look down at the city management report and see that sometimes it's only 3%.
+[01792.28 → 01794.83] So I think we've done some good job there.
+[01794.99 → 01796.81] Some of the others, maybe 40%.
+[01799.47 → 01801.89] Ms. Kelsey, we'll start with you on this next question.
+[01802.70 → 01807.10] Crosswater has a lot of forward momentum with visible growth and more on the horizon.
+[01807.28 → 01810.88] If elected, how would you continue to see it on the path to a brighter tomorrow?
+[01811.32 → 01812.32] Thank you for the question.
+[01812.54 → 01816.46] I served on the Chamber of Commerce in Sparta when I lived in Sparta.
+[01816.80 → 01819.90] And I know that you can get a lot of questions.
+[01820.74 → 01825.48] about what about why can't we have this why we cannot why can we not have these restaurants why
+[01825.48 → 01830.44] can we not have this i think developing a pipeline and workforce development is crucial
+[01830.44 → 01836.70] is we have to work in tandem with the chamber we have to work in tandem with the county that's very
+[01836.70 → 01842.00] important so whatever happens in the city affects the county as far as workforce development goes
+[01842.00 → 01847.88] we have to have that that's what that's how we move the needle forward that's always going to
+[01847.88 → 01852.76] be an issue whether it be hospital whether it be lake county whether it be hancock county or
+[01852.76 → 01858.56] spartan tennessee i think that pushes things forward we want our young people to to stay here
+[01858.56 → 01863.28] of course we do but we have to have it when it's affordable for their field it is affordable for
+[01863.28 → 01868.62] them to be able to buy the first new house or to have an apartment we have to do that we we
+[01868.62 → 01874.50] plan ourselves as we're the we're the retirement capital of tennessee you know i like that because
+[01874.50 → 01880.66] I'm retired. However, we have to look at who's coming in the pipeline to fill those jobs that
+[01880.66 → 01886.02] we need to have and to recruit. Ethan has to do that with the chamber. He's the first
+[01886.02 → 01891.48] point of contact when a company calls us, the city of Costco or Cumberland County. If we're
+[01891.48 → 01897.42] not doing that, we're lost right out of the gate. So we want those amenities, but we have to have
+[01897.42 → 01899.84] have a stable influence on our workforce.
+[01900.32 → 01901.84] And we're gonna stay satisfied.
+[01903.96 → 01904.82] Mr. Wilder.
+[01906.55 → 01908.61] I saw an article online this evening
+[01909.19 → 01911.51] that he submitted a high school review
+[01911.51 → 01913.95] that had a vision of kind of how a paraffin would play,
+[01913.97 → 01917.81] I think, but a lot of good stuff in there about these.
+[01917.99 → 01920.41] They asked why we didn't have this restaurant,
+[01920.55 → 01922.75] that restaurant, and this restaurant, this restaurant.
+[01923.29 → 01924.78] That was not what he said.
+[01925.36 → 01926.58] Is that a good and honest fact?
+[01927.27 → 01929.29] He goes, you know, we're gonna decide
+[01937.85 → 01941.99] So, you've got to do what you can do with it, and there are places you can do it.
+[01942.07 → 01947.71] I like to put bugs in the buggy before we create some additional revenue, and working with the chamber to do that.
+[01948.43 → 01950.41] Now, Palisade, they fill up.
+[01950.69 → 01955.77] We need to do a good down about five miles a week of it.
+[01956.09 → 01957.97] We don't need to be throwing Batman moves.
+[01957.97 → 01964.01] So, we're going out and we're going to all soccer business.
+[01964.23 → 01967.81] We're going to get back in there and let those records up for three days a week.
+[01968.11 → 01969.72] Things like that.
+[01970.20 → 01975.60] It's a resume, and they have to pay you big.
+[01978.46 → 01979.06] It's a turn.
+[01980.40 → 01986.92] Well, if you believe everything you read on Facebook, you can go a long way.
+[01987.02 → 01988.84] But I'm talking about the Palace Theater.
+[01988.98 → 01991.48] When I was a boy, my mother would give us a dollar.
+[01991.48 → 02000.82] They would get us in the theater, popcorn, and as soon as I cut it, it was fried.
+[02002.42 → 02014.67] When I became fire chief, it was just about four feet of pigeon weights crossing out of referendum.
+[02015.43 → 02016.93] People said, oh, I'll never pass.
+[02017.33 → 02021.03] I think it's like $300,000, $700,000 they passed.
+[02021.97 → 02024.75] And I commend the policy here.
+[02024.85 → 02026.25] I think they do an excellent job.
+[02026.65 → 02029.38] They sell out a lot of shows.
+[02029.38 → 02037.44] shows, mostly. And I've enjoyed going to them. But some people I've talked to don't
+[02037.44 → 02042.04] want Croftsville to grow. Don't come to our town. We like our little towns like it is.
+[02043.49 → 02050.65] We don't want more people. But that's the difference of a game. I think Croftsville
+[02050.65 → 02056.77] has done great the four years that I've been a councilman. We've not had any shouting
+[02056.77 → 02059.77] rally matches with each other.
+[02060.19 → 02064.67] You vote your conscience, and you go on.
+[02064.73 → 02066.23] And then you listen to the people
+[02066.23 → 02067.35] and they don't like your vote,
+[02067.39 → 02069.75] they'll kill you, our mothers.
+[02070.85 → 02072.75] So I just think we're on a good path.
+[02073.67 → 02075.67] I think we need to keep our taxes lower.
+[02075.81 → 02077.97] As low as can be, our property taxes.
+[02078.43 → 02080.03] Not saying, I've always said,
+[02080.63 → 02082.67] if you have to raise my property taxes,
+[02083.52 → 02085.56] give me my medicine like my mother used to say
+[02085.56 → 02086.48] a little bit at a time.
+[02088.31 → 02091.73] Just to give you a little bit of time, not all of a sudden.
+[02091.91 → 02096.57] I'm not saying that our property taxes might ever have to be raised for whatever reason.
+[02096.91 → 02098.95] You've got to think common sense on this.
+[02099.53 → 02105.50] But I'm for the lowest property taxes to keep our work important,
+[02105.88 → 02108.84] the cost of the rest of us can afford to live.
+[02109.24 → 02112.76] I'm retired now, and I live off Social Security and retirement.
+[02113.04 → 02113.86] I know what it's like.
+[02113.90 → 02116.06] It's a fixed income, and that's it.
+[02116.06 → 02122.44] Well, when I think of business development, I think of all the businesses we already have in this community.
+[02122.78 → 02124.46] They're a great asset to this community.
+[02124.66 → 02129.82] The Chamber does a fantastic job of recognizing those businesses that are struck downtown early in the day.
+[02129.82 → 02134.10] I've seen the signs out dedicated to those businesses and drawing us down there.
+[02134.22 → 02137.58] We have a lot of great events that happen downtown Crossville.
+[02137.88 → 02144.94] But there is some growth, and I think we need to bring some more businesses in here that offer some good paint jobs.
+[02145.72 → 02151.88] It gives us the opportunity to let the kids that are growing up here have a chance to come back and have a future here.
+[02152.44 → 02156.40] I've seen it too many times in my life where not everybody is like me.
+[02156.42 → 02160.62] They didn't move away and they decided to come back and raise their kids here and live here.
+[02160.80 → 02164.68] I think there's a lot of opportunity with the growth that's going on in Crossville.
+[02165.08 → 02170.04] There's a lot of people who plan accordingly and build the infrastructure that will be able to attract some of those businesses
+[02170.04 → 02171.60] and get some of the youth back in here
+[02172.42 → 02173.68] and, you know, really
+[02174.16 → 02175.86] help them out, give them some opportunity
+[02175.86 → 02178.02] to come back, be close to home, be close to their
+[02178.02 → 02179.22] parents, be close to their grandparents.
+[02180.18 → 02182.18] And it means a lot to me to be able to work
+[02182.18 → 02183.54] here. I go down to my grandmother's house
+[02183.90 → 02186.02] every day for lunch, and it just means the world to me
+[02186.02 → 02187.46] to be able to do that. I want everybody
+[02187.46 → 02189.22] to experience that as well.
+[02189.88 → 02191.36] Crossroads has been a fantastic place to
+[02191.88 → 02194.00] grow. We've got a lot of developments
+[02194.00 → 02195.56] that are going on, and
+[02195.56 → 02197.96] I think that's great for the community, but we're also
+[02197.96 → 02202.64] So we're going to have to bring in some other things to help us do whatever we need to do.
+[02204.37 → 02204.73] Salute.
+[02205.40 → 02207.16] First, I want to go to the stemless after lunch.
+[02207.44 → 02212.02] I want to hit some very important points about work force development.
+[02212.48 → 02214.16] You've had to see the top floors.
+[02214.56 → 02218.72] Sometimes you go to restaurants and they have a lot of tables, but they know where you serve these.
+[02219.60 → 02224.20] So you need to keep in mind the airport is an economic development engine that we need to use.
+[02224.44 → 02229.16] We need to use the cost for us so we don't have to have to worry that you're going to get packed in.
+[02229.16 → 02234.05] But one of the things with this natural environment,
+[02234.23 → 02237.03] the fact that it has such a unique biodiversity to it,
+[02237.07 → 02238.17] it seems really interesting.
+[02239.46 → 02243.13] One of the things that I know even as you get away from it,
+[02243.21 → 02249.67] so I do, is we have a lot of leakage.
+[02250.11 → 02252.23] If you go down to Cookville
+[02252.23 → 02255.57] or walk through some of the parking lots down there
+[02255.57 → 02257.27] or some of the various shopping centers,
+[02257.57 → 02258.89] you'll see a lot of cover-up.
+[02259.58 → 02261.46] That's one thing that is just to make sure
+[02261.46 → 02262.66] that you're bringing puppies
+[02262.66 → 02265.94] and the work that the council's already done
+[02265.94 → 02268.55] and taking part in that intersection across the street
+[02268.55 → 02269.63] from there and developing that
+[02269.63 → 02272.91] is taking advantage of the hard time we're getting there.
+[02273.13 → 02274.43] That's going to be very important
+[02274.43 → 02277.95] because we need to capture that sales tax
+[02277.95 → 02279.97] to help offset the property tax
+[02279.97 → 02282.35] and also help the school system here.
+[02283.41 → 02289.39] People in September and November
+[02289.39 → 02290.59] don't know who to check in on,
+[02290.65 → 02292.19] so I'm not going to get into that.
+[02296.56 → 02298.28] Crossville has a lot of forward momentum
+[02298.28 → 02300.54] with visible growth and more on the horizon.
+[02300.54 → 02304.58] If elected, how would you continue the city on the path to a brighter tomorrow?
+[02306.24 → 02314.28] First question, I agree with what most people said.
+[02314.40 → 02316.50] Obviously, getting higher paying jobs is always good.
+[02318.05 → 02323.63] I think the biggest thing that we can make change would be affordable housing.
+[02323.79 → 02327.10] If we could actually bring in more affordable housing,
+[02327.62 → 02330.53] that would make all the difference in the world.
+[02330.55 → 02334.35] Cuz a lot of people don't know where they're at in their life.
+[02334.73 → 02336.52] They're struggling to go and buy a house now.
+[02337.08 → 02340.00] So when we get affordable housing, we need to get more into rentals.
+[02340.28 → 02343.62] We need to get through some of the smalls like the one-bedroom condo for
+[02343.66 → 02344.54] people to be able to get.
+[02344.66 → 02349.61] Because buying houses is not really an option like it was.
+[02350.25 → 02353.47] So if we can get affordable housing, yes, if we can get higher-paying jobs,
+[02353.89 → 02354.97] then that's always good.
+[02355.37 → 02357.49] I would say on a smaller basis,
+[02357.53 → 02361.23] I think Crosswell has huge opportunity and potential for actual worth of produce.
+[02363.31 → 02365.09] Farming, not just vegetables, but especially wheat.
+[02365.55 → 02373.51] there is a couple of small businesses that they could produce i think the one over
+[02374.01 → 02377.81] she doesn't know what kind of thing she thought was an average you know market over there besides
+[02377.81 → 02386.22] the poverty shops they have a meat shop in it so they're meeting the birds from uh their slaughter
+[02386.22 → 02392.53] house for people so they've created an industry themselves where people bring their animals to
+[02392.53 → 02398.27] slaughter and we sell it to them and you go there and remember so encouraging things like that
+[02398.27 → 02402.49] and we've been encouraging people to run their farming market better.
+[02402.55 → 02407.16] The reason is quite a bit of what we've done today is really good.
+[02409.66 → 02411.78] Okay, Mr. White, we'll do number three.
+[02412.22 → 02414.56] You can segue into this one.
+[02415.18 → 02418.52] Economic and community development requires teamwork.
+[02418.88 → 02422.76] What would you do to ensure continued cooperation between the city,
+[02423.04 → 02427.60] the county, and the chamber in all internal and external players?
+[02431.34 → 02439.19] Well, I'm not a professor.
+[02439.37 → 02446.94] on that, so I'm going to rely a lot on the people and staff at the City of Crossbridge.
+[02448.15 → 02452.85] It doesn't have to be a two-man show, and I'm on my way to the city here, and it might
+[02452.85 → 02461.11] be smart to go up here to the college and have an onslaught, so that could not be it.
+[02463.99 → 02464.71] Mr. Turner.
+[02466.97 → 02467.71] Yes, sir.
+[02468.29 → 02470.89] Economic and community development requires teamwork.
+[02471.05 → 02477.35] What would you do to ensure continued cooperation between the city, the county, the chamber,
+[02477.35 → 02479.87] and all internal and external parts.
+[02480.19 → 02482.83] Well, I think Crossville is just fine.
+[02483.90 → 02485.78] We all live in Cumberland County.
+[02486.47 → 02487.57] We're all citizens.
+[02487.91 → 02488.79] We're all taxpayers.
+[02489.33 → 02490.32] We vote.
+[02493.14 → 02497.48] Crossville City Council needs to be in step with the county commission.
+[02497.82 → 02499.82] Work together, not against each other.
+[02500.60 → 02503.06] If somebody's got a good idea, go with it.
+[02503.50 → 02506.04] And I support our chamber of commerce.
+[02506.30 → 02507.00] I support it.
+[02508.73 → 02511.41] Like I said, I grew up as a firefighter.
+[02511.67 → 02536.98] I'm not a scientist, and Croftsville residents, people want to come here and live here, whether it's Fairfield, Preble, wherever, we're all coming from the citizens, and I just want to, I'll just say, I will work with County, our chamber, whoever, to be partners to make our city as good as it can be.
+[02537.14 → 02541.64] I'm not the type of person to say, don't come to Croftsville, you don't want to go to Northwood, people.
+[02543.30 → 02544.56] That's what they say.
+[02545.86 → 02548.24] Some people tell me I'm poor.
+[02549.12 → 02553.00] Living in harmony, doing the best I can, having the best.
+[02553.26 → 02555.16] My daughter has moved.
+[02555.38 → 02558.88] My middle daughter, I have three daughters, moved to Ann Arbor, Michigan.
+[02559.10 → 02563.18] She works for, I started where I'm a Michigan hat now, but I think, well, Tennessee is number one.
+[02563.68 → 02571.37] But she works for the University of Michigan, but she had to move all the way to Ann Arbor to do what she went to college for.
+[02572.72 → 02579.36] So my oldest daughter, who's 17 years in L.A., is a neonatal nurse, and she's back home.
+[02579.72 → 02580.98] And then I lost one.
+[02581.04 → 02582.92] She went north, and one came back home.
+[02583.00 → 02587.60] And my youngest daughter is a UT graduate looking for a job.
+[02589.00 → 02592.74] So I just want to work with our whole county and love our citizens
+[02592.74 → 02597.76] and work with our citizens and work with our leaders to make County the best.
+[02600.20 → 02600.98] Mr. Ford?
+[02601.50 → 02603.70] Yeah, so it hasn't always been that way.
+[02603.70 → 02607.90] I don't think anyway, but I don't think the city of New County is always saying eye-to-eye, eye-to-eye.
+[02608.18 → 02610.20] It's been refreshing to see that here, by the way.
+[02610.58 → 02615.36] I know the city of New County has worked hard together, and we're all one community.
+[02616.04 → 02619.30] You know, everybody benefits from everybody else.
+[02619.90 → 02623.10] And it's, you know, it's just a matter of sitting down with the right people listening,
+[02623.20 → 02626.22] the right people recruiting, the right people who do the right things.
+[02627.18 → 02631.54] Like I said, you know, Crossville's growing, and we're in a good spot.
+[02631.62 → 02632.78] People are wanting to move here.
+[02632.78 → 02636.28] and that's encouraging um we just have to get together get the right people in her
+[02636.28 → 02641.94] have those conversations and continue that growth together um everybody in the county could benefit
+[02641.94 → 02645.54] from something in the city and everybody in the city benefits from something in the county
+[02645.54 → 02651.04] it is very important that we always work together it's it's like i said a second ago very refreshing
+[02651.04 → 02655.40] to know that everybody is on the same team we're all working towards the same goals and we're all
+[02655.40 → 02667.19] time to support everybody I would like to see
+[02681.49 → 02690.89] I would like to see, you know, I've been counting mangroves every different time, and I've been counting some of the dogs in some of the places,
+[02690.89 → 02692.37] especially on a symbiotic basis,
+[02692.47 → 02694.59] they probably, they thought they were a big doctor.
+[02694.69 → 02695.99] They're not that big of a big doctor.
+[02696.61 → 02700.13] You know, the big thing is stability on diets,
+[02700.56 → 02703.07] here, and with the kind of information that we need
+[02703.07 → 02704.93] to work more with individuals on conditions,
+[02705.75 → 02707.13] especially for our district,
+[02707.43 → 02709.03] make sure we're all in the same phase,
+[02709.05 → 02711.37] both in directions that we're not going to have to park.
+[02712.77 → 02716.21] You might see some more work on inter-local agreements.
+[02718.89 → 02720.81] Unfortunately, one of the things with CPWA
+[02720.81 → 02737.58] is they nullify the relationship between city and county, and that is probably one of the worst outcomes that we've had in this whole situation is the hostility that's been generated by that exact asset.
+[02737.58 → 02756.61] that. More than one. That's the island. I think the wrong is everybody
+[02756.61 → 02762.39] continues to stay transparent. Everybody already has the attitude of working
+[02762.39 → 02773.11] together. By example, we love to take counsel. So we personally work
+[02773.11 → 02775.19] I've had a few commissioners that have already reached out to me,
+[02775.21 → 02776.09] and they're all kind of over there.
+[02777.09 → 02779.41] I'm going to work with another education.
+[02780.09 → 02781.71] So what we're doing to be in trouble,
+[02781.75 → 02782.73] what we're doing to be in trouble,
+[02783.17 → 02786.33] and most importantly, I believe it's the right person and the right role.
+[02786.95 → 02787.85] Don't get in their way.
+[02787.97 → 02788.85] They do the right thing.
+[02788.89 → 02789.25] I don't know.
+[02791.28 → 02791.64] Yes.
+[02791.92 → 02793.94] I'm going to continue the development.
+[02794.12 → 02796.36] It's the three of us that toss everything together.
+[02796.68 → 02801.02] If you bring the right people with ideas and recommendations
+[02801.02 → 02804.16] and they'll keep the genders, things can be good.
+[02805.93 → 02814.75] If we will relate to this, when Randy Board was the Commissioner of Economic and Community Development, there was a county that no one wanted to come to.
+[02815.09 → 02820.51] But we brought people together, and we set aside the genders, and we set aside personalities.
+[02821.13 → 02824.31] We brought state officials, but we listened to the local people.
+[02824.45 → 02830.51] But we had the chamber, we had the city mayor, we had the county mayor, we had the people of this county.
+[02830.51 → 02837.17] county, it's bringing those ideas together collectively and giving that to a fixed model
+[02837.17 → 02843.01] to any growth, but leaving your agendas aside, your personal opinions always aside.
+[02843.31 → 02847.83] Everybody's got a problem, and if you bring a problem, bring a solution with that in that
+[02847.83 → 02853.05] same envelope, and I think that economic and community development is a vital piece, and
+[02853.05 → 02859.43] again, not because Ethan is here, but it begins and ends at the Chamber of Commerce, but collectively
+[02859.43 → 02862.51] with the county commissioners, with the city council.
+[02862.79 → 02865.93] And you have to have people that are progressive thinkers, but
+[02865.93 → 02868.41] they can't overspend and spend money that we don't have.
+[02870.94 → 02873.36] We'll start this question with you, Mr. Turner.
+[02874.20 → 02876.86] Brussels Main Street is the heart of our community.
+[02877.20 → 02881.88] What would you like to see happen to keep our central business district attractive
+[02881.88 → 02882.76] and growing?
+[02884.65 → 02887.47] I think we're well on the start now.
+[02887.63 → 02889.91] If you look at Main Street, we finally got a pay.
+[02890.66 → 02899.10] and we've got nine signs directing you where to go to where to buy uh main street is our
+[02899.10 → 02902.48] livelihood we brought back cruising in main street when i was two years
+[02903.88 → 02909.68] that's when the gas is 29 cents a gallon and the careers on friday and saturday brought it back
+[02909.68 → 02918.04] which is a good thing i think you know it brings people together and and our car shows that we have
+[02918.04 → 02922.86] on main street brings people together brings people's community to main street
+[02924.56 → 02929.76] and i think that helps our that helps our community there's you know there's so many
+[02929.76 → 02936.46] good things that that goes on on main street i support all of our businesses uh you know
+[02936.46 → 02943.72] french's shoes it's a staple of main street the neighbors furniture is a staple of main street and
+[02944.66 → 02957.97] And Rob Harrison's land company there is a staple major, like 1800-something, 1800-something, Rob, or 1900s that it was built, but I can't remember.
+[02958.19 → 02968.71] But, you know, we need to support our main street businesses, and the main street goes from the south side all the way to the interstate.
+[02968.71 → 02979.34] Main Street for me, that's really Main Street, but it's one road, 1.7, and I don't know what else I can say.
+[02979.40 → 02984.38] I support our businesses, and I want to shop. I want to shop local.
+[02984.82 → 02994.18] Yes, sometimes you have to go out of town to do your business, and you'll see cars and people from the county,
+[02994.18 → 03000.50] for whatever reason, you know, they just opened up their Target and Home Depot, and that's
+[03000.50 → 03006.42] a big thing for the whole, but, you know, I support our businesses, and I'll listen
+[03006.42 → 03007.30] to our businesses.
+[03008.50 → 03017.95] We keep our taxes low enough that if people can afford to buy things, that'll be great.
+[03019.81 → 03021.29] Downtown is the heart of Crossville.
+[03021.43 → 03023.11] There's a lot of great things that go on.
+[03023.11 → 03026.11] gender fits on some great events such as Friday's Crossroads,
+[03026.23 → 03029.41] Taste of Crossville, things of that degree.
+[03029.96 → 03033.34] What I would like to see is us being able to make Main Street
+[03033.34 → 03034.32] a little bit safer.
+[03034.64 → 03036.48] It's, you know, I've said it through a few meetings,
+[03036.60 → 03038.76] and a lot of the business owners down there say their biggest
+[03038.76 → 03041.52] concern is the high amount of traffic that comes down through
+[03041.52 → 03043.90] primarily the big trucks that come down through there.
+[03043.90 → 03046.62] We've got a few truck routes that can detour them around town.
+[03046.86 → 03049.60] I would like for us to focus on that and maybe get some of the
+[03049.60 → 03052.54] big trucks off of Main Street so that whenever I'm walking on
+[03052.54 → 03056.96] what's happening all down the street. I don't have to worry about, you know, if a truck comes by and, you know,
+[03056.96 → 03063.41] something happens. But there's a lot of fantastic places down there. Here recently, more than ever,
+[03063.49 → 03068.57] whenever I travel to a different town or different state, I've been going out of my way to visit their
+[03068.57 → 03073.53] downtown areas and see what we can do that they're doing to bring it back to Crossville. There's a lot
+[03073.53 → 03077.39] of great things that are out there, and Crossville's headed in the right direction. The downtown
+[03078.71 → 03092.51] It's got some grant money that's helping businesses down there kind of revive a few things down there and it's just, it's the heart of downtown and heart of Crossville and we just need to support those businesses, not only on the nights that we have events, but all throughout the year.
+[03096.20 → 03105.32] When Dan was on-campus, when I was in, we had several fairholds on-campus to enable us to hire media, which is a good thing for downtown.
+[03105.48 → 03107.72] Now we have 30 or so, but we're building on that.
+[03107.94 → 03111.48] That was the group, and we've already ordered all the activities back up.
+[03111.72 → 03123.92] The important thing about activities downtown is it's an important amenity for the local, but if you want to grow it, if you want it for the tax base,
+[03123.92 → 03129.64] We need to have things to draw people off the theater, so decreasing from the 60-day
+[03129.64 → 03137.56] to less than a fifth, that's going to be, you know, far more events as far as the theater
+[03137.56 → 03138.52] would be good.
+[03140.37 → 03144.31] The house is being drawn, and we're in it, and we're getting some great folks.
+[03144.57 → 03146.41] Just hold on for a minute, Joe, we've got a second.
+[03147.24 → 03147.68] Yay!
+[03148.22 → 03152.60] We've got the third time, and we've got the current seat, all of you, so can I
+[03153.54 → 03154.16] um
+[03178.75 → 03184.67] for the event we need to continue to try and maintain the historic properties and
+[03184.67 → 03189.31] And we develop those visual approach for needs to have somebody to anchor that.
+[03189.69 → 03194.03] It also would be a good idea if somebody who's got these businesses that have second stories
+[03194.03 → 03199.86] to start moving people back down the town and just undertaking for it in the project.
+[03200.08 → 03200.70] Thank you.
+[03200.88 → 03201.32] Thank you.
+[03201.78 → 03214.37] I don't know if it's possible to redirect the traffic from downtown next year.
+[03214.49 → 03215.89] I can't think of it.
+[03215.95 → 03220.22] If you direct the individual vehicles so they can park somewhere
+[03220.22 → 03231.39] And it would be better to walk around on the main street and not just at the area around the Bridegroom House or the Bridegroom House.
+[03231.49 → 03233.63] Especially around the side of that.
+[03233.77 → 03240.15] It would be better to take an entire walk to be promoted and improve the businesses that are in there.
+[03240.17 → 03243.07] And give it to where people would go and stand and cover their own parties.
+[03243.33 → 03249.27] It would make it a little bit easier for people to just go and do their own business instead of popping up at the shop or something like that.
+[03249.27 → 03251.85] But it's already a really good spot.
+[03252.03 → 03255.92] It's a really good spot to go south to do what you want.
+[03257.34 → 03257.78] Chelsea?
+[03258.66 → 03261.14] Downtown Crossville, looking at the new courthouse,
+[03261.34 → 03266.42] it just, it just, just, and then all of the downtown courthouse is beautiful.
+[03266.84 → 03269.98] And I think that people are trying to get away from the interstates
+[03269.98 → 03271.20] and the rush, rush, rush, rush.
+[03271.50 → 03273.80] Most people, when they're coming through Cumberland County
+[03273.80 → 03276.28] or coming through Crossville, they want to look at the downtown.
+[03276.48 → 03278.60] They want to look at the historical placement.
+[03278.72 → 03280.82] Who has more history than the homesteads?
+[03281.48 → 03284.74] and all the things that we have to offer is a point of interest.
+[03285.50 → 03287.94] I agree with everything that everybody said.
+[03288.06 → 03292.60] I'm really concerned just with traffic, the truck trailers coming through.
+[03293.02 → 03294.32] It's very dangerous.
+[03294.42 → 03294.92] It's loud.
+[03295.02 → 03295.84] It's very distracting.
+[03296.06 → 03297.34] How do we correct that?
+[03297.34 → 03298.02] We want to see that.
+[03298.28 → 03301.28] But I really am concerned about that.
+[03301.40 → 03304.22] And I applaud the individuals, I won't call them by name,
+[03304.34 → 03310.24] but they have expanded beyond the main street and opened new businesses
+[03310.24 → 03313.42] and refurbish some of the older buildings and make them look really good.
+[03313.54 → 03314.56] People are paying attention.
+[03314.96 → 03318.42] People from my hometown in Sparta and where I live in Nashville
+[03318.42 → 03321.12] are coming to Crossville to the playhouse and looking,
+[03321.24 → 03322.46] what did you do to the courthouse?
+[03322.54 → 03324.64] They're tearing everything down everywhere else in the building,
+[03324.70 → 03326.42] and you all are refurbishing that.
+[03326.54 → 03330.42] The history's here, and I think that's what differentiates Crossville
+[03330.42 → 03331.66] from a lot of other cities.
+[03332.04 → 03334.64] And so I support that 2,000%.
+[03334.64 → 03338.34] I try to chop up what we may say we include, but only if necessary.
+[03338.34 → 03343.70] city but definitely in Nashville but it is so it's very important that we we
+[03343.70 → 03347.68] support our local businesses and the entrepreneurs that are here and the
+[03347.68 → 03352.42] people that really do need us to support them to maintain their businesses that's
+[03352.42 → 03354.34] critical. If you don't do that, it's too late.
+[03357.67 → 03363.85] It's a two way story. If you want to slow down traffic down to Maine, you're gonna have
+[03363.85 → 03372.31] big issues. It's gonna be hard to match. That's Federal Highway and we can't tell anybody
+[03372.31 → 03383.57] they've been through. We can put signs up to suggest the program. I think you probably
+[03383.57 → 03389.29] me to regulate it and this is probably taking half the Congress to lower the statement and I'm
+[03389.29 → 03396.13] making sure it's probably going to be suggested because I said when they, I think, I already did
+[03396.13 → 03399.85] the sidewalk for a while and we're going to go farther and farther now because when the fire
+[03399.85 → 03409.04] gets stirred, there's a lot of power on the pipeline. And I said then, there's a lot of
+[03409.04 → 03413.66] people out there that are willing to do that. So I think we need to work to make it lower the
+[03420.63 → 03427.39] so we didn't need more parking for sure i tried to do that time when i was on the council last
+[03427.39 → 03433.36] couple of years to just develop the property on the east and west side of my street that we could
+[03433.36 → 03441.96] do parking but i could do that accessible and yeah all right thank you so start with you
+[03441.96 → 03447.26] the question so envision mccrossell at the end of your term if you're elected
+[03447.84 → 03451.74] But as a member of the city council, describe what your focus would have been during your
+[03451.74 → 03454.76] term to get us further along the road to that vision.
+[03455.38 → 03462.42] So I think that goes back to working with the people who do the right things.
+[03462.56 → 03465.58] And that's one thing we didn't mention about the town.
+[03465.70 → 03479.80] What I'd like to see is maybe a new shopping center.
+[03479.92 → 03489.91] It's just a matter of bringing in, you know, taking care of our current businesses as well
+[03489.91 → 03491.25] as bringing in those new businesses.
+[03491.57 → 03495.91] If I had an ambition myself, if I'd like to do that four years down the road, I would
+[03495.91 → 03504.29] I would imagine every afternoon I met with my kids, maybe we'd build a new squash plant over at Centennial Park.
+[03504.69 → 03508.23] Maybe we'd put some new pickleball courts in over at Garrison Park.
+[03508.41 → 03518.94] Something of that nature and just a few more things for the community to be able to get out and do things and enjoy each other, enjoy each other's company, hang out and get to know each other.
+[03521.00 → 03528.66] I would, uh, continue to, um, encourage more historic preservation downtown, more specialty
+[03528.66 → 03535.96] shops, um, to continue putting, um, pop shops, things like that, so they're going to draw
+[03535.96 → 03543.35] people to the downtown, um, and started garrison, um, we did phase one of garrison, phase two
+[03543.35 → 03548.67] has never been undertaken, um, that's very simple to downtown, um, we took to walking
+[03548.67 → 03552.11] It's supposed to be another area, it's supposed to be a three-quarter area.
+[03553.25 → 03554.99] That's not going to be used as a finish.
+[03556.19 → 03559.43] We have a road grant, we've done the urban forest for now.
+[03559.71 → 03562.75] It's going to take care of, I'm sorry to repeat that.
+[03564.06 → 03569.26] It's going to teach our people to take care of the plants in the city.
+[03569.62 → 03571.44] The trees are going to look better.
+[03571.64 → 03581.24] We've got shopping centers.
+[03581.56 → 03586.43] We've actually, we've already started a plant that, before I left,
+[03586.43 → 03594.42] There's 95 acres there. That's what's going to keep up with the Vermont issue.
+[03594.70 → 03612.23] So that's very important to be able to do those additional starting jobs for people that are moving up.
+[03612.37 → 03618.81] It also gets people off to the state and says, hey, maybe we need to turn on foster care.
+[03622.70 → 03626.28] A lot of the other people probably don't realize they're actually going to be in the site at all.
+[03630.08 → 03635.80] I've done it for two years' time, so I think there's a lot of work that we just do.
+[03635.80 → 03642.68] the grower to help bring everything that's going on already to a good close like helping anything
+[03642.68 → 03648.72] to be done to emphasize the new yca especially with the water situation i think the most
+[03648.72 → 03653.22] important thing is that besides working through the numbers but it's practical for these there's
+[03653.29 → 03658.67] a lot of people that shouldn't really work up in the southern countries before they have a hand
+[03659.23 → 03667.35] and on a personal note i think i would like to see more emphasis more promotion
+[03689.88 → 03692.68] I agree with everything everybody's saying.
+[03692.80 → 03694.76] I think two years is going to go by really fast.
+[03694.76 → 03708.44] I would like to see the CEB have assets financially, but I also would like, because I do currently serve on the cost of housing authority, I would like to see workforce housing or affordable housing.
+[03708.50 → 03714.66] Let's say it's a buzzword. Affordable housing is a buzzword. It is to be able to have your first home.
+[03715.16 → 03722.56] I'd like to see us partner more with the PCATs to build, you know, we're the best in the whole state. You really do. You really do.
+[03722.56 → 03726.96] and to be able to build some homes for people that are unable to afford that.
+[03727.02 → 03728.74] If you look at what the land is right now,
+[03728.88 → 03733.66] I think that keeps a lot of our younger people away from the workforce
+[03733.66 → 03735.78] because they can't afford to pay for it.
+[03736.36 → 03737.90] Those are critical things.
+[03737.98 → 03738.64] Those are issues.
+[03738.84 → 03741.30] You want them to stay here if they're living with their parents
+[03741.30 → 03744.48] or people having to live together to be able to make the rent.
+[03744.76 → 03748.50] That's really important to me, to be able to first home.
+[03748.50 → 03755.04] I mean, we've all got our homes, and that's stability, and I really would like to see that.
+[03755.22 → 03760.18] I have some options, and I've brought that to the city council before, to some of the members.
+[03760.82 → 03764.20] Some opportunities for some land dealers to be able to do that.
+[03764.76 → 03771.00] An architect that would be willing to offer their time, their energy, their efforts to be able to do that,
+[03771.02 → 03777.40] and or, so contract that with TCAPS. That's on-the-job training for them to learn how to wire homes,
+[03777.40 → 03782.80] So it's just opportunities, but two years has gone by really fast, unfortunately.
+[03785.49 → 03786.25] Mr. White?
+[03787.06 → 03787.94] Real fast.
+[03792.05 → 03796.41] I'm just wearing this out of the midnight, this button, 26.7.
+[03798.74 → 03803.62] This year, if all the numbers are correct and all the projections are correct,
+[03803.74 → 03808.72] for $2.9 million upside down, I'm going to keep that for zero.
+[03810.17 → 03812.19] And what are the two ways to do it?
+[03812.27 → 03813.07] Increase the income?
+[03813.93 → 03814.71] That's right.
+[03816.55 → 03826.34] so that's my main concern water feature is in here at garrison which i helped and was involved
+[03826.34 → 03831.86] and proud of the garrison water quality feature is wonderful it's the most huge thing in the city
+[03831.86 → 03841.29] across so we're going to do another one that's in the budget right now for the breathable areas
+[03841.29 → 03849.55] and all that i soon would like to see some additional better affordable housing that
+[03849.55 → 03858.75] people can afford and i hope in four years we will be starting that hopefully it's all correct
+[03859.52 → 03866.56] but we've done our part and started heading in the right direction with that thank you
+[03869.01 → 03874.17] well i'd like to if i'm really going to see what i'd like to see the city better off four more
+[03874.17 → 03883.68] years than today but we drove i want the city to grow on by all means or something that we don't
+[03883.68 → 03888.54] it's not brought up as much is when you grow you gotta think about public safety
+[03888.54 → 03898.21] that meaning fire police so as we grow you know when i became fire chief in 1993 we got
+[03898.21 → 03904.07] eight full-time firefighters in the city i think we got like 38 now in the city and just kind of
+[03904.07 → 03912.27] had a new station up on interstate drive to better better serve the city uh we got the first
+[03912.27 → 03920.49] First responders from across the fire department, I'm still in a licensed emergency, advanced emergency medical care mission.
+[03920.73 → 03922.71] You can see I haven't gotten that up yet.
+[03923.70 → 03932.34] But our first responder program helps the citizens of Crossville with a need.
+[03932.58 → 03935.68] Our ambulance service, our Covington County Ambulance Service acts on it.
+[03936.33 → 03942.80] Covington County is so big, lots of people call for help.
+[03942.80 → 03948.12] We might have anguishes that come to the county because there's so many calls.
+[03948.40 → 03952.90] So the first responder program in the city helps augment that.
+[03953.18 → 03956.96] It gets them on the scene quick and it makes it care.
+[03959.70 → 03962.93] I'm just, I just want to say I'm happy to be here.
+[03965.52 → 03966.04] Yeah.
+[03966.74 → 03974.72] Mr. Wood, you're going to close us out on some written questions.
+[03975.12 → 03976.42] So good.
+[03976.80 → 03980.38] Elected officials and political processes are not perfect.
+[03980.38 → 03987.81] What issues do you see that need to be addressed in a different way than they are now or have been in the past?
+[03987.81 → 04001.63] It's stability on the dais, bringing up stability on the dais.
+[04001.67 → 04008.90] It's important to have stability on the dais and in social media, etc.
+[04012.12 → 04018.00] The issue of home rule in the state.
+[04021.95 → 04026.43] Ever since I've been in the local government, the state has always tried to use the power of the local government.
+[04026.67 → 04029.98] We need to work together to be on a tie.
+[04030.18 → 04037.81] And that coincides in the performance. That's another thing.
+[04037.81 → 04057.62] I wouldn't be too bad about it because I think it speaks to how good it is and how much it took out to the people of the world.
+[04059.60 → 04076.12] I think the local government, even though the results show that they've done really well, I think the only shortcoming, and I wouldn't even put it on the local council or the local government,
+[04076.12 → 04080.30] is there's a gap between reaching and communicating with people.
+[04080.95 → 04082.17] At City Council, there's a lot.
+[04082.21 → 04085.13] You can watch all their meetings live online.
+[04085.53 → 04086.83] You can go up to the town halls.
+[04087.45 → 04088.91] It's still hard to reach people,
+[04089.01 → 04092.31] so maybe they have more of a future,
+[04092.97 → 04094.01] getting more online,
+[04095.05 → 04097.47] just making it to where they bring it up to the communication.
+[04097.77 → 04098.49] I already talked about it.
+[04098.55 → 04099.33] I don't want to be a trouble.
+[04099.49 → 04100.47] I don't want to be a lot of stress.
+[04100.87 → 04102.35] So, I don't know what you'd like.
+[04106.43 → 04106.83] Gelson?
+[04107.17 → 04109.50] I have a question.
+[04110.26 → 04110.66] Okay.
+[04112.08 → 04118.24] elected officials and political processes are not perfect what issue do you see that
+[04118.24 → 04123.06] needs to be addressed in a different way than they are now or have been in the past
+[04127.24 → 04133.02] i've been encouraged by being here and having worked in not all 95 counties
+[04133.02 → 04140.62] a lot of different areas of leadership and political differences and whatever i'm encouraged
+[04140.62 → 04145.88] when I see individuals that come to city town hall meetings or that come to the
+[04145.88 → 04150.10] city council meetings or they go to the county commissioners meetings. I learned a lot
+[04150.10 → 04155.46] with someone just this week. It has enlightened me on a lot of things and I
+[04155.46 → 04161.08] really appreciate this wisdom that he gave to me. I would love to see more
+[04161.08 → 04167.26] people attend these so that when anything critical comes up within the city, the county or the state
+[04167.26 → 04173.04] inform yourself. Don't just sit idle and expect somebody else to do the thinking and the talking
+[04173.04 → 04178.58] for you. Educate yourself. If you don't know the answer, pick up the phone and ask the
+[04178.58 → 04184.96] question. It's simple. It's just simple. Or do your own research. Pray about it. Pray
+[04184.96 → 04191.56] about it. But ask the questions before you jump on one platform or another platform and
+[04191.56 → 04196.58] me completely lost but i love the fact that we're able to to do this
+[04196.58 → 04200.44] efficiently without a lot of fitness i have
+[04200.44 → 04203.00] literally had to pull people apart in the state meeting so
+[04203.50 → 04207.60] i haven't seen that here and that's very encouraging to me it's not only the run
+[04208.12 → 04211.26] i really do feel like that we bring a lot to the table
+[04211.26 → 04215.40] and it's important to me um two years again it's gonna go by
+[04215.40 → 04217.86] really fast and i would like to see that
+[04233.16 → 04237.84] I ran into about four people this week asking for their vote.
+[04237.98 → 04241.34] They live in the county, but they own the property all over the city.
+[04242.11 → 04243.89] They have no idea they could vote.
+[04244.76 → 04251.92] City county members and the city staff, they've got to do a better job of finding a way to let people know
+[04264.35 → 04268.20] So I think that's something I would work on a lot of times.
+[04270.68 → 04275.43] I would be driving down the road thinking about that after I remember the last one yesterday.
+[04278.30 → 04279.08] They don't know.
+[04281.33 → 04285.23] So that's not a bad thing.
+[04285.23 → 04286.35] That would be on the book.
+[04288.20 → 04288.84] Mr. Turner.
+[04289.28 → 04295.88] We'll go back to the Garrison Park for a second.
+[04299.30 → 04308.94] Our Garrison Park, our Ms. Blanchett had my grandsons, Tennessee Turner and Knox Turner, which is born in California.
+[04309.30 → 04319.40] They lived there, and this summer, I told her, she said, we need shade for the grandparents because we're burning up.
+[04319.48 → 04322.22] So they took care of that, and I appreciate that.
+[04328.18 → 04330.90] Some of these questions, it's hard to answer.
+[04332.14 → 04334.55] like Danny said
+[04334.55 → 04335.69] people didn't know they could vote
+[04335.69 → 04338.75] I want to see more people
+[04338.75 → 04340.13] come to our city council meetings
+[04340.13 → 04342.97] don't just come because
+[04342.97 → 04343.75] of a controversial
+[04344.67 → 04345.23] something
+[04346.19 → 04347.43] come and listen
+[04347.43 → 04348.95] of course you can see them online
+[04348.95 → 04350.69] but being there is different
+[04350.69 → 04352.23] than seeing it online
+[04353.87 → 04356.05] so I urge all of our residents
+[04356.05 → 04357.33] come to the council meetings
+[04357.33 → 04358.75] express your concerns
+[04359.39 → 04360.51] we're there to listen
+[04362.28 → 04373.91] And, you know, if I'm reelected this November 3rd, I'll continue to make common-sense decisions and listen to the people and kind of make the right decision for them.
+[04377.12 → 04387.78] Yeah, I think the city council, they've done a lot of great things, like the livestreaming of the Tuesday night meetings, and then my biggest thing is just the transparency of things.
+[04387.90 → 04391.88] I mean, there's a lot of complex things in the city, you know, just that they discuss.
+[04391.88 → 04397.74] And a lot of that is just a matter of getting the correct information out, and I mean, we're going to learn from a lot.
+[04398.00 → 04401.22] Just like you said, just by showing up for meetings and tell us, tell us your thoughts.
+[04401.24 → 04404.40] I just wanted to have a more open mind and listen to the community.
+[04404.96 → 04410.22] Let them tell us what we need to change because, you know, we've been in a certain way for a certain amount of time.
+[04410.26 → 04412.22] We might not be thinking the way that you're thinking.
+[04412.48 → 04417.20] So if you think that there's anything we need to change, please approach us, let us know,
+[04417.24 → 04418.96] and we'll do everything we can to make those changes.
+[04418.96 → 04422.84] just as far as getting correct information out there
+[04422.84 → 04426.98] and letting the voters and the residents decide on matters.
+[04432.30 → 04434.72] Okay, Ethan, we're good on time, I think, aren't we?
+[04434.80 → 04435.34] Yeah.
+[04436.24 → 04440.02] So folks, we're going to start the audience questions.
+[04440.44 → 04441.20] There we go.
+[04442.65 → 04445.81] Great comments from the candidates about civility.
+[04446.27 → 04449.41] And as my grandma used to say, don't show yourself.
+[04449.93 → 04452.81] Ask good, clear, intelligent questions,
+[04452.81 → 04455.53] and you can probably talk to these folks after this
+[04455.53 → 04457.63] if you have other issues.
+[04458.73 → 04460.91] Cliff, will you ask Elliot to turn this mic on?
+[04460.99 → 04461.31] There you go.
+[04462.03 → 04462.69] He's got it.
+[04462.73 → 04463.03] There you go.
+[04463.05 → 04463.51] Thanks, Elliot.
+[04463.59 → 04464.43] Elliot's done a great job.
+[04465.74 → 04466.20] All right.
+[04468.13 → 04468.67] All right.
+[04468.85 → 04471.98] Thank you.
+[04472.32 → 04476.18] Before I ask my question, I'd like to make a comment to Wyatt,
+[04476.34 → 04479.30] but I tried to get a PSA put into the Chronicle
+[04479.30 → 04483.14] because I am one of those people that lives outside of the city
+[04483.14 → 04485.68] and holds property within the city.
+[04485.68 → 04493.38] And I wrote a PSA to just explain that process, how to do it, where to go, and then print.
+[04495.71 → 04513.04] So, my question is, regardless of the water reference and outcome, what process do you have for engaging the citizens in that process?
+[04513.42 → 04530.84] First thing moving forward, non-biased or unrelated person will come and do it.
+[04530.90 → 04535.38] I'm sure they've figured it out at this point.
+[04535.38 → 04554.67] As far as moving forward, once they have announced a pretty clear path forward of what they're going to cause, what they're going to cause, then that's going to be the only thing that the rich are going to develop, no matter what.
+[04555.25 → 04565.47] But going to the state to borrow as much money as possible, we're going to need a lot of grants, loans, to start getting the work.
+[04568.47 → 04577.78] I think that when we sit down and we look at holistic, or we look at cost, and we look at both sides, both sides.
+[04577.78 → 04588.70] When we're looking at how much this is going to be disinformation that is there or the misunderstanding, and I may use that word, the misunderstanding of this.
+[04589.02 → 04593.96] Having people asking questions, having people, and not on social media.
+[04594.42 → 04597.74] Social media, you know, I could argue social media all day long.
+[04597.94 → 04599.42] It's good and it's not good.
+[04599.86 → 04607.52] I just feel like that when people are not informed, as I said previously, when you have an issue as important as this is.
+[04607.52 → 04614.20] and to me it just came up in the last few years so for me it really got my radar if you are
+[04614.20 → 04620.21] depending on somebody else to tell you how to think or have what to do with this you're lost
+[04620.21 → 04626.15] before you even get there so encouraging that i i don't want to see us and i said this the other
+[04626.15 → 04630.33] day and i'm going to record this thing that's when it rains we get it first we're higher than
+[04630.33 → 04637.37] those people and it costs money to run that field so we do have water and i've heard a lot of this
+[04637.37 → 04662.09] studies, and I've read a lot of them. But I don't think it's a final on fire. I think we need to prepare for the worst. People didn't see COVID for me either. But it hit, and it was devastating. I don't think we're back. I don't think we're at a final on fire. I may be wrong, but I'm going to come back and say I was wrong.
+[04669.39 → 04673.07] I've heard both sides of this thing and tried to look at both sides.
+[04673.43 → 04678.53] How many people in here right in your hand think that if you said to me that I've never been born,
+[04679.20 → 04681.28] you'd say you'd have to go out and want to do it?
+[04681.42 → 04694.62] And on hand, I'm just going to do what the city's been trying to do for the last 15 years
+[04694.62 → 04699.10] and raise that bar down, do it as economically as possible.
+[04699.52 → 04701.82] Give it out 16 times if you have to.
+[04703.32 → 04713.16] And the work we've done with contracts, we've done, obviously, city, county, county, direction, obviously.
+[04713.64 → 04714.90] That's pretty simple.
+[04715.10 → 04723.25] I believe we've done, we've worked that out over the last, like, for the law of faith.
+[04727.80 → 04740.24] Well, I think at the time, if we have to raise Metapark down, or using the copper down and going down behind it,
+[04740.34 → 04749.20] we just find, like I said, the water district popped up a long time ago.
+[04777.27 → 04781.73] My big thing on the water is just leave all the options on the table.
+[04781.83 → 04784.55] I mean, it's a disservice if we don't sit down and look at every option.
+[04784.55 → 04789.33] than just an honorary resident inside the city and outside the city.
+[04789.61 → 04793.39] It's a matter of what's best for the future of Crossville,
+[04793.89 → 04798.39] whether that be the dam or whether that be to give serious talks to the CPWF.
+[04798.63 → 04801.39] We can sit down and we can take either one of them.
+[04801.57 → 04803.37] Both are going to cost money.
+[04803.43 → 04806.87] It just doesn't matter how much money that's going to cost the residents.
+[04807.53 → 04809.55] I'm not saying one is better than the other.
+[04809.55 → 04815.75] I'm not saying one deal is going to be able to be all, solve all, you know, get rid of all the problems.
+[04815.97 → 04822.92] This is a big issue that we may be okay with, you know, the future that's close.
+[04823.24 → 04827.70] The future that's down the road 20, 30 years from now is what we're going to need to turn our focus.
+[04827.94 → 04832.64] And I'd be open to listening to any residents that have concerns, questions, or anything like that.
+[04841.18 → 04849.39] And the fallacy is that crop cells have not been planted for the last 30,000, 50,000 years.
+[04850.15 → 04856.50] And half of the studies we've been doing for many years have contributed to that.
+[04856.52 → 04860.80] And the conclusion was both environmentally and practically, there's no progress.
+[04862.10 → 04865.30] I ran into the current manager of the Water Authority.
+[04866.04 → 04868.64] He didn't know who I was, and I told him all this,
+[04868.68 → 04870.62] but he didn't accomplish anything with what we did,
+[04870.72 → 04872.26] and he said, well, you never, it never,
+[04872.32 → 04873.40] he tried, it didn't happen.
+[04873.62 → 04874.64] No, it didn't.
+[04874.94 → 04876.18] It can be done.
+[04876.24 → 04877.84] The city and county can work together.
+[04878.16 → 04879.50] The county can work together.
+[04879.78 → 04880.32] We can make it happen.
+[04880.64 → 04883.04] It's the most practical work that I've ever done.
+[04883.52 → 04888.08] Sensitive, and it's something that I'm very passionate about,
+[04888.08 → 04889.52] that I've met with.
+[04889.90 → 04893.35] Before this all happened,
+[04893.87 → 04895.77] before the third mayor came on board,
+[04895.77 → 04898.33] We have met with all the environmental agencies,
+[04900.20 → 04902.68] parks, everybody that over-designated the city
+[04903.22 → 04905.52] and then our farms, and we are well-informed
+[04905.52 → 04907.08] about it, and we're excited to be part of it.
+[04912.12 → 04915.06] It is the best, and it's most easy to go to,
+[04915.12 → 04917.96] a stock detox is well-informed.
+[04918.04 → 04921.24] It's gonna be 20, 30, or beyond before,
+[04921.70 → 04924.86] and it will be something evening or a year complete.
+[04926.10 → 04930.41] So it's not a final on a note, but it's a long process.
+[04931.15 → 04933.25] And the many years that we have on this,
+[04933.41 → 04934.75] I've shown them the best in the state,
+[04934.95 → 04936.41] if not the best in the state.
+[04936.91 → 04938.39] And I have full faith in them.
+[04938.75 → 04942.05] And if you wanted to have a public view of the Galveston,
+[04942.07 → 04944.57] I'd like to introduce you to some of the big gardens.
+[04944.71 → 04949.01] But they don't have the people to study this
+[04949.01 → 04950.71] and all the stuff that we do in our program.
+[04952.30 → 04953.70] That's all I can say about it.
+[04953.74 → 04954.36] I'll leave you with that.
+[04957.34 → 04959.44] We've got time to get another question in.
+[04959.54 → 04960.32] Anyone in the audience?
+[04962.36 → 04978.61] I'm going to say that anyway, FOC is deeply unpopular, not only nationwide, but across
+[04978.61 → 04980.87] the United States since July.
+[04981.37 → 04986.67] That said, I'm asking everyone here specifically to get rid of them and ban them and tell the
+[04986.67 → 04988.55] Republican government to never bring them back.
+[04988.65 → 04990.55] Not just FOC, but every ALPR.
+[04990.87 → 04991.27] Thank you.
+[04991.57 → 04993.58] Who makes it up?
+[04993.68 → 04994.16] Mr. Wood?
+[04995.34 → 05000.60] Well, I think the question is too narrow.
+[05001.68 → 05011.10] When SWAT came on board, it was for a very valid purpose, to find bad guys in the city, but also to find people that had been abducted.
+[05011.10 → 05016.91] If you had somebody with dementia and ended up in a strange city like the capital city, we could find them quickly.
+[05016.91 → 05022.58] That is, and, you know, dash cams, body cams,
+[05022.58 → 05027.36] it effectively offers officer conduct,
+[05027.64 → 05029.46] honestly, they know they're being filmed,
+[05029.58 → 05033.35] but it also provides a lot of things
+[05033.35 → 05035.19] to protect officers and to protect the public.
+[05035.45 → 05038.37] Now, I'm going to go to what I say through there.
+[05038.75 → 05041.31] And Robert just came out with their perspective
+[05041.31 → 05044.45] in saying that they felt that AI was going to
+[05044.45 → 05047.49] there is an existential threat to society
+[05047.49 → 05048.51] or the human race.
+[05050.01 → 05057.28] I think it will be in AI how it's happening now
+[05057.28 → 05059.78] and some of the things that are coming about with that.
+[05060.68 → 05063.18] I don't want to give up some of the safeguards
+[05063.18 → 05063.96] for public safety,
+[05064.72 → 05067.30] but to the point where AI is done
+[05067.30 → 05068.96] and the way some of the...
+[05070.21 → 05073.77] They can't even document what AI is doing necessarily
+[05073.77 → 05077.31] because they can't follow the trail
+[05077.31 → 05085.34] like it's in classic coding so i'm not going to try to be capable of that but i'm not comfortable
+[05085.34 → 05090.84] with where we are with ai in this country what the ability to protect it to channel it
+[05094.82 → 05106.51] ai is able to hack the pentagon or whatever else or or a water plant those are things we hope i
+[05106.51 → 05114.42] address with your passion in a beautiful way i know you do not love it i respect it all the
+[05114.42 → 05124.84] to say thank you thank you so um discussion and i was basically into it um a lot so the i think
+[05124.84 → 05129.44] this discussion on what kind of we have they're just licensed play readers if i'm sharing if
+[05129.44 → 05133.20] that's incorrect please correct me um our law enforcement they already have a company that
+[05133.20 → 05139.92] job one word pool to help them do their job i think is valuable asset all the examples that
+[05139.92 → 05143.48] that have been brought and issues have not happened within Crossville.
+[05143.88 → 05148.58] If there ever is any issues, obviously we're going to address that and we're going to take care of it.
+[05148.78 → 05156.67] I think if a little kid got to bed, somebody ever, you know, does something where he goes missing or we can't locate him,
+[05156.81 → 05161.53] I would like to go to the office to have those tools in order to solve that a little bit quicker,
+[05162.01 → 05164.95] you know, locate as far as we can or solve other crimes.
+[05165.17 → 05170.25] I think they can be bad, but I think so far our law enforcement,
+[05170.25 → 05171.91] minute, I trust them 100%.
+[05171.91 → 05173.57] I think they'd use that as a correct answer.
+[05176.33 → 05178.07] Well, you'll see something about blocking
+[05178.07 → 05180.77] every single day on the news,
+[05181.59 → 05182.56] whether pro
+[05182.56 → 05183.46] or negative.
+[05184.54 → 05186.88] Just in today, missing
+[05186.88 → 05188.34] children from Hawkins County,
+[05188.46 → 05190.78] Georgia, after a block camera detected
+[05190.78 → 05193.10] the suspect's vehicle.
+[05193.68 → 05195.34] That was a positive thing.
+[05195.62 → 05196.94] The gentleman in the back
+[05196.94 → 05198.64] that came to our meetings and others,
+[05198.70 → 05200.84] even one time, I think a retired police officer,
+[05201.98 → 05203.08] has talked to us
+[05203.08 → 05212.26] they're not against the police but it's worth our fourth minute rights not trample on which our
+[05212.26 → 05221.42] police chief chief brooks has assured us that anything well i'm going to go back in savannah
+[05221.42 → 05227.87] georgia several police officers were fired for misusing the flock system uh trying to track
+[05227.87 → 05236.15] their girlfriends wives and they were fired which they should be our police chief has assured us
+[05236.15 → 05237.87] that if any abuse
+[05237.87 → 05239.19] is captured
+[05239.81 → 05241.77] from the seven cameras in
+[05241.77 → 05243.96] Crossville, that they will
+[05243.96 → 05246.08] immediately be fired and decertified
+[05246.08 → 05247.98] as police officers in the state of Tennessee.
+[05248.78 → 05250.00] So I've been listening
+[05251.02 → 05252.62] to both sides of it.
+[05253.31 → 05254.85] I want our citizens to be
+[05254.85 → 05256.97] saved. You know, I always
+[05256.97 → 05258.87] call them license tag readers. They read your
+[05258.87 → 05260.81] license tag and it shows your
+[05260.81 → 05263.51] vehicle. It doesn't
+[05263.51 → 05265.29] show you what you're doing
+[05265.29 → 05267.45] inside your vehicle or anything, but I want to
+[05267.45 → 05274.85] listen to both sides, and I respect both sides, but across from we have not had property.
+[05278.64 → 05282.24] That's exactly what I was going to say, so I'm going to defer to Mr. Clark.
+[05285.16 → 05290.18] I love the question, and the reason I do is my son-in-law is a police officer, not in
+[05290.18 → 05295.42] Cumberland County, not even close to Cumberland County. So, first and foremost, there was
+[05295.42 → 05301.16] young lady that was abducted out of the state of alabama and she was taken and she was a minor and
+[05301.16 → 05307.32] she was taken to spartan tennessee do you know how they found that girl she was raped and a lot of
+[05307.32 → 05312.38] horrific things they found it through block camera there was a gentleman that lived in
+[05312.38 → 05317.10] upper east tennessee that has alzheimer's dementia his family had no idea where he was
+[05317.10 → 05321.14] where what direction he went in you know how where they found him in north carolina
+[05321.14 → 05322.50] on a flock camera.
+[05323.21 → 05325.13] They ran the tag number on me.
+[05325.17 → 05327.23] They found me and got me back to the people
+[05327.23 → 05329.61] that loved me the most. A two-year-old
+[05329.61 → 05331.93] child was abducted by a non-custodial
+[05331.93 → 05332.31] parent.
+[05333.89 → 05335.89] They found the two-year-old
+[05335.89 → 05337.25] little boy on a flock camera.
+[05337.47 → 05339.37] I can argue it both ways.
+[05339.43 → 05341.23] I can't. Immediately after
+[05341.23 → 05343.39] hearing, I think, some of your presentations
+[05343.39 → 05345.45] which I respect, I went
+[05345.45 → 05347.53] home and I'm on the other end of my house
+[05347.53 → 05349.51] and I don't speak well, but I
+[05349.51 → 05354.79] I said, Alexa, I said something out loud, and Alexa on the other end of my house said,
+[05354.81 → 05356.13] Melinda, can I help you?
+[05356.83 → 05357.83] The brother's listening.
+[05358.23 → 05362.99] My Apple Watch is telling me, stand up, it's too loud in here, blah, blah, blah.
+[05363.13 → 05364.33] It was every move I made.
+[05364.45 → 05369.13] So it's my car, my cell phone, no, it's more than both of my parents did when I was born.
+[05369.59 → 05371.93] So I can argue that both ways.
+[05372.05 → 05377.55] After I had that meeting with you all or I talked with you all, I immediately called Chief Brooks
+[05377.55 → 05379.27] and I said, show me what you can see,
+[05379.33 → 05380.89] and they'll argue the answer to that.
+[05381.23 → 05383.03] They see the license plate.
+[05383.25 → 05385.09] They don't see inside the car.
+[05385.41 → 05387.45] There was only seven cameras impossible,
+[05387.77 → 05389.63] and I will reiterate what they just said.
+[05389.69 → 05391.97] If they violate that whatsoever,
+[05392.51 → 05393.73] they're immediately fired.
+[05393.89 → 05395.51] On the spot, no options.
+[05395.83 → 05397.93] No, no, no revival.
+[05398.19 → 05399.19] None. Not at all.
+[05399.35 → 05401.63] So those three are just a small sample.
+[05401.79 → 05403.57] I don't want anybody filming me.
+[05403.67 → 05404.61] I go to a football game.
+[05404.89 → 05407.27] Somebody's filming me at the University of Tennessee ball game.
+[05407.55 → 05410.41] People are constantly filming and listening to this.
+[05410.57 → 05415.69] So I can argue that both ways, but those three are the best examples I can give.
+[05415.75 → 05417.85] And I asked my son-in-law what he said on that.
+[05417.93 → 05420.83] He said, it's a tool to save people's lives.
+[05420.95 → 05422.39] We're not invading anybody.
+[05422.73 → 05424.67] We're just trying to find people that are lost.
+[05425.47 → 05429.31] That went a long way with me, because I could have Alzheimer's and be gone.
+[05429.39 → 05431.21] I hope we have a lot of cameras that will find me.
+[05431.81 → 05433.07] So thank you for what you're doing.
+[05435.18 → 05437.52] So, I think my biggest issue with it is,
+[05438.96 → 05447.31] If they just show up and people are just seeing the cameras and they're out of work, I don't know if that's really what you just said.
+[05447.49 → 05449.01] I was worried about the cost of it, excuse me.
+[05449.41 → 05453.37] I mean, personally, I can't talk about that shit at all because you're going to cut it down.
+[05455.01 → 05456.19] But that's what we're looking at.
+[05456.29 → 05460.71] I mean, the potential is really good, but I think at the very least, it needs to be adopted by the community.
+[05461.33 → 05462.63] People need to know what's going on.
+[05462.97 → 05464.89] If it's that idea, we just have to have cancer.
+[05465.66 → 05469.68] I can't say for sure.
+[05469.68 → 05476.32] Before I listen to you, you already said something wrong, but definitely that's worth looking at.
+[05476.42 → 05482.39] But I definitely think that if you go out with a lot of touch, you feel safer than all of the other parts of the United States.
+[05484.26 → 05495.54] Mr. Wyman, I have to say, our police chief just told us last Tuesday that when they looked into the reason the cops were looking at the blocked cameras was during COVID.
+[05496.18 → 05499.84] If you had COVID or symptoms, you had to stay out of work.
+[05499.84 → 05519.41] I don't know how many days, we might be 20 days or something like that, I can't remember the day, so the police department was short-handed because of COVID, so they looked into them, and it was a tool that helped them, the police department, solve crimes, so that was just a couple of quotes on Tuesday.
+[05522.09 → 05531.69] Okay, folks, I think we've hit a pretty good starting point, we're right on half hour, first off, candidates y'all did outstanding, great to go on.
+[05532.69 → 05547.51] several several counties it's up to you bryce uh you all at the playoffs thank you so much
+[05547.51 → 05560.69] come to the playhouse when they're running big shows look at the taxes from all the way out of
+[05560.69 → 05566.61] the state thank you thank you elliot up at the top ethan uh you know you got a lot of bragging
+[05566.61 → 05571.21] here that was all that was good i'll say this uh you know i work with a lot of different counties
+[05571.21 → 05572.27] and a lot of different chambers.
+[05572.61 → 05575.09] Ethan has been excellent on the account.
+[05575.71 → 05576.87] I get those calls.
+[05577.13 → 05581.47] I talk to the office
+[05581.47 → 05583.69] and Ethan will call and he'll say,
+[05583.75 → 05585.87] I need status on how many
+[05585.87 → 05588.17] welders, electricians, whatever person you've got.
+[05588.41 → 05589.91] I'll say, oh yeah, what's going on?
+[05590.33 → 05592.15] And he keeps that confidentiality
+[05592.15 → 05594.13] and he'll say, well, it's project B613
+[05594.13 → 05595.31] or something like that.
+[05595.43 → 05597.69] But you've done a great job. Thank you, sir.
+[05597.93 → 05599.63] Folks, thank you all for
+[05600.15 → 05601.69] being an outstanding audience tonight.
+[05602.29 → 05603.51] I'm sure you
+[05603.51 → 05607.87] You'll probably get to talk to some of these people as we're heading out.
+[05607.97 → 05611.59] But we appreciate you all, appreciate you all that was online, and have a good evening.
+[05611.71 → 05612.13] Thank you.

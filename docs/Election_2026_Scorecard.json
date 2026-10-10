@@ -1,10 +1,10 @@
 {
   "note": "Local 2026 Flock / ALPR positions. Quotes only. Not an endorsement. Not a Case_ID catalog.",
-  "as_of": "2026-10-05",
-  "as_of_long": "October 5, 2026",
-  "as_of_short": "Oct. 5, 2026",
+  "as_of": "2026-10-10",
+  "as_of_long": "October 10, 2026",
+  "as_of_short": "Oct. 10, 2026",
   "record_count": 26,
-  "ask_note": "The site’s admin asked every Crossville City Council candidate for a public Flock position. Two wordings were used: city_question by email (short form optional), and city_question_oneliner by text.",
+  "ask_note": "The candidates were emailed, called, or text messaged. Their responses are summarized in the Email / text and Forum columns. Forum answers are from the Oct. 8, 2026 Meet the Candidates forum at the Cumberland County Playhouse.",
   "city_question": "Will you vote to cancel Crossville’s Flock contract, remove the cameras, and enact a full city ban on Flock, Axon, and any other automated license-plate reader or similar mass-surveillance tool—and require a voter referendum (same idea as Crossville’s water referendum) before the city may ever bring those tools back? If you cannot give a clear yes to cancel, remove, and ban, what exactly would it take for you to support that?",
   "city_question_short": "Cancel, remove, and ban — yes / no / other (please say what)\nVoter referendum before any return — yes / no / other\nIf not a clear yes on cancel / remove / ban: what would it take? (conditions, evidence, process, timeline—be specific)",
   "city_question_oneliner": "Can you text me a one-liner on your position on Flock on the record.",
@@ -20,9 +20,10 @@
       "Sort": 1,
       "Stance": "no_answer",
       "Asked": "Written ask by email, sent more than once to the address he listed with the Cumberland County Election Commission.",
-      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. He has not given a Flock or license-plate-reader position.",
+      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. See the Forum column for his Oct. 8 Playhouse remarks.",
       "Source_Label": "Emails to the address on his Election Commission filing. No reply as of Oct. 5, 2026.",
-      "Email": "mike.turner@crossvilletn.gov"
+      "Email": "mike.turner@crossvilletn.gov",
+      "Forum_Answer": "Said he has been “listening to both sides.” Called them license-tag readers that show the vehicle, not the inside. Cited Chief Brooks and Savannah officers fired for misuse. No clear yes to cancel."
     },
     {
       "Slug": "kristopher-cole",
@@ -34,8 +35,9 @@
       "Sort": 2,
       "Stance": "no_answer",
       "Asked": "Written ask by email, sent more than once to the address he listed with the Cumberland County Election Commission.",
-      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. He has not given a Flock or license-plate-reader position.",
-      "Source_Label": "Emails to the address on his Election Commission filing. No reply as of Oct. 5, 2026."
+      "Answer": "This site emailed him more than once at the address he listed with the Cumberland County Election Commission and received no response whatsoever. See the Forum column for his Oct. 8 Playhouse remarks.",
+      "Source_Label": "Emails to the address on his Election Commission filing. No reply as of Oct. 5, 2026.",
+      "Forum_Answer": "Hardest to hear. Best reading: said he would “cut it down,” then that after listening it was “worth looking at” and needed community buy-in. Not a clear cancel or keep."
     },
     {
       "Slug": "robbie-poore",
@@ -48,7 +50,8 @@
       "Stance": "hedge",
       "Asked": "Written ask by email — cancel, remove, and ban. Follow-up on publishing city Flock records without repeated public-records requests.",
       "Answer": "Emailed this site’s admin that examples from other cities “are not evidence that those same problems have occurred within the Crossville Police Department.” He has not seen documented Crossville PD misuse, has spoken with the police chief and sitting council members, and said he would reevaluate if documented Crossville PD misuse comes to light. No clear answer yet on cancel, remove, and ban. In a Sept. 18 follow-up he said yes, he supports making “substantially more information” about Crossville’s use of this technology readily available without residents having to repeatedly file public records requests, including the city’s contract, policies on access, retention, and sharing, and regular reporting on how the system is being used.",
-      "Source_Label": "Sept. 17 and Sept. 18, 2026 emails to this site’s admin"
+      "Source_Label": "Sept. 17 and Sept. 18, 2026 emails to this site’s admin",
+      "Forum_Answer": "Called them a “valuable asset” / tool for finding missing people and solving crimes. Said misuse examples have not happened in Crossville. Said he trusts local law enforcement “100%.”"
     },
     {
       "Slug": "greg-wood",
@@ -61,7 +64,8 @@
       "Stance": "hedge",
       "Asked": "Written ask by email — cancel, remove, and ban.",
       "Answer": "Emailed this site’s admin: “Simply put, I believe anything associated with AI needs guardrails.” No clear answer yet on cancel, remove, and ban.",
-      "Source_Label": "Sept. 16, 2026 email to this site’s admin"
+      "Source_Label": "Sept. 16, 2026 email to this site’s admin",
+      "Forum_Answer": "Said banning Flock alone is “too narrow.” Said the cameras came on for a “very valid purpose” (finding suspects and missing people). Also said he is not comfortable with where AI is nationally."
     },
     {
       "Slug": "danny-wyatt",
@@ -74,7 +78,8 @@
       "Stance": "oppose",
       "Asked": "Short ask by text — one-liner on his position on Flock, on the record.",
       "Answer": "Told this site’s admin in a text message that if he had to make a decision today, he “would not support” having them up. He has spoken with Crossville PD, plans to meet them in the next few days, and said he will keep listening to residents. Some people he has talked with are totally opposed; a lot do not have an opinion.",
-      "Source_Label": "Sept. 13, 2026 text message to this site’s admin"
+      "Source_Label": "Sept. 13, 2026 text message to this site’s admin",
+      "Forum_Answer": "Deferred to Mike Turner after Turner’s both-sides answer: “That’s exactly what I was going to say…” No separate cancel or keep line on the mic."
     },
     {
       "Slug": "melinda-kelsey",
@@ -87,7 +92,8 @@
       "Stance": "reviewing",
       "Asked": "Written ask by email — cancel, remove, and ban.",
       "Answer": "Emailed this site’s admin: “I am researching additional information regarding FLOCK.” No clear answer yet on cancel, remove, and ban.",
-      "Source_Label": "Sept. 15, 2026 email to this site’s admin"
+      "Source_Label": "Sept. 15, 2026 email to this site’s admin",
+      "Forum_Answer": "Said she can argue both ways, then: “I hope we have a lot of cameras that will find me” if she had Alzheimer’s and was gone. Said plates only, not inside the car; violators should be fired on the spot."
     },
     {
       "Slug": "louis-morrison",
@@ -99,8 +105,9 @@
       "Sort": 7,
       "Stance": "no_answer",
       "Asked": "Written ask by email, sent more than once to the address listed with the Cumberland County Election Commission.",
-      "Answer": "This site emailed Louis Morrison more than once at the address listed with the Cumberland County Election Commission and received no response whatsoever. No Flock or license-plate-reader position has been given.",
-      "Source_Label": "Emails to the address on the Election Commission filing. No reply as of Oct. 5, 2026."
+      "Answer": "This site emailed Louis Morrison more than once at the address listed with the Cumberland County Election Commission and received no response whatsoever. See the Forum column for his Oct. 8 Playhouse note.",
+      "Source_Label": "Emails to the address on the Election Commission filing. No reply as of Oct. 5, 2026.",
+      "Forum_Answer": "Absent. His read statement listed “flock cameras” among city concerns. No live answer on cancel or keep."
     },
     {
       "Slug": "allen-foster",
@@ -112,7 +119,8 @@
       "Sort": 8,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "mayorfoster@cumberlandcountytn.gov"
+      "Email": "mayorfoster@cumberlandcountytn.gov",
+      "Forum_Answer": ""
     },
     {
       "Slug": "casey-cox",
@@ -124,7 +132,8 @@
       "Sort": 9,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "ccox@ccsheriffs.org"
+      "Email": "ccox@ccsheriffs.org",
+      "Forum_Answer": ""
     },
     {
       "Slug": "wiley-potter",
@@ -137,7 +146,8 @@
       "Sort": 10,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "wileypotter@icloud.com"
+      "Email": "wileypotter@icloud.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "sue-ann-york",
@@ -150,7 +160,8 @@
       "Sort": 11,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "sueyork46@gmail.com"
+      "Email": "sueyork46@gmail.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "tom-isham",
@@ -163,7 +174,8 @@
       "Sort": 12,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "trkisham@yahoo.com"
+      "Email": "trkisham@yahoo.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "craig-clark",
@@ -175,7 +187,8 @@
       "District": 3,
       "Sort": 13,
       "Stance": "no_answer",
-      "Answer": "Has not published a position on a county ALPR / Flock-style ban."
+      "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
+      "Forum_Answer": ""
     },
     {
       "Slug": "karen-shanks",
@@ -188,7 +201,8 @@
       "Sort": 14,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "mkbshanks@gmail.com"
+      "Email": "mkbshanks@gmail.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "gary-adams",
@@ -200,7 +214,8 @@
       "District": 4,
       "Sort": 15,
       "Stance": "no_answer",
-      "Answer": "Has not published a position on a county ALPR / Flock-style ban."
+      "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
+      "Forum_Answer": ""
     },
     {
       "Slug": "david-gibson",
@@ -213,7 +228,8 @@
       "Sort": 16,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "dhgibsonccc@gmail.com"
+      "Email": "dhgibsonccc@gmail.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "jack-davis",
@@ -226,7 +242,8 @@
       "Sort": 17,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "rjdavis80@yahoo.com"
+      "Email": "rjdavis80@yahoo.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "terry-lowe",
@@ -239,7 +256,8 @@
       "Sort": 18,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "lowefarms1949@yahoo.com"
+      "Email": "lowefarms1949@yahoo.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "joe-sherrill",
@@ -252,7 +270,8 @@
       "Sort": 19,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "joe.sherrill@openrangesoftware.com"
+      "Email": "joe.sherrill@openrangesoftware.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "wendell-wilson",
@@ -265,7 +284,8 @@
       "Sort": 20,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "wilsonw6farms@yahoo.com.sg"
+      "Email": "wilsonw6farms@yahoo.com.sg",
+      "Forum_Answer": ""
     },
     {
       "Slug": "jerry-cooper",
@@ -278,7 +298,8 @@
       "Sort": 21,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "jcooper1@ccschools.k12tn.net"
+      "Email": "jcooper1@ccschools.k12tn.net",
+      "Forum_Answer": ""
     },
     {
       "Slug": "ralph-reagan",
@@ -290,7 +311,8 @@
       "District": 7,
       "Sort": 22,
       "Stance": "no_answer",
-      "Answer": "Has not published a position on a county ALPR / Flock-style ban."
+      "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
+      "Forum_Answer": ""
     },
     {
       "Slug": "keith-burgess",
@@ -302,7 +324,8 @@
       "District": 8,
       "Sort": 23,
       "Stance": "no_answer",
-      "Answer": "Has not published a position on a county ALPR / Flock-style ban."
+      "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
+      "Forum_Answer": ""
     },
     {
       "Slug": "greg-maxwell",
@@ -315,7 +338,8 @@
       "Sort": 24,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "gmcommissioner8@gmail.com"
+      "Email": "gmcommissioner8@gmail.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "colleen-mall",
@@ -328,7 +352,8 @@
       "Sort": 25,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "ckmcfl1@gmail.com"
+      "Email": "ckmcfl1@gmail.com",
+      "Forum_Answer": ""
     },
     {
       "Slug": "john-patterson",
@@ -341,7 +366,11 @@
       "Sort": 26,
       "Stance": "no_answer",
       "Answer": "Has not published a position on a county ALPR / Flock-style ban.",
-      "Email": "johnpattersonjr@comcast.net"
+      "Email": "johnpattersonjr@comcast.net",
+      "Forum_Answer": ""
     }
-  ]
+  ],
+  "forum_note": "Forum column (Oct. 8, 2026 Playhouse): Room audio was too poor to transcribe by ear with full confidence. Text was extracted with faster-whisper large-v3 (local automatic speech recognition), then paraphrased for this table. Email corrections to info@crossvilleprivacy.org.",
+  "forum_source_label": "3B Media (Oct. 8, 2026)",
+  "forum_source_url": "https://3bmedianews.com/rockwood-and-crossville-set-to-host-local-political-forums-tonight/"
 }
