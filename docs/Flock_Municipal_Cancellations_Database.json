@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-10",
+  "compiled": "2026-10-12",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -4137,6 +4137,37 @@
       "Secondary_Source_URL": "https://www.kunr.org/local-stories/2026-10-09/reno-ends-flock-contract",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Flock exit via Axon swap. ALPR program continues. Monday council vote reported June 25, 2026 (council met June 22). Nevada Sparks."
+    },
+    {
+      "Case_ID": "CAN-2026-283",
+      "Jurisdiction": "Richmond",
+      "State": "VA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-10",
+      "Camera_Count": 99,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Mayor will not renew after Henrico exit; privacy backlash and reduced regional network value",
+      "Summary": "VPM reported October 10, 2026, that Mayor Danny Avula announced Richmond will not renew its Flock contract when the deal ends June 30, 2027. Avula cited Henrico County's early exit that week, saying the technology is less useful without regional partners. VPM said Richmond has about 99 fixed cameras. Avula had said in September the city would reevaluate amid public backlash. Virginia Richmond.",
+      "Primary_Source_URL": "https://www.vpm.org/news/2026-10-10/rva-danny-avula-flock-safety-contract-alpr-cameras/",
+      "Verification_Status": "Verified local public radio",
+      "Incomplete_Exit_Notes": "Non-renewal announced October 10. Cameras stay under the current term through June 30, 2027. Hardware-removal date not published. About 99 cameras. Virginia Richmond."
+    },
+    {
+      "Case_ID": "CAN-2026-284",
+      "Jurisdiction": "Madison Heights",
+      "State": "MI",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-11",
+      "Camera_Count": 3,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "City says Flock did not provide adequate guardrails; disconnecting city-run cameras and will not renew",
+      "Summary": "WXYZ and CBS Detroit reported October 11, 2026, that Madison Heights will disconnect its three city-run Flock cameras and will not renew the contract. Officials said cameras have been bagged and unused since September 23 with no new data collected. The city said private Flock contracts elsewhere in town are not covered. Michigan Madison Heights.",
+      "Primary_Source_URL": "https://www.wxyz.com/news/region/oakland-county/madison-heights-disconnecting-flock-cameras-not-renewing-contract",
+      "Secondary_Source_URL": "https://www.cbsnews.com/detroit/news/madison-heights-disconnect-city-flock-cameras/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "City-run cameras bagged since September 23; non-renewal announced October 11. Contract end / hardware-removal date not published. Private Flock cams in city remain. Michigan Madison Heights."
     }
   ]
 }
