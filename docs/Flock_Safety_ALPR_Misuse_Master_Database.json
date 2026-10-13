@@ -1937,6 +1937,25 @@
       "Outcome_Bucket": "2 Terminated",
       "Personnel_Terminated": 2,
       "Personnel_Charged": 2
+    },
+    {
+      "Case_ID": "FLK-2026-135",
+      "Year": 2026,
+      "State": "FL",
+      "Agency_Jurisdiction": "Brevard County Sheriff's Office",
+      "Subject_Officer_Involved": "deputy",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "1 off-duty search before a shift",
+      "Source_URL": "https://www.clickorlando.com/news/investigators/2026/08/20/brevard-deputy-of-the-year-quits-after-egregious-misconduct-exposed/",
+      "Secondary_Source_URL": "https://www.404media.co/florida-deputy-of-the-year-used-flock-to-stalk-ex-held-gun-in-her-mouth-did-a-nazi-salute/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "News 6 reported August 20, 2026 that a deputy from the Brevard County Sheriff's Office resigned May 27, 2026, after an internal investigation. Sheriff Wayne Ivey had signed off in May and was prepared to fire the deputy. An audit found one off-duty Flock search, before a shift, of a plate associated with someone known to the deputy, logged as an investigation. Investigators wrote that the deputy denied using the search to spy and could not give a reason. News 6 reported the administrative file does not mention a criminal investigation. 404 Media also reported the resignation on August 27, 2026. Deputy not named on this site. A resignation is not a criminal conviction.",
+      "Outcome_Bucket": "1 Resigned",
+      "Personnel_Resigned": 1,
+      "Personal_Lookup_Count": 1
     }
   ]
 }
