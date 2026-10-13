@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-12",
+  "compiled": "2026-10-13",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -2088,11 +2088,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "Unanimous emergency ordinance ban; Public backlash / privacy; Sheriff purchases just under review threshold; Mayor disputes contract validity",
-      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff’s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way. On September 10, 2026, Knox News reported Mayor Betsy Henderson said Flock will not remove the cameras until October 7 and that the county will cover mounted units with “personal privacy shields” until takedown. On October 6, 2026, WVLT reported KCSO said it has stopped purchasing, leasing, operating, and maintaining fixed ALPR systems, will not renew those contracts, and that fixed units are being uninstalled or have access suspended.",
+      "Summary": "Knox County Commission unanimously passed an emergency ordinance August 31, 2026 banning fixed license plate readers and requiring the Knox County Sheriff’s Office to remove about 143 Flock cameras by September 16. Coverage said KCSO bought cameras in batches just under the $25,000 mayoral-review threshold, spent $800,000 on a year-one order framed as year one of ten, and lacked a public use policy. Mayor Glenn Jacobs said he does not believe the county has a valid Flock agreement. The ordinance also bans surveillance centers and future county ALPR purchases on county rights-of-way. On September 10, 2026, Knox News reported Mayor Betsy Henderson said Flock will not remove the cameras until October 7 and that the county will cover mounted units with “personal privacy shields” until takedown. On October 6, 2026, WVLT reported KCSO said it has stopped purchasing, leasing, operating, and maintaining fixed ALPR systems, will not renew those contracts, and that fixed units are being uninstalled or have access suspended. On October 8, 2026, WJHL reported Henderson said 141 of 143 cameras had been physically removed, the last two were covered and no longer tracking, and KCSO no longer had access to the fixed system.",
       "Primary_Source_URL": "https://www.wate.com/news/knox-county-news/commission-bans-license-plate-readers/",
       "Secondary_Source_URL": "https://www.knoxnews.com/story/news/politics/2026/08/31/knox-county-bans-flock-cameras-amid-surveillance-backlash/91545538007/",
       "Verification_Status": "Verified local press / local TV",
-      "Incomplete_Exit_Notes": "WVLT (Oct. 6, 2026) reported KCSO said it has stopped operating fixed ALPR systems and that fixed units are being uninstalled or have access suspended. Full hardware removal of every camera was not confirmed in that report. Flock had told the county takedown would slip to Oct. 7. Knox News (Sept. 10, 2026) reported Mayor Betsy Henderson covered mounted units with privacy shields until takedown. Sheriff is independently elected. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
+      "Incomplete_Exit_Notes": "WJHL (Oct. 8, 2026) reported Mayor Betsy Henderson said 141 of 143 cameras were physically removed. The last two stay covered on poles, are no longer tracking, and will be removed soon. KCSO said it no longer has access to the fixed system. That report does not say all 143 are down. Sheriff is independently elected. Knoxville PD Axon cameras and city Flock on private property are separate. Vehicle-mounted readers with a deputy present may be exempt per Knox News."
     },
     {
       "Case_ID": "CAN-2026-146",
@@ -3164,16 +3164,16 @@
       "Jurisdiction": "Marshall County",
       "State": "IN",
       "Action_Type": "Suspended",
-      "Action_Date": "2026-09-14",
+      "Action_Date": "2026-10-13",
       "Camera_Count": 6,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Council 4-3 defund; commissioners later voted 2-1 to cover six county cameras and keep the contract",
-      "Summary": "WNDU reported that Marshall County Council voted 4-3 on September 14, 2026 to end funding for six county-paid Flock cameras. Michiana News reported October 6, 2026, that county commissioners voted 2-1 to cover those six cameras and keep the contract until they vote again. County Attorney Sean Surrisi advised the board to talk with Flock before covering them, and the paper said it was unclear when the covers would go on. The vote does not cover cameras in Bremen or Plymouth. Commissioner Jesse Bohannon said about 25 cameras are in the county. The county contract had been set to run through 2028. Indiana Marshall County. Distinct from Kosciusko County (CAN-2026-213).",
+      "Primary_Reasons": "Council 4-3 resolution to end the contract December 31 after an earlier defund; commissioners had voted to cover the cameras and keep the contract; prosecutor disputes the council's authority",
+      "Summary": "ABC57 reported October 13, 2026, that Marshall County Council voted 4-3 for a resolution that the Flock contract ends December 31. Prosecutor Nelson Chipman had said the council lacked authority to cancel. Commissioners had voted 2-1 on October 6 to cover the six county cameras and keep the contract until another vote. WNDU reported the September 14 council vote, also 4-3, ended funding for those six cameras. The October 6 cover vote does not cover cameras in Bremen or Plymouth. Indiana Marshall County. Distinct from Kosciusko County (CAN-2026-213).",
       "Primary_Source_URL": "https://www.wndu.com/2026/09/15/marshall-county-council-votes-end-funding-flock-cameras/",
       "Secondary_Source_URL": "https://www.wndu.com/2026/09/14/marshall-county-council-votes-defund-flock-cameras/",
       "Verification_Status": "Verified local TV",
-      "Incomplete_Exit_Notes": "September 14 council vote ended funding for six county-paid cameras. October 6 commissioners voted 2-1 to cover those cameras and keep the contract until another vote. The county attorney said to talk with Flock before covering them. Cover timing was not set. Bremen and Plymouth cameras are outside the vote."
+      "Incomplete_Exit_Notes": "October 13 council resolution sets a December 31 end date. Cameras are not confirmed down. Prosecutor Nelson Chipman had said the council could not cancel the contract. October 6 commissioners voted 2-1 to cover the six county cameras and keep the contract. Bremen and Plymouth cameras are outside that cover vote. Indiana Marshall County."
     },
     {
       "Case_ID": "CAN-2026-218",
@@ -4168,6 +4168,21 @@
       "Secondary_Source_URL": "https://www.cbsnews.com/detroit/news/madison-heights-disconnect-city-flock-cameras/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "City-run cameras bagged since September 23; non-renewal announced October 11. Contract end / hardware-removal date not published. Private Flock cams in city remain. Michigan Madison Heights."
+    },
+    {
+      "Case_ID": "CAN-2026-285",
+      "Jurisdiction": "Frankfort",
+      "State": "KY",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-12",
+      "Camera_Count": 19,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Unanimous vote not to renew until more policy is in place",
+      "Summary": "WKYT reported October 12, 2026, that the Frankfort Board of Commissioners voted unanimously Monday not to renew the city's Flock contract. The contract expires in January 2027. Police Chief Derrick Napier told a September 29 meeting the city has 19 cameras and that a limited number of people in the department can access them. Kentucky Frankfort, not Frankfort in another state.",
+      "Primary_Source_URL": "https://www.wkyt.com/2026/10/13/frankfort-board-commissioners-votes-not-renew-flock-contract/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Unanimous non-renewal voted October 12, 2026. Cameras stay until the contract expires in January 2027. Hardware-removal date not published. 19 cameras. Kentucky Frankfort."
     }
   ]
 }

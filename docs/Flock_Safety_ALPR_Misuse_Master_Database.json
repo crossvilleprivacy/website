@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-10-10",
+  "compiled": "2026-10-13",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-10-10"
+    "generated_on": "2026-10-13"
   },
   "verified_incidents": [
     {
@@ -1918,6 +1918,25 @@
       "Year_Note": "VPM reported Oct. 2, 2026 that Chesterfield County Police said a civilian intelligence investigator was charged with two counts of improper ALPR use by law enforcement and two counts of computer invasion of privacy after coworkers reported concerns Aug. 27 and an audit found suspicious queries. Access revoked; unpaid administrative leave. Employee not named on this site. A charge is not a finding of guilt.",
       "Outcome_Bucket": "1 Criminally Charged",
       "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-134",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Baldwin County Sheriff's Office",
+      "Subject_Officer_Involved": "training officer and former deputy",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Not published",
+      "Source_URL": "https://www.41nbc.com/baldwin-county-license-plate-data-charges-officers-terminated/",
+      "Secondary_Source_URL": "https://unionrecorder.com/2026/10/12/sheriffs-deputy-training-officer-arrested-fired-for-flock-misuse/",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2025-2026",
+      "Resolution_Year": 2026,
+      "Year_Note": "41NBC reported Oct. 12, 2026 that a training officer from the Baldwin County Sheriff's Office was fired Oct. 8 and booked Oct. 9, and that a deputy who had transferred to the Twiggs County Sheriff's Office was fired there and booked Oct. 9. Each booking listed violation of oath by a public officer and illegal use or obtainment of law-enforcement license-plate data. The Union-Recorder reported both cases were Flock camera misuse, and that the transferred deputy's searches happened while he still worked for Baldwin County. Booking offense dates were June 30, 2026 and Feb. 28, 2025. People not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "2 Terminated",
+      "Personnel_Terminated": 2,
+      "Personnel_Charged": 2
     }
   ]
 }

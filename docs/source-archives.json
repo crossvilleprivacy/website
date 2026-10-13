@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-10",
-  "count": 1357,
-  "source_count": 1357,
+  "as_of": "2026-10-13",
+  "count": 1364,
+  "source_count": 1364,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2935,6 +2935,13 @@
       "captured": "2026-08-15T01:33:51Z",
       "method": "existing"
     },
+    "https://unionrecorder.com/2026/10/12/sheriffs-deputy-training-officer-arrested-fired-for-flock-misuse": {
+      "url": "https://unionrecorder.com/2026/10/12/sheriffs-deputy-training-officer-arrested-fired-for-flock-misuse/",
+      "wayback": "https://web.archive.org/web/20261013121346/https://unionrecorder.com/2026/10/12/sheriffs-deputy-training-officer-arrested-fired-for-flock-misuse/",
+      "timestamp": "20261013121346",
+      "captured": "2026-10-13T12:13:46Z",
+      "method": "existing"
+    },
     "https://upriseri.com/article/aclu-cancel-cumberlands-flock-camera-contract": {
       "url": "https://upriseri.com/article/aclu-cancel-cumberlands-flock-camera-contract/",
       "wayback": "https://web.archive.org/web/20260809111346/https://upriseri.com/article/aclu-cancel-cumberlands-flock-camera-contract/",
@@ -3390,6 +3397,13 @@
       "captured": "2026-08-13T08:37:33Z",
       "method": "existing"
     },
+    "https://www.41nbc.com/baldwin-county-license-plate-data-charges-officers-terminated": {
+      "url": "https://www.41nbc.com/baldwin-county-license-plate-data-charges-officers-terminated/",
+      "wayback": "https://web.archive.org/web/20261013121306/https://www.41nbc.com/baldwin-county-license-plate-data-charges-officers-terminated/",
+      "timestamp": "20261013121306",
+      "captured": "2026-10-13T12:13:06Z",
+      "method": "existing"
+    },
     "https://www.41nbc.com/bibb-county-former-deputies-flock-camera-data-arrests": {
       "url": "https://www.41nbc.com/bibb-county-former-deputies-flock-camera-data-arrests/",
       "wayback": "https://web.archive.org/web/20260811023506/https://www.41nbc.com/bibb-county-former-deputies-flock-camera-data-arrests/",
@@ -3494,6 +3508,13 @@
       "timestamp": "20260815012208",
       "captured": "2026-08-15T01:22:08Z",
       "method": "existing"
+    },
+    "https://www.abc57.com/news/marshall-county-council-makes-final-vote-to-end-flock-camera-contract": {
+      "url": "https://www.abc57.com/news/marshall-county-council-makes-final-vote-to-end-flock-camera-contract",
+      "wayback": "https://web.archive.org/web/20261013121942/https://www.abc57.com/news/marshall-county-council-makes-final-vote-to-end-flock-camera-contract",
+      "timestamp": "20261013121942",
+      "captured": "2026-10-13T12:19:42Z",
+      "method": "save"
     },
     "https://www.aclu-md.org/app/uploads/2024/08/letter_to_msp_re_frt_policy_final.pdf": {
       "url": "https://www.aclu-md.org/app/uploads/2024/08/letter_to_msp_re_frt_policy_final.pdf",
@@ -3914,6 +3935,13 @@
       "timestamp": "20260915235559",
       "captured": "2026-09-15T23:55:59Z",
       "method": "existing"
+    },
+    "https://www.atlantanewsfirst.com/2026/10/12/flock-cameras-went-up-without-some-city-councils-approval-we-found-out-why-2": {
+      "url": "https://www.atlantanewsfirst.com/2026/10/12/flock-cameras-went-up-without-some-city-councils-approval-we-found-out-why-2/",
+      "wayback": "https://web.archive.org/web/20261013115801/https://www.atlantanewsfirst.com/2026/10/12/flock-cameras-went-up-without-some-city-councils-approval-we-found-out-why-2/",
+      "timestamp": "20261013115801",
+      "captured": "2026-10-13T11:58:01Z",
+      "method": "save"
     },
     "https://www.atlasofsurveillance.org/a/TN0180100ALPR": {
       "url": "https://www.atlasofsurveillance.org/a/TN0180100ALPR",
@@ -8560,6 +8588,13 @@
       "captured": "2025-09-25T07:11:34Z",
       "method": "existing"
     },
+    "https://www.wjhl.com/news/regional/tennessee/141-flock-cameras-removed-in-knox-co-final-2-remain-covered-as-leaders-phase-out-alprs": {
+      "url": "https://www.wjhl.com/news/regional/tennessee/141-flock-cameras-removed-in-knox-co-final-2-remain-covered-as-leaders-phase-out-alprs/",
+      "wayback": "https://web.archive.org/web/20261011152702/https://www.wjhl.com/news/regional/tennessee/141-flock-cameras-removed-in-knox-co-final-2-remain-covered-as-leaders-phase-out-alprs/",
+      "timestamp": "20261011152702",
+      "captured": "2026-10-11T15:27:02Z",
+      "method": "existing"
+    },
     "https://www.wkar.org/wkar-news/2026-08-25/lansing-city-council-asks-mayor-police-to-end-use-of-flock-cameras": {
       "url": "https://www.wkar.org/wkar-news/2026-08-25/lansing-city-council-asks-mayor-police-to-end-use-of-flock-cameras",
       "wayback": "https://web.archive.org/web/20260826082217/https://www.wkar.org/wkar-news/2026-08-25/lansing-city-council-asks-mayor-police-to-end-use-of-flock-cameras",
@@ -8579,6 +8614,13 @@
       "wayback": "https://web.archive.org/web/20250722105900/https://www.wkrn.com/news/local-news/nashville/lpr-not-listed-2026-proposed-budget/",
       "timestamp": "20250722105900",
       "captured": "2025-07-22T10:59:00Z",
+      "method": "existing"
+    },
+    "https://www.wkyt.com/2026/10/13/frankfort-board-commissioners-votes-not-renew-flock-contract": {
+      "url": "https://www.wkyt.com/2026/10/13/frankfort-board-commissioners-votes-not-renew-flock-contract/",
+      "wayback": "https://web.archive.org/web/20261013121303/https://www.wkyt.com/2026/10/13/frankfort-board-commissioners-votes-not-renew-flock-contract/",
+      "timestamp": "20261013121303",
+      "captured": "2026-10-13T12:13:03Z",
       "method": "existing"
     },
     "https://www.wlky.com/article/flock-cameras-shively-police-tracking-arrest/73531893": {
@@ -9364,6 +9406,13 @@
       "timestamp": "20251113092348",
       "captured": "2025-11-13T09:23:48Z",
       "method": "existing"
+    },
+    "https://www.youtube.com/watch?v=RKvnuANs4-4": {
+      "url": "https://www.youtube.com/watch?v=RKvnuANs4-4",
+      "wayback": "https://web.archive.org/web/20261013115845/https://www.youtube.com/watch?v=RKvnuANs4-4",
+      "timestamp": "20261013115845",
+      "captured": "2026-10-13T11:58:45Z",
+      "method": "save"
     },
     "https://www.youtube.com/watch?v=TWws6i4nQ5w": {
       "url": "https://www.youtube.com/watch?v=TWws6i4nQ5w",

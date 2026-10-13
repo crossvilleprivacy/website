@@ -3,6 +3,14 @@
   "records": [
     {
       "Kind": "watch",
+      "Place": "Maryville",
+      "What": "16 cameras. Use began in 2020. Council voted in July 2024. Three plates are ignored, with no expiration.",
+      "Date": "2026-10-12",
+      "Writeup": "#maryville-flock-approval",
+      "Source_URL": "https://www.atlantanewsfirst.com/2026/10/12/flock-cameras-went-up-without-some-city-councils-approval-we-found-out-why-2/"
+    },
+    {
+      "Kind": "watch",
       "Place": "Cookeville",
       "What": "Council 4–0 two-year 10-camera $60k contract; cameras stay",
       "Date": "2026-09-17",
