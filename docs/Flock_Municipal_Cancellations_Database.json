@@ -4183,6 +4183,22 @@
       "Primary_Source_URL": "https://www.wkyt.com/2026/10/13/frankfort-board-commissioners-votes-not-renew-flock-contract/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Unanimous non-renewal voted October 12, 2026. Cameras stay until the contract expires in January 2027. Hardware-removal date not published. 19 cameras. Kentucky Frankfort."
+    },
+    {
+      "Case_ID": "CAN-2026-286",
+      "Jurisdiction": "Elgin Community College",
+      "State": "IL",
+      "Action_Type": "Expired",
+      "Action_Date": "2026-04-01",
+      "Camera_Count": 6,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "College asked Flock to remove cameras early over immigration-data concerns; Flock refused; college bagged cameras until contract expired",
+      "Summary": "The Verge reported October 11, 2026, citing Chicago Sun-Times / WBEZ reporting, that Elgin Community College asked Flock in October 2025 to remove six cameras after immigration-access concerns. President Peggy Heinrich said Flock refused, citing no contract breach. The college offered in December 2025 to pay the remaining term if Flock removed the cameras and got silence. Staff covered cameras with trash bags; workers in an unmarked vehicle repeatedly removed the coverings until the contract expired in April 2026 and Flock uninstalled the cameras. Illinois Elgin Community College.",
+      "Primary_Source_URL": "https://www.theverge.com/tech/1009411/elgin-community-college-flock-safety-cameras",
+      "Secondary_Source_URL": "https://chicago.suntimes.com/education/2026/10/09/to-protect-immigrant-students-a-chicago-area-college-told-flock-to-remove-its-cameras-the-company-refused",
+      "Verification_Status": "Verified national and local press",
+      "Incomplete_Exit_Notes": "Early cancel refused October 2025. Hardware removed at contract expiration in April 2026 (day not published; dated 2026-04-01). Six cameras. College covered cameras in the interim; Flock workers allegedly removed coverings. Illinois Elgin Community College."
     }
   ]
 }
