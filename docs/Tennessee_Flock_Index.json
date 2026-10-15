@@ -1,9 +1,24 @@
 {
-  "as_of": "2026-10-13",
-  "as_of_long": "October 13, 2026",
-  "as_of_short": "Oct. 13, 2026",
-  "record_count": 19,
+  "as_of": "2026-10-15",
+  "as_of_long": "October 15, 2026",
+  "as_of_short": "Oct. 15, 2026",
+  "record_count": 20,
   "records": [
+    {
+      "Kind": "watch",
+      "Kind_Label": "Watch",
+      "Place": "Crossville",
+      "State": "TN",
+      "What": "Mayor moved to cancel and remove seven cameras. Motion died with no second. Cameras stay. Incoming council is sworn in this December.",
+      "Date": "2026-10-13",
+      "Date_Label": "Oct. 13, 2026",
+      "ID": "—",
+      "Writeup": "#crossville-flock-keep",
+      "Source_URL": "https://theucnow.com/2026/10/14/crossville-keeps-flock-cameras-despite-removal-attempt/",
+      "Source_URLs": [
+        "https://theucnow.com/2026/10/14/crossville-keeps-flock-cameras-despite-removal-attempt/"
+      ]
+    },
     {
       "Kind": "watch",
       "Kind_Label": "Watch",

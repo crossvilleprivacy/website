@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-14",
-  "count": 1366,
-  "source_count": 1366,
+  "as_of": "2026-10-15",
+  "count": 1368,
+  "source_count": 1368,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2717,6 +2717,13 @@
       "timestamp": "20261009134539",
       "captured": "2026-10-09T13:45:39Z",
       "method": "existing"
+    },
+    "https://techcrunch.com/2026/10/14/flock-ceo-we-havent-fired-any-police-departments-as-customers": {
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-we-havent-fired-any-police-departments-as-customers/",
+      "archive_today": "https://archive.today/20261014202850/https://techcrunch.com/2026/10/14/flock-ceo-we-havent-fired-any-police-departments-as-customers/",
+      "timestamp": "20261014202850",
+      "captured": "2026-10-14T20:28:50Z",
+      "method": "archive.today"
     },
     "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns": {
       "url": "https://tennesseeconservativenews.com/collegedale-commission-terminates-flock-contract-over-privacy-concerns/",
@@ -7644,6 +7651,13 @@
       "wayback": "https://web.archive.org/web/20260812125537/https://www.tampabay28.com/news/local-news/greater-pasco-county/pasco-sheriff-replacing-flock-license-plate-cameras-with-axon-technology",
       "timestamp": "20260812125537",
       "captured": "2026-08-12T12:55:37Z"
+    },
+    "https://www.taosnews.com/public-safety/taos-council-defunds-flock-ai-surveillance-contract/article_cf38e834-054a-5760-9afb-adb379c7b738.html": {
+      "url": "https://www.taosnews.com/public-safety/taos-council-defunds-flock-ai-surveillance-contract/article_cf38e834-054a-5760-9afb-adb379c7b738.html",
+      "wayback": "https://web.archive.org/web/20260731023527/https://www.taosnews.com/public-safety/taos-council-defunds-flock-ai-surveillance-contract/article_cf38e834-054a-5760-9afb-adb379c7b738.html",
+      "timestamp": "20260731023527",
+      "captured": "2026-07-31T02:35:27Z",
+      "method": "existing"
     },
     "https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns": {
       "url": "https://www.tchdailynews.com/manawa-moves-to-end-flock-safety-contract-over-data-concerns/",

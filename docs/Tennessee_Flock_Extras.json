@@ -3,6 +3,14 @@
   "records": [
     {
       "Kind": "watch",
+      "Place": "Crossville",
+      "What": "Mayor moved to cancel and remove seven cameras. Motion died with no second. Cameras stay. Incoming council is sworn in this December.",
+      "Date": "2026-10-13",
+      "Writeup": "#crossville-flock-keep",
+      "Source_URL": "https://theucnow.com/2026/10/14/crossville-keeps-flock-cameras-despite-removal-attempt/"
+    },
+    {
+      "Kind": "watch",
       "Place": "Maryville",
       "What": "16 cameras. Use began in 2020. Council voted in July 2024. Three plates are ignored, with no expiration.",
       "Date": "2026-10-12",

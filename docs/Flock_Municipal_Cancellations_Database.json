@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-13",
+  "compiled": "2026-10-15",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -4199,6 +4199,22 @@
       "Secondary_Source_URL": "https://chicago.suntimes.com/education/2026/10/09/to-protect-immigrant-students-a-chicago-area-college-told-flock-to-remove-its-cameras-the-company-refused",
       "Verification_Status": "Verified national and local press",
       "Incomplete_Exit_Notes": "Early cancel refused October 2025. Hardware removed at contract expiration in April 2026 (day not published; dated 2026-04-01). Six cameras. College covered cameras in the interim; Flock workers allegedly removed coverings. Illinois Elgin Community College."
+    },
+    {
+      "Case_ID": "CAN-2026-287",
+      "Jurisdiction": "Taos",
+      "State": "NM",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-07-28",
+      "Camera_Count": 18,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council defunded the $54,000 renewal over privacy; September notice asked Flock to remove hardware by October 15",
+      "Summary": "Taos News reported the Town Council voted July 28, 2026, to pull $54,000 that would have renewed Flock. Eighteen cameras have been up since 2024. The police chief did not know when they would come down. DeFlock Taos reported October 11 that the town notified Flock on September 16 to remove the hardware, with an October 15 end date. Cameras were not confirmed down as of that note. New Mexico Taos.",
+      "Primary_Source_URL": "https://www.taosnews.com/public-safety/taos-council-defunds-flock-ai-surveillance-contract/article_cf38e834-054a-5760-9afb-adb379c7b738.html",
+      "Secondary_Source_URL": "https://deflocktaos.beehiiv.com/p/town-officially-cancels-flock-contract-asks-for-camera-removal",
+      "Verification_Status": "Verified local press; October removal notice is an advocacy newsletter",
+      "Incomplete_Exit_Notes": "July 28, 2026 vote defunded the renewal. Eighteen cameras. September 16 removal notice reported October 11, with an October 15 end date. Cameras not confirmed down as of that note. New Mexico Taos."
     }
   ]
 }
