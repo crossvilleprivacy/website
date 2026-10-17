@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-10-13",
+  "compiled": "2026-10-17",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-10-13"
+    "generated_on": "2026-10-17"
   },
   "verified_incidents": [
     {
@@ -428,15 +428,17 @@
       "Agency_Jurisdiction": "Savannah Police Department",
       "Subject_Officer_Involved": "4 unnamed officers and 2 unnamed civilian employees",
       "System_Vendor": "Flock Safety",
-      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
-      "Documented_Search_Count_Frequency": "Multiple flagged searches (counts not fully public)",
+      "Misuse_Abuse_Category": "Unauthorized Access / Credential Sharing / Personal Tracking",
+      "Documented_Search_Count_Frequency": "One account: 983 search entries (Jan–July 2026) per WJCL; other counts not fully public",
       "Source_URL": "https://savannahpd.org/savannah-police-department-terminates-six-employees-following-investigation-into-misuse-of-flock-safety-system/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Leave July 31, 2026; administrative terminations Aug. 7, 2026.",
+      "Year_Note": "Leave July 31, 2026; administrative terminations Aug. 7, 2026 (six employees). WTOC reported Oct. 15, 2026 that one fired officer gave her Flock login to her husband, an ICE agent; ICE confirmed it is investigating. WJCL cited audit records of 983 search entries on that account (Jan–July 2026). The officer was not criminally charged by GBI; SPD said ICE is not an authorized sharing partner. Officer and ICE agent not named on this site beyond the published outlet story. A firing is not a criminal conviction.",
       "Outcome_Bucket": "6 Terminated (4 officers, 2 civilian employees)",
-      "Personnel_Terminated": 6
+      "Personnel_Terminated": 6,
+      "Secondary_Source_URL": "https://www.wtoc.com/2026/10/15/savannah-officer-fired-sharing-flock-login-with-ice-agent-husband/",
+      "Personal_Lookup_Count": 983
     },
     {
       "Case_ID": "FLK-2026-028",
@@ -1026,7 +1028,7 @@
       "Year": 2026,
       "State": "GA",
       "Agency_Jurisdiction": "Richmond County Sheriff's Office",
-      "Subject_Officer_Involved": "six deputies",
+      "Subject_Officer_Involved": "seven deputies",
       "System_Vendor": "Flock Safety",
       "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
       "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
@@ -1034,10 +1036,11 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "The Augusta Press and CBS Atlanta reported a widening Richmond County Sheriff's Office Flock audit in 2026. Combined local coverage described six deputies fired and charged as the investigation expanded through late August. Deputies not named on this site.",
-      "Outcome_Bucket": "6 Terminated and Criminally Charged",
-      "Personnel_Terminated": 6,
-      "Personnel_Charged": 6
+      "Year_Note": "The Augusta Press and CBS Atlanta reported a widening Richmond County Sheriff's Office Flock audit in 2026. Combined local coverage described six deputies fired and charged through late August. WRDW reported Oct. 15, 2026, that another deputy was arrested and fired after alleged personal Flock searches (misuse of license plate readers; violation of oath). Charged, not convicted. Deputies not named on this site.",
+      "Outcome_Bucket": "7 Terminated and Criminally Charged",
+      "Personnel_Terminated": 7,
+      "Personnel_Charged": 7,
+      "Secondary_Source_URL": "https://www.wrdw.com/2026/10/15/another-richmond-county-deputy-arrested-misusing-license-plate-reader-system/"
     },
     {
       "Case_ID": "FLK-2026-083",
@@ -1956,6 +1959,41 @@
       "Outcome_Bucket": "1 Resigned",
       "Personnel_Resigned": 1,
       "Personal_Lookup_Count": 1
+    },
+    {
+      "Case_ID": "FLK-2026-136",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Milton Police Department",
+      "Subject_Officer_Involved": "detective (2025 Officer of the Year; not named on this site)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Seven Flock searches over two years (per attorney statement to WSB-TV)",
+      "Source_URL": "https://www.wsbtv.com/news/local/fulton-county/milton-officer-year-fired-over-use-flock-cameras-attorney-says/7TDQGECAQZDAVCXQF3XZ334C2Y/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "WSB-TV and The Roundabout reported Oct. 15–16, 2026 that a Milton detective named 2025 Officer of the Year was terminated Aug. 7, 2026. His attorney said he used Flock seven times over two years to check on his wife during diabetic emergencies and plans Superior Court action. City officials said more is coming and declined comment on an ongoing personnel matter. Officer not named on this site. A firing is not a criminal conviction.",
+      "Outcome_Bucket": "1 Terminated",
+      "Personnel_Terminated": 1,
+      "Personal_Lookup_Count": 7,
+      "Secondary_Source_URL": "https://www.readroundabout.com/issues/71"
+    },
+    {
+      "Case_ID": "FLK-2026-137",
+      "Year": 2026,
+      "State": "MI",
+      "Agency_Jurisdiction": "Oakland County Sheriff's Office",
+      "Subject_Officer_Involved": "former deputy (not named on this site)",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Alleged ICE Data Sharing",
+      "Documented_Search_Count_Frequency": "Count not published",
+      "Source_URL": "https://www.mlive.com/news/detroit/2026/10/oakland-county-sheriffs-officials-investigate-possible-misuse-of-flock-data.html",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "MLive reported in October 2026 that Oakland County Sheriff’s officials confirmed a criminal investigation into a former deputy’s alleged sharing of Flock data with ICE. Sheriff Michael Bouchard has said the county does not share Flock data with ICE. Allegations under investigation; no charges reported in that story. Former deputy not named on this site.",
+      "Outcome_Bucket": "1 Under Investigation"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-15",
+  "compiled": "2026-10-17",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -448,11 +448,14 @@
       "State": "IN",
       "Action_Type": "Expired",
       "Action_Date": "2026-03-05",
-      "Spotlight": "N",
-      "Public_Backlash_Cited": "N",
-      "Primary_Reasons": "Months-long evaluation; Oversight / legal considerations; Council oversight resolution context",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Contract expired; Council ALPR ban ordinance; Privacy / data-sharing concerns",
       "Primary_Source_URL": "https://bloomington.in.gov/news/2026/04/15/6521",
-      "Verification_Status": "Verified local/primary"
+      "Verification_Status": "Verified local/primary",
+      "Summary": "Bloomington’s Flock ALPR contract expired March 5, 2026 (city news release April 15). On October 14, 2026, the Common Council voted 7–0 for Ordinance 2026-22 barring the city and its agents from acquiring or using ALPRs and restricting third-party-shared surveillance camera systems. Closed-circuit systems that keep data inside the city are not banned. The city still has active Flock contracts for four downtown security cameras and four mobile security systems. Indiana Bloomington.",
+      "Incomplete_Exit_Notes": "ALPR contract expired March 5, 2026. October 14, 2026 ordinance bans city ALPR use (7–0). Separate Flock security/mobile camera contracts remain. Indiana Bloomington.",
+      "Secondary_Source_URL": "https://bloomingtonian.com/2026/10/15/bloomington-council-votes-to-ban-alprs-and-some-surveillance-cameras/"
     },
     {
       "Case_ID": "CAN-2026-018",
@@ -1890,12 +1893,12 @@
       "Camera_Count": 33,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Misuse risk elsewhere; End contract; No replacement ALPR; Privacy / public trust",
-      "Summary": "Tempe announced August 26, 2026 that it turned off its Flock ALPR system, will end its contract with Flock, and will not seek a replacement vendor. AZFamily reported about 33 city cameras, that no new plate data is being collected, and that residents may still see hardware until Flock removes it. Mayor Corey Woods said the risk of misuse is too great. The city had already cut automatic Flock data sharing on August 10.",
+      "Primary_Reasons": "Misuse risk elsewhere; End contract; Permanent ALPR ban ordinance; Privacy / public trust",
+      "Summary": "Tempe announced August 26, 2026 that it turned off its Flock ALPR system, will end its contract with Flock, and will not seek a replacement vendor. AZFamily reported about 33 city cameras. On October 15, 2026, the Tempe City Council voted 6–1 to pass an ordinance barring the city and police from buying, operating, accessing, or contracting for ALPR systems and data outside limited warrant/subpoena/task-force exceptions, making Tempe the first Arizona city to enact such a ban. Existing plate-reader data must be destroyed unless retained as evidence or required by law. About 20 ASU campus Flock cameras are outside the city ban.",
       "Primary_Source_URL": "https://www.azfamily.com/2026/08/26/tempe-turns-off-flock-cameras-ends-contract-with-company/",
-      "Secondary_Source_URL": "https://www.abc15.com/news/region-southeast-valley/tempe/city-of-tempe-ends-license-plate-reader-program-will-not-replace-it",
+      "Secondary_Source_URL": "https://ktar.com/arizona-news/tempe-becomes-1st-arizona-city-to-enact-strict-ban-on-automated-license-plate-readers",
       "Verification_Status": "Verified local TV / city statements",
-      "Incomplete_Exit_Notes": "System off; no new data collected. Hardware still visible until Flock removes it; removal timetable not published. City says it will not replace with another ALPR vendor."
+      "Incomplete_Exit_Notes": "August 26, 2026: system off; no new data. October 15, 2026: permanent ALPR ban ordinance (6–1). Hardware removal timetable for city cameras not fully published. ASU campus cameras not covered."
     },
     {
       "Case_ID": "CAN-2026-133",
@@ -4215,6 +4218,95 @@
       "Secondary_Source_URL": "https://deflocktaos.beehiiv.com/p/town-officially-cancels-flock-contract-asks-for-camera-removal",
       "Verification_Status": "Verified local press; October removal notice is an advocacy newsletter",
       "Incomplete_Exit_Notes": "July 28, 2026 vote defunded the renewal. Eighteen cameras. September 16 removal notice reported October 11, with an October 15 end date. Cameras not confirmed down as of that note. New Mexico Taos."
+    },
+    {
+      "Case_ID": "CAN-2026-288",
+      "Jurisdiction": "Russellville",
+      "State": "AR",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-15",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council voted against renewal; chief already cut Flock from 2027 budget; customer-service concerns",
+      "Summary": "River Valley Radio reported October 15, 2026, that Russellville City Council voted without opposition against renewing Flock. Police Chief David Ewing had already removed Flock from the proposed 2027 budget in mid-September. Ewing said the contract expires about Feb. 18, 2027, with a 30-day notice provision. Cameras stay until then. Arkansas Russellville.",
+      "Primary_Source_URL": "https://www.rivervalleyradio.com/russellville-moves-away-from-flock-as-cities-nationwide-rethink-camera-networks/",
+      "Secondary_Source_URL": "https://www.couriernews.com/news/russellville-takes-steps-to-bid-flock-safety-farewell/article_96ba9532-c1a4-52c6-9976-1e90baef5535.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Non-renewal voted Oct. 15, 2026. Cameras stay until ~Feb. 18, 2027 unless ended earlier. Camera count not published. Arkansas Russellville."
+    },
+    {
+      "Case_ID": "CAN-2026-289",
+      "Jurisdiction": "Clinton County",
+      "State": "IA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-12",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Sheriff ended contract over delayed state permits; privacy concerns; cameras being removed",
+      "Summary": "The Clinton Herald reported October 15, 2026, that Sheriff Bill Greenwalt said Monday, Oct. 12, he terminated the sheriff’s office Flock agreement because the company took too long to resolve Iowa state permitting. Cameras under that contract are being removed. Clinton Police and Camanche Police keep separate Flock systems. Iowa Clinton County sheriff only.",
+      "Primary_Source_URL": "https://www.clintonherald.com/news/crime_courts/county-terminates-flock-camera-contract-area-law-enforcement-agencies-share-how-systems-are-used/article_34609e14-d3a9-4b16-80ad-2b6f25ec675d.html",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Sheriff terminate Oct. 12, 2026; removal underway as of Oct. 15 reporting. City of Clinton and Camanche PD systems remain. Iowa Clinton County."
+    },
+    {
+      "Case_ID": "CAN-2026-290",
+      "Jurisdiction": "Amelia County",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-15",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Public concerns about data access, retention, and privacy; effective immediately",
+      "Summary": "WWBT reported October 15, 2026, that the Amelia County Sheriff’s Office ended its Flock ALPR contract effective immediately, citing public concerns about data access, retention, and privacy. Cameras stay up until Flock removes them but will not record. Camera count not published. Virginia Amelia County.",
+      "Primary_Source_URL": "https://www.12onyourside.com/2026/10/15/amelia-sheriffs-office-ditches-flock-effective-immediately/",
+      "Secondary_Source_URL": "https://www.wric.com/news/local-news/amelia-county/amelia-ends-flock-contract/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Terminated Oct. 15, 2026 effective immediately. Hardware up but not recording until Flock removes it. Camera count not published. Virginia Amelia County."
+    },
+    {
+      "Case_ID": "CAN-2026-291",
+      "Jurisdiction": "Riverside",
+      "State": "IL",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-15",
+      "Camera_Count": 2,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "4–2 vote not to renew; out-of-state search misuse concerns; privacy",
+      "Summary": "The Riverside-Brookfield Landmark reported that on October 15, 2026, Riverside village trustees voted 4–2 not to renew Flock for two ALPR cameras. The contract expires May 31, 2027; cameras stay until then unless the Nov. 5 meeting sunsets them earlier. Earlier in October the village revoked out-of-state agency access after a resident’s records showed heavy outside searches. Illinois Riverside village, not Riverside, California.",
+      "Primary_Source_URL": "https://www.rblandmark.com/2026/10/16/riverside-renew-flock-contract/",
+      "Secondary_Source_URL": "https://www.rblandmark.com/2026/10/06/riverside-flock-policy-public-concern/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Non-renewal voted Oct. 15, 2026. Two cameras stay through May 31, 2027 unless earlier sunset on Nov. 5. Illinois Riverside village."
+    },
+    {
+      "Case_ID": "CAN-2026-292",
+      "Jurisdiction": "Jackson",
+      "State": "MS",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-14",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Police chief will not renew; privacy and mandatory data-sharing concerns; will explore other ALPRs",
+      "Summary": "WAPT and WJTV reported that on October 14, 2026, Jackson Police Chief RaShall Brackney told a Public Safety & Parks Committee meeting the city will not renew its Flock contract over privacy and data-handling concerns, including mandatory sharing without a subpoena. Dozens of cameras have been up since 2024. Exact end date not published; Flock is to remove cameras when the contract ends. The chief said the city will explore other plate-reader options. Mississippi Jackson.",
+      "Primary_Source_URL": "https://www.wapt.com/article/jackson-police-chief-plans-to-end-contract-with-flock-safety/74139191",
+      "Secondary_Source_URL": "https://www.wjtv.com/news/local-news/privacy-concerns-drive-jackson-away-from-flock-cameras/",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Chief non-renewal announced Oct. 14, 2026. Exact contract end date not published. City may shop another ALPR vendor. Mississippi Jackson."
+    },
+    {
+      "Case_ID": "CAN-2026-293",
+      "Jurisdiction": "Cumberland",
+      "State": "RI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-07",
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "6–1 council vote to end contract; data retention/storage/sharing concerns; lawsuit context",
+      "Summary": "The Local Insider News reported that on October 7, 2026, Cumberland Town Council voted 6–1 to end the town’s Flock Safety ALPR contract near entry points. Magill opposed. The contract began September 2024 for two years. Council cited resident concerns about data retention, storage, and sharing. Related to the town’s wrongful-stop lawsuit coverage. Rhode Island Cumberland, not Cumberland County, Tennessee.",
+      "Primary_Source_URL": "https://thelocalinsidernews.com/cumberland-council-votes-to-end-surveillance-camera-contract/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Terminated Oct. 7, 2026 (6–1). Camera count and removal timetable not in the cited report. Rhode Island Cumberland."
     }
   ]
 }
