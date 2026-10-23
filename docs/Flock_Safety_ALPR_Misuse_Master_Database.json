@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-10-21",
+  "compiled": "2026-10-23",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-10-21"
+    "generated_on": "2026-10-23"
   },
   "verified_incidents": [
     {
@@ -752,8 +752,10 @@
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "Chief ordered a Flock audit July 31, 2026. One officer’s access suspended that day; a sergeant’s access deactivated Aug. 5. Internal affairs alleged personal lookups of people known to the officers. Chief recommended firing both Sept. 3, 2026; civil-service hearings pending. Cases referred to the Bristol County District Attorney. Related pause: CAN-2026-068.",
-      "Outcome_Bucket": "2 Internal Disciplinary Action (firing recommended; hearings pending)"
+      "Year_Note": "Chief ordered a Flock audit July 31, 2026. One officer’s access suspended that day; a sergeant’s access deactivated Aug. 5. Internal affairs alleged personal lookups of people known to the officers. Chief recommended firing both Sept. 3, 2026; civil-service hearings pending. Cases referred to the Bristol County District Attorney. Related pause: CAN-2026-068. WCVB reported Oct. 22, 2026 that Mayor Jon Mitchell confirmed the city fired both officers after the September recommendation. Officers not named on this site. A firing is not a criminal conviction. Audit of Dec. 20, 2024 through Dec. 31, 2025 still ongoing. Flock shut off Aug. 11, 2026.",
+      "Outcome_Bucket": "2 Terminated",
+      "Personnel_Terminated": 2,
+      "Secondary_Source_URL": "https://www.wcvb.com/article/new-bedford-police-fired-over-flock-misuse-oct-22/74220232"
     },
     {
       "Case_ID": "FLK-2026-067",
@@ -2108,6 +2110,41 @@
       "Year_Note": "FOX Carolina reported Oct. 20, 2026 that the Macon County Sheriff’s Office fired a deputy after an internal investigation found a Flock misuse complaint founded. An outside agency alerted the office Oct. 16. WSPA said no charges were reported. Deputy not named on this site. A firing is not a criminal conviction.",
       "Outcome_Bucket": "1 Terminated",
       "Personnel_Terminated": 1
+    },
+    {
+      "Case_ID": "FLK-2026-144",
+      "Year": 2026,
+      "State": "IN",
+      "Agency_Jurisdiction": "Georgetown Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Count not published",
+      "Source_URL": "https://www.wlky.com/article/georgetown-police-officer-misuse-flock-cameras/74223096",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "WLKY reported Oct. 22, 2026 that Indiana State Police said an officer from the Georgetown Police Department was arrested and charged with official misconduct and two counts of fraud after Flock searches that were not tied to an investigation. Indiana Georgetown, not Georgetown, Kentucky or Texas. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-145",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Effingham County Sheriff's Office",
+      "Subject_Officer_Involved": "former investigator",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+      "Documented_Search_Count_Frequency": "More than 60 searches after leaving the office",
+      "Source_URL": "https://www.washingtonpost.com/technology/2026/10/21/their-police-jobs-ended-they-kept-using-flocks-vast-surveillance-network/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "Arrested in July 2026 and charged with stalking. The Washington Post reported that searches continued on a Flock login that stayed active after the investigator left the Effingham County Sheriff’s Office in 2021, and that a GBI statement and Flock audit logs showed more than 60 searches. Former investigator not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1,
+      "Personal_Lookup_Count": 60
     }
   ]
 }
