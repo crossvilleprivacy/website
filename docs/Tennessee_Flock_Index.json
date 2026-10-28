@@ -1,8 +1,8 @@
 {
-  "as_of": "2026-10-23",
-  "as_of_long": "October 23, 2026",
-  "as_of_short": "Oct. 23, 2026",
-  "record_count": 20,
+  "as_of": "2026-10-27",
+  "as_of_long": "October 27, 2026",
+  "as_of_short": "Oct. 27, 2026",
+  "record_count": 21,
   "records": [
     {
       "Kind": "watch",
@@ -307,6 +307,22 @@
       "Source_URLs": [
         "https://www.businessinsider.com/flock-safety-alpr-cameras-misreads-2026-3",
         "https://ij.org/dozens-of-innocent-motorists-have-been-pulled-over-detained-at-gunpoint-or-jailed-due-to-ai-license-plate-camera-errors/"
+      ]
+    },
+    {
+      "Kind": "misuse",
+      "Kind_Label": "Misuse",
+      "Place": "Oak Ridge Police Department",
+      "State": "TN",
+      "What": "1 officer suspended",
+      "Date": "2024",
+      "Date_Label": "2024",
+      "ID": "FLK-2026-146",
+      "Case_ID": "FLK-2026-146",
+      "Writeup": "",
+      "Source_URL": "https://www.wate.com/news/top-stories/oak-ridge-officer-alpr-misuse/",
+      "Source_URLs": [
+        "https://www.wate.com/news/top-stories/oak-ridge-officer-alpr-misuse/"
       ]
     },
     {

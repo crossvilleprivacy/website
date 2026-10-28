@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-23",
+  "compiled": "2026-10-27",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -945,15 +945,16 @@
       "Case_ID": "CAN-2026-068",
       "Jurisdiction": "New Bedford",
       "State": "MA",
-      "Action_Type": "Suspended",
-      "Action_Date": "2026-08-11",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-08",
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Privacy / mass-surveillance risk; Data sharing / access review; Audit of search outliers",
-      "Primary_Source_URL": "https://www.boston.com/news/local-news/2026/08/11/new-bedford-temporarily-suspends-use-of-flock-as-the-surveillance-cameras-come-under-increased-scrutiny/",
-      "Secondary_Source_URL": "https://www.southcoasttoday.com/story/news/2026/08/20/flock-to-stay-offline-in-new-bedford-pending-audit-review-talks/91386852007/",
-      "Verification_Status": "Primary local reporting",
-      "Incomplete_Exit_Notes": "Temporary suspension pending audit and policy review; may resume. SouthCoast Today reported Aug. 20, 2026 that the system has been offline since Aug. 11 and will stay down after the chief said the audit found additional outliers and anomalies."
+      "Primary_Reasons": "Non-renewal notice after Aug. 2026 suspend; privacy / misuse audit; council ordinance toward ban",
+      "Primary_Source_URL": "https://newbedfordlight.org/city-wont-renew-flock-contract/",
+      "Secondary_Source_URL": "https://www.boston.com/news/local-news/2026/08/11/new-bedford-temporarily-suspends-use-of-flock-as-the-surveillance-cameras-come-under-increased-scrutiny/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Police sent written non-renewal notice Oct. 8, 2026; contract expires Nov. 12. Cameras offline since Aug. 11. Council voted 8–3 Oct. 22 for an ordinance barring plate readers; mayor action pending. Earlier suspend was Aug. 11.",
+      "Summary": "The New Bedford Light reported Oct. 23, 2026 that New Bedford Police confirmed written notice on Oct. 8 that the city will not renew its Flock contract, which expires Nov. 12. Cameras have been offline since an Aug. 11 suspend. Council voted 8–3 Oct. 22 on a ban ordinance still with the mayor."
     },
     {
       "Case_ID": "CAN-2026-069",
@@ -4604,6 +4605,54 @@
       "Secondary_Source_URL": "",
       "Verification_Status": "Verified",
       "Incomplete_Exit_Notes": "Mayor said she will veto. Not a completed exit. Cameras stay."
+    },
+    {
+      "Case_ID": "CAN-2026-313",
+      "Jurisdiction": "Rowan County",
+      "State": "NC",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-19",
+      "Camera_Count": 10,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Leadership transition; privacy and constitutional reassessment; pause to reassess",
+      "Summary": "The Salisbury Post reported that on Oct. 19, 2026, Rowan County commissioners unanimously ratified notice of cancellation of the sheriff’s Flock contract. With 30-day notice, the contract expires Nov. 17, 2026. It covered 10 Flock Falcon cameras. Presumed incoming Sheriff Jody Burleyson cited privacy and constitutional concerns.",
+      "Primary_Source_URL": "https://www.salisburypost.com/2026/10/20/roco-cuts-flock-contract/",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Contract expires Nov. 17, 2026. Cameras expected to come down then; removal timeline from Flock not set."
+    },
+    {
+      "Case_ID": "CAN-2026-314",
+      "Jurisdiction": "La Crosse",
+      "State": "WI",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-23",
+      "Camera_Count": null,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Network accountability; other agencies lack comparable oversight policies",
+      "Summary": "WEAU and WXOW reported Oct. 23, 2026 that the La Crosse Police Department is ending its Flock Safety camera contract. Chief Shawn Kudron cited concern that other agencies on the shared network lack the same accountability and oversight. Mayor Shaundel Washington-Spivey supported the decision. No end date for the cameras was published in that coverage.",
+      "Primary_Source_URL": "https://www.weau.com/2026/10/23/la-crosse-police-department-ending-flock-safety-camera-contract/",
+      "Secondary_Source_URL": "https://www.wxow.com/news/la-crosse/we-cannot-compromise-on-accountability-la-crosse-cuts-ties-with-flock-safety-network/article_134b9bd2-d38e-4a0b-a9d4-c6ffb744b135.html",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "PD announced ending the contract Oct. 23, 2026. Camera end date and removal timeline not published."
+    },
+    {
+      "Case_ID": "CAN-2026-315",
+      "Jurisdiction": "Arvada",
+      "State": "CO",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-20",
+      "Camera_Count": 16,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Privacy, data sharing, and accountability; chief asked to drop 2027 Flock funding",
+      "Summary": "Arvada City Council adopted the 2027 budget 7–0 on Oct. 20, 2026 without Flock camera funding after Police Chief Ed Brady asked the city not to renew and to pause Flock funding. The city and Arvada Press put that line at about $24,000 for about 16 cameras. The department may revisit the technology in 2027 after community talks and possible state rules.",
+      "Primary_Source_URL": "https://www.arvadapress.com/news/local-government/article_b0dade22-0149-47c9-91ca-154d01289b1b.html",
+      "Secondary_Source_URL": "https://www.arvadaco.gov/1631/October-20-2026-recap",
+      "Verification_Status": "Verified city + local press",
+      "Incomplete_Exit_Notes": "2027 budget drops Flock funding; chief requested non-renewal. Hardware-removal date not published. About 16 cameras."
     }
   ]
 }

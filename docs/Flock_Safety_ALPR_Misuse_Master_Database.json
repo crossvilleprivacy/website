@@ -3,7 +3,7 @@
   "compiled": "2026-10-23",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-10-23"
+    "generated_on": "2026-10-27"
   },
   "verified_incidents": [
     {
@@ -2145,6 +2145,22 @@
       "Outcome_Bucket": "1 Criminally Charged",
       "Personnel_Charged": 1,
       "Personal_Lookup_Count": 60
+    },
+    {
+      "Case_ID": "FLK-2026-146",
+      "Year": 2026,
+      "State": "TN",
+      "Agency_Jurisdiction": "Oak Ridge Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Access / Personal Tracking",
+      "Documented_Search_Count_Frequency": "Not published",
+      "Source_URL": "https://www.wate.com/news/top-stories/oak-ridge-officer-alpr-misuse/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2024,
+      "Resolution_Year": 2024,
+      "Year_Note": "WATE reported Oct. 26–27, 2026 that documents detail a 2024 Oak Ridge Police investigation after which an officer was suspended without pay for three days for ALPR misuse. The Institute for Justice lists the same episode as Flock use to track people for family members; the officer remained employed. Separate from the sentenced Oak Ridge Flock case (FLK-2025-027). Officer not named on this site. A suspension is not a criminal conviction.",
+      "Outcome_Bucket": "1 Suspended"
     }
   ]
 }

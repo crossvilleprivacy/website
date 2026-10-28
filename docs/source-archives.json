@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-23",
-  "count": 1427,
-  "source_count": 1427,
+  "as_of": "2026-10-28",
+  "count": 1432,
+  "source_count": 1432,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -2214,6 +2214,13 @@
       "captured": "2026-09-26T13:30:41Z",
       "method": "save"
     },
+    "https://newbedfordlight.org/city-wont-renew-flock-contract": {
+      "url": "https://newbedfordlight.org/city-wont-renew-flock-contract/",
+      "wayback": "https://web.archive.org/web/20261025034153/https://newbedfordlight.org/city-wont-renew-flock-contract/",
+      "timestamp": "20261025034153",
+      "captured": "2026-10-25T03:41:53Z",
+      "method": "existing"
+    },
     "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners": {
       "url": "https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners/",
       "wayback": "https://web.archive.org/web/20260905151002/https://newbedfordlight.org/police-chief-recommends-termination-of-2-officers-found-to-use-flock-to-track-romantic-partners/",
@@ -3990,6 +3997,13 @@
       "wayback": "https://web.archive.org/web/20260916141624/https://www.arlingtonva.us/About-Arlington/Newsroom/Articles/2026/County-Board-directs-Manager-to-Discontinue-use-of-Flock-Technology",
       "timestamp": "20260916141624",
       "captured": "2026-09-16T14:16:24Z",
+      "method": "existing"
+    },
+    "https://www.arvadapress.com/news/local-government/article_b0dade22-0149-47c9-91ca-154d01289b1b.html": {
+      "url": "https://www.arvadapress.com/news/local-government/article_b0dade22-0149-47c9-91ca-154d01289b1b.html",
+      "wayback": "https://web.archive.org/web/20261028103225/https://www.arvadapress.com/news/local-government/article_b0dade22-0149-47c9-91ca-154d01289b1b.html",
+      "timestamp": "20261028103225",
+      "captured": "2026-10-28T10:32:25Z",
       "method": "existing"
     },
     "https://www.atlantanewsfirst.com/2026/07/08/greene-county-deputy-arrested-fired-after-allegedly-misusing-flock-cameras": {
@@ -7793,6 +7807,13 @@
       "captured": "2026-08-05T04:02:18Z",
       "method": "existing"
     },
+    "https://www.salisburypost.com/2026/10/20/roco-cuts-flock-contract": {
+      "url": "https://www.salisburypost.com/2026/10/20/roco-cuts-flock-contract/",
+      "wayback": "https://web.archive.org/web/20261027184504/https://www.salisburypost.com/2026/10/20/roco-cuts-flock-contract/",
+      "timestamp": "20261027184504",
+      "captured": "2026-10-27T18:45:04Z",
+      "method": "existing"
+    },
     "https://www.sanluisobispo.com/news/local/article316445401.html": {
       "url": "https://www.sanluisobispo.com/news/local/article316445401.html",
       "wayback": "https://web.archive.org/web/20260816174243/https://www.sanluisobispo.com/news/local/article316445401.html",
@@ -8749,6 +8770,13 @@
       "captured": "2026-08-19T23:12:51Z",
       "method": "save"
     },
+    "https://www.weau.com/2026/10/23/la-crosse-police-department-ending-flock-safety-camera-contract": {
+      "url": "https://www.weau.com/2026/10/23/la-crosse-police-department-ending-flock-safety-camera-contract/",
+      "wayback": "https://web.archive.org/web/20261023183938/https://www.weau.com/2026/10/23/la-crosse-police-department-ending-flock-safety-camera-contract/",
+      "timestamp": "20261023183938",
+      "captured": "2026-10-23T18:39:38Z",
+      "method": "existing"
+    },
     "https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records": {
       "url": "https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records/",
       "wayback": "https://web.archive.org/web/20261009144428/https://www.wect.com/2026/10/09/wect-investigates-after-arrest-county-commissioner-raises-questions-about-flock-policy-flagged-records/",
@@ -9594,6 +9622,13 @@
       "wayback": "https://web.archive.org/web/20260909020205/https://www.wwaytv3.com/new-hanover-county-commissioners-detail-flock-camera-use-end-contract-with-program/",
       "timestamp": "20260909020205",
       "captured": "2026-09-09T02:02:05Z",
+      "method": "existing"
+    },
+    "https://www.wxow.com/news/la-crosse/we-cannot-compromise-on-accountability-la-crosse-cuts-ties-with-flock-safety-network/article_134b9bd2-d38e-4a0b-a9d4-c6ffb744b135.html": {
+      "url": "https://www.wxow.com/news/la-crosse/we-cannot-compromise-on-accountability-la-crosse-cuts-ties-with-flock-safety-network/article_134b9bd2-d38e-4a0b-a9d4-c6ffb744b135.html",
+      "wayback": "https://web.archive.org/web/20261028103028/https://www.wxow.com/news/la-crosse/we-cannot-compromise-on-accountability-la-crosse-cuts-ties-with-flock-safety-network/article_134b9bd2-d38e-4a0b-a9d4-c6ffb744b135.html",
+      "timestamp": "20261028103028",
+      "captured": "2026-10-28T10:30:28Z",
       "method": "existing"
     },
     "https://www.wxyz.com/news/eastpointe-ends-flock-camera-contract-amid-misuse-allegations-against-police-staff": {
