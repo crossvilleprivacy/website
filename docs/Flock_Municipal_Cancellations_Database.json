@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-27",
+  "compiled": "2026-10-31",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -4595,16 +4595,16 @@
       "Jurisdiction": "Poughkeepsie",
       "State": "NY",
       "Action_Type": "Council vote",
-      "Action_Date": "2026-10-20",
+      "Action_Date": "2026-10-29",
       "Camera_Count": null,
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
-      "Primary_Reasons": "Council voted 8–1 to end Flock; mayor said she will veto",
-      "Summary": "Poughkeepsie Common Council voted 8–1 on Oct. 20, 2026 to end the city’s Flock agreement and to require guardrails before any future plate-reader program. Mayor Yvonne Flowers said Oct. 21 she will veto. Cameras stay until that veto is decided.",
+      "Primary_Reasons": "Council voted 8–1 to end Flock; mayor vetoed; override watch Nov. 2",
+      "Summary": "Poughkeepsie Common Council voted 8–1 on Oct. 20, 2026 to end the city’s Flock agreement (license-plate readers and gunshot detection) and to require guardrails before any future plate-reader program. Mid Hudson News reported Oct. 30 that Mayor Yvonne Flowers vetoed that resolution on Oct. 29. She said the veto is not an endorsement of Flock and that public-safety, contract, and budget effects need a fuller review with her administration. The Miscellany News reported the council can try to override as soon as Nov. 2. Cameras stay while the veto stands.",
       "Primary_Source_URL": "https://www.poughkeepsiejournal.com/story/news/local/2026/10/21/poughkeepsie-mayor-plans-veto-after-council-votes-to-end-flock-deal/92360145007/",
-      "Secondary_Source_URL": "",
+      "Secondary_Source_URL": "https://midhudsonnews.com/2026/10/30/mayor-vetoes-councils-canceling-of-flock-contracts/",
       "Verification_Status": "Verified",
-      "Incomplete_Exit_Notes": "Mayor said she will veto. Not a completed exit. Cameras stay."
+      "Incomplete_Exit_Notes": "Mayor vetoed Oct. 29, 2026. Not a completed exit. Override possible Nov. 2. Cameras stay."
     },
     {
       "Case_ID": "CAN-2026-313",
@@ -4653,6 +4653,86 @@
       "Secondary_Source_URL": "https://www.arvadaco.gov/1631/October-20-2026-recap",
       "Verification_Status": "Verified city + local press",
       "Incomplete_Exit_Notes": "2027 budget drops Flock funding; chief requested non-renewal. Hardware-removal date not published. About 16 cameras."
+    },
+    {
+      "Case_ID": "CAN-2026-316",
+      "Jurisdiction": "Alexandria",
+      "State": "VA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-30",
+      "Camera_Count": 61,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Police chief canceled contract; cameras deactivated; privacy backlash",
+      "Summary": "The Alexandria Brief reported that on Oct. 27, 2026, Police Chief Tarrick McGuire told City Council he had notified Flock that Alexandria would discontinue its program, and City Manager James Parajon said the contract was canceled. The Brief reported Oct. 30 that Flock deactivated the city’s 61 license-plate readers at 9:05 a.m. that day; equipment is to come down by the end of December. Future surveillance technology is set for council guidance Nov. 10. Virginia Alexandria.",
+      "Primary_Source_URL": "https://www.alexandriabrief.com/alexandria-cancels-flock-contract-license-plate-cameras-go-dark-friday/",
+      "Secondary_Source_URL": "https://www.alexandriabrief.com/alexandrias-flock-cameras-stopped-reading-at-9-05-a-m-friday-police-say/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cameras deactivated Oct. 30, 2026. Physical removal due by end of December. City owns the poles."
+    },
+    {
+      "Case_ID": "CAN-2026-317",
+      "Jurisdiction": "North Liberty",
+      "State": "IA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-28",
+      "Camera_Count": null,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council voted 3–1 to end contract; cameras deactivated",
+      "Summary": "The Daily Iowan reported that North Liberty City Council voted 3–1 on Oct. 28, 2026, to end its Flock contract. After the meeting, police stopped sharing data, deactivated user accounts, and asked Flock to decommission the cameras from the network. Under the agreement, formal contract end is available in March 2027 after the city shares its 2027 budget with Flock; hardware stays until Flock collects it, with removal possibly as early as summer 2027. Iowa North Liberty.",
+      "Primary_Source_URL": "https://dailyiowan.com/2026/10/28/north-liberty-city-council-votes-to-terminate-two-year-contract-with-flock-safety/",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified student/local press",
+      "Incomplete_Exit_Notes": "Readers deactivated Oct. 28, 2026. Formal contract end expected March 2027; physical removal later (possibly summer 2027)."
+    },
+    {
+      "Case_ID": "CAN-2026-318",
+      "Jurisdiction": "Lockport",
+      "State": "NY",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-10-28",
+      "Camera_Count": 8,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council voted to remove all cameras and bar future installs; privacy and data sharing",
+      "Summary": "WGRZ reported that Lockport Common Council approved a resolution on Oct. 28, 2026, to remove all existing Flock cameras in the city and prevent new installations, citing privacy, data collection, and sharing concerns. The Lockport Union-Sun & Journal reported the vote as 5–1. The city had entered an agreement with Flock in February. New York Lockport.",
+      "Primary_Source_URL": "https://www.wgrz.com/article/news/local/lockport-removes-flock-cameras-bans-future-installations/71-b8cd6b79-6d80-4d06-971e-c9e46eb53f6b",
+      "Secondary_Source_URL": "https://www.lockportjournal.com/news/local_news/council-votes-to-remove-flock-cameras/article_1f28cbf6-0669-4b70-8edc-7cc387fe53cd.html",
+      "Verification_Status": "Verified local TV + local press",
+      "Incomplete_Exit_Notes": "Council ordered removal Oct. 28, 2026. Hardware take-down confirmation not in the cited coverage. About eight cameras per local reporting."
+    },
+    {
+      "Case_ID": "CAN-2026-319",
+      "Jurisdiction": "Wellfleet",
+      "State": "MA",
+      "Action_Type": "Pre-install cancel",
+      "Action_Date": "2026-10-26",
+      "Camera_Count": 0,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town meeting bylaw bans ALPRs without warrant or court order",
+      "Summary": "Cape Cod Times and the Provincetown Independent reported that Wellfleet town meeting voters on Oct. 26, 2026, approved near-unanimously a bylaw banning fixed and mobile automated license-plate readers without a warrant or court order. The ban does not apply on Route 6 or in the Cape Cod National Seashore. Police Chief Kevin LaRocco supported the article and said the department does not own ALPRs and has no plans to acquire them. No known Outer Cape ALPRs were installed. Massachusetts Wellfleet.",
+      "Primary_Source_URL": "https://www.capecodtimes.com/story/news/local/cape-cod/2026/10/27/wellfleet-license-plate-readers-town-meeting/92263835007/",
+      "Secondary_Source_URL": "https://provincetownindependent.org/top-stories/2026/10/28/wellfleet-voters-approve-dredging-and-alpr-ban/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Preemptive ban. No Flock cameras were reported installed in Wellfleet. Route 6 and Cape Cod National Seashore are carved out."
+    },
+    {
+      "Case_ID": "CAN-2026-320",
+      "Jurisdiction": "Provincetown",
+      "State": "MA",
+      "Action_Type": "Pre-install cancel",
+      "Action_Date": "2026-10-26",
+      "Camera_Count": 0,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Select board policy bans town ALPR acquisition and use",
+      "Summary": "The Provincetown Independent reported that on Oct. 26, 2026, about an hour after Wellfleet’s town meeting ban, the Provincetown Select Board adopted a policy prohibiting the town from acquiring, installing, operating, accessing, or using ALPR systems, including Flock, and networked vehicle-surveillance systems. The town and police had not been using the technology. Limited exceptions cover certain parking functions and specified serious investigations. Massachusetts Provincetown.",
+      "Primary_Source_URL": "https://provincetownindependent.org/news/2026/10/28/flock-is-banned/",
+      "Secondary_Source_URL": "https://provincetownindependent.org/top-stories/2026/10/28/wellfleet-voters-approve-dredging-and-alpr-ban/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Policy ban. Town had not been using ALPRs. Exceptions remain for some parking and specified investigations."
     }
   ]
 }
