@@ -1,7 +1,7 @@
 {
   "title": "Flock municipal cancellations & non-renewals catalog",
   "subtitle": "Cities and agencies that terminated, did not renew, let expire, suspended, or rescinded Flock Safety ALPR contracts",
-  "compiled": "2026-10-31",
+  "compiled": "2026-11-04",
   "scope_note": "Index of catalogued municipal/agency actions for the on-site lookup table. Full writeups live on national.html. Not a complete national census. Older aggregator tallies (for example a May 2026 82-contract count) can be smaller than this list.",
   "records": [
     {
@@ -3387,11 +3387,11 @@
       "Spotlight": "Y",
       "Public_Backlash_Cited": "Y",
       "Primary_Reasons": "City Council 6-1 vote to stop Flock service over privacy and outside access to the data",
-      "Summary": "KSTP and MPR News reported that the Plymouth, Minnesota, City Council voted 6-1 on September 22, 2026 to stop using the city's Flock cameras. Mayor Jeffry Wosje was the no vote. KSTP counted 18 cameras (16 fixed and two portable). MPR counted 16 permanent cameras. Physical removal may take time. Minnesota Plymouth, not Plymouth, Indiana.",
+      "Summary": "KSTP and MPR News reported that the Plymouth, Minnesota, City Council voted 6-1 on September 22, 2026 to stop using the city's Flock cameras. Mayor Jeffry Wosje was the no vote. KSTP counted 18 cameras (16 fixed and two portable). MPR counted 16 permanent cameras. Physical removal may take time. Minnesota Plymouth, not Plymouth, Indiana. The Drive reported Oct. 23, 2026 that Flock corporate and legal did not reply to the city’s cancellation notice, so Police Chief Eric Fadden had staff unplug the cameras; they remained installed with no removal timeline from Flock.",
       "Primary_Source_URL": "https://kstp.com/kstp-news/top-news/plymouth-votes-to-shut-off-18-flock-cameras-over-privacy-concerns/",
       "Secondary_Source_URL": "https://www.mprnews.org/story/2026/09/23/plymouth-stops-using-flock-cameras",
       "Verification_Status": "Verified local TV / public radio",
-      "Incomplete_Exit_Notes": "Vote stops service. Physical removal may take time. KSTP counted 18 cameras; MPR counted 16 permanent. Minnesota Plymouth, not Plymouth, Indiana."
+      "Incomplete_Exit_Notes": "Vote stops service. Flock did not reply to the cancellation notice; chief had cameras unplugged (The Drive, Oct. 23, 2026). Cameras still installed with no Flock removal timeline. KSTP counted 18 cameras; MPR counted 16 permanent. Minnesota Plymouth, not Plymouth, Indiana."
     },
     {
       "Case_ID": "CAN-2026-232",
@@ -4733,6 +4733,102 @@
       "Secondary_Source_URL": "https://provincetownindependent.org/top-stories/2026/10/28/wellfleet-voters-approve-dredging-and-alpr-ban/",
       "Verification_Status": "Verified local press",
       "Incomplete_Exit_Notes": "Policy ban. Town had not been using ALPRs. Exceptions remain for some parking and specified investigations."
+    },
+    {
+      "Case_ID": "CAN-2026-321",
+      "Jurisdiction": "Barnstable",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-03",
+      "Camera_Count": 4,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Town Council voted 7–3 to end contract and remove cameras over privacy, oversight, and vendor concerns",
+      "Summary": "Hyannis News reported that the Barnstable Town Council voted 7–3 on Sept. 3, 2026, to end the town's Flock contract and remove its four license-plate cameras, over a last-minute appeal from police leadership. More than 20 residents spoke at August and September meetings. The Provincetown Independent reported the contract allowed out-of-state officers to search the cameras. Massachusetts Barnstable (Cape Cod).",
+      "Primary_Source_URL": "https://hyannisnews.com/watch-barnstable-council-axes-flock-cameras-in-7-3-vote-despite-police-push/",
+      "Secondary_Source_URL": "https://provincetownindependent.org/featured/2026/09/23/cape-and-islands-are-now-largely-de-flocked/",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Cameras scheduled for removal; take-down date not in the cited coverage. Police may bring a proposal from a different vendor."
+    },
+    {
+      "Case_ID": "CAN-2026-322",
+      "Jurisdiction": "Nantucket",
+      "State": "MA",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-09-16",
+      "Camera_Count": null,
+      "Spotlight": "N",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Select Board voted unanimously to remove the town's Flock cameras",
+      "Summary": "The Provincetown Independent reported that the Nantucket Select Board voted unanimously on Sept. 16, 2026, to remove the town's Flock cameras. Camera count not stated in the cited coverage. Massachusetts Nantucket.",
+      "Primary_Source_URL": "https://provincetownindependent.org/featured/2026/09/23/cape-and-islands-are-now-largely-de-flocked/",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Camera count and removal date not in the cited coverage."
+    },
+    {
+      "Case_ID": "CAN-2026-323",
+      "Jurisdiction": "Dayton",
+      "State": "MN",
+      "Action_Type": "Paused",
+      "Action_Date": "2026-08-25",
+      "Camera_Count": 7,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Council voted 5–0 to pause license-plate reader programs through December after cameras were damaged; Flock later reinstalled two cameras without authorization",
+      "Summary": "Hometown Source reported that police turned off and removed Dayton's seven Flock cameras by Aug. 20, 2026, citing damage to the devices, and that the City Council voted 5–0 on Aug. 25 to pause license-plate reader programs until December. FOX 9 reported that the city told Flock on Sept. 18 that no work orders were to be done, then found two cameras put back into service without authorization; police removed both. The Drive reported the city administrator told KARE 11 that Flock acknowledged a cancellation and said removal would take 60 days. Minnesota Dayton, not Dayton, Ohio.",
+      "Primary_Source_URL": "https://www.hometownsource.com/press_and_news/news/publicsafety/dayton-council-votes-to-pause-flock-camera-program/article_18ccdd4d-f438-4f07-9f6f-204b97ae8a2c.html",
+      "Secondary_Source_URL": "https://www.fox9.com/news/flock-cameras-reinstalled-dayton-despite-city-officials-telling-them-not",
+      "Verification_Status": "Verified local press + local TV",
+      "Incomplete_Exit_Notes": "Council vote was a pause through December, not a recorded contract end. City administrator later described a cancellation Flock acknowledged; one tracker lists the contract through Dec. 31, 2027."
+    },
+    {
+      "Case_ID": "CAN-2026-324",
+      "Jurisdiction": "St. Paul",
+      "State": "MN",
+      "Action_Type": "Removed",
+      "Action_Date": "2026-08-26",
+      "Camera_Count": 2,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Council 7–0 nonbinding resolution asking city and county to stop using Flock; mayor and chief removed the city's two cameras over outside data sharing",
+      "Summary": "KSTP reported that the St. Paul City Council unanimously passed a resolution in August 2026 calling on city and Ramsey County law enforcement to stop using Flock cameras, after reports that other Minnesota agencies shared St. Paul camera data with federal agencies without the city's knowledge. Mayor Kaohly Her and Police Chief Axel Henry said the city's two cameras would be removed. Ramsey County Sheriff Bob Fletcher said the county's 10 cameras in St. Paul will stay. Insight News reported the vote as 7–0 on Aug. 26. Minnesota St. Paul, not West St. Paul.",
+      "Primary_Source_URL": "https://kstp.com/kstp-news/top-news/st-paul-to-remove-2-flock-cameras-after-council-vote-ramsey-county-sheriff-says-county-owned-cameras-to-stay/",
+      "Secondary_Source_URL": "https://www.insightnews.com/news/city-pulls-its-two-flock-cameras-after-a-7-0-council-vote-sheriff-keeps-his/article_2d86d3ab-f964-47f3-8f8b-5f9b9cb3a316.html",
+      "Verification_Status": "Verified local TV + local press",
+      "Incomplete_Exit_Notes": "City's two cameras removed; Ramsey County Sheriff's 10 cameras in St. Paul stay. Council resolution was nonbinding."
+    },
+    {
+      "Case_ID": "CAN-2026-325",
+      "Jurisdiction": "Renton",
+      "State": "WA",
+      "Action_Type": "Non-renewal",
+      "Action_Date": "2026-10-21",
+      "Camera_Count": 24,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "Y",
+      "Primary_Reasons": "Police sent non-renewal notice; months of resident opposition and about $80,000 a year in cost",
+      "Summary": "The Redmond Reporter reported that Renton police sent Flock a non-renewal notice, which the city attorney reported to the council on Oct. 21, 2026, and Mayor Armondo Pavone confirmed on Oct. 26 that the city will not renew. The 24 stationary cameras had been off since May 4, 2026, and will be removed when the contract ends in November. Police put the cost at about $80,000 a year. The council had voted down a motion to end the contract on Aug. 10. Private business Flock cameras under separate contracts are not affected. Washington Renton.",
+      "Primary_Source_URL": "https://www.redmond-reporter.com/2026/11/02/flock-outta-here-city-of-renton-ends-alpr-contract/",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified local press",
+      "Incomplete_Exit_Notes": "Contract ends November 2026; cameras off since May 4 and to be removed at contract end. Private business Flock cameras remain."
+    },
+    {
+      "Case_ID": "CAN-2026-326",
+      "Jurisdiction": "Taylor",
+      "State": "TX",
+      "Action_Type": "Terminated",
+      "Action_Date": "2026-11-02",
+      "Camera_Count": 8,
+      "Spotlight": "Y",
+      "Public_Backlash_Cited": "N",
+      "Primary_Reasons": "Police review found low use and little crime-solving benefit; city dissatisfied with Flock data security",
+      "Summary": "FOX 7 Austin reported that the City of Taylor announced on Nov. 2, 2026, that it had ended its Flock contract for eight cameras on State Highways 79 and 95. A police review found use was far less than anticipated and the cameras had not helped solve crimes as hoped, and the city said it was dissatisfied with Flock's data security. Cameras disabled, removal expected within days. Police Chief Joseph Chacon said the city may revisit plate readers if data security concerns are addressed. Texas Taylor (Williamson County).",
+      "Primary_Source_URL": "https://www.fox7austin.com/news/city-taylor-terminates-contract-flock-safety",
+      "Secondary_Source_URL": "",
+      "Verification_Status": "Verified local TV",
+      "Incomplete_Exit_Notes": "Cameras disabled Nov. 2, 2026; physical removal expected in the coming days. City may revisit ALPRs later."
     }
   ]
 }

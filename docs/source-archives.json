@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-10-31",
-  "count": 1432,
-  "source_count": 1432,
+  "as_of": "2026-11-04",
+  "count": 1459,
+  "source_count": 1459,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -10,6 +10,13 @@
       "timestamp": "20230202071400",
       "captured": "2023-02-02T07:14:00Z",
       "method": "existing"
+    },
+    "http://veronews.com/2026/11/02/two-irc-deputies-arrested-after-flock-misuse": {
+      "url": "http://veronews.com/2026/11/02/two-irc-deputies-arrested-after-flock-misuse/",
+      "wayback": "https://web.archive.org/web/20261104135148/http://veronews.com/2026/11/02/two-irc-deputies-arrested-after-flock-misuse/",
+      "timestamp": "20261104135148",
+      "captured": "2026-11-04T13:51:48Z",
+      "method": "save"
     },
     "http://www.clearwatercounty.org/news_detail_T2_R565.php": {
       "url": "http://www.clearwatercounty.org/news_detail_T2_R565.php",
@@ -37,6 +44,20 @@
       "wayback": "https://web.archive.org/web/20260906113649/https://3bmedianews.com/crossville-council-hears-public-calls-to-remove-flock-cameras-at-tuesday-work-session/",
       "timestamp": "20260906113649",
       "captured": "2026-09-06T11:36:49Z",
+      "method": "save"
+    },
+    "https://3bmedianews.com/crossville-council-hears-strong-opposition-to-flock-cameras-but-mayors-motion-to-cancel-contract-fails": {
+      "url": "https://3bmedianews.com/crossville-council-hears-strong-opposition-to-flock-cameras-but-mayors-motion-to-cancel-contract-fails/",
+      "wayback": "https://web.archive.org/web/20261018044739/https://3bmedianews.com/crossville-council-hears-strong-opposition-to-flock-cameras-but-mayors-motion-to-cancel-contract-fails/",
+      "timestamp": "20261018044739",
+      "captured": "2026-10-18T04:47:39Z",
+      "method": "existing"
+    },
+    "https://3bmedianews.com/cumberland-county-election-2026-unofficial-final-summary": {
+      "url": "https://3bmedianews.com/cumberland-county-election-2026-unofficial-final-summary/",
+      "wayback": "https://web.archive.org/web/20261104135338/https://3bmedianews.com/cumberland-county-election-2026-unofficial-final-summary/",
+      "timestamp": "20261104135338",
+      "captured": "2026-11-04T13:53:38Z",
       "method": "save"
     },
     "https://3bmedianews.com/former-oak-ridge-police-officer-sentenced-on-23-counts-of-official-misconduct": {
@@ -87,6 +108,13 @@
       "timestamp": "20260826140337",
       "captured": "2026-08-26T14:03:37Z",
       "method": "save"
+    },
+    "https://3bmedianews.com/wp-content/uploads/2026/11/Unnofficial-Final-Summary.pdf": {
+      "url": "https://3bmedianews.com/wp-content/uploads/2026/11/Unnofficial-Final-Summary.pdf",
+      "wayback": "https://web.archive.org/web/20261104135340/https://3bmedianews.com/wp-content/uploads/2026/11/Unnofficial-Final-Summary.pdf",
+      "timestamp": "20261104135340",
+      "captured": "2026-11-04T13:53:40Z",
+      "method": "existing"
     },
     "https://828newsnow.com/news/228822-asheville-council-votes-5-2-to-terminate-flock-camera-contract": {
       "url": "https://828newsnow.com/news/228822-asheville-council-votes-5-2-to-terminate-flock-camera-contract/",
@@ -430,6 +458,13 @@
       "captured": "2026-05-19T12:59:10Z",
       "method": "existing"
     },
+    "https://bloomingtonian.com/2026/10/15/bloomington-council-votes-to-ban-alprs-and-some-surveillance-cameras": {
+      "url": "https://bloomingtonian.com/2026/10/15/bloomington-council-votes-to-ban-alprs-and-some-surveillance-cameras/",
+      "wayback": "https://web.archive.org/web/20261104135417/https://bloomingtonian.com/2026/10/15/bloomington-council-votes-to-ban-alprs-and-some-surveillance-cameras/",
+      "timestamp": "20261104135417",
+      "captured": "2026-11-04T13:54:17Z",
+      "method": "save"
+    },
     "https://bluewaterhealthyliving.com/news/local-news/michigan/lansing-council-votes-to-end-flock-camera-use-but-effort-may-be-symbolic": {
       "url": "https://bluewaterhealthyliving.com/news/local-news/michigan/lansing-council-votes-to-end-flock-camera-use-but-effort-may-be-symbolic/",
       "wayback": "https://web.archive.org/web/20260829235707/https://bluewaterhealthyliving.com/news/local-news/michigan/lansing-council-votes-to-end-flock-camera-use-but-effort-may-be-symbolic/",
@@ -570,6 +605,13 @@
       "captured": "2026-10-09T14:42:37Z",
       "method": "existing"
     },
+    "https://chicago.suntimes.com/education/2026/10/09/to-protect-immigrant-students-a-chicago-area-college-told-flock-to-remove-its-cameras-the-company-refused": {
+      "url": "https://chicago.suntimes.com/education/2026/10/09/to-protect-immigrant-students-a-chicago-area-college-told-flock-to-remove-its-cameras-the-company-refused",
+      "wayback": "https://web.archive.org/web/20261102165813/https://chicago.suntimes.com/education/2026/10/09/to-protect-immigrant-students-a-chicago-area-college-told-flock-to-remove-its-cameras-the-company-refused",
+      "timestamp": "20261102165813",
+      "captured": "2026-11-02T16:58:13Z",
+      "method": "existing"
+    },
     "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process": {
       "url": "https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
       "wayback": "https://web.archive.org/web/20260913132123/https://city-of-temple.prowly.com/468830-temple-police-department-identifies-unauthorized-alpr-search-through-enhanced-audit-process",
@@ -668,6 +710,13 @@
       "captured": "2026-09-05T04:35:23Z",
       "method": "existing"
     },
+    "https://communityimpact.com/pflugerville-hutto/government/hutto-city-council-votes-to-end-use-of-flock-safety-license-plate-readers": {
+      "url": "https://communityimpact.com/pflugerville-hutto/government/hutto-city-council-votes-to-end-use-of-flock-safety-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20260919124754/https://communityimpact.com/pflugerville-hutto/government/hutto-city-council-votes-to-end-use-of-flock-safety-license-plate-readers/",
+      "timestamp": "20260919124754",
+      "captured": "2026-09-19T12:47:54Z",
+      "method": "existing"
+    },
     "https://communityimpact.com/pflugerville-hutto/government/pflugerville-city-council-votes-to-end-flock-safety-contract": {
       "url": "https://communityimpact.com/pflugerville-hutto/government/pflugerville-city-council-votes-to-end-flock-safety-contract/",
       "wayback": "https://web.archive.org/web/20260826125410/https://communityimpact.com/pflugerville-hutto/government/pflugerville-city-council-votes-to-end-flock-safety-contract/",
@@ -675,11 +724,25 @@
       "captured": "2026-08-26T12:54:10Z",
       "method": "existing"
     },
+    "https://communityimpact.com/san-marcos-buda-kyle/government/kyle-to-suspend-use-of-flock-cameras": {
+      "url": "https://communityimpact.com/san-marcos-buda-kyle/government/kyle-to-suspend-use-of-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261013024100/https://communityimpact.com/san-marcos-buda-kyle/government/kyle-to-suspend-use-of-flock-cameras/",
+      "timestamp": "20261013024100",
+      "captured": "2026-10-13T02:41:00Z",
+      "method": "existing"
+    },
     "https://compassknox.com/2025/01/08/recording-crime": {
       "url": "https://compassknox.com/2025/01/08/recording-crime/",
       "wayback": "https://web.archive.org/web/20251220193336/https://compassknox.com/2025/01/08/recording-crime/",
       "timestamp": "20251220193336",
       "captured": "2025-12-20T19:33:36Z",
+      "method": "existing"
+    },
+    "https://comptroller.texas.gov/about/media-center/news/20261013-no-spy-cameras-comptroller-huffines-announces-ban-on-grant-money-for-flock-cameras-and-license-plate-trackers-1791927171257": {
+      "url": "https://comptroller.texas.gov/about/media-center/news/20261013-no-spy-cameras-comptroller-huffines-announces-ban-on-grant-money-for-flock-cameras-and-license-plate-trackers-1791927171257",
+      "wayback": "https://web.archive.org/web/20261027032729/https://comptroller.texas.gov/about/media-center/news/20261013-no-spy-cameras-comptroller-huffines-announces-ban-on-grant-money-for-flock-cameras-and-license-plate-trackers-1791927171257",
+      "timestamp": "20261027032729",
+      "captured": "2026-10-27T03:27:29Z",
       "method": "existing"
     },
     "https://connect2memphis.org/": {
@@ -751,6 +814,20 @@
       "timestamp": "20260817114949",
       "captured": "2026-08-17T11:49:49Z",
       "method": "save"
+    },
+    "https://consumerrights.wiki/w/Common_Questions,_Arguments,_%26_Responses_when_discussing_Flock_Surveillance": {
+      "url": "https://consumerrights.wiki/w/Common_Questions,_Arguments,_%26_Responses_when_discussing_Flock_Surveillance#%22No_expectation_of_privacy_in_public%22",
+      "wayback": "https://web.archive.org/web/20261011223858/https://consumerrights.wiki/w/Common_Questions,_Arguments,_%26_Responses_when_discussing_Flock_Surveillance",
+      "timestamp": "20261011223858",
+      "captured": "2026-10-11T22:38:58Z",
+      "method": "existing"
+    },
+    "https://cookeville-tn.gov/AgendaCenter/ViewFile/Agenda/_09172026-808": {
+      "url": "https://cookeville-tn.gov/AgendaCenter/ViewFile/Agenda/_09172026-808",
+      "wayback": "https://web.archive.org/web/20260918112845/https://cookeville-tn.gov/AgendaCenter/ViewFile/Agenda/_09172026-808",
+      "timestamp": "20260918112845",
+      "captured": "2026-09-18T11:28:45Z",
+      "method": "existing"
     },
     "https://cookeville-tn.gov/AgendaCenter/ViewFile/Minutes/_08052021-531": {
       "url": "https://cookeville-tn.gov/AgendaCenter/ViewFile/Minutes/_08052021-531",
@@ -1137,6 +1214,13 @@
       "captured": "2026-04-16T19:57:53Z",
       "method": "existing"
     },
+    "https://deflockjohnsoncitytn.substack.com/": {
+      "url": "https://deflockjohnsoncitytn.substack.com/",
+      "wayback": "https://web.archive.org/web/20261005162051/https://deflockjohnsoncitytn.substack.com/",
+      "timestamp": "20261005162051",
+      "captured": "2026-10-05T16:20:51Z",
+      "method": "existing"
+    },
     "https://deflocksc.org/blog/flock-safety-patent-facial-recognition": {
       "url": "https://deflocksc.org/blog/flock-safety-patent-facial-recognition/",
       "wayback": "https://web.archive.org/web/20260722004521/https://deflocksc.org/blog/flock-safety-patent-facial-recognition/",
@@ -1303,6 +1387,20 @@
       "wayback": "https://web.archive.org/web/20260901114100/https://floridapolitics.com/archives/817769-fdot-pulls-the-plug-on-flock-cameras-after-public-outcry-denunciation-from-gov-desantis/",
       "timestamp": "20260901114100",
       "captured": "2026-09-01T11:41:00Z",
+      "method": "existing"
+    },
+    "https://focalnews.org/madison-wi/local/milwaukee-county-orders-flock-surveillance-cameras-removed-from-parks": {
+      "url": "https://focalnews.org/madison-wi/local/milwaukee-county-orders-flock-surveillance-cameras-removed-from-parks",
+      "wayback": "https://web.archive.org/web/20261104140023/https://focalnews.org/madison-wi/local/milwaukee-county-orders-flock-surveillance-cameras-removed-from-parks",
+      "timestamp": "20261104140023",
+      "captured": "2026-11-04T14:00:23Z",
+      "method": "save"
+    },
+    "https://focalnews.org/milwaukee-wi/local/milwaukee-charter-change-would-put-flock-camera-deals-before-council-committee": {
+      "url": "https://focalnews.org/milwaukee-wi/local/milwaukee-charter-change-would-put-flock-camera-deals-before-council-committee",
+      "wayback": "https://web.archive.org/web/20261007072547/https://focalnews.org/milwaukee-wi/local/milwaukee-charter-change-would-put-flock-camera-deals-before-council-committee",
+      "timestamp": "20261007072547",
+      "captured": "2026-10-07T07:25:47Z",
       "method": "existing"
     },
     "https://footnote4a.org/news/secret-searches-part2": {
@@ -1564,6 +1662,13 @@
       "captured": "2026-09-03T03:29:55Z",
       "method": "existing"
     },
+    "https://highlandscurrent.org/2026/09/25/dutchess-to-end-flock-camera-use": {
+      "url": "https://highlandscurrent.org/2026/09/25/dutchess-to-end-flock-camera-use/",
+      "wayback": "https://web.archive.org/web/20261012131129/https://highlandscurrent.org/2026/09/25/dutchess-to-end-flock-camera-use/",
+      "timestamp": "20261012131129",
+      "captured": "2026-10-12T13:11:29Z",
+      "method": "existing"
+    },
     "https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html": {
       "url": "https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html",
       "wayback": "https://web.archive.org/web/20261004135517/https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html",
@@ -1591,6 +1696,13 @@
       "timestamp": "20260821024630",
       "captured": "2026-08-21T02:46:30Z",
       "method": "save"
+    },
+    "https://hyannisnews.com/watch-barnstable-council-axes-flock-cameras-in-7-3-vote-despite-police-push": {
+      "url": "https://hyannisnews.com/watch-barnstable-council-axes-flock-cameras-in-7-3-vote-despite-police-push/",
+      "wayback": "https://web.archive.org/web/20260915142401/https://hyannisnews.com/watch-barnstable-council-axes-flock-cameras-in-7-3-vote-despite-police-push/",
+      "timestamp": "20260915142401",
+      "captured": "2026-09-15T14:24:01Z",
+      "method": "existing"
     },
     "https://hyperlocalloop.com/sumpter-township-police-cancel-flock-license-plate-reader-trial": {
       "url": "https://hyperlocalloop.com/sumpter-township-police-cancel-flock-license-plate-reader-trial/",
@@ -1780,6 +1892,13 @@
       "captured": "2026-09-02T14:48:03Z",
       "method": "save"
     },
+    "https://jocoreport.com/former-harnett-detective-fired-indicted-following-flock-camera-investigation": {
+      "url": "https://jocoreport.com/former-harnett-detective-fired-indicted-following-flock-camera-investigation/",
+      "wayback": "https://web.archive.org/web/20261104140218/https://jocoreport.com/former-harnett-detective-fired-indicted-following-flock-camera-investigation/",
+      "timestamp": "20261104140218",
+      "captured": "2026-11-04T14:02:18Z",
+      "method": "existing"
+    },
     "https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood": {
       "url": "https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/",
       "wayback": "https://web.archive.org/web/20261002203900/https://journalaz.com/2026/10/01/flock-plucked-out-of-cottonwood/",
@@ -1911,6 +2030,13 @@
       "wayback": "https://web.archive.org/web/20260814230126/https://kstp.com/kstp-news/top-news/roadside-cameras-going-dark-another-department-makes-changes-to-program-over-accountability-concerns/",
       "timestamp": "20260814230126",
       "captured": "2026-08-14T23:01:26Z",
+      "method": "existing"
+    },
+    "https://kstp.com/kstp-news/top-news/st-paul-to-remove-2-flock-cameras-after-council-vote-ramsey-county-sheriff-says-county-owned-cameras-to-stay": {
+      "url": "https://kstp.com/kstp-news/top-news/st-paul-to-remove-2-flock-cameras-after-council-vote-ramsey-county-sheriff-says-county-owned-cameras-to-stay/",
+      "wayback": "https://web.archive.org/web/20261026050636/https://kstp.com/kstp-news/top-news/st-paul-to-remove-2-flock-cameras-after-council-vote-ramsey-county-sheriff-says-county-owned-cameras-to-stay/",
+      "timestamp": "20261026050636",
+      "captured": "2026-10-26T05:06:36Z",
       "method": "existing"
     },
     "https://ktar.com/arizona-news/apache-junction-officer-resigns-misusing-flock-cameras": {
@@ -2408,6 +2534,13 @@
       "wayback": "https://web.archive.org/web/20261023044014/https://proton.me/flock-camera-map",
       "timestamp": "20261023044014",
       "captured": "2026-10-23T04:40:14Z",
+      "method": "existing"
+    },
+    "https://provincetownindependent.org/featured/2026/09/23/cape-and-islands-are-now-largely-de-flocked": {
+      "url": "https://provincetownindependent.org/featured/2026/09/23/cape-and-islands-are-now-largely-de-flocked/",
+      "wayback": "https://web.archive.org/web/20261002203157/https://provincetownindependent.org/featured/2026/09/23/cape-and-islands-are-now-largely-de-flocked/",
+      "timestamp": "20261002203157",
+      "captured": "2026-10-02T20:31:57Z",
       "method": "existing"
     },
     "https://quadrangle.michigan.law.umich.edu/issues/winter-2024-2025/flawed-facial-recognition-technology-leads-wrongful-arrest-and-historic": {
@@ -2940,6 +3073,13 @@
       "wayback": "https://web.archive.org/web/20260821030246/https://theucnow.com/2026/07/20/white-county-reverses-course-on-ai-surveillance-cameras/",
       "timestamp": "20260821030246",
       "captured": "2026-08-21T03:02:46Z",
+      "method": "save"
+    },
+    "https://theucnow.com/2026/11/03/turner-wyatt-and-kelsey-victorious-in-crossville-races": {
+      "url": "https://theucnow.com/2026/11/03/turner-wyatt-and-kelsey-victorious-in-crossville-races/",
+      "wayback": "https://web.archive.org/web/20261104140718/https://theucnow.com/2026/11/03/turner-wyatt-and-kelsey-victorious-in-crossville-races/",
+      "timestamp": "20261104140718",
+      "captured": "2026-11-04T14:07:18Z",
       "method": "save"
     },
     "https://thisisreno.com/2026/06/sparks-city-axon-license-plate-readers": {
@@ -5781,6 +5921,13 @@
       "captured": "2026-09-03T13:27:20Z",
       "method": "save"
     },
+    "https://www.fox7austin.com/news/city-taylor-terminates-contract-flock-safety": {
+      "url": "https://www.fox7austin.com/news/city-taylor-terminates-contract-flock-safety",
+      "wayback": "https://web.archive.org/web/20261104141118/https://www.fox7austin.com/news/city-taylor-terminates-contract-flock-safety",
+      "timestamp": "20261104141118",
+      "captured": "2026-11-04T14:11:18Z",
+      "method": "save"
+    },
     "https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract": {
       "url": "https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract",
       "wayback": "https://web.archive.org/web/20260911214004/https://www.fox7austin.com/news/liberty-hill-city-council-votes-end-flock-contract",
@@ -5807,6 +5954,13 @@
       "wayback": "https://web.archive.org/web/20260813032727/https://www.fox9.com/news/duluth-pd-ends-flock-camera-contract-keep-using-license-plate-reader-tech",
       "timestamp": "20260813032727",
       "captured": "2026-08-13T03:27:27Z",
+      "method": "existing"
+    },
+    "https://www.fox9.com/news/flock-cameras-reinstalled-dayton-despite-city-officials-telling-them-not": {
+      "url": "https://www.fox9.com/news/flock-cameras-reinstalled-dayton-despite-city-officials-telling-them-not",
+      "wayback": "https://web.archive.org/web/20261002202239/https://www.fox9.com/news/flock-cameras-reinstalled-dayton-despite-city-officials-telling-them-not",
+      "timestamp": "20261002202239",
+      "captured": "2026-10-02T20:22:39Z",
       "method": "existing"
     },
     "https://www.fox9.com/news/minnesota-car-reviewer-flock-camera": {
@@ -6199,6 +6353,13 @@
       "captured": "2026-08-22T03:14:09Z",
       "method": "existing"
     },
+    "https://www.hometownsource.com/press_and_news/news/publicsafety/dayton-council-votes-to-pause-flock-camera-program/article_18ccdd4d-f438-4f07-9f6f-204b97ae8a2c.html": {
+      "url": "https://www.hometownsource.com/press_and_news/news/publicsafety/dayton-council-votes-to-pause-flock-camera-program/article_18ccdd4d-f438-4f07-9f6f-204b97ae8a2c.html",
+      "wayback": "https://web.archive.org/web/20261019041418/https://www.hometownsource.com/press_and_news/news/publicsafety/dayton-council-votes-to-pause-flock-camera-program/article_18ccdd4d-f438-4f07-9f6f-204b97ae8a2c.html",
+      "timestamp": "20261019041418",
+      "captured": "2026-10-19T04:14:18Z",
+      "method": "existing"
+    },
     "https://www.house.gov/representatives/find-your-representative": {
       "url": "https://www.house.gov/representatives/find-your-representative",
       "wayback": "https://web.archive.org/web/20260815021259/https://www.house.gov/representatives/find-your-representative",
@@ -6302,6 +6463,13 @@
       "wayback": "https://web.archive.org/web/20260909204550/https://www.insidenova.com/news/prince_william/dumfries-pumps-the-brakes-on-flock-cameras-rollout/article_47243589-687b-4aa1-a315-c7d30f2c9bbd.html",
       "timestamp": "20260909204550",
       "captured": "2026-09-09T20:45:50Z",
+      "method": "existing"
+    },
+    "https://www.insightnews.com/news/city-pulls-its-two-flock-cameras-after-a-7-0-council-vote-sheriff-keeps-his/article_2d86d3ab-f964-47f3-8f8b-5f9b9cb3a316.html": {
+      "url": "https://www.insightnews.com/news/city-pulls-its-two-flock-cameras-after-a-7-0-council-vote-sheriff-keeps-his/article_2d86d3ab-f964-47f3-8f8b-5f9b9cb3a316.html",
+      "wayback": "https://web.archive.org/web/20260918092053/https://www.insightnews.com/news/city-pulls-its-two-flock-cameras-after-a-7-0-council-vote-sheriff-keeps-his/article_2d86d3ab-f964-47f3-8f8b-5f9b9cb3a316.html",
+      "timestamp": "20260918092053",
+      "captured": "2026-09-18T09:20:53Z",
       "method": "existing"
     },
     "https://www.investigatetv.com/2026/05/18/flock-safety-cameras-help-solve-crimes-whos-watching-watchers": {
@@ -7737,6 +7905,13 @@
       "captured": "2026-08-13T15:31:39Z",
       "method": "existing"
     },
+    "https://www.redmond-reporter.com/2026/11/02/flock-outta-here-city-of-renton-ends-alpr-contract": {
+      "url": "https://www.redmond-reporter.com/2026/11/02/flock-outta-here-city-of-renton-ends-alpr-contract/",
+      "wayback": "https://web.archive.org/web/20261104140417/https://www.redmond-reporter.com/2026/11/02/flock-outta-here-city-of-renton-ends-alpr-contract/",
+      "timestamp": "20261104140417",
+      "captured": "2026-11-04T14:04:17Z",
+      "method": "save"
+    },
     "https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people": {
       "url": "https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people/",
       "wayback": "https://web.archive.org/web/20260821123904/https://www.rekkrnation.com/2026/08/07/videolinkpdf-surveillance-tech-leaked-flock-camera-surveillance-company-handbook-for-police-to-deceive-people/",
@@ -8135,11 +8310,25 @@
       "captured": "2026-08-08T08:01:54Z",
       "method": "existing"
     },
+    "https://www.thedrive.com/news/flock-reinstalled-its-cameras-after-another-city-canceled-its-contract": {
+      "url": "https://www.thedrive.com/news/flock-reinstalled-its-cameras-after-another-city-canceled-its-contract",
+      "wayback": "https://web.archive.org/web/20261104140507/https://www.thedrive.com/news/flock-reinstalled-its-cameras-after-another-city-canceled-its-contract",
+      "timestamp": "20261104140507",
+      "captured": "2026-11-04T14:05:07Z",
+      "method": "save"
+    },
     "https://www.thedrive.com/news/how-flock-cameras-wrongly-tracked-me-for-days-over-stolen-plates-and-sent-police-after-me": {
       "url": "https://www.thedrive.com/news/how-flock-cameras-wrongly-tracked-me-for-days-over-stolen-plates-and-sent-police-after-me",
       "wayback": "https://web.archive.org/web/20260812024303/https://www.thedrive.com/news/how-flock-cameras-wrongly-tracked-me-for-days-over-stolen-plates-and-sent-police-after-me",
       "timestamp": "20260812024303",
       "captured": "2026-08-12T02:43:03Z",
+      "method": "existing"
+    },
+    "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras": {
+      "url": "https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+      "wayback": "https://web.archive.org/web/20261024094856/https://www.thedrive.com/news/my-city-canceled-flocks-contract-flock-ignored-it-so-the-police-chief-unplugged-the-cameras",
+      "timestamp": "20261024094856",
+      "captured": "2026-10-24T09:48:56Z",
       "method": "existing"
     },
     "https://www.theglobeandmail.com/canada/alberta/article-alberta-judge-hands-out-fines-over-jail-time-for-covid-19-violators": {

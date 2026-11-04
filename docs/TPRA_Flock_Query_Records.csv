@@ -1101,9 +1101,9 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 1100,Officer-9,11/17/2023,Theft Suspects,yes,72cd053181b4c39d3cd87bde5a9ad661de808d61173c22d89deedacbd88567a3
 1101,Officer-9,11/17/2023,Theft Suspects,yes,107f2a01819f8717b15d9b15f0625abe9934b50da725fde2e368e8976ac22a32
 1102,Officer-37,11/14/2023,Narcotics Inv,no,d2fb48e3ec5a39cfdc83dc28501ea55e9d0497e075ac421d859db0982e646fbd
-1103,Officer-18,11/13/2023,crash investigation,no,2d7b6f5dbf21083725dde14e5c173446de90aba6274fc41fbb9f0f0e271bfd95
-1104,Officer-18,11/13/2023,crash investigation,no,5f64526bb52a304626114d54c4eec91915c22f795f74e323daa94d0b60942f20
-1105,Officer-18,11/13/2023,crash investigation,no,54256bcfdd35f2eb88a2340fa8ded49c7155371f212d924f9e71a372c5719cd0
+1103,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,0077321aa89b677ce33e1a4ee2ed0b3929a58d1996a051523c404771eb29c6ae
+1104,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,aed8b7cceed1bf11a277eb0b1e3bc799e1dc2b434256312ef08319a2e4af3f27
+1105,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,a4d68b93bd718d41e2a376ee13fb90b5d5ffb61940a8d2b9d15abf12775c611c
 1106,Officer-37,11/13/2023,Narcotics Inv,no,737b227217a7a5addfc711eab33922e72ecfdfae4f4835bae11248cc5c3ea00f
 1107,Officer-37,11/13/2023,Narcotics Inv,no,10624b8f137c0cc67fad763dbd7af0fb9abec4b60358574d1b96e270c0d8af3a
 1108,Officer-37,11/13/2023,Narcotics Inv,no,1e8f3a9f209a39ffcb5dd9ac455c0fb694a274c44e1950c0e083b16f934fc64d
@@ -2094,8 +2094,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 2093,Officer-12,01/14/2024,stolen vehicle,no,69ebd732d123c01ad4c863969656e868f766aa86d1ad6e16f4a2c648c41b5928
 2094,Officer-12,01/14/2024,stolen vehicle,no,5954cd39176225d48aab49a76046015b2b628bf4d9e9ce8d4afd72229b0ebc86
 2095,Officer-37,01/12/2024,Investigation,no,cda05540212dc0e713ff049a93c02557360a279c47d294eeb5ccbf0d0c24e8ad
-2096,Officer-19,01/11/2024,school,no,bccd1e8bd7647f5c39f324e2c3ad586be608a587c04a49ccccafdb71de53da9d
-2097,Officer-19,01/11/2024,school,no,914249a5c5b544e8f0fbbe7f8eb3bd56705cb82f0116480627f6bc6b2296fc34
+2096,Officer-19,01/2024,[redacted],no,bccd1e8bd7647f5c39f324e2c3ad586be608a587c04a49ccccafdb71de53da9d
+2097,Officer-19,01/2024,[redacted],no,914249a5c5b544e8f0fbbe7f8eb3bd56705cb82f0116480627f6bc6b2296fc34
 2098,Officer-33,01/11/2024,investigation,no,3c66eae3986a55e1812117d0e0128c1d2c9eaf964a9247bf11bfb81e4142f0d4
 2099,Officer-37,01/12/2024,Inv,no,d5d833cb0518bfb2d59a3c8bd7cfc0f0337e05650421fe86c098ad2ef38b09c8
 2100,Officer-37,01/12/2024,Inv,no,dfb34bef98bd020d5e143791f6729361dc36a85ace27007f99e16b72899099fb
@@ -3977,8 +3977,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 3976,Officer-3,11/27/2025,narc bolo,no,6b243cf1719fde097aea61b071874e6b74d34e2ae2e99ca6289752ec7bc7584f
 3977,Officer-3,11/27/2025,narc bolo,no,fc5cf7692119315f46de578877e64fdeea4cb95b5665af407b5c42ab5d4f965f
 3978,Officer-3,11/27/2025,narc bolo,no,a3d694079c0e72b0e8baf68e47d645ed1f423af662b4dc657ad8bfc574ec43f7
-3979,Officer-9,11/27/2025,people at walmart,yes,a83ee50863a2ceddefc69d0093d5d8a43cbf5b58c8ea17115ba93f809278b78b
-3980,Officer-9,11/27/2025,people at walmart,yes,fe8c92d68d7dbae8c5842c34c727a5515396ba92cf8839ea988579f44143d60e
+3979,Officer-9,11/27/2025,Driver using pellet gun on other people at walmart,yes,4f4ad1ba46bc9f0aaf566cd93c9a93e015046aecf3c750aa5cba3f0421c278e4
+3980,Officer-9,11/27/2025,Driver using pellet gun on other people at walmart,yes,7ef6472c5ee4b4e84ade3136e0b7eb5e527bdd0781977a0be6c637b14f49129a
 3981,Officer-9,11/27/2025,Assault,yes,1c0ca13f9bc6e04748a0411e2dd24646b7c2807b2022355fa73308641b0e1e05
 3982,Officer-15,11/27/2025,vandalism,no,d8bf1a9a778cf25d45ea3c464e7d7b7758f13c5fe89cb1bedb192defef4bbe90
 3983,Officer-15,11/27/2025,vandalism,no,05413113e490fa90128716f99529e5e3c03fc035802f624d014a443344ca9f81
@@ -4227,9 +4227,9 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 4226,Officer-9,11/17/2023,Theft Suspects,yes,72cd053181b4c39d3cd87bde5a9ad661de808d61173c22d89deedacbd88567a3
 4227,Officer-9,11/17/2023,Theft Suspects,yes,107f2a01819f8717b15d9b15f0625abe9934b50da725fde2e368e8976ac22a32
 4228,Officer-37,11/14/2023,Narcotics Inv,no,d2fb48e3ec5a39cfdc83dc28501ea55e9d0497e075ac421d859db0982e646fbd
-4229,Officer-18,11/13/2023,crash investigation,no,2d7b6f5dbf21083725dde14e5c173446de90aba6274fc41fbb9f0f0e271bfd95
-4230,Officer-18,11/13/2023,crash investigation,no,5f64526bb52a304626114d54c4eec91915c22f795f74e323daa94d0b60942f20
-4231,Officer-18,11/13/2023,crash investigation,no,54256bcfdd35f2eb88a2340fa8ded49c7155371f212d924f9e71a372c5719cd0
+4229,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,0077321aa89b677ce33e1a4ee2ed0b3929a58d1996a051523c404771eb29c6ae
+4230,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,aed8b7cceed1bf11a277eb0b1e3bc799e1dc2b434256312ef08319a2e4af3f27
+4231,Officer-18,11/13/2023,"leaving the scene, failure to report / crash investigation",no,a4d68b93bd718d41e2a376ee13fb90b5d5ffb61940a8d2b9d15abf12775c611c
 4232,Officer-37,11/13/2023,Narcotics Inv,no,737b227217a7a5addfc711eab33922e72ecfdfae4f4835bae11248cc5c3ea00f
 4233,Officer-37,11/13/2023,Narcotics Inv,no,10624b8f137c0cc67fad763dbd7af0fb9abec4b60358574d1b96e270c0d8af3a
 4234,Officer-37,11/13/2023,Narcotics Inv,no,1e8f3a9f209a39ffcb5dd9ac455c0fb694a274c44e1950c0e083b16f934fc64d
@@ -4763,8 +4763,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 4762,Officer-12,05/30/2025,burglary,no,cd9d704ae977e0ea85811f1962c8c341759ef8b5480bba6b175cfa75bd6154d2
 4763,Officer-12,05/30/2025,burglary,no,d32f6541c50f49ac7d783c2cc227f7b3f57f6898022eabf6d6d461d50a432da0
 4764,Officer-12,05/30/2025,burglary,no,c25c5aa6282db96cf1242fe7ac1f4bedb8fda53d4ebbb2f044483d5154075182
-4765,Officer-18,05/30/2025,[redacted]:[redacted].[redacted],no,5cc1af81d3cb68dcd721131c67a5d20bd89c5ca9ae9288b3992eb3272e45468c
-4766,Officer-18,05/30/2025,[redacted]:[redacted].[redacted],no,94150db3011d069b3fd351115403735163243014645c4162e2366defc22461aa
+4765,Officer-18,05/2025,[redacted],no,b2a0e2bcf82a68dd435e329c2dd1506b8745bd2f60348fb816b244cb4a1eae9d
+4766,Officer-18,05/2025,[redacted],no,fe49fb25f2afe273499fe279a4359316097c0377089e5f8e193f6f11f468fcb3
 4767,Officer-18,05/30/2025,theft,no,b070752888ccb1adeb29bfbe1daffdc32b856e0358065f8da63855056e15b0ea
 4768,Officer-12,05/28/2025,burglary,no,22aa98761955b1434582727f59e5b5ca48bdee2a584c13009b163d4b1ed6214e
 4769,Officer-12,05/28/2025,burglary,no,88e10e8f8a2e492525628f86488fab4a410897acacd38ca8f17fa7603c9cee96
@@ -4858,7 +4858,7 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 4857,Officer-7,05/19/2025,narcotics,no,418020047ff8dbd432c4d00f030b05b630cc456495625da6dd234dae6be9a232
 4858,Officer-6,05/19/2025,BOLO,no,080d4beaa61bc6b073dd94d01ecbafc7aab50298302b0cc6f337a34fa24a261d
 4859,Officer-6,05/19/2025,BOLO,no,10d7ba7aa6553f6532eed8dcb46fd5b2f7507bc89d50a4bad663438157c76978
-4860,Officer-1,05/19/2025,[redacted]:[redacted].[redacted],no,86892f37e865485052fd29bee9ee31e731c2ae8b2594faef8bb2eee8799e0f33
+4860,Officer-1,05/19/2025,Other image search from alerts page associated with Alert: Stolen Vehicle [redacted],no,a02144d370bf05a8a94f55af1a8e6c82e14eefe52aaad1a38e5aa9651b0460e7
 4861,Officer-1,05/19/2025,Warrants,no,9607b0a59a2c0f7f6d6e5822b2eb6cfe19240a71ad3d5add34aa6e1786892eb4
 4862,Officer-1,05/19/2025,Warrants,no,2baaf4291ee7ac74490f8c705cdaa534a71aeda03f03195221dc4373cb39d2c2
 4863,Officer-1,05/19/2025,Warrants,no,c74f7781213c1cbeeb2f2f6de697d6f2aca3698d4dee68b7cf1943290a7b4d9d
@@ -5961,8 +5961,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 5960,Officer-18,06/08/2025,Theft,no,48019b765747d7132c9fa4a60927711aa03f3117b29ba6b06655af694047d48e
 5961,Officer-15,06/08/2025,joy riding,no,831526c42e33bfa09b5ff01f9e4e7b99658b44164640618ec7b9ee69578b5724
 5962,Officer-15,06/08/2025,joy riding,no,f190e3344b661d20d95e642dbbd8675999f5c4173d28654d217d3d33c933aab4
-5963,Officer-32,06/08/2025,Stolen Vehicle [redacted] - [redacted],no,47d13598bbb5f669fda5bb653031661c3e629554c50e328a8d53a59792e2b965
-5964,Officer-32,06/08/2025,Stolen Vehicle [redacted] - [redacted],no,78208c4979b049542186e9e71afbe7f8852231491d6c1eb77fef9f9a932bc07d
+5963,Officer-32,06/08/2025,Other image search from alerts page associated with Alert: Stolen Vehicle [redacted],no,3f356795f551ee20d6cba094aff83d362b3144d5d86b63954bf1a5dccd9c112a
+5964,Officer-32,06/08/2025,Other image search from alerts page associated with Alert: Stolen Vehicle [redacted],no,a8675d8bab6a5157c7c49b6a7e951f7afcefd123c6cd3f4f64231db989d2676d
 5965,Officer-6,06/09/2025,BOLO,no,b5885395da5953094bee30fd1850f0e210a69ab25ddc96ddea221f807264f38e
 5966,Officer-6,06/09/2025,BOLO,no,1cb063f5743f1bd00b05f5be793e63249893152d854f783962dc4db405503941
 5967,Officer-6,06/09/2025,BOLO,no,e610ea62eb1bfeedde48d75dc06d44291b29aca36a91eab9d758fc461e65fb08
@@ -7959,8 +7959,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 7958,Officer-12,01/14/2024,stolen vehicle,no,69ebd732d123c01ad4c863969656e868f766aa86d1ad6e16f4a2c648c41b5928
 7959,Officer-12,01/14/2024,stolen vehicle,no,5954cd39176225d48aab49a76046015b2b628bf4d9e9ce8d4afd72229b0ebc86
 7960,Officer-37,01/12/2024,Investigation,no,cda05540212dc0e713ff049a93c02557360a279c47d294eeb5ccbf0d0c24e8ad
-7961,Officer-19,01/11/2024,school,no,bccd1e8bd7647f5c39f324e2c3ad586be608a587c04a49ccccafdb71de53da9d
-7962,Officer-19,01/11/2024,school,no,914249a5c5b544e8f0fbbe7f8eb3bd56705cb82f0116480627f6bc6b2296fc34
+7961,Officer-19,01/2024,[redacted],no,bccd1e8bd7647f5c39f324e2c3ad586be608a587c04a49ccccafdb71de53da9d
+7962,Officer-19,01/2024,[redacted],no,914249a5c5b544e8f0fbbe7f8eb3bd56705cb82f0116480627f6bc6b2296fc34
 7963,Officer-33,01/11/2024,investigation,no,3c66eae3986a55e1812117d0e0128c1d2c9eaf964a9247bf11bfb81e4142f0d4
 7964,Officer-37,01/12/2024,Inv,no,d5d833cb0518bfb2d59a3c8bd7cfc0f0337e05650421fe86c098ad2ef38b09c8
 7965,Officer-37,01/12/2024,Inv,no,dfb34bef98bd020d5e143791f6729361dc36a85ace27007f99e16b72899099fb
@@ -8203,7 +8203,7 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 8202,Officer-18,02/08/2026,Traffic Infraction - Evading,no,165465fe3c5416aff3e86dfcaa64d36bffa999e9afeaee680850ed60fc0f0c0c
 8203,Officer-18,02/08/2026,Traffic Infraction - Evading,no,a6b14829386517a3ad3a93236dd934b4f3d60b7ea0beedc3986e67975daa05e2
 8204,Officer-7,02/08/2026,Drugs/Narcotics -,no,545f2350613d5554f1aa2ffb4201e5aa7e2bab2d1a847944c969e768e2747a46
-8205,Officer-29,02/07/2026,evading,yes,70eee6394ac3fb365878b3360eccee8e6e6f91fd173355112436091a53bd5cb7
+8205,Officer-29,02/07/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - evading,yes,bcffdd4e30f281208bb48b3ee38591fd88a48f049a8770fca38028ff3ebf86af
 8206,Officer-7,02/08/2026,Drugs/Narcotics -,no,06d222ebf18c69c4626e0ab897efca3621133bbe189f96aadf74bf6e023cadfd
 8207,Officer-24,02/17/2026,Larceny/Theft Offenses - Stolen,yes,6fb1858bc178cbdd2e64349a687ce825179970337eb345b4c011e0afe10a01c4
 8208,Officer-12,02/17/2026,Financial Crime (Embezzlement/Fraud) -,no,2ea402206fd65f8f57b94bd065f36ffbf34e02814ebdb1e72385647fb0778a6d
@@ -8379,8 +8379,8 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 8378,Officer-34,02/06/2026,Larceny/Theft Offenses -,no,1788520d8b394bb852116637453e894cf68b4befa2167a205ce80416d4aa5649
 8379,Officer-12,02/06/2026,Financial Crime (Embezzlement/Fraud) -,no,2f1d4ec8b8f67f67261484c5b72a494dcdc86cf6c3eda255b2fdfbc45d03a71a
 8380,Officer-12,02/06/2026,Financial Crime (Embezzlement/Fraud) -,no,6e27f37380481feadd7f7ac9424f2de272d213ecfa19854102f92988e8825ca2
-8381,Officer-37,02/11/2025,[redacted],no,eaa277cdba283bf8a7215cddd6940e8b1a56d20eaf3ac1d7a876b74046a7699e
-8382,Officer-37,02/11/2025,[redacted],no,21a371d672d69b8aa08986a6a0a5f10400f59011c14f51c6973eaacb1fcd30f7
+8381,Officer-37,02/11/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,9c0caf3b8764e0784d40b74c8c06d8fc535707810e2f84538d2388bdb1de70df
+8382,Officer-37,02/11/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,4fad35cee7b3a11f5c99e2f0c6ff60ba06648991fb03abaa57bc900bd5eb17fb
 8383,Officer-2,02/10/2025,ID Stolen Tag,no,1ecd714b97343c9d1174ffbab41df1ec9030ea24bd3ac3f295e83d54aeae418f
 8384,Officer-37,02/11/2025,Storage Unit Theft,no,98c329403825946611aa290f027b8331cbef2ac2516e45cca4ddf687b98cb6ce
 8385,Officer-37,02/12/2025,Narcotics Inv,no,ad16908adc1d96358ae4d7699ba29dcaba8614b510e9f3765dda0ea04796079b
@@ -8558,9 +8558,9 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 8557,Officer-18,02/22/2025,wanted,no,00540750a9a8035f3d4e0397dbbfe6ea120d42122eeecb6dce559241ad99fe46
 8558,Officer-18,02/22/2025,wanted,no,d2e701c4725589ff5217feebbf36f47c0cd58a3daac40564a9c6215227cedcf8
 8559,Officer-18,02/22/2025,wanted,no,75a2330ee4eb0bffb23c654cd6cdd0b73856c293a9a09b03267066e47be28908
-8560,Officer-37,02/20/2025,[redacted],no,b93357e364a7ad72b89c8060dca2c9751aa08dae02cecacc6cf0547611421c3a
-8561,Officer-37,02/20/2025,[redacted],no,48f4e1149c1cec414bfd07cc99810dc22c35d1918b831832b8d668ba4959c8f9
-8562,Officer-37,02/20/2025,[redacted],no,1639807085e7f9444fc29bfeb8efd31daf49dc7cb866bdabe7c57dd6b3f6a52d
+8560,Officer-37,02/20/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,37213b8261fee5a04b5b87a254d68028e0f285a9d94502e6990b384660b7575e
+8561,Officer-37,02/20/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,881a17aebf84a2e7463257a63d9808e6ae1f184756b21cce98726344b9325c74
+8562,Officer-37,02/20/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,d71cb9b3cb98a2fa2d0d7eb1a27990a2d2994ff00216d7c71a3f8bca0a698d36
 8563,Officer-31,02/21/2025,,yes,9191e0614ed6a3f993c9ddd16de9ce41135a0701239fa3cceab67754445d45a7
 8564,Officer-31,02/21/2025,,yes,4c65477daff47035515b841b9bbe608eea7d3d73802ffb48bd361ef54d7fbe7c
 8565,Officer-31,02/21/2025,,yes,2db0c8eb08fd85306ba991100013ebeb1bb3ebbad4ae9c8c88bdaef0b8e89664
@@ -8681,9 +8681,9 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 8680,Officer-2,02/18/2025,Test,no,618aeeca0cfe31254ab179dc1841df784faa35e01a2ba7f3133f76804080a364
 8681,Officer-2,02/18/2025,Test,no,b7b870ba793826ebf8ca8a99bdf77b5af0bd6cccb5ca55d3532f80cd140fed18
 8682,Officer-1,02/18/2025,Stolen Tag,no,34d955b5cf1989786cee6d3c890bcfc36f9ce34bf7e53ff0bb8058766d7197f8
-8683,Officer-37,02/18/2025,[redacted],no,561d7629de6ab150862a441c3e5d940678efbcc96728426909cb5c7fd7bcfab8
-8684,Officer-37,02/18/2025,[redacted],no,abedce3e9f80676c3e9732194f54cab3db141d3d1016f33101fd5c271eaf6c3c
-8685,Officer-37,02/18/2025,[redacted],no,8db3a5036694933b203e73d7a0efd7d082365d6b3aa9a72ea7844e729e7f5fc6
+8683,Officer-37,02/18/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,cca353cbaae7b8f32004c30b1cae31ed53dedde742b76872dd6d81dc6ef73276
+8684,Officer-37,02/18/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,76731272d7edceb6a5cf82e765dd3120a8698abea13f8e68a683da3f44ac9bb3
+8685,Officer-37,02/18/2025,Daytime Search from Hotlist for Hit with appHistoryId: [redacted],no,826cc08988d800b0c483d4e681776f74d6f5e3865179308ad971cb15c033dbd9
 8686,Officer-37,02/18/2025,Stolen,no,ec3ed1c370eea2010f1fb40fc6c80d6a4940af6a51dac52113e70f3b21b78007
 8687,Officer-35,02/18/2025,suspect,no,a1253e20844e6e8bc1b4dfa64022a907cebf55a8823b22460d0e3905a0474717
 8688,Officer-37,02/18/2025,Narcotics Inv,no,b3bb6c4e4d59ffa84e7c81fe6f79050abdc3d8fc1172c5adc8c583a5a57a3f03
@@ -9768,7 +9768,7 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 9767,Officer-21,08/09/2025,THEFT,no,992a2de98960251c02b2853514938edf5daf97d84c42e93f95eda30d14a7ae11
 9768,Officer-21,08/09/2025,THEFT,no,8a64e58b2ea1f35deca3e7171d655238f3baa21ca2e2ab5b2027adc84388df03
 9769,Officer-20,08/17/2025,crash,yes,8dbfe226242c69bbcbbee065016c66aa84f2fc7e28359f5887666735746f0a3a
-9770,Officer-20,08/17/2025,[redacted],no,5481a1eed436f31e1691d8fcf2f22daee1f1389256d5999b85b2953ef739b4b0
+9770,Officer-20,08/2025,[redacted],no,8ad8e4a1b2275e02f70204a7a029d5198acda641ded7697a572ba481f1920865
 9771,Officer-20,08/2025,[redacted],yes,eba1f90924bde6352ea4c87c2335fd64eb8b2c43cc5755ce9468290cd84355a4
 9772,Officer-24,08/2025,[redacted],yes,90dcb6cc6033a3b5c4eadc14353f1a13bd71fe407627053dc93eb6b8fd076a21
 9773,Officer-24,08/2025,[redacted],yes,c4f6cfcc925d8d8dccf74a99a4d0cfb50b9116d6cb9adac080d2bc2a3b872c4b
@@ -10733,3 +10733,120 @@ Row ID,officer_id,timestamp,reason,case_number_present,sha256_hash
 10732,Officer-21,09/2026,[redacted],yes,ba6428148adaac40144f2fc8df3e5b41caec2d2e9debfadf2e5882a77ee9056a
 10733,Officer-21,09/2026,[redacted],yes,0ade9d5a43aee099aaddf025b25e25599b2d4cdc595da59101d97bcee0041dd7
 10734,Officer-21,09/2026,[redacted],yes,5984564c3b7b9e498c497847df508a24e4954fc06f0362df5583e67119bbee0e
+10735,Officer-12,10/2026,[redacted],yes,4e51fca1ae41d93abf61e84883a8454c571d782d42fe5d7c8c825613b0d8ef8f
+10736,Officer-12,10/2026,[redacted],yes,83007a02af44695766af5705c45be15307723f7cfe8b781ad7570c21dbb41bea
+10737,Officer-23,10/2026,[redacted],yes,9038072b23a6019f5870f9151333adb386a679eb94cc6e4d174c636ca76dc025
+10738,Officer-5,10/2026,[redacted],yes,83dc4925a87f3ea8b90bf40a87acc6456aecbea7b832a566ec87156337686f61
+10739,Officer-5,10/2026,[redacted],yes,2e0a1b0ee78ce426d0a64f3ebfcb334b16d046287de6599a3f3c215fd0f38622
+10740,Officer-5,10/2026,[redacted],yes,d272326069e9007b76a6b8e4efd57676417cfedea7277f253509f61a1d4a98cf
+10741,Officer-23,10/2026,[redacted],yes,f132957d83186876ab9f0df17f65c68cec9238f9c3c33dd721aaaaa9eeb5f78c
+10742,Officer-23,10/2026,[redacted],yes,e6d19d4673160ffe89796df534db0c641c375f901d3fa496d2ced4e817cc7262
+10743,Officer-23,10/2026,[redacted],yes,f0ea4b70f8b4fa185b64848ffaf4ad536ebcd1945ff35d3857e0dd59bc4eef82
+10744,Officer-23,10/2026,[redacted],yes,75a3a2f481f1130e922cc8f1074a4aba582f1264bc18172a4b55051d8d896732
+10745,Officer-5,10/2026,[redacted],yes,f809a1d07c5c3a98f5564b505f022745fc186ee40c0ed39fc64a3b8bb578f3da
+10746,Officer-5,10/2026,[redacted],yes,f88f087c284f543951d3e3a49a500a02891898717fa7af69c9ee7b669307dfa1
+10747,Officer-5,10/2026,[redacted],yes,d1b6f436f1cee3fd7baa3171c9f79dbcd77a164da354ee146680fe2c509050c7
+10748,Officer-5,10/2026,[redacted],yes,5160716da90478b8d720dbfe9fe92a0eb14f87f03c6ceb1295268279785ffaf1
+10749,Officer-27,10/25/2026,Hit and Run/Car Accident - hit and run,yes,d4618ad11e6c87ab80121663092976430f16d18bd5db1bf9dc6f7a18fe4cebe6
+10750,Officer-27,10/25/2026,Hit and Run/Car Accident - hit and run,yes,721ca7e0a092b1ea38c580d1727005a8c61a514e297f77351e4112fee8b6cacd
+10751,Officer-27,10/24/2026,Hit and Run/Car Accident - hit and run,yes,4788ffb5e112ce30b8efb0d9545da6a174dfe4e41ce5078e47b8d806bc7c5050
+10752,Officer-34,10/2026,[redacted],yes,bc14080e65ca7ab92946c667537021fa77f2f1e7aff3bebd0fe4207318ad2cd4
+10753,Officer-21,10/23/2026,Wanted Person (Arrest Warrant/Fugitive) - warrants,yes,ff0e93dff36fc1ca609b08dfccde4fded2a7fe76543ba5f122079bb11a132335
+10754,Officer-21,10/23/2026,Wanted Person (Arrest Warrant/Fugitive) - warrants,yes,6d55e3385ac83c00e49ff791a214a2599b20a841fd79a5d5cd76b29f70843e86
+10755,Officer-21,10/23/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - drag racing,yes,8b7d093d315ba478f132f9a9d0b7131ac8c25bfcd2f87653603932c1c93da50c
+10756,Officer-21,10/23/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - drag racing,yes,d1205ce1360916a4341b9919c15023c74a3cb7529e42550e183e09b204faacdb
+10757,Officer-21,10/23/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - drag racing,yes,e0ead94909dea2d2cba95b27be065bd568613a94bf9422fe18e50d5327abcd64
+10758,Officer-21,10/23/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - drag racing,yes,7d240267224af2470a51b20d6c23a27cd4186c8e0176f0ac3e56ac4d1d1db912
+10759,Officer-21,10/23/2026,Criminal Motor Vehicle Offense (incl. Road Rage/Reckless) - drag racing,yes,34a4bffe75a27105c38880e2e22026a9c8743032acf6fe9c04f830deecde4358
+10760,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,582cd3c45168507f4409b4787b29eba9c3a76f1b0241bdeea7b44061189e7482
+10761,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,8d411f0aad5ddca12bebf86f20742619af4b967ec26661ee66adafd5e2eeac8f
+10762,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,40b7e9637ec03320d7d827806d32cf40eefbe7a86636c25d885baf3ef1874fa6
+10763,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,c57131ef0847818b6e5cf427be27a443405b1488d04a0209bc28f79763071f06
+10764,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,0a9d6bc31051673c20c3697658741643e44f652c3b1ff797b1854259a0f9f19e
+10765,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,5bf558e1e67d0ac64bd7421f011fec22735bb91738e2a65011102a67257dc529
+10766,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,a87da597a6ef8f41719e440fe6fbaf37682dedf670dc4b0a5431c5fdb8ef6e7f
+10767,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,baf4fbcda6ff87f949e585d284bbb8c22d680819b11d2a77adc2615f971752c5
+10768,Officer-23,10/22/2026,Hit and Run/Car Accident - hit and run,yes,9f603fe3e0d9facbdf9471ce9c54b8861e12dfc021958ddbb85b2b676c190442
+10769,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,ce7d16d0a43a8b4173367f8baea08a6f43bc8ba5327572592c0ae3449b653258
+10770,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,c918f255890d9f078cee43e262453e43f01efac30277ca6e9be1ed5f9eff97e3
+10771,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,5baf6671e9fd58237008a51e1edd52d4328ccf891473503cc727e2cca1ab5ece
+10772,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,367fe8280184d62424d33c58c10cbbce95956ccb7670db8c84c94b17ac0ad6a9
+10773,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,4a36e340b52f2596701cfcad8dd20fc6f7513a147276e8d3c08d3b0d931ee135
+10774,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,ef635a0158e5c95e39a7fc4ff8601c29c0e27c104a5d6045d7c94010620accaa
+10775,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,53f9887bc9efe434876fbceda815d41c65d67e046956cdab97f6b2e5f4110ea0
+10776,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,5a96647a76131164ce8349fe846fe3067c2e09d051090c0f95c3adbcc8a8471d
+10777,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,b4fdc5dc1ca7a78c9b6f2f96c1bace28fdc8b847ed14668808616a8aad87408c
+10778,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,add6e5de5cd9d2f98274357fb6f9319c76bce791fb0862fceab57649243f486b
+10779,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,637ee708e70e61e0c87bd93c5abb669669fb071cf0e68ad5d1afe0059067ba92
+10780,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,38325098e46d7e62a8e2a6b4ecad9ce4b3d8c567d0c8afe473fa1f79c47cd37b
+10781,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,e6214bb066d485340578300ab050f84a5b51a02963a3569210a7e3075e695a30
+10782,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,599980bea9c9dc2352fd8b664f10e99638905b2e9a310b82d5b6cdd098288fd9
+10783,Officer-21,10/22/2026,Motor Vehicle Theft/Stolen - stolen vehicle,yes,516e60a991789cf3d4e190228b6fc5b3f1738a9d64f15f3f4f97b0a857acc550
+10784,Officer-23,10/21/2026,Wanted Person (Arrest Warrant/Fugitive) - wanted person investigation,yes,3d3fbc029edacdff3690623fb0fc19c13e0cebad14246ec042432792c9b506fe
+10785,Officer-19,10/2026,[redacted],yes,ec3546c5c0ff1c177ddcc4c184f3e34bd7d63398093f828622282a94a17396ef
+10786,Officer-19,10/2026,[redacted],yes,555310df3cc3e87813452294c9e8cb4c91853a0b7f700a29585a09f7ed1c35cc
+10787,Officer-31,10/21/2026,Motor Vehicle Theft/Stolen - Stolen Vehicle For CCSO // Intel Poss Headed Back Toward Cumberland,yes,dc0bc6694b07ad7b1714475139eb9866a2dd4a7861f1603daf478efcf989d160
+10788,Officer-12,10/2026,[redacted],yes,da52cd52186819766ea290034b2484ed46647f6771348e54ce755b0cdf6ca613
+10789,Officer-12,10/2026,[redacted],yes,3d4a57bfe8fe79b490b9057f26effdb6890e7a28d28a3bf849b030156e26dabf
+10790,Officer-12,10/2026,[redacted],yes,eba275d85e427eb0fa4431517fff369192eac6f40307f56c77feaa37da55f844
+10791,Officer-12,10/2026,[redacted],yes,95a2b6996c9740e972ae562b0fb0537f5a88f84a8d082e514995fefbfb4e5ba4
+10792,Officer-12,10/2026,[redacted],yes,69df45a0569023dd60dfa0d536eb71d4e76d96b651bc46c06bc185a3e6303d06
+10793,Officer-31,10/20/2026,Destruction/Damage/Vandalism of Property - Vandalism to Vehicle at Business,yes,82e54a5ec731bd021499e0a5e9d7cafa3a408ab5ba2642b376a29382a654bb78
+10794,Officer-31,10/20/2026,Destruction/Damage/Vandalism of Property - Vandalism to Vehicle at Business,yes,f2bdd4985f8af9a2aaccbecc743fc7f6a5a575710c282ffef0ec0f19cfa41b6c
+10795,Officer-31,10/20/2026,Motor Vehicle Theft/Stolen - Stolen Vehicle for CCSO,yes,e34a90857eed0c63d373f2b6bd4684f7b22113fdef6fe0a42e403a80d92c0770
+10796,Officer-31,10/20/2026,Motor Vehicle Theft/Stolen - Stolen Vehicle for CCSO,yes,00b50943e2c3daa11bcf3dceec356341731945c0b728b87b01688480b6ccd78c
+10797,Officer-12,10/2026,[redacted],yes,78d9ff2406c5caad8332181d647bb89fd01c5bed0781af57fa413407ebbe191a
+10798,Officer-12,10/2026,[redacted],yes,20e5f658b42ced8b8d5b280f593fa611d964ed49dfbc1e26142f89480d1224a0
+10799,Officer-12,10/2026,[redacted],yes,edca51646acb5149d5ac93493999ec749900e5731b25dd9464ded728b05b0d8f
+10800,Officer-27,10/19/2026,Hit and Run/Car Accident - hit and run,yes,26bc739a1c2fc920c418052d292478ed92539ee999552837ba1d71db59be5a3d
+10801,Officer-27,10/19/2026,Hit and Run/Car Accident - hit and run,yes,d0a38a9e21fba6a45e814b22849bac3dcefcd2127d27be31aaaf7c6297564752
+10802,Officer-27,10/19/2026,Hit and Run/Car Accident - hit and run,yes,4f5479207842ee985a4df710ec37840db281e59bfd3bb2090557feab726c1c44
+10803,Officer-27,10/19/2026,Hit and Run/Car Accident - hit and run,yes,51659dfad5347438397958ce33700b4ea54d29d61d0c0feb228bedd9592b2a62
+10804,Officer-21,10/2026,[redacted],yes,11c568707440479bba0cfd791dcaacbe4c57bca6a092aa76dbbd3280525df46d
+10805,Officer-21,10/2026,[redacted],yes,46ae7f1ec6b2e6f409070c2ac90ba493379e3b9df766feca7d530efcea5db687
+10806,Officer-21,10/2026,[redacted],yes,5354b5590a6e2d6f12b2b69b677a74c61044ccade2b1ff4973260831aa473ca9
+10807,Officer-21,10/2026,[redacted],yes,9a41ca1193ca101596b273106ddef5bc5f914058776d5d074982084fca0282b6
+10808,Officer-21,10/2026,[redacted],yes,463a3efb632b02ff6a61845a9f7ae049d49a5b1a6521b731c4d09e585e4a5ec7
+10809,Officer-21,10/2026,[redacted],yes,44c11397a558035c5a3bfa9ef524805a461b1c862945d2e9a845c7b0bf13ceaf
+10810,Officer-21,10/2026,[redacted],yes,0ea5d1467a5d7c61822f4d324b630a638a03c0d1b00dbf82cb8633e4e8dffde6
+10811,Officer-27,10/11/2026,Larceny/Theft Offenses - theft suspect,yes,54bc62554b28224d639cd94012f702ce0765d43e9f47f202fe93f67d54390558
+10812,Officer-27,10/11/2026,Larceny/Theft Offenses - theft suspect,yes,55b2596d9e228f3abc10029c7812c8643051a1355a411d9b90ea1bbf58d19e83
+10813,Officer-27,10/11/2026,Larceny/Theft Offenses - theft suspect,yes,63d71ffa28871f9c9bb0eff10f12f61a018407a00945b80b11cc280c96456524
+10814,Officer-3,10/11/2026,Larceny/Theft Offenses - theft,yes,db41b0fe5ab8281887d81c4dc67408414e71b202860a93746c37b27508c9802a
+10815,Officer-3,10/11/2026,Larceny/Theft Offenses - theft,yes,7b493e976af890de42b08d11134eff6dfb7c833344b53f4b647cf02b3a35d514
+10816,Officer-3,10/11/2026,Larceny/Theft Offenses - theft,yes,c9346dbc67b170a32103d2717e01da4906f9f00c9f1c2e0ec208c63cd080a0a2
+10817,Officer-3,10/11/2026,Larceny/Theft Offenses - theft,yes,a148be41f800883a6d885fb8f1b338d557cd13959b38775c75b8961e5812f88e
+10818,Officer-20,10/10/2026,Motor Vehicle Theft/Stolen - stolen,yes,e447a528e707a32a0b2dd6ac7dda28ceab5ab36d244481105845cb820de30cb6
+10819,Officer-20,10/10/2026,Motor Vehicle Theft/Stolen - stolen,yes,7690bcc62e61289d171bd873e729916e708a26981a9d4b31a4e1b4cde58a0fba
+10820,Officer-20,10/10/2026,Motor Vehicle Theft/Stolen - stolen,yes,fba5cd2b59bf6d4a5d21c3435fed4b51d7e35a4a9cd580839c67cae1f00ed6b2
+10821,Officer-20,10/10/2026,Motor Vehicle Theft/Stolen - stolen,yes,baff2a082a85f6a0b40671259e2de328b93dcd75043d5d3cbb1440ca3f88f827
+10822,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,5656a7782733c5a15e4d10d7c3cc5432e2eaaecc3be692b51d14868f02293e7a
+10823,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,38322a5091caa5e158f9382e8066c4e1afbe64c76d2682bdb650f59c7b3d8b84
+10824,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,b3503af058c182cd75c439c933771969989c6e916b24174f7c47985e226e2074
+10825,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,663a719dc8ece57eeafbbb9d7d19317e4288ef5b4aac8dfcb36b55686beae6eb
+10826,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,75c87720a6987b927de68bb980ace098597b29aee38f9dc16f47b782ed944b54
+10827,Officer-8,10/06/2026,Hit and Run/Car Accident - hit and run,yes,cd3a5f1de524ceff6da7670afd21bcd84c3e602dbc592d71e39cd8745558fd4e
+10828,Officer-7,10/06/2026,Hit and Run/Car Accident - hit and run,yes,c62bafe895f4d486abe952e5bf04b201b22a58499b496859baa25624ed8068f9
+10829,Officer-7,10/06/2026,Hit and Run/Car Accident - hit and run,yes,620b83069a9d9f4ed3edc749f00e365c3d3d6275eba757b72c84d05e4d71d264
+10830,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,11ff73afd157c984ffd7d60fd7d7c8369000ed37bb0016531426b76d3b7dd9aa
+10831,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,ef0689dec61ce6e1796c4b1f597667f2f11705ce8f0ceaa60bcfd08264576c9d
+10832,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,1023268a4447f458372da41f183994d161358c8b13a06760a7b9d6016075d9e6
+10833,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,1d4fabe4211af607a21565428c9c89aaa35f841a72626cdd16255e8055f0d4ca
+10834,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,3eda3af9f5643ce63b6321717eb74dd5a3e1ae5b60b48966094ba09ac729c982
+10835,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,a50ed9204db650f03a33599ba18b1381fe8423fc83a74e3cd41bcf71327e830d
+10836,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,58ab53086e6be9caddec52e24d0f85c7a70927c0a2c37e49ed6e19bb65710a93
+10837,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,9b19428eff1ba86883048bd4c5b599462ef349e0e05a7386eb4e6ebb72b1b9c1
+10838,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,6d4c6535ac6c84dd66273189ce4bd9b3736cd3237e7fe939292b8f038f969492
+10839,Officer-12,10/05/2026,Hit and Run/Car Accident - hit and run involving Uhaul,yes,f9cb13323365b3d83a8e3d0a9908106a2dd173c0fdb2a0f722f8d542c7549a7f
+10840,Officer-19,10/05/2026,Burglary/Breaking & Entering - possible suspect vehicle in burglary,yes,34cb2695215837e71b3c961e6385bd050f096806e65fbc4df548933e4f4deae1
+10841,Officer-21,10/2026,[redacted],yes,2cc4dcaedef284ed7e180093e1735a29ede491aae84338f19251910a6425483d
+10842,Officer-21,10/2026,[redacted],yes,0174e9b041386f1ad64f8ecebd36fed4f464ad22db4904dd3965a305e1d4f842
+10843,Officer-21,10/2026,[redacted],yes,e9526f46b208286d72ae0343bfa7f7d95fdbb7041ddfd848bbc837c2c53d51d4
+10844,Officer-21,10/2026,[redacted],yes,fbcdfa8728c9657ef418db9daa0cfbf24d6c72774ea20d6c5214c27a5c919745
+10845,Officer-21,10/2026,[redacted],yes,efb7136c7086fbc1160dff29c88224fd678f3e8f00c46c21459910eb40701ab0
+10846,Officer-21,10/2026,[redacted],yes,e10e7cb62479187b6b22dade1eaf87ed232c92f9b36b21e31f60671fbb8b78e0
+10847,Officer-21,10/2026,[redacted],yes,e349f0fda8fb7e0616aaa0eeb36c3f7148bb59485dfa7603adf9570589b3d38c
+10848,Officer-21,10/2026,[redacted],yes,05b6033aa6fa88247ee83ef495511b522f6fa06d052987c7f946b86a582f66d7
+10849,Officer-21,10/2026,[redacted],yes,edc56191aac5597ba2574c5740a3076318c471c3a6de51acce23d19328dc516f
+10850,Officer-21,10/2026,[redacted],yes,452d4789298ab3ac94ad3774a9e26027d232c3b6c990cdb1e006672da5ae881f
+10851,Officer-21,10/2026,[redacted],yes,7025488613cb30085b77db4029c5c95591d3cc108252096a9da1d0d7a0916d09

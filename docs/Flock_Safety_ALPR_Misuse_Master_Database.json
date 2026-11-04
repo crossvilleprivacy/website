@@ -1,9 +1,9 @@
 {
   "title": "Flock Safety & ALPR Misuse catalog",
-  "compiled": "2026-10-23",
+  "compiled": "2026-11-04",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-10-27"
+    "generated_on": "2026-11-04"
   },
   "verified_incidents": [
     {
@@ -2161,6 +2161,43 @@
       "Resolution_Year": 2024,
       "Year_Note": "WATE reported Oct. 26–27, 2026 that documents detail a 2024 Oak Ridge Police investigation after which an officer was suspended without pay for three days for ALPR misuse. The Institute for Justice lists the same episode as Flock use to track people for family members; the officer remained employed. Separate from the sentenced Oak Ridge Flock case (FLK-2025-027). Officer not named on this site. A suspension is not a criminal conviction.",
       "Outcome_Bucket": "1 Suspended"
+    },
+    {
+      "Case_ID": "FLK-2026-147",
+      "Year": 2026,
+      "State": "FL",
+      "Agency_Jurisdiction": "Indian River County Sheriff's Office",
+      "Subject_Officer_Involved": "sergeant and former deputy",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Hundreds (sheriff's audit)",
+      "Source_URL": "http://veronews.com/2026/11/02/two-irc-deputies-arrested-after-flock-misuse/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2025,
+      "Resolution_Year": 2026,
+      "Year_Note": "Vero News reported Nov. 2, 2026 that two Indian River County Sheriff's Office deputies were arrested after an agency Flock audit. A sergeant resigned and was charged with accessing a computer or electronic device without authority. A former deputy, fired in November 2025, faced additional charges including four counts of offenses against computer users. Sheriff Eric Flowers said the agency will audit Flock quarterly. Deputies not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "2 Terminated / Resigned and Criminally Charged",
+      "Personnel_Terminated": 1,
+      "Personnel_Resigned": 1,
+      "Personnel_Charged": 2
+    },
+    {
+      "Case_ID": "FLK-2026-148",
+      "Year": 2026,
+      "State": "NC",
+      "Agency_Jurisdiction": "Harnett County Sheriff's Office",
+      "Subject_Officer_Involved": "former detective",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://jocoreport.com/former-harnett-detective-fired-indicted-following-flock-camera-investigation/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "The Harnett County Sheriff's Office fired a detective effective Sept. 15, 2026 after a complaint; the sheriff and district attorney asked the SBI to investigate. JoCo Report reported Nov. 3, 2026 that a grand jury indicted the former detective on one felony count of unlawfully accessing a government computer plus automated license-plate reader system violation counts, and that the former detective was taken into custody Nov. 3. Former detective not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Terminated and Criminally Charged",
+      "Personnel_Terminated": 1,
+      "Personnel_Charged": 1
     }
   ]
 }
