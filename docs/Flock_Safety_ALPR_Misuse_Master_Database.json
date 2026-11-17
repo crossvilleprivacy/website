@@ -3,7 +3,7 @@
   "compiled": "2026-11-04",
   "scope_note": "Index of catalogued incidents for the on-site lookup table and tallies. Full writeups live on national.html. Not a complete national census.",
   "meta": {
-    "generated_on": "2026-11-04"
+    "generated_on": "2026-11-17"
   },
   "verified_incidents": [
     {
@@ -2103,11 +2103,11 @@
       "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
       "Documented_Search_Count_Frequency": "Count not published",
       "Source_URL": "https://www.foxcarolina.com/2026/10/20/sheriff-macon-co-sheriffs-office-employee-terminated-flock-camera-misuse/",
-      "Secondary_Source_URL": "https://www.wspa.com/news/macon-county-sheriffs-office-employee-fired-lpr-misuse/",
+      "Secondary_Source_URL": "https://carolinapublicpress.org/82830/nc-deputy-loses-job-faces-sbi-probe-over-alleged-flock-misuse/",
       "Verification_Status": "Verified",
       "Incident_Year": 2026,
       "Resolution_Year": 2026,
-      "Year_Note": "FOX Carolina reported Oct. 20, 2026 that the Macon County Sheriff’s Office fired a deputy after an internal investigation found a Flock misuse complaint founded. An outside agency alerted the office Oct. 16. WSPA said no charges were reported. Deputy not named on this site. A firing is not a criminal conviction.",
+      "Year_Note": "FOX Carolina reported Oct. 20, 2026 that the Macon County Sheriff’s Office fired a deputy after an internal investigation found a Flock misuse complaint founded. An outside agency alerted the office Oct. 16. WSPA said no charges were reported. Deputy not named on this site. A firing is not a criminal conviction. Carolina Public Press reported Nov. 2, 2026 that the chief deputy confirmed the SBI is investigating the former deputy; no charges reported. WFAE reported Nov. 17 that the sheriff’s office posted its Flock audit log Nov. 9 and released its contract and ALPR policy.",
       "Outcome_Bucket": "1 Terminated",
       "Personnel_Terminated": 1
     },
@@ -2198,6 +2198,93 @@
       "Outcome_Bucket": "1 Terminated and Criminally Charged",
       "Personnel_Terminated": 1,
       "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-149",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Norcross Police Department",
+      "Subject_Officer_Involved": "former officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "Secondary_Source_URL": "https://wsbtv.com/news/local/2-former-officers-arrested-accused-misusing-flock-cameras/4XEZ7ZQ47JHZRIXICDCPZMWZVU",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Nov. 16, 2026 that a former Norcross Police officer was charged with two counts of misuse of a license plate reader system and two counts of violation of oath of office after the Gwinnett County District Attorney asked GBI on Sept. 2 to investigate alleged non-law-enforcement Flock use. The former officer turned themselves in Nov. 12. GBI said they are no longer employed by the department. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-150",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Norcross Police Department",
+      "Subject_Officer_Involved": "former officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-11-17/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Nov. 17, 2026 that a second former Norcross Police officer was charged with three counts of misuse of a license plate reader system, four counts of computer invasion of privacy, and seven counts of violation of oath of office after the Gwinnett County District Attorney asked GBI on Aug. 26 to investigate. The former officer turned themselves in Nov. 16. GBI said they are no longer employed by the department. Officer not named on this site. A charge is not a finding of guilt. Separate from FLK-2026-149.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-151",
+      "Year": 2026,
+      "State": "GA",
+      "Agency_Jurisdiction": "Forest Park Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Multiple (Unspecified)",
+      "Source_URL": "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-forest-park-police-department-officer-misuse-license",
+      "Secondary_Source_URL": "https://wsbtv.com/news/local/2-former-officers-arrested-accused-misusing-flock-cameras/4XEZ7ZQ47JHZRIXICDCPZMWZVU",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "GBI reported Nov. 16, 2026 that a Forest Park Police officer was arrested and charged with five counts each of misuse of a license plate reader system, computer invasion of privacy, and violation of oath of office after the Clayton County District Attorney asked GBI on Aug. 27 to investigate. GBI called the officer former; WSB-TV reported city leaders said employment had not ended. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-152",
+      "Year": 2026,
+      "State": "IL",
+      "Agency_Jurisdiction": "Bloomingdale Police Department",
+      "Subject_Officer_Involved": "former officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "1 Flock inquiry (per charges)",
+      "Source_URL": "https://www.shawlocal.com/my-suburban-life/2026/11/14/former-bloomingdale-police-officer-charged-with-misusing-flock-license-plate-cameras/",
+      "Verification_Status": "Verified",
+      "Incident_Year": "2025-2026",
+      "Resolution_Year": 2026,
+      "Year_Note": "Shaw Local reported Nov. 14, 2026 that the DuPage County State's Attorney charged a former Bloomingdale officer with three counts of official misconduct and one count of computer tampering over alleged unauthorized plate searches in LEADS (2025) and Flock (2026). The former officer surrendered Nov. 13 and was released. Officer not named on this site. A charge is not a finding of guilt.",
+      "Outcome_Bucket": "1 Criminally Charged",
+      "Personnel_Charged": 1
+    },
+    {
+      "Case_ID": "FLK-2026-153",
+      "Year": 2026,
+      "State": "MA",
+      "Agency_Jurisdiction": "Swampscott Police Department",
+      "Subject_Officer_Involved": "officer",
+      "System_Vendor": "Flock Safety",
+      "Misuse_Abuse_Category": "Unauthorized Personal Lookup",
+      "Documented_Search_Count_Frequency": "Count not published",
+      "Source_URL": "https://swampscotttides.org/news/swampscott-police-officer-resigns-following-investigation-into-unauthorized-flock-safety-database-use/",
+      "Verification_Status": "Verified",
+      "Incident_Year": 2026,
+      "Resolution_Year": 2026,
+      "Year_Note": "Swampscott Tides reported Nov. 9, 2026, from a Swampscott Police press release, that an officer resigned after an internal affairs investigation sustained findings including unauthorized personal use of Lynn's Flock system, which Swampscott reached as a partner agency. Lynn police flagged anomalies in an enhanced audit; the officer was placed on leave Aug. 18. Lynn revoked Swampscott's access. No charges reported. Officer not named on this site.",
+      "Outcome_Bucket": "1 Resigned",
+      "Personnel_Resigned": 1
     }
   ]
 }

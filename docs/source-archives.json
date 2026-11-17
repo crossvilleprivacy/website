@@ -1,8 +1,8 @@
 {
   "title": "Archive snapshots of cited sources (Wayback Machine and archive.today)",
-  "as_of": "2026-11-04",
-  "count": 1459,
-  "source_count": 1459,
+  "as_of": "2026-11-17",
+  "count": 1480,
+  "source_count": 1480,
   "archives": {
     "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823": {
       "url": "http://cityofpascagoula.com/AgendaCenter/ViewFile/Item/8812?fileID=11823",
@@ -514,6 +514,13 @@
       "captured": "2026-08-26T08:08:19Z",
       "method": "existing"
     },
+    "https://carolinapublicpress.org/82830/nc-deputy-loses-job-faces-sbi-probe-over-alleged-flock-misuse": {
+      "url": "https://carolinapublicpress.org/82830/nc-deputy-loses-job-faces-sbi-probe-over-alleged-flock-misuse/",
+      "wayback": "https://web.archive.org/web/20261114105502/https://carolinapublicpress.org/82830/nc-deputy-loses-job-faces-sbi-probe-over-alleged-flock-misuse/",
+      "timestamp": "20261114105502",
+      "captured": "2026-11-14T10:55:02Z",
+      "method": "existing"
+    },
     "https://cbs12.com/news/local/boynton-beach-moves-toward-ending-flock-camera-agreements-considers-reducing-surveillance": {
       "url": "https://cbs12.com/news/local/boynton-beach-moves-toward-ending-flock-camera-agreements-considers-reducing-surveillance",
       "wayback": "https://web.archive.org/web/20261023122947/https://cbs12.com/news/local/boynton-beach-moves-toward-ending-flock-camera-agreements-considers-reducing-surveillance",
@@ -932,6 +939,13 @@
       "wayback": "https://web.archive.org/web/20260818171908/https://crossvilletn.legistar.com/View.ashx?M=M&ID=909875&GUID=1F28720D-5607-4057-BC2F-732AC8D8FAFD",
       "timestamp": "20260818171908",
       "captured": "2026-08-18T17:19:08Z",
+      "method": "save"
+    },
+    "https://culvercitycrossroads.com/2026/11/17/city-council-ends-flock-surveillance-camera-contract-immediately": {
+      "url": "https://culvercitycrossroads.com/2026/11/17/city-council-ends-flock-surveillance-camera-contract-immediately/",
+      "wayback": "https://web.archive.org/web/20261117224716/https://culvercitycrossroads.com/2026/11/17/city-council-ends-flock-surveillance-camera-contract-immediately/",
+      "timestamp": "20261117224716",
+      "captured": "2026-11-17T22:47:16Z",
       "method": "save"
     },
     "https://cumberlandcountytn.gov/": {
@@ -1627,6 +1641,27 @@
       "captured": "2026-10-21T13:29:49Z",
       "method": "save"
     },
+    "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-forest-park-police-department-officer-misuse-license": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-forest-park-police-department-officer-misuse-license",
+      "wayback": "https://web.archive.org/web/20261116203203/https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-forest-park-police-department-officer-misuse-license",
+      "timestamp": "20261116203203",
+      "captured": "2026-11-16T20:32:03Z",
+      "method": "existing"
+    },
+    "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-norcross-police-department-officer-misuse-license": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "wayback": "https://web.archive.org/web/20261116203203/https://gbi.georgia.gov/press-releases/2026-11-16/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "timestamp": "20261116203203",
+      "captured": "2026-11-16T20:32:03Z",
+      "method": "existing"
+    },
+    "https://gbi.georgia.gov/press-releases/2026-11-17/gbi-arrests-former-norcross-police-department-officer-misuse-license": {
+      "url": "https://gbi.georgia.gov/press-releases/2026-11-17/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "wayback": "https://web.archive.org/web/20261117225110/https://gbi.georgia.gov/press-releases/2026-11-17/gbi-arrests-former-norcross-police-department-officer-misuse-license",
+      "timestamp": "20261117225110",
+      "captured": "2026-11-17T22:51:10Z",
+      "method": "save"
+    },
     "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order": {
       "url": "https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order/",
       "wayback": "https://web.archive.org/web/20260901144715/https://getthecoast.com/okaloosa-county-sheriffs-office-to-remove-license-plate-reader-cameras-after-statewide-fdot-order/",
@@ -1667,6 +1702,13 @@
       "wayback": "https://web.archive.org/web/20261012131129/https://highlandscurrent.org/2026/09/25/dutchess-to-end-flock-camera-use/",
       "timestamp": "20261012131129",
       "captured": "2026-10-12T13:11:29Z",
+      "method": "existing"
+    },
+    "https://highlandscurrent.org/2026/11/17/beacon-to-end-flock-contract": {
+      "url": "https://highlandscurrent.org/2026/11/17/beacon-to-end-flock-contract/",
+      "wayback": "https://web.archive.org/web/20261117224938/https://highlandscurrent.org/2026/11/17/beacon-to-end-flock-contract/",
+      "timestamp": "20261117224938",
+      "captured": "2026-11-17T22:49:38Z",
       "method": "existing"
     },
     "https://homenewshere.com/tewksbury_town_crier/news/article_5aead2aa-81af-4b06-b93b-3e46ebdb5426.html": {
@@ -2233,6 +2275,13 @@
       "wayback": "https://web.archive.org/web/20260905115447/https://massie.house.gov/news/documentsingle.aspx?DocumentID=395851",
       "timestamp": "20260905115447",
       "captured": "2026-09-05T11:54:47Z",
+      "method": "save"
+    },
+    "https://medwayma.gov/news-and-notices/fall-town-meeting-results-2": {
+      "url": "https://medwayma.gov/news-and-notices/fall-town-meeting-results-2/",
+      "wayback": "https://web.archive.org/web/20261117224820/https://medwayma.gov/news-and-notices/fall-town-meeting-results-2/",
+      "timestamp": "20261117224820",
+      "captured": "2026-11-17T22:48:20Z",
       "method": "save"
     },
     "https://memphistn.gov/wp-content/uploads/2025/07/Minutes-06-24-2025-1.pdf": {
@@ -2900,6 +2949,13 @@
       "captured": "2026-07-29T06:44:12Z",
       "method": "existing"
     },
+    "https://swampscotttides.org/news/swampscott-police-officer-resigns-following-investigation-into-unauthorized-flock-safety-database-use": {
+      "url": "https://swampscotttides.org/news/swampscott-police-officer-resigns-following-investigation-into-unauthorized-flock-safety-database-use/",
+      "wayback": "https://web.archive.org/web/20261113113959/https://swampscotttides.org/news/swampscott-police-officer-resigns-following-investigation-into-unauthorized-flock-safety-database-use/",
+      "timestamp": "20261113113959",
+      "captured": "2026-11-13T11:39:59Z",
+      "method": "existing"
+    },
     "https://tallahasseereports.com/2026/07/16/leon-county-rejects-flock-camera-grant": {
       "url": "https://tallahasseereports.com/2026/07/16/leon-county-rejects-flock-camera-grant/",
       "wayback": "https://web.archive.org/web/20260806202856/https://tallahasseereports.com/2026/07/16/leon-county-rejects-flock-camera-grant/",
@@ -3271,6 +3327,20 @@
       "captured": "2026-10-23T12:34:16Z",
       "method": "save"
     },
+    "https://wausaupilotandreview.com/2026/10/28/they-want-them-covered-tonight-wausau-orders-flock-cameras-covered-within-two-weeks": {
+      "url": "https://wausaupilotandreview.com/2026/10/28/they-want-them-covered-tonight-wausau-orders-flock-cameras-covered-within-two-weeks/",
+      "wayback": "https://web.archive.org/web/20261117225005/https://wausaupilotandreview.com/2026/10/28/they-want-them-covered-tonight-wausau-orders-flock-cameras-covered-within-two-weeks/",
+      "timestamp": "20261117225005",
+      "captured": "2026-11-17T22:50:05Z",
+      "method": "save"
+    },
+    "https://wausaupilotandreview.com/2026/11/12/wausau-adopts-2027-budget-7-4-after-alders-reject-tapping-reserves-to-curb-new-debt": {
+      "url": "https://wausaupilotandreview.com/2026/11/12/wausau-adopts-2027-budget-7-4-after-alders-reject-tapping-reserves-to-curb-new-debt/",
+      "wayback": "https://web.archive.org/web/20261115001612/https://wausaupilotandreview.com/2026/11/12/wausau-adopts-2027-budget-7-4-after-alders-reject-tapping-reserves-to-curb-new-debt/",
+      "timestamp": "20261115001612",
+      "captured": "2026-11-15T00:16:12Z",
+      "method": "existing"
+    },
     "https://weartv.com/news/local/walton-county-approves-removal-of-flock-license-plate-readers-off-county-right-of-ways": {
       "url": "https://weartv.com/news/local/walton-county-approves-removal-of-flock-license-plate-readers-off-county-right-of-ways",
       "wayback": "https://web.archive.org/web/20260828021225/https://weartv.com/news/local/walton-county-approves-removal-of-flock-license-plate-readers-off-county-right-of-ways",
@@ -3416,6 +3486,13 @@
       "wayback": "https://web.archive.org/web/20250625041151/https://wreg.com/news/local/city-council-passes-resolution-to-have-license-plate-readers/",
       "timestamp": "20250625041151",
       "captured": "2025-06-25T04:11:51Z",
+      "method": "existing"
+    },
+    "https://wsbtv.com/news/local/2-former-officers-arrested-accused-misusing-flock-cameras/4XEZ7ZQ47JHZRIXICDCPZMWZVU": {
+      "url": "https://wsbtv.com/news/local/2-former-officers-arrested-accused-misusing-flock-cameras/4XEZ7ZQ47JHZRIXICDCPZMWZVU",
+      "wayback": "https://web.archive.org/web/20261117015053/https://www.wsbtv.com/news/local/2-former-officers-arrested-accused-misusing-flock-cameras/4XEZ7ZQ47JHZRIXICDCPZMWZVU/",
+      "timestamp": "20261117015053",
+      "captured": "2026-11-17T01:50:53Z",
       "method": "existing"
     },
     "https://wset.com/news/local/henry-county-sheriff-suspends-access-to-flock-cameras-due-to-growing-concerns-safety-southside-wayne-davis-august-2026": {
@@ -4579,6 +4656,13 @@
       "captured": "2026-09-04T14:59:37Z",
       "method": "existing"
     },
+    "https://www.boston.com/news/local-news/2026/11/12/flock-cameras-are-back-on-in-lowell": {
+      "url": "https://www.boston.com/news/local-news/2026/11/12/flock-cameras-are-back-on-in-lowell/",
+      "wayback": "https://web.archive.org/web/20261114155828/https://www.boston.com/news/local-news/2026/11/12/flock-cameras-are-back-on-in-lowell/",
+      "timestamp": "20261114155828",
+      "captured": "2026-11-14T15:58:28Z",
+      "method": "existing"
+    },
     "https://www.boston25news.com/news/local/2-more-massachusetts-police-departments-ditch-flock-license-plate-reading-cameras/MEYKZBGJYBBPBPWAUBNSO6HYNI": {
       "url": "https://www.boston25news.com/news/local/2-more-massachusetts-police-departments-ditch-flock-license-plate-reading-cameras/MEYKZBGJYBBPBPWAUBNSO6HYNI",
       "wayback": "https://web.archive.org/web/20260826115427/https://www.boston25news.com/news/local/2-more-massachusetts-police-departments-ditch-flock-license-plate-reading-cameras/MEYKZBGJYBBPBPWAUBNSO6HYNI/",
@@ -5332,6 +5416,13 @@
       "timestamp": "20260816172920",
       "captured": "2026-08-16T17:29:20Z",
       "method": "existing"
+    },
+    "https://www.denvergazette.com/2026/11/16/golden-officially-ditches-flock-cameras": {
+      "url": "https://www.denvergazette.com/2026/11/16/golden-officially-ditches-flock-cameras/",
+      "wayback": "https://web.archive.org/web/20261117224740/https://www.denvergazette.com/2026/11/16/golden-officially-ditches-flock-cameras/",
+      "timestamp": "20261117224740",
+      "captured": "2026-11-17T22:47:40Z",
+      "method": "save"
     },
     "https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007": {
       "url": "https://www.desmoinesregister.com/story/news/iowa/2026/08/18/flock-cameras-near-me-removed-indianola-iowa/91351913007/",
@@ -6570,6 +6661,13 @@
       "captured": "2026-07-09T23:51:37Z",
       "method": "existing"
     },
+    "https://www.kbia.org/kbia-news/2026-11-10/columbia-city-council-votes-not-to-renew-contract-with-flock-safety": {
+      "url": "https://www.kbia.org/kbia-news/2026-11-10/columbia-city-council-votes-not-to-renew-contract-with-flock-safety",
+      "wayback": "https://web.archive.org/web/20261117090558/https://www.kbia.org/kbia-news/2026-11-10/columbia-city-council-votes-not-to-renew-contract-with-flock-safety",
+      "timestamp": "20261117090558",
+      "captured": "2026-11-17T09:05:58Z",
+      "method": "existing"
+    },
     "https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban": {
       "url": "https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban/",
       "wayback": "https://web.archive.org/web/20260902144356/https://www.kbtx.com/2026/09/02/get-flock-out-texas-state-senator-calls-alpr-ban/",
@@ -6864,6 +6962,13 @@
       "captured": "2026-10-10T11:19:57Z",
       "method": "save"
     },
+    "https://www.kpbs.org/news/public-safety/2026/11/17/city-council-withdraws-sdpds-flock-authorization-but-cameras-remain": {
+      "url": "https://www.kpbs.org/news/public-safety/2026/11/17/city-council-withdraws-sdpds-flock-authorization-but-cameras-remain",
+      "wayback": "https://web.archive.org/web/20261117224640/https://www.kpbs.org/news/public-safety/2026/11/17/city-council-withdraws-sdpds-flock-authorization-but-cameras-remain",
+      "timestamp": "20261117224640",
+      "captured": "2026-11-17T22:46:40Z",
+      "method": "save"
+    },
     "https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety": {
       "url": "https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety",
       "wayback": "https://web.archive.org/web/20260814225111/https://www.kqed.org/news/12069705/santa-cruz-the-first-in-california-to-terminate-its-contract-with-flock-safety",
@@ -7091,6 +7196,13 @@
       "wayback": "https://web.archive.org/web/20260617023010/https://www.law.cornell.edu/uscode/text/42/5207",
       "timestamp": "20260617023010",
       "captured": "2026-06-17T02:30:10Z",
+      "method": "existing"
+    },
+    "https://www.lawfaremedia.org/article/courts-are-striking-down-warrantless-flock-camera-use": {
+      "url": "https://www.lawfaremedia.org/article/courts-are-striking-down-warrantless-flock-camera-use",
+      "wayback": "https://web.archive.org/web/20261116121037/https://www.lawfaremedia.org/article/courts-are-striking-down-warrantless-flock-camera-use",
+      "timestamp": "20261116121037",
+      "captured": "2026-11-16T12:10:37Z",
       "method": "existing"
     },
     "https://www.leonardocompany-us.com/lpr/elsag-signaltrace": {
@@ -7484,6 +7596,13 @@
       "timestamp": "20261023123346",
       "captured": "2026-10-23T12:33:46Z",
       "method": "save"
+    },
+    "https://www.nbcsandiego.com/news/local/san-diego-city-council-votes-end-flock-contract-turn-off-alpr-cameras/4102682": {
+      "url": "https://www.nbcsandiego.com/news/local/san-diego-city-council-votes-end-flock-contract-turn-off-alpr-cameras/4102682/",
+      "wayback": "https://web.archive.org/web/20261117223749/https://www.nbcsandiego.com/news/local/san-diego-city-council-votes-end-flock-contract-turn-off-alpr-cameras/4102682/",
+      "timestamp": "20261117223749",
+      "captured": "2026-11-17T22:37:49Z",
+      "method": "existing"
     },
     "https://www.newbedfordpd.com/2026/09/chief-thody-recommends-termination-of-two-nbpd-officers-following-internal-investigation-into-usage-of-automated-license-plate-reader-technology": {
       "url": "https://www.newbedfordpd.com/2026/09/chief-thody-recommends-termination-of-two-nbpd-officers-following-internal-investigation-into-usage-of-automated-license-plate-reader-technology/",
@@ -8045,6 +8164,13 @@
       "captured": "2026-10-09T14:40:27Z",
       "method": "save"
     },
+    "https://www.shawlocal.com/my-suburban-life/2026/11/14/former-bloomingdale-police-officer-charged-with-misusing-flock-license-plate-cameras": {
+      "url": "https://www.shawlocal.com/my-suburban-life/2026/11/14/former-bloomingdale-police-officer-charged-with-misusing-flock-license-plate-cameras/",
+      "wayback": "https://web.archive.org/web/20261115020229/https://www.shawlocal.com/my-suburban-life/2026/11/14/former-bloomingdale-police-officer-charged-with-misusing-flock-license-plate-cameras/",
+      "timestamp": "20261115020229",
+      "captured": "2026-11-15T02:02:29Z",
+      "method": "existing"
+    },
     "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief": {
       "url": "https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
       "archive_today": "https://archive.today/20260923095249/https://www.shawlocal.com/sauk-valley/2026/09/23/sterling-removing-flock-cameras-after-residents-concerns-surface-police-chief/",
@@ -8211,6 +8337,13 @@
       "timestamp": "20260808181006",
       "captured": "2026-08-08T18:10:06Z",
       "method": "existing"
+    },
+    "https://www.techlawny.com/flock-license-plate-reader-searches": {
+      "url": "https://www.techlawny.com/flock-license-plate-reader-searches",
+      "wayback": "https://web.archive.org/web/20261117225224/https://www.techlawny.com/flock-license-plate-reader-searches",
+      "timestamp": "20261117225224",
+      "captured": "2026-11-17T22:52:24Z",
+      "method": "save"
     },
     "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash": {
       "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
@@ -9029,11 +9162,25 @@
       "captured": "2026-08-07T02:07:52Z",
       "method": "existing"
     },
+    "https://www.wfae.org/crime-justice/2026-11-17/tracking-flock-use-in-a-small-county-where-former-deputy-faces-sbi-probe": {
+      "url": "https://www.wfae.org/crime-justice/2026-11-17/tracking-flock-use-in-a-small-county-where-former-deputy-faces-sbi-probe",
+      "wayback": "https://web.archive.org/web/20261117225153/https://www.wfae.org/crime-justice/2026-11-17/tracking-flock-use-in-a-small-county-where-former-deputy-faces-sbi-probe",
+      "timestamp": "20261117225153",
+      "captured": "2026-11-17T22:51:53Z",
+      "method": "save"
+    },
     "https://www.wflx.com/2026/01/09/flock-safety-exposed-live-police-camera-feeds-internet-data-breach-company-says": {
       "url": "https://www.wflx.com/2026/01/09/flock-safety-exposed-live-police-camera-feeds-internet-data-breach-company-says/",
       "wayback": "https://web.archive.org/web/20260601215144/https://www.wflx.com/2026/01/09/flock-safety-exposed-live-police-camera-feeds-internet-data-breach-company-says/",
       "timestamp": "20260601215144",
       "captured": "2026-06-01T21:51:44Z",
+      "method": "existing"
+    },
+    "https://www.wfsb.com/2026/11/11/manchester-votes-end-contract-with-flock-will-remove-18-license-plate-readers": {
+      "url": "https://www.wfsb.com/2026/11/11/manchester-votes-end-contract-with-flock-will-remove-18-license-plate-readers/",
+      "wayback": "https://web.archive.org/web/20261114175536/https://www.wfsb.com/2026/11/11/manchester-votes-end-contract-with-flock-will-remove-18-license-plate-readers/",
+      "timestamp": "20261114175536",
+      "captured": "2026-11-14T17:55:36Z",
       "method": "existing"
     },
     "https://www.wftv.com/news/local/fdot-orders-license-plate-reading-cameras-removed-state-rights-of-way-halts-new-permits/XBT4JV2XJBCMVCPATCMBUWEU3A": {
